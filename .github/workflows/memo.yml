@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name "deal-tracker-bot"
           git config user.email "bot@users.noreply.github.com"
-          git pull --rebase
           git add data/memo.json data/janitor_report.json
           git diff --cached --quiet || git commit -m "chore: weekly memo + janitor $(date -u +%F)"
+          git pull --rebase --autostash
           git push
