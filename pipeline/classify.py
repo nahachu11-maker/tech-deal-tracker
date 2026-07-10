@@ -71,7 +71,7 @@ def classify_batch(client: anthropic.Anthropic, batch: list[dict]) -> list[dict]
 
 
 def run() -> list[dict]:
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(timeout=90.0, max_retries=2)
     src = OUT / "news_candidates.json"
     candidates = json.loads(src.read_text()) if src.exists() else []
     urls, titles = known_keys()
@@ -79,16 +79,36 @@ def run() -> list[dict]:
              if x.get("url", "") not in urls
              and _norm_title(x.get("title", "")) not in titles]
     print(f"[classify] {len(candidates)} candidates, {len(fresh)} new after dedupe "
-          f"(saved {len(candidates)-len(fresh)} redundant classifications)")
+          f"(saved {len(candidates)-len(fresh)} redundant classifications)", flush=True)
+    # Newest first, capped per run: a first-run backlog is worked off over a
+    # few scheduled runs instead of one marathon. Freshest news always wins.
+    fresh.sort(key=lambda x: x.get("published", ""), reverse=True)
+    cap = int(os.environ.get("CLASSIFY_MAX_ITEMS", "150"))
+    if len(fresh) > cap:
+        print(f"[classify] backlog capped at {cap} newest items "
+              f"({len(fresh)-cap} deferred to the next scheduled run)", flush=True)
+        fresh = fresh[:cap]
     candidates = fresh
 
+    batches = [candidates[i:i + BATCH] for i in range(0, len(candidates), BATCH)]
+    results: dict[int, list] = {}
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {pool.submit(classify_batch, client, b): n
+                   for n, b in enumerate(batches)}
+        for fut in as_completed(futures):
+            n = futures[fut]
+            try:
+                results[n] = fut.result()
+                print(f"[classify] batch {n+1}/{len(batches)} done", flush=True)
+            except (anthropic.APIError, ValueError, json.JSONDecodeError) as e:
+                print(f"[classify] batch {n+1}/{len(batches)} failed, skipping: {e}",
+                      flush=True)
+
     classified, ma_candidates = [], []
-    for i in range(0, len(candidates), BATCH):
-        batch = candidates[i:i + BATCH]
-        try:
-            labels = classify_batch(client, batch)
-        except (anthropic.APIError, ValueError, json.JSONDecodeError) as e:
-            print(f"[classify] batch {i//BATCH} failed, skipping: {e}")
+    for n, batch in enumerate(batches):
+        labels = results.get(n)
+        if labels is None:
             continue
         for item, lab in zip(batch, labels):
             if not lab.get("keep"):

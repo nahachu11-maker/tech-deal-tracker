@@ -80,7 +80,7 @@ def run() -> None:
               f"(need {MIN_REJECTS}) — nothing to distill.")
         return
 
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(timeout=90.0, max_retries=2)
     proposed = propose(client, rejects, approves)
 
     if len(proposed) > SIZE_CAP:

@@ -69,7 +69,7 @@ def run() -> None:
         return
     items = json.loads(src.read_text())
     todo = [i for i in items if needs_tag(i)]
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(timeout=90.0, max_retries=2)
     tagged = 0
     for i in range(0, len(todo), BATCH):
         batch = todo[i:i + BATCH]

@@ -78,7 +78,7 @@ def run() -> None:
     if not ctx["news"] and not ctx["deals"]:
         print("[memo] empty week — skipping memo")
         return
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(timeout=90.0, max_retries=2)
     msg = client.messages.create(
         model=MODEL, max_tokens=1400, system=SYSTEM,
         messages=[{"role": "user", "content": json.dumps(ctx, ensure_ascii=False)}])

@@ -99,7 +99,7 @@ def extract_one(client: anthropic.Anthropic, candidate: dict) -> dict | None:
 
 
 def run() -> list[dict]:
-    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY
+    client = anthropic.Anthropic(timeout=90.0, max_retries=2)  # reads ANTHROPIC_API_KEY
     candidates = []
     for f in ("candidates_edgar.json", "candidates_news.json"):
         p = OUT / f

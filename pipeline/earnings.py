@@ -73,7 +73,7 @@ def run() -> None:
 
     doc = json.loads(STORE.read_text()) if STORE.exists() else {"notes": []}
     seen = {n["source_title"] for n in doc["notes"]}
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(timeout=90.0, max_retries=2)
     added = 0
     for it in items:
         if it["title"] in seen:

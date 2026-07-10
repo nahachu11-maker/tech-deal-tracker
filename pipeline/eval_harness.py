@@ -77,7 +77,7 @@ def run_extraction(lessons_override: str | None = None) -> list[dict]:
     import anthropic
     import extract  # reuse the real extractor
 
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(timeout=90.0, max_retries=2)
     lessons = lessons_override if lessons_override is not None else extract.lessons_text()
     system = extract.SYSTEM.replace("{lessons}", lessons)
 

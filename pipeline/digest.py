@@ -150,7 +150,7 @@ def run() -> None:
                      "\n## Watching\nNormal service resumes with the next news cycle.")
         print("[digest] no material items; wrote quiet-day digest")
         return
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(timeout=90.0, max_retries=2)
     msg = client.messages.create(
         model=MODEL, max_tokens=900, system=SYSTEM,
         messages=[{"role": "user", "content": json.dumps(ctx, ensure_ascii=False)}])
