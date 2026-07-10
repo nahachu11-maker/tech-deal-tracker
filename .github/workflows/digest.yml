@@ -19,6 +19,9 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONUNBUFFERED: "1"
     steps:
       - name: Check local hour in California
         id: guard
