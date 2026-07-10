@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-10T16:12:13.599259+00:00",
- "data_last_updated": "2026-07-10T16:12:13.068342+00:00",
+ "generated_at": "2026-07-10T19:37:36.996978+00:00",
+ "data_last_updated": "2026-07-10T19:37:36.466363+00:00",
  "pending": [
   {
    "n": 1,
@@ -30,6 +30,58 @@
   },
   {
    "n": 3,
+   "d": "2026-07-10",
+   "type": "M&A",
+   "name": "Micron Technology / GlobalWafers",
+   "v": 0.5,
+   "status": "Pending",
+   "sector": "Semiconductors",
+   "source": "pipeline",
+   "note": "Micron Technology is making a $500M strategic investment in GlobalWafers to secure wafer supply chain relationships.",
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNTRhdUZOU1pxWDVqU2tfbkpkb2JKd0g3YUZDQlp4WjNaeGlqYllkVXdUNTFwN0xQX2trU3FMd0RDZ3JscDc3c2NmUTRROTJBaXFzYU9vVC1zX3ZaMkVSLXBIU0tqb1RIaWEweGlsSEV4cm9FTlRReWI5Nk1aMzl4c18zdGtVQUpLcVVtZ0g2NjgtaG9RZGpZQVgzUzZWcXc?oc=5",
+   "verify_failed": true
+  },
+  {
+   "n": 4,
+   "d": "2026-07-10",
+   "type": "M&A",
+   "name": "NNS Holding / OCI",
+   "v": null,
+   "status": "Pending",
+   "sector": "Industrials/Chemicals",
+   "source": "pipeline",
+   "note": "NNS Holding (Cyprus) is acquiring a stake in OCI N.V. under Dutch public takeover decree rules, indicating a formal tender or stake acquisition process. The transaction structure suggests compliance with Dutch mandatory bid or voluntary tender offer regulations.",
+   "source_url": "https://www.prnewswire.com/news-releases/nns-erwirbt-anteile-an-oci-302822987.html",
+   "verify_failed": false
+  },
+  {
+   "n": 5,
+   "d": "2026-07-10",
+   "type": "IPO",
+   "name": "SK hynix",
+   "v": 26.5,
+   "status": "Closed",
+   "sector": "Semiconductors",
+   "source": "pipeline",
+   "note": "SK hynix filed a 424B4 prospectus supplement with the SEC on 2026-07-10, indicating a pricing event for its US-listed securities (ticker: SKHY). The filing is under SIC code 3674 (semiconductors), consistent with the company's DRAM and NAND flash memory business.",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963",
+   "verify_failed": true
+  },
+  {
+   "n": 6,
+   "d": "2026-07-09",
+   "type": "IPO",
+   "name": "Gloo Holdings",
+   "v": null,
+   "status": "Filed",
+   "sector": "IT Services",
+   "source": "pipeline",
+   "note": "Gloo Holdings (ticker: GLOO, SIC 7374 – Computer Processing and Data Preparation) filed a 424B4 final IPO prospectus with the SEC on 2026-07-09. No proceeds or pricing details are present in the available snippet.",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2069785/000119312526299756",
+   "verify_failed": false
+  },
+  {
+   "n": 7,
    "d": "2025-11-19",
    "type": "M&A",
    "name": "Adobe / Semrush",
@@ -42,7 +94,7 @@
    "verify_failed": false
   },
   {
-   "n": 4,
+   "n": 8,
    "d": "2025-03-18",
    "type": "M&A",
    "name": "Google / Wiz",
@@ -56,7 +108,7 @@
   }
  ],
  "quality": {
-  "total_flags": 7,
+  "total_flags": 8,
   "by_check": {
    "possible_duplicate": [
     {
@@ -112,6 +164,13 @@
     {
      "issue": "value_outlier",
      "deals": [
+      "SK hynix"
+     ],
+     "detail": "IPO proceeds $26.5B exceed any historical raise — check units."
+    },
+    {
+     "issue": "value_outlier",
+     "deals": [
       "Space Exploration Technologies / X.AI"
      ],
      "detail": "M&A value $250.0B looks like a unit error."
@@ -120,8 +179,8 @@
   }
  },
  "coverage": {
-  "deals": 336,
-  "ma": 252,
+  "deals": 340,
+  "ma": 254,
   "with_comps": 198,
   "with_premium": 82,
   "with_ev_revenue": 101,
@@ -130,13 +189,13 @@
   "terminated_with_resolution": 12,
   "by_source": {
    "capiq": 191,
-   "pipeline": 145
+   "pipeline": 149
   },
   "by_status": {
-   "Closed": 269,
-   "Pending": 44,
+   "Closed": 270,
+   "Pending": 46,
    "Terminated": 17,
-   "Filed": 6
+   "Filed": 7
   }
  },
  "licensing": {
