@@ -1,0 +1,61 @@
+name: Morning digest
+
+on:
+  schedule:
+    # Both possible UTC times for 7:00 am in California. The guard step below
+    # checks the actual Los Angeles local hour, so exactly one of these runs
+    # each day regardless of daylight saving:
+    - cron: "0 14 * * *"   # = 07:00 PDT (mid-March – early November)
+    - cron: "0 15 * * *"   # = 07:00 PST (winter)
+  workflow_dispatch:        # manual runs always proceed, whatever the hour
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-updates
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check local hour in California
+        id: guard
+        run: |
+          LOCAL_HOUR=$(TZ=America/Los_Angeles date +%-H)
+          echo "Los Angeles local hour is $LOCAL_HOUR"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$LOCAL_HOUR" = "7" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Not 7am in California — skipping (the other scheduled time will match)."
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.guard.outputs.run == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.guard.outputs.run == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        if: steps.guard.outputs.run == 'true'
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Write briefing
+        if: steps.guard.outputs.run == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/digest.py
+
+      - name: Commit
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          git config user.name "deal-tracker-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase
+          git add data/digest.json
+          git diff --cached --quiet || git commit -m "chore: morning digest $(date -u +%F)"
+          git push

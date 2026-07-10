@@ -1,0 +1,37 @@
+name: Weekly sector memo
+
+on:
+  schedule:
+    - cron: "0 22 * * 5"   # Fridays 22:00 UTC (~3pm Pacific / Sat 7am KST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-updates
+  cancel-in-progress: false
+
+jobs:
+  memo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r pipeline/requirements.txt
+      - name: Write sector memo (senior model)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/memo.py
+      - name: Data-quality sweep (no API needed)
+        run: python pipeline/janitor.py
+      - name: Commit
+        run: |
+          git config user.name "deal-tracker-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase
+          git add data/memo.json data/janitor_report.json
+          git diff --cached --quiet || git commit -m "chore: weekly memo + janitor $(date -u +%F)"
+          git push

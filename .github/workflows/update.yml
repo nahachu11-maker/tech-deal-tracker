@@ -1,0 +1,58 @@
+name: Update deal data
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours — deal news doesn't move faster
+  workflow_dispatch:          # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-updates
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Poll sources
+        env:
+          EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+        run: |
+          python pipeline/edgar_poll.py 1
+          python pipeline/news_poll.py
+
+      - name: Extract structured deals with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/extract.py
+
+      - name: Merge into deals.json
+        run: python pipeline/update_deals.py
+
+      - name: Collapse any duplicates
+        run: python pipeline/dedupe.py
+
+      - name: Refresh audit report and public data file
+        run: |
+          python pipeline/audit.py
+          python pipeline/scrub_publish.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "deal-tracker-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase
+          git add data/deals.json data/audit.json data/deals.public.json data/feedback.jsonl
+          git diff --cached --quiet || git commit -m "chore: auto-update deals $(date -u +%F)"
+          git push

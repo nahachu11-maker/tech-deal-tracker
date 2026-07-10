@@ -1,0 +1,9 @@
+requests>=2.31
+pandas>=2.0
+xlrd>=2.0.1        # legacy .xls reading (CapIQ exports)
+anthropic>=0.40
+# model routing via env (all optional, defaults are the optimized setup):
+#   EXTRACT_MODEL=claude-sonnet-4-6   extraction + news classification + evals
+#   VERIFY_MODEL=claude-haiku-4-5     independent fact verifier
+#   DIGEST_MODEL=claude-sonnet-4-6    morning briefing writer
+#   DISTILL_MODEL=claude-opus-4-8     weekly lesson distiller (claude-fable-5 = premium option)

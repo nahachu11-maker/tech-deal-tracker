@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ask the Data · Tech Tape</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#EFF1ED;--panel:#F7F8F5;--ink:#14212B;--ink-soft:#4A5A66;--rule:#C9CEC6;--teal:#0F6B66;
+--serif:'Libre Caslon Text',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,monospace;--sans:'Inter',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.55}
+.wrap{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+.masthead{border-top:3px double var(--ink);border-bottom:1px solid var(--ink);padding:18px 0 14px;margin-bottom:20px}
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.kicker a{color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px}
+h1{font-family:var(--serif);font-size:clamp(26px,4.5vw,38px);font-weight:700;margin:4px 0 2px}
+.sub{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px}
+.keybox{border:1px solid var(--rule);background:var(--panel);padding:14px 16px;margin-bottom:16px}
+.keybox summary{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;color:var(--ink-soft)}
+.keybox .row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+input[type=password],input[type=text].key{flex:1;min-width:220px;font-family:var(--mono);font-size:12px;padding:8px 10px;border:1px solid var(--rule);background:#fff;border-radius:0}
+button.btn{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:8px 14px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);cursor:pointer}
+button.btn.ghost{background:none;color:var(--ink)}
+.keynote{font-size:11.5px;color:var(--ink-soft);margin-top:8px;line-height:1.5}
+label.ck{font-size:12px;color:var(--ink-soft);display:inline-flex;align-items:center;gap:4px;margin-right:12px}
+.scopes{margin:0 0 10px;font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.chip{font-size:12px;padding:6px 11px;border:1px dashed var(--ink-soft);background:none;cursor:pointer;color:var(--ink)}
+.chip:hover{background:#E4E7E1}
+.askrow{display:flex;gap:8px}
+textarea{flex:1;font-family:var(--sans);font-size:14px;padding:10px 12px;border:1px solid var(--ink);background:#fff;resize:vertical;min-height:52px;border-radius:0}
+.thread{margin-top:20px}
+.turn{margin-bottom:16px}
+.turn .q{font-family:var(--serif);font-weight:700;font-size:15px;border-left:3px solid var(--ink);padding-left:10px}
+.turn .a{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;margin-top:6px}
+.turn .a h2{font-family:var(--serif);font-size:15px;margin:10px 0 4px}
+.turn .a p{margin-bottom:8px}
+.turn .a ol,.turn .a ul{margin:0 0 8px 20px}
+.turn .a table{border-collapse:collapse;margin:6px 0}
+.turn .a td,.turn .a th{border:1px solid var(--rule);padding:4px 8px;font-size:13px}
+.thinking{font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
+.err{color:#8C2F39;font-size:13px;background:#F3E4E5;border:1px solid #8C2F39;padding:10px 12px;margin-top:6px}
+.foot{margin-top:26px;padding-top:14px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-soft);line-height:1.6}
+</style>
+</head>
+<body><div class="wrap">
+<header class="masthead">
+  <div class="kicker"><span>Query Console</span>
+    <span><a href="index.html">Deals</a><a href="news.html">News</a><a href="league.html">League</a><a href="digest.html">Digest</a><a href="memo.html">Memo</a><a href="prep.html">Prep</a></span></div>
+  <h1>Ask the Data</h1>
+  <div class="sub">Question the tracker in plain English — answers computed from your own deals, news &amp; trends</div>
+</header>
+
+<details class="keybox" id="keybox" open>
+  <summary>API key — one-time setup</summary>
+  <div class="row">
+    <input type="password" class="key" id="keyInput" placeholder="sk-ant-…  (from console.anthropic.com → API Keys)">
+    <button class="btn" id="saveKey">Save</button>
+    <button class="btn ghost" id="clearKey">Forget key</button>
+  </div>
+  <div style="margin-top:8px"><label class="ck"><input type="checkbox" id="remember" checked> Remember in this browser</label></div>
+  <div class="keynote">Your key is used directly from your browser to api.anthropic.com — it is never sent to this site's server or committed to GitHub. "Remember" stores it only in this browser's local storage; untick on a shared or public computer, and never paste your key anywhere else. Each question costs a fraction of a cent.</div>
+</details>
+
+<div class="scopes">Include:
+  <label class="ck"><input type="checkbox" id="scDeals" checked> Deals</label>
+  <label class="ck"><input type="checkbox" id="scNews" checked> News</label>
+  <label class="ck"><input type="checkbox" id="scTrends" checked> Trends</label>
+</div>
+
+<div class="chips" id="suggest"></div>
+
+<div class="askrow">
+  <textarea id="q" placeholder="e.g. Which bank ran the most IPO books in 2025, and what did those deals raise in total?"></textarea>
+  <button class="btn" id="ask">Ask</button>
+</div>
+
+<div class="thread" id="thread"></div>
+
+<p class="foot">Answers are computed by Claude strictly from the tracker's own JSON files, which are approximate and partially covered — so every answer inherits those limits. Treat outputs as a fast first pass, not a verified source; check the underlying deals before quoting numbers anywhere that matters.</p>
+</div>
+<script>
+const SUGGESTIONS = [
+  "Total announced M&A value in 2025 vs 2024?",
+  "Which bank ran the most IPO books, and their total proceeds?",
+  "List every terminated or failed deal and what went wrong",
+  "Rank sectors by total deal value",
+  "Summarize this week's news for a semis coverage meeting",
+  "Which pending deals are still awaiting regulatory approval?",
+];
+const MODEL="claude-sonnet-4-6";
+let KEY = localStorage.getItem("askdata_key")||"";
+let HISTORY=[]; // [{role, content}] capped
+let DATA=null;
+
+const $=id=>document.getElementById(id);
+if(KEY) $("keyInput").value=KEY, $("keybox").open=false;
+
+$("saveKey").onclick=()=>{
+  KEY=$("keyInput").value.trim();
+  if(!KEY.startsWith("sk-ant-")){alert("That doesn't look like an Anthropic API key (should start with sk-ant-).");return;}
+  if($("remember").checked) localStorage.setItem("askdata_key",KEY);
+  $("keybox").open=false;
+};
+$("clearKey").onclick=()=>{KEY="";$("keyInput").value="";localStorage.removeItem("askdata_key");};
+
+$("suggest").innerHTML=SUGGESTIONS.map(s=>`<button class="chip">${s}</button>`).join("");
+$("suggest").querySelectorAll(".chip").forEach(c=>c.onclick=()=>{$("q").value=c.textContent;$("ask").click();});
+
+async function loadData(){
+  if(DATA) return DATA;
+  const [d,n,t]=await Promise.all([
+    fetch("data/deals.json?t="+Date.now()).then(r=>r.json()),
+    fetch("data/news.json?t="+Date.now()).then(r=>r.json()).catch(()=>({items:[]})),
+    fetch("data/trends.json?t="+Date.now()).then(r=>r.json()).catch(()=>({trends:[]})),
+  ]);
+  DATA={deals:d.deals,news:n.items,trends:t.trends||[]};
+  return DATA;
+}
+
+function buildContext(){
+  const parts={};
+  if($("scDeals").checked) parts.deals = DATA.deals.map(x=>({
+    d:x.d,type:x.type,name:x.name,value_bn:x.v,ipo_valuation_bn:x.val,
+    sector:x.sector,status:x.status,advisors:x.advisors||[],
+    note:(x.note||"").slice(0,140)}));
+  if($("scNews").checked) parts.news = DATA.news.slice(0,150).map(x=>({
+    date:x.ts.slice(0,10),title:x.title,category:x.category,
+    ib_tags:x.ib_tags,companies:x.companies,importance:x.importance}));
+  if($("scTrends").checked) parts.trends = DATA.trends;
+  return parts;
+}
+
+const SYSTEM=`You answer questions about a technology deal tracker using ONLY the JSON data provided in the first user message.
+Rules:
+- Compute carefully: when summing, counting, or ranking, show your working briefly (e.g. list the deals you counted with values) so the user can verify.
+- Values are in USD billions. "advisors" lists are PARTIAL coverage — say so when ranking banks.
+- Cite specific deal names and dates. If the data cannot answer the question, say exactly that — never guess or use outside knowledge.
+- Data is approximate and compiled from public reporting; remind the user of this only when they ask for precise figures.
+- Answer in tight markdown: short paragraphs, numbered lists or simple tables where they help. Under 300 words unless the question demands more.`;
+
+// minimal markdown renderer (headers, bold, lists, tables, code)
+function md(text){
+  const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+  let out="",inList=false,inTable=false;
+  for(let raw of text.split("\n")){
+    let line=esc(raw.trim()).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/`([^`]+)`/g,"<code>$1</code>");
+    if(line.startsWith("|")){
+      if(/^\|[\s:|-]+\|$/.test(line)) continue; // separator row
+      if(!inTable){out+="<table>";inTable=true;}
+      out+="<tr>"+line.split("|").slice(1,-1).map(c=>`<td>${c.trim()}</td>`).join("")+"</tr>"; continue;
+    } else if(inTable){out+="</table>";inTable=false;}
+    if(!line){ if(inList){out+="</ol>";inList=false;} continue; }
+    if(line.startsWith("## ")||line.startsWith("# ")){ if(inList){out+="</ol>";inList=false;} out+=`<h2>${line.replace(/^#+\s/,"")}</h2>`; }
+    else if(/^(\d+\.|-)\s/.test(line)){ if(!inList){out+="<ol>";inList=true;} out+=`<li>${line.replace(/^(\d+\.|-)\s/,"")}</li>`; }
+    else { if(inList){out+="</ol>";inList=false;} out+=`<p>${line}</p>`; }
+  }
+  if(inList)out+="</ol>"; if(inTable)out+="</table>";
+  return out;
+}
+
+$("ask").onclick=async()=>{
+  const q=$("q").value.trim();
+  if(!q) return;
+  if(!KEY){ $("keybox").open=true; $("keyInput").focus(); return; }
+  $("q").value="";
+  const thread=$("thread");
+  const turn=document.createElement("div");
+  turn.className="turn";
+  turn.innerHTML=`<div class="q">${q.replace(/</g,"&lt;")}</div><div class="a"><span class="thinking">Computing from the tracker…</span></div>`;
+  thread.prepend(turn);
+  const box=turn.querySelector(".a");
+  try{
+    await loadData();
+    const ctx=buildContext();
+    const messages=[
+      {role:"user",content:"Tracker data:\n"+JSON.stringify(ctx)},
+      {role:"assistant",content:"Understood. I will answer strictly from this data, showing my working."},
+      ...HISTORY.slice(-6),
+      {role:"user",content:q},
+    ];
+    const r=await fetch("https://api.anthropic.com/v1/messages",{
+      method:"POST",
+      headers:{
+        "x-api-key":KEY,
+        "anthropic-version":"2023-06-01",
+        "content-type":"application/json",
+        "anthropic-dangerous-direct-browser-access":"true",
+      },
+      body:JSON.stringify({model:MODEL,max_tokens:1200,system:SYSTEM,messages}),
+    });
+    const data=await r.json();
+    if(!r.ok) throw new Error(data.error&&data.error.message?data.error.message:("HTTP "+r.status));
+    const text=(data.content||[]).map(b=>b.type==="text"?b.text:"").join("").trim();
+    box.innerHTML=md(text);
+    HISTORY.push({role:"user",content:q},{role:"assistant",content:text});
+    HISTORY=HISTORY.slice(-6);
+  }catch(e){
+    box.innerHTML=`<div class="err">${String(e.message||e).replace(/</g,"&lt;")}<br><br>Common fixes: check the key is correct and has credit; if the message mentions CORS or 401, re-save the key; corporate networks sometimes block api.anthropic.com.</div>`;
+  }
+};
+$("q").addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();$("ask").click();}});
+</script>
+</body></html>

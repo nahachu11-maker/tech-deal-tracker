@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audit Room · Tech Deal Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#EFF1ED;--panel:#F7F8F5;--ink:#14212B;--ink-soft:#4A5A66;--rule:#C9CEC6;--gold:#B07C24;--red:#8C2F1B;--green:#3F6B3A;
+--serif:'Libre Caslon Text',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,monospace;--sans:'Inter',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5}
+.wrap{max-width:940px;margin:0 auto;padding:28px 20px 60px}
+.masthead{border-top:3px double var(--ink);border-bottom:1px solid var(--ink);padding:18px 0 14px;margin-bottom:22px}
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.kicker a{color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px}
+h1{font-family:var(--serif);font-size:clamp(26px,4.5vw,38px);font-weight:700;margin:4px 0 2px}
+.sub{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px}
+h2{font-family:var(--serif);font-size:19px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.stat{background:var(--panel);padding:12px 14px}
+.stat .k{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.stat .v{font-family:var(--serif);font-size:24px;font-weight:700;margin-top:2px}
+.stat .v.warn{color:var(--red)}
+.stat .v.ok{color:var(--green)}
+.stat .n{font-family:var(--mono);font-size:10px;color:var(--ink-soft)}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--rule)}
+th{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;text-align:left;color:var(--ink-soft);padding:9px 10px;border-bottom:2px solid var(--ink)}
+td{padding:9px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+.num{font-family:var(--mono);white-space:nowrap}
+.deal{font-family:var(--serif);font-weight:700}
+.dim{color:var(--ink-soft);font-size:12.5px}
+.badge{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--ink-soft);padding:1px 5px;color:var(--ink-soft)}
+.badge.red{border-color:var(--red);color:var(--red)}
+.howto{background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--gold);padding:12px 14px;font-size:13px;margin-bottom:14px}
+.howto code{font-family:var(--mono);background:#E7EAE3;padding:1px 5px;font-size:12px}
+.foot{margin-top:24px;padding-top:14px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-soft);line-height:1.6}
+</style>
+</head>
+<body><div class="wrap">
+<header class="masthead">
+  <div class="kicker"><span>Technology · Data Audit</span>
+    <span><a href="index.html">Deals</a><a href="comps.html">Comps</a><a href="news.html">News</a><a href="league.html">League</a><a href="digest.html">Digest</a><a href="ask.html">Ask</a></span></div>
+  <h1>Audit Room</h1>
+  <div class="sub">What the robots added, what needs a human, and what would leak</div>
+</header>
+
+<div class="stats" id="topStats"></div>
+<div class="dim" id="stamp" style="margin-top:6px"></div>
+
+<h2>Pending review</h2>
+<div class="howto">To act on these <b>without touching a terminal</b>: on GitHub go to
+<b>Actions → Review deals → Run workflow</b>, and in the command box type
+<code>approve 3</code> (the number below), <code>reject 3 value looks wrong</code>,
+or <code>approve-all capiq</code>. The page here updates after the workflow finishes.</div>
+<table><thead><tr><th>#</th><th>Date</th><th>Deal</th><th class="num">Value</th><th>Source</th><th>Why it's here</th></tr></thead>
+<tbody id="pendingBody"></tbody></table>
+
+<h2>Data-quality flags</h2>
+<div id="quality"></div>
+
+<h2>Coverage</h2>
+<div class="stats" id="covStats"></div>
+
+<h2>Licensing exposure</h2>
+<div class="stats" id="licStats"></div>
+<p class="dim" style="margin-top:6px">Before any <b>public</b> deployment, run the scrub step (the import robot's
+log shows the command) or keep the repository private. Numbers here show what a public push would need to remove.</p>
+
+<h2>Recent human verdicts</h2>
+<table><thead><tr><th>Date</th><th>Verdict</th><th>Deal</th><th>Reason</th></tr></thead>
+<tbody id="fbBody"></tbody></table>
+
+<p class="foot">This page is read-only — it renders <span class="num">data/audit.json</span>, which is regenerated
+by every data workflow (update, import, review). Quality flags come from the janitor sweep and are advisory:
+a "possible duplicate" is a prompt to look, not a verdict. If the page looks stale, run
+<b>Actions → Update deal data → Run workflow</b>.</p>
+</div>
+<script>
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const fmtB=v=>v==null?'—':(v>=1?'$'+(+v.toFixed(1)).toLocaleString()+'B':'$'+Math.round(v*1000)+'M');
+const stat=(k,v,n,cls)=>`<div class="stat"><div class="k">${k}</div><div class="v ${cls||''}">${v}</div><div class="n">${n||''}</div></div>`;
+
+fetch('data/audit.json').then(r=>r.json()).then(a=>{
+  const pend=a.pending||[], q=a.quality||{by_check:{}}, cov=a.coverage||{}, lic=a.licensing||{};
+  document.getElementById('topStats').innerHTML=
+    stat('Pending review', pend.length, pend.length?'needs a human':'queue clear', pend.length?'warn':'ok')+
+    stat('Quality flags', q.total_flags||0, 'janitor sweep', (q.total_flags||0)?'warn':'ok')+
+    stat('Deals tracked', cov.deals||0, Object.entries(cov.by_status||{}).map(([k,v])=>`${k} ${v}`).join(' · '))+
+    stat('Licensed records', lic.licensed_records||0, 'see licensing below')+
+    stat('Auto-merged dupes', a.auto_merges||0, 'folded automatically', 'ok');
+  document.getElementById('stamp').textContent=
+    `Report generated ${(a.generated_at||'').slice(0,16).replace('T',' ')} UTC · data last updated ${(a.data_last_updated||'').slice(0,16).replace('T',' ')} UTC`;
+
+  document.getElementById('pendingBody').innerHTML=pend.length?pend.map(p=>
+    `<tr><td class="num">${p.n}</td><td class="num dim">${p.d}</td>
+     <td><span class="deal">${esc(p.name)}</span>${p.verify_failed?' <span class="badge red">verify failed</span>':''}
+       <div class="dim">${esc(p.note)}${p.source_url?` · <a href="${esc(p.source_url)}">source</a>`:''}</div></td>
+     <td class="num">${fmtB(p.v)}</td><td class="dim">${esc(p.source)}</td>
+     <td class="dim">${p.source==='capiq'?'imported update':'auto-extracted — check the numbers against the source'}</td></tr>`).join('')
+    :'<tr><td colspan="6" class="dim">Nothing awaiting review — the queue is clear.</td></tr>';
+
+  const labels={possible_duplicate:'Possible duplicates',stale_pending:'Stale pending deals',
+    value_outlier:'Value outliers',missing_field:'Missing fields',test_artifact:'Test artifacts'};
+  const qhtml=Object.entries(q.by_check).map(([k,items])=>
+    `<h3 style="font-family:var(--serif);font-size:15px;margin:14px 0 6px">${labels[k]||esc(k)} · ${items.length}</h3>
+     <table><tbody>${items.map(i=>
+       `<tr><td><span class="deal" style="font-size:13px">${esc((i.deals||[i.deal||'']).join('  ·  '))}</span>
+        <div class="dim">${esc(i.detail||'')}</div></td></tr>`).join('')}</tbody></table>`).join('');
+  document.getElementById('quality').innerHTML=qhtml||'<p class="dim">No flags — the janitor found nothing to complain about.</p>';
+
+  document.getElementById('covStats').innerHTML=
+    stat('Comps blocks', cov.with_comps||0, `${cov.with_ev_revenue||0} with EV/Rev · ${cov.with_premium||0} with premium`)+
+    stat('Advisors known', cov.with_advisors||0, `of ${cov.deals||0} deals`)+
+    stat('Provider ids', cov.with_uid||0, 'exact-dedupe ready')+
+    stat('Break reasons', cov.terminated_with_resolution||0, 'terminated deals w/ story');
+
+  document.getElementById('licStats').innerHTML=
+    stat('Licensed records', lic.licensed_records||0, 'tagged licensed:true')+
+    stat('Fields a public push must strip', lic.fields_a_public_push_would_strip||0, 'comps, sellers, ids…', (lic.fields_a_public_push_would_strip||0)?'warn':'ok');
+
+  document.getElementById('fbBody').innerHTML=(a.recent_feedback||[]).length?a.recent_feedback.map(f=>
+    `<tr><td class="num dim">${esc(f.ts)}</td><td class="num" style="color:${f.verdict==='approved'?'var(--green)':'var(--red)'}">${esc(f.verdict)}</td>
+     <td class="deal" style="font-size:13px">${esc(f.name)}</td><td class="dim">${esc(f.reason)}</td></tr>`).join('')
+    :'<tr><td colspan="4" class="dim">No verdicts logged yet.</td></tr>';
+}).catch(()=>{document.getElementById('stamp').textContent=
+  'Could not load data/audit.json — run python pipeline/audit.py once, and open this page from the local server.'});
+</script>
+</body></html>

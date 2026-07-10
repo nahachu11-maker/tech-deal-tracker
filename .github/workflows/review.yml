@@ -1,0 +1,58 @@
+name: Review deals
+
+# The no-terminal review button. On GitHub: Actions -> Review deals ->
+# Run workflow, then type one of:
+#   list                      show the pending queue in the run's log
+#   approve 3                 approve pending item #3 (numbers match audit.html)
+#   reject 3 value wrong      remove item #3, teaching the pipeline why
+#   approve-all capiq         bulk-approve one source's imports
+#   approve-all               approve everything pending
+
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "list | approve N | reject N reason... | approve-all [source]"
+        required: true
+        default: "list"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-updates
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run review command
+        env:
+          REVIEW_CMD: ${{ inputs.command }}
+        run: |
+          # shellcheck disable=SC2086
+          python pipeline/review.py $REVIEW_CMD
+
+      - name: Refresh audit report
+        run: python pipeline/audit.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "deal-tracker-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/deals.json data/audit.json data/feedback.jsonl
+          git diff --cached --quiet || {
+            git commit -m "chore: review — ${{ inputs.command }}"
+            git pull --rebase
+            git push
+          }

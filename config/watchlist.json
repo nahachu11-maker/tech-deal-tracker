@@ -1,0 +1,217 @@
+{
+  "watchlist": [
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "aliases": [
+        "nvidia"
+      ]
+    },
+    {
+      "name": "TSMC",
+      "ticker": "TSM",
+      "aliases": [
+        "tsmc",
+        "taiwan semiconductor"
+      ]
+    },
+    {
+      "name": "ASML",
+      "ticker": "ASML",
+      "aliases": [
+        "asml"
+      ]
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "aliases": [
+        "amd",
+        "advanced micro devices"
+      ]
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "aliases": [
+        "intel"
+      ]
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "aliases": [
+        "broadcom"
+      ]
+    },
+    {
+      "name": "Qualcomm",
+      "ticker": "QCOM",
+      "aliases": [
+        "qualcomm"
+      ]
+    },
+    {
+      "name": "Samsung",
+      "ticker": "005930.KS",
+      "aliases": [
+        "samsung electronics",
+        "samsung"
+      ]
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS",
+      "aliases": [
+        "sk hynix",
+        "hynix"
+      ]
+    },
+    {
+      "name": "Micron",
+      "ticker": "MU",
+      "aliases": [
+        "micron"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "aliases": [
+        "microsoft"
+      ]
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "aliases": [
+        "google",
+        "alphabet"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "aliases": [
+        "amazon",
+        "aws"
+      ]
+    },
+    {
+      "name": "Meta",
+      "ticker": "META",
+      "aliases": [
+        "meta platforms",
+        "meta"
+      ]
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "aliases": [
+        "apple"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null,
+      "aliases": [
+        "openai"
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "aliases": [
+        "anthropic"
+      ]
+    },
+    {
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "aliases": [
+        "coreweave"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "aliases": [
+        "oracle"
+      ]
+    },
+    {
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "aliases": [
+        "palantir"
+      ]
+    }
+  ],
+  "topics": [
+    "semiconductor export controls",
+    "data center capex",
+    "AI chip demand",
+    "HBM memory",
+    "foundry capacity",
+    "chip tariffs",
+    "AI infrastructure spending",
+    "tech IPO market",
+    "hyperscaler earnings"
+  ],
+  "feeds": [
+    "https://techcrunch.com/feed/",
+    "https://arstechnica.com/feed/",
+    "https://www.eetimes.com/feed/",
+    "https://feeds.arstechnica.com/arstechnica/technology-lab",
+    "https://www.prnewswire.com/rss/news-releases-list.rss"
+  ],
+  "google_news_template": "https://news.google.com/rss/search?q={query}+when:1d&hl=en-US&gl=US&ceid=US:en",
+  "korea": {
+    "companies": [
+      {
+        "name": "Samsung Electronics",
+        "name_kr": "삼성전자",
+        "ticker": "005930.KS"
+      },
+      {
+        "name": "SK Hynix",
+        "name_kr": "SK하이닉스",
+        "ticker": "000660.KS"
+      },
+      {
+        "name": "Naver",
+        "name_kr": "네이버",
+        "ticker": "035420.KS"
+      },
+      {
+        "name": "Kakao",
+        "name_kr": "카카오",
+        "ticker": "035720.KS"
+      },
+      {
+        "name": "Samsung SDI",
+        "name_kr": "삼성SDI",
+        "ticker": "006400.KS"
+      },
+      {
+        "name": "Krafton",
+        "name_kr": "크래프톤",
+        "ticker": "259960.KS"
+      }
+    ],
+    "topics_kr": [
+      "반도체 수출",
+      "HBM",
+      "파운드리",
+      "삼성전자 인수",
+      "SK하이닉스 투자"
+    ],
+    "google_news_template_kr": "https://news.google.com/rss/search?q={query}+when:1d&hl=ko&gl=KR&ceid=KR:ko"
+  },
+  "alerts": {
+    "min_importance": 3,
+    "alert_on_spikes": true,
+    "alert_on_new_deals": true
+  }
+}

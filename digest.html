@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Digest · Tech Tape</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#EFF1ED;--panel:#F7F8F5;--ink:#14212B;--ink-soft:#4A5A66;--rule:#C9CEC6;
+--serif:'Libre Caslon Text',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,monospace;--sans:'Inter',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 60px}
+.masthead{border-top:3px double var(--ink);border-bottom:1px solid var(--ink);padding:18px 0 14px;margin-bottom:20px}
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.kicker a{color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px}
+h1{font-family:var(--serif);font-size:clamp(26px,4.5vw,38px);font-weight:700;margin:4px 0 2px}
+.sub{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px}
+.archive{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.day{font-family:var(--mono);font-size:11px;padding:5px 11px;border:1px solid var(--ink);background:none;cursor:pointer;color:var(--ink)}
+.day.on{background:var(--ink);color:var(--paper)}
+.briefing{background:var(--panel);border:1px solid var(--rule);padding:26px 28px}
+.briefing h2{font-family:var(--serif);font-size:18px;border-bottom:1px solid var(--ink);padding-bottom:4px;margin:18px 0 10px}
+.briefing h2:first-child{margin-top:0}
+.briefing p{margin-bottom:10px}
+.briefing ol,.briefing ul{margin:0 0 10px 20px}
+.briefing li{margin-bottom:8px}
+.gen{font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin-top:14px}
+.empty{padding:36px;text-align:center;font-style:italic;font-family:var(--serif);color:var(--ink-soft)}
+.foot{margin-top:24px;padding-top:14px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-soft)}
+</style>
+</head>
+<body><div class="wrap">
+<header class="masthead">
+  <div class="kicker"><span>Technology · Daily Briefing</span>
+    <span><a href="index.html">Deals</a><a href="news.html">News</a><a href="league.html">League</a><a href="memo.html">Memo</a><a href="ask.html">Ask</a><a href="prep.html">Prep</a></span></div>
+  <h1>Morning Digest</h1>
+  <div class="sub">Three things that matter, before your coffee cools · 7:00 am Pacific daily</div>
+</header>
+
+<div class="archive" id="archive"></div>
+<div class="briefing" id="briefing"><div class="empty">Loading…</div></div>
+
+<p class="foot">Written by Claude from the last 24 hours of tracked news, deals, and trend data — facts only from tracked items, but verify anything before repeating it in a meeting. Generated daily by the pipeline; runs after the first digest workflow execution.</p>
+</div>
+<script>
+let DOC=null, sel=0;
+// minimal markdown: ## headers, **bold**, numbered/plain lines
+function md(text){
+  const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  let out='', inList=false;
+  for(let line of text.split('\n')){
+    line=esc(line.trim());
+    line=line.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+    if(!line){ if(inList){out+='</ol>';inList=false;} continue; }
+    if(line.startsWith('## ')){ if(inList){out+='</ol>';inList=false;} out+=`<h2>${line.slice(3)}</h2>`; }
+    else if(/^\d+\.\s/.test(line)){ if(!inList){out+='<ol>';inList=true;} out+=`<li>${line.replace(/^\d+\.\s/,'')}</li>`; }
+    else if(line.startsWith('- ')){ if(!inList){out+='<ol>';inList=true;} out+=`<li>${line.slice(2)}</li>`; }
+    else { if(inList){out+='</ol>';inList=false;} out+=`<p>${line}</p>`; }
+  }
+  if(inList) out+='</ol>';
+  return out;
+}
+window._rerender=()=>render();
+function render(){
+  const a=document.getElementById('archive'), b=document.getElementById('briefing');
+  if(!DOC||!DOC.digests||!DOC.digests.length){
+    b.innerHTML='<div class="empty">No digest yet — it appears after the first daily pipeline run (or trigger the "Morning digest" workflow manually on GitHub).</div>';
+    return;
+  }
+  a.innerHTML=DOC.digests.map((g,i)=>`<button class="day ${i===sel?'on':''}" data-i="${i}">${g.date}</button>`).join('');
+  a.querySelectorAll('.day').forEach(d=>d.onclick=()=>{sel=+d.dataset.i;render();});
+  const g=DOC.digests[sel];
+  const showKr = window._lang==='kr' && g.markdown_kr;
+  const toggle = g.markdown_kr ? `<div style="margin-bottom:10px"><button class="day ${!showKr?'on':''}" onclick="window._lang='en';window._rerender()">English</button> <button class="day ${showKr?'on':''}" onclick="window._lang='kr';window._rerender()">한국어</button></div>` : '';
+  b.innerHTML=toggle+md(showKr?g.markdown_kr:g.markdown)+`<div class="gen">Generated ${new Date(g.generated).toLocaleString()}</div>`;
+}
+async function load(){
+  try{ DOC=await (await fetch('data/digest.json?t='+Date.now())).json(); }
+  catch(e){ DOC=null; }
+  render();
+}
+load();
+setInterval(load, 10*60*1000);
+</script>
+</body></html>

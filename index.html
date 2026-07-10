@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Deal Tracker · Jul 2023 – Jul 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EFF1ED; --panel:#F7F8F5; --ink:#14212B; --ink-soft:#4A5A66; --rule:#C9CEC6;
+  --ma:#8C2F39; --ipo:#0F6B66; --fo:#B07C24; --debt:#3E5C76; --spac:#7A4E7E; --priv:#4E6E58;
+  --ma-bg:#F3E4E5; --ipo-bg:#DFEBEA; --fo-bg:#F1E8D6; --debt-bg:#E1E7EC; --spac-bg:#EBE1EC; --priv-bg:#E1EAE4;
+  --serif:'Libre Caslon Text', Georgia, serif;
+  --mono:'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --sans:'Inter', -apple-system, system-ui, sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 20px 60px}
+
+/* Masthead */
+.masthead{border-top:3px double var(--ink);border-bottom:1px solid var(--ink);padding:18px 0 14px;margin-bottom:22px}
+.masthead .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft)}
+.masthead h1{font-family:var(--serif);font-size:clamp(26px,4.5vw,40px);font-weight:700;letter-spacing:-.01em;margin:4px 0 2px}
+.masthead .sub{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px}
+
+/* Stat strip */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin-bottom:26px}
+.stat{background:var(--panel);padding:14px 16px}
+.stat .n{font-family:var(--mono);font-size:clamp(18px,3vw,26px);font-weight:600}
+.stat .l{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-top:2px}
+.stat.ma .n{color:var(--ma)} .stat.ipo .n{color:var(--ipo)} .stat.fo .n{color:var(--fo)}
+
+/* Tape (chart) */
+.tape{border:1px solid var(--rule);background:var(--panel);padding:16px 16px 8px;margin-bottom:26px}
+.tape-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.tape-head h2{font-family:var(--serif);font-size:17px;font-weight:700}
+.tape-head .hint{font-size:12px;color:var(--ink-soft)}
+.toggle{display:inline-flex;border:1px solid var(--ink);font-family:var(--mono);font-size:11px}
+.toggle button{background:none;border:0;padding:5px 12px;cursor:pointer;font:inherit;color:var(--ink);letter-spacing:.08em;text-transform:uppercase}
+.toggle button.on{background:var(--ink);color:var(--paper)}
+#chart{width:100%;display:block}
+.legend{display:flex;gap:18px;font-family:var(--mono);font-size:11px;padding:8px 2px 6px;flex-wrap:wrap}
+.legend span{display:inline-flex;align-items:center;gap:6px;color:var(--ink-soft)}
+.legend i{width:10px;height:10px;display:inline-block}
+
+/* Controls */
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border:1px solid var(--ink);background:none;cursor:pointer;color:var(--ink)}
+.chip.on{color:#fff}
+.chip[data-t="M&A"].on{background:var(--ma);border-color:var(--ma)}
+.chip[data-t="IPO"].on{background:var(--ipo);border-color:var(--ipo)}
+.chip[data-t="Follow-on"].on{background:var(--fo);border-color:var(--fo)}
+.chip[data-t="Debt"].on{background:var(--debt);border-color:var(--debt)}
+.chip[data-t="SPAC"].on{background:var(--spac);border-color:var(--spac)}
+.chip[data-t="Private"].on{background:var(--priv);border-color:var(--priv)}
+select,input[type=search]{font-family:var(--sans);font-size:13px;padding:7px 10px;border:1px solid var(--rule);background:#fff;color:var(--ink);border-radius:0}
+input[type=search]{flex:1;min-width:160px}
+select:focus,input:focus,button:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+.clearbtn{font-family:var(--mono);font-size:11px;background:none;border:none;text-decoration:underline;cursor:pointer;color:var(--ink-soft)}
+.count-line{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin-bottom:10px}
+.count-line b{color:var(--ink)}
+
+/* Table */
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--rule)}
+thead th{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;text-align:left;color:var(--ink-soft);padding:10px 12px;border-bottom:2px solid var(--ink);cursor:pointer;user-select:none;white-space:nowrap}
+thead th .arr{font-size:9px}
+tbody td{padding:11px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+tbody tr.deal{cursor:pointer}
+tbody tr.deal:hover{background:#ECEEE9}
+.dname{font-family:var(--serif);font-weight:700;font-size:14.5px}
+.dsub{font-size:12px;color:var(--ink-soft)}
+.tag{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;padding:2px 7px;text-transform:uppercase}
+.tag.ma{background:var(--ma-bg);color:var(--ma)} .tag.ipo{background:var(--ipo-bg);color:var(--ipo)} .tag.fo{background:var(--fo-bg);color:var(--fo)} .tag.debt{background:var(--debt-bg);color:var(--debt)} .tag.spac{background:var(--spac-bg);color:var(--spac)} .tag.priv{background:var(--priv-bg);color:var(--priv)}
+.val{font-family:var(--mono);font-weight:600;white-space:nowrap}
+.mono{font-family:var(--mono);font-size:12px;white-space:nowrap}
+.status{font-size:12px}
+.status.Closed{color:#2E6B3E}.status.Pending{color:#8A6A12}.status.Filed{color:#0F6B66}.status.Terminated{color:#8C2F39}
+tr.detail td{background:#EAEDE7;font-size:13px;color:var(--ink);padding:14px 16px;border-bottom:1px solid var(--ink)}
+tr.detail .note{max-width:760px}
+tr.detail .meta{font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin-top:8px}
+.empty{padding:32px;text-align:center;color:var(--ink-soft);font-style:italic;font-family:var(--serif)}
+
+.foot{margin-top:26px;padding-top:14px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-soft);line-height:1.6}
+@media(max-width:640px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .hidesm{display:none}
+  thead th,tbody td{padding:9px 8px}
+}
+@media(prefers-reduced-motion:no-preference){
+  tbody tr.deal{transition:background .12s}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <div class="kicker" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px"><span>Technology · Capital Markets &amp; M&amp;A</span><span><a href="news.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px">News</a><a href="league.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px">League</a><a href="comps.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px">Comps</a><a href="audit.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px">Audit</a><a href="digest.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px">Digest</a><a href="memo.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px">Memo</a><a href="prep.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px">Prep</a><a href="ask.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px">Ask</a></span></div>
+  <h1>Tech Deal Tracker</h1>
+  <div class="sub">Announced M&amp;A, IPOs, follow-ons, debt &amp; LBO financing, de-SPACs, and private mega-rounds · rolling five-year window</div>
+  <div class="kicker" id="lastUpdated" style="margin-top:6px">Loading data…</div>
+</header>
+
+<section class="stats" id="stats" aria-label="Summary statistics"></section>
+
+<section class="tape">
+  <div class="tape-head">
+    <h2>The quarterly tape</h2>
+    <div style="display:flex;gap:12px;align-items:center">
+      <span class="hint">Click a quarter to filter ↓</span>
+      <div class="toggle" role="group" aria-label="Chart measure">
+        <button id="mValue" class="on">$ Value</button><button id="mCount"># Count</button>
+      </div>
+    </div>
+  </div>
+  <svg id="chart" viewBox="0 0 960 240" role="img" aria-label="Deal activity by quarter"></svg>
+  <div class="legend">
+    <span><i style="background:var(--ma)"></i>M&amp;A</span>
+    <span><i style="background:var(--ipo)"></i>IPO</span>
+    <span><i style="background:var(--fo)"></i>Follow-on</span>
+    <span><i style="background:var(--debt)"></i>Debt</span>
+    <span><i style="background:var(--spac)"></i>SPAC</span>
+    <span><i style="background:var(--priv)"></i>Private</span>
+    <span style="margin-left:auto">Value bars & totals exclude undisclosed sizes, pending IPO filings, and terminated deals</span>
+  </div>
+</section>
+
+<div class="controls">
+  <div class="chips" id="typeChips">
+    <button class="chip on" data-t="M&A">M&amp;A</button>
+    <button class="chip on" data-t="IPO">IPO</button>
+    <button class="chip on" data-t="Follow-on">Follow-on</button>
+    <button class="chip on" data-t="Debt">Debt</button>
+    <button class="chip on" data-t="SPAC">SPAC</button>
+    <button class="chip on" data-t="Private">Private</button>
+  </div>
+  <select id="yearSel" aria-label="Filter by year">
+    <option value="">All years</option>
+    <option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option>2026</option>
+  </select>
+  <select id="sectorSel" aria-label="Filter by sector"><option value="">All sectors</option></select>
+  <select id="bankSel" aria-label="Filter by advisor bank"><option value="">All banks</option></select>
+  <select id="statusSel" aria-label="Filter by status">
+    <option value="">All statuses</option>
+    <option>Closed</option><option>Pending</option><option>Filed</option><option>Terminated</option>
+  </select>
+  <input type="search" id="q" placeholder="Search company, acquirer, keyword…" aria-label="Search deals">
+</div>
+<div class="count-line" id="countLine"></div>
+
+<table aria-label="Deal list">
+  <thead><tr>
+    <th data-k="date">Date <span class="arr" id="a-date">▼</span></th>
+    <th data-k="type">Type <span class="arr" id="a-type"></span></th>
+    <th data-k="name">Deal <span class="arr" id="a-name"></span></th>
+    <th data-k="v">Value <span class="arr" id="a-v"></span></th>
+    <th data-k="sector" class="hidesm">Sector <span class="arr" id="a-sector"></span></th>
+    <th data-k="status" class="hidesm">Status <span class="arr" id="a-status"></span></th>
+  </tr></thead>
+  <tbody id="tbody"></tbody>
+</table>
+
+<p class="foot">Compiled from public reporting (company press releases, SEC filings, CRN/CIO/PwC/EY deal roundups) as of <b>July 6, 2026</b>. Deal values are announced/approximate; IPO “value” shows proceeds raised with valuation at pricing in the detail view; pending IPO filings show target valuations only. This is an illustrative tracker, not investment advice — verify figures against primary sources before using in coursework or pitch materials.</p>
+
+</div>
+
+<script>
+// ── DATA (fetched) ──────────────────────────────────────────────────────
+let DEALS = [];
+let META = {};
+async function loadData(){
+  try{
+    const r = await fetch('data/deals.json?t='+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    const j = await r.json();
+    DEALS = j.deals; META = j.meta||{};
+    document.getElementById('lastUpdated').textContent =
+      'Data updated ' + (META.last_updated ? new Date(META.last_updated).toLocaleString() : 'unknown');
+    render();
+  }catch(e){
+    document.getElementById('lastUpdated').textContent =
+      'Could not load data/deals.json — serve this folder over HTTP (e.g. python -m http.server) or deploy to GitHub Pages.';
+  }
+}
+
+// ── STATE ───────────────────────────────────────────────────────────────
+const state = { types:new Set(['M&A','IPO','Follow-on','Debt','SPAC','Private']), year:'', sector:'', status:'', bank:'', q:'', quarter:'', sortK:'date', sortDir:-1, measure:'value', open:null };
+
+const fmtB = v => v==null ? '—' : (v>=1000 ? '$'+(v/1000).toFixed(2)+'T' : v>=1 ? '$'+(+v.toFixed(v<10?1:0)).toLocaleString()+'B' : '$'+Math.round(v*1000)+'M');
+const fmtDate = d => { const [y,m] = d.split('-'); return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+m-1]+' '+y; };
+const qtr = d => { const [y,m]=d.split('-'); return "Q"+(Math.floor((+m-1)/3)+1)+"'"+y.slice(2); };
+const cls = t => ({'M&A':'ma','IPO':'ipo','Follow-on':'fo','Debt':'debt','SPAC':'spac','Private':'priv'})[t]||'fo';
+const COLORS = {'M&A':'#8C2F39','IPO':'#0F6B66','Follow-on':'#B07C24','Debt':'#3E5C76','SPAC':'#7A4E7E','Private':'#4E6E58'};
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+
+// Quarter axis: Q3'21 → Q2'26 (five years, one full market cycle)
+const QUARTERS = [];
+for(let y=2021;y<=2026;y++) for(let q=1;q<=4;q++){ if(y===2021&&q<3) continue; if(y===2026&&q>2) break; QUARTERS.push("Q"+q+"'"+String(y).slice(2)); }
+// Era bands drawn behind the bars
+const ERAS = [
+  {label:"ZIRP boom", from:"Q3'21", to:"Q1'22", fill:"#EFE4D4"},
+  {label:"The freeze", from:"Q2'22", to:"Q2'23", fill:"#E3E7EA"},
+  {label:"AI recovery", from:"Q3'23", to:"Q2'26", fill:"#E2EAE4"},
+];
+
+// ── FILTERING ───────────────────────────────────────────────────────────
+function filtered(){
+  const q = state.q.toLowerCase();
+  return DEALS.filter(x =>
+    state.types.has(x.type) &&
+    (!state.year || x.d.startsWith(state.year)) &&
+    (!state.sector || x.sector===state.sector) &&
+    (!state.status || x.status===state.status) &&
+    (!state.bank || (x.advisors||[]).includes(state.bank)) &&
+    (!state.quarter || qtr(x.d)===state.quarter) &&
+    (!q || (x.name+' '+x.sector+' '+x.note+' '+(x.advisors||[]).join(' ')).toLowerCase().includes(q))
+  );
+}
+
+// ── RENDER: stats ───────────────────────────────────────────────────────
+function renderStats(rows){
+  const live = x => x.v!=null && x.status!=='Filed' && x.status!=='Terminated';
+  const sum = ts => rows.filter(x=>ts.includes(x.type) && live(x)).reduce((s,x)=>s+x.v,0);
+  const cnt = ts => rows.filter(x=>ts.includes(x.type)).length;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><div class="n">${fmtB(sum(['M&A','SPAC']))}</div><div class="l">M&A + de-SPAC value · ${cnt(['M&A','SPAC'])} deals</div></div>
+    <div class="stat ipo"><div class="n">${fmtB(sum(['IPO','Follow-on','Private']))}</div><div class="l">Equity raised (IPO/FO/Private) · ${cnt(['IPO','Follow-on','Private'])}</div></div>
+    <div class="stat"><div class="n" style="color:var(--debt)">${fmtB(sum(['Debt']))}</div><div class="l">Debt raised · ${cnt(['Debt'])}</div></div>
+    <div class="stat ma"><div class="n">${rows.length}</div><div class="l">Deals shown · values ex-terminated</div></div>`;
+}
+
+// ── RENDER: chart ───────────────────────────────────────────────────────
+function renderChart(){
+  const svg = document.getElementById('chart');
+  const W=960,H=240,padL=46,padR=8,padT=10,padB=30;
+  const bw=(W-padL-padR)/QUARTERS.length;
+  // aggregate on everything except quarter filter (so the tape shows full context of current type/sector filters)
+  const base = DEALS.filter(x => state.types.has(x.type) &&
+    (!state.year||x.d.startsWith(state.year)) && (!state.sector||x.sector===state.sector) &&
+    (!state.status||x.status===state.status) &&
+    (!state.bank || (x.advisors||[]).includes(state.bank)) &&
+    (!state.q || (x.name+' '+x.sector+' '+x.note+' '+(x.advisors||[]).join(' ')).toLowerCase().includes(state.q.toLowerCase())));
+  const agg = {};
+  QUARTERS.forEach(q=>agg[q]={'M&A':0,'IPO':0,'Follow-on':0,'Debt':0,'SPAC':0,'Private':0});
+  base.forEach(x=>{
+    const q = qtr(x.d); if(!(q in agg)) return;
+    if(state.measure==='count') agg[q][x.type]+=1;
+    else if(x.v!=null && x.status!=='Filed' && x.status!=='Terminated') agg[q][x.type]+=x.v;
+  });
+  const max = Math.max(1,...QUARTERS.map(q=>['M&A','IPO','Follow-on','Debt','SPAC','Private'].reduce((s,t)=>s+agg[q][t],0)));
+  const y = v => padT + (H-padT-padB)*(1-v/max);
+  let s='';
+  // era shading behind everything
+  ERAS.forEach(e=>{
+    const i0=QUARTERS.indexOf(e.from), i1=QUARTERS.indexOf(e.to);
+    if(i0<0||i1<0) return;
+    const x0=padL+i0*bw, x1=padL+(i1+1)*bw;
+    s+=`<rect x="${x0}" y="${padT}" width="${x1-x0}" height="${H-padT-padB}" fill="${e.fill}" opacity="0.55"/>`;
+    s+=`<text x="${(x0+x1)/2}" y="${padT+11}" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing="1.5" fill="#7A8891">${e.label.toUpperCase()}</text>`;
+  });
+  // gridlines
+  const ticks = state.measure==='count' ? [0,Math.ceil(max/2),max] : [0,max/2,max];
+  ticks.forEach(t=>{
+    s+=`<line x1="${padL}" y1="${y(t)}" x2="${W-padR}" y2="${y(t)}" stroke="#C9CEC6" stroke-width="1"/>`;
+    s+=`<text x="${padL-6}" y="${y(t)+4}" text-anchor="end" font-family="IBM Plex Mono,monospace" font-size="10" fill="#4A5A66">${state.measure==='count'?Math.round(t):('$'+Math.round(t)+'B')}</text>`;
+  });
+  QUARTERS.forEach((q,i)=>{
+    const x0=padL+i*bw+bw*0.16, w=bw*0.68;
+    let acc=0;
+    ['M&A','IPO','Follow-on','Debt','SPAC','Private'].forEach(t=>{
+      const v=agg[q][t]; if(v<=0){return;}
+      const y1=y(acc+v), y0=y(acc);
+      s+=`<rect x="${x0}" y="${y1}" width="${w}" height="${Math.max(1.5,y0-y1)}" fill="${COLORS[t]}" opacity="${state.quarter&&state.quarter!==q?0.25:1}"><title>${q} · ${t}: ${state.measure==='count'?v+' deals':fmtB(v)}</title></rect>`;
+      acc+=v;
+    });
+    const sel = state.quarter===q;
+    s+=`<rect class="hit" data-q="${q}" x="${padL+i*bw}" y="${padT}" width="${bw}" height="${H-padT-padB}" fill="transparent" style="cursor:pointer"/>`;
+    s+=`<text x="${x0+w/2}" y="${H-10}" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="10" fill="${sel?'#14212B':'#4A5A66'}" font-weight="${sel?'700':'400'}" text-decoration="${sel?'underline':'none'}">${(i%2===0||sel)?q:''}</text>`;
+  });
+  svg.innerHTML=s;
+  svg.querySelectorAll('.hit').forEach(r=>r.addEventListener('click',()=>{
+    state.quarter = state.quarter===r.dataset.q ? '' : r.dataset.q;
+    render();
+  }));
+}
+
+// ── RENDER: table ───────────────────────────────────────────────────────
+function renderTable(rows){
+  const key = state.sortK;
+  const get = x => key==='v' ? (x.v==null?-1:x.v) : key==='name' ? x.name.toLowerCase() : x[key]||'';
+  rows = [...rows].sort((a,b)=>{ const A=get(a),B=get(b); return (A<B?-1:A>B?1:0)*state.sortDir; });
+  const tb = document.getElementById('tbody');
+  if(!rows.length){ tb.innerHTML = `<tr><td colspan="6" class="empty">No deals match — clear a filter or two.</td></tr>`; return; }
+  tb.innerHTML = rows.map((x,i)=>{
+    const id=x.name+x.d;
+    const valCell = (x.type==='IPO'||x.type==='Private')
+      ? (x.status==='Filed' ? `<span class="val">${x.val?fmtB(x.val)+' tgt':'—'}</span>` : `<span class="val">${fmtB(x.v)}</span><div class="dsub">raised${x.val&&x.type==='Private'?' · '+fmtB(x.val)+' val':''}</div>`)
+      : x.type==='Debt' ? `<span class="val">${fmtB(x.v)}</span><div class="dsub">raised</div>`
+      : `<span class="val" style="${x.status==='Terminated'?'text-decoration:line-through;color:var(--ink-soft)':''}">${fmtB(x.v)}</span>`;
+    let row = `<tr class="deal" data-id="${id}">
+      <td class="mono">${fmtDate(x.d)}</td>
+      <td><span class="tag ${cls(x.type)}">${x.type}</span></td>
+      <td><div class="dname">${esc(x.name)}${x.review?' <span class="tag" style="background:#FBE9C8;color:#8A6A12">needs review</span>':''}${x.verify_failed?' <span class="tag" style="background:#F3E4E5;color:#8C2F39" title="'+esc(x.verify_reason||'')+'">verify ⚠</span>':''}</div></td>
+      <td>${valCell}</td>
+      <td class="hidesm">${esc(x.sector)}</td>
+      <td class="hidesm"><span class="status ${x.status}">${x.status}</span></td>
+    </tr>`;
+    if(state.open===id){
+      const cp = x.comps ? [
+        x.comps.premium_pct!=null?`premium ${x.comps.premium_pct}%${x.comps.premium_basis?' ('+x.comps.premium_basis+')':''}`:null,
+        x.comps.ev_revenue!=null?`EV/Rev ${x.comps.ev_revenue}x`:null,
+        x.comps.ev_ebitda!=null?`EV/EBITDA ${x.comps.ev_ebitda}x`:null,
+        x.comps.price_per_share!=null?`$${x.comps.price_per_share}/sh`:null,
+        x.comps.consideration&&x.comps.consideration!=='unstated'?x.comps.consideration:null,
+        x.comps.termination_fee!=null?`break fee $${x.comps.termination_fee}B`:null,
+      ].filter(Boolean).join(' · ') : '';
+      row += `<tr class="detail"><td colspan="6"><div class="note">${esc(x.note)}</div>
+        ${(x.advisors||[]).length?`<div class="meta" style="margin-top:6px">Advisors / bookrunners (as reported): ${esc(x.advisors.join(', '))}</div>`:''}
+        ${cp?`<div class="meta" style="margin-top:6px">Comps: ${cp}${x.comps.verify_failed?' <span style="color:#8C2F39">verify ⚠</span>':''}</div>`:''}
+        <div class="meta">${qtr(x.d)} · ${x.sector} · ${x.status}${x.stake_pct?` · ${x.stake_pct}% stake`:''}${x.type==='IPO'&&x.val?` · Valuation at ${x.status==='Filed'?'filing (target)':'pricing'}: ${fmtB(x.val)}`:''}</div></td></tr>`;
+    }
+    return row;
+  }).join('');
+  tb.querySelectorAll('tr.deal').forEach(tr=>tr.addEventListener('click',()=>{
+    state.open = state.open===tr.dataset.id ? null : tr.dataset.id; renderTable(filtered());
+  }));
+}
+
+// ── RENDER: all ─────────────────────────────────────────────────────────
+function render(){
+  const rows = filtered();
+  renderStats(rows);
+  renderChart();
+  renderTable(rows);
+  const cl = document.getElementById('countLine');
+  cl.innerHTML = `Showing <b>${rows.length}</b> of ${DEALS.length} deals` +
+    (state.quarter?` · quarter <b>${state.quarter}</b> <button class="clearbtn" id="clearQ">clear</button>`:'');
+  const cq=document.getElementById('clearQ'); if(cq) cq.addEventListener('click',()=>{state.quarter='';render();});
+  ['date','type','name','v','sector','status'].forEach(k=>{
+    const a=document.getElementById('a-'+k); if(a) a.textContent = state.sortK===k ? (state.sortDir===1?'▲':'▼') : '';
+  });
+}
+
+// ── WIRING ──────────────────────────────────────────────────────────────
+document.querySelectorAll('#typeChips .chip').forEach(c=>c.addEventListener('click',()=>{
+  const t=c.dataset.t;
+  if(state.types.has(t)&&state.types.size>1){state.types.delete(t);c.classList.remove('on');}
+  else {state.types.add(t);c.classList.add('on');}
+  render();
+}));
+document.getElementById('sectorSel').addEventListener('change',e=>{state.sector=e.target.value;render();});
+document.getElementById('yearSel').addEventListener('change',e=>{state.year=e.target.value;render();});
+document.getElementById('statusSel').addEventListener('change',e=>{state.status=e.target.value;render();});
+document.getElementById('bankSel').addEventListener('change',e=>{state.bank=e.target.value;render();});
+document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value;render();});
+document.getElementById('mValue').addEventListener('click',()=>{state.measure='value';document.getElementById('mValue').classList.add('on');document.getElementById('mCount').classList.remove('on');renderChart();});
+document.getElementById('mCount').addEventListener('click',()=>{state.measure='count';document.getElementById('mCount').classList.add('on');document.getElementById('mValue').classList.remove('on');renderChart();});
+document.querySelectorAll('thead th').forEach(th=>th.addEventListener('click',()=>{
+  const k=th.dataset.k;
+  if(state.sortK===k) state.sortDir*=-1; else {state.sortK=k; state.sortDir = k==='date'||k==='v' ? -1 : 1;}
+  render();
+}));
+
+loadData();
+setInterval(loadData, 5*60*1000); // re-fetch every 5 minutes so an open tab stays current
+
+// rebuild sector dropdown after data loads
+const _origRender = render;
+render = function(){
+  const sel=document.getElementById('sectorSel');
+  if(sel.options.length<=1 && DEALS.length){
+    [...new Set(DEALS.map(x=>x.sector))].sort().forEach(s=>{const o=document.createElement('option');o.textContent=s;sel.appendChild(o);});
+    const bs=document.getElementById('bankSel');
+    [...new Set(DEALS.flatMap(x=>x.advisors||[]))].sort().forEach(b=>{const o=document.createElement('option');o.textContent=b;bs.appendChild(o);});
+  }
+  _origRender();
+};
+</script>
+</body>
+</html>

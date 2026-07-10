@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Tape · News &amp; Trends</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EFF1ED; --panel:#F7F8F5; --ink:#14212B; --ink-soft:#4A5A66; --rule:#C9CEC6;
+  --semi:#8C2F39; --infra:#0F6B66; --big:#B07C24; --vc:#4B5E8E; --mkt:#5E5348;
+  --serif:'Libre Caslon Text', Georgia, serif;
+  --mono:'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --sans:'Inter', -apple-system, system-ui, sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 20px 60px}
+a{color:inherit}
+
+.masthead{border-top:3px double var(--ink);border-bottom:1px solid var(--ink);padding:18px 0 14px;margin-bottom:20px}
+.masthead .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.masthead .kicker a{text-decoration:none;border-bottom:1px solid var(--ink-soft)}
+.masthead h1{font-family:var(--serif);font-size:clamp(26px,4.5vw,40px);font-weight:700;margin:4px 0 2px}
+.masthead .sub{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px}
+#lastUpdated{margin-top:6px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+#newFlash{display:none;font-family:var(--mono);font-size:11px;color:#2E6B3E;margin-left:10px}
+
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:5px 11px;border:1px solid var(--ink);background:none;cursor:pointer;color:var(--ink)}
+.chip.on{background:var(--ink);color:var(--paper)}
+.chip.tagchip{border-style:dashed;text-transform:none}
+input[type=search]{font-family:var(--sans);font-size:13px;padding:7px 10px;border:1px solid var(--rule);background:#fff;flex:1;min-width:150px;border-radius:0}
+select{font-size:13px;padding:6px 8px;border:1px solid var(--rule);background:#fff;border-radius:0}
+.count-line{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin:6px 0 14px}
+.count-line b{color:var(--ink)}
+.clearbtn{font-family:var(--mono);font-size:11px;background:none;border:none;text-decoration:underline;cursor:pointer;color:var(--ink-soft)}
+
+.cols{display:grid;grid-template-columns:1fr 300px;gap:22px}
+@media(max-width:820px){.cols{grid-template-columns:1fr}.trendbox{order:-1}}
+
+/* Feed */
+.dayhead{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);border-bottom:2px solid var(--ink);padding:14px 0 5px;margin-bottom:2px}
+.story{border-bottom:1px solid var(--rule);padding:12px 2px;cursor:pointer}
+.story:hover{background:#ECEEE9}
+.s-top{display:flex;gap:8px;align-items:baseline}
+.imp{width:8px;height:8px;border-radius:50%;flex:none;margin-top:6px}
+.imp.i3{background:#8C2F39}.imp.i2{background:#B07C24}.imp.i1{background:#C9CEC6}
+.s-title{font-family:var(--serif);font-weight:700;font-size:15.5px;line-height:1.35}
+.s-title a{text-decoration:none;border-bottom:1px solid transparent}
+.s-title a:hover{border-bottom-color:var(--ink)}
+.s-meta{font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin:3px 0 0 16px}
+.tags{margin:5px 0 0 16px;display:flex;flex-wrap:wrap;gap:5px}
+.tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;padding:2px 7px;text-transform:uppercase;background:#E4E7E1;color:var(--ink-soft)}
+.tag.cat-Semiconductors{background:#F3E4E5;color:var(--semi)}
+.tag.cat-AIInfrastructure{background:#DFEBEA;color:var(--infra)}
+.tag.cat-BigTech{background:#F1E8D6;color:var(--big)}
+.tag.cat-StartupsVC{background:#E2E6F0;color:var(--vc)}
+.tag.cat-MarketsMacro{background:#E9E4DD;color:var(--mkt)}
+.tag.ib{border:1px dashed var(--ink-soft);background:none}
+.s-detail{display:none;margin:8px 0 2px 16px;font-size:13px}
+.story.open .s-detail{display:block}
+.s-detail .why{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+.srcs{margin-top:6px;font-size:12px;color:var(--ink-soft)}
+.srcs a{margin-right:10px}
+.empty{padding:32px;text-align:center;color:var(--ink-soft);font-style:italic;font-family:var(--serif)}
+
+/* Trends */
+.trendbox{border:1px solid var(--rule);background:var(--panel);padding:14px;align-self:start;position:sticky;top:14px}
+.trendbox h2{font-family:var(--serif);font-size:17px;margin-bottom:2px}
+.trendbox .hint{font-size:11.5px;color:var(--ink-soft);margin-bottom:10px}
+.trow{display:flex;align-items:center;gap:8px;padding:6px 4px;cursor:pointer;border-bottom:1px solid var(--rule)}
+.trow:hover{background:#ECEEE9}
+.trow.sel{background:var(--ink);color:var(--paper)}
+.trow .ent{flex:1;font-weight:600;font-size:13px}
+.trow .mult{font-family:var(--mono);font-size:11px;color:var(--semi)}
+.trow.sel .mult{color:#F3B9BF}
+.spark{display:flex;align-items:flex-end;gap:1px;height:18px}
+.spark i{width:4px;background:var(--ink-soft);display:block;min-height:1px}
+.trow.sel .spark i{background:var(--paper)}
+.spike{font-family:var(--mono);font-size:9px;background:var(--semi);color:#fff;padding:1px 5px;letter-spacing:.08em}
+
+.foot{margin-top:26px;padding-top:14px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-soft);line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <div class="kicker"><span>Technology · Semiconductors · Live Coverage</span><span><a href="index.html">Deals</a><a href="league.html" style="margin-left:12px">League</a><a href="digest.html" style="margin-left:12px">Digest</a><a href="memo.html" style="margin-left:12px">Memo</a><a href="ask.html" style="margin-left:12px">Ask</a><a href="prep.html" style="margin-left:12px">Prep</a></span></div>
+  <h1>Tech Tape</h1>
+  <div class="sub">Real-time news &amp; trends for technology and semiconductor coverage</div>
+  <div id="lastUpdated">Loading…<span id="newFlash"></span></div>
+</header>
+
+<div class="controls" id="catChips"></div>
+<div class="controls" id="tagChips"></div>
+<div class="controls">
+  <select id="impSel" aria-label="Minimum importance">
+    <option value="1">All importance</option>
+    <option value="2">Notable+ only</option>
+    <option value="3">Market-moving only</option>
+  </select>
+  <input type="search" id="q" placeholder="Search headlines, companies, summaries…" aria-label="Search news">
+</div>
+<div class="count-line" id="countLine"></div>
+
+<div class="cols">
+  <main id="feed" aria-label="News feed"></main>
+  <aside class="trendbox">
+    <h2>Heating up</h2>
+    <div class="hint">Mentions today vs 14-day average · click to filter</div>
+    <div id="trendList"></div>
+  </aside>
+</div>
+
+<p class="foot">Aggregated from public RSS feeds and Google News; classification by Claude, refreshed every 30 minutes by the pipeline. Seed items (shown unlinked) are illustrative as of July 6, 2026 and are replaced once the live pipeline runs. Importance dots: <span style="color:#8C2F39">●</span> market-moving · <span style="color:#B07C24">●</span> notable · <span style="color:#C9CEC6">●</span> routine. Not investment advice — always click through to the source.</p>
+
+</div>
+
+<script>
+const CATS = ["Semiconductors","AI & Infrastructure","Big Tech","Startups & VC","Markets & Macro"];
+const IBTAGS = ["M&A","Capital Raise","IPO","Earnings","Regulatory","Product","Management","Partnership"];
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const state = {cats:new Set(CATS), tags:new Set(), q:'', imp:1, entity:'', open:new Set()};
+let ITEMS=[], TRENDS=[], lastCount=0;
+
+const catCls = c => 'cat-'+c.replace(/[^A-Za-z]/g,'');
+const fmtTime = ts => new Date(ts).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
+const dayLabel = ts => {
+  const d=new Date(ts), t=new Date(); const diff=Math.floor((t.setHours(0,0,0,0)-new Date(d).setHours(0,0,0,0))/864e5);
+  return diff===0?'Today':diff===1?'Yesterday':d.toLocaleDateString([], {weekday:'long', month:'short', day:'numeric'});
+};
+
+async function loadData(first){
+  try{
+    const [nr,tr] = await Promise.all([
+      fetch('data/news.json?t='+Date.now()), fetch('data/trends.json?t='+Date.now())
+    ]);
+    const nj = await nr.json(); const tj = await tr.json();
+    const newCount = nj.items.length && lastCount ? nj.items.filter(i=>!ITEMS.some(o=>o.id===i.id)).length : 0;
+    ITEMS = nj.items; TRENDS = tj.trends||[];
+    document.getElementById('lastUpdated').innerHTML =
+      'Data updated ' + new Date(nj.meta.last_updated).toLocaleString() + '<span id="newFlash"></span>';
+    if(!first && newCount>0){
+      const f=document.getElementById('newFlash');
+      f.textContent = ` +${newCount} new`; f.style.display='inline';
+      setTimeout(()=>f.style.display='none', 60000);
+    }
+    lastCount = nj.items.length;
+    render();
+  }catch(e){
+    document.getElementById('lastUpdated').textContent =
+      'Could not load data — serve this folder over HTTP (python -m http.server) or deploy to GitHub Pages.';
+  }
+}
+
+function filtered(){
+  const q=state.q.toLowerCase();
+  return ITEMS.filter(x =>
+    state.cats.has(x.category) &&
+    (!state.tags.size || x.ib_tags.some(t=>state.tags.has(t))) &&
+    x.importance>=state.imp &&
+    (!state.entity || (x.companies||[]).includes(state.entity)) &&
+    (!q || (x.title+' '+x.summary+' '+(x.companies||[]).join(' ')).toLowerCase().includes(q))
+  );
+}
+
+function render(){
+  // category chips
+  const cc=document.getElementById('catChips');
+  cc.innerHTML = CATS.map(c=>`<button class="chip ${state.cats.has(c)?'on':''}" data-c="${c}">${c}</button>`).join('');
+  cc.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{
+    const c=b.dataset.c;
+    if(state.cats.has(c)&&state.cats.size>1) state.cats.delete(c); else state.cats.add(c);
+    render();
+  });
+  // IB tag chips
+  const tc=document.getElementById('tagChips');
+  tc.innerHTML = IBTAGS.map(t=>`<button class="chip tagchip ${state.tags.has(t)?'on':''}" data-t="${t}">${t}</button>`).join('');
+  tc.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{
+    const t=b.dataset.t; state.tags.has(t)?state.tags.delete(t):state.tags.add(t); render();
+  });
+
+  const rows = filtered();
+  document.getElementById('countLine').innerHTML =
+    `Showing <b>${rows.length}</b> of ${ITEMS.length} stories` +
+    (state.entity?` · company <b>${state.entity}</b> <button class="clearbtn" id="clearE">clear</button>`:'');
+  const ce=document.getElementById('clearE'); if(ce) ce.onclick=()=>{state.entity='';render();};
+
+  // feed grouped by day
+  const feed=document.getElementById('feed');
+  if(!rows.length){feed.innerHTML='<div class="empty">Nothing matches — loosen a filter.</div>';}
+  else{
+    let html='', lastDay='';
+    rows.forEach(x=>{
+      const dl=dayLabel(x.ts);
+      if(dl!==lastDay){html+=`<div class="dayhead">${dl}</div>`;lastDay=dl;}
+      const open=state.open.has(x.id);
+      const link = x.url ? `<a href="${x.url}" target="_blank" rel="noopener">${esc(x.title)}</a>` : esc(x.title);
+      html+=`<article class="story ${open?'open':''}" data-id="${x.id}">
+        <div class="s-top"><span class="imp i${x.importance}" title="importance ${x.importance}"></span>
+          <div class="s-title">${link}</div></div>
+        <div class="s-meta">${fmtTime(x.ts)} · ${esc(x.outlet)||'—'}${x.source_count>1?` · ${x.source_count} sources`:''}</div>
+        <div class="tags"><span class="tag ${catCls(x.category)}">${x.category}</span>${x.deal_status?`<span class="tag" style="border:1px solid var(--semi);color:var(--semi);background:none">${x.deal_status.toUpperCase()}${x.status_confidence==='low'?'?':''}</span>`:''}
+          ${x.ib_tags.map(t=>`<span class="tag ib">${t}</span>`).join('')}
+          ${(x.companies||[]).slice(0,4).map(c=>`<a class="tag" style="text-decoration:none" href="company.html?c=${encodeURIComponent(c)}">${esc(c)}</a>`).join('')}</div>
+        <div class="s-detail"><span class="why">Why it matters</span><div>${esc(x.summary)}</div>
+          ${x.also&&x.also.length?`<div class="srcs">Also: ${x.also.slice(0,5).map(a=>a.url?`<a href="${a.url}" target="_blank" rel="noopener">${a.outlet||'source'}</a>`:'').join('')}</div>`:''}
+        </div></article>`;
+    });
+    feed.innerHTML=html;
+    feed.querySelectorAll('.story').forEach(s=>s.addEventListener('click',e=>{
+      if(e.target.tagName==='A') return;
+      const id=s.dataset.id; state.open.has(id)?state.open.delete(id):state.open.add(id);
+      s.classList.toggle('open');
+    }));
+  }
+
+  // trends
+  const tl=document.getElementById('trendList');
+  const top = TRENDS.slice(0,12);
+  tl.innerHTML = top.map(t=>{
+    const max=Math.max(1,...t.spark);
+    const bars=t.spark.map(v=>`<i style="height:${Math.max(6, v/max*100)}%"></i>`).join('');
+    return `<div class="trow ${state.entity===t.entity?'sel':''}" data-e="${t.entity}">
+      <span class="ent">${t.entity}</span>
+      ${t.spiking?'<span class="spike">SPIKE</span>':''}
+      <span class="mult">${t.score>=1?t.score.toFixed(1)+'×':''}</span>
+      <span class="spark">${bars}</span></div>`;
+  }).join('') || '<div class="empty" style="padding:12px">No trend data yet.</div>';
+  tl.querySelectorAll('.trow').forEach(r=>r.onclick=()=>{
+    state.entity = state.entity===r.dataset.e ? '' : r.dataset.e; render();
+  });
+}
+
+document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value;render();});
+document.getElementById('impSel').addEventListener('change',e=>{state.imp=+e.target.value;render();});
+
+loadData(true);
+setInterval(()=>loadData(false), 2*60*1000); // re-fetch every 2 minutes
+</script>
+</body>
+</html>

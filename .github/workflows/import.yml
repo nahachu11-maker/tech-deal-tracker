@@ -1,0 +1,66 @@
+name: Import screening report
+
+# The drop-box: upload a Capital IQ export (.xls/.xlsx/.csv) into the inbox/
+# folder using GitHub's web uploader, and this robot imports it, refreshes
+# the audit report, deletes the licensed source file, and commits the result.
+
+on:
+  push:
+    paths:
+      - "inbox/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-updates
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Import every report in the inbox
+        run: |
+          shopt -s nullglob nocaseglob
+          found=0
+          for f in inbox/*.xls inbox/*.xlsx inbox/*.csv; do
+            found=1
+            echo "=== importing $f ==="
+            python pipeline/import_deals.py "$f" --source capiq --mode import \
+                   --acknowledge-license --trust
+            git rm -q "$f"   # licensed source file must not live in the repo
+          done
+          if [ "$found" = "0" ]; then
+            echo "Inbox is empty — nothing to import."
+          fi
+
+      - name: Collapse any duplicates
+        run: python pipeline/dedupe.py
+
+      - name: Refresh audit report and public data file
+        run: |
+          python pipeline/audit.py
+          python pipeline/scrub_publish.py
+
+      - name: Commit results
+        run: |
+          git config user.name "deal-tracker-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/deals.json data/audit.json data/deals.public.json data/feedback.jsonl
+          git diff --cached --quiet && git diff --quiet || {
+            git add -A
+            git commit -m "chore: import screening report $(date -u +%F)"
+            git pull --rebase
+            git push
+          }

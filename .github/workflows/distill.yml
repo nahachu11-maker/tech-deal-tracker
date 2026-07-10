@@ -1,0 +1,46 @@
+name: Weekly lesson distillation
+
+on:
+  schedule:
+    - cron: "0 16 * * 1"   # Mondays 16:00 UTC (~9am Pacific)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  distill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r pipeline/requirements.txt
+
+      - name: Distill lessons (eval-gated)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/distill.py
+
+      - name: Open PR if LESSONS.md changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet pipeline/LESSONS.md; then
+            echo "No lesson changes this week."
+            exit 0
+          fi
+          BRANCH="distill/$(date -u +%Y-%m-%d)"
+          git config user.name "deal-tracker-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add pipeline/LESSONS.md
+          git commit -m "Proposed lessons update $(date -u +%F)"
+          git push -u origin "$BRANCH"
+          BODY_FILE=data/.distill_summary.md
+          [ -f "$BODY_FILE" ] || echo "Automated lesson distillation." > "$BODY_FILE"
+          gh pr create --title "Weekly lesson distillation $(date -u +%F)" \
+            --body-file "$BODY_FILE" --base main --head "$BRANCH" \
+            --label "self-improvement" || echo "PR creation skipped (check labels/permissions)."

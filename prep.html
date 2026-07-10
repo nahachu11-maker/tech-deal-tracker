@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interview Prep · Tech Tape</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#EFF1ED;--panel:#F7F8F5;--ink:#14212B;--ink-soft:#4A5A66;--rule:#C9CEC6;
+--serif:'Libre Caslon Text',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,monospace;--sans:'Inter',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.55}
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 60px}
+.masthead{border-top:3px double var(--ink);border-bottom:1px solid var(--ink);padding:18px 0 14px;margin-bottom:20px}
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.kicker a{color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px}
+h1{font-family:var(--serif);font-size:clamp(26px,4.5vw,38px);font-weight:700;margin:4px 0 2px}
+.sub{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px}
+select{font-size:13px;padding:8px 10px;border:1px solid var(--ink);background:#fff;border-radius:0;max-width:100%}
+button.btn{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:9px 16px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);cursor:pointer}
+button.btn:disabled{opacity:.5;cursor:wait}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.out{background:var(--panel);border:1px solid var(--rule);padding:20px 22px;margin-top:14px}
+.out h2{font-family:var(--serif);font-size:16px;border-bottom:1px solid var(--ink);padding-bottom:3px;margin:14px 0 8px}
+.out h2:first-child{margin-top:0}
+.out p{margin-bottom:8px}
+.out ol,.out ul{margin:0 0 8px 20px}
+.out li{margin-bottom:6px}
+.err{color:#8C2F39;background:#F3E4E5;border:1px solid #8C2F39;padding:10px 12px;margin-top:10px;font-size:13px}
+.keynote{font-size:12px;color:var(--ink-soft);margin:8px 0 14px}
+.keynote a{color:inherit}
+.foot{margin-top:24px;padding-top:14px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-soft)}
+</style>
+</head>
+<body><div class="wrap">
+<header class="masthead">
+  <div class="kicker"><span>Recruiting Console</span>
+    <span><a href="index.html">Deals</a><a href="news.html">News</a><a href="memo.html">Memo</a><a href="ask.html">Ask</a></span></div>
+  <h1>Interview Prep</h1>
+  <div class="sub">Rehearse "walk me through a deal" on transactions you actually track</div>
+</header>
+
+<div class="row">
+  <select id="dealSel"><option>Loading deals…</option></select>
+  <button class="btn" id="gen">Generate drill</button>
+</div>
+<div class="keynote" id="keynote">Uses the API key you saved on the <a href="ask.html">Ask page</a> — set it up there first (2 minutes, one time).</div>
+<div id="out"></div>
+
+<p class="foot">The model answer uses only facts from your tracked record — including gracefully acknowledging what wasn't disclosed, which is itself good interview technique. Rehearse out loud, 60–90 seconds. Verify any number before you say it in a real interview.</p>
+</div>
+<script>
+const MODEL="claude-sonnet-4-6";
+const SYSTEM=`You are an investment-banking interview coach. You receive one deal record from
+a tracker (name, type, value, status, advisors, note) and optionally related
+news items.
+
+Produce, in markdown:
+
+## The setup question
+How an interviewer would actually ask it ("Tell me about a recent deal you've been following").
+## Model answer (60-90 seconds spoken)
+Structured as: what happened (parties, value, structure), why it happened (strategic rationale), the interesting wrinkle (regulatory angle, structure, financing, or what it signals), and a closing view. Use ONLY facts from the provided record. Where a detail is not in the record (e.g., exact multiple), the model answer should gracefully acknowledge it ("terms beyond the headline number weren't disclosed") — this is itself good interview technique.
+## Three follow-up questions
+Each with a 2-3 sentence strong answer.
+## One trap
+The mistake a candidate would plausibly make discussing this deal (wrong deal type, confusing announced vs. closed, misreading a minority stake) and the correction.
+
+Tone: direct coach, not cheerleader. If the deal record is too thin to support
+a good interview answer, say so and state what to look up first.`;
+
+let DEALS=[];
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+const $=id=>document.getElementById(id);
+function md(text){
+  const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  let out='',inList=false;
+  for(let line of text.split('\n')){
+    line=esc(line.trim()).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+    if(!line){if(inList){out+='</ol>';inList=false;}continue;}
+    if(/^#+\s/.test(line)){if(inList){out+='</ol>';inList=false;}out+=`<h2>${line.replace(/^#+\s/,'')}</h2>`;}
+    else if(/^(\d+\.|-)\s/.test(line)){if(!inList){out+='<ol>';inList=true;}out+=`<li>${line.replace(/^(\d+\.|-)\s/,'')}</li>`;}
+    else{if(inList){out+='</ol>';inList=false;}out+=`<p>${line}</p>`;}
+  }
+  if(inList)out+='</ol>';
+  return out;
+}
+async function load(){
+  const d=await (await fetch('data/deals.json?t='+Date.now())).json();
+  DEALS=d.deals;
+  $('dealSel').innerHTML=DEALS.map((x,i)=>`<option value="${i}">${x.d.slice(0,7)} · ${x.type} · ${esc(x.name)}${x.v?` ($${x.v}B)`:''}</option>`).join('');
+}
+$('gen').onclick=async()=>{
+  const KEY=localStorage.getItem('askdata_key')||'';
+  if(!KEY){$('out').innerHTML='<div class="err">No API key saved. Go to the Ask page, paste your key once, then come back.</div>';return;}
+  const deal=DEALS[+$('dealSel').value];
+  const btn=$('gen'); btn.disabled=true;
+  $('out').innerHTML='<div class="out">Preparing your drill…</div>';
+  try{
+    const r=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'x-api-key':KEY,'anthropic-version':'2023-06-01','content-type':'application/json',
+               'anthropic-dangerous-direct-browser-access':'true'},
+      body:JSON.stringify({model:MODEL,max_tokens:1400,system:SYSTEM,
+        messages:[{role:'user',content:'Deal record:\n'+JSON.stringify({
+          name:deal.name,type:deal.type,value_bn:deal.v,ipo_valuation_bn:deal.val,
+          date:deal.d,status:deal.status,sector:deal.sector,
+          advisors:deal.advisors||[],comps:deal.comps||null,note:deal.note||''})}]})});
+    const data=await r.json();
+    if(!r.ok) throw new Error(data.error&&data.error.message?data.error.message:('HTTP '+r.status));
+    const text=(data.content||[]).map(b=>b.type==='text'?b.text:'').join('').trim();
+    $('out').innerHTML='<div class="out">'+md(text)+'</div>';
+  }catch(e){
+    $('out').innerHTML='<div class="err">'+String(e.message||e).replace(/</g,'&lt;')+'</div>';
+  }
+  btn.disabled=false;
+};
+load();
+</script>
+</body></html>

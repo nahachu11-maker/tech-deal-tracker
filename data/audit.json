@@ -1,0 +1,195 @@
+{
+ "generated_at": "2026-07-10T12:53:15.116950+00:00",
+ "data_last_updated": "2026-07-09T02:16:23.509736+00:00",
+ "pending": [
+  {
+   "n": 1,
+   "d": "2025-11-19",
+   "type": "M&A",
+   "name": "Adobe / Semrush",
+   "v": 1.9,
+   "status": "Closed",
+   "sector": "Marketing Software",
+   "source": "pipeline",
+   "note": "Adobe Inc. (NasdaqGS:ADBE) entered into an Agreement and Plan of Merger to acquire Semrush Holdings, Inc. (NYSE:SEMR) from Siguler Guff & Company, LP, Greycroft Growth II, L.P., managed by Greycroft LP, and others for $2 billion on November 18, 2025.",
+   "source_url": "",
+   "verify_failed": false
+  },
+  {
+   "n": 2,
+   "d": "2025-03-18",
+   "type": "M&A",
+   "name": "Google / Wiz",
+   "v": 32,
+   "status": "Closed",
+   "sector": "Cloud Security",
+   "source": "pipeline",
+   "note": "Google LLC entered into a definitive agreement to acquire Wiz, Inc. for $32 billion on March 18, 2025. The transaction is in an all-cash transaction and the purchase price is subject to closing adjustments.",
+   "source_url": "",
+   "verify_failed": false
+  }
+ ],
+ "quality": {
+  "total_flags": 7,
+  "by_check": {
+   "possible_duplicate": [
+    {
+     "issue": "possible_duplicate",
+     "deals": [
+      "Francisco Partners Management / Quorum Business Solutions",
+      "Veritas Capital Fund Management, L.L.C / Cloud-based digital banking business of NCR Voyix"
+     ],
+     "detail": "Same type, overlapping names, 210 days apart."
+    },
+    {
+     "issue": "possible_duplicate",
+     "deals": [
+      "TCL Technology Group / Shenzhen China Star Optoelectronics Semiconductor Display Technology",
+      "TCL China Star Optoelectronic Technology / LG Display (China) Co., Ltd./LG Display Guangzhou"
+     ],
+     "detail": "Same type, overlapping names, 159 days apart."
+    },
+    {
+     "issue": "possible_duplicate",
+     "deals": [
+      "KKR & / Fuji Soft",
+      "KKR & / Fuji Soft"
+     ],
+     "detail": "Same type, overlapping names, 99 days apart."
+    },
+    {
+     "issue": "possible_duplicate",
+     "deals": [
+      "Dai Nippon Printing / Shinko Electric Industries",
+      "Dai Nippon Printing / Shinko Electric Industries"
+     ],
+     "detail": "Same type, overlapping names, 0 days apart."
+    }
+   ],
+   "stale_pending": [
+    {
+     "issue": "stale_pending",
+     "deals": [
+      "Bolloré / Société Industrielle et Financière de l'Artois Société anonyme"
+     ],
+     "detail": "Pending for 666 days — probably closed or dead; verify."
+    },
+    {
+     "issue": "stale_pending",
+     "deals": [
+      "Francisco Partners Management / Jama Software"
+     ],
+     "detail": "Pending for 844 days — probably closed or dead; verify."
+    }
+   ],
+   "value_outlier": [
+    {
+     "issue": "value_outlier",
+     "deals": [
+      "Space Exploration Technologies / X.AI"
+     ],
+     "detail": "M&A value $250.0B looks like a unit error."
+    }
+   ]
+  }
+ },
+ "coverage": {
+  "deals": 334,
+  "ma": 251,
+  "with_comps": 198,
+  "with_premium": 82,
+  "with_ev_revenue": 101,
+  "with_advisors": 222,
+  "with_uid": 205,
+  "terminated_with_resolution": 12,
+  "by_source": {
+   "capiq": 191,
+   "pipeline": 143
+  },
+  "by_status": {
+   "Closed": 269,
+   "Pending": 43,
+   "Terminated": 17,
+   "Filed": 5
+  }
+ },
+ "licensing": {
+  "licensed_records": 191,
+  "fields_a_public_push_would_strip": 1010
+ },
+ "auto_merges": 5,
+ "recent_feedback": [
+  {
+   "ts": "2026-07-10",
+   "verdict": "auto-merged",
+   "reason": "self-dedupe: folded duplicate into 'Affirm — convertible notes' (2021-11-09 / Fintech / BNPL -> 2021-11-08 / Fintech / B",
+   "name": "Affirm — convertible notes"
+  },
+  {
+   "ts": "2026-07-10",
+   "verdict": "auto-merged",
+   "reason": "self-dedupe: folded duplicate into 'Mobileye' (2022-10-25 / Autonomous Driving -> 2022-10-26 / Automotive Semiconductors",
+   "name": "Mobileye"
+  },
+  {
+   "ts": "2026-07-10",
+   "verdict": "auto-merged",
+   "reason": "self-dedupe: folded duplicate into 'Blackstone & Vista / Smartsheet' (2024-09-24 / SaaS (Take-private) -> 2024-09-24 / A",
+   "name": "Blackstone & Vista / Smartsheet"
+  },
+  {
+   "ts": "2026-07-10",
+   "verdict": "auto-merged",
+   "reason": "self-dedupe: folded duplicate into 'Blackstone & Vista / Smartsheet' (2024-09-24 / ? -> 2024-09-24 / ?)",
+   "name": "Blackstone & Vista / Smartsheet"
+  },
+  {
+   "ts": "2026-07-10",
+   "verdict": "auto-merged",
+   "reason": "self-dedupe: folded duplicate into 'Mobileye' (2022-10-25 / Autonomous Driving -> 2022-10-26 / Automotive Semiconductors",
+   "name": "Mobileye"
+  },
+  {
+   "ts": "2026-07-08",
+   "verdict": "approved",
+   "reason": "batch approve-all capiq",
+   "name": "Thales S.A. / Imperva"
+  },
+  {
+   "ts": "2026-07-08",
+   "verdict": "approved",
+   "reason": "batch approve-all capiq",
+   "name": "TPG Capital / New Relic"
+  },
+  {
+   "ts": "2026-07-08",
+   "verdict": "approved",
+   "reason": "batch approve-all capiq",
+   "name": "ITOCHU / ITOCHU Techno-Solutions"
+  },
+  {
+   "ts": "2026-07-08",
+   "verdict": "approved",
+   "reason": "batch approve-all capiq",
+   "name": "Strata Decision Technology / Syntellis Performance Solutions"
+  },
+  {
+   "ts": "2026-07-08",
+   "verdict": "approved",
+   "reason": "batch approve-all capiq",
+   "name": "Symphony Technology Group / Avid Technology"
+  },
+  {
+   "ts": "2026-07-08",
+   "verdict": "approved",
+   "reason": "batch approve-all capiq",
+   "name": "BYD Electronic (International) / Product manufacturing business located in Chengdu and Wuxi"
+  },
+  {
+   "ts": "2026-07-08",
+   "verdict": "approved",
+   "reason": "batch approve-all capiq",
+   "name": "SAP / LeanIX GmbH"
+  }
+ ]
+}
