@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-10T16:59:23.918263+00:00",
+  "last_updated": "2026-07-10T18:08:58.973264+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 0
   }
@@ -43,6 +43,40 @@
    "source_url": "https://www.prnewswire.com/news-releases/eqt-to-acquire-copia-power-a-leading-integrated-power-and-ai-infrastructure-platform-302822622.html",
    "source_snippet": " Copia Power develops, owns and operates integrated large-scale energy and digital infrastructure campuses across the U.S. Copia works alongside utilities to help unlock new power capacity, accelerate infrastructure development, and support sustainable long-term grid reliability and... ",
    "extracted_at": "2026-07-10T16:11:58.252039+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-10",
+   "type": "M&A",
+   "name": "Micron Technology / GlobalWafers",
+   "v": 0.5,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Micron Technology is making a $500M strategic investment in GlobalWafers to secure wafer supply chain relationships. The deal represents a minority stake rather than an outright acquisition, with Micron committing capital to shore up access to silicon wafer supply critical to its DRAM and NAND manufacturing. Strategic rationale centers on supply chain resilience amid ongoing semiconductor capacity constraints.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNTRhdUZOU1pxWDVqU2tfbkpkb2JKd0g3YUZDQlp4WjNaeGlqYllkVXdUNTFwN0xQX2trU3FMd0RDZ3JscDc3c2NmUTRROTJBaXFzYU9vVC1zX3ZaMkVSLXBIU0tqb1RIaWEweGlsSEV4cm9FTlRReWI5Nk1aMzl4c18zdGtVQUpLcVVtZ0g2NjgtaG9RZGpZQVgzUzZWcXc?oc=5",
+   "source_snippet": "Micron Technology is making a $500M strategic investment in GlobalWafers, a significant capital commitment to secure wafer supply chain relationships.",
+   "extracted_at": "2026-07-10T18:08:48.350511+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Strategic Investment' not 'M&A', and value field should be 0.5 (in billions) not null"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-10",
+   "type": "M&A",
+   "name": "NNS Holding / OCI",
+   "v": null,
+   "val": null,
+   "sector": "Industrials/Chemicals",
+   "status": "Pending",
+   "note": "NNS Holding (Cyprus) is acquiring a stake in OCI N.V. under Dutch public takeover decree rules, indicating a formal tender or stake acquisition process. The transaction structure suggests compliance with Dutch mandatory bid or voluntary tender offer regulations. Deal value and stake percentage are not disclosed in the available text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/nns-erwirbt-anteile-an-oci-302822987.html",
+   "source_snippet": "NNS Holding (Cyprus) acquires a stake in OCI under Dutch public takeover decree rules, signaling a formal tender or stake acquisition process.",
+   "extracted_at": "2026-07-10T18:08:53.614757+00:00"
   },
   {
    "d": "2026-06-30",
