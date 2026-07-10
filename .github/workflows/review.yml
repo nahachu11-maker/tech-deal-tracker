@@ -53,6 +53,6 @@ jobs:
           git add data/deals.json data/audit.json data/feedback.jsonl
           git diff --cached --quiet || {
             git commit -m "chore: review — ${{ inputs.command }}"
-            git pull --rebase
+            git pull --rebase --autostash
             git push
           }
