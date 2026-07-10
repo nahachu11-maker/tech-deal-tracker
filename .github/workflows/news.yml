@@ -71,7 +71,7 @@ jobs:
         run: |
           git config user.name "deal-tracker-bot"
           git config user.email "bot@users.noreply.github.com"
-          git pull --rebase
           git add data/news.json data/trends.json data/deals.json data/earnings.json data/.alert_state.json data/feedback.jsonl pipeline/LESSONS.md
           git diff --cached --quiet || git commit -m "chore: auto-update news $(date -u '+%F %H:%M')"
+          git pull --rebase --autostash
           git push
