@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-10T19:59:09.199964+00:00",
+  "last_updated": "2026-07-10T21:05:46.129710+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 0
   }
@@ -95,6 +95,40 @@
    "extracted_at": "2026-07-10T19:37:08.393571+00:00",
    "verify_failed": true,
    "verify_reason": "No source text was provided to verify the extracted record against."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-10",
+   "type": "Debt",
+   "name": "Ohio Data Center Project",
+   "v": 4.0,
+   "val": null,
+   "sector": "Data Center Infrastructure",
+   "status": "Pending",
+   "note": "A $4 billion data center development proposal in Ohio is reportedly on hold following a tentative deal, with potential Amazon involvement signaling continued hyperscaler-driven infrastructure buildout. The structure of the financing or acquisition is not yet disclosed, but the scale suggests a large infrastructure SPV or project finance arrangement. The 'on hold' status implies negotiations are ongoing and no definitive agreement has been signed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM000QnNHTHF2bzhSWDhjTU5LRlZUcHRrbUhvUzlQRUFRUEJBMGpBTjQ3MU0xV1U2WFlueGFpd19ITm55NXhzQjZsUE9qc3BDU29ydHdWYTI1ZHVKQjM0aUZ3b2lFRkxNckdqQ0dyNEJBaEFIQVYtNlEtU1llMHRoM2pPbFhBd211TU5fNXdqZkk?oc=5",
+   "source_snippet": "A $4 billion data center development proposal in Ohio is on hold following a tentative deal, signaling continued large-scale infrastructure investment activity with potential Amazon involvement.",
+   "extracted_at": "2026-07-10T21:05:33.943335+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be infrastructure/development, not Debt; status should reflect 'on hold' rather than 'Pending'; value field should be 4.0 billion, not null."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-10",
+   "type": "M&A",
+   "name": "Element Solutions / Solutics Advanced Materials",
+   "v": 14.5,
+   "val": null,
+   "sector": "Semiconductor Materials",
+   "status": "Pending",
+   "note": "Element Solutions has agreed to acquire Solutics Advanced Materials for $14.5 billion in a significant specialty materials deal targeting the semiconductor supply chain. The transaction represents a major consolidation in advanced materials used in chip manufacturing. No completion has been confirmed; the deal remains subject to regulatory and shareholder approvals.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81Z1MzbDZscDU1Uy1NVWU1WVp0bzRNT2JUcGFNMzFkNXU5RElOOXlqUzA4ODdLb01QY1NkQ1QxSnZ5bGNaa21fNk8weXVXZlM2M1JWSnJIWHYxdk9RdExKOFhHc2w5c0pXT1VDd1N2LXpaLXM?oc=5",
+   "source_snippet": "Solutics Advanced Materials has agreed to be acquired by Element Solutions for a reported $14.5 billion, a significant M&A transaction in specialty materials for semiconductors.",
+   "extracted_at": "2026-07-10T21:05:40.737799+00:00"
   },
   {
    "skip": false,
