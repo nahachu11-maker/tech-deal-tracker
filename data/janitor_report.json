@@ -1,8 +1,8 @@
 {
  "meta": {
-  "last_run": "2026-07-08T06:58:02.866163+00:00",
-  "deals_checked": 334,
-  "issues": 6
+  "last_run": "2026-07-10T17:01:53.903735+00:00",
+  "deals_checked": 336,
+  "issues": 7
  },
  "issues": [
   {
@@ -24,8 +24,16 @@
   {
    "issue": "possible_duplicate",
    "deals": [
-    "Blackstone & Vista / Smartsheet",
-    "Vista Equity Partners Management / Smartsheet"
+    "KKR & / Fuji Soft",
+    "KKR & / Fuji Soft"
+   ],
+   "detail": "Same type, overlapping names, 99 days apart."
+  },
+  {
+   "issue": "possible_duplicate",
+   "deals": [
+    "Dai Nippon Printing / Shinko Electric Industries",
+    "Dai Nippon Printing / Shinko Electric Industries"
    ],
    "detail": "Same type, overlapping names, 0 days apart."
   },
@@ -34,14 +42,14 @@
    "deals": [
     "Bolloré / Société Industrielle et Financière de l'Artois Société anonyme"
    ],
-   "detail": "Pending for 664 days — probably closed or dead; verify."
+   "detail": "Pending for 666 days — probably closed or dead; verify."
   },
   {
    "issue": "stale_pending",
    "deals": [
     "Francisco Partners Management / Jama Software"
    ],
-   "detail": "Pending for 842 days — probably closed or dead; verify."
+   "detail": "Pending for 844 days — probably closed or dead; verify."
   },
   {
    "issue": "value_outlier",
