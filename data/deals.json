@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-10T21:05:46.129710+00:00",
+  "last_updated": "2026-07-10T22:32:59.995014+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 2,
+   "added": 3,
    "updated": 0,
    "duplicates": 0
   }
@@ -129,6 +129,58 @@
    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81Z1MzbDZscDU1Uy1NVWU1WVp0bzRNT2JUcGFNMzFkNXU5RElOOXlqUzA4ODdLb01QY1NkQ1QxSnZ5bGNaa21fNk8weXVXZlM2M1JWSnJIWHYxdk9RdExKOFhHc2w5c0pXT1VDd1N2LXpaLXM?oc=5",
    "source_snippet": "Solutics Advanced Materials has agreed to be acquired by Element Solutions for a reported $14.5 billion, a significant M&A transaction in specialty materials for semiconductors.",
    "extracted_at": "2026-07-10T21:05:40.737799+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-10",
+   "type": "SPAC",
+   "name": "Spring Valley Acquisition Corp. III / General Fusion",
+   "v": null,
+   "val": null,
+   "sector": "Fusion Energy",
+   "status": "Closed",
+   "note": "General Fusion completed its de-SPAC business combination with Spring Valley Acquisition Corp. III, becoming the first publicly listed fusion energy company and beginning trading on Nasdaq. The deal closes a 20-year development journey for General Fusion, which pursues magnetized target fusion technology. No deal valuation or proceeds were disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/a-20-year-fusion-bet-just-closed-its-business-combination-and-a-new-kind-of-energy-stock-is-about-to-reach-the-public-markets-302823108.html",
+   "source_snippet": "General Fusion completes its de-SPAC business combination with Spring Valley Acquisition Corp. III and begins trading on Nasdaq as the first publicly listed fusion energy company.",
+   "extracted_at": "2026-07-10T22:32:43.233761+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-10",
+   "type": "M&A",
+   "name": "e& / Vodafone",
+   "v": 5.95,
+   "val": null,
+   "sector": "Telecom",
+   "status": "Pending",
+   "note": "Emirates Telecommunications Group (e&) is divesting its minority stake in Vodafone for $5.95 billion following a strategic portfolio review. The transaction represents a significant exit from e&'s position in the UK-headquartered telecom giant. No completion language was included in the announcement, so status is treated as Pending.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/e-annonce-la-cession-de-sa-participation-dans-vodafone-pour-un-montant-de-5-95-milliards-usd-302823092.html",
+   "source_snippet": "Emirates Telecommunications Group (e&) announced the divestiture of its stake in Vodafone for $5.95 billion following a strategic portfolio review.",
+   "extracted_at": "2026-07-10T22:32:52.863891+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the divestiture has been announced as completed."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-10",
+   "type": "M&A",
+   "name": "Meta / Unknown Target",
+   "v": 6.5,
+   "val": null,
+   "sector": "Cloud & AI Infrastructure",
+   "status": "Pending",
+   "note": "Meta is reportedly pursuing a $6.5B move to expand cloud and AI infrastructure capacity. The target and deal structure have not been disclosed; the report characterizes this as a capital deployment that could reflect M&A or elevated capex. No definitive agreement has been announced, so this remains unconfirmed speculation.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mdHBqYkltYXdOWWdKUXZxRm9pOTV4TzRmaDJhVk40TjhMMFIyWEVocjhPd0dMWTVSbEpHTTg2LXBZV25tNHAwLS1malV0MXpESlhaQTVweFpGM1h6cTFBeElpa1AwTmwwNWhnd3pIUEpNUQ?oc=5",
+   "source_snippet": "Meta is reportedly making a $6.5 billion move to expand cloud and AI infrastructure capacity, a significant capital deployment that could signal further M&A or capex escalation.",
+   "extracted_at": "2026-07-10T22:32:57.883869+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes a capital deployment for infrastructure expansion, not an M&A transaction; status should not be 'Pending' as no deal is announced."
   },
   {
    "skip": false,
