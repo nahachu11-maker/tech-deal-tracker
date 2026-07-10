@@ -1,11 +1,50 @@
 {
  "meta": {
-  "last_updated": "2026-07-09T02:16:23.509736+00:00",
+  "last_updated": "2026-07-10T16:12:13.068342+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
+  "last_run_stats": {
+   "added": 2,
+   "updated": 0,
+   "duplicates": 1
+  },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-07-10",
+   "type": "Follow-on",
+   "name": "SK Hynix",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Filed",
+   "note": "SK Hynix filed a 424B4 prospectus supplement with the SEC, indicating a public equity offering pricing event. The South Korean memory chip maker (DRAM/NAND/HBM) is tapping U.S. capital markets; deal size and proceeds are not disclosed in the filing snippet. SK Hynix is a leading supplier of HBM chips to Nvidia, making this offering strategically notable amid AI-driven demand.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963",
+   "source_snippet": "",
+   "extracted_at": "2026-07-10T16:11:41.431476+00:00",
+   "verify_failed": true,
+   "verify_reason": "No source text provided to verify the extracted record against."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-10",
+   "type": "M&A",
+   "name": "EQT / Copia Power",
+   "v": null,
+   "val": null,
+   "sector": "AI Infrastructure / Energy",
+   "status": "Pending",
+   "note": "EQT is acquiring Copia Power, an integrated power and AI infrastructure platform that develops, owns, and operates large-scale energy and digital infrastructure campuses across the U.S. Copia partners with utilities to expand power capacity and support grid reliability, positioning it as a key enabler of AI data center buildout. Deal value was not disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/eqt-to-acquire-copia-power-a-leading-integrated-power-and-ai-infrastructure-platform-302822622.html",
+   "source_snippet": " Copia Power develops, owns and operates integrated large-scale energy and digital infrastructure campuses across the U.S. Copia works alongside utilities to help unlock new power capacity, accelerate infrastructure development, and support sustainable long-term grid reliability and... ",
+   "extracted_at": "2026-07-10T16:11:58.252039+00:00"
+  },
   {
    "d": "2026-06-30",
    "type": "M&A",

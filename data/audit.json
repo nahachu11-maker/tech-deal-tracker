@@ -1,9 +1,35 @@
 {
- "generated_at": "2026-07-10T13:50:20.082987+00:00",
- "data_last_updated": "2026-07-09T02:16:23.509736+00:00",
+ "generated_at": "2026-07-10T16:12:13.599259+00:00",
+ "data_last_updated": "2026-07-10T16:12:13.068342+00:00",
  "pending": [
   {
    "n": 1,
+   "d": "2026-07-10",
+   "type": "Follow-on",
+   "name": "SK Hynix",
+   "v": null,
+   "status": "Filed",
+   "sector": "Semiconductors",
+   "source": "pipeline",
+   "note": "SK Hynix filed a 424B4 prospectus supplement with the SEC, indicating a public equity offering pricing event. The South Korean memory chip maker (DRAM/NAND/HBM) is tapping U.S. capital markets; deal size and proceeds are not disclosed in the filing snippet.",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963",
+   "verify_failed": true
+  },
+  {
+   "n": 2,
+   "d": "2026-07-10",
+   "type": "M&A",
+   "name": "EQT / Copia Power",
+   "v": null,
+   "status": "Pending",
+   "sector": "AI Infrastructure / Energy",
+   "source": "pipeline",
+   "note": "EQT is acquiring Copia Power, an integrated power and AI infrastructure platform that develops, owns, and operates large-scale energy and digital infrastructure campuses across the U.S. Copia partners with utilities to expand power capacity and support grid reliability…",
+   "source_url": "https://www.prnewswire.com/news-releases/eqt-to-acquire-copia-power-a-leading-integrated-power-and-ai-infrastructure-platform-302822622.html",
+   "verify_failed": false
+  },
+  {
+   "n": 3,
    "d": "2025-11-19",
    "type": "M&A",
    "name": "Adobe / Semrush",
@@ -16,7 +42,7 @@
    "verify_failed": false
   },
   {
-   "n": 2,
+   "n": 4,
    "d": "2025-03-18",
    "type": "M&A",
    "name": "Google / Wiz",
@@ -94,8 +120,8 @@
   }
  },
  "coverage": {
-  "deals": 334,
-  "ma": 251,
+  "deals": 336,
+  "ma": 252,
   "with_comps": 198,
   "with_premium": 82,
   "with_ev_revenue": 101,
@@ -104,13 +130,13 @@
   "terminated_with_resolution": 12,
   "by_source": {
    "capiq": 191,
-   "pipeline": 143
+   "pipeline": 145
   },
   "by_status": {
    "Closed": 269,
-   "Pending": 43,
+   "Pending": 44,
    "Terminated": 17,
-   "Filed": 5
+   "Filed": 6
   }
  },
  "licensing": {
