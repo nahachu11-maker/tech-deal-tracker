@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-11T04:58:03.399762+00:00",
+  "last_updated": "2026-07-11T07:09:53.682287+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -27,6 +27,22 @@
    "extracted_at": "2026-07-11T01:51:12.670504+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a government stake acquisition, not a traditional M&A transaction, and the deal value should reflect the 10% stake value if determinable."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-11",
+   "type": "M&A",
+   "name": "Tencent / Manus",
+   "v": null,
+   "val": null,
+   "sector": "AI",
+   "status": "Pending",
+   "note": "Tencent is in talks to acquire a significant minority or controlling stake in Manus, an AI startup, which would make it the largest shareholder per FT/Bloomberg reporting. Deal value and valuation are undisclosed. The move reflects Tencent's continued push to expand its AI portfolio through strategic stakes in emerging AI companies.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdkNRMFhJZzNkeS1PUFJSX0FGTnlReUxoYWlRbnJwMDNNX0lUOWpSRjg1ZGhrV0h4aGVUYnZEV0NBN3kwNUd3ZENGT3pqeHpqenc3SFJWVWFTX0RWQTVhc05SS1pzcW9nWHNpc0FzN1lTUHdNQ3EzU3k2aU5JSWtpY2twc3g4ZlZnWnBINWEzdzYxWUpnaVd2WlpkMEVuRjhVUWdQcTF4VkI5QURQOGNEN2wyX09SVXVPU3d1TUFR?oc=5",
+   "source_snippet": "Tencent is in talks to become the largest shareholder of AI startup Manus, per FT/Bloomberg, representing a significant minority or controlling stake acquisition in a high-profile AI company.",
+   "extracted_at": "2026-07-11T07:09:50.737696+00:00"
   },
   {
    "skip": false,
