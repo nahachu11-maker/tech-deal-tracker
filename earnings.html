@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Earnings Intelligence · Tech Deal Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#EFF1ED;--panel:#F7F8F5;--ink:#14212B;--ink-soft:#4A5A66;--rule:#C9CEC6;--gold:#B07C24;--red:#8C2F1B;--green:#3F6B3A;
+--serif:'Libre Caslon Text',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,monospace;--sans:'Inter',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5}
+.wrap{max-width:940px;margin:0 auto;padding:28px 20px 60px}
+.masthead{border-top:3px double var(--ink);border-bottom:1px solid var(--ink);padding:18px 0 14px;margin-bottom:22px}
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.kicker a{color:inherit;text-decoration:none;border-bottom:1px solid var(--ink-soft);margin-left:12px}
+h1{font-family:var(--serif);font-size:clamp(26px,4.5vw,38px);font-weight:700;margin:4px 0 2px}
+.sub{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px}
+h2{font-family:var(--serif);font-size:19px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--ink)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:5px 11px;border:1px solid var(--ink);background:none;cursor:pointer;color:var(--ink)}
+.chip.on{background:var(--ink);color:var(--paper)}
+.cardrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.card{background:var(--panel);padding:14px}
+.card .k{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.card .v{font-family:var(--serif);font-size:22px;font-weight:700;margin:4px 0}
+.card .n{font-size:12px;color:var(--ink-soft);line-height:1.45}
+.s-2{color:var(--red)} .s-1{color:#A0522D} .s0{color:var(--ink-soft)} .s1{color:#5A7D42} .s2{color:var(--green)}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--rule)}
+th{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;text-align:left;color:var(--ink-soft);padding:9px 10px;border-bottom:2px solid var(--ink)}
+td{padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+.num{font-family:var(--mono);white-space:nowrap}
+.dim{color:var(--ink-soft);font-size:12.5px}
+.dir-raised{color:var(--green);font-weight:600}.dir-lowered{color:var(--red);font-weight:600}
+.dir-maintained,.dir-initiated{color:var(--ink-soft)}.dir-withdrawn{color:var(--red);font-weight:600}
+.trend{display:flex;gap:6px;align-items:flex-end;height:64px;margin:8px 0 4px}
+.tbar{width:34px;background:var(--gold);position:relative;min-height:3px}
+.tbar .lab{position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:9px;color:var(--ink-soft);white-space:nowrap}
+.tone{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.meter{flex:1;min-width:180px}
+.meter .bar{height:8px;background:#E1E4DD;position:relative}
+.meter .fill{height:100%;background:var(--gold)}
+.foot{margin-top:24px;padding-top:14px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-soft);line-height:1.6}
+.badge{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--ink-soft);padding:1px 5px;color:var(--ink-soft)}
+.scrollx{overflow-x:auto}
+</style>
+</head>
+<body><div class="wrap">
+<header class="masthead">
+  <div class="kicker"><span>Technology · Earnings Intelligence</span>
+    <span><a href="index.html">Deals</a><a href="comps.html">Comps</a><a href="audit.html">Audit</a><a href="news.html">News</a><a href="league.html">League</a><a href="guide.html">Guide</a></span></div>
+  <h1>Earnings Intelligence</h1>
+  <div class="sub">Management sentiment, guidance moves, KPIs and tone — derived per call</div>
+</header>
+
+<div class="chips" id="chips"></div>
+<div id="content"><p class="dim">Loading…</p></div>
+
+<p class="foot">Every figure here is <b>derived analysis</b> of a public earnings communication — an
+AI reading, not gospel. Sentiment and tone are directional; the drivers shown are why the score is
+what it is. Always verify numbers against the linked source before they go into a deliverable.
+Transcript text is never stored, only this analysis. Updated automatically when a watchlist company
+files earnings.</p>
+</div>
+<script>
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const SLAB={'-2':'bearish','-1':'cautious','0':'neutral','1':'constructive','2':'bullish'};
+let DATA=null, cur=null;
+
+function render(){
+  const c=DATA.companies[cur];
+  const el=document.getElementById('content');
+  if(!c||!c.quarters.length){el.innerHTML='<p class="dim">No analyses yet for this company — they appear automatically after its next earnings filing.</p>';return}
+  const qs=c.quarters, q=qs[qs.length-1];
+  const s=q.sentiment||{}, sc=(s.score==null?0:s.score);
+
+  // header cards
+  let html=`<div class="cardrow">
+    <div class="card"><div class="k">Latest period</div><div class="v">${esc(q.period||'—')}</div>
+      <div class="n">${esc(q.source_label||'')}${q.source_url?` · <a href="${esc(q.source_url)}">source</a>`:''}</div></div>
+    <div class="card"><div class="k">Sentiment</div><div class="v s${sc>0?sc:sc}">${esc(s.label||'—')} (${sc>0?'+':''}${sc})</div>
+      <div class="n">${(s.drivers||[]).map(esc).join(' · ')}</div></div>
+    <div class="card"><div class="k">Tone</div>
+      <div class="tone" style="margin-top:6px">
+        <div class="meter"><div class="k" style="letter-spacing:.05em">confidence ${q.tone?.confidence??'—'}/10</div>
+          <div class="bar"><div class="fill" style="width:${(q.tone?.confidence||0)*10}%"></div></div></div>
+        <div class="meter"><div class="k" style="letter-spacing:.05em">hedging ${q.tone?.hedging??'—'}/10</div>
+          <div class="bar"><div class="fill" style="width:${(q.tone?.hedging||0)*10}%;background:var(--red)"></div></div></div>
+      </div><div class="n" style="margin-top:6px">${esc(q.tone?.notes||'')}</div></div>
+  </div>`;
+
+  // sentiment trend across stored quarters
+  if(qs.length>1){
+    html+=`<h2>Sentiment trend</h2><div class="trend">`+qs.map(x=>{
+      const v=(x.sentiment?.score??0);
+      return `<div class="tbar" style="height:${(v+2)/4*100}%;background:${v<0?'var(--red)':v>0?'var(--green)':'var(--ink-soft)'}">
+        <span class="lab">${esc((x.period||'').replace(/FY?/,''))}</span></div>`}).join('')+`</div>
+      <p class="dim" style="margin-top:22px">Quarter-over-quarter shifts matter more than any single reading.</p>`;
+  }
+
+  // guidance ledger
+  const g=q.guidance||[];
+  html+=`<h2>Guidance — ${esc(q.period||'')}</h2>`;
+  html+=g.length?`<div class="scrollx"><table><thead><tr><th>Metric</th><th>Direction</th><th>Prior</th><th>New</th></tr></thead><tbody>`+
+    g.map(x=>`<tr><td>${esc(x.metric)}</td><td class="dir-${esc(x.direction)}">${esc(x.direction)}</td>
+      <td class="num dim">${esc(x.prior||'—')}</td><td class="num">${esc(x.new||'—')}</td></tr>`).join('')+
+    `</tbody></table></div>`:'<p class="dim">No guidance statements detected this period.</p>';
+
+  // KPI table with QoQ from history
+  const prev=qs.length>1?qs[qs.length-2]:null;
+  const prevMap={}; (prev?.kpis||[]).forEach(k=>prevMap[k.name]=k);
+  const kpis=q.kpis||[];
+  html+=`<h2>KPI tracking</h2>`;
+  html+=kpis.length?`<div class="scrollx"><table><thead><tr><th>KPI</th><th>This period</th><th>Prior period</th><th>YoY (as stated)</th></tr></thead><tbody>`+
+    kpis.map(k=>{const p=prevMap[k.name];
+      return `<tr><td>${esc(k.name)}</td><td class="num">${esc(k.value)} ${esc(k.unit||'')}</td>
+        <td class="num dim">${p?esc(p.value)+' '+esc(p.unit||''):'—'}</td>
+        <td class="num dim">${esc(k.yoy||'—')}</td></tr>`}).join('')+`</tbody></table></div>`
+    :'<p class="dim">No KPIs extracted this period.</p>';
+  if((q.dropped_kpis||[]).length)
+    html+=`<p class="dim" style="margin-top:6px"><span class="badge" style="border-color:var(--red);color:var(--red)">signal</span>
+      Stopped reporting: ${q.dropped_kpis.map(esc).join(', ')} — companies rarely drop a metric that's going well.</p>`;
+
+  // M&A commentary
+  if(q.ma_commentary?.present)
+    html+=`<h2>M&amp;A commentary</h2><p>${esc(q.ma_commentary.summary)} <span class="dim">— worth a spot in the deal pipeline's rumor column.</span></p>`;
+
+  el.innerHTML=html;
+}
+
+fetch('data/earnings_intel.json').then(r=>r.json()).then(d=>{
+  DATA=d;
+  const keys=Object.keys(d.companies||{}).filter(k=>d.companies[k].quarters.length)
+    .sort((a,b)=>d.companies[a].name.localeCompare(d.companies[b].name));
+  const chips=document.getElementById('chips');
+  if(!keys.length){document.getElementById('content').innerHTML=
+    '<p class="dim">No analyses yet. They appear automatically as watchlist companies report earnings — or trigger a run now: Actions → Earnings intelligence → Run workflow.</p>';return}
+  keys.forEach((k,i)=>{const b=document.createElement('button');
+    b.className='chip'+(i===0?' on':'');b.textContent=d.companies[k].ticker||d.companies[k].name;
+    b.onclick=()=>{chips.querySelectorAll('.chip').forEach(c=>c.classList.remove('on'));
+      b.classList.add('on');cur=k;render()};
+    chips.appendChild(b)});
+  cur=keys[0];render();
+}).catch(()=>{document.getElementById('content').innerHTML=
+  '<p class="dim">Could not load data/earnings_intel.json — run the Earnings intelligence workflow once, then refresh.</p>'});
+</script>
+</body></html>
