@@ -49,7 +49,7 @@ th.num{text-align:right}
 <body><div class="wrap">
 <header class="masthead">
   <div class="kicker"><span>Technology · Precedent Transactions</span>
-    <span><a href="index.html">Deals</a><a href="audit.html">Audit</a><a href="news.html">News</a><a href="league.html">League</a><a href="digest.html">Digest</a><a href="memo.html">Memo</a><a href="ask.html">Ask</a><a href="prep.html">Prep</a></span></div>
+    <span><a href="guide.html">Guide</a><a href="index.html">Deals</a><a href="earnings.html">Earnings</a><a href="audit.html">Audit</a><a href="news.html">News</a><a href="league.html">League</a><a href="digest.html">Digest</a><a href="memo.html">Memo</a><a href="ask.html">Ask</a><a href="prep.html">Prep</a></span></div>
   <h1>Precedent Comps</h1>
   <div class="sub">Multiples, premia and broken deals across tracked tech M&amp;A</div>
 </header>
@@ -203,9 +203,9 @@ function buildControls(){
     render()});
 }
 
-fetch('data/deals.json').then(r=>r.json()).then(doc=>{
+fetch('data/deals.public.json').then(r=>r.json()).then(doc=>{
   DEALS=doc.deals||[];buildControls();render();
 }).catch(()=>{document.getElementById('universe').textContent=
-  'Could not load data/deals.json — run this page from a local server (python -m http.server 8000).'});
+  'Could not load data/deals.public.json — run this page from a local server (python -m http.server 8000).'});
 </script>
 </body></html>
