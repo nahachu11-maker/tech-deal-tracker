@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-11T02:50:08.218347+00:00",
- "data_last_updated": "2026-07-11T02:50:07.653696+00:00",
+ "generated_at": "2026-07-11T08:00:49.200650+00:00",
+ "data_last_updated": "2026-07-11T08:00:48.624718+00:00",
  "pending": [
   {
    "n": 1,
@@ -17,6 +17,19 @@
   },
   {
    "n": 2,
+   "d": "2026-07-11",
+   "type": "M&A",
+   "name": "Tencent / Manus",
+   "v": null,
+   "status": "Pending",
+   "sector": "AI",
+   "source": "pipeline",
+   "note": "Tencent is in talks to acquire a significant minority or controlling stake in Manus, an AI startup, which would make it the largest shareholder per FT/Bloomberg reporting. Deal value and valuation are undisclosed.",
+   "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdkNRMFhJZzNkeS1PUFJSX0FGTnlReUxoYWlRbnJwMDNNX0lUOWpSRjg1ZGhrV0h4aGVUYnZEV0NBN3kwNUd3ZENGT3pqeHpqenc3SFJWVWFTX0RWQTVhc05SS1pzcW9nWHNpc0FzN1lTUHdNQ3EzU3k2aU5JSWtpY2twc3g4ZlZnWnBINWEzdzYxWUpnaVd2WlpkMEVuRjhVUWdQcTF4VkI5QURQOGNEN2wyX09SVXVPU3d1TUFR?oc=5",
+   "verify_failed": false
+  },
+  {
+   "n": 3,
    "d": "2026-07-10",
    "type": "Follow-on",
    "name": "SK Hynix",
@@ -29,7 +42,7 @@
    "verify_failed": true
   },
   {
-   "n": 3,
+   "n": 4,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "EQT / Copia Power",
@@ -42,7 +55,7 @@
    "verify_failed": false
   },
   {
-   "n": 4,
+   "n": 5,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Micron Technology / GlobalWafers",
@@ -55,7 +68,7 @@
    "verify_failed": true
   },
   {
-   "n": 5,
+   "n": 6,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "NNS Holding / OCI",
@@ -68,7 +81,7 @@
    "verify_failed": false
   },
   {
-   "n": 6,
+   "n": 7,
    "d": "2026-07-10",
    "type": "IPO",
    "name": "SK hynix",
@@ -81,7 +94,7 @@
    "verify_failed": true
   },
   {
-   "n": 7,
+   "n": 8,
    "d": "2026-07-10",
    "type": "Debt",
    "name": "Ohio Data Center Project",
@@ -94,7 +107,7 @@
    "verify_failed": true
   },
   {
-   "n": 8,
+   "n": 9,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Element Solutions / Solutics Advanced Materials",
@@ -107,7 +120,7 @@
    "verify_failed": false
   },
   {
-   "n": 9,
+   "n": 10,
    "d": "2026-07-10",
    "type": "SPAC",
    "name": "Spring Valley Acquisition Corp. III / General Fusion",
@@ -120,7 +133,7 @@
    "verify_failed": false
   },
   {
-   "n": 10,
+   "n": 11,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "e& / Vodafone",
@@ -133,7 +146,7 @@
    "verify_failed": true
   },
   {
-   "n": 11,
+   "n": 12,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Meta / Unknown Target",
@@ -146,7 +159,7 @@
    "verify_failed": true
   },
   {
-   "n": 12,
+   "n": 13,
    "d": "2026-07-09",
    "type": "IPO",
    "name": "Gloo Holdings",
@@ -159,7 +172,7 @@
    "verify_failed": false
   },
   {
-   "n": 13,
+   "n": 14,
    "d": "2025-11-19",
    "type": "M&A",
    "name": "Adobe / Semrush",
@@ -172,7 +185,7 @@
    "verify_failed": false
   },
   {
-   "n": 14,
+   "n": 15,
    "d": "2025-03-18",
    "type": "M&A",
    "name": "Google / Wiz",
@@ -257,8 +270,8 @@
   }
  },
  "coverage": {
-  "deals": 346,
-  "ma": 258,
+  "deals": 347,
+  "ma": 259,
   "with_comps": 198,
   "with_premium": 82,
   "with_ev_revenue": 101,
@@ -267,11 +280,11 @@
   "terminated_with_resolution": 12,
   "by_source": {
    "capiq": 191,
-   "pipeline": 155
+   "pipeline": 156
   },
   "by_status": {
    "Closed": 271,
-   "Pending": 51,
+   "Pending": 52,
    "Terminated": 17,
    "Filed": 7
   }
