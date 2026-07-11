@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-11T13:25:17.692621+00:00",
- "data_last_updated": "2026-07-11T13:25:17.117969+00:00",
+ "generated_at": "2026-07-11T19:08:31.372978+00:00",
+ "data_last_updated": "2026-07-11T19:08:30.872791+00:00",
  "pending": [
   {
    "n": 1,
@@ -30,6 +30,19 @@
   },
   {
    "n": 3,
+   "d": "2026-07-11",
+   "type": "M&A",
+   "name": "Nvidia / Lancium",
+   "v": null,
+   "status": "Pending",
+   "sector": "AI Infrastructure / Power",
+   "source": "pipeline",
+   "note": "Nvidia and unnamed tech firms are reportedly eyeing minority stakes in Lancium, a power infrastructure company that serves as the backbone for the Stargate AI project. The deal structure involves minority stake acquisitions rather than full control.",
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wUEhXRi1wNEdjaWc1Y0wwVGJ0U0pZMjFSbmNNdUpKemZqWmNJRmtqU3pFRnZwQ090NVRaSi05eVBfNzI1bHFuZnZZNWVPQTlGZnE2MmdZY2I0aWMyRUtsRmN1dVk3QkFqal9KR3RnWDYyZw?oc=5",
+   "verify_failed": false
+  },
+  {
+   "n": 4,
    "d": "2026-07-10",
    "type": "Follow-on",
    "name": "SK Hynix",
@@ -42,7 +55,7 @@
    "verify_failed": true
   },
   {
-   "n": 4,
+   "n": 5,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "EQT / Copia Power",
@@ -55,7 +68,7 @@
    "verify_failed": false
   },
   {
-   "n": 5,
+   "n": 6,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Micron Technology / GlobalWafers",
@@ -68,7 +81,7 @@
    "verify_failed": true
   },
   {
-   "n": 6,
+   "n": 7,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "NNS Holding / OCI",
@@ -81,7 +94,7 @@
    "verify_failed": false
   },
   {
-   "n": 7,
+   "n": 8,
    "d": "2026-07-10",
    "type": "IPO",
    "name": "SK hynix",
@@ -94,7 +107,7 @@
    "verify_failed": true
   },
   {
-   "n": 8,
+   "n": 9,
    "d": "2026-07-10",
    "type": "Debt",
    "name": "Ohio Data Center Project",
@@ -107,7 +120,7 @@
    "verify_failed": true
   },
   {
-   "n": 9,
+   "n": 10,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Element Solutions / Solutics Advanced Materials",
@@ -120,7 +133,7 @@
    "verify_failed": false
   },
   {
-   "n": 10,
+   "n": 11,
    "d": "2026-07-10",
    "type": "SPAC",
    "name": "Spring Valley Acquisition Corp. III / General Fusion",
@@ -133,7 +146,7 @@
    "verify_failed": false
   },
   {
-   "n": 11,
+   "n": 12,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "e& / Vodafone",
@@ -146,7 +159,7 @@
    "verify_failed": true
   },
   {
-   "n": 12,
+   "n": 13,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Meta / Unknown Target",
@@ -159,7 +172,7 @@
    "verify_failed": true
   },
   {
-   "n": 13,
+   "n": 14,
    "d": "2026-07-09",
    "type": "IPO",
    "name": "Gloo Holdings",
@@ -172,7 +185,7 @@
    "verify_failed": false
   },
   {
-   "n": 14,
+   "n": 15,
    "d": "2025-11-19",
    "type": "M&A",
    "name": "Adobe / Semrush",
@@ -185,7 +198,7 @@
    "verify_failed": false
   },
   {
-   "n": 15,
+   "n": 16,
    "d": "2025-03-18",
    "type": "M&A",
    "name": "Google / Wiz",
@@ -270,8 +283,8 @@
   }
  },
  "coverage": {
-  "deals": 347,
-  "ma": 259,
+  "deals": 348,
+  "ma": 260,
   "with_comps": 198,
   "with_premium": 82,
   "with_ev_revenue": 101,
@@ -280,11 +293,11 @@
   "terminated_with_resolution": 12,
   "by_source": {
    "capiq": 191,
-   "pipeline": 156
+   "pipeline": 157
   },
   "by_status": {
    "Closed": 271,
-   "Pending": 52,
+   "Pending": 53,
    "Terminated": 17,
    "Filed": 7
   }
