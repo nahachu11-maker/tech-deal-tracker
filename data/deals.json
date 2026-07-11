@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-07-10T23:51:58.017271+00:00",
+  "last_updated": "2026-07-11T01:51:15.669450+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-07-11",
+   "type": "M&A",
+   "name": "US Government / Intel",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Reports indicate the US government is acquiring a 10% minority stake in Intel, representing a significant government intervention in the domestic semiconductor sector. The deal, if confirmed, would accompany strategic partnerships with Apple and Nvidia aimed at reshaping chip supply chains. Source characterizes these claims as unverified ('if accurate'), so figures and structure remain unconfirmed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wN2cwM1hvMlpUTlEyWDljdFdjU18xUzNPSDNlZGkxOVVST1R5V1lTc3lVb1oxZ0NCWXY5UUFMeGtwUkREVGQ5ZThvb3dpenRsN0NQUXFZOGJjYzlaSGF0QzVsVlp3c25pREtZbDN3YjJoLXZjb0U5V3B5MHc?oc=5",
+   "source_snippet": "Report claims the US government is taking a 10% stake in Intel while Apple and Nvidia partnerships are reshaping chip supply chains — if accurate, a market-moving government intervention in the semiconductor sector.",
+   "extracted_at": "2026-07-11T01:51:12.670504+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a government stake acquisition, not a traditional M&A transaction, and the deal value should reflect the 10% stake value if determinable."
+  },
   {
    "skip": false,
    "d": "2026-07-10",
