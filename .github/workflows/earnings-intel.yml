@@ -1,0 +1,49 @@
+name: Earnings intelligence
+
+# Analyzes new earnings communications for watchlist companies:
+# sentiment, guidance changes, KPI tracking, executive tone.
+# Runs each weekday evening US time (after most calls) + on demand.
+
+on:
+  schedule:
+    - cron: "30 23 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-updates
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Analyze new earnings communications
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+        run: python pipeline/earnings_intel.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "deal-tracker-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/earnings_intel.json
+          git diff --cached --quiet || git commit -m "chore: earnings intelligence $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
