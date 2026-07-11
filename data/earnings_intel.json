@@ -1,0 +1,497 @@
+{
+ "companies": {
+  "NVDA": {
+   "name": "Nvidia",
+   "ticker": "NVDA",
+   "quarters": []
+  },
+  "TSM": {
+   "name": "TSMC",
+   "ticker": "TSM",
+   "quarters": []
+  },
+  "ASML": {
+   "name": "ASML",
+   "ticker": "ASML",
+   "quarters": []
+  },
+  "AMD": {
+   "name": "AMD",
+   "ticker": "AMD",
+   "quarters": []
+  },
+  "INTC": {
+   "name": "Intel",
+   "ticker": "INTC",
+   "quarters": [
+    {
+     "period": "Q1 2026",
+     "sentiment": {
+      "score": 1,
+      "label": "constructive",
+      "drivers": [
+       "Revenue up 7% YoY to $13.6B; sixth consecutive quarter beating expectations",
+       "Data Center and AI revenue surged 22% YoY; strategic wins with Google, NVIDIA",
+       "Non-GAAP EPS $0.29, up 123% YoY; gross margin improved 180bps"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Revenue",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$13.8B to $14.8B"
+      },
+      {
+       "metric": "Gross Margin (GAAP)",
+       "direction": "initiated",
+       "prior": null,
+       "new": "37.5%"
+      },
+      {
+       "metric": "Gross Margin (Non-GAAP)",
+       "direction": "initiated",
+       "prior": null,
+       "new": "39.0%"
+      },
+      {
+       "metric": "EPS (GAAP)",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$0.08"
+      },
+      {
+       "metric": "EPS (Non-GAAP)",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$0.20"
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Revenue",
+       "value": "13.6",
+       "unit": "$B",
+       "yoy": "+7%"
+      },
+      {
+       "name": "Gross Margin (GAAP)",
+       "value": "39.4",
+       "unit": "%",
+       "yoy": "+250bps"
+      },
+      {
+       "name": "Gross Margin (Non-GAAP)",
+       "value": "41.0",
+       "unit": "%",
+       "yoy": "+180bps"
+      },
+      {
+       "name": "EPS Diluted (GAAP)",
+       "value": "-0.73",
+       "unit": "$",
+       "yoy": null
+      },
+      {
+       "name": "EPS Diluted (Non-GAAP)",
+       "value": "0.29",
+       "unit": "$",
+       "yoy": "+123%"
+      },
+      {
+       "name": "Client Computing Group (CCG) Revenue",
+       "value": "7.7",
+       "unit": "$B",
+       "yoy": "+1%"
+      },
+      {
+       "name": "Data Center and AI (DCAI) Revenue",
+       "value": "5.1",
+       "unit": "$B",
+       "yoy": "+22%"
+      },
+      {
+       "name": "Intel Foundry Revenue",
+       "value": "5.4",
+       "unit": "$B",
+       "yoy": "+16%"
+      },
+      {
+       "name": "Operating Cash Flow",
+       "value": "1.1",
+       "unit": "$B",
+       "yoy": "+35%"
+      },
+      {
+       "name": "Adjusted Free Cash Flow",
+       "value": "-2.0",
+       "unit": "$B",
+       "yoy": null
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 7,
+      "hedging": 6,
+      "notes": "Management tone is constructive; CEO emphasized momentum in AI-driven CPU demand and disciplined execution. Forward-looking statements heavily qualified with risk disclosures; no Q&A transcript provided to assess question directness."
+     },
+     "ma_commentary": {
+      "present": true,
+      "summary": "Intel repurchased 49% minority equity interest in Fab 34 Ireland joint investment, reflecting strengthened balance sheet and continued business momentum."
+     },
+     "analyzed_at": "2026-07-11T07:21:15.732653+00:00",
+     "doc_date": "2026-07-11",
+     "source_label": "EDGAR 8-K filed 2026-04-23",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/q126earningsrelease.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
+    }
+   ]
+  },
+  "AVGO": {
+   "name": "Broadcom",
+   "ticker": "AVGO",
+   "quarters": []
+  },
+  "QCOM": {
+   "name": "Qualcomm",
+   "ticker": "QCOM",
+   "quarters": []
+  },
+  "005930.KS": {
+   "name": "Samsung",
+   "ticker": "005930.KS",
+   "quarters": []
+  },
+  "000660.KS": {
+   "name": "SK Hynix",
+   "ticker": "000660.KS",
+   "quarters": []
+  },
+  "MU": {
+   "name": "Micron",
+   "ticker": "MU",
+   "quarters": []
+  },
+  "MSFT": {
+   "name": "Microsoft",
+   "ticker": "MSFT",
+   "quarters": [
+    {
+     "period": "Q3 FY2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "AI business surpassed $37B annual revenue run rate, up 123% YoY",
+       "Azure revenue grew 40% YoY; Microsoft Cloud revenue up 29%",
+       "Results exceeded expectations across revenue, operating income, and EPS"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Forward guidance",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Revenue",
+       "value": "82.9",
+       "unit": "billion",
+       "yoy": "18%"
+      },
+      {
+       "name": "Operating income",
+       "value": "38.4",
+       "unit": "billion",
+       "yoy": "20%"
+      },
+      {
+       "name": "Diluted earnings per share",
+       "value": "4.27",
+       "unit": "dollars",
+       "yoy": "23%"
+      },
+      {
+       "name": "Gross margin",
+       "value": "56.1",
+       "unit": "billion",
+       "yoy": "16%"
+      },
+      {
+       "name": "AI business annual revenue run rate",
+       "value": "37",
+       "unit": "billion",
+       "yoy": "123%"
+      },
+      {
+       "name": "Microsoft Cloud revenue",
+       "value": "54.5",
+       "unit": "billion",
+       "yoy": "29%"
+      },
+      {
+       "name": "Azure and other cloud services revenue",
+       "value": null,
+       "unit": "percent growth",
+       "yoy": "40%"
+      },
+      {
+       "name": "Commercial remaining performance obligation",
+       "value": "627",
+       "unit": "billion",
+       "yoy": "99%"
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 2,
+      "notes": "Management conveyed strong confidence with direct claims of exceeding expectations; CEO emphasized agentic computing era positioning; minimal qualifications on results."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-07-11T07:21:34.682257+00:00",
+     "doc_date": "2026-07-11",
+     "source_label": "EDGAR 8-K filed 2026-04-29",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-ex99_1.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
+    }
+   ]
+  },
+  "GOOGL": {
+   "name": "Alphabet",
+   "ticker": "GOOGL",
+   "quarters": []
+  },
+  "AMZN": {
+   "name": "Amazon",
+   "ticker": "AMZN",
+   "quarters": [
+    {
+     "period": "Q1 2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "AWS grew 28% YoY, fastest in 15 quarters; chips business exceeded $20B revenue run rate",
+       "Total net sales up 17% to $181.5B; operating income rose 30% YoY to $23.9B",
+       "Strong AI momentum: Bedrock token processing exceeded all prior years combined; 170% QoQ customer spend growth"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Net Sales",
+       "direction": "raised",
+       "prior": "$189.5B (Q1 2025 midpoint implied from 16-19% growth guidance for Q2)",
+       "new": "$194.0B - $199.0B (Q2 2026 guidance; 16-19% growth)"
+      },
+      {
+       "metric": "Operating Income",
+       "direction": "raised",
+       "prior": "$19.2B (Q2 2025)",
+       "new": "$20.0B - $24.0B (Q2 2026 guidance)"
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Net Sales",
+       "value": "$181.5B",
+       "unit": "billions",
+       "yoy": "17%"
+      },
+      {
+       "name": "Operating Income",
+       "value": "$23.9B",
+       "unit": "billions",
+       "yoy": "30%"
+      },
+      {
+       "name": "Diluted EPS",
+       "value": "$2.78",
+       "unit": "per share",
+       "yoy": "75%"
+      },
+      {
+       "name": "Operating Cash Flow (TTM)",
+       "value": "$148.5B",
+       "unit": "billions",
+       "yoy": "30%"
+      },
+      {
+       "name": "Free Cash Flow (TTM)",
+       "value": "$1.2B",
+       "unit": "billions",
+       "yoy": "-95%"
+      },
+      {
+       "name": "AWS Net Sales",
+       "value": "$37.6B",
+       "unit": "billions",
+       "yoy": "28%"
+      },
+      {
+       "name": "AWS Operating Income",
+       "value": "$14.2B",
+       "unit": "billions",
+       "yoy": "23%"
+      },
+      {
+       "name": "North America Net Sales",
+       "value": "$104.1B",
+       "unit": "billions",
+       "yoy": "12%"
+      },
+      {
+       "name": "International Net Sales",
+       "value": "$39.8B",
+       "unit": "billions",
+       "yoy": "19%"
+      },
+      {
+       "name": "Chips Business Revenue Run Rate",
+       "value": "$20B+",
+       "unit": "billions",
+       "yoy": "triple-digit growth"
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 3,
+      "notes": "CEO expressed strong optimism about AI inflection and growth trajectory. Forward-looking statements heavily caveated with macro risks (FX, energy, tariffs, geopolitical), typical boilerplate. No Q&A transcript provided."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-07-11T07:21:47.357046+00:00",
+     "doc_date": "2026-07-11",
+     "source_label": "EDGAR 8-K filed 2026-04-29",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260331xex991.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
+    }
+   ]
+  },
+  "META": {
+   "name": "Meta",
+   "ticker": "META",
+   "quarters": []
+  },
+  "AAPL": {
+   "name": "Apple",
+   "ticker": "AAPL",
+   "quarters": [
+    {
+     "period": "Q2 FY2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "Revenue $111.2B up 17% YoY with double-digit growth across every geographic segment",
+       "Diluted EPS $2.01 up 22% YoY; iPhone and Services both achieved March quarter records",
+       "Operating cash flow $28B+ with new all-time high installed base across all product categories"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Revenue",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      },
+      {
+       "metric": "EPS",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Total Revenue",
+       "value": "111.184",
+       "unit": "billions USD",
+       "yoy": "+17%"
+      },
+      {
+       "name": "Diluted EPS",
+       "value": "2.01",
+       "unit": "USD",
+       "yoy": "+22%"
+      },
+      {
+       "name": "Gross Margin",
+       "value": "54.781",
+       "unit": "billions USD",
+       "yoy": "+22% (44.867 prior year)"
+      },
+      {
+       "name": "Operating Income",
+       "value": "35.885",
+       "unit": "billions USD",
+       "yoy": "+21% (29.589 prior year)"
+      },
+      {
+       "name": "Operating Cash Flow",
+       "value": "28+",
+       "unit": "billions USD",
+       "yoy": null
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 2,
+      "notes": "Management expressed strong confidence in demand and product momentum; forward-looking statements included standard risk disclaimers but no Q&A present."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-07-11T07:21:58.681436+00:00",
+     "doc_date": "2026-07-11",
+     "source_label": "EDGAR 8-K filed 2026-04-30",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
+    }
+   ]
+  },
+  "OpenAI": {
+   "name": "OpenAI",
+   "ticker": null,
+   "quarters": []
+  },
+  "Anthropic": {
+   "name": "Anthropic",
+   "ticker": null,
+   "quarters": []
+  },
+  "CRWV": {
+   "name": "CoreWeave",
+   "ticker": "CRWV",
+   "quarters": []
+  },
+  "ORCL": {
+   "name": "Oracle",
+   "ticker": "ORCL",
+   "quarters": []
+  },
+  "PLTR": {
+   "name": "Palantir",
+   "ticker": "PLTR",
+   "quarters": []
+  }
+ },
+ "meta": {
+  "last_run": "2026-07-11T07:22:15.116077+00:00"
+ }
+}
