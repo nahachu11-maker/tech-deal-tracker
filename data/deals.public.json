@@ -1,16 +1,50 @@
 {
  "meta": {
-  "last_updated": "2026-07-12T19:09:16.687340+00:00",
+  "last_updated": "2026-07-13T01:01:49.099625+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 3
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-07-13",
+   "type": "M&A",
+   "name": "Nextflex",
+   "v": 0.58,
+   "val": null,
+   "sector": "Electronic Components",
+   "status": "Pending",
+   "note": "The final-bid process for Nextflex, a Korean flexible circuit board manufacturer, has been delayed, casting uncertainty over the expected ~800 billion KRW (~$580M) sale. No buyers have been announced and the timeline for closing the auction remains unclear. The delay may reflect limited buyer appetite or valuation disagreements at the indicated price.",
+   "advisors": [],
+   "review": false,
+   "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9yV0stUlJsYl9MYjdSMHJreWR2VFZyYmpTVzZWc2FfcEJCa1NTc2NwaUtnMnRnZWh5aGhUdHQyMTNsRklCbjN5eVRta2cyM2c3b3JZXzVQNERkbFJ0bWd5Y3FtSG5kMFVsQ0w2MDlIWdIBc0FVX3lxTE5DQVotMFN6dTRJSmJOMVZvTTE1d3QxbFRhYW55Qk5CYjMyenBrTUx0ZXFkajV4UE1xYUh1Yk12Y2szOUlkbmdUT0RTcXZzNTllN3dyMUVNUjQ2OS1jU2paaWFkTlJpXzVmc0h0bmZzMTA4SVE?oc=5",
+   "source_snippet": "The final-bid process for Nextflex (Korean flexible circuit board maker) has been delayed, clouding expectations for an ~800 billion KRW (~$580M) sale.",
+   "extracted_at": "2026-07-13T01:01:46.358867+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-12",
+   "type": "M&A",
+   "name": "Anthropic / TeraWulf",
+   "v": 19.0,
+   "val": null,
+   "sector": "AI / Data Centers",
+   "status": "Pending",
+   "note": "TeraWulf announced a reported $19B deal with Anthropic, featuring a $3.5B upfront payment component. The structure has drawn scrutiny regarding financing adequacy and whether the upfront payment is sufficient relative to total deal value. Strategic rationale likely centers on Anthropic securing dedicated AI compute/data center infrastructure capacity through TeraWulf's bitcoin mining and power assets.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWRFc2ZOWUhfT3dJdkQxQ3RibFU1bFF1T251UHFEQTdoSU5WZ0VjcmxWdTZDMGRBTHZJNVNJTGIzdS1XeUhrUjlMRExhb3gwQmotTTdmLXpnQ29ubjBkS3V0eWtnQUhjdDhqX1FKblY4UU9MT2JpbVZ6b3c1XzNvREo4T0xCa2Y3UG5jX25XVXRRZHExbVJRXzhLR0NkclJJVmE2VTRUZw?oc=5",
+   "source_snippet": "TeraWulf announces a reported $19B deal with Anthropic with a $3.5B upfront payment component, raising scrutiny around deal structure and financing adequacy.",
+   "extracted_at": "2026-07-12T21:13:56.226474+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a deal with Anthropic (an AI company), not an M&A transaction; TeraWulf is a Bitcoin mining company, making this financing/investment deal type unclear and inconsistent with stand"
+  },
   {
    "skip": false,
    "d": "2026-07-11",
@@ -2645,7 +2679,7 @@
    "sector": "Cloud Security",
    "status": "Closed",
    "note": "Google LLC entered into a definitive agreement to acquire Wiz, Inc. for $32 billion on March 18, 2025. The transaction is in an all-cash transaction and the purchase price is subject to closing adjustments. Upon the closing of the acquisition, Wiz will become part of the Google Cloud segment. The acquisition of Wiz is expected to close in 2026. As of June 13, 2025 Google has agreed to pay Wiz a massive $3.2 billion fee if regulators ultimately block the deal. As of October 24, 2025, the Federal Trade Commission approved the transaction.",
-   "review": true,
+   "review": false,
    "advisors": [
     "Goldman Sachs"
    ]
