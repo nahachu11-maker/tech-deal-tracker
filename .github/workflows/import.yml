@@ -64,6 +64,6 @@ jobs:
           git diff --cached --quiet && git diff --quiet || {
             git add -A
             git commit -m "chore: import screening report $(date -u +%F)"
-            git pull --rebase --autostash
+            git pull --rebase --autostash -X theirs
             git push
           }

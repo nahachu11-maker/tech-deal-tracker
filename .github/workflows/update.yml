@@ -57,5 +57,5 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add data/deals.json data/audit.json data/deals.public.json data/feedback.jsonl
           git diff --cached --quiet || git commit -m "chore: auto-update deals $(date -u +%F)"
-          git pull --rebase --autostash
+          git pull --rebase --autostash -X theirs
           git push

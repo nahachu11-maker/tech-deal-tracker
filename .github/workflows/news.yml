@@ -85,5 +85,5 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add data/news.json data/trends.json data/deals.json data/deals.public.json data/audit.json data/earnings.json data/.alert_state.json data/feedback.jsonl pipeline/LESSONS.md
           git diff --cached --quiet || git commit -m "chore: auto-update news $(date -u '+%F %H:%M')"
-          git pull --rebase --autostash
+          git pull --rebase --autostash -X theirs
           git push
