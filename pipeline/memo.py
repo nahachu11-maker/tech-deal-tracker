@@ -9,6 +9,7 @@ memo.html. One call a week — quality over cost, hence the senior model.
 import datetime as dt
 import json
 import os
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -45,9 +46,17 @@ Quality bar and constraints:
 - Close with a single-sentence bottom line, not a summary of the summary."""
 
 
-def build_context(days: int = 7) -> dict:
-    """Pure-ish (reads files): the week's material for the memo."""
-    now = dt.datetime.now(dt.timezone.utc)
+def build_context(days: int = 7, as_of: str | None = None) -> dict:
+    """Pure-ish (reads files): the week's material for the memo.
+
+    as_of (YYYY-MM-DD) rebuilds the context window for a PAST week — the 7
+    days ending on that date — so a botched memo can be regenerated. Honest
+    caveat: it reconstructs from whatever news/deals are still retained, so
+    it's a faithful re-telling of that week, not a byte-identical replay."""
+    if as_of:
+        now = dt.datetime.fromisoformat(as_of).replace(tzinfo=dt.timezone.utc)
+    else:
+        now = dt.datetime.now(dt.timezone.utc)
     cutoff = (now - dt.timedelta(days=days)).isoformat()
     news_f = ROOT / "data" / "news.json"
     deals_f = ROOT / "data" / "deals.json"
@@ -90,7 +99,10 @@ def complete_text(msg) -> str:
 
 def run() -> None:
     import anthropic
-    ctx = build_context()
+    as_of = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("MEMO_AS_OF", "")).strip() or None
+    if as_of:
+        print(f"[memo] regenerating memo for week ending {as_of}", flush=True)
+    ctx = build_context(as_of=as_of)
     if not ctx["news"] and not ctx["deals"]:
         print("[memo] empty week — skipping memo")
         return
