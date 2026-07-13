@@ -1,9 +1,22 @@
 {
- "generated_at": "2026-07-12T19:09:17.265686+00:00",
- "data_last_updated": "2026-07-12T19:09:16.687340+00:00",
+ "generated_at": "2026-07-13T01:55:08.814328+00:00",
+ "data_last_updated": "2026-07-13T01:01:49.099625+00:00",
  "pending": [
   {
    "n": 1,
+   "d": "2026-07-12",
+   "type": "M&A",
+   "name": "Anthropic / TeraWulf",
+   "v": 19.0,
+   "status": "Pending",
+   "sector": "AI / Data Centers",
+   "source": "pipeline",
+   "note": "TeraWulf announced a reported $19B deal with Anthropic, featuring a $3.5B upfront payment component. The structure has drawn scrutiny regarding financing adequacy and whether the upfront payment is sufficient relative to total deal value.",
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWRFc2ZOWUhfT3dJdkQxQ3RibFU1bFF1T251UHFEQTdoSU5WZ0VjcmxWdTZDMGRBTHZJNVNJTGIzdS1XeUhrUjlMRExhb3gwQmotTTdmLXpnQ29ubjBkS3V0eWtnQUhjdDhqX1FKblY4UU9MT2JpbVZ6b3c1XzNvREo4T0xCa2Y3UG5jX25XVXRRZHExbVJRXzhLR0NkclJJVmE2VTRUZw?oc=5",
+   "verify_failed": true
+  },
+  {
+   "n": 2,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "US Government / Intel",
@@ -16,7 +29,7 @@
    "verify_failed": true
   },
   {
-   "n": 2,
+   "n": 3,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "Tencent / Manus",
@@ -29,7 +42,7 @@
    "verify_failed": false
   },
   {
-   "n": 3,
+   "n": 4,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "Nvidia / Lancium",
@@ -42,7 +55,7 @@
    "verify_failed": false
   },
   {
-   "n": 4,
+   "n": 5,
    "d": "2026-07-10",
    "type": "Follow-on",
    "name": "SK Hynix",
@@ -55,7 +68,7 @@
    "verify_failed": true
   },
   {
-   "n": 5,
+   "n": 6,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "EQT / Copia Power",
@@ -68,7 +81,7 @@
    "verify_failed": false
   },
   {
-   "n": 6,
+   "n": 7,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Micron Technology / GlobalWafers",
@@ -81,7 +94,7 @@
    "verify_failed": true
   },
   {
-   "n": 7,
+   "n": 8,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "NNS Holding / OCI",
@@ -94,7 +107,7 @@
    "verify_failed": false
   },
   {
-   "n": 8,
+   "n": 9,
    "d": "2026-07-10",
    "type": "IPO",
    "name": "SK hynix",
@@ -107,7 +120,7 @@
    "verify_failed": true
   },
   {
-   "n": 9,
+   "n": 10,
    "d": "2026-07-10",
    "type": "Debt",
    "name": "Ohio Data Center Project",
@@ -120,7 +133,7 @@
    "verify_failed": true
   },
   {
-   "n": 10,
+   "n": 11,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Element Solutions / Solutics Advanced Materials",
@@ -133,7 +146,7 @@
    "verify_failed": false
   },
   {
-   "n": 11,
+   "n": 12,
    "d": "2026-07-10",
    "type": "SPAC",
    "name": "Spring Valley Acquisition Corp. III / General Fusion",
@@ -146,7 +159,7 @@
    "verify_failed": false
   },
   {
-   "n": 12,
+   "n": 13,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "e& / Vodafone",
@@ -159,7 +172,7 @@
    "verify_failed": true
   },
   {
-   "n": 13,
+   "n": 14,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Meta / Unknown Target",
@@ -172,7 +185,7 @@
    "verify_failed": true
   },
   {
-   "n": 14,
+   "n": 15,
    "d": "2026-07-09",
    "type": "IPO",
    "name": "Gloo Holdings",
@@ -185,7 +198,7 @@
    "verify_failed": false
   },
   {
-   "n": 15,
+   "n": 16,
    "d": "2025-11-19",
    "type": "M&A",
    "name": "Adobe / Semrush",
@@ -198,7 +211,7 @@
    "verify_failed": false
   },
   {
-   "n": 16,
+   "n": 17,
    "d": "2025-03-18",
    "type": "M&A",
    "name": "Google / Wiz",
@@ -254,14 +267,14 @@
      "deals": [
       "Bolloré / Société Industrielle et Financière de l'Artois Société anonyme"
      ],
-     "detail": "Pending for 668 days — probably closed or dead; verify."
+     "detail": "Pending for 669 days — probably closed or dead; verify."
     },
     {
      "issue": "stale_pending",
      "deals": [
       "Francisco Partners Management / Jama Software"
      ],
-     "detail": "Pending for 846 days — probably closed or dead; verify."
+     "detail": "Pending for 847 days — probably closed or dead; verify."
     }
    ],
    "value_outlier": [
@@ -283,8 +296,8 @@
   }
  },
  "coverage": {
-  "deals": 347,
-  "ma": 260,
+  "deals": 349,
+  "ma": 262,
   "with_comps": 198,
   "with_premium": 82,
   "with_ev_revenue": 101,
@@ -293,11 +306,11 @@
   "terminated_with_resolution": 12,
   "by_source": {
    "capiq": 191,
-   "pipeline": 156
+   "pipeline": 158
   },
   "by_status": {
    "Closed": 270,
-   "Pending": 53,
+   "Pending": 55,
    "Terminated": 17,
    "Filed": 7
   }
@@ -308,6 +321,12 @@
  },
  "auto_merges": 9,
  "recent_feedback": [
+  {
+   "ts": "2026-07-13",
+   "verdict": "approved",
+   "reason": "",
+   "name": "Nextflex"
+  },
   {
    "ts": "2026-07-10",
    "verdict": "auto-merged",
@@ -373,12 +392,6 @@
    "verdict": "approved",
    "reason": "batch approve-all capiq",
    "name": "TPG Capital / New Relic"
-  },
-  {
-   "ts": "2026-07-08",
-   "verdict": "approved",
-   "reason": "batch approve-all capiq",
-   "name": "ITOCHU / ITOCHU Techno-Solutions"
   }
  ]
 }
