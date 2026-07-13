@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-13T13:48:59.562621+00:00"
+  "last_updated": "2026-07-13T14:10:19.078528+00:00"
  },
  "trends": [
   {
    "entity": "Google",
    "today": 7,
-   "avg": 0.46,
+   "avg": 0.38,
    "score": 14.0,
    "spiking": true,
    "spark": [
@@ -16,14 +16,14 @@
     0,
     0,
     0,
-    6,
+    5,
     7
    ]
   },
   {
    "entity": "Naver",
    "today": 6,
-   "avg": 0.46,
+   "avg": 0.23,
    "score": 12.0,
    "spiking": true,
    "spark": [
@@ -33,8 +33,25 @@
     0,
     0,
     0,
-    6,
+    3,
     6
+   ]
+  },
+  {
+   "entity": "Intel",
+   "today": 14,
+   "avg": 1.23,
+   "score": 11.38,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    16,
+    14
    ]
   },
   {
@@ -55,6 +72,23 @@
    ]
   },
   {
+   "entity": "TSMC",
+   "today": 16,
+   "avg": 2.0,
+   "score": 8.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    26,
+    16
+   ]
+  },
+  {
    "entity": "Tesla",
    "today": 4,
    "avg": 0.0,
@@ -72,9 +106,9 @@
    ]
   },
   {
-   "entity": "Intel",
-   "today": 9,
-   "avg": 1.38,
+   "entity": "Alphabet",
+   "today": 5,
+   "avg": 0.77,
    "score": 6.5,
    "spiking": true,
    "spark": [
@@ -84,12 +118,12 @@
     0,
     0,
     0,
-    18,
-    9
+    10,
+    5
    ]
   },
   {
-   "entity": "Kakao",
+   "entity": "Morgan Stanley",
    "today": 3,
    "avg": 0.31,
    "score": 6.0,
@@ -106,10 +140,10 @@
    ]
   },
   {
-   "entity": "TSMC",
-   "today": 9,
-   "avg": 2.08,
-   "score": 4.33,
+   "entity": "Kakao",
+   "today": 3,
+   "avg": 0.15,
+   "score": 6.0,
    "spiking": true,
    "spark": [
     0,
@@ -118,15 +152,49 @@
     0,
     0,
     0,
-    27,
-    9
+    2,
+    3
+   ]
+  },
+  {
+   "entity": "Amazon",
+   "today": 5,
+   "avg": 0.85,
+   "score": 5.91,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    5
+   ]
+  },
+  {
+   "entity": "Meta",
+   "today": 20,
+   "avg": 3.69,
+   "score": 5.42,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    48,
+    20
    ]
   },
   {
    "entity": "Micron",
-   "today": 8,
+   "today": 10,
    "avg": 1.92,
-   "score": 4.16,
+   "score": 5.2,
    "spiking": true,
    "spark": [
     0,
@@ -136,14 +204,14 @@
     0,
     0,
     25,
-    8
+    10
    ]
   },
   {
    "entity": "SK Hynix",
-   "today": 43,
-   "avg": 11.46,
-   "score": 3.75,
+   "today": 48,
+   "avg": 9.92,
+   "score": 4.84,
    "spiking": true,
    "spark": [
     0,
@@ -152,32 +220,15 @@
     0,
     0,
     0,
-    149,
-    43
+    129,
+    48
    ]
   },
   {
-   "entity": "Anthropic",
-   "today": 7,
-   "avg": 2.15,
-   "score": 3.25,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    28,
-    7
-   ]
-  },
-  {
-   "entity": "Meta",
-   "today": 13,
+   "entity": "Apple",
+   "today": 18,
    "avg": 4.15,
-   "score": 3.13,
+   "score": 4.33,
    "spiking": true,
    "spark": [
     0,
@@ -187,11 +238,96 @@
     0,
     0,
     54,
-    13
+    18
    ]
   },
   {
-   "entity": "Amazon",
+   "entity": "Nvidia",
+   "today": 12,
+   "avg": 3.0,
+   "score": 4.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    39,
+    12
+   ]
+  },
+  {
+   "entity": "Oracle",
+   "today": 3,
+   "avg": 0.77,
+   "score": 3.9,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    10,
+    3
+   ]
+  },
+  {
+   "entity": "OpenAI",
+   "today": 15,
+   "avg": 4.15,
+   "score": 3.61,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    54,
+    15
+   ]
+  },
+  {
+   "entity": "Samsung",
+   "today": 12,
+   "avg": 3.46,
+   "score": 3.47,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    45,
+    12
+   ]
+  },
+  {
+   "entity": "Anthropic",
+   "today": 7,
+   "avg": 2.08,
+   "score": 3.37,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    27,
+    7
+   ]
+  },
+  {
+   "entity": "Palantir",
    "today": 3,
    "avg": 1.0,
    "score": 3.0,
@@ -208,77 +344,9 @@
    ]
   },
   {
-   "entity": "Samsung",
-   "today": 11,
-   "avg": 3.77,
-   "score": 2.92,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    49,
-    11
-   ]
-  },
-  {
-   "entity": "Apple",
-   "today": 11,
-   "avg": 4.38,
-   "score": 2.51,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    57,
-    11
-   ]
-  },
-  {
-   "entity": "OpenAI",
-   "today": 11,
-   "avg": 4.38,
-   "score": 2.51,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    57,
-    11
-   ]
-  },
-  {
-   "entity": "Nvidia",
-   "today": 7,
-   "avg": 3.46,
-   "score": 2.02,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    45,
-    7
-   ]
-  },
-  {
-   "entity": "Morgan Stanley",
+   "entity": "UBS",
    "today": 2,
-   "avg": 0.38,
+   "avg": 0.0,
    "score": 4.0,
    "spiking": false,
    "spark": [
@@ -288,7 +356,7 @@
     0,
     0,
     0,
-    5,
+    0,
     2
    ]
   },
@@ -310,10 +378,10 @@
    ]
   },
   {
-   "entity": "Chevron",
-   "today": 1,
+   "entity": "RIGOL",
+   "today": 2,
    "avg": 0.0,
-   "score": 2.0,
+   "score": 4.0,
    "spiking": false,
    "spark": [
     0,
@@ -323,14 +391,14 @@
     0,
     0,
     0,
-    1
+    2
    ]
   },
   {
-   "entity": "Western Digital",
-   "today": 1,
-   "avg": 0.15,
-   "score": 2.0,
+   "entity": "SanDisk",
+   "today": 2,
+   "avg": 0.62,
+   "score": 3.25,
    "spiking": false,
    "spark": [
     0,
@@ -339,15 +407,15 @@
     0,
     0,
     0,
-    2,
-    1
+    8,
+    2
    ]
   },
   {
-   "entity": "xAI",
-   "today": 1,
-   "avg": 0.31,
-   "score": 2.0,
+   "entity": "ASML",
+   "today": 2,
+   "avg": 0.85,
+   "score": 2.36,
    "spiking": false,
    "spark": [
     0,
@@ -356,76 +424,8 @@
     0,
     0,
     0,
-    4,
-    1
-   ]
-  },
-  {
-   "entity": "Tradr ETFs",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Applied Optoelectronics",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Calisa Acquisition",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Cadence",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
+    11,
+    2
    ]
   }
  ]
