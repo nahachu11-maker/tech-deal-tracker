@@ -7,6 +7,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: data-updates
+  cancel-in-progress: false
   pull-requests: write
 
 jobs:
