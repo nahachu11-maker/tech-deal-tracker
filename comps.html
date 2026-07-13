@@ -203,7 +203,7 @@ function buildControls(){
     render()});
 }
 
-fetch('data/deals.public.json').then(r=>r.json()).then(doc=>{
+fetch('data/deals.public.json?t='+Date.now()).then(r=>r.json()).then(doc=>{
   DEALS=doc.deals||[];buildControls();render();
 }).catch(()=>{document.getElementById('universe').textContent=
   'Could not load data/deals.public.json — run this page from a local server (python -m http.server 8000).'});

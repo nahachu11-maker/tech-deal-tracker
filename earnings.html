@@ -127,7 +127,7 @@ function render(){
   el.innerHTML=html;
 }
 
-fetch('data/earnings_intel.json').then(r=>r.json()).then(d=>{
+fetch('data/earnings_intel.json?t='+Date.now()).then(r=>r.json()).then(d=>{
   DATA=d;
   const keys=Object.keys(d.companies||{}).filter(k=>d.companies[k].quarters.length)
     .sort((a,b)=>d.companies[a].name.localeCompare(d.companies[b].name));

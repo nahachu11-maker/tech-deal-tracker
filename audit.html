@@ -80,7 +80,7 @@ const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').rep
 const fmtB=v=>v==null?'—':(v>=1?'$'+(+v.toFixed(1)).toLocaleString()+'B':'$'+Math.round(v*1000)+'M');
 const stat=(k,v,n,cls)=>`<div class="stat"><div class="k">${k}</div><div class="v ${cls||''}">${v}</div><div class="n">${n||''}</div></div>`;
 
-fetch('data/audit.json').then(r=>r.json()).then(a=>{
+fetch('data/audit.json?t='+Date.now()).then(r=>r.json()).then(a=>{
   const pend=a.pending||[], q=a.quality||{by_check:{}}, cov=a.coverage||{}, lic=a.licensing||{};
   document.getElementById('topStats').innerHTML=
     stat('Pending review', pend.length, pend.length?'needs a human':'queue clear', pend.length?'warn':'ok')+
