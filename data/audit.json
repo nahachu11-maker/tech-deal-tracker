@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T02:16:14.863985+00:00",
+ "generated_at": "2026-07-13T02:24:33.739271+00:00",
  "data_last_updated": "2026-07-13T01:01:49.099625+00:00",
  "pending": [
   {
@@ -109,19 +109,6 @@
   {
    "n": 9,
    "d": "2026-07-10",
-   "type": "IPO",
-   "name": "SK hynix",
-   "v": 26.5,
-   "status": "Closed",
-   "sector": "Semiconductors",
-   "source": "pipeline",
-   "note": "SK hynix filed a 424B4 prospectus supplement with the SEC on 2026-07-10, indicating a pricing event for its US-listed securities (ticker: SKHY). The filing is under SIC code 3674 (semiconductors), consistent with the company's DRAM and NAND flash memory business.",
-   "source_url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963",
-   "verify_failed": true
-  },
-  {
-   "n": 10,
-   "d": "2026-07-10",
    "type": "Debt",
    "name": "Ohio Data Center Project",
    "v": 4.0,
@@ -133,7 +120,7 @@
    "verify_failed": true
   },
   {
-   "n": 11,
+   "n": 10,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Element Solutions / Solutics Advanced Materials",
@@ -146,7 +133,7 @@
    "verify_failed": false
   },
   {
-   "n": 12,
+   "n": 11,
    "d": "2026-07-10",
    "type": "SPAC",
    "name": "Spring Valley Acquisition Corp. III / General Fusion",
@@ -159,7 +146,7 @@
    "verify_failed": false
   },
   {
-   "n": 13,
+   "n": 12,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "e& / Vodafone",
@@ -172,7 +159,7 @@
    "verify_failed": true
   },
   {
-   "n": 14,
+   "n": 13,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Meta / Unknown Target",
@@ -185,7 +172,7 @@
    "verify_failed": true
   },
   {
-   "n": 15,
+   "n": 14,
    "d": "2026-07-09",
    "type": "IPO",
    "name": "Gloo Holdings",
@@ -198,7 +185,7 @@
    "verify_failed": false
   },
   {
-   "n": 16,
+   "n": 15,
    "d": "2025-11-19",
    "type": "M&A",
    "name": "Adobe / Semrush",
@@ -312,6 +299,12 @@
    "ts": "2026-07-13",
    "verdict": "approved",
    "reason": "",
+   "name": "SK hynix"
+  },
+  {
+   "ts": "2026-07-13",
+   "verdict": "approved",
+   "reason": "",
    "name": "Google / Wiz"
   },
   {
@@ -373,12 +366,6 @@
    "verdict": "auto-merged",
    "reason": "self-dedupe: folded duplicate into 'Mobileye' (2022-10-25 / Autonomous Driving -> 2022-10-26 / Automotive Semiconductors",
    "name": "Mobileye"
-  },
-  {
-   "ts": "2026-07-08",
-   "verdict": "approved",
-   "reason": "batch approve-all capiq",
-   "name": "Thales S.A. / Imperva"
   }
  ]
 }
