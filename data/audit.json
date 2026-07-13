@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T01:55:08.814328+00:00",
+ "generated_at": "2026-07-13T02:07:36.003188+00:00",
  "data_last_updated": "2026-07-13T01:01:49.099625+00:00",
  "pending": [
   {
@@ -209,19 +209,6 @@
    "note": "Adobe Inc. (NasdaqGS:ADBE) entered into an Agreement and Plan of Merger to acquire Semrush Holdings, Inc. (NYSE:SEMR) from Siguler Guff & Company, LP, Greycroft Growth II, L.P., managed by Greycroft LP, and others for $2 billion on November 18, 2025.",
    "source_url": "",
    "verify_failed": false
-  },
-  {
-   "n": 17,
-   "d": "2025-03-18",
-   "type": "M&A",
-   "name": "Google / Wiz",
-   "v": 32,
-   "status": "Closed",
-   "sector": "Cloud Security",
-   "source": "pipeline",
-   "note": "Google LLC entered into a definitive agreement to acquire Wiz, Inc. for $32 billion on March 18, 2025. The transaction is in an all-cash transaction and the purchase price is subject to closing adjustments.",
-   "source_url": "",
-   "verify_failed": false
   }
  ],
  "quality": {
@@ -325,6 +312,12 @@
    "ts": "2026-07-13",
    "verdict": "approved",
    "reason": "",
+   "name": "Google / Wiz"
+  },
+  {
+   "ts": "2026-07-13",
+   "verdict": "approved",
+   "reason": "",
    "name": "Nextflex"
   },
   {
@@ -386,12 +379,6 @@
    "verdict": "approved",
    "reason": "batch approve-all capiq",
    "name": "Thales S.A. / Imperva"
-  },
-  {
-   "ts": "2026-07-08",
-   "verdict": "approved",
-   "reason": "batch approve-all capiq",
-   "name": "TPG Capital / New Relic"
   }
  ]
 }
