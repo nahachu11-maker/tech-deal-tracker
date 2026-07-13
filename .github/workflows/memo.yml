@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 22 * * 5"   # Fridays 22:00 UTC (~3pm Pacific / Sat 7am KST)
   workflow_dispatch:
+    inputs:
+      week_of:
+        description: "Regenerate a past week: YYYY-MM-DD of that week's END (blank = current week)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -26,6 +31,7 @@ jobs:
       - run: pip install -r pipeline/requirements.txt
       - name: Write sector memo (senior model)
         env:
+          MEMO_AS_OF: ${{ inputs.week_of }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python pipeline/memo.py
       - name: Data-quality sweep (no API needed)
