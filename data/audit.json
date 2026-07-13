@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-13T09:32:23.991653+00:00",
- "data_last_updated": "2026-07-13T09:32:23.456984+00:00",
+ "generated_at": "2026-07-13T13:49:15.586758+00:00",
+ "data_last_updated": "2026-07-13T13:49:15.023550+00:00",
  "pending": [
   {
    "n": 1,
@@ -17,6 +17,19 @@
   },
   {
    "n": 2,
+   "d": "2026-07-13",
+   "type": "SPAC",
+   "name": "Calisa Acquisition / GoodVision AI",
+   "v": null,
+   "status": "Pending",
+   "sector": "AI / Computer Vision",
+   "source": "pipeline",
+   "note": "Calisa Acquisition announced a de-SPAC combination with GoodVision AI, a computer vision and AI analytics company. The transaction follows GoodVision's admission into NVIDIA's Connect partner ecosystem, lending strategic credibility to the deal.",
+   "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOeGF4ZDRBUU5ndEdhZXgzcGNsd25DcnVnUzUxTjN3YkFuRUpBb3J4d2ZfRkc5S0xxcXlsUjBKRGtkaTM5Z3FNNlE3ZEZ4OEVRMHZpd3FEa1ZRRThqc2lfaC1YbmVpc0xuYzZIeU50X2dUTlVnZnNIWHhweXBQSktMUlhYRmdVMUlKZ2FmSG9qMEFxbm1XYmlodWdnaWhOSnJnZFVYUmZpb1hrTFdLMzNJb25IT3N1MWxFZUZCMGhXYTlhNnlQSDFoYXJ3eER4dV9TNWdmSWNxY0dnZTJuV1U3ZV9n?oc=5",
+   "verify_failed": false
+  },
+  {
+   "n": 3,
    "d": "2026-07-12",
    "type": "M&A",
    "name": "Anthropic / TeraWulf",
@@ -29,7 +42,7 @@
    "verify_failed": true
   },
   {
-   "n": 3,
+   "n": 4,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "US Government / Intel",
@@ -42,7 +55,7 @@
    "verify_failed": true
   },
   {
-   "n": 4,
+   "n": 5,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "Tencent / Manus",
@@ -55,7 +68,7 @@
    "verify_failed": false
   },
   {
-   "n": 5,
+   "n": 6,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "Nvidia / Lancium",
@@ -68,7 +81,7 @@
    "verify_failed": false
   },
   {
-   "n": 6,
+   "n": 7,
    "d": "2026-07-10",
    "type": "Follow-on",
    "name": "SK Hynix",
@@ -81,7 +94,7 @@
    "verify_failed": true
   },
   {
-   "n": 7,
+   "n": 8,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "EQT / Copia Power",
@@ -94,7 +107,7 @@
    "verify_failed": false
   },
   {
-   "n": 8,
+   "n": 9,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Micron Technology / GlobalWafers",
@@ -107,7 +120,7 @@
    "verify_failed": true
   },
   {
-   "n": 9,
+   "n": 10,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "NNS Holding / OCI",
@@ -120,7 +133,7 @@
    "verify_failed": false
   },
   {
-   "n": 10,
+   "n": 11,
    "d": "2026-07-10",
    "type": "Debt",
    "name": "Ohio Data Center Project",
@@ -133,7 +146,7 @@
    "verify_failed": true
   },
   {
-   "n": 11,
+   "n": 12,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Element Solutions / Solutics Advanced Materials",
@@ -146,7 +159,7 @@
    "verify_failed": false
   },
   {
-   "n": 12,
+   "n": 13,
    "d": "2026-07-10",
    "type": "SPAC",
    "name": "Spring Valley Acquisition Corp. III / General Fusion",
@@ -159,7 +172,7 @@
    "verify_failed": false
   },
   {
-   "n": 13,
+   "n": 14,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "e& / Vodafone",
@@ -172,7 +185,7 @@
    "verify_failed": true
   },
   {
-   "n": 14,
+   "n": 15,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Meta / Unknown Target",
@@ -185,7 +198,7 @@
    "verify_failed": true
   },
   {
-   "n": 15,
+   "n": 16,
    "d": "2026-07-09",
    "type": "IPO",
    "name": "Gloo Holdings",
@@ -198,7 +211,7 @@
    "verify_failed": false
   },
   {
-   "n": 16,
+   "n": 17,
    "d": "2025-11-19",
    "type": "M&A",
    "name": "Adobe / Semrush",
@@ -283,7 +296,7 @@
   }
  },
  "coverage": {
-  "deals": 349,
+  "deals": 350,
   "ma": 262,
   "with_comps": 198,
   "with_premium": 82,
@@ -293,11 +306,11 @@
   "terminated_with_resolution": 12,
   "by_source": {
    "capiq": 191,
-   "pipeline": 158
+   "pipeline": 159
   },
   "by_status": {
    "Closed": 270,
-   "Pending": 55,
+   "Pending": 56,
    "Terminated": 17,
    "Filed": 7
   }
