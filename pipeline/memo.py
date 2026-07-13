@@ -72,6 +72,22 @@ def build_context(days: int = 7) -> dict:
             "deals": week_deals, "trends": trends[:10]}
 
 
+
+def complete_text(msg) -> str:
+    """Join text blocks; if the response hit the token ceiling, trim back to
+    the last complete sentence so a truncation never reads as a cut-off
+    thought. Works for English and Korean sentence endings."""
+    text = "".join(b.text for b in msg.content if b.type == "text").strip()
+    if getattr(msg, "stop_reason", None) == "max_tokens":
+        print(f"[warn] generation hit max_tokens — trimming to last sentence "
+              f"({len(text)} chars)", flush=True)
+        cut = max(text.rfind(p) for p in (".", "!", "?", "\u3002", ")", "\u201d"))
+        # a dangling fragment is at most one sentence; trim it if the cut
+        # point is close to the end, never if it would gut the document
+        if cut > 0 and (len(text) - cut) < 600:
+            text = text[:cut + 1]
+    return text
+
 def run() -> None:
     import anthropic
     ctx = build_context()
@@ -80,9 +96,9 @@ def run() -> None:
         return
     client = anthropic.Anthropic(timeout=90.0, max_retries=2)
     msg = client.messages.create(
-        model=MODEL, max_tokens=1400, system=SYSTEM,
+        model=MODEL, max_tokens=2500, system=SYSTEM,
         messages=[{"role": "user", "content": json.dumps(ctx, ensure_ascii=False)}])
-    md = "".join(b.text for b in msg.content if b.type == "text").strip()
+    md = complete_text(msg)
 
     doc = json.loads(MEMO.read_text()) if MEMO.exists() else {"memos": []}
     wk = ctx["week_of"]
