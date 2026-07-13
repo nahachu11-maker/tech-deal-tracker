@@ -7,6 +7,9 @@ review.py — human approval step for auto-extracted deals.
                                        # (reasons teach the weekly distiller)
   python pipeline/review.py approve-all          # everything pending
   python pipeline/review.py approve-all capiq    # only one source (safe bulk)
+  python pipeline/review.py flag semrush         # UNDO an approval: put the
+                                                 # deal (matched by name) back
+                                                 # in the review queue
 """
 
 import datetime as dt
@@ -76,6 +79,29 @@ def main():
             print(f"Rejected: {target['name']}"
                   + (f" — {reason}" if reason else "  (tip: add a reason — it teaches the pipeline)"))
         save(doc)
+    elif cmd == "flag":
+        term = " ".join(sys.argv[2:]).strip().lower()
+        if not term:
+            print("Usage: review.py flag <part of the deal name>  e.g. flag semrush")
+            return
+        matches = [d for d in doc["deals"] if term in d["name"].lower()]
+        if not matches:
+            print(f"No deal name contains '{term}'.")
+        elif len(matches) > 1:
+            print(f"'{term}' matches {len(matches)} deals — be more specific:")
+            for d in matches[:10]:
+                print(f"  {d['d']}  {d['name']}")
+        else:
+            d = matches[0]
+            if d.get("review"):
+                print(f"'{d['name']}' is already in the review queue.")
+            else:
+                d["review"] = True
+                log_feedback(d, "re-flagged", "approval undone by reviewer")
+                save(doc)
+                print(f"Re-flagged for review: {d['name']} ({d['d']}). "
+                      "It's back in the pending queue.")
+
     elif cmd == "approve-all":
         source = sys.argv[2] if len(sys.argv) > 2 else None
         batch = [d for d in items if source is None or d.get("source") == source]
