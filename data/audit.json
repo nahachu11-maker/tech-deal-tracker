@@ -1,9 +1,22 @@
 {
- "generated_at": "2026-07-13T02:24:33.739271+00:00",
+ "generated_at": "2026-07-13T02:28:07.262574+00:00",
  "data_last_updated": "2026-07-13T01:01:49.099625+00:00",
  "pending": [
   {
    "n": 1,
+   "d": "2026-07-13",
+   "type": "M&A",
+   "name": "Nextflex",
+   "v": 0.58,
+   "status": "Pending",
+   "sector": "Electronic Components",
+   "source": "pipeline",
+   "note": "The final-bid process for Nextflex, a Korean flexible circuit board manufacturer, has been delayed, casting uncertainty over the expected ~800 billion KRW (~$580M) sale. No buyers have been announced and the timeline for closing the auction remains unclear.",
+   "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9yV0stUlJsYl9MYjdSMHJreWR2VFZyYmpTVzZWc2FfcEJCa1NTc2NwaUtnMnRnZWh5aGhUdHQyMTNsRklCbjN5eVRta2cyM2c3b3JZXzVQNERkbFJ0bWd5Y3FtSG5kMFVsQ0w2MDlIWdIBc0FVX3lxTE5DQVotMFN6dTRJSmJOMVZvTTE1d3QxbFRhYW55Qk5CYjMyenBrTUx0ZXFkajV4UE1xYUh1Yk12Y2szOUlkbmdUT0RTcXZzNTllN3dyMUVNUjQ2OS1jU2paaWFkTlJpXzVmc0h0bmZzMTA4SVE?oc=5",
+   "verify_failed": false
+  },
+  {
+   "n": 2,
    "d": "2026-07-12",
    "type": "M&A",
    "name": "Anthropic / TeraWulf",
@@ -16,7 +29,7 @@
    "verify_failed": true
   },
   {
-   "n": 2,
+   "n": 3,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "US Government / Intel",
@@ -29,7 +42,7 @@
    "verify_failed": true
   },
   {
-   "n": 3,
+   "n": 4,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "Tencent / Manus",
@@ -42,7 +55,7 @@
    "verify_failed": false
   },
   {
-   "n": 4,
+   "n": 5,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "Nvidia / Lancium",
@@ -55,7 +68,7 @@
    "verify_failed": false
   },
   {
-   "n": 5,
+   "n": 6,
    "d": "2026-07-10",
    "type": "Follow-on",
    "name": "SK Hynix",
@@ -68,7 +81,7 @@
    "verify_failed": true
   },
   {
-   "n": 6,
+   "n": 7,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "EQT / Copia Power",
@@ -81,7 +94,7 @@
    "verify_failed": false
   },
   {
-   "n": 7,
+   "n": 8,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Micron Technology / GlobalWafers",
@@ -94,7 +107,7 @@
    "verify_failed": true
   },
   {
-   "n": 8,
+   "n": 9,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "NNS Holding / OCI",
@@ -107,7 +120,7 @@
    "verify_failed": false
   },
   {
-   "n": 9,
+   "n": 10,
    "d": "2026-07-10",
    "type": "Debt",
    "name": "Ohio Data Center Project",
@@ -120,7 +133,7 @@
    "verify_failed": true
   },
   {
-   "n": 10,
+   "n": 11,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Element Solutions / Solutics Advanced Materials",
@@ -133,7 +146,7 @@
    "verify_failed": false
   },
   {
-   "n": 11,
+   "n": 12,
    "d": "2026-07-10",
    "type": "SPAC",
    "name": "Spring Valley Acquisition Corp. III / General Fusion",
@@ -146,7 +159,7 @@
    "verify_failed": false
   },
   {
-   "n": 12,
+   "n": 13,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "e& / Vodafone",
@@ -159,7 +172,7 @@
    "verify_failed": true
   },
   {
-   "n": 13,
+   "n": 14,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Meta / Unknown Target",
@@ -172,7 +185,7 @@
    "verify_failed": true
   },
   {
-   "n": 14,
+   "n": 15,
    "d": "2026-07-09",
    "type": "IPO",
    "name": "Gloo Holdings",
@@ -185,7 +198,7 @@
    "verify_failed": false
   },
   {
-   "n": 15,
+   "n": 16,
    "d": "2025-11-19",
    "type": "M&A",
    "name": "Adobe / Semrush",
@@ -297,6 +310,12 @@
  "recent_feedback": [
   {
    "ts": "2026-07-13",
+   "verdict": "re-flagged",
+   "reason": "approval undone by reviewer",
+   "name": "Nextflex"
+  },
+  {
+   "ts": "2026-07-13",
    "verdict": "approved",
    "reason": "",
    "name": "SK hynix"
@@ -360,12 +379,6 @@
    "verdict": "auto-merged",
    "reason": "self-dedupe: folded duplicate into 'Blackstone & Vista / Smartsheet' (2024-09-24 / ? -> 2024-09-24 / ?)",
    "name": "Blackstone & Vista / Smartsheet"
-  },
-  {
-   "ts": "2026-07-10",
-   "verdict": "auto-merged",
-   "reason": "self-dedupe: folded duplicate into 'Mobileye' (2022-10-25 / Autonomous Driving -> 2022-10-26 / Automotive Semiconductors",
-   "name": "Mobileye"
   }
  ]
 }
