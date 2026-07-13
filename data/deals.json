@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-13T16:47:24.816313+00:00",
+  "last_updated": "2026-07-13T18:28:53.779031+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
    "duplicates": 0
   }
@@ -73,6 +73,56 @@
    "source_url": "https://www.prnewswire.com/news-releases/csl-group-acquires-iotm-solutions-to-power-global-esim-orchestration-302822981.html",
    "source_snippet": " Adding proven SIM management scale and 100+ operator access to accelerate SGP.32 eSIM readiness LONDON, July 13, 2026 /PRNewswire/ -- CSL Group, the leading global provider of Critical Connectivity®, has acquired IoTM Solutions Ltd, creating a global platform for resilient, multi-carrier... ",
    "extracted_at": "2026-07-13T14:39:29.170864+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-13",
+   "type": "M&A",
+   "name": "Micron / Texas Wafer Supplier",
+   "v": 0.5,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Micron announced a $500M deal to secure wafer supply in Texas, aimed at strengthening its domestic semiconductor supply chain. The transaction appears to involve a fab partnership or supply agreement with a Texas-based wafer producer. Strategic rationale centers on reducing supply-chain concentration risk and supporting U.S. onshore chip manufacturing capacity.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcGI0bTZMUE5PcXg4YllnLVUwUWM1WVA5QThiTUYta2c2QXEtbFFZTVY0TmlXTjN5VTlKamFYempSX1ZnbjczeXBrNWxsUFEyTF91ZG9hNHhJbVFNWW1HaThnR1EyWHNCN2QwQUpFYjFwVGtzT01Ka0RBMExPZGxka0FDNXM5aHkyMGRN?oc=5",
+   "source_snippet": "Micron announced a $500M deal to secure wafer supply in Texas, relevant to supply-chain investment and potential fab partnerships.",
+   "extracted_at": "2026-07-13T18:28:37.846805+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value is $500M (v: 0.5 in billions), not null; deal type appears to be a supply agreement rather than M&A; status should reflect announcement stage, not 'Pending'"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-13",
+   "type": "M&A",
+   "name": "Spark AI Foundry Holdings / EdgeMode",
+   "v": null,
+   "val": null,
+   "sector": "AI Infrastructure / Data Centers",
+   "status": "Pending",
+   "note": "Spark AI Foundry Holdings LLC submitted a non-binding offer to acquire EdgeMode's ready-to-build 300 MW AI data centre project located in Malpica, Spain. The transaction represents a potential asset sale of European AI infrastructure; deal value has not been disclosed. As a non-binding offer, the transaction remains at an early/indicative stage with no certainty of completion.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNZmtrbXJpaGt3Ty1VaTA0eGJUQlI3cEZCdVFFYXdsa0UtM1RFY1lPdzJKZ1RuckhOdjI5Y2NkbmN3SFprb25lZXd0aUpYendDLWlZTFhBeVlkcWRKaEcybTFsVmNjLTVNRG5FT196VVpzYUlyTkx6NS1Kc3o1TkZQYl83a01lcEQwOWIyc2ZxWHozZl83Mmp6V2dLTnI1YWl5STZFR21fWW9uYVFON0gtQi1WVWZJTHl0d0dvb2kwWXBOWHluLUJjQ3hsWThjelR5X1pMaVRVMUdzQ1ZvMTlLNHJZTFVFX1JtSEU4TmZzM0RGbmZJMk82LXpBeTRBSkZvUEt3Z2JGU0VyZTBfZ1NKWnpvNzFYMWQtNUlXWnNzbDMzZXVwdnBKRUZJU0RVazdyWllqdmdDZVNPc3lSWHl6TUloN1BkVjVaX0pQVEZB0gHTAkFVX3lxTE82Y0cwNkdIcklITVl6M0hjRUNmWnFQQ3piYktGZWlseWdtOTFZTXZ5aHhKQkItdXNUR2dlekxNMDkybkpjdl82dXk1Q0ZSelFuZkJrTzhGYWh5MUcwUnVzVjMzT0oyRk83OUg1UmVXRUNON0VjTmJ6RGJVd0p2emtGRUtHTjF6alFFc1hGUTZ6TUgyeVR2NzM3aXR0a1dsNTdHOFFacVpYUzJIT2tPWGpiTmx4Q01RMFN4anFZdGtlWkJtbnhBQ2c3M25SQ01vUThvYXpDZEFqZGxFUFBlRVA4QWFqMVFlSURHQmtIc3BoWTNyZHJTUlBtRjJNZWU2NzE0RnBxM0lESTFjbjdjU2pOREl6LUJtaTdaU1dmLTBQMm5sckswUHR3QW9jand2VW40aFNPMUJEZUtEQnN4ZEhKS2ZEUW9jZlNpaHpleDlGZ25vdw?oc=5",
+   "source_snippet": "EdgeMode received a non-binding offer from Spark AI Foundry Holdings for its 300 MW AI data center project in Spain, signaling potential asset sale in European AI infrastructure.",
+   "extracted_at": "2026-07-13T18:28:45.280108+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-13",
+   "type": "M&A",
+   "name": "Skydance / Paramount",
+   "v": null,
+   "val": null,
+   "sector": "Media & Entertainment",
+   "status": "Pending",
+   "note": "State attorneys general have filed an antitrust challenge to the proposed Skydance-Paramount merger, alleging antitrust violations that could delay closing. The parties argue the challenge defies evidence-based enforcement and that delay benefits Big Tech at the expense of consumers and Hollywood talent. The deal remains pending as litigation proceeds.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/state-attorneys-general-challenge-to-proposed-merger-defies-evidence-based-antitrust-enforcement-and-must-be-rejected-delay-in-closing-of-transaction-only-benefits-big-tech-and-harms-consumers-and-hollywood-talent-302824034.html",
+   "source_snippet": "Paramount-Skydance merger faces legal challenge from state attorneys general alleging antitrust violations, potentially delaying deal closing.",
+   "extracted_at": "2026-07-13T18:28:51.022397+00:00"
   },
   {
    "skip": false,
