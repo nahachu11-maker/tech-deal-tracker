@@ -197,13 +197,26 @@ const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').rep
 
 
 // Quarter axis: Q3'21 → Q2'26 (five years, one full market cycle)
+// Rolling five-year quarter axis: always ends at the CURRENT quarter and
+// starts five years before it, so the chart rolls forward on its own each
+// quarter instead of freezing at a hardcoded end date.
 const QUARTERS = [];
-for(let y=2021;y<=2026;y++) for(let q=1;q<=4;q++){ if(y===2021&&q<3) continue; if(y===2026&&q>2) break; QUARTERS.push("Q"+q+"'"+String(y).slice(2)); }
-// Era bands drawn behind the bars
+{
+  const now = new Date();
+  const endY = now.getFullYear(), endQ = Math.floor(now.getMonth()/3)+1;
+  const startY = endY - 5, startQ = endQ;
+  for(let y=startY; y<=endY; y++) for(let q=1; q<=4; q++){
+    if(y===startY && q<startQ) continue;
+    if(y===endY && q>endQ) break;
+    QUARTERS.push("Q"+q+"'"+String(y).slice(2));
+  }
+}
+// Era bands drawn behind the bars — the last era always extends to the
+// current quarter so new quarters aren't left unshaded.
 const ERAS = [
   {label:"ZIRP boom", from:"Q3'21", to:"Q1'22", fill:"#EFE4D4"},
   {label:"The freeze", from:"Q2'22", to:"Q2'23", fill:"#E3E7EA"},
-  {label:"AI recovery", from:"Q3'23", to:"Q2'26", fill:"#E2EAE4"},
+  {label:"AI recovery", from:"Q3'23", to:QUARTERS[QUARTERS.length-1], fill:"#E2EAE4"},
 ];
 
 // ── FILTERING ───────────────────────────────────────────────────────────
