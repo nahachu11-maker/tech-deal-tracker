@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-13T14:10:28.385918+00:00",
- "data_last_updated": "2026-07-13T14:10:28.059460+00:00",
+ "generated_at": "2026-07-13T14:39:38.376006+00:00",
+ "data_last_updated": "2026-07-13T14:39:37.783199+00:00",
  "pending": [
   {
    "n": 1,
@@ -43,6 +43,19 @@
   },
   {
    "n": 4,
+   "d": "2026-07-13",
+   "type": "M&A",
+   "name": "CSL Group / IoTM Solutions",
+   "v": null,
+   "status": "Closed",
+   "sector": "IoT / Connectivity",
+   "source": "pipeline",
+   "note": "CSL Group has acquired IoTM Solutions Ltd, an eSIM management platform provider, to enhance its global eSIM orchestration capabilities.",
+   "source_url": "https://www.prnewswire.com/news-releases/csl-group-acquires-iotm-solutions-to-power-global-esim-orchestration-302822981.html",
+   "verify_failed": false
+  },
+  {
+   "n": 5,
    "d": "2026-07-12",
    "type": "M&A",
    "name": "Anthropic / TeraWulf",
@@ -55,7 +68,7 @@
    "verify_failed": true
   },
   {
-   "n": 5,
+   "n": 6,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "US Government / Intel",
@@ -68,7 +81,7 @@
    "verify_failed": true
   },
   {
-   "n": 6,
+   "n": 7,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "Tencent / Manus",
@@ -81,7 +94,7 @@
    "verify_failed": false
   },
   {
-   "n": 7,
+   "n": 8,
    "d": "2026-07-11",
    "type": "M&A",
    "name": "Nvidia / Lancium",
@@ -94,7 +107,7 @@
    "verify_failed": false
   },
   {
-   "n": 8,
+   "n": 9,
    "d": "2026-07-10",
    "type": "Follow-on",
    "name": "SK Hynix",
@@ -107,7 +120,7 @@
    "verify_failed": true
   },
   {
-   "n": 9,
+   "n": 10,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "EQT / Copia Power",
@@ -120,7 +133,7 @@
    "verify_failed": false
   },
   {
-   "n": 10,
+   "n": 11,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Micron Technology / GlobalWafers",
@@ -133,7 +146,7 @@
    "verify_failed": true
   },
   {
-   "n": 11,
+   "n": 12,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "NNS Holding / OCI",
@@ -146,7 +159,7 @@
    "verify_failed": false
   },
   {
-   "n": 12,
+   "n": 13,
    "d": "2026-07-10",
    "type": "Debt",
    "name": "Ohio Data Center Project",
@@ -159,7 +172,7 @@
    "verify_failed": true
   },
   {
-   "n": 13,
+   "n": 14,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Element Solutions / Solutics Advanced Materials",
@@ -172,7 +185,7 @@
    "verify_failed": false
   },
   {
-   "n": 14,
+   "n": 15,
    "d": "2026-07-10",
    "type": "SPAC",
    "name": "Spring Valley Acquisition Corp. III / General Fusion",
@@ -185,7 +198,7 @@
    "verify_failed": false
   },
   {
-   "n": 15,
+   "n": 16,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "e& / Vodafone",
@@ -198,7 +211,7 @@
    "verify_failed": true
   },
   {
-   "n": 16,
+   "n": 17,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Meta / Unknown Target",
@@ -211,7 +224,7 @@
    "verify_failed": true
   },
   {
-   "n": 17,
+   "n": 18,
    "d": "2026-07-09",
    "type": "IPO",
    "name": "Gloo Holdings",
@@ -224,7 +237,7 @@
    "verify_failed": false
   },
   {
-   "n": 18,
+   "n": 19,
    "d": "2025-11-19",
    "type": "M&A",
    "name": "Adobe / Semrush",
@@ -309,8 +322,8 @@
   }
  },
  "coverage": {
-  "deals": 351,
-  "ma": 263,
+  "deals": 352,
+  "ma": 264,
   "with_comps": 198,
   "with_premium": 82,
   "with_ev_revenue": 101,
@@ -319,10 +332,10 @@
   "terminated_with_resolution": 12,
   "by_source": {
    "capiq": 191,
-   "pipeline": 160
+   "pipeline": 161
   },
   "by_status": {
-   "Closed": 270,
+   "Closed": 271,
    "Pending": 57,
    "Terminated": 17,
    "Filed": 7
