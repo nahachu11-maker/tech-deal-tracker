@@ -488,10 +488,157 @@
   "PLTR": {
    "name": "Palantir",
    "ticker": "PLTR",
-   "quarters": []
+   "quarters": [
+    {
+     "period": "Q1 2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "Revenue grew 85% YoY to $1.63B, highest-ever growth rate, with U.S. revenue up 104%",
+       "Raised FY2026 guidance: revenue to 71% growth, U.S. commercial to 120% growth",
+       "Rule of 40 score of 145%, matching only NVIDIA, Micron, SK hynix"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Q2 2026 Revenue",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$1.797–$1.801 billion"
+      },
+      {
+       "metric": "Q2 2026 Adjusted Income from Operations",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$1.063–$1.067 billion"
+      },
+      {
+       "metric": "FY2026 Revenue",
+       "direction": "raised",
+       "prior": "61% growth",
+       "new": "$7.650–$7.662 billion (71% growth)"
+      },
+      {
+       "metric": "FY2026 U.S. Commercial Revenue",
+       "direction": "raised",
+       "prior": null,
+       "new": "In excess of $3.224 billion (120% growth)"
+      },
+      {
+       "metric": "FY2026 Adjusted Income from Operations",
+       "direction": "raised",
+       "prior": null,
+       "new": "$4.440–$4.452 billion"
+      },
+      {
+       "metric": "FY2026 Adjusted Free Cash Flow",
+       "direction": "raised",
+       "prior": null,
+       "new": "$4.2–$4.4 billion"
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Revenue",
+       "value": "1,632.6",
+       "unit": "millions",
+       "yoy": "85%"
+      },
+      {
+       "name": "U.S. Revenue",
+       "value": "1,282.0",
+       "unit": "millions",
+       "yoy": "104%"
+      },
+      {
+       "name": "U.S. Commercial Revenue",
+       "value": "595.0",
+       "unit": "millions",
+       "yoy": "133%"
+      },
+      {
+       "name": "U.S. Government Revenue",
+       "value": "687.0",
+       "unit": "millions",
+       "yoy": "84%"
+      },
+      {
+       "name": "Adjusted Income from Operations",
+       "value": "983.5",
+       "unit": "millions",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Operating Margin",
+       "value": "60",
+       "unit": "%",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Free Cash Flow",
+       "value": "924.6",
+       "unit": "millions",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Free Cash Flow Margin",
+       "value": "57",
+       "unit": "%",
+       "yoy": null
+      },
+      {
+       "name": "GAAP EPS",
+       "value": "0.34",
+       "unit": "dollars",
+       "yoy": null
+      },
+      {
+       "name": "Total Contract Value (TCV)",
+       "value": "2,410",
+       "unit": "millions",
+       "yoy": "61%"
+      },
+      {
+       "name": "U.S. Commercial TCV",
+       "value": "1,176",
+       "unit": "millions",
+       "yoy": "45%"
+      },
+      {
+       "name": "U.S. Commercial Remaining Deal Value (RDV)",
+       "value": "4,920",
+       "unit": "millions",
+       "yoy": "112%"
+      },
+      {
+       "name": "Rule of 40 Score",
+       "value": "145",
+       "unit": "%",
+       "yoy": null
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 2,
+      "notes": "Management demonstrates exceptional confidence with record growth claims and significant guidance raises; minimal hedging language; Q&A portion not provided, so direct-question assessment unavailable."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-07-14T00:55:29.620511+00:00",
+     "doc_date": "2026-07-14",
+     "source_label": "EDGAR 8-K filed 2026-05-04",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/a2026q1ex991pressrelease.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
+    }
+   ]
   }
  },
  "meta": {
-  "last_run": "2026-07-11T07:22:15.116077+00:00"
+  "last_run": "2026-07-14T00:55:29.620594+00:00"
  }
 }
