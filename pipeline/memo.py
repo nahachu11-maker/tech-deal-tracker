@@ -35,6 +35,21 @@ Write a one-page memo (450-600 words) in markdown:
 - "## What we're watching" — 2-3 forward-looking items grounded in the context
   (pending closings, filed IPOs, regulatory dates), not speculation.
 
+Voice — this matters as much as the content:
+- Write like a sharp sell-side author with a thesis, not a cataloger of the
+  week's inventory. Blog-energy prose in a banker's vocabulary.
+- **Bold the 4-6 numbers or names the reader must not miss** — the week's
+  defining figure, the biggest print, the tell. Bold is for emphasis, not
+  decoration.
+- Open sections with a punchy short sentence that states the takeaway, then
+  support it. "The week belonged to one number: **$26.5 billion**." is the
+  house cadence — declarative, concrete, a little theatrical.
+- Vary sentence length; land at least one dry, witty observation per memo.
+  Wit means a sharp framing of something true, never a joke for its own sake.
+- Never list more than three company names in a sentence; if the week was a
+  pile of small deals, name the pattern and the two best examples, and let
+  the rest go.
+
 Quality bar and constraints:
 - Every factual claim must trace to the provided context. If the context is
   thin on a section, write less rather than padding.
