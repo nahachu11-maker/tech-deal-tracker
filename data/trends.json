@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-17T21:01:04.186320+00:00"
+  "last_updated": "2026-07-17T22:01:16.875292+00:00"
  },
  "trends": [
   {
@@ -72,6 +72,23 @@
    ]
   },
   {
+   "entity": "Nvidia",
+   "today": 56,
+   "avg": 2.15,
+   "score": 26.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    28,
+    0,
+    0,
+    56
+   ]
+  },
+  {
    "entity": "TSMC",
    "today": 20,
    "avg": 0.77,
@@ -86,23 +103,6 @@
     0,
     0,
     20
-   ]
-  },
-  {
-   "entity": "Nvidia",
-   "today": 56,
-   "avg": 2.23,
-   "score": 25.1,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    29,
-    0,
-    0,
-    56
    ]
   },
   {
@@ -191,6 +191,23 @@
    ]
   },
   {
+   "entity": "ASML",
+   "today": 10,
+   "avg": 0.69,
+   "score": 14.44,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    10
+   ]
+  },
+  {
    "entity": "Moonshot AI",
    "today": 7,
    "avg": 0.0,
@@ -205,23 +222,6 @@
     0,
     0,
     7
-   ]
-  },
-  {
-   "entity": "ASML",
-   "today": 10,
-   "avg": 0.77,
-   "score": 13.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    10,
-    0,
-    0,
-    10
    ]
   },
   {
@@ -397,15 +397,15 @@
   {
    "entity": "SK Hynix",
    "today": 21,
-   "avg": 3.0,
-   "score": 7.0,
+   "avg": 2.92,
+   "score": 7.18,
    "spiking": true,
    "spark": [
     0,
     0,
     0,
     0,
-    39,
+    38,
     0,
     0,
     21
