@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-17T22:01:17.180387+00:00",
+  "last_updated": "2026-07-17T22:43:48.130375+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 0
   }
@@ -77,6 +77,40 @@
    "extracted_at": "2026-07-17T21:01:10.332965+00:00",
    "verify_failed": true,
    "verify_reason": "Trading start date is July 20, 2026, not July 17, 2026"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-17",
+   "type": "Private",
+   "name": "TSMC",
+   "v": 100.0,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Trump announced TSMC will commit an additional $100 billion in US manufacturing investment, expanding its existing Arizona fab commitments. The announcement signals continued onshoring of semiconductor capacity under US industrial policy pressure. Deal structure and timeline for deployment have not been specified.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iend5Q1JjbTlKeU9lODlXREc0elNJcjBnMGZDS0FvTW5ROXdyZEtQbHpFc2d2bDcyckFfd3hpUU9xUjhHZFF5UUw1RVlLbTVMUnk3UVZjX0VoVkczMTVQd2kzc1JManVOYlU5NkFrRTRGbG92QlVWcg?oc=5",
+   "source_snippet": "Trump announces TSMC will invest an additional $100 billion in US operations, signaling major expansion of domestic semiconductor manufacturing commitments.",
+   "extracted_at": "2026-07-17T22:43:39.767335+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Investment' or 'Expansion', not 'Private', and status should be 'Announced' or similar, not 'Pending'"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-17",
+   "type": "M&A",
+   "name": "Airties / Aprecomm",
+   "v": null,
+   "val": null,
+   "sector": "AI Networking",
+   "status": "Closed",
+   "note": "Airties acquired Aprecomm, an AI-driven connectivity management startup, to strengthen its network experience platform capabilities. The transaction bolsters Airties' AI-powered broadband optimization offerings for service providers. Deal size was not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWExaN2ZhV2FwTEQ3UmNLV2c3QnJwSXpGbUlTZlRFaWc2VHdtZGt6ek9zaUVfTHNzZ3JJQWx2azdkNk5zdTJrYjdQdk5fRk84eFRYMEp0NDhMUlNnbFRhaEZfSW5Wemh6OEhRQXk0R2xTNm1KQlpvS0p0MEthT1V5d0QzdHlWeF9tTGRMTk81bXFwWHJzTlE1bUV2RUh1dHJBRUljSjBhdnMzUEh1YnNlZVJqUUl0THV5bjlPRWJUUndWR25Md3k0YzdrMnowX3M?oc=5",
+   "source_snippet": "Airties acquires AI connectivity management startup Aprecomm to enhance its network experience platform; deal size not disclosed.",
+   "extracted_at": "2026-07-17T22:43:44.351907+00:00"
   },
   {
    "skip": false,
