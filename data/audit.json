@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T17:03:05.688568+00:00",
+ "generated_at": "2026-07-17T17:05:56.375704+00:00",
  "data_last_updated": "2026-07-17T17:03:05.330061+00:00",
  "pending": [
   {
@@ -365,19 +365,6 @@
    "note": "Gloo Holdings (ticker: GLOO, SIC 7374 – Computer Processing and Data Preparation) filed a 424B4 final IPO prospectus with the SEC on 2026-07-09. No proceeds or pricing details are present in the available snippet.",
    "source_url": "https://www.sec.gov/Archives/edgar/data/2069785/000119312526299756",
    "verify_failed": false
-  },
-  {
-   "n": 29,
-   "d": "2025-11-19",
-   "type": "M&A",
-   "name": "Adobe / Semrush",
-   "v": 1.9,
-   "status": "Closed",
-   "sector": "Marketing Software",
-   "source": "pipeline",
-   "note": "Adobe Inc. (NasdaqGS:ADBE) entered into an Agreement and Plan of Merger to acquire Semrush Holdings, Inc. (NYSE:SEMR) from Siguler Guff & Company, LP, Greycroft Growth II, L.P., managed by Greycroft LP, and others for $2 billion on November 18, 2025.",
-   "source_url": "",
-   "verify_failed": false
   }
  ],
  "quality": {
@@ -478,6 +465,12 @@
  "auto_merges": 9,
  "recent_feedback": [
   {
+   "ts": "2026-07-17",
+   "verdict": "approved",
+   "reason": "",
+   "name": "Adobe / Semrush"
+  },
+  {
    "ts": "2026-07-13",
    "verdict": "re-flagged",
    "reason": "approval undone by reviewer",
@@ -541,12 +534,6 @@
    "ts": "2026-07-10",
    "verdict": "auto-merged",
    "reason": "self-dedupe: folded duplicate into 'Blackstone & Vista / Smartsheet' (2024-09-24 / SaaS (Take-private) -> 2024-09-24 / A",
-   "name": "Blackstone & Vista / Smartsheet"
-  },
-  {
-   "ts": "2026-07-10",
-   "verdict": "auto-merged",
-   "reason": "self-dedupe: folded duplicate into 'Blackstone & Vista / Smartsheet' (2024-09-24 / ? -> 2024-09-24 / ?)",
    "name": "Blackstone & Vista / Smartsheet"
   }
  ]
