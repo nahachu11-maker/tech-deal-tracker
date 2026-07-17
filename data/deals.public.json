@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-17T19:15:07.393578+00:00",
+  "last_updated": "2026-07-17T20:01:33.790531+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 4,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
@@ -42,6 +42,24 @@
    "source_url": "https://www.prnewswire.com/news-releases/truecaller-enters-into-an-agreement-to-acquire-us-based-textplus-inc-302828274.html",
    "source_snippet": " STOCKHOLM, July 17, 2026 /PRNewswire/ -- Truecaller AB (publ) (\"Truecaller\" or the \"Company\") has today entered into an agreement to acquire 100% of the shares in TextPlus Inc. (\"TextPlus\") (the \"Acquisition\"). TextPlus is a US-based communications software company offering a flexible and... ",
    "extracted_at": "2026-07-17T19:14:56.817464+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-17",
+   "type": "M&A",
+   "name": "Meta / Anthropic",
+   "v": 10.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Meta and Anthropic are in early-stage talks for a data centre deal valued at up to $10bn, representing a significant AI infrastructure commitment between a major hyperscaler and a leading AI lab. The deal structure is not yet finalised and the reported figure is aspirational. Strategic rationale centres on scaling compute capacity to support Anthropic's AI model development and Meta's broader AI ecosystem ambitions.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVdaT05iMXV0Xy01VVgwNE9mNFN6Z3FTaXd4dDRmVG8wUkV6VS1fN0N4VXlxc0U3UTRxZmVLUWdaaXhoa0VIdEphNFJBNjdncHFmSFJwdk56eUItNXdZTWNUMDJnckNMSWRSV1BqRXNZeGJJNzlmcnROLWo4bkk5MXg5T0g?oc=5",
+   "source_snippet": "Meta and Anthropic are in talks for a data centre deal worth up to $10bn, representing a major potential AI infrastructure commitment between a hyperscaler and a leading AI lab.",
+   "extracted_at": "2026-07-17T20:01:26.169816+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be infrastructure/data center deal, not M&A, as the source describes talks for a data centre deal, not a merger or acquisition."
   },
   {
    "skip": false,
