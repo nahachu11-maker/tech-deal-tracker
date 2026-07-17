@@ -1,16 +1,80 @@
 {
  "meta": {
-  "last_updated": "2026-07-17T18:33:29.880038+00:00",
+  "last_updated": "2026-07-17T19:15:07.393578+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 4,
    "updated": 0,
    "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-07-17",
+   "type": "IPO",
+   "name": "3KNIGHTS DYNAMICS GROUP Ltd",
+   "v": null,
+   "val": null,
+   "sector": "Software & IT Services",
+   "status": "Filed",
+   "note": "3KNIGHTS DYNAMICS GROUP Ltd (ticker: TKDG) filed an F-1/A amendment with the SEC, indicating an updated IPO registration for this Cayman/foreign private issuer in the software and IT services sector (SIC 7371). No deal size or valuation disclosed in the filing snippet. The amendment suggests the company is refining terms ahead of a potential pricing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2092287/000149315226033706",
+   "source_snippet": "",
+   "extracted_at": "2026-07-17T19:14:21.590436+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-17",
+   "type": "M&A",
+   "name": "Truecaller / TextPlus",
+   "v": null,
+   "val": null,
+   "sector": "Communications Software",
+   "status": "Pending",
+   "note": "Truecaller AB has entered into a definitive agreement to acquire 100% of US-based TextPlus Inc., a communications software company. The deal expands Truecaller's footprint into the US market, complementing its caller ID and spam-blocking platform with TextPlus's flexible messaging capabilities. Deal value was not disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/truecaller-enters-into-an-agreement-to-acquire-us-based-textplus-inc-302828274.html",
+   "source_snippet": " STOCKHOLM, July 17, 2026 /PRNewswire/ -- Truecaller AB (publ) (\"Truecaller\" or the \"Company\") has today entered into an agreement to acquire 100% of the shares in TextPlus Inc. (\"TextPlus\") (the \"Acquisition\"). TextPlus is a US-based communications software company offering a flexible and... ",
+   "extracted_at": "2026-07-17T19:14:56.817464+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-16",
+   "type": "IPO",
+   "name": "FreeCast",
+   "v": null,
+   "val": null,
+   "sector": "Streaming / Internet Services",
+   "status": "Filed",
+   "note": "FreeCast, Inc. (ticker CAST) filed an S-1 registration statement with the SEC on July 16, 2026, initiating the IPO process. FreeCast operates a streaming content aggregation platform. Deal size and valuation have not been disclosed in the filing snippet.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1633369/000121390026078459",
+   "source_snippet": "",
+   "extracted_at": "2026-07-17T19:14:26.367855+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-16",
+   "type": "M&A",
+   "name": "NINJIO / SafeStack",
+   "v": null,
+   "val": null,
+   "sector": "Cybersecurity",
+   "status": "Closed",
+   "note": "NINJIO has acquired SafeStack to integrate developer-focused secure code training into its human risk management platform. The deal broadens NINJIO's product suite beyond phishing simulation and awareness training into application security education. No financial terms were disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/ninjio-acquires-safestack-to-expand-human-risk-management-platform-with-secure-code-training-302827087.html",
+   "source_snippet": " Acquisition integrates SafeStack's developer security training into the NINJIO platform LOS ANGELES, July 16, 2026 /PRNewswire/ -- NINJIO, a leader in cybersecurity awareness and human risk management, today announced its acquisition of SafeStack, a purpose-built developer, security, and... ",
+   "extracted_at": "2026-07-17T19:15:03.122444+00:00"
+  },
   {
    "skip": false,
    "d": "2026-07-14",
