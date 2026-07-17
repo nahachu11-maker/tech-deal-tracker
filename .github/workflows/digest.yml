@@ -28,11 +28,14 @@ jobs:
         run: |
           LOCAL_HOUR=$(TZ=America/Los_Angeles date +%-H)
           echo "Los Angeles local hour is $LOCAL_HOUR"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$LOCAL_HOUR" = "7" ]; then
+          # GitHub cron fires LATE (often 30-90 min) — demand a window, not
+          # an exact hour, or delayed runs silently skip forever. digest.py
+          # dedupes same-day repeats, so both crons landing in-window is fine.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$LOCAL_HOUR" -ge 7 ] && [ "$LOCAL_HOUR" -le 10 ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Not 7am in California — skipping (the other scheduled time will match)."
+            echo "Outside the 7-10am California window — skipping."
           fi
 
       - uses: actions/checkout@v4
