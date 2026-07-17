@@ -159,6 +159,13 @@ def write_digest(markdown: str, markdown_kr: str | None = None) -> None:
 
 def run() -> None:
     import anthropic
+    # both scheduled attempts may land in the time window; only the first
+    # should generate. Manual runs always regenerate.
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and DIGEST.exists():
+        existing = json.loads(DIGEST.read_text()).get("digests", [])
+        if existing and existing[0].get("date") == dt.date.today().isoformat():
+            print("[digest] today's digest already written — scheduled repeat skipped")
+            return
     ctx = build_context()
     if not ctx["news"] and not ctx["deals"]:
         write_digest("## Three things that matter\nQuiet overnight — no notable "
