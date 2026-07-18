@@ -1,13 +1,13 @@
 {
  "meta": {
-  "last_updated": "2026-07-18T04:42:11.659156+00:00"
+  "last_updated": "2026-07-18T06:55:37.948504+00:00"
  },
  "trends": [
   {
    "entity": "Samsung Electronics",
-   "today": 10,
+   "today": 12,
    "avg": 0.31,
-   "score": 20.0,
+   "score": 24.0,
    "spiking": true,
    "spark": [
     0,
@@ -17,14 +17,14 @@
     0,
     0,
     4,
-    10
+    12
    ]
   },
   {
    "entity": "Samsung",
-   "today": 7,
+   "today": 9,
    "avg": 0.69,
-   "score": 10.11,
+   "score": 13.0,
    "spiking": true,
    "spark": [
     0,
@@ -34,14 +34,14 @@
     0,
     0,
     9,
-    7
+    9
    ]
   },
   {
    "entity": "CXMT",
-   "today": 4,
+   "today": 5,
    "avg": 0.31,
-   "score": 8.0,
+   "score": 10.0,
    "spiking": true,
    "spark": [
     0,
@@ -51,6 +51,74 @@
     0,
     0,
     4,
+    5
+   ]
+  },
+  {
+   "entity": "SK Hynix",
+   "today": 33,
+   "avg": 3.46,
+   "score": 9.53,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    42,
+    33
+   ]
+  },
+  {
+   "entity": "Broadcom",
+   "today": 9,
+   "avg": 1.0,
+   "score": 9.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    13,
+    9
+   ]
+  },
+  {
+   "entity": "Palantir",
+   "today": 5,
+   "avg": 0.62,
+   "score": 8.12,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    5
+   ]
+  },
+  {
+   "entity": "Qualcomm",
+   "today": 4,
+   "avg": 0.46,
+   "score": 8.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
     4
    ]
   },
@@ -72,24 +140,58 @@
    ]
   },
   {
-   "entity": "SK Hynix",
-   "today": 24,
-   "avg": 3.85,
-   "score": 6.24,
+   "entity": "Oracle",
+   "today": 8,
+   "avg": 1.15,
+   "score": 6.93,
    "spiking": true,
    "spark": [
     0,
     0,
     0,
-    8,
     0,
     0,
-    42,
-    24
+    0,
+    15,
+    8
    ]
   },
   {
-   "entity": "Qualcomm",
+   "entity": "Micron",
+   "today": 7,
+   "avg": 1.15,
+   "score": 6.07,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    7
+   ]
+  },
+  {
+   "entity": "Ethos Technologies",
+   "today": 3,
+   "avg": 0.0,
+   "score": 6.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ]
+  },
+  {
+   "entity": "Micron Technology",
    "today": 3,
    "avg": 0.46,
    "score": 6.0,
@@ -123,7 +225,7 @@
    ]
   },
   {
-   "entity": "Oracle",
+   "entity": "ASML",
    "today": 5,
    "avg": 1.15,
    "score": 4.33,
@@ -132,10 +234,10 @@
     0,
     0,
     0,
+    1,
     0,
     0,
-    0,
-    15,
+    14,
     5
    ]
   },
@@ -157,27 +259,10 @@
    ]
   },
   {
-   "entity": "Micron",
-   "today": 5,
-   "avg": 1.23,
-   "score": 4.06,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    15,
-    5
-   ]
-  },
-  {
-   "entity": "Palantir",
-   "today": 3,
-   "avg": 0.85,
-   "score": 3.55,
+   "entity": "OpenAI",
+   "today": 13,
+   "avg": 3.38,
+   "score": 3.84,
    "spiking": true,
    "spark": [
     0,
@@ -186,55 +271,38 @@
     3,
     0,
     0,
-    8,
-    3
+    41,
+    13
    ]
   },
   {
    "entity": "TSMC",
-   "today": 6,
-   "avg": 1.92,
-   "score": 3.12,
+   "today": 7,
+   "avg": 1.85,
+   "score": 3.79,
    "spiking": true,
    "spark": [
     0,
     0,
     0,
-    1,
+    0,
     0,
     0,
     24,
-    6
-   ]
-  },
-  {
-   "entity": "Broadcom",
-   "today": 3,
-   "avg": 1.0,
-   "score": 3.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    13,
-    3
+    7
    ]
   },
   {
    "entity": "Microsoft",
    "today": 5,
-   "avg": 2.0,
-   "score": 2.5,
+   "avg": 1.54,
+   "score": 3.25,
    "spiking": true,
    "spark": [
     0,
     0,
     0,
-    8,
+    2,
     0,
     0,
     18,
@@ -242,10 +310,44 @@
    ]
   },
   {
+   "entity": "Anthropic",
+   "today": 13,
+   "avg": 4.69,
+   "score": 2.77,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    61,
+    13
+   ]
+  },
+  {
    "entity": "Alphabet",
-   "today": 5,
-   "avg": 2.31,
-   "score": 2.17,
+   "today": 6,
+   "avg": 2.23,
+   "score": 2.69,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    29,
+    6
+   ]
+  },
+  {
+   "entity": "Intel",
+   "today": 4,
+   "avg": 1.77,
+   "score": 2.26,
    "spiking": true,
    "spark": [
     0,
@@ -254,8 +356,25 @@
     1,
     0,
     0,
-    29,
-    5
+    22,
+    4
+   ]
+  },
+  {
+   "entity": "Meta",
+   "today": 13,
+   "avg": 5.85,
+   "score": 2.22,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    73,
+    13
    ]
   },
   {
@@ -307,125 +426,6 @@
     0,
     0,
     2
-   ]
-  },
-  {
-   "entity": "Advanced Micro Devices",
-   "today": 2,
-   "avg": 0.08,
-   "score": 4.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    2
-   ]
-  },
-  {
-   "entity": "Ethos Technologies",
-   "today": 2,
-   "avg": 0.0,
-   "score": 4.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2
-   ]
-  },
-  {
-   "entity": "SAP",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Bethesda",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Dalba Global",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "BlueVisor Systems",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Naver Cloud",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
    ]
   }
  ]
