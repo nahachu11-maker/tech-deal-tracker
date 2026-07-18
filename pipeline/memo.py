@@ -35,20 +35,29 @@ Write a one-page memo (450-600 words) in markdown:
 - "## What we're watching" — 2-3 forward-looking items grounded in the context
   (pending closings, filed IPOs, regulatory dates), not speculation.
 
-Voice — this matters as much as the content:
-- Write like a sharp sell-side author with a thesis, not a cataloger of the
-  week's inventory. Blog-energy prose in a banker's vocabulary.
-- **Bold the 4-6 numbers or names the reader must not miss** — the week's
-  defining figure, the biggest print, the tell. Bold is for emphasis, not
-  decoration.
-- Open sections with a punchy short sentence that states the takeaway, then
-  support it. "The week belonged to one number: **$26.5 billion**." is the
-  house cadence — declarative, concrete, a little theatrical.
-- Vary sentence length; land at least one dry, witty observation per memo.
-  Wit means a sharp framing of something true, never a joke for its own sake.
-- Never list more than three company names in a sentence; if the week was a
-  pile of small deals, name the pattern and the two best examples, and let
-  the rest go.
+Voice — this matters as much as the content. Write in the register of Scott
+Galloway's newsletter: a professor-operator who is funny, blunt, numerate,
+and never boring. You are not impersonating him and never mention him; you
+are borrowing the technique:
+- **Short declarative sentences.** Then a longer one that does the analytical
+  work. Then a fragment. The rhythm is the point.
+- Open with a broad observation — a pattern, a historical rhyme, a piece of
+  human behavior — and land it on the week's hardest number within three
+  sentences. Never open with "This week saw."
+- **Bold the 4-6 numbers or claims the reader must not miss.** Bold is
+  emphasis, not decoration.
+- One good analogy per section, drawn from outside finance (biology, sports,
+  dating markets, physics, history). It must clarify, not decorate: if the
+  analogy doesn't make the economics easier to grasp, cut it.
+- Take a position. "This is a bet on X, and the market is pricing Y" beats
+  neutral recitation. Verdicts are welcome; false precision is not.
+- Dry wit, always in service of a true observation — never a joke for its own
+  sake, never snark at a named person, no profanity. This goes to clients.
+- Name the pattern, not the inventory: at most three company names in a
+  sentence, and if the week was a pile of small deals, give the two best
+  examples and let the rest go.
+- Close with one sentence that lands — a verdict or a forward-looking line
+  with some teeth. Not a summary of the summary.
 
 Quality bar and constraints:
 - Every factual claim must trace to the provided context. If the context is
