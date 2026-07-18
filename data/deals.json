@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-18T13:21:13.519829+00:00",
+  "last_updated": "2026-07-18T13:56:52.172922+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 0
   }
  },
  "deals": [
@@ -25,6 +25,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCZnF3bWhhdUhYM29ncWFXSGRWWFVhU0lTajBCWmY2LUt4S3FBc3MweEt6VkRSZEJOYXB1WFZBZ1pKY0I4bjBSdHJNRDNvX3RIS04zTHFCYw?oc=5",
    "source_snippet": "Powertech plans to form a joint venture with Broadcom in Singapore, a notable partnership in advanced semiconductor packaging.",
    "extracted_at": "2026-07-18T08:45:08.051150+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-18",
+   "type": "M&A",
+   "name": "Qualcomm / (undisclosed target)",
+   "v": 3.9,
+   "val": null,
+   "sector": "Semiconductors / AI",
+   "status": "Pending",
+   "note": "Qualcomm's $3.9B deal is cited as a competitive challenge to Nvidia in the AI chip market amid rising power demand and supply constraints. The specific target and deal structure are not disclosed in this snippet. The transaction context suggests a strategic acquisition to bolster Qualcomm's AI semiconductor capabilities.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JNExpS0xuTUVoYnEwZ1E0ZGVpTFBuMlpXblFSMnpBZlBOeWJIUWVWbEwtT1l1Rkh0cDBtN05yaDhMUkE5YTlMV0xsM2VqbnI3bERiNGpyb0tZdXAzLUw2V0xYLWtrNHdfaWl4aFNXRFMzMUk?oc=5",
+   "source_snippet": "Qualcomm's $3.9B deal and OpenAI's in-house chip development are cited as competitive challenges to Nvidia amid AI power demand and supply constraints.",
+   "extracted_at": "2026-07-18T13:56:49.724379+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source does not identify Qualcomm as the acquirer in an M&A deal; it merely cites Qualcomm's $3.9B deal as a competitive challenge without confirming deal type, target, or pending status."
   },
   {
    "skip": false,
