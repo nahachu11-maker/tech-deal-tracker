@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-19T02:55:27.229660+00:00",
+  "last_updated": "2026-07-19T05:15:16.320591+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   }
  },
  "deals": [
@@ -27,6 +27,22 @@
    "extracted_at": "2026-07-19T01:51:30.835468+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be M&A (acquisition of Ray), not Private; and deal value should be 0.044 for the funding round or clarified as acquisition-related."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-19",
+   "type": "M&A",
+   "name": "Euisun Chung / Boston Dynamics",
+   "v": null,
+   "val": null,
+   "sector": "Robotics",
+   "status": "Pending",
+   "note": "Hyundai Motor Group chairman Euisun Chung is reportedly considering acquiring an additional 25% stake in Boston Dynamics. The move could accelerate a Nasdaq IPO for the robotics company. No financial terms have been disclosed; the deal remains at the consideration stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4cW51N01qT2Vld3RjQl8ySjQtb1pHSEVHa2daYmQzNTZEX3RkRmt4MmJ3dnNZaXZEbDBMUWJYNHZzYWpWV1BJcHoyREN3U0U?oc=5",
+   "source_snippet": "Hyundai Motor Group chairman Euisun Chung is reportedly considering expanding his stake in Boston Dynamics by 25%, potentially accelerating a Nasdaq IPO.",
+   "extracted_at": "2026-07-19T05:15:11.004515+00:00"
   },
   {
    "skip": false,
