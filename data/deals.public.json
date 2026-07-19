@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-19T21:13:57.990729+00:00",
+  "last_updated": "2026-07-19T22:16:06.601048+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -80,6 +80,24 @@
    "extracted_at": "2026-07-19T16:47:54.016139+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a potential equity investment/stake, not an M&A transaction; deal type should reflect investment rather than M&A."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-19",
+   "type": "M&A",
+   "name": "Netflix / InterPositive",
+   "v": 0.587,
+   "val": null,
+   "sector": "AI / Media Tech",
+   "status": "Pending",
+   "note": "Netflix acquired InterPositive, a generative AI filmmaking startup co-founded by Ben Affleck, for $587M in cash. The deal signals Netflix's aggressive push to integrate AI into content production workflows. No completion language was present in the source, so status is recorded as Pending.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
+   "source_snippet": "Netflix acquired AI filmmaking startup InterPositive, co-founded by Ben Affleck, for $587M in cash, signaling aggressive spending on generative AI for content production.",
+   "extracted_at": "2026-07-19T22:16:02.452940+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the source describes a completed acquisition"
   },
   {
    "skip": false,
