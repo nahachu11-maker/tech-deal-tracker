@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-19T22:16:06.601048+00:00",
+  "last_updated": "2026-07-19T23:28:38.060379+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 11
   }
  },
  "deals": [
@@ -97,6 +97,28 @@
    "extracted_at": "2026-07-19T22:16:02.452940+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' not 'Pending' as the source describes a completed acquisition"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-19",
+   "type": "M&A",
+   "name": "Samsung Biologics / Polypeptide Group",
+   "v": 2.0,
+   "val": null,
+   "sector": "Biopharma CDMO",
+   "status": "Pending",
+   "note": "Samsung Biologics is acquiring Swiss peptide CDMO Polypeptide Group for approximately KRW 2.7 trillion (~$2B), described as the largest M&A deal in Korean biotech history. The transaction provides Samsung Biologics with immediate entry into GLP-1 and peptide drug manufacturing, a rapidly growing segment driven by obesity and diabetes therapeutics. Deal status inferred as Pending based on announcement language.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80RlpXUDVsaDM3NlFnZjcweG9ZeWJwNEFqZkxPZzY0amdpMDZoZEF1c2M2NTlScFNGSk9XckVueEtxT2ZPbHBiNHBldHpERklJYjJYbTNuODZkVXBndDhYSGVudHNLaW1CLXc?oc=5",
+   "source_snippet": "Samsung Biologics is acquiring Swiss peptide CDMO Polypeptide Group for KRW 2.7 trillion (~$2B), marking the largest M&A deal in Korean biotech history and entering the GLP-1/peptide drug manufacturing market.",
+   "extracted_at": "2026-07-19T23:26:54.892892+00:00",
+   "comps": {
+    "consideration": "cash",
+    "price_per_share": 44.31,
+    "computed_fields": [],
+    "financing": "all-cash"
+   }
   },
   {
    "skip": false,
