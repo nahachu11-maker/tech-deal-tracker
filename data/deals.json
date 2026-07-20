@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-20T22:49:37.353543+00:00",
+  "last_updated": "2026-07-20T23:50:58.221806+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 1
   }
@@ -177,6 +177,22 @@
    "extracted_at": "2026-07-20T21:40:22.323124+00:00",
    "verify_failed": true,
    "verify_reason": "A restraining order halting the acquisition contradicts 'Pending' status; the deal should reflect 'Terminated' or at minimum indicate it is blocked."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-20",
+   "type": "M&A",
+   "name": "Nvidia / Nebius",
+   "v": null,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Closed",
+   "note": "Nvidia acquired a 9.3% minority stake in Nebius (NBIS), a cloud/AI infrastructure platform, signaling strategic alignment between the GPU giant and an emerging AI compute provider. The deal value was not disclosed in the source. The investment lifted Nebius shares and underscores Nvidia's broader ecosystem-building strategy in AI infrastructure.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWNVRTNQRzNjZnV0Z1VUODZUU2RnLTdnX0UxSnFGSnptUjNnbGdtTEhSSmNHUEZoeTZxRkdVZnhpR2VNYXktVktnOFFBVWpoNzZ2aGpOaGhXWS1scjlWY0RhZDVucm1FVnlWWHNyNk1iVGx3U2poaU1RWEtIQkQ2bzliWWYxSWd3VnRKNVhpdDlRakwzaTJ5NWhrd3o5aTkzOHpN?oc=5",
+   "source_snippet": "Nvidia has acquired a 9.3% minority stake in Nebius, lifting Nebius shares and signaling Nvidia's strategic investment in AI infrastructure platforms.",
+   "extracted_at": "2026-07-20T23:50:46.935514+00:00"
   },
   {
    "skip": false,
