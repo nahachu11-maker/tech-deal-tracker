@@ -1,16 +1,48 @@
 {
  "meta": {
-  "last_updated": "2026-07-19T23:28:38.060379+00:00",
+  "last_updated": "2026-07-20T03:08:18.565285+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 1,
+   "added": 2,
    "updated": 0,
-   "duplicates": 11
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-07-20",
+   "type": "M&A",
+   "name": "Samsung Biologics / Undisclosed CDMO",
+   "v": 2.0,
+   "val": null,
+   "sector": "Biotech/CDMO",
+   "status": "Pending",
+   "note": "Samsung Biologics is reportedly acquiring an undisclosed global contract development and manufacturing organization (CDMO) for approximately 2.7 trillion KRW (~$2B USD). The deal represents a significant cross-border expansion for Samsung Biologics as it seeks to scale its contract manufacturing capabilities globally. No definitive agreement has been confirmed per the report; status treated as Pending.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EQ05mazNhX1hPNXcycUlaTnhNdnFWZ28zT1o3QjA1WXg4dWIzV21rVHEzYktoV1NRbHhQQVV5MjdSWTJleVRDMUoydUJSTFhmaFVPSjA4ZExqaDhQa0hBbkd2SGFuanRRZXhVYg?oc=5",
+   "source_snippet": "Samsung Biologics reportedly acquiring a global CDMO company for approximately 2.7 trillion KRW (~$2B), a significant cross-border deal in the contract manufacturing sector.",
+   "extracted_at": "2026-07-20T03:08:07.074989+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-20",
+   "type": "M&A",
+   "name": "ABB / Rotork",
+   "v": null,
+   "val": null,
+   "sector": "Industrial Automation",
+   "status": "Pending",
+   "note": "ABB announced a definitive agreement to acquire Rotork, a UK-based flow control and actuation specialist, to expand its industrial automation portfolio. The deal broadens ABB's presence in process automation and actuator technology across energy, water, and industrial end markets. No financial terms were disclosed in the available text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03QjFyTmZTcXRZV0o3QWN3ek1JS2Q2RXlXTFNpWjhrNVl5TlBnWWRYT3hUaGI2SWJrRjR2bHlHNFpWemhheWl0WGxaVWZNWlNfUVdUNjhKYkcwQ3NFZUhj?oc=5",
+   "source_snippet": "ABB is acquiring Rotork to expand its automation portfolio — cross-sector industrial M&A with technology automation implications.",
+   "extracted_at": "2026-07-20T03:08:15.212012+00:00"
+  },
   {
    "skip": false,
    "d": "2026-07-19",
