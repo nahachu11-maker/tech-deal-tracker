@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-20T13:25:02.301439+00:00",
+  "last_updated": "2026-07-20T14:11:02.106862+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
@@ -93,6 +93,24 @@
    "extracted_at": "2026-07-20T13:24:55.478471+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Investment/Capex' not 'Debt'; this is a capital expenditure announcement, not a debt or M&A transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-20",
+   "type": "IPO",
+   "name": "Game Your Game Inc.",
+   "v": null,
+   "val": null,
+   "sector": "Software",
+   "status": "Filed",
+   "note": "Game Your Game Inc. (ticker: GYGY) filed an S-1/A amendment with the SEC, indicating the company is progressing toward an IPO on a U.S. exchange. The filing is under SIC 7372 (Prepackaged Software). No pricing terms or valuation details are disclosed in the amendment.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2111846/000121390026079281",
+   "source_snippet": "",
+   "extracted_at": "2026-07-20T14:10:53.157580+00:00",
+   "verify_failed": true,
+   "verify_reason": "No source text provided to verify the extracted record against."
   },
   {
    "skip": false,
