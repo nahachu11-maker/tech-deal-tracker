@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-20T11:21:02.328106+00:00",
+  "last_updated": "2026-07-20T13:25:02.301439+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -76,6 +76,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdlQ0UnB2cEZwR1V3MXhZbE1xendsT1E3aXd2azh4V2hoRktJM3ZiMHhwak5FZGpGenNyckJzcjZuNHNPRkdJOGtzX3c0Ukp2Q0JIXzRGanJzNlFJaFdsLVZXdW5Ma3Z6bTJTYlFNaXVDVGRDcHQ1WnZXcDR5YVdnUWpTQjdYMGFDem5TVDZ4di1EeXJZT1lPcGdBdW9WUFhJd2xJMlJzVEdjYkJ0QjI3c1JwUklXQ0Z3Vk9zdW9uNFhxdTdHeUt6bnFOdG8?oc=5",
    "source_snippet": "Count Limited has completed the acquisition of Oracle Group (financial advisory/professional services), closing a previously announced deal.",
    "extracted_at": "2026-07-20T08:10:00.586584+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-20",
+   "type": "Debt",
+   "name": "TSMC",
+   "v": 100.0,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "TSMC announced an additional $100B capital expenditure commitment to expand its Arizona semiconductor fabrication facilities, driven by surging AI chip demand. This incremental investment adds to TSMC's existing U.S. fab build-out and carries significant supply-chain and geopolitical implications for domestic chip production. The financing structure for this capex has not been specified in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84SU9EX3Izd3hsMVZmcFJjWV9PbW55a0lhb3FmOUF4aG84RDVPZkYyYjExR0p3VkVDVTZ0aTRWVEdqVHRySDhsVGdJZy1GMk1YV0hDbDZjMlM3UFl2cWw1SXZIazhadkpySjl2Z1hrdm1ib0pvOWxMMkZ5eHI?oc=5",
+   "source_snippet": "TSMC announces an additional $100B investment in Arizona fabs driven by AI chip demand, representing a major capex commitment with broad supply-chain and geopolitical implications.",
+   "extracted_at": "2026-07-20T13:24:55.478471+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Investment/Capex' not 'Debt'; this is a capital expenditure announcement, not a debt or M&A transaction."
   },
   {
    "skip": false,
