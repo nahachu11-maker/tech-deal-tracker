@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-20T05:01:27.512798+00:00",
+  "last_updated": "2026-07-20T08:10:04.276588+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 1
   }
@@ -41,6 +41,40 @@
    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03QjFyTmZTcXRZV0o3QWN3ek1JS2Q2RXlXTFNpWjhrNVl5TlBnWWRYT3hUaGI2SWJrRjR2bHlHNFpWemhheWl0WGxaVWZNWlNfUVdUNjhKYkcwQ3NFZUhj?oc=5",
    "source_snippet": "ABB is acquiring Rotork to expand its automation portfolio — cross-sector industrial M&A with technology automation implications.",
    "extracted_at": "2026-07-20T03:08:15.212012+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-20",
+   "type": "M&A",
+   "name": "Ondas / Design Technologies",
+   "v": 1.0,
+   "val": null,
+   "sector": "Design Technology",
+   "status": "Pending",
+   "note": "US-based Ondas is acquiring Design Technologies in a deal valued at approximately KRW 1.3 trillion (~$1B USD), per Korean media reports. The transaction expands Ondas's technology portfolio into design software/services. Deal terms and closing timeline have not been officially confirmed by the companies.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5MYkxuUUZodnBEd3ltajJJN25QUVFhRVhjc3pRc0hrMjZISEZIRzlqTmdWRllyRXpJMFVtcy1aeE9vRG9paWZhODBFUQ?oc=5",
+   "source_snippet": "US-based Ondas is acquiring Design Technologies in a deal reported at approximately KRW 1.3 trillion (~$1B), according to Korean media.",
+   "extracted_at": "2026-07-20T08:09:55.799850+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value should be approximately $1.0B, not null"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-20",
+   "type": "M&A",
+   "name": "Count Limited / Oracle Group",
+   "v": null,
+   "val": null,
+   "sector": "Professional Services",
+   "status": "Closed",
+   "note": "Count Limited has completed its acquisition of Oracle Group, a financial advisory and professional services firm. The deal expands Count's professional services portfolio. No financial terms were disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdlQ0UnB2cEZwR1V3MXhZbE1xendsT1E3aXd2azh4V2hoRktJM3ZiMHhwak5FZGpGenNyckJzcjZuNHNPRkdJOGtzX3c0Ukp2Q0JIXzRGanJzNlFJaFdsLVZXdW5Ma3Z6bTJTYlFNaXVDVGRDcHQ1WnZXcDR5YVdnUWpTQjdYMGFDem5TVDZ4di1EeXJZT1lPcGdBdW9WUFhJd2xJMlJzVEdjYkJ0QjI3c1JwUklXQ0Z3Vk9zdW9uNFhxdTdHeUt6bnFOdG8?oc=5",
+   "source_snippet": "Count Limited has completed the acquisition of Oracle Group (financial advisory/professional services), closing a previously announced deal.",
+   "extracted_at": "2026-07-20T08:10:00.586584+00:00"
   },
   {
    "skip": false,
