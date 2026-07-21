@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-21T19:06:52.422815+00:00",
+  "last_updated": "2026-07-21T19:27:39.269339+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 2,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 5
   }
  },
  "deals": [
@@ -93,6 +93,22 @@
    "extracted_at": "2026-07-21T19:06:42.387262+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes an investment/stake increase, not an M&A (acquisition), and the deal value should be $4.0B, not null."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-21",
+   "type": "M&A",
+   "name": "Siemens / Defacto Technologies",
+   "v": null,
+   "val": null,
+   "sector": "EDA / Semiconductor Design",
+   "status": "Pending",
+   "note": "Siemens is acquiring Defacto Technologies to extend its EDA portfolio with automated SoC design-creation capabilities, spanning the full system-on-a-chip lifecycle from design creation to implementation. The deal strengthens Siemens' Mentor/EDA division against Synopsys and Cadence in the semiconductor design software market. Financial terms were not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/siemens-to-acquire-defacto-technologies-to-complement-its-eda-portfolio-with-automated-soc-design-creation-302830920.html",
+   "source_snippet": " Acquisition extends Siemens' electronic design automation (EDA) portfolio across the system‑on‑a‑chip (SoC) design lifecycle Defacto Technologies' technology supports automation and continuity from design creation to implementation and enhances Siemens' portfolio for semiconductor design... ",
+   "extracted_at": "2026-07-21T19:27:25.199855+00:00"
   },
   {
    "skip": false,
