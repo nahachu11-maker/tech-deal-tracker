@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-21T01:51:52.362345+00:00",
+  "last_updated": "2026-07-21T02:52:29.661364+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 4
   },
   "scrubbed": "fields"
  },
@@ -194,6 +194,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWNVRTNQRzNjZnV0Z1VUODZUU2RnLTdnX0UxSnFGSnptUjNnbGdtTEhSSmNHUEZoeTZxRkdVZnhpR2VNYXktVktnOFFBVWpoNzZ2aGpOaGhXWS1scjlWY0RhZDVucm1FVnlWWHNyNk1iVGx3U2poaU1RWEtIQkQ2bzliWWYxSWd3VnRKNVhpdDlRakwzaTJ5NWhrd3o5aTkzOHpN?oc=5",
    "source_snippet": "Nvidia has acquired a 9.3% minority stake in Nebius, lifting Nebius shares and signaling Nvidia's strategic investment in AI infrastructure platforms.",
    "extracted_at": "2026-07-20T23:50:46.935514+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-20",
+   "type": "IPO",
+   "name": "Grayscale Worldcoin ETF",
+   "v": null,
+   "val": null,
+   "sector": "Crypto / Digital Assets",
+   "status": "Filed",
+   "note": "Grayscale filed an S-1 registration statement with the SEC for a Worldcoin ETF, seeking to offer investors exposure to the WLD token. The filing follows Grayscale's broader strategy of converting crypto trusts and launching spot crypto ETFs following the SEC's approval of bitcoin and ether ETFs. Deal size and valuation not disclosed in the filing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2145351/000119312526308957",
+   "source_snippet": "",
+   "extracted_at": "2026-07-21T02:52:00.526504+00:00",
+   "verify_failed": true,
+   "verify_reason": "No source text provided to verify the extracted record against."
   },
   {
    "skip": false,
