@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-21T17:52:16.103540+00:00",
+  "last_updated": "2026-07-21T19:06:52.422815+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 1
   },
@@ -58,6 +58,42 @@
    "source_url": "https://www.prnewswire.com/news-releases/native-acquires-frontline-research-group-to-build-the-agentic-artificial-intelligence-ai-data-layer-for-africas-1-7-trillion-traditional-trade-market-302830789.html",
    "source_snippet": " Acquisition brings market share feeds from 14 African markets into Native's platform — connecting the actions that grow share with the measurement that proves whether share moved NEW YORK, July 21, 2026 /APO Group/ -- /PRNewswire/ -- Native (https://Native.io/), the agentic intelligence... ",
    "extracted_at": "2026-07-21T13:57:40.762689+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-21",
+   "type": "M&A",
+   "name": "Einride / Flipturn",
+   "v": 0.038,
+   "val": null,
+   "sector": "Electric Trucking / EV Charging",
+   "status": "Pending",
+   "note": "Einride agreed to acquire EV charging startup Flipturn for $38M in an all-stock transaction. The deal expands Einride's charging infrastructure capabilities as it scales its electric trucking operations. The acquisition is consistent with Einride's vertical integration strategy to control key components of the EV freight ecosystem.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/07/21/einride-bets-38m-on-ev-charging-as-it-scales-electric-trucking/",
+   "source_snippet": "Einride agreed to acquire EV charging startup Flipturn for $38M in stock, expanding its electric trucking infrastructure as it scales operations.",
+   "extracted_at": "2026-07-21T19:06:33.732309+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source indicates the deal is completed ('agreed to acquire'), but the extracted record shows status as 'Pending'."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-21",
+   "type": "M&A",
+   "name": "Nvidia / CoreWeave",
+   "v": 4.0,
+   "val": null,
+   "sector": "Cloud AI Infrastructure",
+   "status": "Closed",
+   "note": "Nvidia invested nearly $4 billion into CoreWeave, increasing its stake approximately 18-fold, representing a significant minority strategic position in the cloud AI infrastructure provider. The move underscores Nvidia's push to deepen ties with GPU-hungry cloud operators that run its hardware at scale. Stake percentage implies a substantial but still minority ownership; exact share not disclosed in the snippet.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQZk9rRVM4YXZVa09BLTR6VDFSYXA0NDR1R1pTcTVTSXIwdVduZFk3VXRISjhfSnUyT2xXRFNZZGdZS1hXSjEtNmhQSWhKYWJQZnZIQW5GXzNlc1ZtdXQzSlpzdldkbVVsVGtRcjdnUWRGU3FqTnpjQXFfQS1ZdzFnY0lsRkNhVWVidFFDbkJxZGxXMkJGUmNabjl5amQ0X1ZIZ0QzVTM3VlhPRUJ6a0Z4Y1hZRnQwNXM1RVBSRWdNaDFWOEJzOHdiWTFmTmkyTDBUcFJXMlhKVTlaWnExYU8xblBlVHpLMTZHOU11VWdmeTNnRWxkaUlNMmM1VmVUNWtWdF9EUVlsbm5tdXF5TS14dHFYQWlMaURELXcwWGVGdC0yVW5sSWlyQ0tQRzVac3RfdjJra3RzQXFNRm85Nk5FWVdRMUZfVVpaNWt0YUttTTljYmFtNkdyNU04dExBNzg?oc=5",
+   "source_snippet": "Nvidia invested nearly $4 billion into a cloud infrastructure company, increasing its stake 18-fold, signaling a major strategic bet on cloud AI infrastructure.",
+   "extracted_at": "2026-07-21T19:06:42.387262+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes an investment/stake increase, not an M&A (acquisition), and the deal value should be $4.0B, not null."
   },
   {
    "skip": false,
