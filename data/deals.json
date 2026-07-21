@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-21T07:46:55.829641+00:00",
+  "last_updated": "2026-07-21T08:34:08.127761+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 5
   }
  },
  "deals": [
@@ -211,6 +211,24 @@
    "extracted_at": "2026-07-21T02:52:00.526504+00:00",
    "verify_failed": true,
    "verify_reason": "No source text provided to verify the extracted record against."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-20",
+   "type": "M&A",
+   "name": "Tempus AI, Inc. / Unknown Target",
+   "v": null,
+   "val": null,
+   "sector": "Healthcare AI / SaaS",
+   "status": "Pending",
+   "note": "Tempus AI (TEM, SIC 7370) filed an EX-2.1 exhibit — typically a merger or acquisition agreement — with the SEC on 2026-07-20. No target name, deal value, or transaction details are available in the snippet. Further review of the full filing is required to confirm counterparty and terms.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526309073",
+   "source_snippet": "",
+   "extracted_at": "2026-07-21T08:33:47.957836+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source text is empty; cannot verify any material facts about the Tempus AI transaction."
   },
   {
    "skip": false,
