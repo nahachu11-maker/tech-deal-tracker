@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-22T20:13:58.272236+00:00",
+  "last_updated": "2026-07-22T21:37:18.683622+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 3,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
@@ -199,6 +199,80 @@
    "extracted_at": "2026-07-22T20:13:53.471844+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type is 'Debt' but source describes a capital expansion commitment, not a debt transaction; also status should reflect this is a commitment/plan rather than pending deal."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "M&A",
+   "name": "Progress Software / Domo",
+   "v": 0.4,
+   "val": null,
+   "sector": "Enterprise Software / AI & Data",
+   "status": "Pending",
+   "note": "Progress Software has entered into a definitive agreement to acquire Domo's AI and data platform business for $400 million in a notable mid-market software transaction. The deal expands Progress's enterprise data and analytics capabilities, adding Domo's cloud-native BI and AI tooling to its portfolio. Status is Pending as the agreement has been announced but not yet closed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tYUdkcm5xZDRtdDByYkJ2eXJpYVVGdDlmQUQzaWVJdzNOY1NndEpCVENEekF2SVNBNjdvV1Mtbkp6NmRXNFAtTnpud3lhc1pkSUEzWE40Q0xWLVB0aUdESk5wUWwyU09YMnJHU3BYeDN0a2s?oc=5",
+   "source_snippet": "Progress Software has agreed to acquire Domo's AI and data platform business for $400 million, a notable mid-market software M&A transaction.",
+   "extracted_at": "2026-07-22T21:36:55.514828+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value should be $400 million (0.4 in billions), not null"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "M&A",
+   "name": "Repligen / BioLife Solutions",
+   "v": null,
+   "val": null,
+   "sector": "Life Sciences Tools",
+   "status": "Pending",
+   "note": "Repligen agreed to acquire BioLife Solutions in a cash-and-stock transaction, offering $11.25 per share in cash plus 0.1442 Repligen shares per BioLife share. The deal represents continued consolidation in the life-sciences tools and bioprocessing sector. Total deal value was not disclosed in the source text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83Uzk1YXk2dGtFUDJ1end2MnNMc3ZkZkFIczF1bUpQakNOZXRQWmJIYXg2WnNVSGpEeXgwTGptZ25GUHgzUlFnTUhRSm5MS09VZHg0TUFDR1UzOXMxaVM4UWt0V1RES2hvRkNwSmhuYWh6dms?oc=5",
+   "source_snippet": "Repligen has agreed to acquire BioLife Solutions in a cash-and-stock deal at $11.25 per share plus 0.1442 Repligen shares, representing a notable life-sciences tools consolidation.",
+   "extracted_at": "2026-07-22T21:37:02.230557+00:00",
+   "comps": {
+    "premium_pct": null,
+    "premium_basis": null,
+    "ev_revenue": null,
+    "ev_ebitda": null,
+    "consideration": "cash-and-stock",
+    "price_per_share": 11.25,
+    "financing": null,
+    "termination_fee": null,
+    "computed_fields": []
+   }
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "M&A",
+   "name": "AIP / Avanos Medical",
+   "v": null,
+   "val": null,
+   "sector": "MedTech",
+   "status": "Pending",
+   "note": "Avanos Medical shareholders have approved the acquisition by AIP at $25 per share in cash. The deal remains pending close following shareholder approval. No total transaction value is stated in the source text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBla0taVXlfVFR5bW8zVGxvd1lYVjJRSFJ0TEt2U19xdWt1TDQybXhDSXNYNDNrSTZ5b1BUVl9PT2J2V0lFYUNBS3VuSy1mZWhHWUpBQVdWMU5NcDBBTm1hOF95Vlg1bG5BejZ5THhEOU5pYk0?oc=5",
+   "source_snippet": "Avanos Medical shareholders approve acquisition by AIP at $25 per share in cash, advancing the pending deal toward close.",
+   "extracted_at": "2026-07-22T21:37:14.555864+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value of $25 per share should be captured in the val field, not left null",
+   "comps": {
+    "premium_pct": null,
+    "premium_basis": null,
+    "ev_revenue": null,
+    "ev_ebitda": null,
+    "consideration": "cash",
+    "price_per_share": 25.0,
+    "financing": null,
+    "termination_fee": null,
+    "computed_fields": []
+   }
   },
   {
    "skip": false,
