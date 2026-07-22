@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-22T08:33:02.617711+00:00",
+  "last_updated": "2026-07-22T10:18:33.010259+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 0
   }
  },
  "deals": [
@@ -77,6 +77,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcG05bkJrVWtsN0tfSXJvRS0ydHREdnR2cW5USjJoVmVqdjlxLTdEV1VETl85WkVVSzJOVW5YRU1VUXRkSWRCeHBmeE1hVDlKdnR5eWRySTBFR0pTRmV2dWc4X25YTS1ablBKY0MtMXpkMUtTbVdqa01nc055bmVMblE5a2xsMmpIUGZpaFkyWlF0d3Z1QWIzQjhQMG9kOHhmXzlv0gFaQVVfeXFMT1NMZWs5SndRdDBBeXlxcXduU2NQeWM1blMwbXhQRm55OHc2S05iTkhvUzlvQ21wWW5JRjZpQjZxV3V4UU1HWGZ5QWFIaGVZRklzeFZWdHpzV3BB?oc=5",
    "source_snippet": "Australian competition regulator clears Amazon's acquisition bid for Globalstar, removing a key regulatory hurdle for the deal.",
    "extracted_at": "2026-07-22T07:47:25.478372+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "M&A",
+   "name": "Ex-Microsoft AI Executive / Undisclosed Company",
+   "v": 0.0067,
+   "val": null,
+   "sector": "AI / Enterprise Software",
+   "status": "Pending",
+   "note": "A former Microsoft AI executive invested $6.7M to acquire an undisclosed company with the stated intention of installing an AI system as CEO, representing an unconventional governance structure. The deal is notable for its experimental AI-led management thesis rather than its size. No further financial terms or target identity were disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDUFBpRXQ3anRhSlpqbmFEUUFEUW04QWMzLWwxY3RJNlVPeVRDTFZDdnUxc2RVTFZXbEVxenpQNXhwc1dlU3JpQTVDaXZFTzdMYlFB?oc=5",
+   "source_snippet": "A former Microsoft AI executive invested $6.7M to acquire a company with the stated intention of installing an AI system as CEO, a novel governance and M&A structure worth monitoring.",
+   "extracted_at": "2026-07-22T10:18:28.295406+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value should be $6.7M not 0.0067; status should be 'Closed' not 'Pending' based on 'acquire' language in source."
   },
   {
    "skip": false,
