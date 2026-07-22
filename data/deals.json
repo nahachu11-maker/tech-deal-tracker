@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-22T14:34:02.845420+00:00",
+  "last_updated": "2026-07-22T16:17:02.397813+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 0
   }
  },
  "deals": [
@@ -95,6 +95,22 @@
    "extracted_at": "2026-07-22T10:18:28.295406+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value should be $6.7M not 0.0067; status should be 'Closed' not 'Pending' based on 'acquire' language in source."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "M&A",
+   "name": "Focus / GuideIT",
+   "v": null,
+   "val": null,
+   "sector": "Healthcare IT",
+   "status": "Closed",
+   "note": "Focus acquired GuideIT to expand its unified healthcare IT managed services platform. The deal signals consolidation in health-tech managed services as providers seek integrated IT solutions. No financial terms were disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/focus-expands-its-unified-healthcare-platform-with-the-acquisition-of-guideit-302831838.html",
+   "source_snippet": "Focus acquired GuideIT to expand its unified healthcare IT platform, signaling consolidation in health-tech managed services.",
+   "extracted_at": "2026-07-22T16:16:58.249129+00:00"
   },
   {
    "skip": false,
