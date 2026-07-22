@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-22T17:49:20.603527+00:00",
+  "last_updated": "2026-07-22T19:00:33.658289+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 1
   }
  },
  "deals": [
@@ -129,6 +129,24 @@
    "extracted_at": "2026-07-22T17:49:11.948859+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' based on 'acquire' language in source, not 'Pending'"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "M&A",
+   "name": "AMD / Anthropic",
+   "v": 5.0,
+   "val": null,
+   "sector": "AI / Semiconductors",
+   "status": "Pending",
+   "note": "AMD is making a strategic minority investment of up to $5 billion in Anthropic, deepening its AI ecosystem positioning and providing an alternative to Nvidia's dominant AI infrastructure stack. The stake size as a percentage of Anthropic was not disclosed. The 'up to' framing suggests the investment may be tranched or conditional on certain milestones.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeVJmaGF5RTd0cDl4RURVZ0pzb1hkV09VWHZjaUZ4QnJ6QmRUTkRxR01fR2xuZkVPdVY5aGM5eExaTjg5N2tzbjhqV0NvVVhva0R0Vk1hTDVIYTVubDBzMXB3dWRKVFR6a0loRGh5b0ttcm5ZUzI2X3M2cVlVRXhtOTBXTjBQNGN4cTZJaEhZMTkyUUFCR2JmTXhVcUo?oc=5",
+   "source_snippet": "AMD is investing up to $5 billion in Anthropic, a major strategic minority stake that deepens AMD's AI ecosystem play and challenges Nvidia's dominance in AI infrastructure.",
+   "extracted_at": "2026-07-22T19:00:24.349631+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Investment' or 'Minority Stake' not 'M&A', which implies acquisition/merger."
   },
   {
    "skip": false,
