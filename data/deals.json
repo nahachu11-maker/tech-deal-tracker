@@ -1,15 +1,51 @@
 {
  "meta": {
-  "last_updated": "2026-07-22T02:50:09.296708+00:00",
+  "last_updated": "2026-07-22T05:13:29.435526+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 1
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "Private",
+   "name": "Mistral",
+   "v": 22.0,
+   "val": null,
+   "sector": "AI / Large Language Models",
+   "status": "Pending",
+   "note": "Samsung is reportedly considering a €20 billion (~$22B at approximate exchange) strategic investment in French AI startup Mistral, which would mark one of the largest single investments in European AI history. The deal structure and stake percentage have not been disclosed; the report is based on unnamed sources and no definitive agreement has been announced. If completed, the transaction would give Samsung significant exposure to Mistral's open-weight LLM technology and European AI ecosystem.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNblFOd1V4NlhWYl94MVZVN0dwM3FPZGJzeGZ1aGFxenFsVkhpVXlRSXd2dVFSS3g3QWl5LXdNdjUySTVJZXlHelVleXRyemY2OGMyM1RERGZkN2FkZlctZnlNdXdjX25iVUQyTWJpSEV6YmpaTUhYY2I1b0lDUHNuY3h4bXJDbEhYZ1BZbXFvY3hYdzhNTm1iM0QwLXhpbFk?oc=5",
+   "source_snippet": "Samsung is reportedly considering a potential €20 billion investment in French AI startup Mistral, which would represent a landmark deal in the European AI sector.",
+   "extracted_at": "2026-07-22T05:13:06.913677+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value is €20 billion, not $22.0 billion, and deal type should reflect investment/equity deal, not generic 'Private'"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "M&A",
+   "name": "Anthropic / Physical Intelligence",
+   "v": null,
+   "val": null,
+   "sector": "AI / Robotics",
+   "status": "Pending",
+   "note": "Anthropic reportedly held acquisition talks with Physical Intelligence, a robotics AI startup, signaling a strategic expansion into physical AI and robotics. Deal terms and valuation have not been disclosed. If completed, the acquisition would meaningfully broaden Anthropic's capabilities beyond large language models into embodied AI systems.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kUlM3MUw0YW8xbTgwRjZybVBXZ21hN0VjMmYxV093NUZJOVJmbGZvV2tZeE1LTEVDRlpZcjVsVWVGdm1FcUMtU05zQUNCUFV0dnNvTS1TNUxMQmpEWTNrSkRiYnZNVWVNdDJPNDRPUWVRUQ?oc=5",
+   "source_snippet": "Anthropic reportedly held acquisition talks with robotics AI startup Physical Intelligence, indicating a strategic push into the robotics sector.",
+   "extracted_at": "2026-07-22T05:13:18.766077+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source says 'reportedly held talks' which indicates preliminary discussions, not a confirmed pending deal; status should be more tentative than 'Pending'"
+  },
   {
    "skip": false,
    "d": "2026-07-21",
