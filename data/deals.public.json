@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-22T19:24:41.111841+00:00",
+  "last_updated": "2026-07-22T20:13:58.272236+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
    "duplicates": 0
   },
@@ -148,6 +148,58 @@
    "extracted_at": "2026-07-22T19:00:24.349631+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Investment' or 'Minority Stake' not 'M&A', which implies acquisition/merger."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "M&A",
+   "name": "Univerus / TrellisPoint",
+   "v": null,
+   "val": null,
+   "sector": "IT Services",
+   "status": "Closed",
+   "note": "Univerus acquired TrellisPoint, a Microsoft Solutions Partner specializing in IT services, in a small-cap transaction brokered by IT ExchangeNet. Deal value was not disclosed. The acquisition expands Univerus's Microsoft ecosystem capabilities and partner network.",
+   "advisors": [
+    "IT ExchangeNet"
+   ],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPXzh2UlplaFZleDdkeE1JLWVQUllkNDdQRGhtTzFHazVuY3A5eGNvSjJlUHRlTkhiZmtmNVVZeWNEMFZocllBV0pHNXhFYjJqZUUxd2ZnUE1JUmNLTVRKNnIwcjY5YWswYUllRUZVb2hZdmRHXzFaTVZOZUZRZkMxNXBIZ2tGTGs4QnlJSUFUYW5zTmZRRlpLVW56YURzNGlYLTVJUnZsU0tWcHg1UGN0aUlfdGoyc0ljUURGbDZTX0JIa1Z5VlV5aExn?oc=5",
+   "source_snippet": "Univerus acquired Microsoft Solutions Partner TrellisPoint in a small-cap IT services M&A transaction via IT ExchangeNet.",
+   "extracted_at": "2026-07-22T20:13:36.063354+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "M&A",
+   "name": "SoundCloud / Nina Protocol",
+   "v": null,
+   "val": null,
+   "sector": "Music Tech / Web3",
+   "status": "Closed",
+   "note": "SoundCloud acquired decentralized music platform Nina Protocol following the latter's shutdown, absorbing its artist catalog and music discovery tools. The deal strengthens SoundCloud's positioning for independent musicians by integrating Web3-native discovery capabilities. Deal terms were not disclosed; acquisition appears to be an asset purchase of a defunct platform.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/07/22/soundcloud-acquires-decentralized-music-platform-nina-protocol-months-after-its-shutdown/",
+   "source_snippet": "SoundCloud acquired decentralized music platform Nina Protocol after its shutdown, absorbing its artist catalog and music discovery tools to strengthen its independent musician platform.",
+   "extracted_at": "2026-07-22T20:13:43.471920+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-22",
+   "type": "Debt",
+   "name": "SK Hynix",
+   "v": 5.8,
+   "val": null,
+   "sector": "Memory Semiconductors",
+   "status": "Pending",
+   "note": "SK Hynix is committing $5.8B to expand its domestic Korean HBM (High Bandwidth Memory) manufacturing plant, prioritizing organic capacity growth over an acquisition of Intel's Ohio facility. The decision reflects a strategic focus on scaling HBM production in-country amid surging AI-driven demand. This is a capital expenditure/plant expansion commitment rather than an M&A transaction.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUGNaSEstMkkxVlBqb2N0ZHhCQ0d2VVNDc0s1MkVoaEl1S3VnWVJJc0tLYVdlV0p0c1F1LUJIdFVmcERmaVpBR0ZIVHVkdlhVNnZ3a2FJaXFOeTdxaUtSNVhsRU1QZFp4TFJtV1YxRDJkUVlSdFZJVWp2SWprU0xjVHQzd0o1Z3NXUWw1SlJaVTVaaWpyeF9iT2Uxd0g2dU05cmE0QVB3Z3pvRzRoYW9SSzJSR3lwN24zejNBSk1pbWtLUHVf?oc=5",
+   "source_snippet": "SK Hynix commits $5.8B to expand its Korean HBM plant after rejecting a potential takeover of Intel's Ohio facility, a significant capital allocation decision in the memory sector.",
+   "extracted_at": "2026-07-22T20:13:53.471844+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type is 'Debt' but source describes a capital expansion commitment, not a debt transaction; also status should reflect this is a commitment/plan rather than pending deal."
   },
   {
    "skip": false,
