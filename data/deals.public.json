@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T05:22:38.740150+00:00",
+  "last_updated": "2026-07-23T08:00:49.176385+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -46,6 +46,22 @@
    "extracted_at": "2026-07-23T05:22:34.301092+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a debt financing (not an M&A/IPO/Follow-on deal type classification), and the status should be 'Closed' or supported by date context, not 'Pending'; additionally, the record does "
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "M&A",
+   "name": "Dassault Systèmes / ArisGlobal",
+   "v": null,
+   "val": null,
+   "sector": "Life Sciences Software",
+   "status": "Pending",
+   "note": "Dassault Systèmes has signed a definitive agreement to acquire ArisGlobal, an AI-enabled life sciences software platform, from private equity seller Nordic Capital. The deal extends Dassault's existing life sciences vertical with regulatory and clinical data management capabilities. Financial terms were not disclosed; closing remains pending.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/nordic-capital-announces-agreement-to-sell-arisglobal-to-dassault-systemes-following-its-transformation-into-a-scaled-and-ai-enabled-life-sciences-platform-302833093.html",
+   "source_snippet": "Nordic Capital has signed a definitive agreement to sell life-sciences software provider ArisGlobal to Dassault Systèmes; deal is pending close.",
+   "extracted_at": "2026-07-23T08:00:41.768753+00:00"
   },
   {
    "skip": false,
