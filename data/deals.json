@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T19:22:12.882927+00:00",
+  "last_updated": "2026-07-23T20:36:34.919830+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   }
  },
  "deals": [
@@ -169,6 +169,24 @@
    "extracted_at": "2026-07-23T19:21:46.614162+00:00",
    "verify_failed": true,
    "verify_reason": "No source text provided to verify the extracted record against."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "Debt",
+   "name": "CoreWeave",
+   "v": 3.5,
+   "val": null,
+   "sector": "AI Infrastructure / Data Centers",
+   "status": "Pending",
+   "note": "CoreWeave (CRWV) has locked in a $3.5 billion data center financing deal with Galaxy Digital in Texas, representing a major capital commitment to AI infrastructure build-out. The structure appears to be a sale-leaseback or infrastructure SPV financing arrangement typical of hyperscale data center development. The deal underscores continued investor appetite for AI compute capacity amid surging demand for GPU-dense facilities.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeXVEUDZUNl9jVF9xRnNlTVYwck5uZ29PZGh2eVNSWGNQbVA1dGNBOFItTlFQLXY4V05GTXpKU09IVVFYRHZTOGEzNk5scl80emJaeXdNck5MY1hwVkRhS25KYVpnZHB4VHlSYk5kQlZ6Qll1czMyNC1ObzRSVzZEQW16OGtPckpLQkZLZVpnSTd3Tl9URGxZSlM3RnhWYVRwb0RCTmhCWV9VY0t0eExFbkRCUHhTaUc1WHQ1TXRsZjRFSlF3NEQ40gHMAUFVX3lxTE9XeHFVVnU2QW54UkhNckZZblBqbFF4UTFsdUNBTUtLbmxEYUNQR1BCYVFwZ0pYOGxwSjdxbWVzZTBuRlc0bFctaXZvblRjeWtXYm5EVU0wblZrTmFtbDFFSURNSGJMY2Q2cFNwOEJKR1J0alFBc0E1dDFPNC1oamRwS2dINUM3UVVJaTE2NGdVTnNobWQwYTBhdlU1Z1pJcGhwVzJlRGRiTm54R1Q2bUVRYzY1TUVhRzd4MmVUTVAyRmtBRENacWZOb29ZQw?oc=5",
+   "source_snippet": "CoreWeave secures a $3.5 billion data center deal with Galaxy Digital in Texas, representing a major capital commitment in AI infrastructure.",
+   "extracted_at": "2026-07-23T20:36:33.317133+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Capital/Financing' or similar, not 'Debt'; status should be 'Closed' not 'Pending' based on 'secures' language indicating completion."
   },
   {
    "skip": false,
