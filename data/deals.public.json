@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T20:36:34.919830+00:00",
+  "last_updated": "2026-07-23T21:59:38.226745+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -188,6 +188,24 @@
    "extracted_at": "2026-07-23T20:36:33.317133+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Capital/Financing' or similar, not 'Debt'; status should be 'Closed' not 'Pending' based on 'secures' language indicating completion."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "M&A",
+   "name": "Nvidia / Amkor Technology",
+   "v": 1.5,
+   "val": null,
+   "sector": "Semiconductor Packaging",
+   "status": "Pending",
+   "note": "Amkor Technology surged 16% following news of a $1.5B deal with Nvidia, characterized as an advanced packaging supply agreement material to Amkor's revenue outlook. However, the deal appears to be a commercial supply/packaging contract rather than an acquisition or equity transaction — if confirmed as purely a commercial agreement, this should be reclassified as a licensing/partnership skip. Structure and closing conditions remain unconfirmed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbFJBTnpSYktoTDVTOHI5S3pOeTljaWdlMTFmNHdqR21tQmNxbHU3dWkycUk5WVkwTUszRDA4cUpzU3NQY0ZhbjRRWk5DLTdCTzZ2WEM4N2ZNZ1U1cHJ1NlNTalhTc2RzWms3S1RWUVFvenZZYmRaUGVSY0dRMklLeUgyUUh6NWxFQWk2MUJxUUI2Q2pLR0M3dVAxSnBXbUVWSDhqWQ?oc=5",
+   "source_snippet": "Amkor Technology surged 16% on news of a $1.5 billion deal with Nvidia, likely an advanced packaging supply agreement material to Amkor's revenue outlook.",
+   "extracted_at": "2026-07-23T21:59:34.352961+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a supply agreement, not an M&A transaction; the deal type should not be M&A."
   },
   {
    "skip": false,
