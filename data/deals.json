@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T17:55:28.089528+00:00",
+  "last_updated": "2026-07-23T19:02:40.927512+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
@@ -115,6 +115,42 @@
    "extracted_at": "2026-07-23T16:22:10.353307+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' or indicate asset sale completion, not 'Pending'; deal type appears to be asset sale via insolvency, not traditional M&A"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "M&A",
+   "name": "KKR / LCY",
+   "v": 1.56,
+   "val": null,
+   "sector": "Semiconductors / Materials",
+   "status": "Pending",
+   "note": "KKR is pursuing an exit from LCY, a chemical materials supplier to TSMC, following a $1.56B investment in the company. The move represents a notable PE exit in the semiconductor supply chain. Deal structure and buyer have not yet been disclosed; status reflects KKR moving toward rather than completing the transaction.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNl85QUktdi00NVkzZlBxa0JkZjdWWEltbDg2QW5wMlUtMUZHWVlSM0wxeUhlVkliM0VxcFZsV3RHYWtFM2N4X0VIbDVaOWNBdlIwSzExblViZnY1X1FLSEZFTVd1VHY5enZFWWpmNFlOckxLTzVzSGF6dGVtdjZiNjNhYjVia0VVbXZweG5uSFl6cWlZQWlOWU41bGJyZ1F2U0RFdHZFS2I2NXJhV1loWC1hSmVOd1pHQWhxQUFjUjFXMXBVdzN1Y3FrM2F0U2s1ZjNxU1ZnSV9tdjg?oc=5",
+   "source_snippet": "KKR is moving toward exiting its position in LCY, a TSMC supplier, following a $1.56B investment, representing a notable PE exit in the semiconductor supply chain.",
+   "extracted_at": "2026-07-23T19:02:30.780688+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source indicates KKR is exiting/selling its position in LCY, not acquiring it; this is a PE exit/sale, not an M&A deal between the parties."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "M&A",
+   "name": "Undisclosed Buyer / ARX Wireless",
+   "v": null,
+   "val": null,
+   "sector": "Telecom Infrastructure",
+   "status": "Closed",
+   "note": "Brown Gibbons Lang & Company advised ARX Wireless on the sale of a wireless communications tower portfolio to an undisclosed buyer. Deal value was not disclosed. Transaction represents consolidation in the telecom tower infrastructure segment.",
+   "advisors": [
+    "Brown Gibbons Lang & Company"
+   ],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/bgl-advises-arx-wireless-on-the-sale-of-a-wireless-communications-tower-portfolio-302833591.html",
+   "source_snippet": "Brown Gibbons Lang & Company advised ARX Wireless on the sale of a wireless communications tower portfolio, representing a notable telecom infrastructure M&A transaction.",
+   "extracted_at": "2026-07-23T19:02:36.461850+00:00"
   },
   {
    "skip": false,
