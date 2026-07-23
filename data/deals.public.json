@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T02:56:26.331431+00:00",
+  "last_updated": "2026-07-23T05:22:38.740150+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
@@ -26,6 +26,26 @@
    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10cTh6aFFlUVNxV2VTeGdWZ0pDZ0U2bmR3X3NVb1FUR0pjd1NYeUptYkhGdk9FWWZYUVBNTHBNZDRLNGN3WUVoVlVCbzR3bkdmZjhQMG9zVDd1SGVrcGQtVlhsZXpoaE4xTmhDaHNHVmRrVVhH?oc=5",
    "source_snippet": "Krafton made a strategic investment in global game-commerce company Neon, expanding its portfolio in the gaming commerce space.",
    "extracted_at": "2026-07-23T01:58:16.281197+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "Debt",
+   "name": "Meta Platforms",
+   "v": 12.0,
+   "val": null,
+   "sector": "AI Infrastructure / Data Centers",
+   "status": "Pending",
+   "note": "BlackRock is leading a $12B debt financing package to fund Meta's data center build-out, reflecting large-scale institutional capital deployment into AI infrastructure. The transaction underscores growing appetite for private credit and infrastructure debt tied to hyperscaler capex programs. Separately, BlackRock is acquiring Aligned Data Centers, though terms of that acquisition are not disclosed in this report.",
+   "advisors": [
+    "BlackRock"
+   ],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSXRaX1p3UW9EcXBSRUpSai10bEZMQktyYXYzQWhMaDdsdjZDUkpTZlFpTktxWGd3RGRHTUt3a2RPMHRzS0xBaVdGbUdwMTllU0V0WHRmY0NPbV9nYWo2R3YxandtMTBCWXlJOGtaLUJWaGp3ZVc5NDlCcmsxLUVzWFh1cy1BeldJY0pBWHd2THU?oc=5",
+   "source_snippet": "BlackRock leads a $12B debt financing for Meta's data center build-out and separately acquires Aligned Data Centers, highlighting major capital deployment into AI infrastructure.",
+   "extracted_at": "2026-07-23T05:22:34.301092+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a debt financing (not an M&A/IPO/Follow-on deal type classification), and the status should be 'Closed' or supported by date context, not 'Pending'; additionally, the record does "
   },
   {
    "skip": false,

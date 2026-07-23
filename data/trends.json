@@ -1,13 +1,13 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T01:58:12.560651+00:00"
+  "last_updated": "2026-07-23T05:22:25.501778+00:00"
  },
  "trends": [
   {
    "entity": "Naver",
-   "today": 14,
+   "today": 15,
    "avg": 0.08,
-   "score": 28.0,
+   "score": 30.0,
    "spiking": true,
    "spark": [
     0,
@@ -17,7 +17,7 @@
     0,
     0,
     1,
-    14
+    15
    ]
   },
   {
@@ -39,9 +39,9 @@
   },
   {
    "entity": "Kakao",
-   "today": 11,
+   "today": 12,
    "avg": 0.0,
-   "score": 22.0,
+   "score": 24.0,
    "spiking": true,
    "spark": [
     0,
@@ -51,7 +51,7 @@
     0,
     0,
     0,
-    11
+    12
    ]
   },
   {
@@ -90,9 +90,9 @@
   },
   {
    "entity": "Samsung Electronics",
-   "today": 23,
+   "today": 28,
    "avg": 1.62,
-   "score": 14.24,
+   "score": 17.33,
    "spiking": true,
    "spark": [
     0,
@@ -102,7 +102,24 @@
     0,
     0,
     21,
-    23
+    28
+   ]
+  },
+  {
+   "entity": "Kakao Pay Securities",
+   "today": 5,
+   "avg": 0.0,
+   "score": 10.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
    ]
   },
   {
@@ -123,10 +140,10 @@
    ]
   },
   {
-   "entity": "CoreWeave",
-   "today": 4,
-   "avg": 0.77,
-   "score": 5.2,
+   "entity": "SK Hynix",
+   "today": 27,
+   "avg": 3.15,
+   "score": 8.56,
    "spiking": true,
    "spark": [
     0,
@@ -135,15 +152,32 @@
     0,
     0,
     0,
-    10,
+    41,
+    27
+   ]
+  },
+  {
+   "entity": "CoreWeave",
+   "today": 4,
+   "avg": 0.54,
+   "score": 7.43,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
     4
    ]
   },
   {
-   "entity": "SK Hynix",
-   "today": 15,
-   "avg": 3.54,
-   "score": 4.24,
+   "entity": "TSMC",
+   "today": 4,
+   "avg": 0.69,
+   "score": 5.78,
    "spiking": true,
    "spark": [
     0,
@@ -152,14 +186,65 @@
     0,
     0,
     0,
-    46,
-    15
+    9,
+    4
    ]
   },
   {
-   "entity": "TSMC",
-   "today": 3,
-   "avg": 1.15,
+   "entity": "Tesla",
+   "today": 7,
+   "avg": 1.23,
+   "score": 5.69,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    16,
+    7
+   ]
+  },
+  {
+   "entity": "Nvidia",
+   "today": 9,
+   "avg": 3.0,
+   "score": 3.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    39,
+    9
+   ]
+  },
+  {
+   "entity": "Alphabet",
+   "today": 20,
+   "avg": 7.38,
+   "score": 2.71,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    96,
+    20
+   ]
+  },
+  {
+   "entity": "Google",
+   "today": 6,
+   "avg": 2.31,
    "score": 2.6,
    "spiking": true,
    "spark": [
@@ -169,16 +254,16 @@
     0,
     0,
     0,
-    15,
-    3
+    30,
+    6
    ]
   },
   {
-   "entity": "Tesla",
-   "today": 4,
-   "avg": 1.77,
-   "score": 2.26,
-   "spiking": true,
+   "entity": "Unitest",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
    "spark": [
     0,
     0,
@@ -186,8 +271,42 @@
     0,
     0,
     0,
-    23,
-    4
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "Xtranet Technologies",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "ASML",
+   "today": 2,
+   "avg": 0.15,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
    ]
   },
   {
@@ -225,7 +344,7 @@
    ]
   },
   {
-   "entity": "Techwing",
+   "entity": "Platinum Equity",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -242,24 +361,7 @@
    ]
   },
   {
-   "entity": "Klarna",
-   "today": 1,
-   "avg": 0.15,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1
-   ]
-  },
-  {
-   "entity": "Toss",
+   "entity": "Nestlé",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -276,7 +378,41 @@
    ]
   },
   {
-   "entity": "Quantinuum",
+   "entity": "China Mobile",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "SpaceX",
+   "today": 1,
+   "avg": 0.31,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    1
+   ]
+  },
+  {
+   "entity": "Oracle Financial Services Software",
    "today": 1,
    "avg": 0.08,
    "score": 2.0,
@@ -289,142 +425,6 @@
     0,
     0,
     1,
-    1
-   ]
-  },
-  {
-   "entity": "Samsung SDI",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Citadel Securities",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Kakao Bank",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Oracle Financial Services",
-   "today": 1,
-   "avg": 0.08,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "Korea Investment & Securities",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "NCSoft",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "LG",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Qualcomm",
-   "today": 1,
-   "avg": 0.54,
-   "score": 1.86,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    7,
     1
    ]
   }
