@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T14:41:37.503615+00:00",
+  "last_updated": "2026-07-23T16:22:15.645073+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -96,6 +96,26 @@
    "source_url": "https://www.prnewswire.com/news-releases/ibm-to-acquire-hrl-laboratories-to-power-the-future-of-quantum-302833239.html",
    "source_snippet": " HRL's expertise in silicon-spin qubits and quantum sensing will strengthen and extend IBM's world-leading quantum computing mission ARMONK, N.Y. and MALIBU, Calif., July 23, 2026 /PRNewswire/ -- IBM (NYSE: IBM) today announced it has signed a definitive agreement to acquire HRL... ",
    "extracted_at": "2026-07-23T14:07:04.837933+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "M&A",
+   "name": "TBD / 3DEO",
+   "v": null,
+   "val": null,
+   "sector": "Metal 3D Printing / Additive Manufacturing",
+   "status": "Pending",
+   "note": "Brian Testo Associates has been engaged to sell the intellectual property assets of 3DEO, Inc., a metal 3D printing startup, through insolvency/distressed proceedings with bids closing August 12, 2026. The sale encompasses core IP from 3DEO's proprietary metal additive manufacturing technology. This is a distressed asset disposition with no acquirer or deal value disclosed at announcement.",
+   "advisors": [
+    "Brian Testo Associates"
+   ],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/brian-testo-associates-llc-has-been-engaged-to-sell-intellectual-property-assets-of-metal-3d-printing-pioneer-3deo-inc-with-bidding-to-close-august-12-302833488.html",
+   "source_snippet": "3DEO, a metal 3D printing startup, is selling its IP assets via insolvency proceedings with bids closing August 12, signaling a distressed asset sale.",
+   "extracted_at": "2026-07-23T16:22:10.353307+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' or indicate asset sale completion, not 'Pending'; deal type appears to be asset sale via insolvency, not traditional M&A"
   },
   {
    "skip": false,
