@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T21:59:38.226745+00:00",
+  "last_updated": "2026-07-23T22:55:32.310047+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -206,6 +206,24 @@
    "extracted_at": "2026-07-23T21:59:34.352961+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a supply agreement, not an M&A transaction; the deal type should not be M&A."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "M&A",
+   "name": "Alphabet / SpaceX",
+   "v": null,
+   "val": null,
+   "sector": "Space / Tech",
+   "status": "Pending",
+   "note": "Alphabet disclosed a significant minority stake in SpaceX, representing a cross-sector strategic investment by the mega-cap tech firm. The exact deal value and stake percentage were not disclosed in the filing. Minority stake investments of this nature typically signal strategic alignment around AI, satellite connectivity, or cloud infrastructure synergies.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHVaMnIyMlFOdUxTb1o4MXE5OTF1ODZyRTh5VUFCM0dlMHoxTDE3dUtIVDY1RDVRMDJEUFF1U0pJczRlaG9lQUNNU3ZHTWFlbVo4Um1pUHVFbWNENVp6bHRGUU9HeDRDNTE0TXpjODFtNUpvdUtPbFVuZ2EzQ2c1S2hDVzBwYlNrcXphWDFpMFdfdU1OUmlJZlVvTWVxb1JuTnZpdG5QREpiMXNldEcyUEVuOTU?oc=5",
+   "source_snippet": "Alphabet discloses a significant minority stake in SpaceX, a notable cross-sector strategic investment by a mega-cap tech company.",
+   "extracted_at": "2026-07-23T22:55:29.147692+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes a minority stake investment, not an M&A transaction; deal type should be investment or strategic investment, not M&A."
   },
   {
    "skip": false,
