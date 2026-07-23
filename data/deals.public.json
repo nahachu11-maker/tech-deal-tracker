@@ -1,16 +1,32 @@
 {
  "meta": {
-  "last_updated": "2026-07-22T23:57:03.118301+00:00",
+  "last_updated": "2026-07-23T01:58:49.488607+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 6
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "Private",
+   "name": "Neon",
+   "v": null,
+   "val": null,
+   "sector": "Gaming / E-commerce",
+   "status": "Closed",
+   "note": "Krafton made a strategic minority investment in Neon, a global game-commerce company, to expand its portfolio in the gaming commerce space. Deal value was not disclosed. The investment aligns with Krafton's broader strategy to diversify beyond game development into gaming-adjacent commerce infrastructure.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10cTh6aFFlUVNxV2VTeGdWZ0pDZ0U2bmR3X3NVb1FUR0pjd1NYeUptYkhGdk9FWWZYUVBNTHBNZDRLNGN3WUVoVlVCbzR3bkdmZjhQMG9zVDd1SGVrcGQtVlhsZXpoaE4xTmhDaHNHVmRrVVhH?oc=5",
+   "source_snippet": "Krafton made a strategic investment in global game-commerce company Neon, expanding its portfolio in the gaming commerce space.",
+   "extracted_at": "2026-07-23T01:58:16.281197+00:00"
+  },
   {
    "skip": false,
    "d": "2026-07-22",
@@ -6195,16 +6211,6 @@
     "Goldman Sachs"
    ],
    "note": "Nasdaq: DUOL. Priced above range — consumer-subscription quality that outlasted the vintage.",
-   "review": false
-  },
-  {
-   "d": "2021-07-23",
-   "type": "SPAC",
-   "name": "Lucid / Churchill Capital IV",
-   "v": 24,
-   "sector": "EV / Mobility",
-   "status": "Closed",
-   "note": "The most hyped SPAC of the mania closed days into this window at a ~$24B valuation — CCIV retail frenzy as the era’s emblem.",
    "review": false
   }
  ]
