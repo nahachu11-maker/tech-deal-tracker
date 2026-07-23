@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T22:55:32.310047+00:00",
+  "last_updated": "2026-07-23T23:55:08.870690+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 1,
+   "added": 2,
    "updated": 0,
    "duplicates": 0
   }
@@ -223,6 +223,40 @@
    "extracted_at": "2026-07-23T22:55:29.147692+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes a minority stake investment, not an M&A transaction; deal type should be investment or strategic investment, not M&A."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "M&A",
+   "name": "Apple / Play",
+   "v": null,
+   "val": null,
+   "sector": "Consumer Apps",
+   "status": "Closed",
+   "note": "Apple quietly acquired award-winning app 'Play' in a small bolt-on transaction. Deal value was not disclosed. The acquisition aligns with Apple's ecosystem strategy, likely bolstering its App Store or media platform offerings.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSOUwzS2h2OGgwTl93UFo0dGstaGViZUVNT3BjbXZfcU5JSmJmQm1iaFpkZENlZVFDM2RSWWpzdkFuVU9QTFU2YXlWb2Q2QkRxNm9qVXMtUUdzV21sc0tONktsZlFDR0c5d1dRcktR?oc=5",
+   "source_snippet": "Apple quietly acquired award-winning app 'Play', representing a small bolt-on M&A transaction relevant to its ecosystem strategy.",
+   "extracted_at": "2026-07-23T23:55:00.283042+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-23",
+   "type": "M&A",
+   "name": "Krafton / Neon Commerce",
+   "v": null,
+   "val": null,
+   "sector": "Gaming / E-commerce",
+   "status": "Pending",
+   "note": "Krafton made a strategic minority investment in Neon Commerce to bolster its platform competitiveness. The deal represents capital deployment by a major Korean gaming firm into the commerce sector. Deal value and stake percentage were not disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOMXUyM0VRU20xLTFRemFOeUl5Ni1kbzA2bEpDTGtZLV9IYWwteDFJVDFiQzhrajE4S2VRN0lYWGp6b2xyZ1kzTG02R09YRThSQWhtSXlLY0U2VUNjZGRJNGhTQUxpV2tVRXfSAW5BVV95cUxObTFjUm1lSWpKMktEN2tuc3Z4Wjh4eXkzTGFENkYteTdfb1RTeHYwQmRJcHNMcnVHWUZTZmdaMjVNclhJRmRTVXBFQk0tOG14VkxSeTMxcVB3RTNPRTdKV2QzbU1Uc2FZMGItaXRmdw?oc=5",
+   "source_snippet": "Krafton makes a strategic minority investment in Neon Commerce to strengthen platform competitiveness — capital deployment by a major Korean gaming firm.",
+   "extracted_at": "2026-07-23T23:55:06.161341+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes a minority investment, not an M&A transaction; deal type should be 'Investment' or similar, not 'M&A'"
   },
   {
    "skip": false,

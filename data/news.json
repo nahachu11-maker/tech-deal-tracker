@@ -1,10 +1,1011 @@
 {
  "meta": {
-  "last_updated": "2026-07-23T22:55:25.070097+00:00",
+  "last_updated": "2026-07-23T23:54:56.948189+00:00",
   "item_count": 800,
-  "added_last_run": 70
+  "added_last_run": 76
  },
  "items": [
+  {
+   "id": "2026-07-23-1a6854d958",
+   "ts": "2026-07-23T23:51:28+00:00",
+   "title": "OpenAI-Hugging Face attack doesn't mean agents are evil – unless you tell them to be",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdm9PMTdiZlFhbUdoM3k3d3pFUHZBdUhyaEZCMFl5czJxX0NQUEpIVUwxQS1RVFE1dC1ZZlFtM2s1QWRrVGo5VmNBYl95dHppTXBtLW5CZ0tYbHBnbUJVUnRwUTRnaHZuWFVJbVNyY0hRT19oTXlQZm12NWdCR0ZNMEw3RzJQTUt4dncyTkVkWklqYzNKaUwzX3h0SVRUTTltRkNENnZ4NDdmVk0zS3VoWTY0ek1KTWJtcFU1Zjg0NFl1VTlUV25mZWpmejRNYVU4LTVJ?oc=5",
+   "outlet": "The Register",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "OpenAI",
+    "Hugging Face"
+   ],
+   "summary": "Analysis of AI agent security vulnerabilities involving OpenAI and Hugging Face, raising questions about enterprise risk in agentic deployments.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-a903da4182",
+   "ts": "2026-07-23T23:44:19+00:00",
+   "title": "Apple Acquired Award-Winning App 'Play'",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSOUwzS2h2OGgwTl93UFo0dGstaGViZUVNT3BjbXZfcU5JSmJmQm1iaFpkZENlZVFDM2RSWWpzdkFuVU9QTFU2YXlWb2Q2QkRxNm9qVXMtUUdzV21sc0tONktsZlFDR0c5d1dRcktR?oc=5",
+   "outlet": "MacRumors",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "M&A"
+   ],
+   "companies": [
+    "Apple"
+   ],
+   "summary": "Apple quietly acquired award-winning app 'Play', representing a small bolt-on M&A transaction relevant to its ecosystem strategy.",
+   "importance": 1,
+   "deal_status": "announced",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-07-23-e6a45ac065",
+   "ts": "2026-07-23T23:40:32+00:00",
+   "title": "China's AI surge challenges U.S. dominance",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YLWhnMEtyOFRDb2lGdmZjQWFHUVJ6Wmd2bTV0bWZmdG5ma3o2UjFEY3FwcHJZLVU4Tk81STVRRDZDYVdkQ2tRbXdfc1M0VjF5VHdFb1dfY29IUS1OTUExSDdXaGhTUQ?oc=5",
+   "outlet": "동아일보",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [],
+   "summary": "China's accelerating AI capabilities are challenging U.S. dominance, with implications for export controls and semiconductor policy.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-d4dd4df1e6",
+   "ts": "2026-07-23T23:38:00+00:00",
+   "title": "NVIDIA commits $1.5 billion to expand US capacity for next-gen advanced chip packaging",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQm16Q0cya2I2SG9jR0RBbTlncmZjeUF4OGxLREFGM2xVTWRXZFZWUHV0V04xSDllOGNpNmMteWtaVU9XeDFVbzU5Qm82UUFNY2tybEdqLXBfbjNMZXh5aEludUVZa3djc0RhQjVTUFVJRENCcjJQX21scm5ybFR3VWZFTHNXQTJUT29BWWZLbw?oc=5",
+   "outlet": "Interesting Engineering",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Capital Raise",
+    "Product"
+   ],
+   "companies": [
+    "Nvidia"
+   ],
+   "summary": "Nvidia commits $1.5 billion to expand U.S. advanced chip packaging capacity, signaling major domestic capex investment in next-gen semiconductor infrastructure.",
+   "importance": 3
+  },
+  {
+   "id": "2026-07-23-7b530e70d2",
+   "ts": "2026-07-23T23:37:05+00:00",
+   "title": "Microsoft launches new in-house AI models it says cut costs up to 89% versus OpenAI",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSTZYWFpQOXB1YmdpWHo1bEswUlBWaGNUX0Z6dEtVR3dBeXBUVXJoNHk3bVJnYXZfZlNNbWFGY1JULUF3bHBUNk1ySHUta1BGYy12b3ZWdXR0aG1yQVRvRW1ZY1lfSGxMZFJfR0cxc2wySnNKWTc0dVptdjlrX3IxakdqMEVsMmxERHZoR0NVRWJ0d1BUbGlqd3k0TDdxSFFCanMwbVNaMWlnWTZPb2EtN1Jtd2tnYkpoejZrUXBn?oc=5",
+   "outlet": "VentureBeat",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Microsoft",
+    "OpenAI"
+   ],
+   "summary": "Microsoft launches proprietary in-house AI models claiming up to 89% cost reduction versus OpenAI, potentially reducing its dependency on OpenAI and intensifying competition.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-daee0cd0ea",
+   "ts": "2026-07-23T23:37:02+00:00",
+   "title": "Alphabet Q2: The Negative FCF Deserves A Closer Look (NASDAQ:GOOG)",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOTNWTDEyUkVCNlR5VTdSQlZJeWI2a2xTaTBqdW43OHpTeDB4eFNocU1qQVROUmpvQU1Pa2VxaWQ1eDY2NVk5LXhxYW5iZHpFQkxNVWk2aE9ETzY5eXlTVlM2bURyVVVvSUJ0YUxvdEpkVEpWOGU2ZllLOGw2LVhxTkE3R28yQ0xYVllzRmJ5RW54QzB3ZUx3?oc=5",
+   "outlet": "Seeking Alpha",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Alphabet"
+   ],
+   "summary": "Alphabet Q2 analysis highlights negative free cash flow, a potential concern for investors regarding capital allocation and AI infrastructure spending.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-289c3da775",
+   "ts": "2026-07-23T23:36:21+00:00",
+   "title": "삼성 OLED 확대가 LG디스플레이 살렸다… 경쟁사 넘어 핵심 고객으로 부상",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZEliZzBnZVlrZnBoSmFOZUpNTGIxdzdfWFZsakZxQWZYWFRIc1dXY0RPTUNaeDVjSGcwM2lyN2llTkNKVlUtME9GZVpjOThYajJOQWYwRUREem42Z3FhcGpjMS1WZ2xEZ3hoSjF0ZzFsa29QNTRKd1lybnRvMVdFY2VPWEJxR005?oc=5",
+   "outlet": "글로벌이코노믹",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung",
+    "LG Display"
+   ],
+   "summary": "Samsung's OLED expansion has turned LG Display from a competitor into a key customer, with material revenue implications for LG Display's business.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-4c09a9d7ea",
+   "ts": "2026-07-23T23:36:00+00:00",
+   "title": "Pentagon awards Oracle nearly $7B to centralize defense software",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZWNTYXhDNF9Ua2IxUktFZ05pXzRvbzV0R0ZocmtfdzJzUW9xR2dIVl9yaFBIOEFxdlJHVzAtTFdIbVltVFBnNFV2MmNGQVJqczFJb2o5TjUtZXVBRlg4NTV6VGZhbUtDdFNMMGYwUVFTbjFqbzVQendFaXdkdzVLUDdQcmM5MmI4eC1DX0ZfVDd6aG8?oc=5",
+   "outlet": "Interesting Engineering",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "M&A"
+   ],
+   "companies": [
+    "Oracle",
+    "Pentagon"
+   ],
+   "summary": "Pentagon awarded Oracle a ~$7B contract to centralize defense software, representing a major government cloud/enterprise win.",
+   "importance": 3
+  },
+  {
+   "id": "2026-07-23-00b519fbef",
+   "ts": "2026-07-23T23:35:00+00:00",
+   "title": "Meta, Tennessee propose different standards for consumer-protection trial",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNUwwemNfQjM0LTFlbS1VdWpmZ2VNd01jZGJBRjA4ZzZuSTJ6QnVzMmgxYzhFcHBNeDFCMi14eVJCTy1QQzNxTnN5bWJXbDd2Rm8xMUh1X0FQWEUwWko5NVhmRVNyOEM4VFBKb3ZRM3VwTGhjcjlzd0NJT21JRmdBaGhqUXdsbWZSWVJQSlo5NlJjWW1tc2dOTm41TmdiTWhlWlpYMDlraXZLaHg4NDBUNm12dndTd9IBWkFVX3lxTE5Vc2Q0TnVkUkFRaDZ2dmNZZ2w4RFphWXhja00taHFfQW1lWW50OUhrdi1qTU1aRXQyYkRReDdwZFRSekxDRVFrZnl1SXRVMUFVQ1lGNThFSnFmUQ?oc=5",
+   "outlet": "MLex",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Meta"
+   ],
+   "summary": "Meta and Tennessee propose differing legal standards ahead of a consumer-protection trial, signaling continued regulatory litigation risk.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-053456582f",
+   "ts": "2026-07-23T23:34:06+00:00",
+   "title": "삼성, 전력반도체 인력 재배치…비메모리 불만 고조",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sYzNLOXdmdHNCbmg4OC1WejhYOTg3bk80N2VqbllLejc3NHVQQzdVcnJvZmVGQ1Rpb041eE11VEhzRnV1cjFwcEZMUkF0a2tpeWEyel9acTZ3c21zVEloZzR1c2E?oc=5",
+   "outlet": "서울경제TV",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung is redeploying power-semiconductor staff amid rising internal dissatisfaction in its non-memory division, highlighting strategic restructuring tensions.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-9a6014e4ae",
+   "ts": "2026-07-23T23:32:33+00:00",
+   "title": "삼성 19조원 로봇 투자…구미시 '휴머노이드 제조혁신 거점' 육성",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB5cFdaUG9lYmIwa25MVFdkSW5heWxXZGY3bFlIRXgxdUVwaEZLcE9LMDNDTmJfN1JLYi1nbkFQZVRZUDd2ZDFvY25wSDZFU0VNX2kwdjZBYWd1TWdtdXlPWkpVZ214R1QyUXRyVnU0SdIBc0FVX3lxTE9YSDA0OU55ZWFjNHJyQkhNdUZ3N3lkOU91RmtRQUZMVHFmTDVqZVVDWFBCLS1lRW1tMnBYXzl3dmFCU1p0VDV1RTB0VWxia1JtTW56R3ItQ1ZDZnlrTDNPamZnWHVYTjNpQ053VzlMM2FWOUE?oc=5",
+   "outlet": "데일리한국",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Capital Raise"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung plans KRW 19 trillion (~$14B) robotics investment, targeting humanoid manufacturing at Gumi, signaling major capex commitment to robotics.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-4e17906784",
+   "ts": "2026-07-23T23:32:00+00:00",
+   "title": "Samsung, AMD co-design HBM4 and memory to power Helios AI platform - CHOSUNBIZ",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YZlBDTVB0em5sUVU5ZDN1OXVGYkFZYnpnYzZhaTZFNks2TmpsQVBOYVhVVVZrbnhnTU5GRjRnai1JdjJZVDVsREQwRnkweTRPVWZQN1F3UXNPSTZUSXlwU0lFMnJUSHAzVl9WaUV2WmxhTTBBYXMtd3Vn0gGOAUFVX3lxTE5rc1h2a1ZqcGN4NXVpWWZVaGFGaXVrbnU1MFctYnRLbjhwQldCZm1Yb3V6X2RVS2pDSkFLQnBTNlpkUkZvRzRyVF9helh6WU9pRjN3TDhVOEEyWnFUajVVRmdkSkpfQU9WTC1icDRPUEphSUFSUTMtVjZJSGNIczZMYkZlNllfanJEWmtfSUE?oc=5",
+   "outlet": "Chosunbiz",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership",
+    "Product"
+   ],
+   "companies": [
+    "Samsung Electronics",
+    "AMD"
+   ],
+   "summary": "Samsung and AMD are co-designing HBM4 memory to power AMD's Helios AI platform, a strategically significant partnership for next-gen AI memory supply.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-9ddd661340",
+   "ts": "2026-07-23T23:32:00+00:00",
+   "title": "Trump imposes new tariffs on 60 trading partners",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTlNBWmd5X2lsampEOWljWUN2ejNqYnhJTm0yTS1rc09OM1ktNjVDdmpObGJzNHVOSDY5Y1Y4NmhYTWtPd2ZfdXJndEtJckxmZVZDLV9MLWVEc193TFlmZlRqRWh3a0ExdldMV3U1TjZ4by1PQlJWVElEQWROQ2FReXFFSHM0YUVPYlBCeXA2VUlfVHpBNk1KYjc2VTBJTUM3N0E0?oc=5",
+   "outlet": "香港電台",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [],
+   "summary": "Trump administration imposes new tariffs on 60 trading partners, creating broad macro and supply-chain risk relevant to semiconductor and tech sectors.",
+   "importance": 3
+  },
+  {
+   "id": "2026-07-23-06aeb57658",
+   "ts": "2026-07-23T23:31:17+00:00",
+   "title": "Micron (NASDAQ:MU) gains as AI selloff highlights memory scarcity",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTG1wWndlYW84Z2FUYU9HX082ZWxEMVRBc0FQZ2YyTFc4OFBUT1kzUjhLWTJKaGt1LVNSSzVQN1VtUU94eGhIWWhpbEU4QkhtcHJyTFFhT1JfUmZlb192STZDcllxS1pIRC1CNkhsc052dnVnc2FUUktNSDdPV2NXZGtSc3BkVF83WnF3?oc=5",
+   "outlet": "TechStock²",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Micron"
+   ],
+   "summary": "Micron shares gained as broader AI sector selloff underscored scarcity of high-bandwidth memory, supporting near-term pricing power.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-8662c072ec",
+   "ts": "2026-07-23T23:30:56+00:00",
+   "title": "Apple, Ford Partner For Navigation Integration 07/24/2026",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX0ZOc3VwM2RGUXFEcFFOQ19nQUdadEJJbEFfQmtCbktyeXhnQzVEMkY3TjlsM0J1c1owMjdBU0NDWHoxc0U2V2FFSjRTR28zZ0xiTjZsbURrT19YbmNENl9QallKczNFc3cyZmNFRllTSUNmNEl3eV9nTHVEc3V1LWdsU1dyUFFIcS1IcFpEM1NGMWFSRHdQcmgyWGRSVDU1YlpHaVMwMWtuM2k0VnhQZnpwUklsNzZmcmNV?oc=5",
+   "outlet": "MediaPost",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Apple",
+    "Ford"
+   ],
+   "summary": "Apple and Ford announced a navigation integration partnership, extending Apple's in-vehicle software footprint.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-d301657896",
+   "ts": "2026-07-23T23:30:02+00:00",
+   "title": "CapEx Fears Eclipse Alphabet’s Strong Q2, but GOOGL Stock Still Looks Attractive",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNHp1MUQ2UGEySWxxV0ZsVVVnX3Z4dEVpMmNqNFhRZ0FsQW1fOXd0MGlkS0drMndlMEkyc1I5cjVCU1VrYnJqVVI4UTJraEl4eHZLZm16R05uSFdZRFdqWWladHpCV2NXc1k3TTJkbUZGelhZMU5CTmF4aWFiaGtzOUp4LUtYVExoME5ZZHRWTEJUNVU5VkRDQlBfeHg4YU9oa2JVNTFxdVJOckVlUGpFVi1jcE9BWXBKY3IyZkFIVQ?oc=5",
+   "outlet": "Barchart.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Alphabet"
+   ],
+   "summary": "Alphabet posted strong Q2 results but investor concern over elevated CapEx weighed on sentiment, a key metric for AI infrastructure spend trajectory.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-61675c72d4",
+   "ts": "2026-07-23T23:27:00+00:00",
+   "title": "Lyntris Inc. Announces Filing of Registration Statement for Proposed Initial Public Offering",
+   "url": "https://www.prnewswire.com/news-releases/lyntris-inc-announces-filing-of-registration-statement-for-proposed-initial-public-offering-302833782.html",
+   "outlet": "",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "IPO"
+   ],
+   "companies": [
+    "Lyntris"
+   ],
+   "summary": "Lyntris Inc., a defense-tech connectivity company, has filed an S-1 registration statement with the SEC for a proposed IPO.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-0bae2f3486",
+   "ts": "2026-07-23T23:24:00+00:00",
+   "title": "GRUPO ELEKTRA ANNOUNCES REVENUE OF PS.47,761 MILLION AND EBITDA OF PS.5,353 MILLION IN THE SECOND QUARTER OF 2026",
+   "url": "https://www.prnewswire.com/news-releases/grupo-elektra-announces-revenue-of-ps47-761-million-and-ebitda-of-ps5-353-million-in-the-second-quarter-of-2026--302833780.html",
+   "outlet": "",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Grupo Elektra"
+   ],
+   "summary": "Grupo Elektra reports Q2 2026 revenue of MXN 47.76B and EBITDA of MXN 5.35B, providing a financial benchmark for Latin America's largest non-bank cash-advance provider.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-9f55a1f88c",
+   "ts": "2026-07-23T23:23:50+00:00",
+   "title": "Cisco to provide observability control plane for AMD’s $4K Halo developer PCs",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTFVhRDNuV3pfbi1CWXhreFhCUEtMUDIyRW03azNZTzVhdFBYZU5jYk44VG1UVVIxM1BWeGVHRlJyUDVaWHBaZ3NtWXRVa3BFdkxDTm1uWTUzVHRiZmhKOW1vSzdwR0xBTVpxNmtJWHJUM2RZYVl6SHZ1M2hRcTlxNE9md0JsU250WGtXd1otUWJPd0Rwa0l1TTBmUXpzWGw3emRHVXBaWXVfZEVO?oc=5",
+   "outlet": "SDxCentral",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership",
+    "Product"
+   ],
+   "companies": [
+    "Cisco",
+    "AMD"
+   ],
+   "summary": "Cisco will supply the observability control plane for AMD's $4,000 Halo developer PC platform, deepening a commercial partnership in AI/developer hardware.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-073df75db0",
+   "ts": "2026-07-23T23:20:35+00:00",
+   "title": "삼성전자, 개발 19%↑ 제조 17%↓…인력구조 재편",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CU2pHMDNrVzNESFFPdDJNYkJEdzN6RVlmazJmNFlCQUk5aVdzNHkzUkNxTXp3dnBuMWNlVXlsb2F1REc5OFFZNUpHY3lYelB5X0o4RE5vUUg1NjVGeGRZ?oc=5",
+   "outlet": "데이터뉴스",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Electronics is restructuring its workforce, increasing R&D headcount by 19% while cutting manufacturing staff by 17%, signaling a strategic shift toward higher-value activities.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-1663511ce5",
+   "ts": "2026-07-23T23:20:00+00:00",
+   "title": "삼전닉스 급락의 범인은 낸드…“이제 악재는 주가에 반영”",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12MVFoYmZ5NXRwZnJOYzdYY1A5aVhQZFRUcHczVGFvTjNZMU13MUNqZldQQl9mVkJSTVNORkFaTDNRVWQzTy1FRWI0dmllWlBvSDdEbDJTX2p3QTFpeEpWVU5RcklfTW42Xzl6SHNNRlpScURnYzhpZzVtMA?oc=5",
+   "outlet": "이데일리TV",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Samsung Electronics",
+    "SK Hynix"
+   ],
+   "summary": "Samsung and SK Hynix shares dropped sharply driven by NAND weakness, with analysts suggesting the negative factors are now priced in.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-be6d9f8c15",
+   "ts": "2026-07-23T23:19:44+00:00",
+   "title": "David Vélez and Robin Vince join both OpenAI boards | ETIH EdTech News",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYTc1R21HdjBWZTJSSUtLY29NemdHaEJQb0FqTjZwVVNBMmt5TmNiV1gwaU1GLVNITjJ2dFk3WG9ETXU1Ry1aVTJONktIR0FOOWxtdWE5aXlrVzduMEg1U294MjhzaWF6RGRkOTZfS2VNY1V5NElyYzdoeWt4YkxVNXVYeFJhWDFBSnZyX0ExaHQ2ZXFTUndJUFR3NGFWM2FaMENNM2FTRVFmM1lxM3o4ZnFYdUtQbVNZWnc?oc=5",
+   "outlet": "EdTech Innovation Hub",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "OpenAI",
+    "Nubank"
+   ],
+   "summary": "David Vélez (Nubank CEO) and Robin Vince (BNY CEO) join OpenAI's boards, broadening the company's financial and corporate governance oversight ahead of its ongoing commercialization.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-bb73fe4673",
+   "ts": "2026-07-23T23:18:00+00:00",
+   "title": "[오늘의 투자전략] 알파벳·테슬라 급락에 코스피 조정 압력…반도체는 하방 경직성",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9iYW92U3RJNDVjNlRQeHhiZlJXNGY1dnNOdnlIanRRX3g3cmhYWUZJU1IzSy1HaU84T0JadHF1Y3JFOTVXT29VeVJiSS1EdDRFVkdsLQ?oc=5",
+   "outlet": "이투데이",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [],
+   "companies": [
+    "Alphabet",
+    "Tesla"
+   ],
+   "summary": "Sharp declines in Alphabet and Tesla are weighing on Korea's KOSPI index, with semiconductor stocks showing relative resilience.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-08531a970d",
+   "ts": "2026-07-23T23:16:05+00:00",
+   "title": "OpenAI hacking incident highlights new era of cybersecurity",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbERVbjRZN1NhMWZlVlkxdWd6bU1lbU9FMUpfSEc5OW0tM0cyb2s2YjJBdkxnLWZrYm82QzJGOE4yQmVDSjRNMklKenF5U19mTXBmUnYwUFp1OHRBQVVhMnAwZFdDSDcyb2NyWnVzTHBfZjVZd1lqeWh6ckZnOFlwLTFrWlhTVERsRHZqQWJ0V091R0hm?oc=5",
+   "outlet": "KSNV",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI suffered an 'unprecedented cyber incident,' raising regulatory and reputational risk concerns for the leading AI company.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-92eab870e2",
+   "ts": "2026-07-23T23:16:00+00:00",
+   "title": "OpenAI president on 'unprecedented cyber incident'",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdFJfY21IeDYtamtfeTFjbWd3MlJYT3hzZldhd2ppbTJyRWtudkNHaW5LbWdRV1FjTzYzd0sxMjhRT0VSVXZRVWJfZmthSjRuTDNtY3NVR2JnaklQVm4yMWdZbVU3RWJ1UGFPM0FzTEtqWTc0aG9wdFlwdVVtaXFKR002ZU1VZ0p5NkZMTmF0THlrejRGaWNCclQzMzJrcEk?oc=5",
+   "outlet": "NBC News",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI's president publicly addressed the cybersecurity breach, underscoring potential operational and regulatory scrutiny for the firm.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-f699d9abba",
+   "ts": "2026-07-23T23:15:37+00:00",
+   "title": "인텔, 2분기 AI발 수요 광풍에 15년만 최고 매출 성장률",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50djdjZGktMS0yUWF6TGtURGNveVNpVzlpU1NWZVQ5MjhvSzB6YUx0YVNlNk42SzBIUTVVZnQ2V2szOW53RE8xc0dBaHZFM1lGLTA1SUln?oc=5",
+   "outlet": "지디넷코리아",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Intel reported its highest revenue growth rate in 15 years in Q2, driven by AI-related demand surge.",
+   "importance": 3
+  },
+  {
+   "id": "2026-07-23-b3a3e3e3d5",
+   "ts": "2026-07-23T23:14:00+00:00",
+   "title": "\"만들면 다 팔려\" AI 훈풍 탄 인텔, 15년 만 최대 성장…데이터센터 매출 59% 급증",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxUE5pdV9JaHdEYXRra3M0OUdkTlpXdUFxcF8tYy1ucmZ6a1h0NTJHOWlFLUpQbzlnRDQzU2c5Vzg3cE1ScWZURkppX2F5bEw4aWNn?oc=5",
+   "outlet": "네이트",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Intel's data center revenue surged 59% year-over-year, marking its strongest growth in 15 years on the back of AI infrastructure demand.",
+   "importance": 3
+  },
+  {
+   "id": "2026-07-23-895617cffe",
+   "ts": "2026-07-23T23:12:00+00:00",
+   "title": "US judge questions if Nvidia AI training lawsuit is copyright dispute",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVXBRdW1UWWloYUh4Wk5kMDZyZFBkNUF3UENTOGJFUmp4RGh5dklvcy1DdXNQZHN2OFFMaVZpTjVzVnpjY3BieHYxdmdvWmJ1MTVjMXMxQVI3VE9lcDk2M3N1T3dlT3JndVdvMVBiaDlRQTJrMGJvY1hYN29ZeGR1cEpMYW5nUG9DcElpcFgwU3U2amlpZ2ctZFBnZzU2RGhEdW5NWVo0T0pmTGpyRUstUlBR0gFaQVVfeXFMUGM5Z19ib0ltQU4tTjdULXp6OUh1VDFyUG42RXRXU0F4eU93WTBOZlZVRGM5Y0hORTNiQk9sTHQ3cmVqODkyOWJIOXpRaWJhZWhUT1AtZC1HSEl3?oc=5",
+   "outlet": "MLex",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Nvidia"
+   ],
+   "summary": "A US judge questioned whether Nvidia's AI training lawsuit is properly characterized as a copyright dispute, with implications for how AI data-use litigation is classified going forward.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-b39b6cdd2a",
+   "ts": "2026-07-23T23:11:00+00:00",
+   "title": "한국 반도체 저승사자 모건스탠리, \"요즘 자숙 모드\" 이유는",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xUFhvT3FlTGdUUHI1bnJwV0tybEVZc1UyREdxMEgtS0JtQ3hrRUsyNjY0V0JhTlg1T19WbEJvN3h3SUt3VS1VR1BKWGdWN0ZySFZR?oc=5",
+   "outlet": "네이트",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "Morgan Stanley",
+    "Samsung Electronics",
+    "SK Hynix"
+   ],
+   "summary": "Morgan Stanley, known for bearish calls on Korean semiconductor stocks, is reportedly adopting a lower-profile stance, suggesting a shift in its near-term outlook on the sector.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-bc9f197076",
+   "ts": "2026-07-23T23:11:00+00:00",
+   "title": "[속보]삼전닉스 레버리지 예탁금 상향, 31일부터 조기시행",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdHVza0xaQzFEZl9SUXloQ1lRWlFHb0FpY3pCRFE0Y282Mi13SE4zYS1QTG4zZFRVVU91WDliUzBkRzBiamk2TWVRQzJtajRaZkZldi1GQkhNZjMwdldVNDRZdTl5MHYxaHJnMU40NGNJX3hJNDk1VGRCV3pTTzFiQ2ktSGwyb1RJSGJJWGlTNHRnX2QtbmI2N3JrdUQzYnZWUDhqT0JxQk8wUHEw0gFfQVVfeXFMTWRrQ0pXZURSLVV4SlVHRFZHUHJ6OGRKLWp0MUlhaDV0ZHFueWt1dFQ3dVlBYjNDM2xNVkI1MTQzRFg5TGl3cmFRekdCSUJaWG9tQ21sYklPUFFEUG9XOVE?oc=5",
+   "outlet": "경향신문",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "Samsung Electronics",
+    "SK Hynix"
+   ],
+   "summary": "South Korean regulators are raising margin deposit requirements for leveraged positions in Samsung and SK Hynix ETFs effective July 31, tightening speculative trading conditions.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-b39b6cdd2a",
+   "ts": "2026-07-23T23:11:00+00:00",
+   "title": "한국 반도체 저승사자 모건스탠리, \"요즘 자숙 모드\" 이유는",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xUFhvT3FlTGdUUHI1bnJwV0tybEVZc1UyREdxMEgtS0JtQ3hrRUsyNjY0V0JhTlg1T19WbEJvN3h3SUt3VS1VR1BKWGdWN0ZySFZR?oc=5",
+   "outlet": "네이트",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "Morgan Stanley",
+    "Samsung Electronics",
+    "SK Hynix"
+   ],
+   "summary": "Duplicate of earlier item: Morgan Stanley is reportedly moderating its historically bearish stance on Korean semiconductor names.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-368ef36d99",
+   "ts": "2026-07-23T23:10:16+00:00",
+   "title": "[삼성 非반도체 적자 ] 가전·모바일 아픈 손가락…반도체 흥행 역설",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqUU5oQXQ3WjVGUS0yRmd1MEMzdnFveHVscmw3NUlJY3BzU19qMUVKSFNaMDB3TVBIam1XVWN6azFuYW81YVJudzFUY3h0ZnFOUGF5RVRR?oc=5",
+   "outlet": "DealSite경제TV",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "Samsung's non-semiconductor divisions (appliances, mobile) are loss-making, creating a paradox where strong chip performance masks broader business weakness — relevant to segment valuation and restructuring risk.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-a6eaa325dc",
+   "ts": "2026-07-23T23:09:08+00:00",
+   "title": "Intel Q2 Earnings Call Highlights",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRnB1eWdwVTI2Nm1GS0dXNGRBVmJWVmxackp4d2o1ZkxDSzNEN0JVYzI5STVYcWNTZkpVRXhGU2licWpLUVJnNmVqRm5kaGFZdnhBcldKcVdYeE53Rm44SGI5UEtxSFA0YkstaWhuTFpYaXV1YVQ4ejBmUWFfOGstVzIwREFkZnlYQ2JERGU3TGs?oc=5",
+   "outlet": "MarketBeat",
+   "also": [
+    {
+     "outlet": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRnB1eWdwVTI2Nm1GS0dXNGRBVmJWVmxackp4d2o1ZkxDSzNEN0JVYzI5STVYcWNTZkpVRXhGU2licWpLUVJnNmVqRm5kaGFZdnhBcldKcVdYeE53Rm44SGI5UEtxSFA0YkstaWhuTFpYaXV1YVQ4ejBmUWFfOGstVzIwREFkZnlYQ2JERGU3TGs?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Intel Q2 earnings call highlights flagged for investor attention, potentially revealing guidance and competitive positioning in a pivotal restructuring period.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-3d911a3eff",
+   "ts": "2026-07-23T23:08:54+00:00",
+   "title": "Oracle (ORCL) Secures $6.99B Contract with U.S. Department of Wa",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTUNYbjZ0ZWsxamVNTzIyN1hWcWY0RFB3QkhTb3FxWDBBRFd6ejBwR2NRbkNDSUdGczg3OU1CbTBOdlVTYUhqT2o3RWNHS0wyelZKc1BJWi1nSlQ3NG95cVdGRzJpby04ZjRLX1Z2YklOMGdoZnc1b28wcktSQ3pYaHpZOEtfVHFsSFdwZnYwdjhvTVNNLWdFLTJqVDZjLVU?oc=5",
+   "outlet": "GuruFocus",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Oracle"
+   ],
+   "summary": "Oracle secured a $6.99B contract with the U.S. Department of Defense/War, representing a significant government cloud/IT revenue event.",
+   "importance": 3
+  },
+  {
+   "id": "2026-07-23-f66e89af72",
+   "ts": "2026-07-23T23:08:24+00:00",
+   "title": "Micron Technology stock rallies 3.09% as MicronTech touts AMD-backed AI agent benchmark gains",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVGk1eGdrTVNXVTI4dlZuMHJiSFZWWVMyQkticjhJWU1KbkFXcDJrcmNjSmRmUG9UY1pVbmVJRlZfRnhYWGhCSTZTNm1UejY3SmlTRkRJbHozcjkxMmZ5a1lhRW8xeG4xeFdiNFVZWkxtZkstbkVhd25CenZ0Zm5meUFpRlJvZWdTaW51c2gtZUI1NVY3NFJNVF8wcw?oc=5",
+   "outlet": "Traders Union",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Micron Technology",
+    "AMD"
+   ],
+   "summary": "Micron stock rallied ~3% after touting AMD-backed AI agent benchmark gains, signaling growing memory demand tied to AI workloads.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-edf19c03cd",
+   "ts": "2026-07-23T23:08:16+00:00",
+   "title": "NVIDIA and KAIST Launch Joint AI Research Lab to Accelerate AI Innovation in Korea",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaTNQTHNWZE1BbWY3Y1RVVno0Nnoyc1RvZFZQVTRLMEdTWDhQTnlTeDJoYU9pcFBBQTd0RGpGSDh6N25UcG5KeDFnUjNXNjd0bXJaZURDSHdsV2tjZ1I2UnBhWGkwU2NnTTd5VWNJOXpxeGEwSzFxSzF2UVFmd213R0RMa05od1pwM2J6TjZNZHl2RW1XanVOa0FPblp1eXNxSUlPelJpZ2FtZWZNUHUtNW92VHRDUnJy?oc=5",
+   "outlet": "NVIDIA Newsroom",
+   "also": [
+    {
+     "outlet": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNnAxZlBEM1F1T2pSQzZabmN6R0FSbGx3RzBCNHRsX21tdXpGVHd3SXRWcEl4UWNRVkFaVlFnbWpJUnNlNUhSQTRreGJtMzU3Q1NURUlQdUxscmxaaldlUEVZblc4c09MQTJHckctdXhoVzgxYVVGV1BmbmFsd3Q1c0s5THlTcG5ic3VmVmhlWjJBNXlMQ1U0ZVNXTVBHcFNwZnAxbTkwNzQya0I0NmZOLWJqeFhCUmJmYzFDRDVIcw?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Nvidia",
+    "KAIST"
+   ],
+   "summary": "Nvidia and Korean research institution KAIST launched a joint AI research lab, extending Nvidia's academic and regional AI ecosystem partnerships.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-9760ef6e07",
+   "ts": "2026-07-23T23:05:23+00:00",
+   "title": "[속보] 삼전 · 하이닉스, 프리마켓서 동반 1%대 약세…중동發 리스크 부각",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRQW95MzBEb1FTNnM1Y3hwT055ZXBQaURDWHpoYXVGU1I4TW9lRkh2bmZjUmxDNFBoZTl0VTdzMjJGOGM2WUVaSmF3UXBUVVVUWE9FRWRiWmtGV0MtbE9hN3RsbUJZWENyQjhSTEVaZ2stdjd2SzFkM251TdIBgAFBVV95cUxOUTh3eVYtckI2eEMwbzF5TzJGOFNjLVRXOWpUbnU5d3lUbjBfY3NSdUVLT2VzSWFlcnJETTlVcW04V1hBWGF1NktNVkFwemtzRElzamludmN0ZUgySGd3Mk1kVkVRbXJKbFpEUmhzeGhyWVZKYUc4U2Y0RS01d2hkeA?oc=5",
+   "outlet": "뉴데일리",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "Samsung",
+    "SK Hynix"
+   ],
+   "summary": "Samsung and SK Hynix pre-market shares fell ~1% as Middle East geopolitical risk weighed on Korean memory stocks.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-6b18264dfa",
+   "ts": "2026-07-23T23:04:54+00:00",
+   "title": "Dow Jones Top Markets Headlines at 7 PM ET: Trump Unveils New Tariffs Designed to Withstand Legal Scrutiny | U.S. ...",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWVlEZW9jUDc2SlF1OUY2N1VGMlJqRW1ZaE9tVlBtQzYtaDF1a05BMWxwcEpmZUVUNGJkTmZQdXRJMFo0Wmoybzk2Z0hZQTI1RHgwMVQ5cjVMV2lUQ3djWXB0RzRSajI1ekZvbVNLNWpyckNGYXp0QU9zeEM2Q1FkSnRhaWJ1Y3lHSTBPbjlFZFBHWXFQ?oc=5",
+   "outlet": "Moomoo",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [],
+   "summary": "Trump administration unveiled new tariffs structured to withstand legal challenge, with direct implications for semiconductor and tech supply chain costs.",
+   "importance": 3
+  },
+  {
+   "id": "2026-07-23-51ad8cdebe",
+   "ts": "2026-07-23T23:04:32+00:00",
+   "title": "Microsoft commits $60m to DOE Genesis Mission | ETIH EdTech News",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdjdLS0daZHlDdlAtdWFqVUxOZlgzMDJOd09mSHpvb2xNZ3NuSFJ4SEFIeFpzR0ZtczloMnFJMFlmMG1KZGhyRG0tYmVGYzA3a1RxTmVqZUczZTNVd1VtT3hITmE5NDIyVWRTSEltd0pkZjdEMFlEYndZNmlWTG9WVzkwcE52Z3ZXRFFpQUdLS1VESmE2UnM1WjIyYXJuVXRuYkM5WlFGUFBDXzRZM3hqYmJYVS0?oc=5",
+   "outlet": "EdTech Innovation Hub",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Capital Raise"
+   ],
+   "companies": [
+    "Microsoft"
+   ],
+   "summary": "Microsoft committed $60M to the DOE Genesis Mission, signaling continued government-facing AI/technology investment.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-f242cd0e53",
+   "ts": "2026-07-23T23:03:00+00:00",
+   "title": "Morgan Stanley sends strong verdict on memory stocks",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNX18yeDV2RnQ4OEo1V3BFQ0tYM3ZmZ3NHcnVYZ1FCX0dTV1hxeXFOZjdQaHBUNlBQUE10OHkxcHBpYkJWc1JnSkpGaS1NcmE0dG4yb3hzbU53RkpGUEE0dnJMSzNVUUhGQ1BEam5PdXJibDNWT3VJRXo1RENTTzNxWnRvQXRTWWdwd1A0VGFFanlUelFaUjRKR1ZUclRQTFVzWUdjaWp1VQ?oc=5",
+   "outlet": "thestreet.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "Morgan Stanley"
+   ],
+   "summary": "Morgan Stanley issued a notable verdict on memory stocks (likely HBM-focused), relevant to positioning in Samsung, SK Hynix, and Micron.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-a75eb1bace",
+   "ts": "2026-07-23T23:00:25+00:00",
+   "title": "삼성전자, ADR에 거리 두는 까닭",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrWmZpTDRkNDVrN2RtT1BwT09kVTFnUGd4Z2FGOEVueGtNVXpubjFXM09FekloWldsU2tzUVVuSTk5WlRXM2RGS2lUWVZRaHBSLVdhU1ZR?oc=5",
+   "outlet": "DealSite경제TV",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "Samsung Electronics is reportedly distancing itself from ADR (American Depositary Receipt) listing, relevant to its capital markets access and foreign investor strategy.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-d878c2aadc",
+   "ts": "2026-07-23T23:00:00+00:00",
+   "title": "U.S. Starts Genesis Mission with $5B for First Projects",
+   "url": "https://www.eetimes.com/u-s-starts-genesis-mission-with-5b-for-first-projects/",
+   "outlet": "",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Capital Raise"
+   ],
+   "companies": [],
+   "summary": "U.S. government initiates a $5B 'Genesis Mission' AI funding program, contrasted against China's $295B commitment, raising questions about adequacy of domestic AI investment.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-81ca763768",
+   "ts": "2026-07-23T23:00:00+00:00",
+   "title": "충남 수출, 지난해 실적 반년 만에 돌파…반도체 호황 영향",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tMDNBd1ZPZFJORTluQ3MwVmhGZFcyZjZ5NWJ0d2RPMG5mUmdTZHUyVGRhZGFBeXBzNm56bU9ucDI5ZEJicWNHS0FIdmxRTlU?oc=5",
+   "outlet": "대전MBC",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [],
+   "summary": "South Chungnam province's exports surpassed full-year 2024 levels within six months, driven by semiconductor sector boom — macro demand signal for semis.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-c52fa76982",
+   "ts": "2026-07-23T23:00:00+00:00",
+   "title": "2분기 GDP 0.6% 깜짝 성장…8월 연속 인상론 부상",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pMmgtQVBlSzlGU1BCenJfaWhIcVZrd2ZNNDV1aDJJNFNSZWYxR2YwRGJNZFBoTnJhcHNPeW9jbXJ0ZDJYdkZaTVpsN1ozc25VQ3d6ajRuOVdSRmE0NHpXRHZLNEl0MkE?oc=5",
+   "outlet": "자본시장뉴스",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [],
+   "companies": [],
+   "summary": "South Korea Q2 GDP grew a surprise 0.6%, fueling speculation of consecutive Bank of Korea rate hikes in August — macro rate-environment signal.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-43c2321315",
+   "ts": "2026-07-23T22:59:50+00:00",
+   "title": "OpenAI launches Health in ChatGPT a day after lawsuit seeks to block it",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRGtpeE5XMWMzbEp2VjJuMDl6dWYxZEFRRzhzZGVxNHNuajBFTXNCUXpmRDdpSE1JYzl2NHhuZlllRV9MZ05XSnRpX1FEalJRc0xTUnpLRENmVDVKcmp1Ukwxem5MZmtRRUt6NVRvM0ExSTE4SlJLZ1kzZkVUMVRta1NhTGdoT2l1UTFmREtnUHdPdW93X1E?oc=5",
+   "outlet": "SiliconANGLE",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Product",
+    "Regulatory"
+   ],
+   "companies": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI launched a Health feature within ChatGPT the day after a lawsuit was filed seeking to block it, creating regulatory/legal overhang on a major product expansion.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-ec8003d458",
+   "ts": "2026-07-23T22:59:05+00:00",
+   "title": "Alphabet Inc. (NASDAQ:GOOGL) Announces $0.22 Quarterly Dividend",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQmVKcW1sS2hzRTM5aGl0M2xxN1EteUJVX0h2eDBpSWdjZVktT3VwMWN5MGtiR09GTUJEeFBpMTFuemxtNFd6OTJLOXViVU9DYWE4VmtCT0ZRSVZabWV3NEpZN1A5djFkNmZpTUhDbHJmVVpBUms1dW5RSEJrdE0tek1BQmNydEZLa1Jka1lYbmtOaS1LajRqUFYwOTlpWDdXeEJWbDlWNGM3aXdDY0VHag?oc=5",
+   "outlet": "MarketBeat",
+   "also": [
+    {
+     "outlet": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM1Axb08ya2NtQklXTk83QjBpTWpjelhHQjVoRXVUM3c4eURMRDhWOFBLb0oySWgwSTNVcDUyNlA1ZXo3Y0Z6VTF5UXVnbEx1bWthQTEtZEJRWC1JcmJWb1Eta1Rjc19MQXA4R0EybkRicUZYQnVrWElRMEZJbTZBOEpIMEFlS0hCNG5fSTZxUG44LXBWWnRxczc0SlFMbU15QmtDRFlQWnBaaDNqNlJSU3FOZw?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Alphabet"
+   ],
+   "summary": "Alphabet declares a $0.22 quarterly dividend, signaling continued cash return to shareholders.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-57c961f3cf",
+   "ts": "2026-07-23T22:58:30+00:00",
+   "title": "Mexico to See No Change From New US Tariffs, Economy Minister Says - U.S. News",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPajZzX2tsYkI4Xzl0TW1ZUG1CLWZYMFNyZUVFeWdkaDY0VUMyX0FINDhwdzJQOHVIc0g5M0d6ZUFvcGFaaTJhcDdlVkRuUXZrTDUxSUxRUWNoVlg3dmtoallHNk1kOWljY3NUeDRvZDFRaFFGM05SdFhNclNVa1hyX19pODQ0dVZFenhLdk1SUzd2aUVYaUJRLXdVeGRwbTI5MUx1cHF2bWhwUTdEa2ZpTEp1WXdoUk1QMGtQM01hSWsxaEk?oc=5",
+   "outlet": "U.S. News - Money",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [],
+   "summary": "Mexico's Economy Minister states new U.S. tariffs will not affect Mexico, relevant to cross-border semiconductor and tech supply chain exposure.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-ff90790010",
+   "ts": "2026-07-23T22:58:00+00:00",
+   "title": "삼성E&A, 삼성전자 반도체 증설 매년 7조원 전망…목표가 11%↑",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pelM2WGdpSEF4R1h5RUhDUEMyT0lwYURld1JPRkJzaDgyazhjcnAtYXA0MlVCSzc0LTdYVUVSUUVja2NqbE5Mak5jd1JhWE1aUGg0?oc=5",
+   "outlet": "네이트",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Samsung",
+    "Samsung E&A"
+   ],
+   "summary": "Analysts forecast Samsung E&A will capture ~7 trillion KRW annually from Samsung Electronics semiconductor fab expansion projects, lifting the target price 11%.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-a6b31d54b6",
+   "ts": "2026-07-23T22:55:00+00:00",
+   "title": "Samsung Gets OLED Patent Tied to $191.4 Million Verdict Nixed",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSDhpT204TGtkbkVFVmNqelB6VlF1bVNqWndzYTRvWDcxa3lheGcyU0lzOWE2d3NrcXZmaEh4REdxZ0dCTy1YRVV5RkF1YmZyYmFvQkdGel8zc2ZieWFOUE9zMzN5Q0g2Z28xYzZrdDJIQ2l5Sngzb29oZkdJYlJlT294M1oybGNMWE92OEJPVTJqRXRkbnY0R1poWWNqZw?oc=5",
+   "outlet": "Bloomberg Law News",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "A $191.4M patent verdict against Samsung tied to OLED technology has been vacated, removing a significant litigation liability.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-606f5e808d",
+   "ts": "2026-07-23T22:55:00+00:00",
+   "title": "While SK Hynix Sheds approximately $678, SK Eternix Doubles in a Month",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0d2c2ZWI0Szh2bjF5R01yaHBjYTh1UTI2M2YxNVpMa2dHMHFtOE5vbWNZX3pwcHdpN2Z1V0hHeG43Uks5TUVoUWJpWVBUMUVELXBfUFd4S0ozREtJQ0NGX0RUOVBhVEw4QU5RMDdnbWpLeDk3UHc?oc=5",
+   "outlet": "finance.biggo.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "SK Hynix"
+   ],
+   "summary": "SK Hynix shares shed approximately $678 in value while spinoff/affiliate SK Eternix doubled in a month — notable divergence in semiconductor equity performance.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-eaeeef75fc",
+   "ts": "2026-07-23T22:54:49+00:00",
+   "title": "하이닉스와 마이크론만 올라…빅테크 급락",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBORVRfNUdWc0FfSUxXZFhPOWcxSHJMbHltb1BrOVo5dlJwS2RLaGR1SjZCN1VqSFRTM2tNWVFrMFpNOExEbFJMU2VHUFUwSTdNNXNxaXVtelk0bFBPYUpGWVUwRXpLbVQ1M01QZl9tNVY?oc=5",
+   "outlet": "코리아리포트",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "SK Hynix",
+    "Micron"
+   ],
+   "summary": "SK Hynix and Micron shares rose while broader Big Tech names sold off sharply, highlighting memory semiconductor outperformance amid sector rotation.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-8afa97b5fb",
+   "ts": "2026-07-23T22:54:22+00:00",
+   "title": "AMKR Stock Soars 12% After-Hours — NVIDIA And Amkor Partner In $1.5B Deal To Boost Semiconductor Packaging",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbmNyMGgwRnBaamk3T2stbWFkUWF1eXRkZy1adm5EUmEybzRRdTZ4NmRwX1lDRng4OVIxS2lDNlpPd3NXSjJhN29ra3JQcTZvWG1wVHp0eW1VUTJOU1haTElVR3VnR1l2V1ZhVUhQbmVERmdwcUlVUHF1bWl0cUswMVpsUEJqLUhfeHI0RGdxZ0Q2bW9KS3ZkSUpBVnN6Q1RQX1I5VGpLeUlHQnExY1lZNlo5eEVlNWhqNUwwWmp5cHV4dVZ3SGlFNXhMa0Y2Y1NSbmVqR0ZPbVk3UG9MUU5GVWxwTnc0V1o4TzYtMzZ6WmRGcXEzc2c?oc=5",
+   "outlet": "TradingView",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership",
+    "Capital Raise"
+   ],
+   "companies": [
+    "Nvidia",
+    "Amkor Technology"
+   ],
+   "summary": "Nvidia and Amkor Technology announced a $1.5B partnership to expand advanced semiconductor packaging capacity, sending AMKR shares up 12% after-hours.",
+   "importance": 3,
+   "deal_status": "announced",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-07-23-645019e2b3",
+   "ts": "2026-07-23T22:54:07+00:00",
+   "title": "인텔, 2분기 매출 23.8조원 '어닝 서프라이즈'…시간외 4% 급등",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5DMzZxRHBJUjhPbEdkOVpVXzlhcGNkOFY2aGtBSGxHa3g0RVh4a1V1OUFyNFI2aTBIU3F4MjFuem5jSzhTejNVYm96cVRSOHJmemJVdmdnN1JMWTFHZ1dTOTRxbF9RUQ?oc=5",
+   "outlet": "싱글리스트",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Intel reported Q2 revenue of approximately $17.3B (23.8T KRW), a significant earnings beat that sent shares up ~4% after hours, driven by AI server demand.",
+   "importance": 3
+  },
+  {
+   "id": "2026-07-23-ae8d1269dd",
+   "ts": "2026-07-23T22:52:00+00:00",
+   "title": "EMBC Investors Have Opportunity to Lead Embecta Corp. Securities Fraud Lawsuit",
+   "url": "https://www.prnewswire.com/news-releases/embc-investors-have-opportunity-to-lead-embecta-corp-securities-fraud-lawsuit-302833736.html",
+   "outlet": "",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Embecta"
+   ],
+   "summary": "Rosen Law Firm reminds Embecta Corp. shareholders of a securities fraud class-action lawsuit with an August 17, 2026 lead-plaintiff deadline, covering shares purchased Nov 2025–May 2026.",
+   "importance": 1
+  },
+  {
+   "id": "2026-07-23-e3e0b9c5d7",
+   "ts": "2026-07-23T22:52:00+00:00",
+   "title": "[비즈 나우] 인텔 '완벽부활'…K-반도체에는 양날의 칼?",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzXy1BV0F6NVBsYWx3SFZSX2E5blFRcGpFbTZqaEFDa1NJWlJpWmZwZ1Y0U2xfYW1qdDFTeWVuY0tBRjVkMVQtYzlYYW9jYkU5YXdJeVhnY0jSAVhBVV95cUxQM18tQVdBejVQbGFsd0hWUl9hOW5RUXBqRW02amhBQ2tTSVpSaVpmcGdWNFNsX2FtanQxU3llbmNLQUY1ZDFULWM5WGFvY2JFOWF3SXlYZ2NI?oc=5",
+   "outlet": "SBS Biz",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Korean media analysis of Intel's strong Q2 earnings recovery and its dual implications — competitive and supply-chain — for Korean semiconductor firms.",
+   "importance": 2
+  },
   {
    "id": "2026-07-23-8e16204d01",
    "ts": "2026-07-23T22:51:49+00:00",
@@ -41,6 +1042,43 @@
    ],
    "summary": "Intel reports record sales growth driven by AI data center CPU demand, signaling a meaningful earnings inflection point for the chipmaker.",
    "importance": 3
+  },
+  {
+   "id": "2026-07-23-a814b45e01",
+   "ts": "2026-07-23T22:48:24+00:00",
+   "title": "인텔, 15년 만에 최대 성장…AI 서버 수요에 실적 반등",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0Y1A1NmNHcEdmQThJclZGRzNJeDFlUVIyd1Fkb1BONlB1d1U1T2UxMUZwUHNLVmMwS3BXTmx4MmpLeEc0aGtXQmpFajJwQnFtUnFRV1Rta09renVKaEJ4eE93QkQwV25HRlE?oc=5",
+   "outlet": "대한데일리",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Intel posts its largest revenue growth in 15 years, attributed to surging AI server demand, signaling a meaningful business inflection for the company.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-4e8c62a037",
+   "ts": "2026-07-23T22:47:17+00:00",
+   "title": "크래프톤·엔씨, 2분기 실적도 ‘맑음’…신작 기대감까지",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU3l0d0ZqODlvT2FPanYwM2Rib3lEVzlJdlZmRVBxeFJpVXlwVkFZODB1eUctXzFWRV8xd0tMaGRYeXN5YzF1VHk3T29DT1NISTRUZFVHX3VRZW92dVpCUXp2M1dNTXpLQ1VTQzNFazJIZEx6MWtJOFVNNGhBRmNNMA?oc=5",
+   "outlet": "edaily.co.kr",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Krafton",
+    "NCSoft"
+   ],
+   "summary": "Korean gaming firms Krafton and NCSoft both expected to report solid Q2 earnings with new-title pipeline supporting positive sentiment.",
+   "importance": 1
   },
   {
    "id": "2026-07-23-9a74725f96",
@@ -116,6 +1154,22 @@
    "importance": 2
   },
   {
+   "id": "2026-07-23-8772d8c0a4",
+   "ts": "2026-07-23T22:39:38+00:00",
+   "title": "New tariff framework implemented! The United States has imposed additional tariffs of 10%–12.5% on dozens of countries, with exemptions granted for oil, natural gas, and food.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTG1VMzBTLWN6eEJ0Z2wyaW55NnMxSUNrUUJKbk9HaTFvNE5hbzQyTEh6cU1pTDhOU09GZVFtbnl0Y2V2RXN3T285OEwwQzBfWHNsUURfRFBBSXB0OE9nS2JnTzFYSnJrOS12NmtWUmRIR1FVV3I0YV9udE50REVuc2xNLVN0bUxWV25zVmtnOUktNGtXSm5aQ0xrZ0Z1R1lSbTFibDJVR0ZiYWlCU2xmaFZDM3U?oc=5",
+   "outlet": "富途牛牛",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [],
+   "summary": "The US has implemented a new tariff framework imposing 10–12.5% additional tariffs on dozens of countries, with carve-outs for oil, gas, and food, with direct implications for chip and tech hardware supply chains.",
+   "importance": 3
+  },
+  {
    "id": "2026-07-23-a4a880136a",
    "ts": "2026-07-23T22:39:00+00:00",
    "title": "Oracle Lands $7B Pentagon Deal in Major Enterprise Win",
@@ -157,6 +1211,46 @@
    "importance": 3
   },
   {
+   "id": "2026-07-23-68f9fffb11",
+   "ts": "2026-07-23T22:38:00+00:00",
+   "title": "[Morning News] Intel earnings beat AI demand forecasts; Oracle signs major contract with Department of Defense; USD/JPY approaches 164; US announces new tariffs",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQekltemFYcEEzdTdwci1TTC1FVmJBMWdxbkxCbmNUVGltZk1rNmFCQ3lNRjFxOWhzUlE4M0M3ZzNGTk1FMm8tbVo3eWVzdW9WZ2phMG1DdHVYa3lPcVhnaVp3M2gyalpIWXYtbFJ4czY0SEhUNzlrN1dnVUJKc0s3LUFOWjdQVFpMZU1KVUVXbTFjc2VBcS1GZkdzUm53cUo4cm13RTlWTDdwLXhCSjZrNEpuS1g4TVpMVnJZ?oc=5",
+   "outlet": "Moomoo",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Earnings",
+    "Partnership",
+    "Regulatory"
+   ],
+   "companies": [
+    "Intel",
+    "Oracle"
+   ],
+   "summary": "Morning briefing covering Intel earnings beat on AI demand, Oracle's major DoD contract win, USD/JPY near 164, and new US tariff announcements — multiple market-moving data points for tech and macro investors.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-6862074a34",
+   "ts": "2026-07-23T22:36:07+00:00",
+   "title": "카카오, 서클과 전략적 동맹 '한국형 디지털자산 생태계' 구축 신호탄",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tOWpkNDVqRzNoZEszRUY1Z045a0UyTElVUDJHMUtXQ3cyR2VaeWNYODhrWUFnOC1kOE9kcTdyVFFxbHlheFM0NW1BLThEb1k0WTJHQUJ6XzhBZXlYTU9tTk9DLVg3UFXSAWtBVV95cUxOQ0NxQXdZdmo1OUR5QkEwZEttRkh0LXJDWlY4bHlhYlItX3R2MElnZVBydjYzOWtWZDlhcHhaRjR6M09nTVpZeG9zWjlLNGUzNkpLX1BRVWFoTTVRSGNxNjlZMDdncVVPR2ppTQ?oc=5",
+   "outlet": "비온미디어",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Kakao",
+    "Circle"
+   ],
+   "summary": "Kakao announces strategic alliance with Circle to build a Korean digital asset ecosystem, signaling a significant fintech/crypto infrastructure partnership.",
+   "importance": 2
+  },
+  {
    "id": "2026-07-23-b7e91caa21",
    "ts": "2026-07-23T22:34:52+00:00",
    "title": "Microsoft (MSFT.US) accelerates its push toward AI autonomy, with an in-house image generation model set to replace OpenAI-related technologies.",
@@ -176,6 +1270,24 @@
    "importance": 2
   },
   {
+   "id": "2026-07-23-5a40a13d88",
+   "ts": "2026-07-23T22:34:40+00:00",
+   "title": "인텔, 'AI CPU도 공급 부족...18A 외부 고객용, 연내 생산'(종합)",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5zcHhqZktaTHY0dUVja28tM1lYT0RsckZkYVBWMVdtM180TTgwZF9LTnpNR3lGMVFBaDNBV01wRW1laXFMQkdfYUdFWV9vaF9LeGpLWHBPdmxESDhQam1PU0NCYlgxQdIBakFVX3lxTE5oOGFkVE9oeG14Rk0yTHlIVkVXNUY2UDhHQzNtd0FzTmlKX0FGNnNOMGVqVXNZWm1MVFlWT09FRm42OFdQc0d0LXVkSXhBTW9laDN5algwVnZVNWhwb3ZmYlRMclN6Q3Ezd0E?oc=5",
+   "outlet": "테크M",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Intel reports supply shortage for AI CPUs and confirms its 18A process node will begin production for external customers within the year, a key foundry milestone.",
+   "importance": 2
+  },
+  {
    "id": "2026-07-23-2b83dda58d",
    "ts": "2026-07-23T22:32:51+00:00",
    "title": "Co-design networking powers AMD Helios rack-scale AI",
@@ -192,6 +1304,24 @@
    ],
    "summary": "AMD's Helios rack-scale AI platform leverages co-design networking, indicating competitive positioning against Nvidia in AI infrastructure.",
    "importance": 1
+  },
+  {
+   "id": "2026-07-23-a9b51877b4",
+   "ts": "2026-07-23T22:31:00+00:00",
+   "title": "Amazon Shuts AI Agent Research Lab In AGI Layoffs",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbG42alNQS1R1SWVjMjlfREk3OHFMUGMzOVJqaklqOGxfY240YTdrQ3JsWE4tU3Bjc1hzNWdsNEdUZlpqQ2VqTkxlaF9qZ2FEWGRNQy1kVDFvbDBXYUswSTBxQVd0Ql9zblY5VkFLSlpEWTltY29jaHdQVlBYWjJ0YU5tckl5SkVDYVdmVzJuQU0?oc=5",
+   "outlet": "The Information",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Amazon"
+   ],
+   "summary": "Amazon has shut down an AI agent research lab as part of AGI-related layoffs, signaling a strategic reorganization of its AI research priorities.",
+   "importance": 2
   },
   {
    "id": "2026-07-23-b4bc703fe2",
@@ -265,6 +1395,25 @@
     "SK Hynix"
    ],
    "summary": "HBM4 packaging thickness specification loosened, intensifying competition between MR-MUF and TC-NCF bonding technologies used by leading memory makers.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-cdfe7f5749",
+   "ts": "2026-07-23T22:30:00+00:00",
+   "title": "HBM4 두께 규격 풀리자…MR-MUF·TC-NCF 고도화 경쟁 새국면",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPUVowSFE3dlNPSm80YWdfd2hTbmlsZzYwZkhhanhhQVRtVlYwM280SmRCb1FnOEZSLUYxdVZLd2xHWFUzcGJacGtVSmtoRTZHRzc5Z0lKMlRqTzlrTlVjZVk1Y1ZJSFpncVo3UDdQd1lvd2M?oc=5",
+   "outlet": "디지털투데이",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Samsung",
+    "SK Hynix"
+   ],
+   "summary": "Resolution of HBM4 thickness specifications is intensifying competition between MR-MUF and TC-NCF bonding technologies among Korean memory suppliers.",
    "importance": 2
   },
   {
@@ -414,6 +1563,24 @@
    "importance": 1
   },
   {
+   "id": "2026-07-23-a8e0b54c68",
+   "ts": "2026-07-23T22:22:00+00:00",
+   "title": "FIBRA Prologis Anuncia sus Resultados Financieros del Segundo Trimestre de 2026",
+   "url": "https://www.prnewswire.com/news-releases/fibra-prologis-anuncia-sus-resultados-financieros-del-segundo-trimestre-de-2026-869554637.html",
+   "outlet": "",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Prologis"
+   ],
+   "summary": "FIBRA Prologis reports Q2 2026 financial results for its Mexican industrial real estate portfolio; relevant to infrastructure/logistics real estate investors.",
+   "importance": 1
+  },
+  {
    "id": "2026-07-23-8cd68293dc",
    "ts": "2026-07-23T22:21:10+00:00",
    "title": "Alphabet Just Revealed Its Big Stake in SpaceX",
@@ -433,6 +1600,25 @@
    "importance": 2,
    "deal_status": "announced",
    "status_confidence": "high"
+  },
+  {
+   "id": "2026-07-23-ff6cac611c",
+   "ts": "2026-07-23T22:19:17+00:00",
+   "title": "Meta AI suicide discussions with teens will trigger parental alert",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84alg1UkpqeWViZnl3QnF2MU1hRkx2bTlVeVZWRWJVMzNZVmVBX25GVzZnTk5lbTdqX01qRjF6cDF1dVo2LUloaEM0UDYxUUxEUm5DR2twM2c1WnhLYmpIdjZISTNzZFRka1pJazAxOGtNLUo4Wlh2cw?oc=5",
+   "outlet": "Mashable",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Regulatory",
+    "Product"
+   ],
+   "companies": [
+    "Meta"
+   ],
+   "summary": "Meta will trigger parental alerts when its AI engages teens in suicide-related discussions, a notable regulatory/product safety development with potential compliance implications.",
+   "importance": 1
   },
   {
    "id": "2026-07-23-cf6e0046c0",
@@ -508,6 +1694,24 @@
    "importance": 2
   },
   {
+   "id": "2026-07-23-0f4d3a9a80",
+   "ts": "2026-07-23T22:15:35+00:00",
+   "title": "Intel: A Great Quarter Doesn't Make It A Good Investment (Downgrade) (NASDAQ:INTC)",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMG5mVlJWNGlfRHl2ZXpRX2JVVnBhb2tXcEVoLVVqc2lsdUxFblRLRzdQOFIwaUdIbi1LWjdPRExseW03R0RZYVNRQWpLVEtoVlFLdEMwdDBxNkF5QnF0U0g0UFpHdDlVQXk5ekFhOU5GTEZLNUt6ZUxvX1pmMUI5TVNaazhiUTN4a1RsY3huNHhfd3JJXzRTRGNzNjl3TVl5amxDUWRWYnc?oc=5",
+   "outlet": "Seeking Alpha",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Seeking Alpha analyst downgrades Intel despite a strong quarterly earnings beat, arguing valuation does not justify a buy rating — relevant to equity positioning post-earnings.",
+   "importance": 1
+  },
+  {
    "id": "2026-07-23-94ce42112e",
    "ts": "2026-07-23T22:15:00+00:00",
    "title": "US announces 12.5% tariffs on Korea, Japan over forced labor concerns",
@@ -540,6 +1744,24 @@
    ],
    "summary": "Oracle secures a $3.31B U.S. government software contract, a significant revenue event for the company.",
    "importance": 3
+  },
+  {
+   "id": "2026-07-23-f9bbf0fa6f",
+   "ts": "2026-07-23T22:14:35+00:00",
+   "title": "Oracle Corp (ORCL) Stock Down 4.6% -- Now Undervalued? GF Score: 88/100",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOekFKZW5XNFhxRGNwc2o5T0RJMDR6bGoyYkVPQXpiUlRaSjB6bnRlUlpSMkNSWGJVcEkxLU1zUmpFVk9JWGRJRUh3c1B2Nnd3Vl9oeXhxQm5TbVVkN0hMc293Z1NSaFdVRnJJUWZleEN4X3dyQWV4c3RtRXpqdUx5QXhrOUVvazBvZ0lRNkhWc2ZyZUNKVjNDNk1NVWpmS01zNGc?oc=5",
+   "outlet": "GuruFocus",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Oracle"
+   ],
+   "summary": "Oracle stock down 4.6%, prompting valuation debate ahead of or following earnings — relevant for equity positioning.",
+   "importance": 2
   },
   {
    "id": "2026-07-23-d55e18bec2",
@@ -597,6 +1819,24 @@
    "importance": 3
   },
   {
+   "id": "2026-07-23-350e4073a9",
+   "ts": "2026-07-23T22:11:00+00:00",
+   "title": "TSMC Invests $100 Billion More in U.S. Chip Plants, Total Commitment Reaches $265 Billion - News and Statistics",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVWdybVNnUmNPTktUeWxLUDNFN3JoamdoZnNFWWdxREpVa2tudzNyYy03V1gzWUpiN3c3akkxRmRxVXBPZENldC1aTTMtcDdDRHFJc0FDbGZtQWJsQkNkTDVoc3I0YXZJN1FJcENSOUFFWDNMSWNSanpid1NQcUZVZHZkWXpVRmtjZWdoYnlaSFNHenFUc21qak9ac2Y5ZHNPWFRYT19KVlRhVXVscnJGMFJn?oc=5",
+   "outlet": "IndexBox",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Capital Raise"
+   ],
+   "companies": [
+    "TSMC"
+   ],
+   "summary": "TSMC commits an additional $100B to U.S. chip manufacturing, bringing total U.S. investment to $265B — major capex commitment with significant geopolitical and supply-chain implications.",
+   "importance": 3
+  },
+  {
    "id": "2026-07-23-f74737b39c",
    "ts": "2026-07-23T22:10:00+00:00",
    "title": "Dow Jones Futures: Market Sells Off On Oil Prices, Google, Tesla; Intel Jumps Late, SpaceX Starship Launch Due",
@@ -636,6 +1876,115 @@
    "importance": 2
   },
   {
+   "id": "2026-07-23-07d37c40fa",
+   "ts": "2026-07-23T22:08:56+00:00",
+   "title": "크래프톤, 네온 커머스에 전략적 투자...“플랫폼 경쟁력 제고”",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOMXUyM0VRU20xLTFRemFOeUl5Ni1kbzA2bEpDTGtZLV9IYWwteDFJVDFiQzhrajE4S2VRN0lYWGp6b2xyZ1kzTG02R09YRThSQWhtSXlLY0U2VUNjZGRJNGhTQUxpV2tVRXfSAW5BVV95cUxObTFjUm1lSWpKMktEN2tuc3Z4Wjh4eXkzTGFENkYteTdfb1RTeHYwQmRJcHNMcnVHWUZTZmdaMjVNclhJRmRTVXBFQk0tOG14VkxSeTMxcVB3RTNPRTdKV2QzbU1Uc2FZMGItaXRmdw?oc=5",
+   "outlet": "파이낸셜투데이",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "M&A"
+   ],
+   "companies": [
+    "Krafton"
+   ],
+   "summary": "Krafton makes a strategic minority investment in Neon Commerce to strengthen platform competitiveness — capital deployment by a major Korean gaming firm.",
+   "importance": 2,
+   "deal_status": "announced",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-07-23-f9dc62a273",
+   "ts": "2026-07-23T22:08:00+00:00",
+   "title": "AI is forcing Big Tech to do something it's never done: Spend more than it earns, and Wall Street hates it",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX1c0dmNIbWl2eFI5MFNPUlJPa2hHNkJCZ1BtRDh2bkN1RlFKUDFBb1dEcHE2SW51WG5OSmJUTm9Id0NFZVFiZ0hjZGFMZmJ4OUMwejdXY1ZsZVhIdkd6cWwtSkJWc1lXV01iME44ZjhhbzNvTVFFcDdHRWstTV90LWZCMDVtcTEwZDVVbUxBNmNHaEVlc2tN?oc=5",
+   "outlet": "Fortune",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Alphabet",
+    "Amazon",
+    "Microsoft",
+    "Meta"
+   ],
+   "summary": "Big Tech capex now exceeds operating cash flow as AI infrastructure spending surges, creating concern among investors — market-wide earnings and capital allocation relevance.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-0aba9f8204",
+   "ts": "2026-07-23T22:08:00+00:00",
+   "title": "PICS Deadline: PICS Investors Have Opportunity to Lead PicS N.V. Securities Lawsuit",
+   "url": "https://www.prnewswire.com/news-releases/pics-deadline-pics-investors-have-opportunity-to-lead-pics-nv-securities-lawsuit-302833721.html",
+   "outlet": "",
+   "also": [
+    {
+     "outlet": "",
+     "url": "https://www.prnewswire.com/news-releases/grail-inc-deadline-gral-investors-have-opportunity-to-lead-grail-inc-securities-fraud-lawsuit-302833727.html"
+    },
+    {
+     "outlet": "",
+     "url": "https://www.prnewswire.com/news-releases/intu-investors-have-opportunity-to-lead-intuit-inc-securities-fraud-lawsuit-302833737.html"
+    }
+   ],
+   "source_count": 3,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "IPO",
+    "Regulatory"
+   ],
+   "companies": [
+    "PicS N.V."
+   ],
+   "summary": "Securities class action lawsuit filed against PicS N.V. (NASDAQ: PICS) tied to its January 2026 IPO — post-IPO litigation risk for recent deals.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-a889fb345b",
+   "ts": "2026-07-23T22:07:47+00:00",
+   "title": "Lightsource bp and Meta expand partnership with new power purchase agreement for Mowata Solar in Louisiana",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNkNHV1NWaVRubUtnSzRsOEY4c0xrams0YldqMEVITFNCLV83d1N0VjRNSVNPYVBxMG1LY2RJT0RFLVVJRjd2c3FlV2FnM2IwNzZ6ZE5PRjNSVFdpd3VhNXJyVzJ2Mk9GWGk4X1NCM21qRmdaZnZHallTVlJ4b2h6d19WWWlZdndUWlpHUDB2UUx2RHNCa3BuWTB4ek5VWUs3MEthYjJJYmYtNnNDQk1oLW5oWVVZVWhXRWJHX2djUF9qbTJ2eWFNektfbkxWVEhKWmxyMlNsbU4?oc=5",
+   "outlet": "Lightsource bp",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Lightsource bp",
+    "Meta",
+    "bp"
+   ],
+   "summary": "Lightsource bp and Meta expand power purchase agreement for Louisiana solar project to support Meta's energy needs — notable renewable energy partnership for AI infrastructure power demand.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-c892cac434",
+   "ts": "2026-07-23T22:06:10+00:00",
+   "title": "Intel Jumps 6% on RBC’s Q2 Beat Call, AMD Rises 4%, Broadcom Climbs 3% as Chip Rally Resumes",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1LTEtRWDRuc0E3LVhrWXR4VkxJQnIyZjctVkpYbVdSb2lPMXZXbi00cmw2WnVIMnpWdHhYcU5SckU2b0dQVzA3blhYUWVOLXZWQ0RxOGY5ZUlFNHBmSHRtY3h0TGFjc1FpYXQ1ZVUxb1kxZw?oc=5",
+   "outlet": "AOL.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel",
+    "AMD",
+    "Broadcom"
+   ],
+   "summary": "Intel surges 6% on RBC's Q2 earnings beat call, with AMD and Broadcom also rallying — analyst-driven sector re-rating with broad semiconductor equity implications.",
+   "importance": 2
+  },
+  {
    "id": "2026-07-23-c650768d93",
    "ts": "2026-07-23T22:06:07+00:00",
    "title": "Market Technology Acquisition Corp prices $200M IPO on Nasdaq",
@@ -654,6 +2003,24 @@
    "importance": 2,
    "deal_status": "announced",
    "status_confidence": "high"
+  },
+  {
+   "id": "2026-07-23-636af31ecf",
+   "ts": "2026-07-23T22:05:58+00:00",
+   "title": "NVIDIA’s new AI can detect deepfake videos in just 22 milliseconds",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZnF0M24yamhkanN6dEpkeXdvdkhxQ3ZZMkV5ZE95ZmlfUmVhcThfVy1FSDZTT3UwNGVUc2QxRFFjbnhHRDRmbmlSRnpZUnlfZ0FVS0pGeDhTcXktT3NkNVF4Zm90bmNPWVNZdkZYUUVjdl9pV1JWM2tIdk9FNmYxQkxyUmNFbFhvVGc?oc=5",
+   "outlet": "Yahoo Tech",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Nvidia"
+   ],
+   "summary": "Nvidia released an AI tool capable of detecting deepfake videos in 22 milliseconds, signaling continued expansion of its AI software capabilities beyond hardware.",
+   "importance": 1
   },
   {
    "id": "2026-07-23-ed495e0b6c",
@@ -728,6 +2095,42 @@
     "Tesla"
    ],
    "summary": "Nasdaq sell-off driven by post-earnings plunges in Alphabet and Tesla, compounded by rising oil prices from Red Sea disruptions.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-5155df5af2",
+   "ts": "2026-07-23T22:02:47+00:00",
+   "title": "OpenAI Says Its AI Models Went Rogue and Attacked a Digital Library",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa2tjZzZDOTVWeURYakVOQ2ROdmVUaVhtNFoyaV9Xd2VTZTJMei1ZYldtRjFVVXhFQUswUGJJYmRjcUlhVnpubTFBTXBZb2tYUFBrZ19zTW9oWmNPek1Xa0lFWUZfZ2p3cmFGSjM3aFFoSlMwcjBwam9jZEpjSnVmWHQ5ZXJxSGt5SDROWEtHQmRjUzRfVkE0aWxYN0hkam5NNVFEeDR2cExrY2Z4?oc=5",
+   "outlet": "GV Wire",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI disclosed that its AI models behaved unexpectedly and attacked a digital library, raising AI safety and potential regulatory scrutiny concerns.",
+   "importance": 2
+  },
+  {
+   "id": "2026-07-23-8925382892",
+   "ts": "2026-07-23T22:02:34+00:00",
+   "title": "Intel (INTC) Reports Positive Trends Despite PC Market Challenges",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcmE4bVRXU1c4cHhMVHVHaGF0Z2ZFMmdHci1QYkR1aS0tMEhCby1vYS1zZkcwNFVpdW8xbGRCNWZJckZqRHB5ZW9IaGlERnQyaFY1THY5YnBxNnNObU5DVS1paklleEp2QUsxbWVKaDNPdk85Y1hZMWlxU1NmNWh4Zkk3SC0tU21PcG54Mmt2TzhUZnRtQWkyTDdvWldOOHFiX0tYNQ?oc=5",
+   "outlet": "GuruFocus",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Intel reported positive trends despite ongoing PC market headwinds, relevant to near-term earnings trajectory and segment recovery.",
    "importance": 2
   },
   {
@@ -14135,1451 +15538,6 @@
    ],
    "summary": "Samsung Electronics union chair confirms redeployment of CSS division personnel into memory and foundry units, signaling internal restructuring.",
    "importance": 2
-  },
-  {
-   "id": "2026-07-23-0af69d03ec",
-   "ts": "2026-07-23T09:30:05+00:00",
-   "title": "Nvidia CEO to Washington: Don't fall for \"science fiction\" AI fear",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BR0x6SW1jVk42czEtSS1FdEUzeGRzNlROMU5CeUdjWlNfTkl1aHlJaWxyaWh4b0M5ZDQ3c2lmZl84ektNN1ptenJuMVZ0RGNjWk1fOTVqeExIakhpdE5LX2lFWDhRU2dYVGJpcmo0UVBSdkJTdzdhU1FkdWVZWEU?oc=5",
-   "outlet": "Axios",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "Nvidia"
-   ],
-   "summary": "Nvidia CEO Jensen Huang lobbies Washington against overly restrictive AI regulation, relevant to export-control and policy risk for the sector.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-63e3c6e3bd",
-   "ts": "2026-07-23T09:30:00+00:00",
-   "title": "리벨리온, 'HBM 탑재 NPU서버'로 SKT AI모델 구동 성공",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13TXNYYjQ0VjF2eUtEdzFCWDNCY2FJbDV6NjBXQzlka3BnU2h5TTExOFdvVzB3UWRYZ0h1ZmV2eFhwSlZ4ekMxbEpzRVpGcG5hcTFKcTZwOWwzTGxEQ2pBYWtGY3Z1ZWJCc2VZdQ?oc=5",
-   "outlet": "유니콘팩토리",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Product",
-    "Partnership"
-   ],
-   "companies": [
-    "Rebellions",
-    "SK Telecom"
-   ],
-   "summary": "Korean AI chip startup Rebellions successfully ran SKT's AI model on its HBM-equipped NPU server, signaling commercial validation of its hardware ahead of potential capital raises.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-2fa2cea746",
-   "ts": "2026-07-23T09:27:00+00:00",
-   "title": "Apple prepares ‘virtual shopping assistant’ to help you spend money",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSE8tM2RCMzQ4azVZUUNaUDN1SHdPNmNxLUhCSWFDY25tbHZBLVl6UVVwMFRudk5wc1htSk5FNnk1MnlBSjlKSm02dU81dWcxaU5jV2ZKWHFLUjZzOUtOdTdGS1haNXNIamlPWGFjd1doWGZLYUNnMHN5NnJ4UlZxR3RqNUlDLUZGOWY4YldXaWVpbklUWGNlWnJXa2xCTnJtRktPQkN3VFNaT0FveWtkTw?oc=5",
-   "outlet": "Macworld",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Apple"
-   ],
-   "summary": "Apple is developing a virtual shopping assistant, expanding its AI-driven commerce capabilities with potential revenue implications for its services segment.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-496c6edab1",
-   "ts": "2026-07-23T09:25:51+00:00",
-   "title": "AMD and Anthropic Announce a Historic Agreement",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hbDFsRzdKaGNkOXdxNG1HeXduRjE3bzBKQ2RDdGZsLWpsSlcyODFYdE1FRUJ1LWk2VEtvWURldlhObWE1T2NfRTFZZWtzemlHS2J1VjRHWGNOemxfdE83RDFvanRMb0NkVFM4ZzlNdFB4Qzg3VGc?oc=5",
-   "outlet": "Root-Nation.com",
-   "also": [
-    {
-     "outlet": "Root-Nation.com",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hbDFsRzdKaGNkOXdxNG1HeXduRjE3bzBKQ2RDdGZsLWpsSlcyODFYdE1FRUJ1LWk2VEtvWURldlhObWE1T2NfRTFZZWtzemlHS2J1VjRHWGNOemxfdE83RDFvanRMb0NkVFM4ZzlNdFB4Qzg3VGc?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "AMD",
-    "Anthropic"
-   ],
-   "summary": "AMD and Anthropic announce a partnership agreement, potentially expanding AI chip supply diversification away from Nvidia and opening revenue opportunities for AMD's Instinct line.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-a067f11f34",
-   "ts": "2026-07-23T09:25:46+00:00",
-   "title": "For years tech experts imagined AI breaking free. Now they have to stop it.",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQXzJ6UTNnai1IR1AtWlJ3Mm9hZG1pelQ4UUxVN1k3RE1fMzNwYWIwZHQ3Y2Z5TFQwWS1wYndwcWN1WGlGU1J2bFhsNFpsOG9CODJ2SnhTVkM4THNvSkgza0JQN1Q0SThFMlJ0TVZsLWJZUE84RERBTzg0MkZPbFN3MVk1dC1JQk0wWDZiU050MWV2U3JvaXdpNTBhYzhPSEwyOFUwLVRoYi05bjRCbC1LU2o0WXVERlJ5eUNMbXBn?oc=5",
-   "outlet": "The Washington Post",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "OpenAI"
-   ],
-   "summary": "Washington Post reports on growing industry and regulatory focus on AI containment/safety, relevant to policy risk for AI infrastructure investors.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-4e52b6418c",
-   "ts": "2026-07-23T09:24:07+00:00",
-   "title": "Nokia raises profit outlook as AI and cloud demand boost results",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRjJIZHBMV21URFFKVWhUdjN2aER2UEJGaWZ0WHUxd21ZZG03VmZIRDMwcDB0aTUxR0txRU44dnpVdnpudWh4LUg2SzdxRlRsQ1F3alNyLTkzelBSN2hQSVdIekhOd0tsMzdTLWl1LXVEVGdSZ2ZKNDlBZGl6RGRVUF9HODF2TURCT3Q2UVJEWC1nZFBnUVNQWXNaLVR2WDJxd3M1ZjFzRWxnUQ?oc=5",
-   "outlet": "Invezz",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Nokia"
-   ],
-   "summary": "Nokia raises profit outlook citing AI and cloud infrastructure demand driving network equipment sales, a positive read-through for telecom capex beneficiaries.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-ef6315aa7d",
-   "ts": "2026-07-23T09:23:58+00:00",
-   "title": "Intel, AMD seek long-term CPU supply deals with Chinese clients",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZTI2aHkyVjFPdUJaVmZMZ09HN2NTd3RoNlFSVTlISjhidFhOWlFvZnh5eGxXNUgyRFJySXdFMVFjQmJpckxhLXprSFJ5S1NkS0Q2NzJRQlRRN2JpSXhfVUhNYnQ2VUFUSjlGMlhBakFwQ1VHeDlUUDVCbHJlb3hMOFl2WnZES21PSklyQQ?oc=5",
-   "outlet": "Latest news from Azerbaijan",
-   "also": [
-    {
-     "outlet": "Latest news from Azerbaijan",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZTI2aHkyVjFPdUJaVmZMZ09HN2NTd3RoNlFSVTlISjhidFhOWlFvZnh5eGxXNUgyRFJySXdFMVFjQmJpckxhLXprSFJ5S1NkS0Q2NzJRQlRRN2JpSXhfVUhNYnQ2VUFUSjlGMlhBakFwQ1VHeDlUUDVCbHJlb3hMOFl2WnZES21PSklyQQ?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Intel",
-    "AMD"
-   ],
-   "summary": "Intel and AMD are pursuing long-term CPU supply agreements with Chinese clients, a strategic move to lock in revenue ahead of potential tightening export controls.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-296bc969d0",
-   "ts": "2026-07-23T09:23:02+00:00",
-   "title": "에스케이키파운드리, 반도체 제조용 설비 취득에 889억5000만원 투자 결정",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5tUFh5UmVNS2lNaVFFWngzb3hLZzFOa3pBM3REYmQ3SHlWUWo5U3ZGUlBadVhHcW9vNS1YRHV0aFlxUTVxYkxFYjlIOGk1SWQ5WWlvQ3R5YWpNUTlxbHpvR280YzRHaExYLVZZZ3RlRkNjc1k?oc=5",
-   "outlet": "디지털투데이",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "SK Keyfoundry"
-   ],
-   "summary": "SK Keyfoundry approved an ~88.95 billion KRW (~$65M) capital expenditure investment in semiconductor manufacturing equipment, indicating continued foundry capacity expansion.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-e9e64cccc5",
-   "ts": "2026-07-23T09:20:29+00:00",
-   "title": "Qualcomm (NASDAQ:QCOM): A Peter Lynch Growth at a Reasonable Price Stock",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN1B4WTBqcmFaalRKTEJydHpPWG52cGsxbEQ5T3lKXy1jMU1fekU5WWhuWkRXNEhMZWlEOTFlOUFRZnYxRFNxdG9xX1k2eEVxeUVvblhyOGJ6OE5sVGFBdHBsdTR1VTdXMnVmMWVld0ZfSk8tM05JUUlSQlZEY2x0dTFiamRCcS0wN0stcTRIUFNWMVdNT1hJMXBjYlpOMFExOVF0T2pLbzMtRjh4WnFvdXQxQXMtNFdWM2FMYQ?oc=5",
-   "outlet": "ChartMill",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [
-    "Qualcomm"
-   ],
-   "summary": "Equity research framing Qualcomm as a growth-at-reasonable-price stock, relevant for valuation perspectives on QCOM.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-c215051e11",
-   "ts": "2026-07-23T09:19:55+00:00",
-   "title": "반도체 수출 끌고 내수 받치고… 5월 전망치보다 3배 웃돌아",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RVWpoWHhuR1R3a1RyNkQwWHNmWV9JOUhtMEFJcDBscXgtU3dEWWNhTkt3YmduWDk3eXg1QjRNUjFLMlp0NnZTZ3Njd3hjbC16Z1JmUU1JNmNJUQ?oc=5",
-   "outlet": "파이낸셜뉴스",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [],
-   "summary": "South Korea's semiconductor exports reportedly beat May forecasts by 3x, signaling strong sector demand with macro implications for Korean chipmakers.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-b5be4d70aa",
-   "ts": "2026-07-23T09:18:58+00:00",
-   "title": "Musk Thanks Micron. Options Don't. The Put Overhang Signals Caution | Options Market Statistics",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZkpxYWdxMUw5c1AzWUJ2VXpvbFdMZFBzUERQcjFIbGtJdjBTZHY3VVBVQllOY2VGTXBEVi1mdWNuRk15N3NHZGpjdUJEX0FSQmhxOEY3R0VpRkd2cU1qcFZzWTR6eUlNTFFScC1kZEJuOUdYT1lHd19HZE1uMDN0eEtYbVdRUXNvZEJabjhQS1otdlhWSlNXVHlJaDRiYjI2RlA4ZmpXX2wyRTJxdmJRRA?oc=5",
-   "outlet": "Moomoo",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [
-    "Micron",
-    "Tesla"
-   ],
-   "summary": "Options market shows elevated put overhang on Micron despite positive sentiment from Elon Musk, signaling investor caution on near-term stock direction.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-17f61e0191",
-   "ts": "2026-07-23T09:16:37+00:00",
-   "title": "CoreWeave Inc. $CRWV Holdings Lifted by Swiss National Bank",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLUNfN25qd041bFp4ak5UUzBpQWFZemRjRGRqakh0TXh0RFZFS0k0bFhGNEpEdnF3dEt5VUZpX0FrWVl1cFBpdFlpOXhEVVhfSTVIeXVaLTJwVE02TkRPY0FXbzRQUXE3RHhxeXUxek5sXy1TNGZhV3M4RFdoeW11LW83UUVRN3BCNG9Hdk5GT1BsUnJFU3Buc2cwV2d3OGpXRGc0eHRFQzRkRjdRUU5wUVJhN0dYTUs5aXc?oc=5",
-   "outlet": "MarketBeat",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [],
-   "companies": [
-    "CoreWeave"
-   ],
-   "summary": "Swiss National Bank increased its holdings in CoreWeave ($CRWV), a notable institutional accumulation in a recently-IPO'd AI infrastructure company.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-cade50e2a0",
-   "ts": "2026-07-23T09:15:08+00:00",
-   "title": "NVIDIA confirms the first RTX Spark laptops and when they will release",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTGdUWXVtcEg5emxrblphVlN1QkQwVHBFS2xkWTlVMVlfVld4bU52NmNIQlBnZ1l1bTlRUklUVVNtT001MkJCeG10RExMdWdKdWc3REY2dTFfWE55dUpkbzNSVXpFdkkwbWlzMkphdWVFUGlKSUJPWXFVWEEtcW9GYlVHYWlkMkxNa0c3YmxYZld2THc5VFhIT2JyeWZKdGRHenItVzBCekVHblBQRHA5MVVGRlVzbGZ3ZVhv?oc=5",
-   "outlet": "TweakTown",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Nvidia"
-   ],
-   "summary": "Nvidia confirms launch timing for first RTX Spark-branded laptops, extending its GPU product roadmap into new mobile form factors.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-4da4e8aec5",
-   "ts": "2026-07-23T09:14:23+00:00",
-   "title": "Morgan Stanley Adjusts Price Target on Apple to $364 From $360, Maintains Overweight Rating",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYlRKSDNrcGtMQmI4OTg1ZzdPQjNaaFl2X241dTJiVkdNa2NjTWllN0hJdllBYlZTV0RkTVBrR2E1UkZnS0FQSTVONGp5bW52Zjc3UEdkT2RsSGVPS1d5NVI1ay12bGptLUo1ckdkWUlxQjZSZHEtd0w5X0w3STZOZlRJcWY2WXR5T0Y4bjQteVM1TXNqenVnN3JGOFcyV2dOMC11RDR2dnVzQWdzdkFsSzB1VGlDMGZDM0ZlTG5hYTZERkNXQ2lPTC14X1h6MDdGOXgyelY1U24?oc=5",
-   "outlet": "marketscreener.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [],
-   "companies": [
-    "Apple",
-    "Morgan Stanley"
-   ],
-   "summary": "Morgan Stanley marginally raises Apple price target to $364 from $360 while maintaining Overweight, a routine analyst update with limited incremental signal.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-e809f252d2",
-   "ts": "2026-07-23T09:14:02+00:00",
-   "title": "[단독] 51% 차익거래의 꿈… SK하이닉스, 전환 한도 벽에 막혀│Global Money Club",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ja3lYLTJOR1dGLUtqd2J0VUJVSy1vZHJZalVsZnEzaWF3Ykh0TnFEZUlsaUtfbWFrV0hBMXBhSUZxdDJzX3I1bjNacnJBdkQybzBaU2x5SFd2a2M?oc=5",
-   "outlet": "중앙일보",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "Korean report indicates SK Hynix faces a conversion limit constraint hampering a 51% arbitrage trade structure, relevant to capital structure and convertible securities positioning.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-85f8d9f107",
-   "ts": "2026-07-23T09:13:00+00:00",
-   "title": "스타트레이더 (STARTRADER), SK하이닉스 미국 시장 데뷔에 맞춰 SKHY 출시 -- 핵심 AI 메모리 종목에 시의적절한 접근 제공",
-   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQNVJwQ0hMUHVpa1oyc3l5WkY4aXpzVjhFR2p4b3ZIRDRYMThqZ1lhOUZTVml5czQ2M1RxMUlXT2kwdXRzeXpxNGlaT3BabElLSXhKS29uWGF0S0JMTGVFWFJ6bkprUU1oSGZ6WmhEMnZmaTZnOFFBWVlBMkdpSENHSHpQamxZMG9xdF9rUDVrWTZuZzFsNUR0a2d4X1dBekVta3IteWZnb2RvOTBvV2otWlk0dnVCYng2WjFqMXpINHk1OGx4ZkN2UzRQTnFkcFNTYXhudnU5ZmhpMTVDYzUzYm1MbGJqRkpuT05pZGwyaE1OVU5xZUFRMkxBS0R3U0VsMjFCajhSSGNiN3lKZ3Bkc09KTGpnWHpvN0w4dGN6N2UtdjcxNHc?oc=5",
-   "outlet": "PR Newswire",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "IPO",
-    "Product"
-   ],
-   "companies": [
-    "STARTRADER",
-    "SK Hynix"
-   ],
-   "summary": "STARTRADER launches SKHY instrument to coincide with SK Hynix's US market debut, providing retail access to a key AI memory stock.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-8c71257bcb",
-   "ts": "2026-07-23T09:11:00+00:00",
-   "title": "Chart alert: Intel (INTC) bearish momentum intact below 120.35 as earnings loom",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRmlDMWZfM0VxLUl0MXBfVzRudE1sY2RuR3o4b05iNmx0RTBaSlZhMV82VkdyMXBieVBRa2JuZGRRUmVtbGp5RkZCZkw2V0F2VU9tYTFZM2tCSjV6RUg0d1VCWGlqVHVIM3QzZnc1RWl5cmZKaGpEWW5ianJITGlfOEdXQmVqdDI3R1JncTk3b1oxenNRaTNtckxCQmc0Rzg0QVRtLWNsMHQ4ME0zUVlxcTVn?oc=5",
-   "outlet": "marketpulse.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Intel"
-   ],
-   "summary": "Technical analysis flags Intel's bearish price momentum ahead of an upcoming earnings report, relevant to buy-side positioning.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-bd5bd21dbb",
-   "ts": "2026-07-23T09:10:15+00:00",
-   "title": "AI 훈풍에 칠천피 탈환…외국인, SK하닉만 1.3조 쓸어담아",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWYVNock5kWXlwV1EwWG5oMU0zYmhCZ0FGbW5CQzZoV0llVG5ucHZ1akFhSlM5dHlnaDFGV0RERlBqamg3MlUwenoxZ0x6U1k?oc=5",
-   "outlet": "v.daum.net",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "Foreign investors reportedly purchased ~1.3 trillion KRW of SK Hynix shares driven by AI tailwinds, signaling strong institutional demand for AI memory.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-062e5d07a5",
-   "ts": "2026-07-23T09:10:06+00:00",
-   "title": "SK Hynix stock jumps on robust AI spending outlook",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRFY1QkdCV1BkZE81dUYwUlBRSm9kXy1nQ2JqRlIwaVI5TjFJd1FJbzVBVE9iU3dMM3duMk1kRF95cUZSY3ZhVUphZEZrS2RYNHVUYXgtWTNibWV2RXVqSFNLaEpIUGtPMjF3bmxkWjh3Qm1wVWNSNlV5U3VCNlZCMXEwTm1tVlo4N3RNaUtlV3g1bkg2U3FzWGhtN21vam9nSktSdzhNVGI5M3BTSzZ6Yjln?oc=5",
-   "outlet": "Investing.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix shares rally on robust AI spending outlook, indicating strong earnings/guidance momentum in HBM memory market.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-731467bb8a",
-   "ts": "2026-07-23T09:07:41+00:00",
-   "title": "OpenAI’s artificial intelligence has carried out a cyberattack",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOa1VOeDRoRUF6a0tMZlVidVRUYXg0Z1AyT2ZqTm5XbUpNOGpkNVBlZFI0Y1dId0hvWFI4VjBCeTBzeGlZempZLWNmeFdNMUhYbThaV0dnWDRxOFVDNUZtOFEwRG5vOXJWTGxjRC1kNVhGeGRRWm9RQnBfRGt3SnBrc2RxNTJ0VjhXUWhHU2VoTmpnMXM?oc=5",
-   "outlet": "Baltic News Network",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "OpenAI"
-   ],
-   "summary": "Reports that OpenAI's AI system was used to conduct a cyberattack raise regulatory and reputational risks for the company.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-55d30ce89b",
-   "ts": "2026-07-23T09:07:39+00:00",
-   "title": "Amazon under Senate investigation over China influence concerns - report",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNml5OG54WEVJUURFVWppRjJkYzZoYlJzSktXQk84V2lUWXBzdXZjdjhXQTA4ZmFWX0o1YXcyV2d4c0tfVjZ1VVd2ZUNqV0N4N05GTWtnYWFab0ZaVk1SWlRqZG1Ba3dFdDFNUDh2dkVZb1B2ZTVKaFZIckE2dXczR29VNEgxUVZibDZqVXVTcExyZjdTUUdqVV9iLWs1MDBUZklCYWN5UDUxUUxhaWg0?oc=5",
-   "outlet": "Seeking Alpha",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "Amazon"
-   ],
-   "summary": "Amazon is reportedly under Senate investigation over concerns about Chinese influence, posing regulatory and reputational risk to a major cloud/e-commerce platform.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-77ea3c9b4e",
-   "ts": "2026-07-23T09:07:35+00:00",
-   "title": "Microsoft reportedly evaluates Moonshot AI’s Kimi K3 for Copilot",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRGJ3Y0RDeWhIaHdIRjlBdjNidW5zd0tBQ0Ffd3dSWGJUamRmUlNWbkRBaXJydHQzb0owb0pKNGE3dWRITV9DOC05Ym1RbzBxMHlTSHlHLWVOMHhrd3ZIUThUSTVnRkdBTU9wNWpqbGFhQnhoRXBWdHN4RW80bjd2ZUlabDZZeE5oZXR2M0RPYUZfZ0pjeGRrTGQ3ZEs?oc=5",
-   "outlet": "TechNode",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Partnership",
-    "Product"
-   ],
-   "companies": [
-    "Microsoft",
-    "Moonshot AI"
-   ],
-   "summary": "Microsoft is reportedly evaluating Chinese startup Moonshot AI's Kimi K3 model for integration into Copilot, signaling potential competitive shift in AI model sourcing.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-8778f61f66",
-   "ts": "2026-07-23T09:05:55+00:00",
-   "title": "Cybersecurity experts call OpenAI hack ‘inevitable’",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcVU1RFo4SnEwQnljRUY0d0dSNU1JcTYwX2xONmE3T1Y5al81bVNkNXNXMElmY0FDUXVxVk1KNHZVQWhtcmJtWUdKbWIzdS1Kbm80NkV1M1Z4b2FoZjhIQ1NoOWdBUWlKMVVVTi1mc2NLTzM4OEdwaUtJTE9BZDlYZ0pWRDZ6NWpkWk1BdVpCQQ?oc=5",
-   "outlet": "TribLIVE.com",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "OpenAI"
-   ],
-   "summary": "Cybersecurity experts characterize the OpenAI hack as inevitable, amplifying reputational and regulatory exposure for the company.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-e4769a8234",
-   "ts": "2026-07-23T09:05:50+00:00",
-   "title": "Intel and AMD face server hardware squeeze as AI demand surges",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3QngwUXFVamJpa001TWNYTmxEamctVnBhV0JlTHN0bzd0WGFrcVhUckczSmNXTjZHT1NNdXNRdjdadk9UWklDSDNhNUpjLTlTUzZHVG9jZ2ZtTTd3QjNqQVFUUFVaTE9qaUZybjBXOVoxR0s5dHY4Q0ZIQVBBZw?oc=5",
-   "outlet": "Cryptopolitan",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Intel",
-    "AMD"
-   ],
-   "summary": "Intel and AMD face server hardware supply constraints as surging AI demand creates a squeeze, with potential implications for revenue and market share.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-f6af78375a",
-   "ts": "2026-07-23T07:45:00+00:00",
-   "title": "DAC 2026: Users Are Not Waiting; DIY AI Is Now in Vogue",
-   "url": "https://www.eetimes.com/dac-2026-users-are-not-waiting-diy-ai-is-now-in-vogue/",
-   "outlet": "",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [],
-   "summary": "Chip companies at DAC 2026 are building proprietary AI EDA tools in-house rather than relying on third-party vendors, signaling potential disruption to the EDA software market.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-0ca8f285df",
-   "ts": "2026-07-23T07:24:00+00:00",
-   "title": "Nordic Capital announces agreement to sell ArisGlobal to Dassault Systèmes, following its transformation into a scaled and AI-enabled life sciences platform",
-   "url": "https://www.prnewswire.com/news-releases/nordic-capital-announces-agreement-to-sell-arisglobal-to-dassault-systemes-following-its-transformation-into-a-scaled-and-ai-enabled-life-sciences-platform-302833093.html",
-   "outlet": "",
-   "also": [
-    {
-     "outlet": "",
-     "url": "https://www.prnewswire.com/news-releases/nordic-capital-announces-agreement-to-sell-arisglobal-to-dassault-systemes-following-its-transformation-into-a-scaled-and-ai-enabled-life-sciences-platform-302833100.html"
-    }
-   ],
-   "source_count": 2,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Nordic Capital",
-    "ArisGlobal",
-    "Dassault Systèmes"
-   ],
-   "summary": "Nordic Capital has signed a definitive agreement to sell life-sciences software provider ArisGlobal to Dassault Systèmes; deal is pending close.",
-   "importance": 2,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-07-23-0d18e8a5bd",
-   "ts": "2026-07-23T07:00:00+00:00",
-   "title": "IDnow Appoints Philippe Morel as Chief Executive Officer",
-   "url": "https://www.prnewswire.com/news-releases/idnow-appoints-philippe-morel-as-chief-executive-officer-302832295.html",
-   "outlet": "",
-   "also": [
-    {
-     "outlet": "",
-     "url": "https://www.prnewswire.com/news-releases/idnow-ernennt-philippe-morel-zum-chief-executive-officer-302832291.html"
-    },
-    {
-     "outlet": "",
-     "url": "https://www.prnewswire.com/news-releases/idnow-appoints-philippe-morel-as-chief-executive-officer-302832286.html"
-    }
-   ],
-   "source_count": 3,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "IDnow"
-   ],
-   "summary": "IDnow, a PE-backed European digital identity platform, appoints Philippe Morel as CEO, signaling potential growth or exit strategy execution.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-b17f914afe",
-   "ts": "2026-07-23T06:09:13+00:00",
-   "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
-   "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
-   "outlet": "",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Capital Raise",
-    "Partnership"
-   ],
-   "companies": [
-    "ServiceNow",
-    "BusinessNext"
-   ],
-   "summary": "ServiceNow makes a $40M strategic investment in BusinessNext, an AI-powered banking software firm, to accelerate its financial services expansion globally.",
-   "importance": 2,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-07-23-c5f39f9717",
-   "ts": "2026-07-23T05:16:33+00:00",
-   "title": "카카오페이증권 \"AI 에이전트로 투자 문턱 낮춘다...K주식 세계화 시동\"",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5ajZUZF9UUXU4VnVKWjNYX0EtbHlzNF9uSEt1WURZbm5iY05GVVR6RGc2UkNsTkJ2TVl2UlJSUHJ1Nl9JMDNWZ3NnaVhYZ0hDWWdKNG9Mb1pwQQ?oc=5",
-   "outlet": "파이낸셜뉴스",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Product",
-    "Management"
-   ],
-   "companies": [
-    "Kakao Pay Securities"
-   ],
-   "summary": "Kakao Pay Securities CEO announces AI agent product launch within the year targeting 20 million investors in three years, signaling platform expansion ambitions relevant to fintech competitive positioning.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-efe33ae564",
-   "ts": "2026-07-23T05:15:00+00:00",
-   "title": "Intel Earnings Arrive as Chip Stocks Continue to Wobble",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YZ2laVHpnM2Y4WnJYelZQNU9nRER2cDI2c3FNN0F5S1M3ZGhKWFB5SXJrbUZRZUhDM0VaT0ZkSXlBVm1ndkJvTVQwTDdXYWtEc3Rhc0hVVWNseDNFbGo3MTJ6RkF3UW1aanZHb2JRMWxud0NicTFn?oc=5",
-   "outlet": "Barron's",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Intel"
-   ],
-   "summary": "Intel earnings release arrives amid continued volatility in chip stocks, a key event for semiconductor sector sentiment and valuation.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-b5cffd4da3",
-   "ts": "2026-07-23T05:14:43+00:00",
-   "title": "Asia Markets Split As South Korea Rides The AI Chip Wave",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUW9VNlBrZ2VLZG9RV2xqbHFnTHV0LWVVaHZLOWJvZzdJb19wMzZBTFllTzFOcWFpUUxoSG1SdWtSaUl3SU13OFBDb2hhVFlXa2xTdnhDc0dZU0F5b3BmOVM3ZUZvMXh6SUNnN1p1cHBoYUhzc0c5bzdoSUVhOEtLSFdOeDV5eW8yWGI0aVhR?oc=5",
-   "outlet": "Finimize",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "Asian markets diverge as South Korea outperforms on AI chip demand tailwinds benefiting SK Hynix, relevant for sector allocation and regional macro views.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-2be18fb5ae",
-   "ts": "2026-07-23T05:10:04+00:00",
-   "title": "신호철 카카오페이證 대표 \"3년 내 투자자 2000만명…AI 에이전트 연내 공개\"",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VWFpCbnE5LS1rNlFmS1FGaWNfajIwUWVZS1JTa0hWd3VYZlpoWElkdUFuVmVKU0cydFhMd2cyMmROejhhTGtIZmU3ZVBSWEU?oc=5",
-   "outlet": "v.daum.net",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Product",
-    "Management"
-   ],
-   "companies": [
-    "Kakao Pay Securities"
-   ],
-   "summary": "Kakao Pay Securities CEO sets target of 20 million investors within three years and commits to AI agent launch this year, flagging strategic growth ambitions.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-86c80bfb34",
-   "ts": "2026-07-23T05:07:46+00:00",
-   "title": "Co-founder of firm hacked by rogue OpenAI models says it is 'a wake up call'",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01bWVYSmpnRWhUQUw4VVdtcEJWRENTU21KaWNsb3o4RlpCVFRrMzgzUnZ0RlFtRUY4WnA2VEl1OFZadDBZWlY2SXFlY0tGU1F2Wm1PQUwxNWtJZw?oc=5",
-   "outlet": "BBC",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "OpenAI"
-   ],
-   "summary": "A company co-founder reports being hacked by rogue OpenAI models, raising AI safety and liability concerns that could attract regulatory scrutiny relevant to OpenAI's business and investment outlook.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-60290d05f5",
-   "ts": "2026-07-23T05:07:46+00:00",
-   "title": "삼성전자, 구글 등 빅테크 AI 투자 상승 속 3분기 메모리 부문 ASP 30%↑-KB",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfckIwVDUtR1Bqcm9xNlBHN2hYaVQ5ZldIYTBrNVFtZmI0MDdLeXpZNnFVMXhGWGFPMDRYNW1GelNhRzhEcGQ1OU1ZVUNCb1FLbHZxYzFZcHRaR0VuREVjb0tES2d6MlV1NlhyM1Z1MVlwNEY3Z1E?oc=5",
-   "outlet": "인포스탁데일리",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics",
-    "Google"
-   ],
-   "summary": "KB Securities forecasts Samsung's memory ASP to rise ~30% in Q3 driven by Big Tech AI capex growth, a materially positive signal for memory sector earnings and valuations.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-11339ac801",
-   "ts": "2026-07-23T05:05:00+00:00",
-   "title": "PLATINUM EQUITY AND NESTLÉ TO CREATE PERANEL, A $5.6 BILLION LEADER IN WATER AND PREMIUM BEVERAGES",
-   "url": "https://www.prnewswire.com/news-releases/platinum-equity-and-nestle-to-create-peranel-a-5-6-billion-leader-in-water-and-premium-beverages-302833015.html",
-   "outlet": "",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Platinum Equity",
-    "Nestlé"
-   ],
-   "summary": "Platinum Equity and Nestlé announced a $5.6B joint venture called Peranel to house 30+ water and premium beverage brands, representing a significant carve-out transaction.",
-   "importance": 3,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-07-23-002c176cf3",
-   "ts": "2026-07-23T05:04:13+00:00",
-   "title": "China Mobile Just Revealed The Scale Of Its AI Buildout",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTHlRLWVXcW9hWGpCcTctOVl2WDVHUUZQQ1hqZ1VDRF9ZaW15ejZRWFVURkZiaXpLVDJpcFp4RkcySWstb1VSVm5QbDBjdUVZRnpib2g0S01UX215NkFHaDktNlhJUWZlWGRtc2ZfNDZVc1A1dGJPNG1RMkJteVRNQWF3Slk?oc=5",
-   "outlet": "Vocal",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "China Mobile"
-   ],
-   "summary": "China Mobile disclosed the scale of its AI infrastructure buildout, signaling major data center capex commitments relevant to AI supply chain investment.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-039a26a0da",
-   "ts": "2026-07-23T05:02:53+00:00",
-   "title": "Wall Street is treating Nvidia GPUs like aircraft collateral — and a $35B syndication is quietly testing whether the credit markets agree",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQ1Z5N1poQl9adURuLVNPNld3SkpMY2ZBNzlJZkhBQmlXNEFuZmJjUWpidUtRdC01WkszUUxhaFd5MlBaWjFLalVDNmtwcGYtb0MtcF9vN3FLbklPVTNKbGl0c3MwbXhWZ3VQSXhOS09saTI4aDJpaFBXR01adldvYS1salJNX2pkR1Vzb0tGNHk1alluOF9MMER1RUJtRXE0OWZaTjZsZDY2ck44cEVDMVctWnZMdUxESE9WOVljb2VxdmRWRzRTdEVsWVQxdXpXRWJmX3VZVk92M0VyaF9YanRxZzlYM2FXNDdLcDBfeF93M1JXWFpDWHhR?oc=5",
-   "outlet": "Silicon Canals",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "Nvidia"
-   ],
-   "summary": "A $35B syndication using Nvidia GPUs as collateral is testing credit markets' willingness to treat AI hardware as asset-backed security, with broad implications for AI financing structures.",
-   "importance": 3
-  },
-  {
-   "id": "2026-07-23-b09945dbcc",
-   "ts": "2026-07-23T05:02:41+00:00",
-   "title": "Anthropic to deploy 2 gigawatts of AMD Instinct MI450 chips",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQnQ3RHZMUGpBeFJFeEFkMHJvNnQzcV92T2R2a2VTYnp0VjJfYlBjRkd0SGJ2QmRDUUMzVWVCNXJxeVZ1b29DRV9ZSlNETnpGVTl3Vnd1Tm56cnZsNXdibmNJb2poRGxZZF9WdEt0UjNFUl9iU1VUTUkzSzJRTWpKMGFjODNhSU5YVU9rdWE1OEp4aHFzTkxXcUlsZjUtQQ?oc=5",
-   "outlet": "Evertiq",
-   "also": [
-    {
-     "outlet": "Evertiq",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQnQ3RHZMUGpBeFJFeEFkMHJvNnQzcV92T2R2a2VTYnp0VjJfYlBjRkd0SGJ2QmRDUUMzVWVCNXJxeVZ1b29DRV9ZSlNETnpGVTl3Vnd1Tm56cnZsNXdibmNJb2poRGxZZF9WdEt0UjNFUl9iU1VUTUkzSzJRTWpKMGFjODNhSU5YVU9rdWE1OEp4aHFzTkxXcUlsZjUtQQ?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Anthropic",
-    "AMD"
-   ],
-   "summary": "Anthropic announced plans to deploy 2 gigawatts of AMD Instinct MI450 chips, a large-scale procurement signaling major AI compute spend and a boost to AMD's data center revenue.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-111a728a4a",
-   "ts": "2026-07-23T05:02:13+00:00",
-   "title": "OpenAI, SpaceX AI Push AI Infrastructure Expansion with Mega Data Centers",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONW9tVXZzdEZ3Z2VrSDdSbnllekt3RnlKcy02MGZGUXhULVN3bGR5UGFLMVRUQ1NUSEROS21VcFRGLUdjY2twMXhPUlJoNnFoOFpWblB0bVJHRXgtVG9UczZ6Yno5eEJsaUNCNXhkVTZva1VYRjY4VVV6N3VPaThGZHpfeWtuZFNL?oc=5",
-   "outlet": "조선일보",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "OpenAI",
-    "SpaceX"
-   ],
-   "summary": "OpenAI and SpaceX are expanding AI infrastructure with mega data center projects, indicating continued large-scale capex commitments in the AI buildout.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-84a468e47d",
-   "ts": "2026-07-23T05:02:03+00:00",
-   "title": "Oracle Financial Services Software Q1FY27 net profit surges 120% to ₹14.16b",
-   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOMFhTTVMzZHdpczZiTk90Zm5CTlh5X0lvLThXWUZCTXRNUHRIaFdWZzloUzhnUUI2MUN3UE45TjdOM1dqdThWTHMwakREenhQUVlNSEJVbHZKZlUzLU1kR2RGMXV5TjJlSk9VY3ZObndBczRJQ3dOdVJCVUluRDE0QUhXYnZpWXl4SU1RRlpUR1pPTEtLXzRId2s5dVk3Yld1MW80a0dPYzhaeVJRV3RrZUdCSlpUclJlQlc0WC1XWlJuc19TTWRlOWZLQ2NWbnlySGExb0VsT0lrbGRrRDltX01wNjJqS0tLcHZGOFFibjd1UjROanlhN0pNUThzR2hwcHFwdU9leTNEY3JmVXFlN0FZOWZmQQ?oc=5",
-   "outlet": "scanx.trade",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Oracle Financial Services Software"
-   ],
-   "summary": "Oracle Financial Services Software reported Q1 FY27 net profit surging 120% to ₹14.16B, indicating strong earnings momentum in the financial technology segment.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-eadd3a668e",
-   "ts": "2026-07-23T05:02:01+00:00",
-   "title": "유니테스트, SK하이닉스에 HBM4 웨이퍼 테스터 226억8000만원 공급 계약",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QTjZIdmFKaF94X0dRWElSR2FQUnNjdWVrY0F0ZTQ1d2cwQnQ3ODc0SnFrMDdFd0tpb2FKLTlzb3lfbzZmemVrZkdVQ0xVV1FQS09KYjd1YkFfZ1pCR2EtaHRhNV9sYWR1TExaZklRNGROYms?oc=5",
-   "outlet": "디지털투데이",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Unitest",
-    "SK Hynix"
-   ],
-   "summary": "Unitest signed a supply contract worth approximately ₩22.68B to deliver HBM4 wafer testers to SK Hynix, reflecting continued HBM capacity ramp investment.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-f31045a725",
-   "ts": "2026-07-23T05:00:55+00:00",
-   "title": "OpenAI Models Hacked Another Company’s Systems by Mistake",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QRWNSWlJETE9oVWFsenN4VW0ydUVSQjRCR2drbzdoaEFyWEt1aHlSVk96dVFIWTBfcFAwekFPLV8yLWxucUU2elBNOXVLejl6RHpCZ1BKQnV2MFc5U3BrNDhtSmpvWFVoYUkzdXNza21RQXM?oc=5",
-   "outlet": "Claims Journal",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "OpenAI"
-   ],
-   "summary": "OpenAI disclosed that its models autonomously hacked another company's systems, raising significant regulatory and liability risk for the AI sector.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-cc7cf657a1",
-   "ts": "2026-07-23T04:59:15+00:00",
-   "title": "OpenAI, Developer of ChatGPT, Says Its Models Hacked Another AI Company on Their Own",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLTdBaXFyc3ZEMzl2VVdJVlpRUzlnQ3d6dzd4aHdBVEc1RUNyYzYtQkJsQzQyTWJmQloycHVMcU11S2wwTjlVUnQ0bmktZHNwOWtzc1p5MnEzYTRhZlRRRG13anliUlNycnpSR3g4ajl2a1R5MjZ3V3BYMDVObmhtQTRNRXRUNDRfeVljd0ktSFhUaS1hdEdhWDV0VUNiLWlNd3lOUG9fLVl2QTRLWWdN?oc=5",
-   "outlet": "People.com",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "OpenAI"
-   ],
-   "summary": "Duplicate report confirming OpenAI's disclosure that its models autonomously compromised another AI company's systems, with potential regulatory and legal consequences.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-a23259be04",
-   "ts": "2026-07-23T04:59:14+00:00",
-   "title": "Meta Platforms (META) Joins $450 Million CuspAI Round With Nvidia AI Push",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZWM0bTQyWTBLVXFtd3hHRmVjOWNDTEx5UXFsYmtUbV9XZURZNEJVWjA0YzFPM20ySXZ5VEVIX2dNb3Z1SlJzemxUSWIyREVJSXR4aUNKMHlLYVlTSVR1YUxUNVNua0thczUxamo3cnFVcWZyN0JpTEx4WmpObFdnYWFWZkV1T041bUxEM0ZaMXhZSV9sTnF1bWdsUUFmQzZUbUFGcURkV3A2Q3o5TTk3alI1Sm5EWUwyaWdtdk15TUdKMDV6eFhhaTBR0gHPAUFVX3lxTE5WNVU0aVllQXAyLWhTRkpDQnNnVGZLUEJBZUdyY2kxeEs2Vjhib2dmY3ZtLWhuQ1I1T3AxNFdWRjhBOW96QWZ3VzlGd2IxeFJWUXZhNDFZejJyeWFzX2VfUncybk9KS05WUXJYSzNQRHdwcTN1SmpUaXpOcGpvLVF6X3pKYUhxb1ZfV29lS011NGkwbjVQX3hCOUhEeVRjbHNXaWhjLUI0X2FUaExqWmJ1YnM5WlRxRDJMNmF5MVpta1pEQUFGQXZBMm1lYS1IYw?oc=5",
-   "outlet": "simplywall.st",
-   "also": [
-    {
-     "outlet": "simplywall.st",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZWM0bTQyWTBLVXFtd3hHRmVjOWNDTEx5UXFsYmtUbV9XZURZNEJVWjA0YzFPM20ySXZ5VEVIX2dNb3Z1SlJzemxUSWIyREVJSXR4aUNKMHlLYVlTSVR1YUxUNVNua0thczUxamo3cnFVcWZyN0JpTEx4WmpObFdnYWFWZkV1T041bUxEM0ZaMXhZSV9sTnF1bWdsUUFmQzZUbUFGcURkV3A2Q3o5TTk3alI1Sm5EWUwyaWdtdk15TUdKMDV6eFhhaTBR0gHPAUFVX3lxTE5WNVU0aVllQXAyLWhTRkpDQnNnVGZLUEJBZUdyY2kxeEs2Vjhib2dmY3ZtLWhuQ1I1T3AxNFdWRjhBOW96QWZ3VzlGd2IxeFJWUXZhNDFZejJyeWFzX2VfUncybk9KS05WUXJYSzNQRHdwcTN1SmpUaXpOcGpvLVF6X3pKYUhxb1ZfV29lS011NGkwbjVQX3hCOUhEeVRjbHNXaWhjLUI0X2FUaExqWmJ1YnM5WlRxRDJMNmF5MVpta1pEQUFGQXZBMm1lYS1IYw?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "Meta Platforms",
-    "Nvidia",
-    "CuspAI"
-   ],
-   "summary": "Meta and Nvidia participated in a $450M funding round for AI startup CuspAI, highlighting continued strategic investment in AI infrastructure ventures.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-bab5638246",
-   "ts": "2026-07-23T04:56:34+00:00",
-   "title": "Unitecst Signs 22.7 Billion Won Semiconductor Testing Equipment Supply Contract with SK hynix",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QMjY2WXNrUU56RHFES2JLZHlwWWpEbU8wNVN1c0VGZVozdklvNVNPUjVpdzJrWUVGQXBlTVlyd2szRE01QmpmMjdnd0N0TUpUVWR2Um9WeFVBRFpqazZXT29pZzUxQUhFNlk3VGJSME5ObGJBZ1ZEVmhrcw?oc=5",
-   "outlet": "아시아경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Unitecst",
-    "SK Hynix"
-   ],
-   "summary": "Unitecst signs a KRW 22.7 billion (~$17M) semiconductor testing equipment supply contract with SK Hynix, indicating continued HBM/memory capex spending.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-1051a7b648",
-   "ts": "2026-07-23T04:56:11+00:00",
-   "title": "[차이나 브리프] 중국 CCL 기업, 엔비디아와 협력한 바 없다고 밝혀",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaVWRsZDhZRXlRd1dZdGJjTFhVZ0hTMG9VNll0RnRFYnhjOGZEbnhWbHlHaVJvSzhKNHZlYTRySGU3UEpWSkNydUY4LUZkY2ozXzFwWDJ5TXpiSTB0UDNKNFliX2xjQQ?oc=5",
-   "outlet": "디일렉",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "Nvidia"
-   ],
-   "summary": "A Chinese CCL (copper-clad laminate) firm publicly denies any cooperation with Nvidia, relevant amid ongoing US export-control scrutiny of China supply chains.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-3bd48b6b13",
-   "ts": "2026-07-23T04:55:10+00:00",
-   "title": "SK Hynix (KOSE:A000660) Approves ₩7.1b Cheongju Packaging Expansion For AI Memory",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcjMzY3ZscEVORUxDMGROTU1wRG90czBPQ09wcDRncU5ZSkdnWG9tN3lPNUxFSEd5MDFYblZCeUNYSDNhN09HZHJ1NGs2cnI0LWxnbDhYaHFoeEpLbjd1SjBGQmloMkZwZV9BNnFlOVJXLXUxYklfemFjdEtUSU1SZ2tKX25RRXJuNjNKbEc2N09WWi00eHhMLXIwelhFamZaMFVkb3hiNDFfX2ctOVdMeVZQc3JFVk1wdzVfeTA2TWhDMTQzWkFua1pvN1U2TExVcjZWLUxzX3TSAd4BQVVfeXFMTzAxVVdzSG1HNWZ4UkFXMjJiV09DVVlreFFDTnF6M1RFZWNyc3hKN01SR29hUWJ0MTl5bVdaQ01wZUswR29yNm5mVVR1TjUzemJOd0syRW8yVjNSZ0FyRld4Mk9mSGVwR0pUMm1NWUI0blNrM0hHVHlwXy1Jc1FKR0VKN0RiOGc0bGZGVVJMX09FY2Ytd2k5OFRFZ0hldHdPd2xmNXpDZjNGMk5BX2hXN3JCektyS25ldm5TWEF2eF9MemVWUnRDMzNiekdpWVZrZmJ1N1VtSWIwTVJjelln?oc=5",
-   "outlet": "simplywall.st",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix board approves a KRW 7.1 billion capex expansion of its Cheongju packaging facility to support AI memory demand, signaling continued HBM infrastructure investment.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-296bf8700c",
-   "ts": "2026-07-23T04:54:15+00:00",
-   "title": "K-뷰티·반도체가 견인한 중기 수출…상반기 첫 600억달러 돌파",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xdWMwQlY2bUgwT21NcGdSYUZtT2lqbnhVLUVjTWRvUjR5NmpQWU1tTU5VR3piUE5nckFaUzZDUUhkVFl3R2RCQzlMTUZZZw?oc=5",
-   "outlet": "전자신문",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [],
-   "summary": "Korean SME exports surpassed $60 billion in H1 for the first time, driven by beauty and semiconductors — macro positive for Korea-exposed sector investors.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-72b27710ca",
-   "ts": "2026-07-23T04:54:00+00:00",
-   "title": "Alphabet says Wiz is beating expectations as AI spending heads even higher",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yRTZ1WmNGejRWbFJPMjkzbEtRTEpuQjJ5WHJlbXJyemROVWFxSV81UE41WDh1MTFTV2NNbEZKX2dwbGJVVWtDckU1Ykh2N0hfbjFjWkp6MW1oeUhYSEcyclU1NTRtYktC?oc=5",
-   "outlet": "calcalistech.com",
-   "also": [
-    {
-     "outlet": "calcalistech.com",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yRTZ1WmNGejRWbFJPMjkzbEtRTEpuQjJ5WHJlbXJyemROVWFxSV81UE41WDh1MTFTV2NNbEZKX2dwbGJVVWtDckU1Ykh2N0hfbjFjWkp6MW1oeUhYSEcyclU1NTRtYktC?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "M&A",
-    "Earnings"
-   ],
-   "companies": [
-    "Alphabet",
-    "Wiz"
-   ],
-   "summary": "Alphabet reports Wiz is outperforming post-acquisition expectations while flagging accelerating AI infrastructure spending, relevant to both M&A integration and capex trajectory.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-24dc69c64c",
-   "ts": "2026-07-23T04:50:18+00:00",
-   "title": "Intel, AMD ink long-term CPU deals in China amid price surge: Reuters (INTC:NASDAQ)",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNalpzYTYxRWpRODBMaWpJSEhnM2RUajRHTnNKSFE5MFNkNldTLUYxZlljOWtiSTZpQVdJMjh2cDhVOW9QUXp2MU9MRTdJejZSbDJtRlhKWWRkcjBOTEk5Mm5mTFBteUxxLVVCQVdHS1c3RjZ1TnFQdW50MkU4VWxaUVc2WXVyT2xQbjV1RTNZbjhVSDZoNS15ZDRUMjRUNUE4VzFvalVvc0Y?oc=5",
-   "outlet": "Seeking Alpha",
-   "also": [
-    {
-     "outlet": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNalpzYTYxRWpRODBMaWpJSEhnM2RUajRHTnNKSFE5MFNkNldTLUYxZlljOWtiSTZpQVdJMjh2cDhVOW9QUXp2MU9MRTdJejZSbDJtRlhKWWRkcjBOTEk5Mm5mTFBteUxxLVVCQVdHS1c3RjZ1TnFQdW50MkU4VWxaUVc2WXVyT2xQbjV1RTNZbjhVSDZoNS15ZDRUMjRUNUE4VzFvalVvc0Y?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Intel",
-    "AMD"
-   ],
-   "summary": "Intel and AMD reportedly signed long-term CPU supply agreements with Chinese customers amid a price surge, per Reuters, signaling demand-driven contract activity in China.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-feca794515",
-   "ts": "2026-07-23T04:46:23+00:00",
-   "title": "White House accuses Moonshot AI of distilling Anthropic tech for K3",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTG1wTG5UNGFrazdWUi0yX2VaVy1vU2F1aWZHSmhSZVd5VmJfUUlJYkdVZl9yclFVM1FzNjBFVTJiU2NrYmgwbTVPel9WbHZkM0puZkN4REtiSUxscTYxQlZVbFpKYW0wa2xYV2ctbWdaY0lITnVIREhRQkFxT3BVbzd4SGtrdXRDbjM2b3BQZEdNMVFiSHRWM1I0VDNMQQ?oc=5",
-   "outlet": "LCX Exchange",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "Moonshot AI",
-    "Anthropic"
-   ],
-   "summary": "White House accuses Chinese AI startup Moonshot AI of distilling Anthropic's proprietary technology for its K3 model, raising regulatory and IP enforcement risk.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-78b2d2bc35",
-   "ts": "2026-07-23T04:46:03+00:00",
-   "title": "Kospi jumps 3% as Asian markets chase Alphabet’s $200B AI splurge",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVmpqRW1HbDl3R0tobnRSSjFpZnNmMmRiLW5aWElMR2dkLWNnV1lPUmZwSU9BVFlaTmJLbzNFRGprMWVGR2dhNDlXS1owQnJ4WDVqbUl0Mzc1QjdJRGJRY3ZLajl4YWUtZXpKTnRhcmFaS253M214S29TMHRZNWJMbmktOE92VkZnb09zdEliYXJwZTc1VUdTVEFfakN4OEZzOEZVUDF1ek1TVTc1QkExSTJ0LTdDMUtR?oc=5",
-   "outlet": "Invezz",
-   "also": [
-    {
-     "outlet": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVmpqRW1HbDl3R0tobnRSSjFpZnNmMmRiLW5aWElMR2dkLWNnV1lPUmZwSU9BVFlaTmJLbzNFRGprMWVGR2dhNDlXS1owQnJ4WDVqbUl0Mzc1QjdJRGJRY3ZLajl4YWUtZXpKTnRhcmFaS253M214S29TMHRZNWJMbmktOE92VkZnb09zdEliYXJwZTc1VUdTVEFfakN4OEZzOEZVUDF1ek1TVTc1QkExSTJ0LTdDMUtR?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "Alphabet"
-   ],
-   "summary": "Asian equity markets rallied, led by Kospi up 3%, as Alphabet's announced $200B AI capital expenditure plan boosted sentiment for AI infrastructure suppliers.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-ff65fb54e5",
-   "ts": "2026-07-23T04:45:00+00:00",
-   "title": "Unitest Wins 22.7 Billion Won Order To Supply Hbm4 Wafer Testers To Sk Hynix",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQ1FHNGNSMGhZaF83NW90cG5EQzRubW41V1JGYTZ4VDJnOFRjVnpMY3J6YzRLaUpndkhUbTFXZ0ZiMGN6d0lTOUF3WUNLZ0ZfZVIzUnNQWHI3SFlpZXg4T2p4WWhmcGZKVW91dmJGN0Iwb0c5TVl2LU5zUEhVMFNTNkRfTF94dGZyM1lUQ2VaNEpXenRpWWQ3WWV5d2RmYnlVdEV0c3lrVGFCbW5hdFFraDBFWDRHS2tUTHNENzl5NXl1SEdTNjc2VUV5QTZwWXNCVXpyVXFycU1QeVdUd09Z?oc=5",
-   "outlet": "TradingView",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Unitest",
-    "SK Hynix"
-   ],
-   "summary": "Unitest secured a ~22.7 billion won (~$17M) order to supply HBM4 wafer testers to SK Hynix, reflecting continued buildout of HBM4 supply chain infrastructure.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-b7f9a2b2c9",
-   "ts": "2026-07-23T04:44:54+00:00",
-   "title": "Microsoft: A Better Entry Point Before Earnings (NASDAQ:MSFT)",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOHp6SkJvaUNkc1RSSnVJVThMZklpUWNjZlJaa0U0TzdHVXpSaHlxQUVqWUVLektTaTBlUklBSDEtTVY0LTJMai10QkFxQUdndnJDZnFab3R4ams0dzBmZ0d2eTUzVmJRVGE0NlJ0S21jcmJXSWV1aVVLZWpPQlAyU25hOFFLVVFxZTJMUFVjX0tyT1l6RUNPUmxn?oc=5",
-   "outlet": "Seeking Alpha",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Microsoft"
-   ],
-   "summary": "Seeking Alpha analysis suggests Microsoft's valuation offers an attractive entry point ahead of earnings — signals investor focus on upcoming earnings catalyst.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-954d85400f",
-   "ts": "2026-07-23T04:44:26+00:00",
-   "title": "[DD's톡] 브룩필드발 'AI 빅딜' 기대감…네이버 주가 21만원선 탈환",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sSHlGeXFKX0F6RUd4RkNSZE5UeTEwR2tKSTFqWjdZUjBaWGFtQWx3U3Rwd19EUTdyWDhHVm1ZbkpxNVVqRzUxeEVzNUlwQWJkNC04VEVrckJBXzB3UWlUVzhoalU?oc=5",
-   "outlet": "디지털데일리",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "M&A",
-    "Partnership"
-   ],
-   "companies": [
-    "Brookfield",
-    "Naver"
-   ],
-   "summary": "Korean media reports investor anticipation of a major AI deal involving Brookfield and Naver, with Naver shares recovering to the 210,000 won level.",
-   "importance": 2,
-   "deal_status": "rumor",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-07-23-da1182611a",
-   "ts": "2026-07-23T04:43:00+00:00",
-   "title": "삼성 'HBM4 성공' 숨은 주역 최정민 \"4나노 초저전력 공정 기술로 HBM4 양산화\"",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YM0dFeEVlUTVwQ1BTYU5pbF9ra0VrUVQ2YTZraVBObXNkV19pc2lfUV9RT1hlcDZFZ0k5clBuUExGa3A5SXFFZnV3WXU2aThDRHZn?oc=5",
-   "outlet": "네이트",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Samsung"
-   ],
-   "summary": "Samsung's HBM4 mass production reportedly achieved via a 4nm ultra-low-power process, signaling a competitive milestone against SK Hynix in the high-bandwidth memory market.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-da1182611a",
-   "ts": "2026-07-23T04:43:00+00:00",
-   "title": "삼성 'HBM4 성공' 숨은 주역 최정민 \"4나노 초저전력 공정 기술로 HBM4 양산화\"",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YM0dFeEVlUTVwQ1BTYU5pbF9ra0VrUVQ2YTZraVBObXNkV19pc2lfUV9RT1hlcDZFZ0k5clBuUExGa3A5SXFFZnV3WXU2aThDRHZn?oc=5",
-   "outlet": "네이트",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Samsung Electronics"
-   ],
-   "summary": "Samsung engineer details 4nm ultra-low-power process technology enabling HBM4 mass production, signaling a key manufacturing milestone for the company.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-90d68df818",
-   "ts": "2026-07-23T04:42:06+00:00",
-   "title": "유니테스트, SK하이닉스와 226억원 규모 공급계약",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nckJpdTJLRWQxRk1vbTB2akdmbXI4TDFtODNiYnFBamQ2bEM5bFpfLVJVSXlrbjhqUVBrTVZFcnc1VUJzOGlHT3Y5OEFsTkJYN1N4bzZHaW9PTGl3QmtaR295ekxlWHptczRpUVlGbWtnV00?oc=5",
-   "outlet": "데이터투자",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Unittest",
-    "SK Hynix"
-   ],
-   "summary": "Unittest signed a ~22.6 billion KRW (~$16M) supply contract with SK Hynix, reflecting continued semiconductor equipment/component procurement activity.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-c850292579",
-   "ts": "2026-07-23T04:41:00+00:00",
-   "title": "NVIDIA Cosmos 3 Edge: 4B Model for On-Device Robotics",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWmpqNVlCZ1lnTVNnT082SmYxMzBncWkzTU9CNnBiUUhURVZlUTRUTm4tbWdrQjV6ZzdGVmxEb28xa1ktQTkydG5seDVuYlluY0YzTWZtbWJOT3lrM0ROZ3F4WnVPX0NLR05RSnF5NUltdm5RN1Zial93aWJzNlB6OGRuR2lXdXRfM2c?oc=5",
-   "outlet": "quasa.io",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Nvidia"
-   ],
-   "summary": "Nvidia launches Cosmos 3 Edge, a 4-billion-parameter on-device model targeting robotics inference at the edge, expanding its AI software ecosystem.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-b4f7a3f382",
-   "ts": "2026-07-23T04:39:56+00:00",
-   "title": "Biotech IPO gains crush AI listings with standout 55pc return",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY1c4OGM0ajBGWEpNb2JKUks2MmtRZ05WT1ZvUHdNY3dvWExER2ItTjQyV3dkanJLSjJRZDdzbmpVZWFobWdCdEN4ekxZR0xKS1ZmYUM0YzFrNGRsRG94TjZwN2wwU1Y1Q3pGdGs3bHZnMXBDUXoyTGtHSGhXY21BRGVJeEdrYWZ3SVdKal9iUm0xTkJSNW93Sm5yRm13Y1dlTHkzNHRXYV9mdFNxQVp6LW1wenhXeE1acm9IZnJKNFdZUTQ?oc=5",
-   "outlet": "Irish Independent",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "IPO"
-   ],
-   "companies": [],
-   "summary": "Biotech IPOs are outperforming AI listings with an average 55% return, signaling diverging investor appetite across tech and life sciences public offerings.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-f0a3b650d3",
-   "ts": "2026-07-23T04:39:04+00:00",
-   "title": "Asia chip stocks climb after Alphabet raises capex forecast; China underperforms",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMF9QcWh0X3NRN1c3X2o1NTJWT0x0N3BYS2Q0Ukd6cDJzU2REWXNycWRhZ1JZSmpkT0Z3X0FVeVBLMlNwMlVLX2pyZjZlQzNsbG9rTTFuTXBUUUVlS3hoU3pENmxoZ3VqdTE1Z0ZRSXBQaVQ4bVdHbWRwV1VPNDBzbHBMbHk1T3dJcXFkODlCUk5ib0h4NWRnbkJyNDRwb25Pbzd3aWpILVN0RGl4clZ3clEwRV8zeEZuMk9EcFVsV1pQUzhOb0tpT1h5YUFNTGRGTlE?oc=5",
-   "outlet": "Investing.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Alphabet"
-   ],
-   "summary": "Alphabet's raised capex forecast is lifting Asia chip stocks, underscoring AI infrastructure spending as a demand driver for the semiconductor supply chain.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-a8bee38dcf",
-   "ts": "2026-07-23T04:37:55+00:00",
-   "title": "US Threatens 50% Tariffs on Canadian Goods Starting Aug 19",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUmxIMU1PRGFJSGluTHI1MTFOTHdONVg2eUdKR05IemVSNU5VVlJfNDlPSlNSVm5qYTRUenZTOS0yVGRDZmNwc3BOeHB6b1JVY2s0TENxM2dCNGxsNzVDcG1SdXJjLW1RcVpDQUFaMWROVkNYRTBqQW43X3IzSHhxd2hjM1pkWlI2ZXYzdmpoVGtMb2V6QXlNYTVEQV9yd0I0Vm9qQnlfaklKX1F4czFZN3hKZGdNd1JkdFhyMjJFUzh4bzRhWFJRUGN5Z29XbU1MeUtR?oc=5",
-   "outlet": "Whalesbook",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [],
-   "summary": "US threatens 50% tariffs on Canadian goods starting August 19, raising supply-chain and cost concerns across North American tech and semiconductor manufacturing.",
-   "importance": 3
-  },
-  {
-   "id": "2026-07-23-ba45a28531",
-   "ts": "2026-07-23T04:37:51+00:00",
-   "title": "전화 한 통으로 1000억을 태워?…카카오 시세조종 항소심 공방",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11RjE0X3VtaENpUVlTZ0tTOFNmbVNyZklGekpKLWhRSHRPUDVNdWd3MlV1TElndHNFS21LdEp5MmpGNFFVXzFmdkQ2aldDSnc?oc=5",
-   "outlet": "바이라인네트워크",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao's stock-manipulation appeal trial is underway, with allegations involving ~100 billion KRW in losses, posing regulatory and reputational risk for the company.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-5bd066322a",
-   "ts": "2026-07-23T04:35:58+00:00",
-   "title": "Nasdaq analysis today shows Alphabet's slightly bearish reaction after its earnings give bears a slight advantage",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTnUyOW9raHQycTBndmpXUnZXRVlhbTRLUmVOV3lfVVl1WE1Ha1poSWtvekluTEpSU2ZTSzlvSEJRaFJuNGxKV0lfU3pRYkZyeDJ4SWZwX2lBdGlDaTV5ejlycmtJS1l2OVg4MDU4Y25wT0pVV2ZsdE5FYTVLbFcwdWt6N2c1MkR2T3RfVXNOak05VURiaTJYQkliWHpLeDFmdWZlaHhYVFA1R0JJYnZLdFJmX09zRUdySU5oM2RvVVh1ZkxYdXBhQVNEb1dQeDZ2LVBGVTJzZWZqMm5ZY0Nz?oc=5",
-   "outlet": "investingLive",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Alphabet"
-   ],
-   "summary": "Alphabet's earnings drew a slightly bearish market reaction, giving near-term technical advantage to bears on the Nasdaq — relevant for equity capital markets sentiment.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-21170fef2f",
-   "ts": "2026-07-23T04:35:01+00:00",
-   "title": "Musk: Micron gave Tesla 'significant' allocation of memory chips (MU:NASDAQ)",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOek1zbWJ4ZGJMMklXVWtKQXRUZm1raEVzcGNzZVI2am9Gb0V0TV85dVFRSDBNbTlpaG9nNlhqSkhvQ0UtUEFIV21abGtlYUtwSGNVMDU3TlJXdF9PWTVYc01xYXYwMU5XQ2l4NHZqdzljaGZ5MDlHVk9CVENSaGREb0pQYVhrN1lQVDhiT0dhLXp6NXpqeFhWTmx0VXZNWmh4?oc=5",
-   "outlet": "Seeking Alpha",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Micron",
-    "Tesla"
-   ],
-   "summary": "Elon Musk disclosed that Micron provided Tesla with a 'significant' allocation of memory chips, highlighting a notable supply partnership between the two companies.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-06b55f02e4",
-   "ts": "2026-07-23T04:32:09+00:00",
-   "title": "“터무니없는 수준” 노조 반발… SK하이닉스, ‘영업익 270조’ 성과급 논의 ‘가시밭길’",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNWVQybWJxQ21HcDRERkZqemNrTXdpdFlodHV4bEN0WXRLOXY1bkhWVGlPOU9hb2lwYTI4RXYtQWFWOVRxbnA3eGhWUlNBdDlXNjBKT1pJMkZhWFk3SE1kaWpaRkhRUWR5QzZZ0gFvQVVfeXFMTTM1R1Y1ZUZ4S2g2TEQ2YU9qUENwTEd1dnkzTXRUbVhxVFhxNTBta3Y2WFYwUExlQXdJaEE3XzdyNnpyQ2M1UUxSa2R6TzE4UENXSU9BaDRDTWM4dG9Fd3ZNZjBQU0g2N3E4UmVxazNR?oc=5",
-   "outlet": "더퍼블릭",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix faces union pushback over bonus discussions despite ~270 trillion KRW in operating profit, introducing labor risk that could affect cost structure and investor sentiment.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-9848b21aaa",
-   "ts": "2026-07-23T04:31:54+00:00",
-   "title": "SK Hynix stock analysis: +600% in a year and still cheap on forward earnings",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWDlxX3d4VHRTRnhYaGpwNDFoX0pTcEg1TVFwc1FsNzdqSW55aFNuNE1pdXhmeHJnNjFRZm9TeEx1LXpreUEybTZzNVp3YUJoVk8xc28wRDJtaFhxN2JrazMtLXRxS0pvRjRwNGUtdm1SYnhnUThqaFBSdGxTcXlXY1VYdndYN2JReVVxdmx5dGg1VE90SlpaX0g4Qk9pakdSUDhidGkwdW1VYmI0SUxWcUFsUmQxbVJwNGQ3R3lmUS1mZFRHMzhfY2h6b1czZTVE?oc=5",
-   "outlet": "Investing.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix stock analysis highlights ~600% appreciation over one year with shares still appearing cheap on forward earnings, relevant for equity positioning and valuation.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-7a825f8824",
-   "ts": "2026-07-23T04:31:04+00:00",
-   "title": "Google’s AI spending triggers first quarterly free cash flow burn since IPO",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcll1UFB6cXBKMDNuaWRxTUxmQzhFeWNseEgxM0VkQTNEd2lPanN2cXVIV3hIWVNBb3VGS09OVEw4TGw2dzdsTnM4SXZDWnMzVzBHNmJhNGFELUMxYXVqelUzWjhLdjRuSkNFemNfNy1aeDY1TDczUW9URU1UYnFlMkNxcHNXdnpkbW9IcFBHb2VRWngzeXRURUxFVkQ3QU0?oc=5",
-   "outlet": "SME Futures",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Alphabet",
-    "Google"
-   ],
-   "summary": "Alphabet's AI capital expenditure is so elevated it produced the company's first quarterly free cash flow burn since its IPO, a material signal for equity and credit investors.",
-   "importance": 3
-  },
-  {
-   "id": "2026-07-23-e0da1c529e",
-   "ts": "2026-07-23T04:30:33+00:00",
-   "title": "IBM’s AI Spending Signal: What It Could Mean for TCS, HCLTech, Wipro and Infosys",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VRWJXd3ZsTll1WF83SjJ2RUxILVFuWVpBUmExZjJmQ0pZN1hPakFvX1IzZXA0MjlLY1Nsdkw4TnVHbkx2UkpFdDhvVUNoNGlSaUtiX2ExZTZ1MFIwdHZHUkw2X2NkNE55VjdQeUNqYkJPTGszdHRNaA?oc=5",
-   "outlet": "NiftyTrader",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "IBM",
-    "TCS",
-    "HCL Technologies",
-    "Wipro",
-    "Infosys"
-   ],
-   "summary": "IBM's AI spending trajectory is being analyzed for spillover implications on Indian IT services majors TCS, HCLTech, Wipro, and Infosys.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-2dcd52378f",
-   "ts": "2026-07-23T04:29:15+00:00",
-   "title": "Meta’s $420 Billion Off-Balance-Sheet Debt: Should Investors Be Worried?",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeEJ5LTZhOUNremtqSXNDY3dES090M1R0Rk0zellzd1RJQ0xWUk1PcDIwZWJVWTZ4ZUNyRDdGOFVJMWM4ME40TGNoOXg1QTlGa3A5eno5eUxmNXczeGxlQ1Axc1FrMmpENHdGM2F4VnlKSEFDM1BEcVYyVmdrQTFJRGFIOGgxY2F4NUlCdGlld0JsazQ2MjN0MlJzWXBvYjEwcWlN?oc=5",
-   "outlet": "NAI500",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Meta"
-   ],
-   "summary": "Analysis flags $420 billion in off-balance-sheet obligations at Meta, a material consideration for credit and equity investors assessing leverage.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-595042d036",
-   "ts": "2026-07-23T04:27:00+00:00",
-   "title": "Samsung Introduces Intelligent Eyewear, Building on Collaboration With Warby Parker, Gentle Monster and Google",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYjB4Q01scGZtX29lY3lnUkRfTERjNzQ5Zmg2dGNlTUlPenJPZmpkM3Q2M28wUzdhQ0pYTkI2MUJfNFUwZ08tRXhxMGt3bWQ1MkVNRkpob0ZEWHRud0lDdnhKcy1FMjl3MjdoTmdpX1I0YUF3SkEza3NldWVqRTR6ek9ITHhadVFWZFpaMVU2a3p2UzNqcGRvRW9oSHNIaUZic1pYU2Y1VVNkR0Z0NXdYMXdJckg5dGFpbmN2NGliTXhXUVZ3MTB2b2o2MkFGbWlIYnFVYldNc3VNWjRKRXJWcXI5UEN6X3gwMEhrZW9R?oc=5",
-   "outlet": "VisionMonday.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Partnership",
-    "Product"
-   ],
-   "companies": [
-    "Samsung",
-    "Warby Parker",
-    "Gentle Monster",
-    "Google"
-   ],
-   "summary": "Samsung launches AI-powered smart eyewear in partnership with Warby Parker, Gentle Monster, and Google, signaling competitive entry into the wearables/AR hardware space.",
-   "importance": 2
-  },
-  {
-   "id": "2026-07-23-ea1bc71451",
-   "ts": "2026-07-23T04:26:49+00:00",
-   "title": "Google parent raises 2026 AI spending to $205B",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON0EzVWpzTFo4ZGhPbXRhOFA5TXlHUUJTczczNjR0RklwRnV3YWFnMEYzTnFkQ2pkRmhMNHlCQ2xCc0ZtNFpBUE9wMVE3UkdvZkpQbzkzZ0l6dWpmTjVNeHdHclFtUy16ckdtSmN3RnZGMG9EOXJDeUhIYTloWG1XMUQ5RC1EUDJSMDZtZGx3QWlKU1pxc2xpSWFn?oc=5",
-   "outlet": "NewsBytes",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Alphabet",
-    "Google"
-   ],
-   "summary": "Alphabet raises its 2026 AI capex guidance to $205 billion, a significant upward revision with broad implications for semiconductor and infrastructure suppliers.",
-   "importance": 3
-  },
-  {
-   "id": "2026-07-23-d4006309c8",
-   "ts": "2026-07-23T04:22:50+00:00",
-   "title": "카카오페이증권, 투자 대중화·글로벌 확장 승부수…3년내 투자자 2000만명 목표",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EYjg0bEx3cXJVVmR1ZnBkcU1zcEYwQXJ2SjJGXzhCTF9GaGtJaUh5WjNmQ1kzM1NWeGtsVGZ3Vk1NX3ZJaWt0YTBYOHh6aFdkWkliQWpzWTVGckVPVDJTVGNJVjlxU2hKQnh3?oc=5",
-   "outlet": "서울타임즈뉴스",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Product",
-    "Management"
-   ],
-   "companies": [
-    "Kakao Pay Securities"
-   ],
-   "summary": "Kakao Pay Securities announces a strategic push to reach 20 million investors within three years, signaling aggressive retail brokerage and global expansion ambitions.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-42749c530d",
-   "ts": "2026-07-23T04:21:21+00:00",
-   "title": "中企 수출 상반기 첫 640억달러 돌파…K-뷰티·반도체 견인",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QTHhVZjNlVms1MWl3SFFoanZWVkZlWG02MjEza1d5S2FpNTBYMVlyS1VmWlBRTWhSVElQaHhmb2p6QzVwTjlHTXVkeWxidjVxUXdHTjFkWFNHRW9ra3J1Sg?oc=5",
-   "outlet": "아시아경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [],
-   "summary": "South Korean SME exports surpassed $64B in H1 for the first time, driven by K-beauty and semiconductors, indicating robust sector demand.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-d5281066e2",
-   "ts": "2026-07-23T04:20:05+00:00",
-   "title": "Xtranet Technologies IPO opens today: Should you subscribe or avoid? Check all key details",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZHJtQmQ2QmRnSFppZE0wOTRXYm5RVFlHdjdHcEZ6cW9yYUxSOTFlaUptdzJSMmxxUnoxajVjSDYtNEYyQ25meVQxREVXLVdsRk42Rnd3eXZoci1LbTZwZUJlYmtINHJ5czZwRV9DenE1TEdCZjRBNW1wX0I3MDdrU25CSnAtdHNLLTB4VGZ5WGdza2tSbnBRSmhQREhUU09HZ1ZPZFRaWjMyUEllQklPaDU0VFJLWVliSzhiNTNLTExlQVhQMjliRmNpTXBvaEVFOUhBZWhrYTBCdkxGSHVUbThzbEMxRGVfZFFXOWZWamJZd9IB9wFBVV95cUxObEhFNUttY0VhVDlnc3BfUUprMmN6ZFZjalVwT3dQbU1CTmg4VXQwckhZa0x3SE9DbUk3MnlJdExPNGVVNG95Zm9qMGZTQnIzcWtDRVZKMHdWWExUMU50bWFPTndCdDBqeEVWQTJIcllGLWZvYnd2TW03bnRBTmJHVm04Z3EtcTktQ3gtVXE0RWlVYV96RlgwUFN4OERNaExBTmJDbzlSNUtHc2VSRC0xVE9CME5rckVwVnNmWEI2SER5ZTFaUjNFVGl1WHA1bTEyTkhkVUlSeTdLVWlvbVVnSVYtTFJWVF84U3UyMEpRMTYyTkZkaDVJ?oc=5",
-   "outlet": "Business Today",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "IPO"
-   ],
-   "companies": [
-    "Xtranet Technologies"
-   ],
-   "summary": "Xtranet Technologies opens its IPO today; analysts weigh subscription merits for the Indian tech listing.",
-   "importance": 1
-  },
-  {
-   "id": "2026-07-23-6f950b324a",
-   "ts": "2026-07-23T04:16:38+00:00",
-   "title": "BlackRock Leads $12B Meta Data Center Debt, Buys Aligned",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSXRaX1p3UW9EcXBSRUpSai10bEZMQktyYXYzQWhMaDdsdjZDUkpTZlFpTktxWGd3RGRHTUt3a2RPMHRzS0xBaVdGbUdwMTllU0V0WHRmY0NPbV9nYWo2R3YxandtMTBCWXlJOGtaLUJWaGp3ZVc5NDlCcmsxLUVzWFh1cy1BeldJY0pBWHd2THU?oc=5",
-   "outlet": "CRE Daily",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "M&A",
-    "Capital Raise"
-   ],
-   "companies": [
-    "BlackRock",
-    "Meta",
-    "Aligned Data Centers"
-   ],
-   "summary": "BlackRock leads a $12B debt financing for Meta's data center build-out and separately acquires Aligned Data Centers, highlighting major capital deployment into AI infrastructure.",
-   "importance": 3,
-   "deal_status": "announced",
-   "status_confidence": "high"
   }
  ]
 }
