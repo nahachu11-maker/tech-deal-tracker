@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-24T13:54:37.877198+00:00",
+  "last_updated": "2026-07-24T15:22:57.146817+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -43,6 +43,22 @@
    "extracted_at": "2026-07-24T13:54:34.456883+00:00",
    "verify_failed": true,
    "verify_reason": "Source does not specify a deal date of 2026-07-24, and status 'Pending' is not supported by the source text which describes an already-formed company with early deployments."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-24",
+   "type": "M&A",
+   "name": "Midjourney / Co-Star",
+   "v": null,
+   "val": null,
+   "sector": "AI / Consumer Apps",
+   "status": "Closed",
+   "note": "Midjourney, known for its AI image-generation platform, has acquired astrology app Co-Star in a move signaling strategic diversification beyond generative media into consumer lifestyle applications. Deal value was not disclosed. The acquisition suggests Midjourney is exploring broader AI-driven consumer product verticals.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
+   "source_snippet": "AI image-generation company Midjourney has acquired astrology app Co-Star, signaling diversification beyond its core generative media business.",
+   "extracted_at": "2026-07-24T15:22:53.343155+00:00"
   },
   {
    "skip": false,
