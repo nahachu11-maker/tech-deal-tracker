@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-24T13:53:20.741835+00:00",
+  "last_updated": "2026-07-24T13:54:37.877198+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -31,17 +31,19 @@
    "skip": false,
    "d": "2026-07-24",
    "type": "M&A",
-   "name": "Nova Biomedical / NanoCellect",
+   "name": "GR0 / Ultimate AI (Deployment Division)",
    "v": null,
    "val": null,
-   "sector": "Life Sciences / Medtech",
-   "status": "Closed",
-   "note": "Nova Biomedical acquired certain assets of NanoCellect, a microfluidic cell sorting technology provider. The deal expands Nova's integrated cell line development workflows with NanoCellect's microfluidic sorting capabilities. Deal value was not disclosed; structure is an asset acquisition rather than a full corporate acquisition.",
+   "sector": "AI / Marketing Technology",
+   "status": "Pending",
+   "note": "GR0 is acquiring the deployment division of Ultimate AI to launch GR0 AI, a platform combining performance marketing with AI agents and customer intelligence for DTC and ecommerce brands. The deal structure targets conversion of first-party customer data into incremental revenue, with one early deployment reportedly driving over $350K in AI-assisted sales. Deal value is undisclosed.",
    "advisors": [],
    "review": true,
-   "source_url": "https://www.prnewswire.com/news-releases/nova-biomedical-advances-integrated-cell-line-development-workflows-nanocellect-products-are-now-part-of-nova-biomedical-302834174.html",
-   "source_snippet": "Nova Biomedical acquired certain assets of NanoCellect, a microfluidic cell sorting technology provider, expanding its cell line development capabilities.",
-   "extracted_at": "2026-07-24T13:53:17.987934+00:00"
+   "source_url": "https://www.prnewswire.com/news-releases/gr0-to-acquire-ultimate-ais-deployment-division-and-launch-gr0-ai-turning-brands-existing-customer-data-into-revenue-302833764.html",
+   "source_snippet": " The new company pairs GR0's performance marketing distribution with Ultimate Deployment's AI agents and customer intelligence to build AI revenue systems for DTC and ecommerce brands; in one early deployment, AI-led customer conversations were associated with more than $350,000 in sales.... ",
+   "extracted_at": "2026-07-24T13:54:34.456883+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source does not specify a deal date of 2026-07-24, and status 'Pending' is not supported by the source text which describes an already-formed company with early deployments."
   },
   {
    "skip": false,
