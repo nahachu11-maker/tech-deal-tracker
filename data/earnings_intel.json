@@ -145,6 +145,128 @@
      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/q126earningsrelease.htm",
      "model": "claude-haiku-4-5-20251001",
      "derived_only": true
+    },
+    {
+     "period": "Q2 2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "Strongest revenue growth in 15+ years at 25% YoY driven by AI demand",
+       "Data Center and AI revenue surged 59% YoY; gross margins improved 12.9 ppts",
+       "Intel Foundry entered high-volume manufacturing; 18A-P met risk production timeline"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Revenue",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$15.8–16.8 billion (Q3 2026)"
+      },
+      {
+       "metric": "Gross Margin (GAAP)",
+       "direction": "initiated",
+       "prior": null,
+       "new": "41.0% (Q3 2026 midpoint)"
+      },
+      {
+       "metric": "Gross Margin (Non-GAAP)",
+       "direction": "initiated",
+       "prior": null,
+       "new": "42.0% (Q3 2026 midpoint)"
+      },
+      {
+       "metric": "EPS Diluted (GAAP)",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$0.31 (Q3 2026)"
+      },
+      {
+       "metric": "EPS Diluted (Non-GAAP)",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$0.38 (Q3 2026)"
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Revenue",
+       "value": "16.1",
+       "unit": "billion USD",
+       "yoy": "+25%"
+      },
+      {
+       "name": "Gross Margin (GAAP)",
+       "value": "40.4",
+       "unit": "%",
+       "yoy": "+12.9 ppts"
+      },
+      {
+       "name": "Gross Margin (Non-GAAP)",
+       "value": "41.8",
+       "unit": "%",
+       "yoy": "+12.1 ppts"
+      },
+      {
+       "name": "EPS Diluted (GAAP)",
+       "value": "(2.16)",
+       "unit": "USD",
+       "yoy": null
+      },
+      {
+       "name": "EPS Diluted (Non-GAAP)",
+       "value": "0.42",
+       "unit": "USD",
+       "yoy": null
+      },
+      {
+       "name": "Data Center and AI (DCAI) Revenue",
+       "value": "6.3",
+       "unit": "billion USD",
+       "yoy": "+59%"
+      },
+      {
+       "name": "Client Computing and Physical AI Group (CCPG) Revenue",
+       "value": "8.9",
+       "unit": "billion USD",
+       "yoy": "+13%"
+      },
+      {
+       "name": "Intel Foundry Revenue",
+       "value": "5.8",
+       "unit": "billion USD",
+       "yoy": "+31%"
+      },
+      {
+       "name": "Operating Cash Flow",
+       "value": "7.0",
+       "unit": "billion USD",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Free Cash Flow",
+       "value": "(8.4)",
+       "unit": "billion USD",
+       "yoy": null
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 8,
+      "hedging": 4,
+      "notes": "Management exudes confidence on AI momentum and execution; extensive forward-looking statements hedged by geopolitical, competitive, and technology risks."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-07-24T00:57:20.349545+00:00",
+     "doc_date": "2026-07-24",
+     "source_label": "EDGAR 8-K filed 2026-07-23",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/q226earningsrelease.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
     }
    ]
   },
@@ -639,6 +761,6 @@
   }
  },
  "meta": {
-  "last_run": "2026-07-23T01:04:35.528239+00:00"
+  "last_run": "2026-07-24T00:57:58.584636+00:00"
  }
 }
