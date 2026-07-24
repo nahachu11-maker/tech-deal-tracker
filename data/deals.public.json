@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-24T20:13:31.080925+00:00",
+  "last_updated": "2026-07-24T21:36:05.357479+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -94,6 +94,24 @@
    "source_url": "https://www.prnewswire.com/news-releases/nova-biomedical-fait-progresser-les-processus-integres-de-developpement-de-lignees-cellulaires--les-produits-de-nanocellect-entrent-dans-la-gamme-de-nova-biomedical-302834328.html",
    "source_snippet": "Nova Biomedical acquired certain assets of NanoCellect, a microfluidic cell-sorting technology provider, expanding its cell-line development capabilities.",
    "extracted_at": "2026-07-24T18:55:42.600034+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-24",
+   "type": "Debt",
+   "name": "Oracle",
+   "v": 7.0,
+   "val": null,
+   "sector": "Enterprise Software / GovTech",
+   "status": "Closed",
+   "note": "Oracle was awarded a 10-year, $7 billion Pentagon contract to supply software and services to the Department of Defense. The deal represents a significant long-term government revenue commitment for Oracle's cloud and enterprise software divisions. This is a contract award, not a capital-markets transaction, but is classified as a government procurement deal with material revenue implications.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRHk2N2JHcjNadEhaVHVYUVZYWVoxWVFRQVd1UFd2c2VoUHZubzliUnJvRU96MVU0aE15SThhLUhxdHZ3RktnRkpwbkFFTzBMVUhZQjYtX2JsUXN0SFhVcVRPQmxFalY2YTNXclNOZ1BVdDFRcm5PTVVyTVZkSXQzSzdQMm93dV8wMDBNMWgzMHBIZk9GbFpJXzBweHRBSHExRE56OGtoS2I1MUJ4aWJNSmU2RzRMWnJ6X0RmY1JSVkFGWWdZTzdOTlVoQUNIbF9rNHZUakZxVQ?oc=5",
+   "source_snippet": "Oracle awarded a 10-year, $7B Pentagon contract to supply software and services to the Department of Defense, a significant government revenue commitment.",
+   "extracted_at": "2026-07-24T21:35:57.548565+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type is incorrectly classified as 'Debt' when it is a government contract award, not a debt issuance"
   },
   {
    "skip": false,
