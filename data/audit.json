@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T16:14:45.611097+00:00",
+ "generated_at": "2026-07-24T16:32:30.149169+00:00",
  "data_last_updated": "2026-07-24T15:22:57.146817+00:00",
  "pending": [
   {
@@ -1123,19 +1123,6 @@
   {
    "n": 87,
    "d": "2026-07-10",
-   "type": "Follow-on",
-   "name": "SK Hynix",
-   "v": null,
-   "status": "Filed",
-   "sector": "Semiconductors",
-   "source": "pipeline",
-   "note": "SK Hynix filed a 424B4 prospectus supplement with the SEC, indicating a public equity offering pricing event. The South Korean memory chip maker (DRAM/NAND/HBM) is tapping U.S. capital markets; deal size and proceeds are not disclosed in the filing snippet.",
-   "source_url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963",
-   "verify_failed": true
-  },
-  {
-   "n": 88,
-   "d": "2026-07-10",
    "type": "M&A",
    "name": "EQT / Copia Power",
    "v": null,
@@ -1147,7 +1134,7 @@
    "verify_failed": false
   },
   {
-   "n": 89,
+   "n": 88,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Micron Technology / GlobalWafers",
@@ -1160,7 +1147,7 @@
    "verify_failed": true
   },
   {
-   "n": 90,
+   "n": 89,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "NNS Holding / OCI",
@@ -1173,7 +1160,7 @@
    "verify_failed": false
   },
   {
-   "n": 91,
+   "n": 90,
    "d": "2026-07-10",
    "type": "Debt",
    "name": "Ohio Data Center Project",
@@ -1186,7 +1173,7 @@
    "verify_failed": true
   },
   {
-   "n": 92,
+   "n": 91,
    "d": "2026-07-10",
    "type": "SPAC",
    "name": "Spring Valley Acquisition Corp. III / General Fusion",
@@ -1199,7 +1186,7 @@
    "verify_failed": false
   },
   {
-   "n": 93,
+   "n": 92,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "e& / Vodafone",
@@ -1212,7 +1199,7 @@
    "verify_failed": true
   },
   {
-   "n": 94,
+   "n": 93,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Meta / Unknown Target",
@@ -1225,7 +1212,7 @@
    "verify_failed": true
   },
   {
-   "n": 95,
+   "n": 94,
    "d": "2026-07-09",
    "type": "IPO",
    "name": "Gloo Holdings",
@@ -1353,7 +1340,7 @@
   }
  },
  "coverage": {
-  "deals": 427,
+  "deals": 426,
   "ma": 324,
   "with_comps": 201,
   "with_premium": 82,
@@ -1362,14 +1349,14 @@
   "with_uid": 205,
   "terminated_with_resolution": 12,
   "by_source": {
-   "pipeline": 236,
+   "pipeline": 235,
    "capiq": 191
   },
   "by_status": {
    "Closed": 297,
    "Pending": 101,
    "Terminated": 16,
-   "Filed": 13
+   "Filed": 12
   }
  },
  "licensing": {
@@ -1378,6 +1365,12 @@
  },
  "auto_merges": 9,
  "recent_feedback": [
+  {
+   "ts": "2026-07-24",
+   "verdict": "rejected",
+   "reason": "reason duplicate, reject 78 reason same deal as 89, reject 65 reason duplicate of 44",
+   "name": "SK Hynix"
+  },
   {
    "ts": "2026-07-24",
    "verdict": "rejected",
@@ -1443,12 +1436,6 @@
    "verdict": "auto-merged",
    "reason": "self-dedupe: folded duplicate into 'Affirm — convertible notes' (2021-11-09 / Fintech / BNPL -> 2021-11-08 / Fintech / B",
    "name": "Affirm — convertible notes"
-  },
-  {
-   "ts": "2026-07-10",
-   "verdict": "auto-merged",
-   "reason": "self-dedupe: folded duplicate into 'Mobileye' (2022-10-25 / Autonomous Driving -> 2022-10-26 / Automotive Semiconductors",
-   "name": "Mobileye"
   }
  ]
 }
