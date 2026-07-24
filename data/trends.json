@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-24T12:00:52.660340+00:00"
+  "last_updated": "2026-07-24T13:53:14.190542+00:00"
  },
  "trends": [
   {
@@ -124,9 +124,9 @@
   },
   {
    "entity": "Meta",
-   "today": 15,
+   "today": 16,
    "avg": 1.08,
-   "score": 13.93,
+   "score": 14.86,
    "spiking": true,
    "spark": [
     0,
@@ -136,14 +136,14 @@
     0,
     0,
     14,
-    15
+    16
    ]
   },
   {
    "entity": "Anthropic",
    "today": 21,
-   "avg": 1.62,
-   "score": 13.0,
+   "avg": 1.54,
+   "score": 13.65,
    "spiking": true,
    "spark": [
     0,
@@ -152,7 +152,7 @@
     0,
     0,
     0,
-    21,
+    20,
     21
    ]
   },
@@ -225,6 +225,40 @@
    ]
   },
   {
+   "entity": "Amazon",
+   "today": 7,
+   "avg": 0.62,
+   "score": 11.38,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    7
+   ]
+  },
+  {
+   "entity": "Nvidia",
+   "today": 30,
+   "avg": 2.69,
+   "score": 11.14,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    35,
+    30
+   ]
+  },
+  {
    "entity": "Amkor Technology",
    "today": 6,
    "avg": 0.54,
@@ -239,40 +273,6 @@
     0,
     7,
     6
-   ]
-  },
-  {
-   "entity": "Nvidia",
-   "today": 30,
-   "avg": 2.77,
-   "score": 10.83,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    36,
-    30
-   ]
-  },
-  {
-   "entity": "Amazon",
-   "today": 7,
-   "avg": 0.69,
-   "score": 10.11,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    9,
-    7
    ]
   },
   {
@@ -329,8 +329,8 @@
   {
    "entity": "OpenAI",
    "today": 31,
-   "avg": 3.54,
-   "score": 8.76,
+   "avg": 3.46,
+   "score": 8.96,
    "spiking": true,
    "spark": [
     0,
@@ -339,7 +339,7 @@
     0,
     0,
     0,
-    46,
+    45,
     31
    ]
   },
