@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T16:03:55.935168+00:00",
+ "generated_at": "2026-07-24T16:14:45.611097+00:00",
  "data_last_updated": "2026-07-24T15:22:57.146817+00:00",
  "pending": [
   {
@@ -1188,19 +1188,6 @@
   {
    "n": 92,
    "d": "2026-07-10",
-   "type": "M&A",
-   "name": "Element Solutions / Solutics Advanced Materials",
-   "v": 14.5,
-   "status": "Pending",
-   "sector": "Semiconductor Materials",
-   "source": "pipeline",
-   "note": "Element Solutions has agreed to acquire Solutics Advanced Materials for $14.5 billion in a significant specialty materials deal targeting the semiconductor supply chain. The transaction represents a major consolidation in advanced materials used in chip manufacturing.",
-   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81Z1MzbDZscDU1Uy1NVWU1WVp0bzRNT2JUcGFNMzFkNXU5RElOOXlqUzA4ODdLb01QY1NkQ1QxSnZ5bGNaa21fNk8weXVXZlM2M1JWSnJIWHYxdk9RdExKOFhHc2w5c0pXT1VDd1N2LXpaLXM?oc=5",
-   "verify_failed": false
-  },
-  {
-   "n": 93,
-   "d": "2026-07-10",
    "type": "SPAC",
    "name": "Spring Valley Acquisition Corp. III / General Fusion",
    "v": null,
@@ -1212,7 +1199,7 @@
    "verify_failed": false
   },
   {
-   "n": 94,
+   "n": 93,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "e& / Vodafone",
@@ -1225,7 +1212,7 @@
    "verify_failed": true
   },
   {
-   "n": 95,
+   "n": 94,
    "d": "2026-07-10",
    "type": "M&A",
    "name": "Meta / Unknown Target",
@@ -1238,7 +1225,7 @@
    "verify_failed": true
   },
   {
-   "n": 96,
+   "n": 95,
    "d": "2026-07-09",
    "type": "IPO",
    "name": "Gloo Holdings",
@@ -1366,8 +1353,8 @@
   }
  },
  "coverage": {
-  "deals": 428,
-  "ma": 325,
+  "deals": 427,
+  "ma": 324,
   "with_comps": 201,
   "with_premium": 82,
   "with_ev_revenue": 101,
@@ -1375,12 +1362,12 @@
   "with_uid": 205,
   "terminated_with_resolution": 12,
   "by_source": {
-   "pipeline": 237,
+   "pipeline": 236,
    "capiq": 191
   },
   "by_status": {
    "Closed": 297,
-   "Pending": 102,
+   "Pending": 101,
    "Terminated": 16,
    "Filed": 13
   }
@@ -1391,6 +1378,12 @@
  },
  "auto_merges": 9,
  "recent_feedback": [
+  {
+   "ts": "2026-07-24",
+   "verdict": "rejected",
+   "reason": "reason unverfiable target + specialty chemicals, not tech | reject 87 same offering that is already approved | reject 78",
+   "name": "Element Solutions / Solutics Advanced Materials"
+  },
   {
    "ts": "2026-07-17",
    "verdict": "approved",
@@ -1456,12 +1449,6 @@
    "verdict": "auto-merged",
    "reason": "self-dedupe: folded duplicate into 'Mobileye' (2022-10-25 / Autonomous Driving -> 2022-10-26 / Automotive Semiconductors",
    "name": "Mobileye"
-  },
-  {
-   "ts": "2026-07-10",
-   "verdict": "auto-merged",
-   "reason": "self-dedupe: folded duplicate into 'Blackstone & Vista / Smartsheet' (2024-09-24 / SaaS (Take-private) -> 2024-09-24 / A",
-   "name": "Blackstone & Vista / Smartsheet"
   }
  ]
 }
