@@ -1,10 +1,18 @@
 {
  "meta": {
-  "last_run": "2026-07-17T22:44:36.407115+00:00",
-  "deals_checked": 368,
-  "issues": 8
+  "last_run": "2026-07-24T22:57:12.089193+00:00",
+  "deals_checked": 429,
+  "issues": 14
  },
  "issues": [
+  {
+   "issue": "possible_duplicate",
+   "deals": [
+    "BlackRock GIP & Microsoft-backed AI Consortium / Aligned Data Centers",
+    "Microsoft / Aligned Data Centers"
+   ],
+   "detail": "Same type, overlapping names, 280 days apart."
+  },
   {
    "issue": "possible_duplicate",
    "deals": [
@@ -42,14 +50,49 @@
    "deals": [
     "Bolloré / Société Industrielle et Financière de l'Artois Société anonyme"
    ],
-   "detail": "Pending for 673 days — probably closed or dead; verify."
+   "detail": "Pending for 680 days — probably closed or dead; verify."
   },
   {
    "issue": "stale_pending",
    "deals": [
     "Francisco Partners Management / Jama Software"
    ],
-   "detail": "Pending for 851 days — probably closed or dead; verify."
+   "detail": "Pending for 858 days — probably closed or dead; verify."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "Ex-Microsoft AI Executive / Undisclosed Company"
+   ],
+   "detail": "M&A value $0.0067B looks like a unit error."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "TSMC"
+   ],
+   "detail": "Debt raise $100.0B outside plausible range — check units."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "Paramount / Warner Bros."
+   ],
+   "detail": "M&A value $111.0B looks like a unit error."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "Graphy"
+   ],
+   "detail": "Private round $0.044B outside plausible range — check units."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "TSMC"
+   ],
+   "detail": "Private round $100.0B outside plausible range — check units."
   },
   {
    "issue": "value_outlier",
