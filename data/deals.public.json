@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-24T17:03:22.629711+00:00",
+  "last_updated": "2026-07-24T18:55:48.925541+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
@@ -60,6 +60,40 @@
    "source_url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
    "source_snippet": "AI image-generation company Midjourney has acquired astrology app Co-Star, signaling diversification beyond its core generative media business.",
    "extracted_at": "2026-07-24T15:22:53.343155+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-24",
+   "type": "M&A",
+   "name": "Cognition / Poke",
+   "v": 0.1,
+   "val": null,
+   "sector": "AI / Coding",
+   "status": "Closed",
+   "note": "Cognition, an AI coding startup, acquired Poke, an AI assistant startup focused on conversational personality, in a deal valued in the low nine figures (approximately $100M range). The acquisition reflects a strategic thesis that distinct AI personality is becoming a competitive differentiator in the coding assistant and agentic AI market. The deal signals consolidation around user-experience and personality-layer assets as AI coding tools commoditize on raw capability.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+   "source_snippet": "AI coding startup Cognition acquired Poke, an AI assistant startup, in a deal valued in the low nine figures, signaling M&A activity around conversational AI personality as a differentiator.",
+   "extracted_at": "2026-07-24T18:55:33.235631+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value is stated as 'low nine figures' (minimum $100M), not $0.1B or null; the value field appears internally inconsistent."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-24",
+   "type": "M&A",
+   "name": "Nova Biomedical / NanoCellect",
+   "v": null,
+   "val": null,
+   "sector": "Life Science Tools / Microfluidics",
+   "status": "Closed",
+   "note": "Nova Biomedical acquired certain assets of NanoCellect, a provider of microfluidic cell-sorting technology. The transaction expands Nova's integrated cell-line development capabilities. Deal value was not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/nova-biomedical-fait-progresser-les-processus-integres-de-developpement-de-lignees-cellulaires--les-produits-de-nanocellect-entrent-dans-la-gamme-de-nova-biomedical-302834328.html",
+   "source_snippet": "Nova Biomedical acquired certain assets of NanoCellect, a microfluidic cell-sorting technology provider, expanding its cell-line development capabilities.",
+   "extracted_at": "2026-07-24T18:55:42.600034+00:00"
   },
   {
    "skip": false,
