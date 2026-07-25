@@ -1,11 +1,11 @@
 {
  "meta": {
-  "last_updated": "2026-07-25T19:10:41.999914+00:00",
+  "last_updated": "2026-07-25T20:08:30.007499+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 0,
+   "added": 1,
+   "updated": 1,
    "duplicates": 1
   },
   "scrubbed": "fields"
@@ -98,6 +98,24 @@
    "extracted_at": "2026-07-25T17:53:33.760671+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes a personal guarantee related to David Ellison's deal, not a direct M&A transaction between the named parties; the lawsuit suggests status may be 'Terminated' or blocked rather than 'P"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-25",
+   "type": "M&A",
+   "name": "Nvidia / Naver",
+   "v": 1.0,
+   "val": null,
+   "sector": "AI / Data Centers",
+   "status": "Pending",
+   "note": "Nvidia is reportedly making a $1B minority strategic investment in South Korean internet giant Naver to expand AI data center capacity. The stake size has not been disclosed, but the deal represents a significant minority position. The investment aligns with Nvidia's strategy to deepen partnerships with major hyperscalers and AI infrastructure operators in Asia.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbk5MTmVTTURWMEw4SFhrNkwxQ3daVXJTZE1MYzIxbkFJS2RRSWxnX3h2bXhYOVYwaG83TERlckJyRTl2c1R4dzZQX3AxZEg4ZE9xbDdsb0VFNTdGY25qNjhXVXJrb3l1SHNHZmFsdFN0aXFYbUhBdE9xY3JjRWJLVjFsYVdlVk8tN0VhbTFTcGRuWEI5Sk9xYkZORXp6TFFGRERrNXNR?oc=5",
+   "source_snippet": "Nvidia reportedly investing $1B in South Korean internet giant Naver to expand AI data center capacity, representing a significant minority strategic investment.",
+   "extracted_at": "2026-07-25T20:08:15.320086+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source indicates a strategic investment, not an M&A transaction; deal value should be $1B, not null."
   },
   {
    "skip": false,
@@ -225,8 +243,8 @@
    "v": 12.0,
    "val": null,
    "sector": "AI Infrastructure / Data Centers",
-   "status": "Pending",
-   "note": "BlackRock is leading a $12B debt financing package to fund Meta's data center build-out, reflecting large-scale institutional capital deployment into AI infrastructure. The transaction underscores growing appetite for private credit and infrastructure debt tied to hyperscaler capex programs. Separately, BlackRock is acquiring Aligned Data Centers, though terms of that acquisition are not disclosed in this report.",
+   "status": "Closed",
+   "note": "BlackRock is leading a $12B debt financing package to fund Meta's data center build-out, reflecting large-scale institutional capital deployment into AI infrastructure. The transaction underscores growing appetite for private credit and infrastructure debt tied to hyperscaler capex programs. Separately, BlackRock is acquiring Aligned Data Centers, though terms of that acquisition are not disclosed in this report. [Auto-update 2026-07-25: BlackRock structured a $12 billion debt sale tied to Meta's data center buildout, representing a large-scale project financing vehicle for AI infrastructure. The deal illustrates the emerging 'AI capi]",
    "advisors": [
     "BlackRock"
    ],
