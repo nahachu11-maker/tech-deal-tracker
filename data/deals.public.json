@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-25T14:46:14.289596+00:00",
+  "last_updated": "2026-07-25T15:59:17.312147+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
@@ -44,6 +44,42 @@
    "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOGlkOHduMng2VVJTUm5sS29zUlpLTEpyU2xMY3Vkd2UyZG1qQzRoRmU1aXNvRmw1b18xdkFxQ3JEQ2s5cUdVenhzX3dSV0c2RkxzX3Zqelh0R3o4QlRiLVYxLVo3MU5QWjdWTmlSR1dLNVF5RXlUXzF3M24tSEZMZEpqQVFfclZTYS1nSDNqZGlpd0YzQmJtU3A1TnBuTFNYNmYtaG9KbXZhLWFtZFZFR1htQW5tUE5SLVUtLW9oM3N6QQ?oc=5",
    "source_snippet": "Reports of a potential $200 billion deal between Samsung Electronics and Broadcom that could significantly reshape the AI chip market.",
    "extracted_at": "2026-07-25T10:54:16.701459+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-25",
+   "type": "M&A",
+   "name": "Pentagon / Oracle",
+   "v": 7.0,
+   "val": null,
+   "sector": "Enterprise Software / GovTech",
+   "status": "Closed",
+   "note": "The U.S. Department of Defense finalized a $7 billion software consolidation contract with Oracle, representing a significant government IT services award. The deal is a contract win rather than a corporate acquisition, covering enterprise software consolidation across Pentagon systems. The contract is expected to be material to Oracle's revenue outlook and reinforces its positioning in the federal cloud and software market.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTVJEQURESU5WWnBlYUFGUWNjZ2l2dTV0U2ljZHRGX3VxblRuUzBVbUFrWEg0UlBYZVJWa3FPV0JLeU1zLThHejdTemEwSlZjMkpsTXFfakE0TG9jR1V3WHJRZ3pMa082anFTemFSSHpRM0FJc040OXVxVmI0YWEwRkdaWGgweHp6V2pmOWg2c2ZFWUN5Y0tSSTZqOGhzVURJdVdpemM4OVN0WlFYd1RHdl84eFh2cHBMb3cyd2poMlkzZzZvZkZnekpGN1BvOERGb01raThpZ1E1bWtnU2M1Vw?oc=5",
+   "source_snippet": "The Pentagon finalized a $7 billion software consolidation contract with Oracle, a significant government deal win material to Oracle's revenue outlook.",
+   "extracted_at": "2026-07-25T15:59:03.411859+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Government Contract' not 'M&A'; this is a procurement contract, not a merger or acquisition"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-25",
+   "type": "IPO",
+   "name": "CXMT",
+   "v": 8.5,
+   "val": null,
+   "sector": "Semiconductors / DRAM",
+   "status": "Filed",
+   "note": "Chinese DRAM manufacturer CXMT is reportedly planning an $8.5B IPO, which would represent one of the largest semiconductor listings in recent years. The filing has raised competitive concerns among investors, contributing to a sell-off in Micron shares on fears of increased DRAM supply from a well-funded rival. No pricing or exchange details have been disclosed; the $8.5B figure represents reported IPO proceeds.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSHVRcGxmd1pVWFcweTB2NXBpSlVNX0lLV0tFbWJmSGRYa2ZyeGxEaWlacWZDOUpZZ2ZFdHIyVTBjRmNOYnYwcDNGTzl2c1RUd0lUd25vYVlQQUIzY0htU29aX2ZaeHNrbGpSRk9tMEZVSXZFQ0VRZU5zNmVXTFd0aFItZ1VyemRpcGxxSnRhNHkyQ0pBcmxEMGpwS2JRRENyazViNGNqeDVSQmRKYzJtQkU1ZGIxZEhfdTdIT09OSTZQQVRJVjdIWTBtbmQ?oc=5",
+   "source_snippet": "Chinese DRAM maker CXMT is reportedly planning an $8.5B IPO, raising competitive concerns that pressured Micron's stock and sparked debate over whether the DRAM upcycle is at risk.",
+   "extracted_at": "2026-07-25T15:59:15.584377+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Pending' not 'Filed' as the source indicates planning/reported plans, not a filed registration statement."
   },
   {
    "skip": false,
