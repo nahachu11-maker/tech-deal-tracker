@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-26T22:29:29.599927+00:00",
+  "last_updated": "2026-07-26T23:31:52.499388+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 14
   },
   "scrubbed": "fields"
  },
@@ -42,6 +42,42 @@
    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZDFnbjBqTzQwbnhZTTZsMG92UkVWUGZhMG85em1lSmhiRV92TGFTR2NqRU04MnMtdC0tR1AzbkNpZlhLWnlIXzZOamZmSkNkWWZGUV9OTGRUam5IX2tBdFQwUmtPXzQ4bmhjbUxjRU5JRFRQbWwzcXpsdzFYQWdMd1cwLWRzNl8tS3haVDhCTQ?oc=5",
    "source_snippet": "Korean coverage of a reported ~23 trillion KRW (~$17B) deal involving Delivery Hero's Baemin (Woowa Brothers) being acquired by an Uber subsidiary, a significant cross-border M&A transaction in food delivery.",
    "extracted_at": "2026-07-26T14:26:17.578777+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-26",
+   "type": "Private",
+   "name": "Naver",
+   "v": 1.0,
+   "val": null,
+   "sector": "AI / Internet",
+   "status": "Pending",
+   "note": "Naver announced a third-party allotment equity raise of approximately KRW 1.4809 trillion (~$1B USD) directed at Nvidia as the sole subscriber, marking a significant strategic AI partnership. The deal signals Naver's intent to build out AI Factory infrastructure with Nvidia's backing. Terms are described as a directed issuance rather than an open-market follow-on, classifying it as a private strategic investment.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOeUo5ZUx0NGdxUmJRS3g3UTdDVFpHT3dRcTdxWVNtb2ZVZ0ZFcWZ2TnZpdUVSQWgzZEFDU2pwV2ZWbGJhTS1DRldXTjhVSjFLNUFqSV83VnhxY0VOc1R0eW9sRkdxN2pOOFE?oc=5",
+   "source_snippet": "Naver is conducting a third-party allotment capital raise of approximately KRW 1.4809 trillion (~$1B) directed at Nvidia, signaling a major AI Factory strategic investment.",
+   "extracted_at": "2026-07-26T23:30:21.212602+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value of approximately $1B/KRW 1.4809 trillion is not captured in the record (val is null)"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-26",
+   "type": "Follow-on",
+   "name": "Naver",
+   "v": 1.02,
+   "val": null,
+   "sector": "AI / Internet",
+   "status": "Pending",
+   "note": "Naver announced a third-party allotment equity issuance of approximately 1.48 trillion KRW (~$1.02B) directed to Nvidia, which will become a major shareholder upon completion. The transaction formalizes an AI factory cooperation agreement between the two companies, deepening Naver's strategic partnership with Nvidia in AI infrastructure. Deal value converted from KRW at approximately 1,450 KRW/USD.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UcHV1OV9UYm9uc3VKdld1U0NraFdZbWs1cXhBVUVUQXREa3B6dHBmd2x1YW5iVmdMVkNsU3lzYnlidDV1TEE1MnNMd21HUzV1elRFZWVyQTVTZ2R0Xy1BQUstd2k?oc=5",
+   "source_snippet": "Naver confirms ~1.48 trillion KRW third-party allotment equity issuance to Nvidia, making Nvidia a major shareholder and formalizing an AI factory cooperation agreement.",
+   "extracted_at": "2026-07-26T23:30:42.789653+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value should be ~1.48 trillion KRW (approximately 1.02 billion USD based on typical conversion), but the extracted record shows val: null and an inconsistent v: 1.02 without currency specificatio"
   },
   {
    "skip": false,
