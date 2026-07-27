@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-27T15:23:24.853839+00:00",
+  "last_updated": "2026-07-27T17:17:23.978167+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -116,6 +116,24 @@
    "extracted_at": "2026-07-27T14:40:42.420257+00:00",
    "verify_failed": true,
    "verify_reason": "The source does not identify the acquirer or target as 'Cofide' or confirm the deal type as M&A."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-27",
+   "type": "Private",
+   "name": "Safe Superintelligence",
+   "v": null,
+   "val": null,
+   "sector": "AI / Frontier Research",
+   "status": "Pending",
+   "note": "Nvidia is reportedly committing billions to Ilya Sutskever's Safe Superintelligence (SSI), signaling a major strategic capital deployment into frontier AI research. Deal size and valuation are not disclosed in the source; 'reportedly' language suggests the round has not been formally announced. SSI, co-founded by former OpenAI chief scientist Ilya Sutskever, is focused on developing safe superintelligent systems.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTFNxUWI2cTE0MUU4Ql9fZnJYeHlfS1BvdXVoRU1PNnpHd3ZXTVJhdHl2c2VsajJaelNYMUNnamk2RlBTbWZuYUhYZE1ZMW1WOEZIUHhybE8yeVNrNVI0MFNhTUhVNi1fb29wUnVjcWNWYTZsbkNTOHJwNjh5RnRxbVFmN0U?oc=5",
+   "source_snippet": "Nvidia is reportedly committing billions to Ilya Sutskever's AI venture (Safe Superintelligence), signaling a major strategic capital deployment into frontier AI research.",
+   "extracted_at": "2026-07-27T17:17:20.932088+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source states Nvidia is committing 'billions' but extracted record shows null values for deal value (v and val fields)."
   },
   {
    "skip": false,
