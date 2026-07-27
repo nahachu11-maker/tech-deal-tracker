@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-27T12:14:10.327619+00:00",
+  "last_updated": "2026-07-27T14:40:52.245640+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 1,
+   "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
@@ -80,6 +80,42 @@
    "extracted_at": "2026-07-27T12:14:01.851564+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a stake investment ($1 billion), not an M&A transaction; the deal type should reflect an investment/equity stake, not M&A"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-27",
+   "type": "M&A",
+   "name": "Luumis / Kalder",
+   "v": null,
+   "val": null,
+   "sector": "Loyalty & Customer Intelligence SaaS",
+   "status": "Closed",
+   "note": "Luumis has acquired Kalder, absorbing its rewards platform, team, and subscription infrastructure into its broader customer intelligence offering. Automotive retail is the initial integration target, with expansion planned across service-intensive verticals. Deal terms were not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/kalder-acquired-by-luumis-bringing-rewards-and-customer-intelligence-to-service-industries-302835188.html",
+   "source_snippet": " The transaction brings Kalder's rewards platform and team into Luumis, adding customer intelligence, rewards, and subscription infrastructure to its broader platform. Automotive retail will be the first planned integration, with additional service-intensive industries to follow. NEW YORK,... ",
+   "extracted_at": "2026-07-27T14:40:35.831656+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source does not confirm the transaction is closed; it only describes the deal structure without stating a completion date or closed status."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-27",
+   "type": "M&A",
+   "name": "Keyfactor / Cofide",
+   "v": null,
+   "val": null,
+   "sector": "Cybersecurity / Identity",
+   "status": "Pending",
+   "note": "Keyfactor announced its intent to acquire Cofide to extend its Trust Control Plane to AI agents and cloud workloads, unifying non-human identity management across the enterprise. The deal reflects consolidation in the machine identity and PKI security space as AI-driven workloads proliferate. Deal terms were not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/keyfactor-announces-intent-to-acquire-cofide-to-bring-verified-identity-to-ai-agents-and-cloud-workloads-302834309.html",
+   "source_snippet": " The acquisition will extend the Keyfactor Trust Control Plane to workloads and AI agents, giving security teams one system to manage and govern every non-human identity across the enterprise. ATLANTA and STOCKHOLM, July 27, 2026 /PRNewswire/ -- Keyfactor, the leader in trust... ",
+   "extracted_at": "2026-07-27T14:40:42.420257+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source does not identify the acquirer or target as 'Cofide' or confirm the deal type as M&A."
   },
   {
    "skip": false,
