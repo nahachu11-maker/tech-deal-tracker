@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-27T08:54:08.860243+00:00",
+  "last_updated": "2026-07-27T09:56:15.397685+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 3
+   "duplicates": 1
   }
  },
  "deals": [
@@ -43,6 +43,24 @@
    "extracted_at": "2026-07-27T08:53:46.784665+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Convertible Bond' or similar debt instrument, not generic 'Debt'; value of ~60 billion KRW (approximately 0.043 billion USD) is stated but marked as pending without a clear announ"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-27",
+   "type": "M&A",
+   "name": "Vusion / In-Store Media (ISM)",
+   "v": null,
+   "val": null,
+   "sector": "Retail Technology / Digital Media",
+   "status": "Pending",
+   "note": "Vusion, a connected store technology provider, has signed a definitive agreement to acquire In-Store Media (ISM), a retail media specialist. The combination aims to create an integrated platform for digital in-store retail media and advertising, leveraging Vusion's IoT/ESL infrastructure with ISM's established retailer and brand relationships. Deal terms were not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/vusion-announces-agreement-to-acquire-in-store-media-ism-accelerating-the-creation-of-a-platform-for-digital-in-store-retail-media-and-advertising-302834783.html",
+   "source_snippet": " The combination of Vusion's connected store technology with ISM's established position in retail media aims at accelerating the digitalization of in-store retail media and unlock new opportunities for retailers and brands PARIS, July 27, 2026 /PRNewswire/ -- Vusion, the global leader in... ",
+   "extracted_at": "2026-07-27T09:56:06.501274+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a combination/merger but does not explicitly state the deal status as 'Pending' versus 'Closed' or other status."
   },
   {
    "skip": false,
