@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-27T17:17:23.978167+00:00",
+  "last_updated": "2026-07-27T18:55:45.849633+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -134,6 +134,24 @@
    "extracted_at": "2026-07-27T17:17:20.932088+00:00",
    "verify_failed": true,
    "verify_reason": "Source states Nvidia is committing 'billions' but extracted record shows null values for deal value (v and val fields)."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-27",
+   "type": "Private",
+   "name": "SSI",
+   "v": 5.0,
+   "val": null,
+   "sector": "AI / Semiconductors",
+   "status": "Pending",
+   "note": "Nvidia is reportedly in discussions to invest approximately $5B in SSI (Safe Superintelligence), marking a significant strategic bet on frontier AI development. The investment is described as reported/unconfirmed, and market reaction was muted amid a broader chip-stock selloff. Deal structure and any valuation implied by the round have not been disclosed in the source text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ2M1Z3AzdDVZb0hRSXcyczV5THZOUTJ4aTItWGlhNWI5RnhKU3pydm1maXdGZmttWUxidVVxWXdTU2p3QkplbHpEMGc3c3dhTThFZE55VFUwVUdqWjgwZ3gwTGlkc2hsTHMyMGlfM1Y3QlhxdjktY1ZRTHAyUjlOLVF4SjFwNG5rV0hudFljNG51Zng5emJWUlpfTHMwTXQ4Q0duU1FIUzdVWUV1WkFDVWtiRkwxSjRuLWJ5Y0dIUWZGMGltQVo5RkQ1OEtPZXdwem1RT0xvcUU4aVNEYnMxQjRVMWsxTy04?oc=5",
+   "source_snippet": "Nvidia's reported ~$5B investment in SSI is noted as failing to lift NVDA shares amid a broader chip-stock selloff, highlighting market skepticism.",
+   "extracted_at": "2026-07-27T18:55:43.791815+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes an investment, not a private equity deal type; status should be 'Closed' not 'Pending' based on 'reported' language indicating completion"
   },
   {
    "skip": false,
