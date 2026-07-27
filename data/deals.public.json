@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-27T05:07:00.007655+00:00",
+  "last_updated": "2026-07-27T08:54:08.860243+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 3
   },
   "scrubbed": "fields"
  },
@@ -26,6 +26,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUk5MTzJNZGU5QnpYV1pJTWU1RDZPX2hCYUs4ejV4djJObmRzc1BFMGZyWElvYWRodHlBMTZZbzA2bVBZYU56M3JaSUJvbVNraDRPMDJ3amowWW41WkxiTTR1d2tWS25FOUxFYzJ6WG03NUlzdWx2eEJVWUlTSmt4RFZLZUhBdFF4a2pxUnEwb1I2NktCYnhGcllVUE13YXF3TVJsWW9qelFjYkc3YmxMbEhSRGg?oc=5",
    "source_snippet": "SoftBank's $40 billion loan facility to finance its OpenAI stake acquisition has attracted 21 additional lenders, indicating broad institutional appetite for the deal.",
    "extracted_at": "2026-07-27T05:06:11.318116+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-27",
+   "type": "Debt",
+   "name": "LS Eco Energy / Lynas Rare Earths",
+   "v": 0.043,
+   "val": null,
+   "sector": "Rare Earth / EV Materials",
+   "status": "Pending",
+   "note": "LS Eco Energy (South Korea) and Australia's Lynas Rare Earths announced a mutual cross-investment via convertible bonds totaling approximately 60 billion KRW (~$43M USD), structured as a reciprocal CB exchange to cement a strategic rare-earth supply-chain partnership for EV and semiconductor materials. The cross-holding structure aligns both parties' incentives without a full acquisition, preserving operational independence while securing preferred access to Lynas's rare-earth outputs. Deal status remains pending formal closing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE56MEhpT0dpTFJlVEVXUUYwTllPeVRYRElWRlFnTWtzVjFmTEJSb0VoM19wNVJVSVlBNlRRTmhTNV90cG9TbFN6UmVxcnNWQ2czdXg4?oc=5",
+   "source_snippet": "LS Eco Energy and Australia's Lynas announce a mutual ~60 billion KRW convertible bond cross-investment, signaling a strategic rare-earth supply-chain tie-up relevant to EV/semiconductor materials.",
+   "extracted_at": "2026-07-27T08:53:46.784665+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Convertible Bond' or similar debt instrument, not generic 'Debt'; value of ~60 billion KRW (approximately 0.043 billion USD) is stated but marked as pending without a clear announ"
   },
   {
    "skip": false,
