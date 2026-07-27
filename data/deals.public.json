@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-27T09:56:15.397685+00:00",
+  "last_updated": "2026-07-27T12:14:10.327619+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
@@ -62,6 +62,24 @@
    "extracted_at": "2026-07-27T09:56:06.501274+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a combination/merger but does not explicitly state the deal status as 'Pending' versus 'Closed' or other status."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-27",
+   "type": "M&A",
+   "name": "Nvidia / undisclosed AI company",
+   "v": 1.0,
+   "val": null,
+   "sector": "AI",
+   "status": "Pending",
+   "note": "Nvidia reportedly disclosed a $1 billion minority stake in an unnamed AI company, sending the target's stock sharply higher. The stake size and minority nature suggest a strategic investment rather than an outright acquisition. Details on the stake percentage, structure, and target identity are not confirmed in the source text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTXhLcWstdk5LLUVYRWc0N0lwQzlzdENEdm0wSzhxay1mbFJJZUN5b1YxNm40dkpJeno1QlZ5anFtamdwQ0tiMjBmWUh6dEdKSXg0X2lzNlZIdThWSDFyRVRyc1B1b3RwaXhpbTBRak05Vjd4LTlxNDlILUx6YjVDSl9JY0hFSmpOWm15NHE2T3VxSm5KTE1WNDFfRQ?oc=5",
+   "source_snippet": "Nvidia reportedly unveils a $1 billion stake in an AI company, lifting the target's stock price.",
+   "extracted_at": "2026-07-27T12:14:01.851564+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a stake investment ($1 billion), not an M&A transaction; the deal type should reflect an investment/equity stake, not M&A"
   },
   {
    "skip": false,
