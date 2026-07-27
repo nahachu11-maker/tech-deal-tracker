@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-27T19:37:45.974914+00:00",
+  "last_updated": "2026-07-27T20:16:37.506353+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
@@ -151,6 +151,40 @@
    "extracted_at": "2026-07-27T18:55:43.791815+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes an investment, not a private equity deal type; status should be 'Closed' not 'Pending' based on 'reported' language indicating completion"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-27",
+   "type": "Debt",
+   "name": "OpenAI",
+   "v": 250.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Nvidia is reportedly considering backstopping a $250B loan to finance a new OpenAI data center campus, which would represent one of the largest single financing commitments in AI infrastructure history. The backstop role would make Nvidia a key credit supporter rather than a direct lender, deepening its strategic alignment with OpenAI. The deal is based on reports only and no definitive agreement has been announced.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSWJ0Z081dXpMd19KaTVzMWZuTHBQX2RpZ2hFY1loOE9WaUlRRnZDaVN3RWVWc1RhdUdQSEVpa21Rd2xINElXT2E5TlJWNElzRDZqOEFYOVJpbTVCLVVrUHVPVTBpQ3R3SG1HQXpMY0ZwQnVPYkRiSDMyZXJfRWxLOVFCS042b2oyNTB0eUVENFBLNUw5TFhOTTZpZW1URkgyc3pJRjdn?oc=5",
+   "source_snippet": "Nvidia is reportedly considering backstopping a $250B loan for a new OpenAI data center campus, which would represent one of the largest financing commitments in AI infrastructure history.",
+   "extracted_at": "2026-07-27T20:16:11.260738+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a potential loan backstop that is 'reportedly being considered,' not a confirmed pending debt deal; the deal type should reflect this is speculative/rumored rather than 'Pending' "
+  },
+  {
+   "skip": false,
+   "d": "2026-07-27",
+   "type": "M&A",
+   "name": "AMZ Advisers / Reach Social Commerce",
+   "v": null,
+   "val": null,
+   "sector": "E-commerce / Digital Marketing",
+   "status": "Closed",
+   "note": "AMZ Advisers acquired Reach Social Commerce to extend its marketplace services beyond Amazon into TikTok Shop, reflecting the growing importance of social commerce channels. The deal is a small-cap transaction with undisclosed financial terms. Strategically, it allows AMZ Advisers to offer clients a diversified multi-channel e-commerce presence across both traditional and short-video-driven platforms.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTER1alpBMXpBbXIxeHFSR24tM0V0TVNSbFZ3SG9yYkFNMVhoNGswZjQ2NlMyQTJTQjQzZ0dhMXhXUkZIamhueURpMzlLZjBUWWs1emxYdmF0LUp6ellnMDBta051dFdEaFEzMmdGYnRHSjlsVzJsT25sZmZqY293OWtGN3huRTlxLUZYS2V2b3NpNk5QM1p2ZkJFd29DdzJtUHlZOEk0WkxpTDBHamJsZU1BVU9GeW5uM3QwNk96eUJJc2c1?oc=5",
+   "source_snippet": "AMZ Advisers acquired Reach Social Commerce to expand from Amazon marketplace services into TikTok Shop, a small-cap M&A move reflecting e-commerce channel diversification trends.",
+   "extracted_at": "2026-07-27T20:16:22.314389+00:00"
   },
   {
    "skip": false,
