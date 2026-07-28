@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-28T02:42:24.892025+00:00",
+  "last_updated": "2026-07-28T05:16:08.773246+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 2,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -27,6 +27,24 @@
    "extracted_at": "2026-07-28T01:59:57.952058+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Capital Investment' or similar, not 'Private'; status should reflect construction/groundbreaking activity rather than pending deal status; date appears unsupported by source."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "Debt",
+   "name": "Nvidia",
+   "v": 50.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Nvidia is reportedly behind a $50 billion data center lease agreement in Texas, per the Financial Times, signaling a massive long-term capital commitment to AI infrastructure buildout. The structure appears to be a long-term lease obligation rather than an equity raise or traditional debt instrument. Details on counterparty, lease term, and financing structure remain undisclosed; deal should be treated as unconfirmed pending official announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN3hhTXBGOGJuOHRPd29ITFU3Y29ndDNjNWU4LTNNRzA2cE0wcm96dEFnNmcyM2xqUnQyb3hyT2sxQjNMUVQzTWF0b3Z5Njd5eXNxY2pnanRYWmxrQXAtY3RXcHVOSDNWRTRzOWZmQ0huSmFYa3Y1TFNwWElvdVI0a1RUajY0aXhqUGQ2R0lKRmtLdTlXUzZBUnZIM3duWG9DM1NJVDBkVkRvZw?oc=5",
+   "source_snippet": "Nvidia is reportedly behind a $50 billion data center lease in Texas, per the FT, signaling massive AI infrastructure capital commitment.",
+   "extracted_at": "2026-07-28T05:16:03.756344+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a data center lease, not a debt transaction; the deal type should reflect a lease/capital commitment, not 'Debt'"
   },
   {
    "skip": false,
