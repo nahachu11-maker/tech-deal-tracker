@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-28T10:34:14.685186+00:00",
+  "last_updated": "2026-07-28T12:50:45.524488+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 3,
+   "added": 1,
    "updated": 0,
    "duplicates": 1
   }
@@ -115,6 +115,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10TkgxQlJ2TGJkM2R0Y2wtTlJGSnEyd1puQmM5RVdGWWl2MTUzWkEzcmJtSWZhOHpWbXlNWXdfMEVrTHhhYTBlY3VKam52STJLdnFUcjg0WHgtRi01SnBpbWI3TWhYZw?oc=5",
    "source_snippet": "Toprun Total Solution has delayed its acquisition of LG Display's Nanjing LCD business, indicating deal execution risk in the display sector M&A.",
    "extracted_at": "2026-07-28T10:34:05.101729+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "M&A",
+   "name": "SK Hynix Subsidiary / Penguin Solutions",
+   "v": 0.38029,
+   "val": null,
+   "sector": "AI Infrastructure / Semiconductors",
+   "status": "Pending",
+   "note": "SK Telecom is divesting its entire stake in Penguin Solutions to a subsidiary of SK Hynix for approximately $380.29 million, consolidating AI infrastructure assets under SK Hynix within the broader SK Group. The transaction reflects the group's strategy to centralize AI server and memory-adjacent businesses under its semiconductor arm. No completion language was present in the source, so status is Pending.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0amVxeWxrRVZkRi0xSXdUR3F4eXBBX0FHUDg0bTBrY0c3UXpsazNkT0t1ckZNeUxUelBFS0NuNkRHYVJleXlaMU9ZU3d3aWhQbnc4UG0wSjBVZFNaVlM3RFRvU1FxYTRaN0Y4NmhjQ1pBT28?oc=5",
+   "source_snippet": "SK Telecom sold its entire stake in Penguin Solutions to an SK Hynix subsidiary for approximately $380 million, consolidating AI infrastructure assets within the SK group.",
+   "extracted_at": "2026-07-28T12:50:35.082880+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' based on source stating SK Telecom 'sold' (past tense), indicating completed transaction."
   },
   {
    "skip": false,
