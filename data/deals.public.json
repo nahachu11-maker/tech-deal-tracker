@@ -1,11 +1,11 @@
 {
  "meta": {
-  "last_updated": "2026-07-28T15:15:08.527270+00:00",
+  "last_updated": "2026-07-28T16:58:09.800197+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
-   "updated": 0,
+   "updated": 1,
    "duplicates": 1
   },
   "scrubbed": "fields"
@@ -88,11 +88,11 @@
    "d": "2026-07-28",
    "type": "M&A",
    "name": "Meta / BlackRock",
-   "v": null,
+   "v": 14.0,
    "val": null,
    "sector": "Data Center Infrastructure",
    "status": "Pending",
-   "note": "Meta and BlackRock are forming a joint venture to develop and operate a 1GW data center campus in Texas, representing a significant infrastructure capital commitment by both institutions. The deal structure involves shared ownership of the campus rather than an outright acquisition. No financial terms or deal valuation were disclosed in the announcement.",
+   "note": "Meta and BlackRock are forming a joint venture to develop and operate a 1GW data center campus in Texas, representing a significant infrastructure capital commitment by both institutions. The deal structure involves shared ownership of the campus rather than an outright acquisition. No financial terms or deal valuation were disclosed in the announcement. [Auto-update 2026-07-28: Meta is divesting an 80% stake in its $14B Texas data center venture to BlackRock in a capital recycling transaction. The deal allows Meta to monetize infrastructure assets while retaining a 20% minor]",
    "advisors": [],
    "review": true,
    "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLXVBbmFtYWVOMTh5MGNZUU56MlNHeXRJVUpsTWhuVDhFRVBFRlZfWFFfYllUb3dNV2stU2Z3Q3JWc1d0RUY5RDI5R29WWVJCekoxS2VLZUNZWFlkYWl1NTROMDMySDVTWXZyclpNSXlKV0pqd1JCSk9jSHdYV1NoQWh1c0lESnpCRDFVME0wa2pTbXdsUmpYVUw5NTN3WXJMSmEyMUVYYWNrTTY4NUFwRmxsdnlRdzBBcXV0dVozN3Nla0c5bmMyX1N3RFo5ZVBXVWJHRWMtMEY?oc=5",
@@ -170,6 +170,24 @@
    "extracted_at": "2026-07-28T15:15:01.350438+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Service Agreement' or similar, not 'Private'; the extracted record lacks the counterparty (AMD) and deal date appears speculative."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "M&A",
+   "name": "AMD / Core Scientific",
+   "v": 14.0,
+   "val": null,
+   "sector": "AI Infrastructure / Data Centers",
+   "status": "Pending",
+   "note": "AMD is reported to be pursuing a $14B deal to acquire data center capacity through Core Scientific, a move aimed at challenging Nvidia's dominance in AI infrastructure. The transaction would give AMD direct control over large-scale compute facilities to support its AI chip ambitions. No definitive agreement language is confirmed in the source; status treated as Pending based on 'reported' framing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUxjM2hiQXIwTFpfVXJLSkg1di1zSklvVGxiMUN2Si04a2x0V2VfZ2dzeDA1TklrdzNselBBZjJMYzFLWUptQ21nZlk1VUI4aHJrdFQ2RnVBQnVrNWFpS1hQSWlKOGJnSHFpTnFnNEdqeVBoUWt3NldKM1hvajJ1S0l5bERkQmpfSVNsXzRQTjVHNkNWMTlyN2lmbmJ0Q2VxRU5hVmo2dDRFdGdIWTVocGJLekpYR3ZwU1ZFQ0tUQm1hZHVnakgwOGZxbGpnc3c?oc=5",
+   "source_snippet": "AMD is reported to be making a $14B bet on data center capacity via Core Scientific, directly targeting Nvidia's lead in AI infrastructure.",
+   "extracted_at": "2026-07-28T16:58:07.462022+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a reported investment/capacity bet, not a confirmed M&A transaction with pending status."
   },
   {
    "skip": false,
