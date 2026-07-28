@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-28T08:38:33.028496+00:00",
+  "last_updated": "2026-07-28T10:34:14.685186+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 1
   }
  },
  "deals": [
@@ -63,6 +63,58 @@
    "extracted_at": "2026-07-28T07:59:37.782967+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be construction contract, not Debt; and the transaction is a contract award (Closed), not Pending."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "Private",
+   "name": "BlackRock / Meta Platforms Texas Data Center JV",
+   "v": 14.0,
+   "val": null,
+   "sector": "AI Infrastructure / Data Centers",
+   "status": "Pending",
+   "note": "BlackRock and Meta Platforms announced a $14 billion joint venture to develop a large-scale data center in Texas, representing a major AI infrastructure capital deployment. The structure is a co-investment JV between an asset manager and a hyperscaler, pooling capital for AI compute buildout. No stake breakdown or closing timeline was disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXk5MXNqck5WNU83SVFvR0JQZXAxZnp5ckt4eG1LZzZKcEFpU0pUOEpiLXVuOXB4OENFRlYzNm55bldJdHZpaUk4WGdKZV80X0Rpc0ZUR25VWEU1MFI5Y2lwaFJrcnFQRmt3bkkxV0d4QlNqQXdVODNRNU5lemhLUzd1QVVIdXNiSGphVWxUR2x5eFc5TWdGNGlMZVp4UGRLcGl6NzRHa0NsdGRzaDdnLVdCWlQtRXNl?oc=5",
+   "source_snippet": "BlackRock and Meta Platforms announce a $14 billion joint venture to build a data center in Texas, a major AI infrastructure capital deployment.",
+   "extracted_at": "2026-07-28T10:33:51.546824+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Joint Venture' not 'Private', and status cannot be verified as 'Pending' from the source text."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "M&A",
+   "name": "Meta / BlackRock",
+   "v": null,
+   "val": null,
+   "sector": "Data Center Infrastructure",
+   "status": "Pending",
+   "note": "Meta and BlackRock are forming a joint venture to develop and operate a 1GW data center campus in Texas, representing a significant infrastructure capital commitment by both institutions. The deal structure involves shared ownership of the campus rather than an outright acquisition. No financial terms or deal valuation were disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLXVBbmFtYWVOMTh5MGNZUU56MlNHeXRJVUpsTWhuVDhFRVBFRlZfWFFfYllUb3dNV2stU2Z3Q3JWc1d0RUY5RDI5R29WWVJCekoxS2VLZUNZWFlkYWl1NTROMDMySDVTWXZyclpNSXlKV0pqd1JCSk9jSHdYV1NoQWh1c0lESnpCRDFVME0wa2pTbXdsUmpYVUw5NTN3WXJMSmEyMUVYYWNrTTY4NUFwRmxsdnlRdzBBcXV0dVozN3Nla0c5bmMyX1N3RFo5ZVBXVWJHRWMtMEY?oc=5",
+   "source_snippet": "Meta and BlackRock form a joint venture to develop and operate a 1GW data center campus in Texas, a significant infrastructure capital commitment by two major institutions.",
+   "extracted_at": "2026-07-28T10:33:57.281979+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be joint venture, not M&A; M&A implies acquisition or merger, not partnership infrastructure development."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "M&A",
+   "name": "Toprun Total Solution / LG Display Nanjing LCD",
+   "v": null,
+   "val": null,
+   "sector": "Display / Electronics",
+   "status": "Pending",
+   "note": "Toprun Total Solution has delayed its previously announced acquisition of LG Display's Nanjing LCD business, signaling deal execution risk. The delay raises uncertainty around completion timing and may reflect financing, regulatory, or operational hurdles in the display sector. No revised closing timeline was disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10TkgxQlJ2TGJkM2R0Y2wtTlJGSnEyd1puQmM5RVdGWWl2MTUzWkEzcmJtSWZhOHpWbXlNWXdfMEVrTHhhYTBlY3VKam52STJLdnFUcjg0WHgtRi01SnBpbWI3TWhYZw?oc=5",
+   "source_snippet": "Toprun Total Solution has delayed its acquisition of LG Display's Nanjing LCD business, indicating deal execution risk in the display sector M&A.",
+   "extracted_at": "2026-07-28T10:34:05.101729+00:00"
   },
   {
    "skip": false,
