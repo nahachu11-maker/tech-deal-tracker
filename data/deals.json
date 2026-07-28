@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-28T16:58:09.800197+00:00",
+  "last_updated": "2026-07-28T18:09:44.091423+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 1,
-   "updated": 1,
-   "duplicates": 1
+   "added": 3,
+   "updated": 0,
+   "duplicates": 0
   }
  },
  "deals": [
@@ -187,6 +187,58 @@
    "extracted_at": "2026-07-28T16:58:07.462022+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a reported investment/capacity bet, not a confirmed M&A transaction with pending status."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "M&A",
+   "name": "Saudi Prince / Lucid Motors",
+   "v": null,
+   "val": null,
+   "sector": "EV / Automotive Tech",
+   "status": "Pending",
+   "note": "A Saudi prince is acquiring a 5% minority stake in Lucid Motors, a publicly traded EV manufacturer. The transaction comes amid prior market speculation about a full take-private deal, which Lucid has officially denied. The deal underscores continued Gulf sovereign and high-net-worth interest in EV sector exposure.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/07/28/saudi-prince-buys-5-stake-in-lucid-motors/",
+   "source_snippet": "Saudi prince acquires a 5% stake in Lucid Motors amid prior speculation about a full take-private, which Lucid has denied.",
+   "extracted_at": "2026-07-28T18:09:27.468691+00:00",
+   "verify_failed": true,
+   "verify_reason": "A 5% stake acquisition is not M&A; this is a minority investment/equity stake, not a merger, acquisition, or take-private transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "M&A",
+   "name": "Meta / AI Target",
+   "v": 14.0,
+   "val": null,
+   "sector": "AI / Social Media",
+   "status": "Pending",
+   "note": "Meta is reportedly making a $14 billion AI-related move, though the specific target and structure remain unspecified. The 'twist' in the headline suggests the transaction may involve an unconventional structure — such as a minority stake, licensing component, or talent acquisition — rather than a straightforward outright acquisition. At $14B, the deal would rank among Meta's largest-ever transactions and signals aggressive AI infrastructure or capability investment.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pV2lNaDg1ZHdVNWpheWRNRVlGZnNfZkRIcHQwMWk4UU1TV2xST1NIRlE2a2JYQWlkRVhqc3IwbnhFQVdERnUzSG9RUmVpTldoMlFwazNBQkZLSUI4M3JMNzBrNldoOWxBVFVDdXJveXd4NjlLX3RSbkw1YjNtQQ?oc=5",
+   "source_snippet": "Meta's $14 billion AI-related move is reported with an unspecified twist; the deal size is market-moving if confirmed as an acquisition or investment.",
+   "extracted_at": "2026-07-28T18:09:35.288641+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "M&A",
+   "name": "Microchip Technology / Hailo",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors / Edge AI",
+   "status": "Pending",
+   "note": "Microchip Technology is acquiring edge AI chip startup Hailo, a provider of AI inference silicon for embedded and edge applications. The deal extends Microchip's acquisition-driven embedded systems strategy into the growing edge AI market. No financial terms were disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.eetimes.com/microchip-acquires-edge-ai-chip-startup-hailo/",
+   "source_snippet": "Microchip Technology acquires edge AI chip startup Hailo, extending its acquisition-driven embedded systems strategy into AI inference silicon.",
+   "extracted_at": "2026-07-28T18:09:40.568393+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes acquisition as completed strategy extension, but record shows status as 'Pending' with no deal value disclosed in source."
   },
   {
    "skip": false,
