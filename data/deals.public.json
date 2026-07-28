@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-28T12:50:45.524488+00:00",
+  "last_updated": "2026-07-28T14:12:57.670358+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
@@ -134,6 +134,24 @@
    "extracted_at": "2026-07-28T12:50:35.082880+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' not 'Pending' based on source stating SK Telecom 'sold' (past tense), indicating completed transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "M&A",
+   "name": "LIMPID / PetPeotalk",
+   "v": null,
+   "val": null,
+   "sector": "AI / Pet Healthcare",
+   "status": "Closed",
+   "note": "LIMPID Corp. acquires Vision-AI company PetPeotalk to integrate its pet-behavior AI—trained on 350 million video records—into Kinfora, LIMPID's AI pet healthcare platform. The deal unites veterinary nutrition expertise with behavioral AI to build a 'digital twin' for every pet. PetPeotalk's founder joins LIMPID as CTO; deal value was not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/limpid-acquires-vision-ai-company-petpeotalk-to-power-kinfora-its-ai-pet-healthcare-platform-302835414.html",
+   "source_snippet": " Deal unites veterinary nutrition expertise with pet-behavior AI trained on 350 million video records; PetPeotalk founder joins as CTO as LIMPID builds a \"digital twin\" for every pet SEOUL, South Korea, July 28, 2026 /PRNewswire/ -- LIMPID Corp., the AI pet healthcare company behind the... ",
+   "extracted_at": "2026-07-28T14:12:53.800479+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes a deal uniting two companies with a founder joining as CTO, but does not explicitly state the deal is closed or provide sufficient detail to confirm M&A classification."
   },
   {
    "skip": false,
