@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-28T14:12:57.670358+00:00",
+  "last_updated": "2026-07-28T15:15:08.527270+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
@@ -152,6 +152,24 @@
    "extracted_at": "2026-07-28T14:12:53.800479+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes a deal uniting two companies with a founder joining as CTO, but does not explicitly state the deal is closed or provide sufficient detail to confirm M&A classification."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "Private",
+   "name": "Core Scientific",
+   "v": 14.0,
+   "val": null,
+   "sector": "AI Infrastructure / HPC",
+   "status": "Pending",
+   "note": "Core Scientific reportedly signed a $14B deal with AMD for AI compute capacity, a long-term hosting/infrastructure contract rather than an equity transaction. The agreement validates Core Scientific's earlier rejection of CoreWeave's acquisition approach, positioning it as an independent AI infrastructure provider. Deal structure and definitive terms have not been fully disclosed; figures should be treated as aspirational contract value.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwY1FpT1hJZktIa2pNUFVvOVhOdXpSTzNIZGVTNHNNOTBIbW9LU2ppTmdlUWN2MFdvbmprRk1NSS1JX3ZTNVZEaWxUYXZoR29TVmNnTWRaTQ?oc=5",
+   "source_snippet": "Core Scientific reportedly signed a $14 billion deal with AMD for AI compute capacity, validating its earlier decision to reject CoreWeave's acquisition approach.",
+   "extracted_at": "2026-07-28T15:15:01.350438+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Service Agreement' or similar, not 'Private'; the extracted record lacks the counterparty (AMD) and deal date appears speculative."
   },
   {
    "skip": false,
