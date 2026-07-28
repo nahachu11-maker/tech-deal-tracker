@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-28T05:16:08.773246+00:00",
+  "last_updated": "2026-07-28T07:59:41.295209+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -46,6 +46,24 @@
    "extracted_at": "2026-07-28T05:16:03.756344+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a data center lease, not a debt transaction; the deal type should reflect a lease/capital commitment, not 'Debt'"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "Debt",
+   "name": "Micron",
+   "v": 2.75,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Micron has awarded Larsen & Toubro a Phase 2 construction contract for its $2.75 billion semiconductor fabrication facility in India, marking a significant capital deployment in South Asian chip manufacturing. The contract represents continued buildout of Micron's India fab capacity following an earlier phase. This is a construction/capex deployment event tied to Micron's broader India expansion strategy supported by local government incentives.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMzNMWXlHX210eEIyVmJTNktjTXJmUktWYmhVQXJnRHRIR0Nqbjh0MS1qUGM1YkhLT3A2LUVnVTBsdjlZX3UtZ3ZMLVdZcEJmMjRSTFRjQjZCZUZ5S3I3b3hCZGprS2RrSlVJLUhNVEhleXdma0tmSEN3aHZYMFJaSWRFRXVYN2ZvbVZZRG5sRHc0c3dlM2tsTU9xaThFYXl5enprV1kzWGV4TXZWQmtmYlNRVTRsb3RzQUY0?oc=5",
+   "source_snippet": "Micron awards Larsen & Toubro a Phase 2 construction contract for its $2.75 billion India semiconductor fab, advancing a major capital deployment in South Asian chip manufacturing.",
+   "extracted_at": "2026-07-28T07:59:37.782967+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be construction contract, not Debt; and the transaction is a contract award (Closed), not Pending."
   },
   {
    "skip": false,
