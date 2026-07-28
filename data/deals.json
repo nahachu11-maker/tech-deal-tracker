@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-28T20:00:21.557695+00:00",
+  "last_updated": "2026-07-28T21:08:48.175624+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 1
   }
  },
  "deals": [
@@ -257,6 +257,24 @@
    "extracted_at": "2026-07-28T20:00:19.602776+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'M&A' or similar transaction type, not 'Private'; the source describes a data center deal, not a private company classification"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-28",
+   "type": "M&A",
+   "name": "Nvidia / Safe Superintelligence (SSI)",
+   "v": 5.0,
+   "val": null,
+   "sector": "AI / Semiconductors",
+   "status": "Pending",
+   "note": "Nvidia is reported to be acquiring a $5 billion minority stake in Ilya Sutskever's frontier AI research lab Safe Superintelligence (SSI). The investment would deepen Nvidia's strategic ties to cutting-edge AI development, ensuring GPU ecosystem alignment with one of the most closely watched labs in the industry. Deal terms and exact stake percentage are not disclosed in the report.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQYktzUzlLaHpEUWgzc2NqWVAzLXR2aHh4NnNKbjdmLWVHWk51bl9YTF82eGpGN3NiWE1UbFRoX3Rlek42T0RibWRQZS1uMFJCRjJiWW5DemRxNmFKUW01aFVxdjFLdWgzYUZXMWFJVmYxVlRSaXNxb2FldE5MbjVOckZNTkJOeS1Td2xncFpaTjI2blBGc2R4UnVWclNYTldCVkRqWldEbzlTNEZ6MUlJOHdsbUQxbURlelUzUkRxZ0NFMXBLeEVOVExNQWRpSFRnay10SV9oMk9NcEd4d2ZJdDd3aFR4Y3QxN2lldVpFX2RxLWhvNWZvX29IV2hIZXJrU0V4ZkJ3ZFVpbDQtWnpRMnZCN3JBaC1ZWjV5am13?oc=5",
+   "source_snippet": "Nvidia is reported to be taking a $5 billion stake in Ilya Sutskever's AI lab (SSI), representing a major strategic investment by the leading GPU supplier into frontier AI research.",
+   "extracted_at": "2026-07-28T21:08:42.111052+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type is M&A (acquisition) but source describes a strategic stake investment, not a merger or acquisition."
   },
   {
    "skip": false,
