@@ -1,11 +1,11 @@
 {
  "meta": {
-  "last_updated": "2026-07-29T19:52:46.725831+00:00",
+  "last_updated": "2026-07-29T20:47:00.560466+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
-   "updated": 1,
+   "updated": 0,
    "duplicates": 0
   },
   "scrubbed": "fields"
@@ -60,6 +60,24 @@
    "extracted_at": "2026-07-29T19:52:35.519947+00:00",
    "verify_failed": true,
    "verify_reason": "Deal date shows 2026-07-29 but source indicates completion in 2025"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-29",
+   "type": "M&A",
+   "name": "Nvidia / SSI",
+   "v": 5.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Nvidia is reportedly making a $5 billion strategic investment in SSI (Safe Superintelligence), framed as a defensive move to secure its AI infrastructure dominance as the market shifts beyond large-language-model training. The stake size and deal structure (minority vs. majority) are not specified in the text, though the framing as an 'investment' suggests a minority or strategic stake. The deal underscores Nvidia's push to lock in next-generation AI compute demand.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeXIyRFIyd1pBSzg3RE92eV9OZkhSb1ptY3ZBdEZBMW9VWUVESVNHNE8xQllnWFdYbnIyUGROdFFiSDZRV3NFVWJLRzdkbXVBbWI1NXdQU1hpTnE4WDg1RUtvNk15ZUZPNEJ1aUhKZUFmMjJ5UnJLLWJMdG5RQ1NndC1wRVlQMG05TTZRSXJGbHJDWk5pUHNEZHJwSVRBUQ?oc=5",
+   "source_snippet": "Nvidia's reported $5 billion investment in SSI is framed as a strategic move to defend its AI infrastructure lead in a post-LLM training environment.",
+   "extracted_at": "2026-07-29T20:46:50.490818+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes an investment, not an M&A (merger/acquisition) transaction"
   },
   {
    "skip": false,
