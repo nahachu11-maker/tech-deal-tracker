@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-29T19:20:33.486403+00:00",
+  "last_updated": "2026-07-29T19:52:46.725831+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 0,
-   "duplicates": 2
+   "added": 1,
+   "updated": 1,
+   "duplicates": 0
   }
  },
  "deals": [
@@ -41,6 +41,24 @@
    "source_url": "https://www.prnewswire.com/news-releases/bloomberg-to-acquire-canoe-intelligence-taking-a-defining-step-in-its-mission-to-transform-private-markets-investing-302837466.html",
    "source_snippet": " Transaction will accelerate end-to-end intelligence across public and private markets from pre-investment to portfolio oversight with AI-driven insights for investors NEW YORK, July 29, 2026 /PRNewswire/ -- Bloomberg today announced it has entered into a definitive agreement to acquire... ",
    "extracted_at": "2026-07-29T14:14:47.325382+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-29",
+   "type": "M&A",
+   "name": "Apple / Undisclosed Target",
+   "v": null,
+   "val": null,
+   "sector": "Consumer Technology",
+   "status": "Closed",
+   "note": "Apple reportedly completed its second-largest acquisition ever in 2025, marking a notable departure from the company's historically conservative M&A posture. The specific target and deal value are not disclosed in the snippet. The acquisition ranks as Apple's second-biggest deal ever, suggesting a multi-billion dollar transaction.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRzVSalpmZFY1YkdKdDQ5cnZvN2J2Um52bjZDRWY1TWpibnJsODdtWldUbkVSZl9nVlRlRkZueFNqMl9MMFM5U2JqSWE5RFdFVGliZS1KYVoxNmd0ejNTeUdURVl5Q0dRNDFRa0pzNGhqWmdwRVRvZEhaOGQ3WUo0VlFRbGpsTHM?oc=5",
+   "source_snippet": "Apple reportedly completed its second-largest acquisition ever in 2025, a significant M&A event for a company historically conservative on deals.",
+   "extracted_at": "2026-07-29T19:52:35.519947+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal date shows 2026-07-29 but source indicates completion in 2025"
   },
   {
    "skip": false,
@@ -3535,14 +3553,14 @@
    "name": "IonQ / SkyWater Technology",
    "v": 2.0224,
    "sector": "Semiconductors",
-   "status": "Pending",
-   "note": "IonQ, Inc. (NYSE:IONQ) entered into a definitive agreement to acquire SkyWater Technology, Inc. (NasdaqCM:SKYT) from CMI Oxbow Partners, LLC, Oxbow Industries, LLC, Loren A. Unterseher, and others for $1.8 billion on January 25, 2026. Under the agreement, SkyWater shareholders will receive $15 in cash and $20 in shares of IonQ common stock, subject to a collar, for each share of SkyWater common stock held at close of the transaction, implying a total equity value of approximately $1.8 billion.",
+   "status": "Closed",
+   "note": "IonQ, Inc. (NYSE:IONQ) entered into a definitive agreement to acquire SkyWater Technology, Inc. (NasdaqCM:SKYT) from CMI Oxbow Partners, LLC, Oxbow Industries, LLC, Loren A. Unterseher, and others for $1.8 billion on January 25, 2026. Under the agreement, SkyWater shareholders will receive $15 in cash and $20 in shares of IonQ common stock, subject to a collar, for each share of SkyWater common stock held at close of the transaction, implying a total equity value of approximately $1.8 billion. [Auto-update 2026-07-29: IonQ's acquisition of SkyWater Technology has cleared its final regulatory hurdle and is set to close, giving IonQ domestic chip fabrication capability for quantum computing hardware. The deal ends Io]",
    "advisors": [
     "Goldman Sachs",
     "Cantor Fitzgerald &",
     "BofA Securities"
    ],
-   "review": false,
+   "review": true,
    "source": "capiq",
    "licensed": true,
    "comps": {
