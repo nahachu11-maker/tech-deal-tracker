@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-29T21:54:03.262006+00:00",
+  "last_updated": "2026-07-29T22:54:55.869234+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
@@ -78,6 +78,24 @@
    "extracted_at": "2026-07-29T20:46:50.490818+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes an investment, not an M&A (merger/acquisition) transaction"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-29",
+   "type": "SPAC",
+   "name": "Archimedes Tech SPAC 2 / Forge Nano",
+   "v": null,
+   "val": null,
+   "sector": "Battery Materials",
+   "status": "Pending",
+   "note": "Forge Nano, a battery materials startup, announced a de-SPAC merger with Archimedes Tech SPAC 2; deal valuation was not disclosed in the text. Concurrently, Forge Nano revealed a strategic partnership with Samsung SDI and $100M in government funding, underscoring the transaction's blended public/strategic financing structure. As with all de-SPAC transactions, the implied valuation should be treated as aspirational pending closing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1EdmdfRDl0MnBZNU1TS0pwOWRIa1ZTZDdSaW40eThucEJqc3NoZ2xHaUNIc05xUFo3UUoyYVBaU1JCekFKdzBKOWVXTGFZZlNaSHNnZUw1UXJPS3Z5TmN3X2xaeTJQY3huWEdPTW4yaUxjdFE?oc=5",
+   "source_snippet": "Battery materials startup Forge Nano announced a SPAC merger with Archimedes Tech SPAC 2, disclosed a Samsung SDI partnership, and revealed $100M in government funding, combining a de-SPAC transaction with strategic and public financing.",
+   "extracted_at": "2026-07-29T22:54:54.220731+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source indicates deal is announced/disclosed (suggesting Closed or Filed status), not Pending"
   },
   {
    "skip": false,
