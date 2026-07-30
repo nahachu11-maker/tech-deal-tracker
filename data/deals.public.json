@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-07-30T11:54:51.403423+00:00",
+  "last_updated": "2026-07-30T13:32:18.626029+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 1
   },
@@ -44,6 +44,38 @@
    "extracted_at": "2026-07-30T10:01:07.038552+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Debt Issuance' or similar, not categorized as M&A/IPO/Follow-on; the source describes bond issuance for refinancing, not an acquisition or equity transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-30",
+   "type": "M&A",
+   "name": "ANV Group / Open Lending",
+   "v": null,
+   "val": null,
+   "sector": "Fintech",
+   "status": "Closed",
+   "note": "ANV Group has completed its acquisition of Open Lending, a fintech lender-enablement platform previously listed on Nasdaq. Following deal closure, Open Lending has initiated Nasdaq delisting procedures, taking the company private. Deal value was not disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IT1NnbkFTVUJ2SzBjY1NaR3M5QlJaSlVEOHUwVlhDaDRkU0p0Tl9pRng0NUFhZ1NEc0t0OVV5bnhQRVU3R09FQkJEUTRCbF9sMUNfQ0NJaEc5cVJ1UkdZMjdrZ1NfVHJsajJpUUF3Q0dJT1U?oc=5",
+   "source_snippet": "Open Lending acquisition by ANV Group has closed, with Nasdaq delisting process initiated, removing the fintech from public markets.",
+   "extracted_at": "2026-07-30T13:31:54.576660+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-30",
+   "type": "M&A",
+   "name": "Intercontinental Exchange / MarketAxess",
+   "v": 6.0,
+   "val": null,
+   "sector": "Financial Infrastructure / Fintech",
+   "status": "Pending",
+   "note": "ICE reportedly agreed to acquire electronic bond trading platform MarketAxess for approximately $6 billion, expanding its fixed-income trading infrastructure. The deal would combine ICE's exchange and data services with MarketAxess's dominant position in electronic credit trading. The use of 'reportedly' suggests the agreement has not been formally confirmed via regulatory filing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xYW4wLTNjUFE1S1Q2eTgxNXl5U3hYNnlTdXViT2Nsd1hTQ2xJdmV2MTcyTnpYNW1rMUZNaERCQUlodkM4WkFBLXhEVTNhWFZBN29YMzhmdkwyYkhYSlF0bDdQRHNkUnQwV05DSVN5OTdlQW8?oc=5",
+   "source_snippet": "Intercontinental Exchange reportedly agrees to acquire electronic bond trading platform MarketAxess for $6 billion, a major fintech/financial infrastructure deal.",
+   "extracted_at": "2026-07-30T13:32:04.107892+00:00"
   },
   {
    "skip": false,
