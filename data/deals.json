@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-30T14:08:41.379503+00:00",
+  "last_updated": "2026-07-30T15:33:56.052861+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 1
   }
  },
  "deals": [
@@ -93,6 +93,24 @@
    "extracted_at": "2026-07-30T14:08:25.885263+00:00",
    "verify_failed": true,
    "verify_reason": "Source says Nscale 'announced it has entered into a' deal but does not confirm closure; status should be 'Filed' or 'Announced' rather than 'Pending' based on the announcement language"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-30",
+   "type": "Private",
+   "name": "Hidden Level",
+   "v": 0.1,
+   "val": null,
+   "sector": "Defense Tech / Counter-UAS",
+   "status": "Closed",
+   "note": "Hidden Level received a $100M Other Transaction Authority (OTA) contract from the Department of War to scale passive sensing technology for counter-UAS missions. OTA contracts are non-traditional procurement vehicles allowing faster technology development outside standard FAR regulations. This represents a significant government revenue event for the startup, validating its passive sensing platform in the defense sector.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/department-of-war-awards-hidden-level-100-million-ota-to-scale-passive-sensing-technology-302839232.html",
+   "source_snippet": "Hidden Level received a $100M Other Transaction Authority contract from the Department of War to scale passive sensing technology for counter-UAS missions, a significant government revenue event for the startup.",
+   "extracted_at": "2026-07-30T15:33:44.251963+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value should be $100M, not null; type should reflect OTA contract, not generic 'Private'; status should indicate 'Closed' is correct but value omission is a material fact error."
   },
   {
    "skip": false,
