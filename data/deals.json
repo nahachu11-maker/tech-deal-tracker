@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-30T15:33:56.052861+00:00",
+  "last_updated": "2026-07-30T17:18:44.647238+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   }
  },
  "deals": [
@@ -111,6 +111,22 @@
    "extracted_at": "2026-07-30T15:33:44.251963+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value should be $100M, not null; type should reflect OTA contract, not generic 'Private'; status should indicate 'Closed' is correct but value omission is a material fact error."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-30",
+   "type": "M&A",
+   "name": "Okta / Permiso",
+   "v": 0.2,
+   "val": null,
+   "sector": "Cybersecurity / Identity",
+   "status": "Pending",
+   "note": "Okta is acquiring AI security startup Permiso for approximately $200M, per a source cited by TechCrunch. The deal bolsters Okta's identity threat detection capabilities for AI agents and non-human identities (NHIs) in cloud environments. The acquisition reflects growing enterprise demand for securing machine-to-machine and agentic AI workflows within identity platforms.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+   "source_snippet": "Okta is acquiring AI security startup Permiso for approximately $200M to bolster identity threat detection for AI agents and non-human identities in cloud environments.",
+   "extracted_at": "2026-07-30T17:18:38.745695+00:00"
   },
   {
    "skip": false,
