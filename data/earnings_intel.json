@@ -384,6 +384,100 @@
      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-ex99_1.htm",
      "model": "claude-haiku-4-5-20251001",
      "derived_only": true
+    },
+    {
+     "period": "Q4 FY2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "Microsoft Cloud revenue surged 27% YoY to $59.3B; Azure exceeded 43% growth",
+       "Commercial remaining performance obligation jumped 84% to $678B, signaling strong future revenue",
+       "AI business momentum: Microsoft 365 Copilot reached 30M+ paid seats; Azure annual revenue surpassed $100B"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Revenue",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      },
+      {
+       "metric": "Operating income",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      },
+      {
+       "metric": "Diluted earnings per share",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Revenue",
+       "value": "90.0",
+       "unit": "$ billions",
+       "yoy": "+18%"
+      },
+      {
+       "name": "Operating income",
+       "value": "40.6",
+       "unit": "$ billions",
+       "yoy": "+18%"
+      },
+      {
+       "name": "Diluted earnings per share",
+       "value": "4.81",
+       "unit": "$",
+       "yoy": "+32%"
+      },
+      {
+       "name": "Gross margin",
+       "value": "60.5",
+       "unit": "$ billions",
+       "yoy": "+15% (implied)"
+      },
+      {
+       "name": "Microsoft Cloud revenue",
+       "value": "59.3",
+       "unit": "$ billions",
+       "yoy": "+27%"
+      },
+      {
+       "name": "Azure and other cloud services revenue",
+       "value": "not separately quantified",
+       "unit": "$",
+       "yoy": "+43%"
+      },
+      {
+       "name": "Commercial remaining performance obligation",
+       "value": "678",
+       "unit": "$ billions",
+       "yoy": "+84%"
+      }
+     ],
+     "dropped_kpis": [
+      "AI business annual revenue run rate"
+     ],
+     "tone": {
+      "confidence": 9,
+      "hedging": 2,
+      "notes": "Management tone is highly confident; CEO emphasizes frontier AI achievements and customer adoption; financial targets exceeded with discrete item benefits of $0.27/share."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-07-30T00:56:14.040513+00:00",
+     "doc_date": "2026-07-30",
+     "source_label": "EDGAR 8-K filed 2026-07-29",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
     }
    ]
   },
@@ -761,6 +855,6 @@
   }
  },
  "meta": {
-  "last_run": "2026-07-29T01:01:12.607447+00:00"
+  "last_run": "2026-07-30T00:56:33.429970+00:00"
  }
 }
