@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-30T13:32:18.626029+00:00",
+  "last_updated": "2026-07-30T14:08:41.379503+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 2,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   }
  },
  "deals": [
@@ -75,6 +75,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xYW4wLTNjUFE1S1Q2eTgxNXl5U3hYNnlTdXViT2Nsd1hTQ2xJdmV2MTcyTnpYNW1rMUZNaERCQUlodkM4WkFBLXhEVTNhWFZBN29YMzhmdkwyYkhYSlF0bDdQRHNkUnQwV05DSVN5OTdlQW8?oc=5",
    "source_snippet": "Intercontinental Exchange reportedly agrees to acquire electronic bond trading platform MarketAxess for $6 billion, a major fintech/financial infrastructure deal.",
    "extracted_at": "2026-07-30T13:32:04.107892+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-30",
+   "type": "M&A",
+   "name": "Nscale / Anyscale",
+   "v": null,
+   "val": null,
+   "sector": "AI Cloud / Infrastructure",
+   "status": "Pending",
+   "note": "Nscale, a full-stack AI cloud provider, has entered into a definitive agreement to acquire Anyscale, the company behind the Ray open-source AI compute framework. The deal adds Anyscale's software orchestration layer to Nscale's existing compute infrastructure, enabling an end-to-end AI platform play. Strategic rationale centers on expanding Nscale's customer base and moving up the value stack from raw GPU compute to managed AI development environments.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform-302838058.html",
+   "source_snippet": " With this acquisition, Nscale adds Anyscale's software layer, which turns raw compute into an end-to-end AI platform that expands Nscale's customer base LONDON and SAN FRANCISCO, July 30, 2026 /PRNewswire/ -- Nscale, a full-stack AI cloud platform, today announced it has entered into a... ",
+   "extracted_at": "2026-07-30T14:08:25.885263+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source says Nscale 'announced it has entered into a' deal but does not confirm closure; status should be 'Filed' or 'Announced' rather than 'Pending' based on the announcement language"
   },
   {
    "skip": false,
