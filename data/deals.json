@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-07-30T17:18:44.647238+00:00",
+  "last_updated": "2026-07-30T18:56:02.510526+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -127,6 +127,24 @@
    "source_url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
    "source_snippet": "Okta is acquiring AI security startup Permiso for approximately $200M to bolster identity threat detection for AI agents and non-human identities in cloud environments.",
    "extracted_at": "2026-07-30T17:18:38.745695+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-30",
+   "type": "M&A",
+   "name": "ICE / MarketAxess",
+   "v": null,
+   "val": null,
+   "sector": "FinTech / Fixed Income Trading",
+   "status": "Pending",
+   "note": "Intercontinental Exchange (ICE) announced a definitive agreement to acquire MarketAxess, an electronic fixed-income trading platform. MarketAxess withdrew its full-year guidance following the announcement, a typical step upon signing. Deal value not disclosed in the source text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UcjliUkdZS1dEQXFwMkxralR1M1phNHR3cl9DS081d1RXcGMtVi1LQllYVkt0SzBtU3hSV3FMZnFNYk4xQ1A2QWRFWS1rXzlHTGdrOFc1Ri1RS3dHbU5JRWZYWUhDUFlwNEhXbmFwUVdRUQ?oc=5",
+   "source_snippet": "MarketAxess reported Q2 net income of $68.32M and withdrew full-year guidance following announcement of ICE's acquisition agreement.",
+   "extracted_at": "2026-07-30T18:55:49.757684+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source indicates an acquisition agreement was announced, which typically means status should be 'Closed' or 'Filed' rather than 'Pending', and the deal value is not stated as null in the source co"
   },
   {
    "skip": false,
