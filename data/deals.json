@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-30T08:31:54.062393+00:00",
+  "last_updated": "2026-07-30T10:01:14.110997+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 3
+   "duplicates": 1
   }
  },
  "deals": [
@@ -25,6 +25,24 @@
    "source_url": "https://www.prnewswire.com/news-releases/ada-acquires-algonomy-strengthening-its-intelligent-growth-platform-for-a-fully-agentic-experience-302837975.html",
    "source_snippet": " SINGAPORE and BENGALURU, India, July 30, 2026 /PRNewswire/ -- ADA, The Data and AI Experience Company, today announced it has completed acquisition of Algonomy, a leader in agentic decisioning for retail. The deal strengthens ADA's intelligent growth platform with AI decisioning... ",
    "extracted_at": "2026-07-30T08:31:36.066916+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-30",
+   "type": "Debt",
+   "name": "Vertiv Holdings",
+   "v": 2.1,
+   "val": null,
+   "sector": "AI Infrastructure / Data Center",
+   "status": "Closed",
+   "note": "Vertiv issued $2.1B in bonds to refinance existing term loans, completing a liability-management transaction alongside three M&A deals closed in Q2 2026. The debt raise supports continued inorganic expansion in AI infrastructure. No equity component is indicated; this is a pure debt refinancing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHZ3FYbnZqQkpwb3BuUGI5a3NwdldEYmg4aG5PMzBKckpIZ1FQU1hkMzNzZGpxaGtOUU42eklGQXNPODVtbzVTRVRpTmg0bkNtZ0tIb1FmVlBId1BSWlVad3B3X0JVSXhJdGNIT0tob1lmVkE?oc=5",
+   "source_snippet": "Vertiv completed three acquisitions in Q2 and issued $2.1bn in bonds to refinance term loans, signaling continued inorganic expansion in AI infrastructure.",
+   "extracted_at": "2026-07-30T10:01:07.038552+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Debt Issuance' or similar, not categorized as M&A/IPO/Follow-on; the source describes bond issuance for refinancing, not an acquisition or equity transaction."
   },
   {
    "skip": false,
