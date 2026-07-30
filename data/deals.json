@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-30T01:32:14.348127+00:00",
+  "last_updated": "2026-07-30T02:34:39.782656+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   }
  },
  "deals": [
@@ -95,6 +95,22 @@
    "extracted_at": "2026-07-29T22:54:54.220731+00:00",
    "verify_failed": true,
    "verify_reason": "Source indicates deal is announced/disclosed (suggesting Closed or Filed status), not Pending"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-29",
+   "type": "IPO",
+   "name": "Global Interactive Technologies, Inc.",
+   "v": null,
+   "val": null,
+   "sector": "Software & IT Services",
+   "status": "Filed",
+   "note": "Global Interactive Technologies (ticker GITS) filed an S-1 registration statement with the SEC on 2026-07-29, indicating intent to go public. No offering size or valuation details are disclosed in the filing snippet. SIC code 7370 places the company in computer programming and data processing services.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1911545/000149315226035245",
+   "source_snippet": "",
+   "extracted_at": "2026-07-30T02:34:02.313583+00:00"
   },
   {
    "skip": false,
