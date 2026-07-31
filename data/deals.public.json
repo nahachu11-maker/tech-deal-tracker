@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-31T14:12:27.880888+00:00",
+  "last_updated": "2026-07-31T15:37:17.382237+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
@@ -90,6 +90,24 @@
    "source_url": "https://www.sec.gov/Archives/edgar/data/2032341/000121390026083475",
    "source_snippet": "",
    "extracted_at": "2026-07-31T14:12:04.483888+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-31",
+   "type": "M&A",
+   "name": "Eaton Fiber / Ripple Fiber",
+   "v": 1.5,
+   "val": null,
+   "sector": "Fiber / Telecom Infrastructure",
+   "status": "Pending",
+   "note": "Eaton Fiber, operating within Verizon's fiber expansion strategy, is acquiring Ripple Fiber for $1.5B to accelerate fiber network buildout. The deal is positioned to expand infrastructure capacity supporting AI workloads and data center connectivity. Strategic rationale centers on Verizon leveraging Ripple Fiber's existing footprint to fast-track last-mile and backbone fiber deployment.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeVh6QnZEd2lhNlBrNVpsWGp4eXhYaE9kSXhJQjZfT1lqZU5fSDFGa19mcnFRMDFNbjd0eXVzX01RWjg1VXZnOWdBRTdONVEzeDdmQUFJcVlPNkZFYVZnRmFvbHBOVktGQVZTYm9qTWszQkNGSEhxMlVqdWhMNnNab192bFF2WU50V1dWRXp1Rkkyd0g5R3lOZU8yZzNfVVVQelJUTDc2QjhaQ0lPNXhrMzZqMFpXamNIQnRxbEo3akJtdw?oc=5",
+   "source_snippet": "Verizon is accelerating fiber network expansion through Eaton Fiber's $1.5B acquisition of Ripple Fiber, expanding infrastructure capacity relevant to AI and data center connectivity.",
+   "extracted_at": "2026-07-31T15:37:12.241639+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source does not indicate the deal status is 'Pending'; it describes the acquisition as already occurring or in progress without specifying a future pending date of 2026-07-31."
   },
   {
    "skip": false,
