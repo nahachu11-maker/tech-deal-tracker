@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-31T15:37:17.382237+00:00",
+  "last_updated": "2026-07-31T17:23:13.004013+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
@@ -107,6 +107,22 @@
    "extracted_at": "2026-07-31T15:37:12.241639+00:00",
    "verify_failed": true,
    "verify_reason": "The source does not indicate the deal status is 'Pending'; it describes the acquisition as already occurring or in progress without specifying a future pending date of 2026-07-31."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-31",
+   "type": "M&A",
+   "name": "Platinum Equity / Tangent Technologies",
+   "v": null,
+   "val": null,
+   "sector": "Advanced Materials / Manufacturing",
+   "status": "Closed",
+   "note": "Platinum Equity has completed its acquisition of Tangent Technologies, a manufacturer of high-performance synthetic materials serving outdoor living, marine, and decking end markets. Deal value was not disclosed. The acquisition adds a specialty materials platform to Platinum's industrial portfolio.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/platinum-equity-completes-acquisition-of-tangent-technologies-302840194.html",
+   "source_snippet": "Platinum Equity has completed its acquisition of Tangent Technologies, a manufacturer of high-performance synthetic materials for outdoor living, marine, and decking markets.",
+   "extracted_at": "2026-07-31T17:23:02.913493+00:00"
   },
   {
    "skip": false,
