@@ -1,10 +1,26 @@
 {
  "meta": {
-  "last_run": "2026-07-24T22:57:12.089193+00:00",
-  "deals_checked": 429,
-  "issues": 14
+  "last_run": "2026-07-31T22:55:20.244764+00:00",
+  "deals_checked": 489,
+  "issues": 19
  },
  "issues": [
+  {
+   "issue": "possible_duplicate",
+   "deals": [
+    "Nvidia / SSI",
+    "Nvidia / Safe Superintelligence (SSI)"
+   ],
+   "detail": "Same type, overlapping names, 1 days apart."
+  },
+  {
+   "issue": "possible_duplicate",
+   "deals": [
+    "Meta / AI Target",
+    "Meta / Unknown Target"
+   ],
+   "detail": "Same type, overlapping names, 18 days apart."
+  },
   {
    "issue": "possible_duplicate",
    "deals": [
@@ -50,14 +66,35 @@
    "deals": [
     "Bolloré / Société Industrielle et Financière de l'Artois Société anonyme"
    ],
-   "detail": "Pending for 680 days — probably closed or dead; verify."
+   "detail": "Pending for 687 days — probably closed or dead; verify."
   },
   {
    "issue": "stale_pending",
    "deals": [
     "Francisco Partners Management / Jama Software"
    ],
-   "detail": "Pending for 858 days — probably closed or dead; verify."
+   "detail": "Pending for 865 days — probably closed or dead; verify."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "LS Eco Energy / Lynas Rare Earths"
+   ],
+   "detail": "Debt raise $0.043B outside plausible range — check units."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "OpenAI"
+   ],
+   "detail": "Debt raise $250.0B outside plausible range — check units."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "Broadcom / Samsung Electronics"
+   ],
+   "detail": "M&A value $200.0B looks like a unit error."
   },
   {
    "issue": "value_outlier",
