@@ -593,6 +593,112 @@
      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260331xex991.htm",
      "model": "claude-haiku-4-5-20251001",
      "derived_only": true
+    },
+    {
+     "period": "Q2 2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "AWS growth accelerated to 37% YoY, fastest in 18 quarters, with AI and Chips each exceeding $25B run rates",
+       "Operating income surged 43% YoY to $27.5B; operating margin expanded to 13.7% with strong leverage",
+       "Net sales grew 20% YoY to $200.6B; all segments accelerated with North America +16%, International +15%"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Net Sales",
+       "direction": "raised",
+       "prior": "9-12% growth (Q3 2025 guidance implicit)",
+       "new": "$197.0B–$202.0B (9-12% growth Q3 2026)"
+      },
+      {
+       "metric": "Operating Income",
+       "direction": "raised",
+       "prior": "$17.4B (Q3 2025 actual)",
+       "new": "$22.5B–$26.5B (Q3 2026)"
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Net Sales",
+       "value": "$200.6B",
+       "unit": "billions USD",
+       "yoy": "+20%"
+      },
+      {
+       "name": "Operating Income",
+       "value": "$27.5B",
+       "unit": "billions USD",
+       "yoy": "+43%"
+      },
+      {
+       "name": "Diluted EPS",
+       "value": "$5.75",
+       "unit": "USD per share",
+       "yoy": "+242%"
+      },
+      {
+       "name": "Operating Cash Flow (TTM)",
+       "value": "$161.4B",
+       "unit": "billions USD",
+       "yoy": "+33%"
+      },
+      {
+       "name": "Free Cash Flow (TTM)",
+       "value": "($7.6B)",
+       "unit": "billions USD",
+       "yoy": null
+      },
+      {
+       "name": "AWS Net Sales",
+       "value": "$42.2B",
+       "unit": "billions USD",
+       "yoy": "+37%"
+      },
+      {
+       "name": "AWS Operating Income",
+       "value": "$16.6B",
+       "unit": "billions USD",
+       "yoy": "+64%"
+      },
+      {
+       "name": "North America Net Sales",
+       "value": "$116.2B",
+       "unit": "billions USD",
+       "yoy": "+16%"
+      },
+      {
+       "name": "International Net Sales",
+       "value": "$42.2B",
+       "unit": "billions USD",
+       "yoy": "+15%"
+      },
+      {
+       "name": "AI Business Run Rate",
+       "value": ">$25B",
+       "unit": "billions USD annualized",
+       "yoy": "triple-digit percentage growth"
+      }
+     ],
+     "dropped_kpis": [
+      "Chips Business Revenue Run Rate"
+     ],
+     "tone": {
+      "confidence": 9,
+      "hedging": 3,
+      "notes": "Management expressed strong confidence in AWS momentum and AI/chip businesses eclipsing $25B each; forward guidance includes standard cautionary language on FX, geopolitical risk, and tariffs but conveys optimism on H2 2026."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-07-31T01:07:52.500558+00:00",
+     "doc_date": "2026-07-31",
+     "source_label": "EDGAR 8-K filed 2026-07-30",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
     }
    ]
   },
@@ -676,6 +782,74 @@
      "doc_date": "2026-07-11",
      "source_label": "EDGAR 8-K filed 2026-04-30",
      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
+    },
+    {
+     "period": "Q3 FY2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "Strongest June quarter ever with double-digit revenue growth across all segments",
+       "Diluted EPS up 29% YoY to $2.02, with record operating cash flow",
+       "All major product categories including iPhone, Mac, Services set June quarter records"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Total Revenue",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Total Revenue",
+       "value": "109.4",
+       "unit": "billions",
+       "yoy": "+16%"
+      },
+      {
+       "name": "Diluted EPS",
+       "value": "2.02",
+       "unit": "dollars",
+       "yoy": "+29%"
+      },
+      {
+       "name": "Gross Margin",
+       "value": "50.1",
+       "unit": "percent",
+       "yoy": null
+      },
+      {
+       "name": "Operating Income",
+       "value": "35.7",
+       "unit": "billions",
+       "yoy": "+26.5%"
+      },
+      {
+       "name": "Operating Cash Flow",
+       "value": "117.0",
+       "unit": "billions",
+       "yoy": "+43.1%"
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 2,
+      "notes": "Management expressed pride and satisfaction with record results; forward-looking statements included standard risk disclosures but no Q&A transcript present to assess direct question-answering."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-07-31T01:08:02.485060+00:00",
+     "doc_date": "2026-07-31",
+     "source_label": "EDGAR 8-K filed 2026-07-30",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/a8-kex991q3202606272026.htm",
      "model": "claude-haiku-4-5-20251001",
      "derived_only": true
     }
@@ -855,6 +1029,6 @@
   }
  },
  "meta": {
-  "last_run": "2026-07-30T00:56:33.429970+00:00"
+  "last_run": "2026-07-31T01:08:11.013083+00:00"
  }
 }
