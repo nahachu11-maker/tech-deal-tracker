@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-07-31T20:16:46.858137+00:00",
+  "last_updated": "2026-07-31T21:37:23.461309+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   }
  },
  "deals": [
@@ -123,6 +123,56 @@
    "source_url": "https://www.prnewswire.com/news-releases/platinum-equity-completes-acquisition-of-tangent-technologies-302840194.html",
    "source_snippet": "Platinum Equity has completed its acquisition of Tangent Technologies, a manufacturer of high-performance synthetic materials for outdoor living, marine, and decking markets.",
    "extracted_at": "2026-07-31T17:23:02.913493+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-31",
+   "type": "M&A",
+   "name": "GCL Global Holdings / Ban Leon",
+   "v": null,
+   "val": null,
+   "sector": "Hardware",
+   "status": "Pending",
+   "note": "GCL Global Holdings has acquired Ban Leon, a move that pushes hardware revenue above 52% of total sales, signaling a deliberate portfolio shift toward hardware-centric business lines. Deal value was not disclosed in the source. The acquisition represents a strategic rebalancing away from prior revenue mix toward tangible hardware product lines.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02MHIyVVdBcXBEajljdW82Y2ZRbFdGY2N2aUdEYzBEMjNVbl9FSkFrbm9hRzRwU1BpcXFTYlpMaTdRc2tYNlpLRmwwQjBRbVpDU01RekRsTWZxbGVOTTU0UXdIdWxVNURJNkhieXZmdENpTkE?oc=5",
+   "source_snippet": "GCL Global Holdings acquires 'Ban Leon,' pushing hardware revenue above 52% of total sales and signaling a strategic portfolio shift.",
+   "extracted_at": "2026-07-31T21:36:56.234576+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' since source states 'acquires' (past tense), indicating a completed transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-07-31",
+   "type": "M&A",
+   "name": "Steudte / Electro Sensors",
+   "v": null,
+   "val": null,
+   "sector": "Industrial Sensors",
+   "status": "Closed",
+   "note": "Steudte has completed its acquisition of Electro Sensors, with the target subsequently delisted from Nasdaq. Deal value was not disclosed in the source. The transaction marks a full take-private of the industrial sensor manufacturer.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92WkJIelZqQlVOclRVQ3AxWm9VRmtsRlNIalVITmJEVzhQVjFrMVFUUkZtSkZ6QTE1ZFZwdEY3TGtzNXpwY3lFVE9ubWV0X3Z4b1g1eDl1N25wV1huck0xU3BMNU94aDdsUEtxeTlBY0FHRE0?oc=5",
+   "source_snippet": "Electro Sensors has completed its acquisition by Steudte and has been delisted from Nasdaq, marking a closed M&A transaction.",
+   "extracted_at": "2026-07-31T21:37:08.750966+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-07-31",
+   "type": "M&A",
+   "name": "Qualcomm / Movandi",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Closed",
+   "note": "Qualcomm filed a secondary registration to resell 17.82 million shares originally issued as acquisition consideration for Movandi, indicating the deal has closed and the share-based consideration is now being registered for resale. This post-deal registration is a routine dilution and lock-up management step. Deal value in USD is not disclosed in the filing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82S2VIM2gwdlgwWXJHMzYxMXRtLXBGZGVHaFVhSU5xSElJUm0zM0dBck13TFNEeHpZN0RRSUFIWG96YUdHLVZ5Z0RhZ2FKVWhhZnZLNkZwUEVrNGFvM1Y4dzBVa2x0cTZtaF9CVElHeFNBdGc?oc=5",
+   "source_snippet": "Qualcomm filed to resell 17.82 million shares issued as consideration for the Movandi acquisition, a post-deal secondary registration relevant to dilution and lock-up dynamics.",
+   "extracted_at": "2026-07-31T21:37:14.293722+00:00"
   },
   {
    "skip": false,
