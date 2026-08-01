@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-01T08:24:58.591634+00:00",
+  "last_updated": "2026-08-01T09:54:23.026458+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 0
   }
  },
  "deals": [
@@ -45,6 +45,40 @@
    "extracted_at": "2026-08-01T05:28:17.387762+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes a completed acquisition but record shows status as 'Pending'"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-01",
+   "type": "M&A",
+   "name": "DN Solutions / Heller",
+   "v": 0.05,
+   "val": null,
+   "sector": "Industrial Machinery / Machine Tools",
+   "status": "Pending",
+   "note": "South Korean machine-tool maker DN Solutions is acquiring German peer Heller for approximately KRW 67.8 billion (~$50M USD). The deal is projected to expand DN Solutions' revenue by roughly 40% to KRW 3 trillion. Strategic rationale centers on expanding DN Solutions' European manufacturing footprint and broadening its product portfolio in precision machining.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsRG8wcFNSclFUTXVJMV9pRjFiNGdhRDUzeE1ENm1BdTduMEFJWjJJUmNrX082Mmw0TW1NX3kyWkt0bTdySkJ0MDhwT3pWQjd1M0dCblgtTG1IaXZTV05ZTHgxSlZheTQ?oc=5",
+   "source_snippet": "South Korean machine-tool maker DN Solutions is acquiring German peer Heller for approximately KRW 67.8 billion (~$50M), projected to expand revenue by 40% to KRW 3 trillion.",
+   "extracted_at": "2026-08-01T09:54:12.691859+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-01",
+   "type": "Private",
+   "name": "Graphi",
+   "v": 0.044,
+   "val": null,
+   "sector": "Korean Tech / Software",
+   "status": "Pending",
+   "note": "Korean startup Graphi reportedly raised approximately 60 billion KRW (~$44M USD) in a funding round earmarked for the acquisition of Ray, signaling consolidation in the Korean tech sector. The round positions Graphi with war-chest capital ahead of a pending M&A transaction. Deal terms and final close have not been confirmed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcXJ2OUp1RkNmZjJvTkVpNGluXzdDUnVHbHJzZEt0SE5qalEyQmc0R2hWcUJWaDB6UmM1ek9VSFJrUFkzVUdBOS1OR01VeFZRaGFtWjJsYS1HUnFlcWJmRXYyaU9hNHUzUXhNRGRPYk1vTzVDazdfekxXNGttSlhhbnBIWXdQcmtxckhMOVEzWQ?oc=5",
+   "source_snippet": "Korean startup Graphi reportedly raises approximately 60 billion KRW in preparation to acquire Ray, signaling consolidation activity in the Korean tech sector.",
+   "extracted_at": "2026-08-01T09:54:19.774276+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value of 60 billion KRW (approximately $44M) should be 0.044 or 44 (million), but extraction also marks status as 'Pending' when source indicates this is a fundraising round, not an acquisition; "
   },
   {
    "skip": false,
