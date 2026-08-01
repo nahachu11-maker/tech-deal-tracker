@@ -1,15 +1,51 @@
 {
  "meta": {
-  "last_updated": "2026-08-01T03:14:49.638554+00:00",
+  "last_updated": "2026-08-01T05:28:20.546180+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 1,
+   "added": 2,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-01",
+   "type": "M&A",
+   "name": "Amazon / OpenAI",
+   "v": 50.0,
+   "val": null,
+   "sector": "AI / Cloud",
+   "status": "Closed",
+   "note": "Amazon has completed a $50B investment in OpenAI, acquiring a 5% minority stake — one of the largest single AI capital commitments on record. The deal deepens Amazon's position in the generative AI ecosystem alongside its earlier stake in Anthropic. As a minority strategic investment, this reinforces AWS's competitive posture against Microsoft's OpenAI partnership and Google's AI infrastructure.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLWh4Ny1ucjBSZWkwU2dnUjVEQ01WeEhIcmUyb0lNREp5WnI3WVJXMlN5ZHBKZ1VkeEJjTzZqUXJQaXluTkF4NGh0bXlzTVZtV296MGhiOE5lOHVsbVN1aVEzckhzeHJLYVFXRDlDYlh4LTh6ejFpMjhNa2JhMXhPWVpjQkVVbGs0bnc0YVVkMl9tcjFJd1p0dHdKRVFXZ0JaSkFLTzJKdw?oc=5",
+   "source_snippet": "Amazon has completed a $50B investment securing a 5% stake in OpenAI, adding to its prior investment in Anthropic, marking one of the largest AI capital commitments on record.",
+   "extracted_at": "2026-08-01T05:28:12.330409+00:00",
+   "verify_failed": true,
+   "verify_reason": "The transaction is a strategic investment/equity stake, not an M&A (merger & acquisition) deal."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-01",
+   "type": "M&A",
+   "name": "Qualcomm / [AI Software Target]",
+   "v": null,
+   "val": null,
+   "sector": "AI Software",
+   "status": "Pending",
+   "note": "Qualcomm acquired software aimed at reducing dependency on Nvidia's AI stack, targeting the AI compute software layer. The deal is strategically significant as it positions Qualcomm to offer a more complete, Nvidia-independent AI platform. Target name and deal value are not disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzRsMVMyR0E1SGJXVEFNZ1BCa05sQVVBZWVTM0xvb1RxY1RQeXBzQ0FRNTQ5X3oxaVVzbXBPbV9XaVpsVUlGajN6alBwOUkzSldGT2tmY0pYNE5mcTZoXzJXNU9oS2s1Y0IzNkZIT3BpWVJmZWVqT0V1ZlQwVU5TRS1UMkpwR3ZjWGl0YVg4V2w1ZFVsYTUwVXJWRmFxckw3ejhMazVTMDlqbzc1UXfSAbMBQVVfeXFMT3k4WXFlYTBmZUNwWTIxeHlXM3BmZWF0c2swd3pxZ1Zna1g1T245bFRPWUJCanBmSE9LT0Z0MlpIRGVnbXNtWGpWajB1Rm5JSHZreVR1ZUIwWlkyZmFtald5aGFkUjA3cVVJekdCSUVyZkxiUngtTEp0YjRiYjl0ZFA1dGJKSVFvNzROdFRCYkNCUEVZZEJmMGNSVW9VbVpXQl9sT2dHZjRtSU5Jd09od2xWMmc?oc=5",
+   "source_snippet": "Qualcomm acquired software designed to reduce dependency on Nvidia's AI stack, a strategically significant M&A move in the AI compute software layer.",
+   "extracted_at": "2026-08-01T05:28:17.387762+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes a completed acquisition but record shows status as 'Pending'"
+  },
   {
    "skip": false,
    "d": "2026-07-31",
