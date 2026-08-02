@@ -1,7 +1,5 @@
 {
  "news_ids": [
-  "2026-07-28-167de4a513",
-  "2026-07-28-7fa5ac1a3e",
   "2026-07-28-79bcd69df8",
   "2026-07-28-c4a9d7bcd2",
   "2026-07-28-a0c0e494d4",
@@ -499,12 +497,11 @@
   "2026-08-02-e60a908a7c",
   "2026-08-02-4145b29d0b",
   "2026-08-02-654597c484",
-  "2026-08-02-0d1bc0f65c"
+  "2026-08-02-0d1bc0f65c",
+  "2026-08-02-f701ad02ec",
+  "2026-08-02-ce868e44e2"
  ],
  "deal_keys": [
-  "Space Exploration Technologies / X.AI|2026-02-02",
-  "Apple / Q (Cue)|2026-01-29",
-  "IonQ / SkyWater Technology|2026-01-26",
   "Ambiq Micro \u2014 follow-on offering|2026-01-22",
   "Micron Technology / P5 Fabrication Site and Facilities of Powerchip Semiconductor Manufacturing|2026-01-17",
   "General Atlantic Service / OneStream|2026-01-06",
@@ -1001,19 +998,22 @@
   "Cerebras Systems|2026-02-15",
   "AST SpaceMobile \u2014 converts due 2036 + registered directs|2026-02-11",
   "Bain Capital Private Equity / MCJ|2026-02-05",
-  "Texas Instruments / Silicon Laboratories|2026-02-04"
+  "Texas Instruments / Silicon Laboratories|2026-02-04",
+  "SiTime / Timing Business of Renesas Electronics America|2026-02-04",
+  "SingTel Interactive Pte. / STT GDC Pte.|2026-02-03",
+  "ESAB / Eddyfi Technologies|2026-02-02"
  ],
  "spike_dates": {
   "SK Hynix": "2026-08-02",
   "Micron": "2026-08-01",
-  "Microsoft": "2026-08-01",
-  "OpenAI": "2026-08-01",
+  "Microsoft": "2026-08-02",
+  "OpenAI": "2026-08-02",
   "Meta": "2026-08-02",
-  "Anthropic": "2026-08-01",
-  "Amazon": "2026-08-01",
+  "Anthropic": "2026-08-02",
+  "Amazon": "2026-08-02",
   "Oracle": "2026-08-01",
   "SpaceX": "2026-08-01",
-  "Apple": "2026-08-01",
+  "Apple": "2026-08-02",
   "Nvidia": "2026-08-02",
   "CoreWeave": "2026-08-01",
   "Nasdaq": "2026-07-10",
@@ -1022,8 +1022,8 @@
   "TSMC": "2026-08-02",
   "Broadcom": "2026-08-01",
   "Intel": "2026-08-01",
-  "Samsung": "2026-08-01",
-  "ASML": "2026-08-01",
+  "Samsung": "2026-08-02",
+  "ASML": "2026-08-02",
   "Alphabet": "2026-08-01",
   "AMD": "2026-08-02",
   "Micron Technology": "2026-08-01",
@@ -1031,12 +1031,12 @@
   "Meta Platforms": "2026-08-01",
   "SanDisk": "2026-08-01",
   "CXMT": "2026-08-02",
-  "Naver": "2026-07-28",
+  "Naver": "2026-08-02",
   "Berkshire Hathaway": "2026-07-19",
   "Qualcomm": "2026-08-01",
   "SK Group": "2026-07-27",
   "Goldman Sachs": "2026-07-11",
-  "Kakao": "2026-08-01",
+  "Kakao": "2026-08-02",
   "Samsung SDI": "2026-08-02",
   "Morgan Stanley": "2026-07-22",
   "Tesla": "2026-07-25",
@@ -1119,6 +1119,7 @@
   "Samsung Electro-Mechanics": "2026-07-31",
   "Citadel": "2026-08-01",
   "LG": "2026-08-01",
-  "SK Innovation": "2026-08-02"
+  "SK Innovation": "2026-08-02",
+  "Samsung Fire & Marine Insurance": "2026-08-02"
  }
 }
