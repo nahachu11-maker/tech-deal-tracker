@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-08-02T21:23:29.355193+00:00",
+  "last_updated": "2026-08-02T22:26:14.808467+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-02",
+   "type": "Debt",
+   "name": "GlobalFoundries",
+   "v": 0.3,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "GlobalFoundries received a $300M CHIPS Act-linked funding award tied to photonics, accompanied by board changes that contributed to a 6.6% share-price decline. The deal appears to be a government grant or subsidy rather than a traditional debt or equity raise, structured under the CHIPS and Science Act. Near-term investor concerns center on strategic direction and governance shifts amid the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTVdWNklJRkFSWF9DUHZsWk1SR09uSnZzaFpmV0tQUjcwazNmMEwzTUZkWEU4V1RnVFdNVmRfaVRQSG9jUnhJNlAzZS1MLXp3VHIwSS1oZzBYMnBWTk5ZdUxtZDFCOUpVZC1YUG9oQWplY3l1dl85aTU4UnRDLTJMa2QxLXNsR2xnU0Q1alMtLTdJdXYyekc3X1N0NHJxZE1XUl93eGt0c0c4V25wZXkzR1ZzZnJucXk2Y0hVdEdJdC14SWFhcDI1UURNd1BVcGo3VFdUOGVB0gHbAUFVX3lxTE1xa3RyT2pyNmt3MWhZTkxBanhXckZmMHoyQndraWpibXJZWlF1ZDJiZzdfbWZsdTNFcmxDTFhzVXVHZEVQbHJYUjE4c1ZYOGxmQ2lrelloOExoeGNIWnlwOU51MmZzZU9kOXBuV1pMRXV6TkNvMWRkVkdwTEZibW41bC1vSWp1SzNRakVnZWFHbVcwTzhaVXNHSUU5ajYtUzZlc2hWVi0ta25tQk9mVW1MdXZjYjNHbFlSQS1EVXE4TEY1dzZXRVRKU1RzRzk2WGZnZzNKME16WXRiUQ?oc=5",
+   "source_snippet": "GlobalFoundries shares fell 6.6% following announcement of a $300M CHIPS Act-linked photonics deal and board changes, raising questions about near-term investment thesis.",
+   "extracted_at": "2026-08-02T22:26:11.181472+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'M&A' or similar investment/grant, not 'Debt'; status should be 'Closed' given the announcement is past tense."
+  },
   {
    "skip": false,
    "d": "2026-08-01",
