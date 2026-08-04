@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-04T00:02:02.156114+00:00",
+  "last_updated": "2026-08-04T02:44:51.852469+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 1,
+   "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 3
   },
   "scrubbed": "fields"
  },
@@ -227,6 +227,40 @@
    "extracted_at": "2026-08-04T00:01:57.772619+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'IPO' (SPAC merger resulting in public listing), not 'SPAC', and valuation unit is missing (appears to be billions)."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-03",
+   "type": "IPO",
+   "name": "IQM Quantum Computers Oyj",
+   "v": null,
+   "val": null,
+   "sector": "Quantum Computing",
+   "status": "Filed",
+   "note": "IQM Quantum Computers Oyj, a Finnish quantum computing hardware company, filed an F-1 registration statement with the SEC on August 3, 2026, indicating a planned U.S. listing under tickers IQMX and IQMXW. No proceeds or valuation figures were disclosed in the filing snippet. IQM is one of Europe's leading quantum processor developers, and a U.S. IPO would expand its access to capital markets for continued hardware R&D.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2113060/000119312526330877",
+   "source_snippet": "",
+   "extracted_at": "2026-08-04T02:43:59.360404+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-03",
+   "type": "IPO",
+   "name": "SunScout Holding Ltd",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Filed",
+   "note": "SunScout Holding Ltd (ticker: SNSC) filed an F-1/A amendment with the SEC, indicating the company is progressing toward a U.S. IPO listing. SIC code 3674 places the firm in the semiconductors sector. No pricing terms or valuation details are disclosed in this amendment filing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2101240/000121390026084608",
+   "source_snippet": "",
+   "extracted_at": "2026-08-04T02:44:24.012761+00:00",
+   "verify_failed": true,
+   "verify_reason": "No source text provided to verify the extracted record against."
   },
   {
    "skip": false,
