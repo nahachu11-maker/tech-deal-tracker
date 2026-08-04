@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-04T03:47:45.547110+00:00",
+  "last_updated": "2026-08-04T06:22:32.935741+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 3,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
@@ -59,6 +59,22 @@
    "extracted_at": "2026-08-04T03:47:42.419745+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' not 'Pending' as the source states Visa 'announced the acquisition' which indicates completion, not a pending transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "M&A",
+   "name": "HCLTech / HPE Telco Solutions",
+   "v": null,
+   "val": null,
+   "sector": "IT Services / Telecom",
+   "status": "Closed",
+   "note": "HCLTech has completed the acquisition of HPE's Telco Solutions business unit, adding AI-driven telecom engineering capabilities for communications service providers. The deal strengthens HCLTech's position in the telecom vertical amid growing demand for network modernization services. No financial terms were disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/hcltech-schlieWt-die-ubernahme-des-geschaftsbereichs-telco-solutions-von-hpe-ab-302842051.html",
+   "source_snippet": "HCLTech has closed the acquisition of HPE's Telco Solutions business unit, expanding its AI-driven telecom engineering services for communications service providers.",
+   "extracted_at": "2026-08-04T06:22:18.825302+00:00"
   },
   {
    "skip": false,
