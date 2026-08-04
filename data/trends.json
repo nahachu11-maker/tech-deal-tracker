@@ -1,13 +1,13 @@
 {
  "meta": {
-  "last_updated": "2026-08-04T06:22:14.946836+00:00"
+  "last_updated": "2026-08-04T09:19:33.754451+00:00"
  },
  "trends": [
   {
    "entity": "Samsung Electronics",
-   "today": 24,
-   "avg": 0.92,
-   "score": 26.0,
+   "today": 25,
+   "avg": 0.62,
+   "score": 40.62,
    "spiking": true,
    "spark": [
     0,
@@ -16,15 +16,15 @@
     0,
     0,
     0,
-    12,
-    24
+    8,
+    25
    ]
   },
   {
-   "entity": "SanDisk",
-   "today": 14,
-   "avg": 0.92,
-   "score": 15.17,
+   "entity": "Naver",
+   "today": 15,
+   "avg": 0.15,
+   "score": 30.0,
    "spiking": true,
    "spark": [
     0,
@@ -33,15 +33,15 @@
     0,
     0,
     0,
-    12,
-    14
+    2,
+    15
    ]
   },
   {
    "entity": "SK Hynix",
-   "today": 54,
-   "avg": 3.77,
-   "score": 14.33,
+   "today": 70,
+   "avg": 3.15,
+   "score": 22.2,
    "spiking": true,
    "spark": [
     0,
@@ -50,8 +50,59 @@
     0,
     0,
     0,
-    49,
-    54
+    41,
+    70
+   ]
+  },
+  {
+   "entity": "Samsung",
+   "today": 26,
+   "avg": 1.31,
+   "score": 19.88,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    26
+   ]
+  },
+  {
+   "entity": "Kakao Pay",
+   "today": 9,
+   "avg": 0.08,
+   "score": 18.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    9
+   ]
+  },
+  {
+   "entity": "SanDisk",
+   "today": 16,
+   "avg": 0.92,
+   "score": 17.33,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    16
    ]
   },
   {
@@ -72,10 +123,10 @@
    ]
   },
   {
-   "entity": "Kakao Pay",
-   "today": 7,
-   "avg": 0.08,
-   "score": 14.0,
+   "entity": "Micron",
+   "today": 15,
+   "avg": 1.15,
+   "score": 13.0,
    "spiking": true,
    "spark": [
     0,
@@ -84,12 +135,12 @@
     0,
     0,
     0,
-    1,
-    7
+    15,
+    15
    ]
   },
   {
-   "entity": "KakaoPay",
+   "entity": "Kream",
    "today": 6,
    "avg": 0.0,
    "score": 12.0,
@@ -106,9 +157,9 @@
    ]
   },
   {
-   "entity": "Naver",
+   "entity": "KakaoPay",
    "today": 6,
-   "avg": 0.15,
+   "avg": 0.0,
    "score": 12.0,
    "spiking": true,
    "spark": [
@@ -118,7 +169,7 @@
     0,
     0,
     0,
-    2,
+    0,
     6
    ]
   },
@@ -140,6 +191,23 @@
    ]
   },
   {
+   "entity": "CXMT",
+   "today": 6,
+   "avg": 0.54,
+   "score": 11.14,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    6
+   ]
+  },
+  {
    "entity": "Micron Technology",
    "today": 5,
    "avg": 0.23,
@@ -157,10 +225,10 @@
    ]
   },
   {
-   "entity": "Samsung",
-   "today": 11,
-   "avg": 1.62,
-   "score": 6.81,
+   "entity": "Apple",
+   "today": 20,
+   "avg": 2.31,
+   "score": 8.67,
    "spiking": true,
    "spark": [
     0,
@@ -169,32 +237,15 @@
     0,
     0,
     0,
-    21,
-    11
+    30,
+    20
    ]
   },
   {
-   "entity": "Micron",
-   "today": 10,
-   "avg": 1.54,
-   "score": 6.5,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    20,
-    10
-   ]
-  },
-  {
-   "entity": "CXMT",
+   "entity": "Samsung SDI",
    "today": 3,
-   "avg": 0.54,
-   "score": 5.57,
+   "avg": 0.0,
+   "score": 6.0,
    "spiking": true,
    "spark": [
     0,
@@ -203,15 +254,15 @@
     0,
     0,
     0,
-    7,
+    0,
     3
    ]
   },
   {
-   "entity": "Apple",
-   "today": 15,
-   "avg": 2.77,
-   "score": 5.42,
+   "entity": "OpenAI",
+   "today": 17,
+   "avg": 3.23,
+   "score": 5.26,
    "spiking": true,
    "spark": [
     0,
@@ -220,32 +271,15 @@
     0,
     0,
     0,
-    36,
-    15
-   ]
-  },
-  {
-   "entity": "Nvidia",
-   "today": 7,
-   "avg": 2.38,
-   "score": 2.94,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    31,
-    7
+    42,
+    17
    ]
   },
   {
    "entity": "Palantir",
-   "today": 11,
-   "avg": 4.54,
-   "score": 2.42,
+   "today": 17,
+   "avg": 4.23,
+   "score": 4.02,
    "spiking": true,
    "spark": [
     0,
@@ -254,15 +288,15 @@
     0,
     0,
     0,
-    59,
-    11
+    55,
+    17
    ]
   },
   {
-   "entity": "OpenAI",
-   "today": 8,
-   "avg": 3.62,
-   "score": 2.21,
+   "entity": "Nvidia",
+   "today": 9,
+   "avg": 2.31,
+   "score": 3.9,
    "spiking": true,
    "spark": [
     0,
@@ -271,8 +305,93 @@
     0,
     0,
     0,
-    47,
+    30,
+    9
+   ]
+  },
+  {
+   "entity": "Meta",
+   "today": 6,
+   "avg": 2.08,
+   "score": 2.89,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    27,
+    6
+   ]
+  },
+  {
+   "entity": "Anthropic",
+   "today": 8,
+   "avg": 3.08,
+   "score": 2.6,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    40,
     8
+   ]
+  },
+  {
+   "entity": "Alphabet",
+   "today": 3,
+   "avg": 1.23,
+   "score": 2.44,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    16,
+    3
+   ]
+  },
+  {
+   "entity": "SK Siltron",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "Samsung Electro-Mechanics",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
    ]
   },
   {
@@ -307,125 +426,6 @@
     0,
     1,
     2
-   ]
-  },
-  {
-   "entity": "Aegeus Technologies",
-   "today": 2,
-   "avg": 0.0,
-   "score": 4.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2
-   ]
-  },
-  {
-   "entity": "Intel",
-   "today": 2,
-   "avg": 0.54,
-   "score": 3.71,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    7,
-    2
-   ]
-  },
-  {
-   "entity": "HCLTech",
-   "today": 1,
-   "avg": 0.08,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "AudioCodes",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "MiniMax",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Kakao Pay Securities",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Samsung Electro-Mechanics",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
    ]
   }
  ]
