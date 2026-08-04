@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-04T11:39:25.217085+00:00",
+  "last_updated": "2026-08-04T13:51:11.994796+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 2,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
@@ -110,6 +110,40 @@
    "source_url": "https://www.prnewswire.com/news-releases/gravity-acquired-by-firefly-capital-management-to-support-growing-demand-for-critical-power-infrastructure-302841803.html",
    "source_snippet": "Firefly Capital Management acquires Gravity Power & Rental, a power-as-a-service platform, to capitalize on U.S. critical power infrastructure demand.",
    "extracted_at": "2026-08-04T11:39:15.650667+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "M&A",
+   "name": "MMS Group / TMI-Orion and TMI-USA",
+   "v": null,
+   "val": null,
+   "sector": "Environmental Monitoring Tech",
+   "status": "Closed",
+   "note": "MMS Group, operating under JRI, has completed the acquisition of TMI-Orion and TMI-USA, expanding its environmental monitoring presence in the North American market. The deal strengthens JRI's strategic foothold in North America by integrating two established monitoring entities. Deal value was not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/mms-group-acquires-tmi-orion-and-tmi-usa-anchoring-jris-commitment-to-the-north-american-market-302841423.html",
+   "source_snippet": "MMS Group completes acquisition of TMI-Orion and TMI-USA, expanding JRI's environmental monitoring footprint in North America — deal closed.",
+   "extracted_at": "2026-08-04T13:50:56.956096+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "Private",
+   "name": "Volta",
+   "v": 10.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Anthropic has reportedly signed a $10B computing deal with infrastructure startup Volta, representing a major AI infrastructure capital commitment. The structure appears to be a compute supply/infrastructure services agreement rather than a traditional equity round, though it may carry venture implications. Details on deal structure, equity components, and closing conditions remain unclear from available reporting.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVjVxaUowWWJfeUFsMzlfS3hoR0REM0hlZURGQWxpNDJ5YUw2TzN5Y21RVWVVcmFLQmg1d2xDakV3ODA1X3FYYV9XNXF5OTdtU1BEWHNvUXliVEszdGUxaWxjUUJxZVdfQkZ6NERKa2FHdGdGNkJobnFOcHdyLVlPV3dUbW9yZlB0MzM1WVl5R3pDaFlLUFZEXzRZeG1kTUMySDQ0aGpQRmYzekJsMi1SR09yYw?oc=5",
+   "source_snippet": "Anthropic reportedly signed a $10B computing deal with infrastructure startup Volta, signaling major AI infrastructure capital commitment and potential venture opportunity.",
+   "extracted_at": "2026-08-04T13:51:06.230832+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a computing services/infrastructure deal, not a Private equity investment or funding round with a $10B valuation."
   },
   {
    "skip": false,
