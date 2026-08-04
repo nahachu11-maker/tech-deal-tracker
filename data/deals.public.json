@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-04T09:19:47.524327+00:00",
+  "last_updated": "2026-08-04T11:39:25.217085+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 1
   },
@@ -76,6 +76,40 @@
    "source_url": "https://www.prnewswire.com/news-releases/hcltech-schlieWt-die-ubernahme-des-geschaftsbereichs-telco-solutions-von-hpe-ab-302842051.html",
    "source_snippet": "HCLTech has closed the acquisition of HPE's Telco Solutions business unit, expanding its AI-driven telecom engineering services for communications service providers.",
    "extracted_at": "2026-08-04T06:22:18.825302+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "M&A",
+   "name": "Bending Spoons / Airtable",
+   "v": 1.28,
+   "val": null,
+   "sector": "No-Code / SaaS",
+   "status": "Pending",
+   "note": "Bending Spoons agreed to acquire Airtable for $1.28B, representing a steep discount to Airtable's 2021 peak valuation of $11B. The deal marks a significant down-round exit for the no-code database startup, highlighting valuation compression in the SaaS sector since the 2021 peak. Bending Spoons, known for acquiring and optimizing software products, continues its strategy of buying established but undervalued software assets.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/",
+   "source_snippet": "Bending Spoons agreed to acquire Airtable for $1.28B, a steep discount to Airtable's 2021 peak valuation of $11B, marking a significant down-round exit for the no-code database startup.",
+   "extracted_at": "2026-08-04T11:39:08.813036+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the source states 'agreed to acquire' indicating a completed deal"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "M&A",
+   "name": "Firefly Capital Management / Gravity Power & Rental",
+   "v": null,
+   "val": null,
+   "sector": "Critical Power Infrastructure",
+   "status": "Closed",
+   "note": "Firefly Capital Management has acquired Gravity Power & Rental, a power-as-a-service platform, to capitalize on growing U.S. demand for critical power infrastructure. The deal reflects investor appetite for distributed power solutions amid data center and industrial electrification tailwinds. No financial terms were disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/gravity-acquired-by-firefly-capital-management-to-support-growing-demand-for-critical-power-infrastructure-302841803.html",
+   "source_snippet": "Firefly Capital Management acquires Gravity Power & Rental, a power-as-a-service platform, to capitalize on U.S. critical power infrastructure demand.",
+   "extracted_at": "2026-08-04T11:39:15.650667+00:00"
   },
   {
    "skip": false,
