@@ -1024,11 +1024,157 @@
      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/a2026q1ex991pressrelease.htm",
      "model": "claude-haiku-4-5-20251001",
      "derived_only": true
+    },
+    {
+     "period": "Q2 2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "U.S. commercial revenue grew 149% YoY; overall revenue 93% YoY, crushing consensus",
+       "Raised FY2026 revenue guidance to 82% growth; U.S. commercial guidance to 134% growth",
+       "Rule of 40 score climbed to 155%; adjusted operating margin expanded to 62%"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Q3 2026 Revenue",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$2.160–$2.164 billion"
+      },
+      {
+       "metric": "Q3 2026 Adjusted Income from Operations",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$1.292–$1.296 billion"
+      },
+      {
+       "metric": "FY2026 Revenue",
+       "direction": "raised",
+       "prior": null,
+       "new": "$8.150–$8.158 billion (82% YoY growth)"
+      },
+      {
+       "metric": "FY2026 U.S. Commercial Revenue",
+       "direction": "raised",
+       "prior": null,
+       "new": "In excess of $3.424 billion (≥134% growth)"
+      },
+      {
+       "metric": "FY2026 Adjusted Income from Operations",
+       "direction": "raised",
+       "prior": null,
+       "new": "$4.889–$4.897 billion"
+      },
+      {
+       "metric": "FY2026 Adjusted Free Cash Flow",
+       "direction": "raised",
+       "prior": null,
+       "new": "$4.5–$4.7 billion"
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Revenue",
+       "value": "1,935",
+       "unit": "$ millions",
+       "yoy": "93%"
+      },
+      {
+       "name": "U.S. Revenue",
+       "value": "1,573",
+       "unit": "$ millions",
+       "yoy": "115%"
+      },
+      {
+       "name": "U.S. Commercial Revenue",
+       "value": "764",
+       "unit": "$ millions",
+       "yoy": "149%"
+      },
+      {
+       "name": "U.S. Government Revenue",
+       "value": "809",
+       "unit": "$ millions",
+       "yoy": "90%"
+      },
+      {
+       "name": "Adjusted Income from Operations",
+       "value": "1,194",
+       "unit": "$ millions",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Operating Margin",
+       "value": "62",
+       "unit": "%",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Free Cash Flow",
+       "value": "1,220",
+       "unit": "$ millions",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Free Cash Flow Margin",
+       "value": "63",
+       "unit": "%",
+       "yoy": null
+      },
+      {
+       "name": "GAAP EPS",
+       "value": "0.41",
+       "unit": "$ per share",
+       "yoy": null
+      },
+      {
+       "name": "Total Contract Value (TCV)",
+       "value": "3,373",
+       "unit": "$ millions",
+       "yoy": "49%"
+      },
+      {
+       "name": "U.S. Commercial TCV",
+       "value": "2,132",
+       "unit": "$ millions",
+       "yoy": "153%"
+      },
+      {
+       "name": "U.S. Commercial Remaining Deal Value (RDV)",
+       "value": "6,238",
+       "unit": "$ millions",
+       "yoy": "124%"
+      },
+      {
+       "name": "Rule of 40 Score",
+       "value": "155",
+       "unit": "%",
+       "yoy": null
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 2,
+      "notes": "CEO emphasized demand unleashed and sovereign AI revolution with highly confident language; press release contains standard forward-looking statement disclaimers but minimal hedging in results discussion."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-08-04T01:02:17.807149+00:00",
+     "doc_date": "2026-08-04",
+     "source_label": "EDGAR 8-K filed 2026-08-03",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
     }
    ]
   }
  },
  "meta": {
-  "last_run": "2026-08-01T01:06:00.176263+00:00"
+  "last_run": "2026-08-04T01:02:17.807218+00:00"
  }
 }
