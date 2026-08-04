@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-03T22:54:58.941486+00:00",
+  "last_updated": "2026-08-04T00:02:02.156114+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -209,6 +209,24 @@
    "source_url": "https://www.prnewswire.com/news-releases/buildstr-acquires-senzu-cloud-expanding-engineering-depth-and-global-reach-302841431.html",
    "source_snippet": "BUILDSTR acquired Senzu Cloud to deepen cloud modernization and managed-services engineering capabilities, a tuck-in M&A deal expanding its global footprint.",
    "extracted_at": "2026-08-03T18:45:54.177239+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-03",
+   "type": "SPAC",
+   "name": "Cartesian Growth Corporation II / InoBat",
+   "v": 1.2,
+   "val": null,
+   "sector": "Battery / Energy Storage",
+   "status": "Pending",
+   "note": "Cartesian Growth Corporation II has signed a definitive business combination agreement to take European battery energy storage company InoBat public at an implied deal valuation of $1.2B (aspirational, per SPAC structure). The transaction remains subject to customary closing conditions and shareholder approvals. Greenberg Traurig served as legal advisor to the SPAC.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/greenberg-traurig-advises-cartesian-growth-corporation-ii-on-1-2b-go-public-merger-with-inobat-302841715.html",
+   "source_snippet": "SPAC Cartesian Growth Corporation II has signed a definitive business combination agreement to take European battery energy storage company InoBat public at an implied deal valuation of $1.2B (aspirational, per SPAC structure); status is Pending.",
+   "extracted_at": "2026-08-04T00:01:57.772619+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'IPO' (SPAC merger resulting in public listing), not 'SPAC', and valuation unit is missing (appears to be billions)."
   },
   {
    "skip": false,
