@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-04T13:51:11.994796+00:00",
+  "last_updated": "2026-08-04T14:22:06.442018+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 4
   },
   "scrubbed": "fields"
  },
@@ -144,6 +144,40 @@
    "extracted_at": "2026-08-04T13:51:06.230832+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a computing services/infrastructure deal, not a Private equity investment or funding round with a $10B valuation."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "IPO",
+   "name": "ECST Holdings Ltd",
+   "v": null,
+   "val": null,
+   "sector": "Software",
+   "status": "Filed",
+   "note": "ECST Holdings Ltd filed an F-1/A amendment with the SEC, indicating a foreign private issuer progressing toward a U.S. IPO listing. SIC code 7372 places the company in prepackaged software. No proceeds or valuation data disclosed in this amendment filing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2058007/000149315226035904",
+   "source_snippet": "",
+   "extracted_at": "2026-08-04T14:20:35.305697+00:00",
+   "verify_failed": true,
+   "verify_reason": "SOURCE text is empty; cannot verify any facts about ECST Holdings Ltd IPO filing."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "M&A",
+   "name": "Fishbowl Inventory / Repfabric",
+   "v": null,
+   "val": null,
+   "sector": "B2B SaaS / Inventory & CRM",
+   "status": "Closed",
+   "note": "Fishbowl Inventory, an AI-powered inventory and manufacturing platform for SMB manufacturers and distributors, acquired Repfabric, an AI-enabled CRM and commissions management solution. The deal unites sales, commissions, and inventory management into a single platform targeting manufacturers' rep firms and distributors. Deal terms were not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/fishbowl-inventory-acquires-repfabric-uniting-sales-commissions-and-inventory-management-in-a-single-solution-for-manufacturers-and-distributors-302841904.html",
+   "source_snippet": " SALT LAKE CITY, Aug. 4, 2026 /PRNewswire/ -- Fishbowl Inventory, the AI-powered inventory and manufacturing platform trusted by small and midsize manufacturers and distributors for more than two decades, today announced its acquisition of Repfabric, the AI-enabled CRM and... ",
+   "extracted_at": "2026-08-04T14:22:03.218485+00:00"
   },
   {
    "skip": false,
