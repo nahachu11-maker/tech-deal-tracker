@@ -1,16 +1,66 @@
 {
  "meta": {
-  "last_updated": "2026-08-04T02:44:51.852469+00:00",
+  "last_updated": "2026-08-04T03:47:45.547110+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 2,
+   "added": 3,
    "updated": 0,
-   "duplicates": 3
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "M&A",
+   "name": "BlackRock / Kakao",
+   "v": null,
+   "val": null,
+   "sector": "Internet / Consumer Tech",
+   "status": "Closed",
+   "note": "BlackRock acquired a 5.01% minority stake in Kakao, South Korea's leading internet conglomerate, for passive investment purposes. The transaction represents a notable institutional position but carries no disclosed deal value. Stake percentage classifies this as a minority investment rather than a control transaction.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxMEZ5Q3JvRldlNmVVaVdEWDBnWE81ajJkZ1dic3dBdlFBX3lEeDVScDBXQWJXSkdxR0UyTlI0blJpQllYN2NDNVJwdGRSSEV0ejhRSTlBUVZydmZZQmxmR19KSVFyeGtaWlVGd2ctMEZPZWRo?oc=5",
+   "source_snippet": "BlackRock acquired a 5.01% stake in Kakao for passive investment purposes, representing a notable institutional position in the Korean internet conglomerate.",
+   "extracted_at": "2026-08-04T03:47:31.671259+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "M&A",
+   "name": "LG Uplus / Pago Networks",
+   "v": null,
+   "val": null,
+   "sector": "Cybersecurity",
+   "status": "Pending",
+   "note": "LG Uplus is acquiring cybersecurity firm Pago Networks to internalize Managed Detection & Response (MDR) capabilities. The bolt-on deal strengthens LG Uplus's enterprise security portfolio by bringing threat detection and response expertise in-house. Deal value was not disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xanFRa0xBVTlmVGRwN2ZzTEk1QnNwX1RHUXVlMy1fYUJLRW5GVHlUWVF2Ni1KdmRfQy1qWEFtWTA5MUJwMHlqYlFQeWppSFJUdFpyY2lIem5NMTZvaUJYM1FBNA?oc=5",
+   "source_snippet": "LG Uplus is acquiring cybersecurity firm Pago Networks to internalize MDR (Managed Detection & Response) capabilities, a bolt-on M&A in the security space.",
+   "extracted_at": "2026-08-04T03:47:36.886066+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-04",
+   "type": "M&A",
+   "name": "Visa / BioCatch",
+   "v": 2.4,
+   "val": null,
+   "sector": "Fintech / Fraud Detection AI",
+   "status": "Pending",
+   "note": "Visa announced the acquisition of BioCatch, a fraud-detection AI firm, for $2.4 billion. The deal strengthens Visa's AI-driven fraud prevention capabilities, complementing its existing payments security infrastructure. No completion language was present in the source, so status is treated as Pending.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5PX0wxcllSRWE1VWlEZDNTMGNIX05wNUVpWmVwUVBKTWlMeUllSVNrWW9qdUpBXzhfZlduNkdkU0RvdjBtVHNiSEFn?oc=5",
+   "source_snippet": "Visa announced the acquisition of fraud-detection AI firm BioCatch for $2.4 billion, a significant fintech M&A deal relevant to financial technology coverage.",
+   "extracted_at": "2026-08-04T03:47:42.419745+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the source states Visa 'announced the acquisition' which indicates completion, not a pending transaction."
+  },
   {
    "skip": false,
    "d": "2026-08-03",
