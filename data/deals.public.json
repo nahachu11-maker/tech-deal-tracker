@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-05T20:04:27.756484+00:00",
+  "last_updated": "2026-08-05T21:43:05.370328+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -58,6 +58,24 @@
    "source_url": "https://www.prnewswire.com/news-releases/micronotes-relaunches-as-eligen-becoming-an-industry-leading-growth-engine-302843730.html",
    "source_snippet": "Micronotes sold its Cross-Sell business to Array and rebranded as Eligen, pivoting to an Experian-data-driven growth platform for credit unions — a divestiture with strategic repositioning.",
    "extracted_at": "2026-08-05T12:24:37.087690+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-05",
+   "type": "M&A",
+   "name": "Klaviyo / Elias Torres' Agency",
+   "v": null,
+   "val": null,
+   "sector": "Marketing Tech / AI",
+   "status": "Pending",
+   "note": "Klaviyo acquires Elias Torres' agency in a talent-and-technology deal, with Torres joining as Chief Product Officer to lead the company's AI agents strategy. Deal value is undisclosed. The acquisition marks a strategic push by Klaviyo into AI-driven marketing automation.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+   "source_snippet": "Klaviyo acquires Elias Torres' agency and appoints him CPO to lead AI agents strategy, marking a talent-and-technology acquisition.",
+   "extracted_at": "2026-08-05T21:43:02.255364+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the source indicates the acquisition has already occurred (past tense 'acquires')"
   },
   {
    "skip": false,
