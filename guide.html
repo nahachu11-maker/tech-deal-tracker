@@ -87,6 +87,7 @@ strong{font-weight:600}
 <a href="#the-updated-map-of-the-whole-machine" class="slink">The updated map of the whole machine</a>
 <a href="#part-20-adding-a-free-live-deal-feed-fmp" class="slink">Part 20 — Adding a free live deal feed (FMP)</a>
 <a href="#part-21-earnings-call-intelligence-setup-from-zero" class="slink">Part 21 — Earnings call intelligence (setup from zero)</a>
+<a href="#part-22-clearing-the-queue-in-bulk-and-keeping-it-small" class="slink">Part 22 — Clearing the queue in bulk, and keeping it small</a>
   </nav>
   <main class="main">
     <header class="masthead">
@@ -925,6 +926,51 @@ python pipeline/import_deals.py your_export.csv --source capiq --mode reconcile 
 <p><strong>If the page says "No analyses yet":</strong> that's normal outside earnings season — the robot only analyzes <em>new</em> filings. NVDA, AVGO and friends report on a quarterly rhythm; the page fills in as they do. To test immediately, add a company that reported in the last few weeks.</p>
 
 <p><strong>Reading it like a banker, not a believer:</strong> the sentiment score is an AI's reading of a document — directional, not gospel. That's why every score shows its <em>drivers</em> and links to the source filing. Numbers you'd put in a deliverable get verified against the source, always.</p>
+
+<hr>
+
+<h2 id="part-22-clearing-the-queue-in-bulk-and-keeping-it-small">Part 22 — Clearing the queue in bulk, and keeping it small</h2>
+
+<p>Two upgrades that turn the review queue from a chore into a two-minute weekly habit.</p>
+
+<h3>Approving and rejecting many deals at once</h3>
+
+<p>The Review button now takes lists and ranges, not just one number:</p>
+
+<ul>
+<li><code>approve 1 4 9</code> — three specific deals</li>
+<li><code>approve 2-11</code> — a whole range</li>
+<li><code>approve 1-5 9 14-16</code> — ranges and singles mixed</li>
+<li><code>reject 92 87 78 duplicate rows</code> — several rejects sharing one reason (everything after the last number is the reason)</li>
+</ul>
+
+<p><strong>You no longer have to worry about the numbering shifting.</strong> The tool looks up every deal you named <em>before</em> it changes anything, so rejecting #92, #87 and #78 removes exactly those three — in any order you type them. And if you fat-finger a number that doesn't exist, nothing at all happens; it tells you and stops, rather than half-applying the batch.</p>
+
+<p class="checkpoint">✅ <strong>Checkpoint:</strong> run <code>approve 1-3</code>, and the log lists all three deals by name followed by how many items are still pending.</p>
+
+<h3>The materiality gate — why your queue got quiet</h3>
+
+<p>The extractor is deliberately eager: it would rather show you a marginal deal than miss a real one. Good for catching things, bad for your attention — which is how the queue reached 96 items with $38M bolt-ons sitting next to a $111B merger.</p>
+
+<p>There's now a filter that runs <strong>before</strong> anything reaches your queue. It drops four kinds of record, and prints every drop in the run log so nothing disappears silently:</p>
+
+<ol>
+<li><strong>No named counterparty</strong> — "Meta / Unknown Target", "TBD / 3DEO". A deal with an unnamed side can't be verified or charted.</li>
+<li><strong>Below the money floor</strong> — disclosed values under <strong>$250M</strong>.</li>
+<li><strong>Outside your coverage</strong> — pharma, biotech, CDMO, medical devices, industrial automation, consumer. <em>Semiconductor materials, health-IT and fintech are deliberately kept</em> — the filter checks for tech signals before dropping anything.</li>
+<li><strong>Undisclosed value AND no recognizable party</strong> — the small no-name roll-ups. If a tracked or major-tech company is involved, or the record comes from an SEC filing, it stays.</li>
+</ol>
+
+<p>On a sample of your live queue this removed about <strong>half</strong> the items, all of them noise.</p>
+
+<p><strong>Tuning it — two knobs, both easy:</strong></p>
+
+<ul>
+<li><strong>The money floor.</strong> In <code>.github/workflows/news.yml</code>, add <code>DEAL_MIN_VALUE_B: "0.5"</code> under the extract step's <code>env:</code> to raise it to $500M. Set <code>"0"</code> to switch the floor off.</li>
+<li><strong>The recognizable-company list.</strong> Open <code>pipeline/gate.py</code> on GitHub and find <code>def notable_names</code>. Add any name in lowercase quotes — e.g. <code>"lg display",</code>. If deals you care about keep getting filtered, this is almost always the fix.</li>
+</ul>
+
+<p><strong>If a deal you wanted goes missing:</strong> open the news workflow run, expand the extract step, and search for <code>[gate]</code>. Every filtered deal is listed with the reason it was dropped. That log is the filter's receipt.</p>
 
   </main>
 </div>
