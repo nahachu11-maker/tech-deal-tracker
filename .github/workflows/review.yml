@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
     inputs:
       command:
-        description: "list | approve N | reject N reason... | approve-all [source]"
+        description: "list | approve 1 4 9 | approve 2-11 | reject 92 87 78 reason | approve-all [source]"
         required: true
         default: "list"
 
