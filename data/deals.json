@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-06T14:17:19.748827+00:00",
+  "last_updated": "2026-08-06T14:46:12.093537+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 2,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 0
   }
  },
  "deals": [
@@ -41,6 +41,40 @@
    "source_url": "https://www.prnewswire.com/news-releases/emerson-acquires-glue-inc-to-accelerate-ai-driven-test--measurement-innovation-302844219.html",
    "source_snippet": " ST. LOUIS, Aug. 6, 2026 /PRNewswire/ -- Global automation leader Emerson (NYSE: EMR) today announced it has acquired Glue Inc., an innovator in advancing intelligent validation and test through its AI-enabled software product Glue Studio. Glue Studio features specialized AI-centric... ",
    "extracted_at": "2026-08-06T14:17:14.705251+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-06",
+   "type": "M&A",
+   "name": "AXA XL / S-RM",
+   "v": null,
+   "val": null,
+   "sector": "Cybersecurity",
+   "status": "Pending",
+   "note": "AXA XL, which already holds approximately 49% of S-RM, has agreed to acquire the remaining shares of the global corporate intelligence and cyber security consultancy to reach full ownership. The transaction consolidates AXA XL's existing strategic stake into a full buyout. Deal value was not disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/axa-xl-to-acquire-s-rm-a-global-corporate-intelligence-and-cyber-security-consultancy-302845106.html",
+   "source_snippet": "AXA XL, which already holds ~49% of S-RM, agreed to acquire the remaining shares of the cyber security and corporate intelligence consultancy, taking it to full ownership.",
+   "extracted_at": "2026-08-06T14:45:51.402993+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-06",
+   "type": "Debt",
+   "name": "Amazon (Data Center SPV)",
+   "v": 10.0,
+   "val": null,
+   "sector": "Data Center Infrastructure",
+   "status": "Pending",
+   "note": "A secretive $10 billion data center development deal in rural North Carolina is linked to Amazon, highlighting continued mega-scale hyperscaler infrastructure investment. The structure appears to involve a special-purpose vehicle or project financing arrangement, consistent with large-scale cloud infrastructure buildouts. Deal terms, advisors, and financing specifics remain undisclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU1BYcVJmTjd4REU5Tm03elRaTzNqNGJMclducHZ1bXRPRmxUcWdzZHdKSk54RmVQN2pJTDVxcG5MNUE5a0h1d3JaN3ZyVWpBczNUQTF4LUxTd1hMaXdDekJoNlZYUkdDal9fanRNb09GaENkY1VBVW1MS3o2UWdMcUNtUWN1WUhDUW5STFQzZExZVUI0Wm9PWXRmN1pWWDJfWUt2WWtJX3JFRlVNV1RBdEI2aw?oc=5",
+   "source_snippet": "A secretive $10 billion data center deal in rural North Carolina linked to Amazon highlights continued mega-scale hyperscaler infrastructure investment.",
+   "extracted_at": "2026-08-06T14:46:06.403034+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be infrastructure/investment, not Debt; status cannot be determined as Pending from source text which describes it as a deal highlight without closure information"
   },
   {
    "skip": false,
