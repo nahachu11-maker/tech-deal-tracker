@@ -3,8 +3,14 @@ review.py — human approval step for auto-extracted deals.
 
   python pipeline/review.py            # list deals flagged 'needs review'
   python pipeline/review.py approve 3            # approve item #3
+  python pipeline/review.py approve 1 3 7       # several at once
+  python pipeline/review.py approve 1-12        # a range
+  python pipeline/review.py approve 1-5 9 14-16 # ranges and singles mixed
   python pipeline/review.py reject 3 value wrong  # reject with a reason
+  python pipeline/review.py reject 92 87 78 duplicate rows
                                        # (reasons teach the weekly distiller)
+  Numbers are resolved against the list BEFORE anything changes, so order
+  never matters and the queue re-indexing after a delete cannot bite you.
   python pipeline/review.py approve-all          # everything pending
   python pipeline/review.py approve-all capiq    # only one source (safe bulk)
   python pipeline/review.py flag semrush         # UNDO an approval: put the
@@ -14,6 +20,7 @@ review.py — human approval step for auto-extracted deals.
 
 import datetime as dt
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -36,6 +43,38 @@ def log_feedback(record: dict, verdict: str, reason: str = "") -> None:
     }
     with FEEDBACK.open("a") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
+
+def parse_indices(tokens: list[str], count: int) -> tuple[list[int], list[str]]:
+    """Leading '3', '1-5', '1,2,3' tokens -> 0-based indices (deduped, in the
+    order given). Parsing stops at the first token that isn't index-like; the
+    rest is the reason. Raises ValueError naming any out-of-range number so a
+    typo aborts the whole batch instead of half-applying it."""
+    idx: list[int] = []
+    seen: set[int] = set()
+    i = 0
+    for i, tok in enumerate(tokens):
+        pieces = [p for p in tok.replace(",", " ").split() if p]
+        if not pieces or not all(re.fullmatch(r"\d+(-\d+)?", p) for p in pieces):
+            break
+        for p in pieces:
+            if "-" in p:
+                lo, hi = (int(x) for x in p.split("-", 1))
+                if lo > hi:
+                    lo, hi = hi, lo
+                rng = range(lo, hi + 1)
+            else:
+                rng = [int(p)]
+            for n in rng:
+                if not 1 <= n <= count:
+                    raise ValueError(f"#{n} is out of range (queue has {count} items)")
+                if n - 1 not in seen:
+                    seen.add(n - 1)
+                    idx.append(n - 1)
+    else:
+        i = len(tokens)
+    return idx, tokens[i:]
 
 
 def load():
@@ -65,19 +104,36 @@ def main():
             if d.get("source_url"):
                 print(f"     src: {d['source_url']}")
     elif cmd in ("approve", "reject"):
-        idx = int(sys.argv[2]) - 1
-        target = items[idx]
-        reason = " ".join(sys.argv[3:])  # optional: why (rejects especially)
+        try:
+            idxs, rest = parse_indices(sys.argv[2:], len(items))
+        except ValueError as e:
+            print(f"Nothing changed — {e}")
+            return
+        if not idxs:
+            print(f"Usage: review.py {cmd} 3   |   {cmd} 1 4 9   |   {cmd} 2-11 [reason]")
+            return
+        reason = " ".join(rest)
+        # Resolve to the record objects first: after this point index numbers
+        # are irrelevant, so removals can't shift anything out from under us.
+        targets = [items[i] for i in idxs]
+
         if cmd == "approve":
-            target["review"] = False
-            target.pop("verify_failed", None)
-            log_feedback(target, "approved", reason)
-            print(f"Approved: {target['name']}")
+            for t in targets:
+                t["review"] = False
+                t.pop("verify_failed", None)
+                log_feedback(t, "approved", reason)
+            print(f"Approved {len(targets)} deal(s):")
         else:
-            doc["deals"].remove(target)
-            log_feedback(target, "rejected", reason)
-            print(f"Rejected: {target['name']}"
-                  + (f" — {reason}" if reason else "  (tip: add a reason — it teaches the pipeline)"))
+            for t in targets:
+                doc["deals"].remove(t)
+                log_feedback(t, "rejected", reason)
+            print(f"Rejected {len(targets)} deal(s)"
+                  + (f" — {reason}" if reason
+                     else "  (tip: add a reason — it teaches the pipeline)") + ":")
+        for n, t in zip(idxs, targets):
+            print(f"  [{n+1}] {t['name']}")
+        left = len([d for d in doc["deals"] if d.get("review")])
+        print(f"{left} item(s) still pending.")
         save(doc)
     elif cmd == "flag":
         term = " ".join(sys.argv[2:]).strip().lower()

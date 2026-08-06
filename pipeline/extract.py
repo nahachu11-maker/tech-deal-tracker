@@ -19,6 +19,7 @@ from pathlib import Path
 import anthropic
 
 from verify import verify_record
+from gate import apply as apply_gate
 from comps import extract_comps
 
 OUT = Path(__file__).parent / "out"
@@ -53,8 +54,17 @@ round, return:
  "advisors": ["Bank Name", ...]   // financial advisors/bookrunners ONLY if named in the text; else []
 }
 
-If it is NOT a tech deal event (earnings, ETF launches, analyst notes, rumors
-without a filing, non-tech sectors), return exactly: {"skip": true}
+If it is NOT a tech deal event, return exactly: {"skip": true}. Skip
+aggressively — a missed marginal deal costs less than a cluttered queue:
+- earnings, analyst notes, price commentary, ETF or fund registrations
+- capital-expenditure announcements, plant expansions, and supply or
+  packaging agreements — these are not transactions
+- joint ventures and partnerships with no equity changing hands
+- deals where neither side is named ("unknown target", "undisclosed buyer")
+- non-technology sectors: pharma, biotech, CDMO, medical devices, life
+  sciences, industrial automation, consumer, energy, financial services.
+  Semiconductor materials, health-IT and fintech DO count as technology.
+- transactions under $250M unless a major technology company is a party
 
 Be conservative with numbers: only state a value you can see in the text.
 
@@ -115,9 +125,14 @@ def run() -> list[dict]:
         except anthropic.APIError as e:
             print(f"[extract] API error, skipping item: {e}")
 
+    # Materiality gate: the extractor optimizes for recall, this restores
+    # signal. Dropped records are logged, never silently discarded.
+    extracted, filtered = apply_gate(extracted)
+
     path = OUT / "extracted.json"
     path.write_text(json.dumps(extracted, indent=1))
-    print(f"[extract] {len(candidates)} candidates -> {len(extracted)} deals -> {path}")
+    print(f"[extract] {len(candidates)} candidates -> {len(extracted)} deals "
+          f"({len(filtered)} filtered) -> {path}")
     return extracted
 
 
