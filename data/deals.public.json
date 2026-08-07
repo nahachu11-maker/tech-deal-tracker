@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-07T13:08:45.725490+00:00",
+  "last_updated": "2026-08-07T13:48:12.053183+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 3
   },
   "scrubbed": "fields"
  },
@@ -42,6 +42,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15cmtyYWUzNlVwYzdNeGVNWDJCMHlNb1g2M2I5WWk2MmUzUVN1N1pwZDlrc1hxMjN5VEFsNk1JZ0dYZHcyZ1hOTXUxWmp6MzZEZ0Z5djdKMnhwZHk4YUxyRkdvcjZjOTA3S2oyZjR3bnd0SFNV?oc=5",
    "source_snippet": "AMD is reportedly acquiring a chip company founded by its own alumni, representing a notable M&A move in the semiconductor space.",
    "extracted_at": "2026-08-07T06:43:14.222276+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-07",
+   "type": "M&A",
+   "name": "SK Hynix / Chongqing China Facility",
+   "v": 3.0,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "SK Hynix is exploring strategic options, including a potential sale, for its Chongqing, China manufacturing facility valued at approximately $3 billion. The divestiture would represent a meaningful exit from Chinese production capacity amid ongoing geopolitical pressures on semiconductor supply chains. No buyer has been identified and the process remains at an exploratory stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSzJSMzE0VnE4OWpUcnlkNVJkUWI2TENiYUNrNWhCRFFVOWlLcnR2dGdNdG81blczWHQyM2ppMUJBQ2wybkdqSm5YQm9iRmI1d1lrQ0RRZF8tUHRhSnN1aG53R05UMkRiTXp1a29CUTdRbTFHTWg5TjUxUlVfSS1hWXFHUlBkOFRSb2RWZXF2a2h0UnBQV1V4aEFOLW1KeGEtbkliajFoMm5JU1BZcF9jVEpMVWp1cmgzYWNieVhtZXJKSVFjQ3ZwY1h5TWI?oc=5",
+   "source_snippet": "SK Hynix is reportedly exploring strategic options for its Chongqing, China manufacturing facility valued at approximately $3 billion, a potential divestiture of significant scale.",
+   "extracted_at": "2026-08-07T13:47:44.093999+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Exploring' or similar exploratory phase, not 'Pending' which implies active transaction process"
   },
   {
    "skip": false,
