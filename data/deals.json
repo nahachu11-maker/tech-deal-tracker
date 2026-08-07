@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-07T19:02:08.941260+00:00",
+  "last_updated": "2026-08-07T19:46:59.423827+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   }
  },
  "deals": [
@@ -59,6 +59,24 @@
    "extracted_at": "2026-08-07T13:47:44.093999+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Exploring' or similar exploratory phase, not 'Pending' which implies active transaction process"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-07",
+   "type": "M&A",
+   "name": "AMD / AI Chip Startup",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "AMD acquired an unnamed AI chip startup, with the deal drawing market attention for its implications on competitive dynamics in the AI accelerator space. The transaction lifted Nvidia shares, suggesting investors interpreted the move as validation of AI chip demand rather than a direct competitive threat. Target and deal value are undisclosed in available reporting.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KUkljUHVaSXhTSVhfY2M2bWFUNzhKc0dRWDk5ejg5OHlWa2RWZXlxWDlwYjgtbHZNcHNaSm9EVG9jcWx1YXpMMlZHYVdnUHF4RU9tUDYxVUpyMGMxRDcyU2ZzM0JHV0ZLMnFkXzNlYi01UWszandtOA?oc=5",
+   "source_snippet": "AMD's acquisition of an AI chip startup lifted Nvidia stock, suggesting market interpretation of competitive dynamics in the AI accelerator space.",
+   "extracted_at": "2026-08-07T19:46:43.189291+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source does not identify the specific AI chip startup name, making it impossible to verify the parties involved"
   },
   {
    "skip": false,
