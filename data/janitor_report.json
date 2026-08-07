@@ -1,25 +1,17 @@
 {
  "meta": {
-  "last_run": "2026-07-31T22:55:20.244764+00:00",
-  "deals_checked": 489,
-  "issues": 19
+  "last_run": "2026-08-07T22:29:21.847492+00:00",
+  "deals_checked": 427,
+  "issues": 12
  },
  "issues": [
   {
    "issue": "possible_duplicate",
    "deals": [
-    "Nvidia / SSI",
-    "Nvidia / Safe Superintelligence (SSI)"
+    "AMD / undisclosed chip company",
+    "AMD / AI Chip Startup"
    ],
-   "detail": "Same type, overlapping names, 1 days apart."
-  },
-  {
-   "issue": "possible_duplicate",
-   "deals": [
-    "Meta / AI Target",
-    "Meta / Unknown Target"
-   ],
-   "detail": "Same type, overlapping names, 18 days apart."
+   "detail": "Same type, overlapping names, 0 days apart."
   },
   {
    "issue": "possible_duplicate",
@@ -66,28 +58,14 @@
    "deals": [
     "Bolloré / Société Industrielle et Financière de l'Artois Société anonyme"
    ],
-   "detail": "Pending for 687 days — probably closed or dead; verify."
+   "detail": "Pending for 694 days — probably closed or dead; verify."
   },
   {
    "issue": "stale_pending",
    "deals": [
     "Francisco Partners Management / Jama Software"
    ],
-   "detail": "Pending for 865 days — probably closed or dead; verify."
-  },
-  {
-   "issue": "value_outlier",
-   "deals": [
-    "LS Eco Energy / Lynas Rare Earths"
-   ],
-   "detail": "Debt raise $0.043B outside plausible range — check units."
-  },
-  {
-   "issue": "value_outlier",
-   "deals": [
-    "OpenAI"
-   ],
-   "detail": "Debt raise $250.0B outside plausible range — check units."
+   "detail": "Pending for 872 days — probably closed or dead; verify."
   },
   {
    "issue": "value_outlier",
@@ -99,37 +77,9 @@
   {
    "issue": "value_outlier",
    "deals": [
-    "Ex-Microsoft AI Executive / Undisclosed Company"
-   ],
-   "detail": "M&A value $0.0067B looks like a unit error."
-  },
-  {
-   "issue": "value_outlier",
-   "deals": [
-    "TSMC"
-   ],
-   "detail": "Debt raise $100.0B outside plausible range — check units."
-  },
-  {
-   "issue": "value_outlier",
-   "deals": [
     "Paramount / Warner Bros."
    ],
    "detail": "M&A value $111.0B looks like a unit error."
-  },
-  {
-   "issue": "value_outlier",
-   "deals": [
-    "Graphy"
-   ],
-   "detail": "Private round $0.044B outside plausible range — check units."
-  },
-  {
-   "issue": "value_outlier",
-   "deals": [
-    "TSMC"
-   ],
-   "detail": "Private round $100.0B outside plausible range — check units."
   },
   {
    "issue": "value_outlier",
