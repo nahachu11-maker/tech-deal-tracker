@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-08T14:06:47.724704+00:00",
+  "last_updated": "2026-08-08T14:57:47.456296+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -61,6 +61,24 @@
    "extracted_at": "2026-08-08T09:12:23.414121+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Joint Venture' not 'M&A', as the source describes a joint-venture agreement rather than a merger or acquisition."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-08",
+   "type": "Private",
+   "name": "OpenAI",
+   "v": null,
+   "val": 100.0,
+   "sector": "AI / Foundation Models",
+   "status": "Pending",
+   "note": "OpenAI is reportedly closing in on a funding round that would imply a $100 billion valuation, continuing a series of large-scale private capital raises for the leading generative-AI lab. No deal size or lead investor is named in the source. Separately, an AI company called OpenClaw was acquired, though no acquirer, terms, or deal size are disclosed — insufficient detail to extract separately.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4X0VaOWgwbDRBTUUzeGJYSzNTbjFGSHRMVkoyZUZGMks0eUJFdkVNdWRHUUFDaUR3czhOWl9JaVRCRjE4aklXWlRHRTdlWmItTFRIUWJkbUJlMkk?oc=5",
+   "source_snippet": "OpenAI reportedly closing in on a $100 billion valuation and a company called OpenClaw has been acquired, signaling continued consolidation in the AI sector.",
+   "extracted_at": "2026-08-08T14:57:45.230003+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source says OpenAI is 'closing in on' a $100B valuation (not a deal), but record treats it as a pending transaction with deal value of $100B."
   },
   {
    "skip": false,
