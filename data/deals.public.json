@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-08T19:07:36.882379+00:00",
+  "last_updated": "2026-08-08T19:51:54.694329+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -80,6 +80,24 @@
    "extracted_at": "2026-08-08T14:57:45.230003+00:00",
    "verify_failed": true,
    "verify_reason": "Source says OpenAI is 'closing in on' a $100B valuation (not a deal), but record treats it as a pending transaction with deal value of $100B."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-08",
+   "type": "M&A",
+   "name": "OpenAI / NextSlide",
+   "v": null,
+   "val": null,
+   "sector": "AI / Productivity Software",
+   "status": "Pending",
+   "note": "OpenAI is acquiring NextSlide, a presentation-focused startup, as part of its ongoing expansion into AI-powered productivity tools. Deal terms and valuation were not disclosed. The acquisition aligns with OpenAI's broader strategy to build out an integrated suite of AI-native workplace applications.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb0ZQNkkzNmZqS00yNkN4LUtIbGxzSEI2ZzYzek5kWk5RNnVWWHc1djE4cXRGdkU2N0Rha3VySlZTRE0yZTZFY1M0UFFBcVBFS2V6MVBuT2U2Q21LX0pjQS1uYk9TWnNiaHRPeXpDNm9zdHZDa1ZPUHp2SlVKZ0s3Y1FQWXpJVjlJ?oc=5",
+   "source_snippet": "OpenAI acquires presentation startup NextSlide, continuing its push to expand AI-powered productivity tools.",
+   "extracted_at": "2026-08-08T19:51:50.946090+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the source states OpenAI 'acquires' (completed action), not 'to acquire' (future intent)"
   },
   {
    "skip": false,
