@@ -1,25 +1,8 @@
 {
  "meta": {
-  "last_updated": "2026-08-08T22:55:34.172202+00:00"
+  "last_updated": "2026-08-08T23:20:11.205623+00:00"
  },
  "trends": [
-  {
-   "entity": "Nvidia",
-   "today": 99,
-   "avg": 0.0,
-   "score": 198.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    99
-   ]
-  },
   {
    "entity": "SK Hynix",
    "today": 97,
@@ -38,10 +21,10 @@
    ]
   },
   {
-   "entity": "OpenAI",
-   "today": 76,
+   "entity": "Nvidia",
+   "today": 97,
    "avg": 0.0,
-   "score": 152.0,
+   "score": 194.0,
    "spiking": true,
    "spark": [
     0,
@@ -51,14 +34,31 @@
     0,
     0,
     0,
-    76
+    97
+   ]
+  },
+  {
+   "entity": "OpenAI",
+   "today": 77,
+   "avg": 0.0,
+   "score": 154.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    77
    ]
   },
   {
    "entity": "Meta",
-   "today": 65,
+   "today": 66,
    "avg": 0.0,
-   "score": 130.0,
+   "score": 132.0,
    "spiking": true,
    "spark": [
     0,
@@ -68,7 +68,7 @@
     0,
     0,
     0,
-    65
+    66
    ]
   },
   {
@@ -106,10 +106,10 @@
    ]
   },
   {
-   "entity": "Amazon",
-   "today": 48,
+   "entity": "Apple",
+   "today": 49,
    "avg": 0.0,
-   "score": 96.0,
+   "score": 98.0,
    "spiking": true,
    "spark": [
     0,
@@ -119,11 +119,11 @@
     0,
     0,
     0,
-    48
+    49
    ]
   },
   {
-   "entity": "Apple",
+   "entity": "Amazon",
    "today": 48,
    "avg": 0.0,
    "score": 96.0,
@@ -226,9 +226,9 @@
   },
   {
    "entity": "Oracle",
-   "today": 21,
+   "today": 20,
    "avg": 0.0,
-   "score": 42.0,
+   "score": 40.0,
    "spiking": true,
    "spark": [
     0,
@@ -238,7 +238,7 @@
     0,
     0,
     0,
-    21
+    20
    ]
   },
   {
@@ -395,10 +395,10 @@
    ]
   },
   {
-   "entity": "Lancium",
-   "today": 9,
+   "entity": "Naver",
+   "today": 7,
    "avg": 0.0,
-   "score": 18.0,
+   "score": 14.0,
    "spiking": true,
    "spark": [
     0,
@@ -408,11 +408,11 @@
     0,
     0,
     0,
-    9
+    7
    ]
   },
   {
-   "entity": "Naver",
+   "entity": "Kakao",
    "today": 7,
    "avg": 0.0,
    "score": 14.0,
