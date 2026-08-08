@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-08T08:30:24.931070+00:00",
+  "last_updated": "2026-08-08T09:12:27.417497+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -44,6 +44,24 @@
    "extracted_at": "2026-08-08T03:06:48.270873+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value should be 3.0 billion, not null; deal type should be investment, not categorized as 'Private'; status date 2026-08-08 is in the future and unsupported by source."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-08",
+   "type": "M&A",
+   "name": "Intel / Terafab (SpaceX & Tesla JV)",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Intel reportedly entered a joint-venture agreement with SpaceX and Tesla for AI chip manufacturing under the 'Terafab' entity, triggering a 12.7% surge in Intel's share price. The deal supports Intel's foundry ambitions by partnering with two high-profile technology customers. Deal value and equity structure are undisclosed; the arrangement appears to be a capital and manufacturing partnership rather than a simple commercial contract.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV1YtUHp6Z21GcXlaQzE2M2MySldYN3hQUHU3M2ZWWlBwTmJnbVVHUUJzUnNReTAxVHc0SVZ5V3NoYTZEc1dMcnozVUwyTG1sRXZIOFNlLUQ5ZU5RZTBzZzJBWkZFdW5LYi16dnR6MU80SWpnemhCU1ZUV3ZSZVVvcmpaakZ1dTdZaW5iOVBuUFF3UXJIQWVlZ9IBmAFBVV95cUxPV1YtUHp6Z21GcXlaQzE2M2MySldYN3hQUHU3M2ZWWlBwTmJnbVVHUUJzUnNReTAxVHc0SVZ5V3NoYTZEc1dMcnozVUwyTG1sRXZIOFNlLUQ5ZU5RZTBzZzJBWkZFdW5LYi16dnR6MU80SWpnemhCU1ZUV3ZSZVVvcmpaakZ1dTdZaW5iOVBuUFF3UXJIQWVlZw?oc=5",
+   "source_snippet": "Intel reportedly entered a joint-venture agreement with SpaceX and Tesla for AI chip manufacturing (Terafab), driving a 12.7% share price surge — a potentially significant strategic and capital partnership for Intel's foundry ambitions.",
+   "extracted_at": "2026-08-08T09:12:23.414121+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Joint Venture' not 'M&A', as the source describes a joint-venture agreement rather than a merger or acquisition."
   },
   {
    "skip": false,
