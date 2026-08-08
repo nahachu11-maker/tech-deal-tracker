@@ -1,15 +1,49 @@
 {
  "meta": {
-  "last_updated": "2026-08-08T01:48:35.712738+00:00",
+  "last_updated": "2026-08-08T03:07:08.396882+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-08",
+   "type": "M&A",
+   "name": "SK Hynix / China Facility (Stake Sale)",
+   "v": 3.0,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "SK Hynix is exploring a partial stake sale in its $3B China manufacturing facility, signaling a potential divestiture driven by escalating geopolitical tensions and U.S. export-control restrictions on semiconductor operations in China. The transaction structure and buyer(s) have not been disclosed. A deal would mark a significant strategic retreat from Chinese semiconductor manufacturing for the South Korean memory giant.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ2d4LVV4dG5nZkNJcGQ5TElQZ2pxMVNBWlZ5S0JYaUd1UXQtaGxPRlljNkRBa2NRV1JNWVUzRnJBWGRDT1hMR0QteG1Kcm94LWd4YmRXS3VWenB5akd0ZllDNFY1ekJkWU1JTlJDc2t4TE1WRzVmendfY1VIM1JBbjZUWExrX3lFWEhnSWpB?oc=5",
+   "source_snippet": "SK Hynix is exploring a stake sale in its $3 billion China facility, a notable divestiture signal amid ongoing geopolitical and export-control pressures on semiconductor operations in China.",
+   "extracted_at": "2026-08-08T03:06:43.116930+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-08",
+   "type": "Private",
+   "name": "Lancium",
+   "v": 3.0,
+   "val": null,
+   "sector": "AI Infrastructure / Data Centers",
+   "status": "Pending",
+   "note": "Nvidia is reportedly in talks to invest up to $3 billion in Lancium, an AI data-center infrastructure company, per The Information. The deal would represent a major strategic capital deployment by Nvidia into physical AI compute infrastructure. Terms, stake size, and post-money valuation have not been disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQVlHNnRpWjl0RUFEajBjQnAtMGtUTnYyVXVBNEpCMFRFVEJNb3g4Q0FPWWtRNnAxX0x3RHMzdVFLN3dJLXQ3Z0pTOEtMQnFnUWFCVS1jUlhZYXZIaGpCTF9EQXVWVmhyemxIZmF5X1JveTNJbC1Hb2FWNjBrZkFyRjNmQlRhbFpET2Q2c3pRMjhYVUN4eEs1WURpaEVWWnpi?oc=5",
+   "source_snippet": "Nvidia is reportedly in talks to invest up to $3 billion in AI data-center infrastructure company Lancium, per The Information, representing a major strategic capital deployment.",
+   "extracted_at": "2026-08-08T03:06:48.270873+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value should be 3.0 billion, not null; deal type should be investment, not categorized as 'Private'; status date 2026-08-08 is in the future and unsupported by source."
+  },
   {
    "skip": false,
    "d": "2026-08-07",
@@ -77,6 +111,24 @@
    "extracted_at": "2026-08-07T19:46:43.189291+00:00",
    "verify_failed": true,
    "verify_reason": "Source does not identify the specific AI chip startup name, making it impossible to verify the parties involved"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-07",
+   "type": "M&A",
+   "name": "Nvidia / Stargate Power Partner",
+   "v": 3.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Nvidia is reportedly considering a $3 billion minority stake investment in an unnamed power partner of the Stargate AI infrastructure project. The deal would deepen Nvidia's vertical integration into AI data-center power supply chains. The target company is not named in the report, and the transaction remains at the 'eyeing' stage with no definitive agreement disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1ZiVGFwVnFsa2plamNKWDIyc0doMVhkaDlDaFdyV0dzS1VMSjY2UzNKZ3U0ZkNvUjh1TjZERW1UaHhSV010S2dIVUk3S2VXV3ZTd1VkLWxFb3FlRW02MzJSZ3hNYS1vTWVsZjhkbHZEU1Z3MDZKbTY4YlRuZUQyczlqalhOUUNFX0hacWZn?oc=5",
+   "source_snippet": "Nvidia is reportedly eyeing a $3 billion stake in Stargate's power partner, a significant potential minority investment that would deepen Nvidia's AI infrastructure positioning.",
+   "extracted_at": "2026-08-08T03:07:02.672689+00:00",
+   "verify_failed": true,
+   "verify_reason": "The deal type should be 'Minority Investment' or similar, not 'M&A', as the source describes a stake/minority investment, not a merger or acquisition."
   },
   {
    "skip": false,
