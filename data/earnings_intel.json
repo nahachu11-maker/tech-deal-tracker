@@ -484,7 +484,100 @@
   "GOOGL": {
    "name": "Alphabet",
    "ticker": "GOOGL",
-   "quarters": []
+   "quarters": [
+    {
+     "period": "Q1 2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "Revenue grew 22% YoY to $110B; Google Cloud surged 63% with backlog nearly doubling to $460B",
+       "Unprecedented AI demand exceeding available supply; Google Subscriptions reached 350M paid, strongest quarter for consumer AI",
+       "Massive $80B equity raise signals confidence in $180-190B 2026 capex and significantly higher 2027 capex to capture AI opportunity"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "2026 Capital Expenditures",
+       "direction": "maintained",
+       "prior": "$180-190 billion",
+       "new": "$180-190 billion"
+      },
+      {
+       "metric": "2027 Capital Expenditures",
+       "direction": "raised",
+       "prior": null,
+       "new": "significantly increase compared to 2026"
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Total Revenue",
+       "value": "110",
+       "unit": "$B",
+       "yoy": "22%"
+      },
+      {
+       "name": "Google Search & Other Revenue",
+       "value": null,
+       "unit": null,
+       "yoy": "19%"
+      },
+      {
+       "name": "Google Cloud Revenue",
+       "value": null,
+       "unit": null,
+       "yoy": "63%"
+      },
+      {
+       "name": "Google Cloud Backlog",
+       "value": "460",
+       "unit": "$B",
+       "yoy": null
+      },
+      {
+       "name": "Google Subscriptions (Paid)",
+       "value": "350",
+       "unit": "millions",
+       "yoy": null
+      },
+      {
+       "name": "Monthly Active Developers on Google Models",
+       "value": "8.5",
+       "unit": "millions",
+       "yoy": null
+      },
+      {
+       "name": "First Party Model API Token Processing Rate",
+       "value": "19",
+       "unit": "billion tokens/minute",
+       "yoy": "6x"
+      },
+      {
+       "name": "Operating Cash Flow (12-month ended March 31, 2026)",
+       "value": "174",
+       "unit": "$B",
+       "yoy": null
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 3,
+      "notes": "Management tone is highly confident and forward-looking, emphasizing unprecedented demand and strategic expansion; heavy legal disclaimers typical of equity offering documents temper language with forward-looking statement caveats."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-08-08T00:01:25.702076+00:00",
+     "doc_date": "2026-08-08",
+     "source_label": "EDGAR 8-K filed 2026-06-04",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257724/d83560dex991.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
+    }
+   ]
   },
   "AMZN": {
    "name": "Amazon",
@@ -1175,6 +1268,6 @@
   }
  },
  "meta": {
-  "last_run": "2026-08-07T01:53:08.410714+00:00"
+  "last_run": "2026-08-08T00:01:46.853124+00:00"
  }
 }
