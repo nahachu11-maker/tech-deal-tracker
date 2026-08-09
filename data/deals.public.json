@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-09T20:22:36.479646+00:00",
+  "last_updated": "2026-08-09T21:01:45.236301+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
@@ -26,6 +26,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyTFZRS0MtZEt1Q21nRTlDRGU1bFR1S0w5U0ZPamNmd0Q3V0I0VW44ckxHcmJhVVd6eTk1eUhNdUxqVElyZXgtQV9sNjJ4OGNURWlmQ05YYXh5UUs0OWNjNV9ZTmRHdmZWRTVrMFJwYw?oc=5",
    "source_snippet": "Onsemi is reportedly acquiring Synaptics for $7B in a deal framed around physical AI semiconductor capabilities, representing a major consolidation in the chip sector.",
    "extracted_at": "2026-08-09T15:01:20.216505+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-09",
+   "type": "Private",
+   "name": "Source Foundry",
+   "v": 0.4,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "AI-focused hedge fund Situational Awareness is leading a $400M investment into chip startup Source Foundry. The capital infusion represents a significant bet on semiconductor capacity or design, though post-money valuation and stake percentage are undisclosed. The investor's 'embattled' characterization introduces execution risk around deal close.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+   "source_snippet": "AI-focused hedge fund Situational Awareness is investing $400M in chip startup Source Foundry, a significant capital infusion into a semiconductor startup.",
+   "extracted_at": "2026-08-09T21:01:32.332199+00:00",
+   "verify_failed": true,
+   "verify_reason": "The deal value should be 400 (million) not 0.4, and status should be 'Closed' or verified as 'Pending' rather than assumed."
   },
   {
    "skip": false,
