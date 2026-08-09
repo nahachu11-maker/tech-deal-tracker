@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-09T21:01:45.236301+00:00",
+  "last_updated": "2026-08-09T21:37:31.726613+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   }
  },
  "deals": [
@@ -43,6 +43,24 @@
    "extracted_at": "2026-08-09T21:01:32.332199+00:00",
    "verify_failed": true,
    "verify_reason": "The deal value should be 400 (million) not 0.4, and status should be 'Closed' or verified as 'Pending' rather than assumed."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-09",
+   "type": "M&A",
+   "name": "Unknown Acquirer / Core Scientific",
+   "v": 9.0,
+   "val": null,
+   "sector": "Data Center / HPC",
+   "status": "Terminated",
+   "note": "Core Scientific shareholders voted down a $9B acquisition bid, reportedly swayed by a competing strategic partnership with AMD that management believes offers superior value. The rejection leaves Core Scientific's strategic direction unresolved, with the AMD partnership potentially serving as an alternative growth path. The acquirer's identity was not disclosed in the report.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jSmRWU3ctemwyMkJVNDhtUTA2aWtQYTRubHB3REcwQXYzVFNHbHdUTlNYZWhBU2ZXekt1aFRVTlIxS3U3S2FjcUg1Y3FkRF9HSWFtVElIemt6aVYwUy1yNTJDSzc1ak9tUjhFSUZwTEJSQ2RpemxoN2MyZVo?oc=5",
+   "source_snippet": "Core Scientific shareholders rejected a $9B acquisition offer, reportedly influenced by a competing AMD partnership, leaving the company's strategic path unresolved.",
+   "extracted_at": "2026-08-09T21:37:25.276316+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Pending' or 'Rejected' rather than 'Terminated'; rejection of an offer does not constitute deal termination in standard M&A reporting."
   },
   {
    "skip": false,
