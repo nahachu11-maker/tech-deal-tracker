@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-10T11:49:56.709020+00:00",
+  "last_updated": "2026-08-10T12:48:26.150192+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 3
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
@@ -46,6 +46,24 @@
    "extracted_at": "2026-08-10T08:23:22.092950+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Joint Venture' or 'Partnership', not 'M&A', as the source describes a joint facility construction alliance, not a merger or acquisition."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-10",
+   "type": "M&A",
+   "name": "Onto Innovation / Rigaku",
+   "v": 0.72,
+   "val": null,
+   "sector": "Semiconductor Equipment",
+   "status": "Closed",
+   "note": "Onto Innovation completed acquisition of a 27% minority stake in Japan-based Rigaku for $720M, representing a significant cross-border strategic investment in semiconductor/X-ray equipment. The minority position suggests a partnership-oriented approach rather than full control, likely aimed at expanding Onto's metrology and inspection capabilities in the Japanese market. Deal underscores continued consolidation activity in semiconductor capital equipment.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GZm9qaWY3aXBzUDJQX04zYlA3akVUUzJacnI2V1VObUlYRVJKYlgycU5WXzJ4bEdHNXNlY2U2N0xZZy1SZXN5MXkxM0hDX3dMYTNVU0lhdU1LZTF0dkgtalVKRllvT1FTbi05eF93aXFCbGs?oc=5",
+   "source_snippet": "Onto Innovation completed acquisition of a 27% minority stake in Japan's Rigaku for $720M, a notable cross-border semiconductor equipment deal.",
+   "extracted_at": "2026-08-10T12:48:10.434734+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value is $720M not $0.72B, and the extracted value field appears to use inconsistent units or is incomplete."
   },
   {
    "skip": false,
