@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-10T19:30:14.445742+00:00",
+  "last_updated": "2026-08-10T20:09:34.235097+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
@@ -80,6 +80,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZklXa0pZMWNLejM5SDJFc0RMWWJmZEM0d3hZZk5NbEU4LWMyMzhrWUo5alVNWmJvNmlXem5kQVlpTUVwOHh6XzBVUE53cVI2ZThNZ3R4VUdqMEVDVW9VN1FwLUxfRHp6OVBySVEzeGRFUWpCcUs1NGxRTkVfRC1QNmR3OTZZZ3pwcnR6b1dLV1MtdUtYS2M3R2RRU3JYTUNqbi1xWFRDNVpOVVVPTkpSczBn?oc=5",
    "source_snippet": "AI cloud provider Lambda is using loan financing to fund a large Nvidia GPU procurement deal, illustrating debt-driven capex strategies among AI infrastructure players.",
    "extracted_at": "2026-08-10T15:31:31.024661+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-10",
+   "type": "Debt",
+   "name": "ESCO Technologies",
+   "v": 1.5,
+   "val": null,
+   "sector": "Test & Measurement / Industrial Tech",
+   "status": "Pending",
+   "note": "ESCO Technologies entered into a new $1.5B credit facility to finance its acquisition of Megger, a maker of electrical test and measurement equipment. The debt financing signals a leveraged structure supporting the pending M&A transaction. Deal status is presumed pending until closing is confirmed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0RmkyUldvTGx5QlZYN3otVEs0UHplRVNmeElhZTlaMGNaaVZQWHNlSkxtR0pENklsNjZ2NnRfOXB0eHdFQzNESkt3bzhoYW5VS2MyTWt0ek5IT2xCczJjZ2E5bFhoSHhHVDZNY09xeUlUUQ?oc=5",
+   "source_snippet": "ESCO Technologies secured a $1.5B credit facility to fund its acquisition of Megger, signaling a leveraged buyout financing event.",
+   "extracted_at": "2026-08-10T20:09:32.571149+00:00",
+   "verify_failed": true,
+   "verify_reason": "Record type should be 'M&A' (acquisition of Megger), not 'Debt'; the $1.5B is deal-related financing, not the acquisition value itself."
   },
   {
    "skip": false,
