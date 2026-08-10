@@ -1,11 +1,11 @@
 {
  "meta": {
-  "last_updated": "2026-08-10T21:11:56.068825+00:00",
+  "last_updated": "2026-08-10T22:06:56.081812+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 1,
+   "added": 1,
+   "updated": 0,
    "duplicates": 0
   },
   "scrubbed": "fields"
@@ -98,6 +98,22 @@
    "extracted_at": "2026-08-10T20:09:32.571149+00:00",
    "verify_failed": true,
    "verify_reason": "Record type should be 'M&A' (acquisition of Megger), not 'Debt'; the $1.5B is deal-related financing, not the acquisition value itself."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-10",
+   "type": "M&A",
+   "name": "Synaptics / Broadcom Wi-Fi Assets",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Closed",
+   "note": "Synaptics has completed the acquisition of Broadcom's Wi-Fi asset portfolio, bolstering its wireless connectivity offerings. Separately, Synaptics' pending merger with onsemi is expected to close by mid-2027. Deal values for both transactions were not disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aN3pMSHhkVUhYdlc2NTVPbVRWbFNtME5obTRlN0R5cmFOMGZIaGs2U0ZxWmw5NnU2aXdsNzdSakM0WHFvaXhibG9Ma1BoUlBwS1h3WGtvdnQ4MVBFUi0zYUZ5VmlCeGljRzZmc3B5eFlGcUU?oc=5",
+   "source_snippet": "Synaptics completed its acquisition of Broadcom's Wi-Fi assets, while its merger with onsemi is expected to close by mid-next year — two semiconductor M&A transactions at different stages.",
+   "extracted_at": "2026-08-10T22:06:47.594737+00:00"
   },
   {
    "skip": false,
