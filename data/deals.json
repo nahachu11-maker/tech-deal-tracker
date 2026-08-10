@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-10T07:45:47.524787+00:00",
+  "last_updated": "2026-08-10T08:23:31.191875+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   }
  },
  "deals": [
@@ -27,6 +27,24 @@
    "extracted_at": "2026-08-10T03:27:05.055440+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value should be approximately 0.93 billion USD (NT$30 billion), not null"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-10",
+   "type": "M&A",
+   "name": "Sony / TSMC",
+   "v": 6.2,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Sony and TSMC are reportedly forming a ~$6.2B joint alliance to construct an advanced semiconductor facility in Japan. The venture aims to combine Sony's manufacturing expertise with TSMC's leading-edge process technology to rebuild Japan's domestic chip capabilities and integrate AI into semiconductor production. The deal represents a significant strategic commitment to onshoring advanced chip manufacturing in Japan.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZR2xrMXV2OGYxWGRzQTRwcnQ5WFpMNnB2YzJlX05CLVM1Rlh5SlEwbDhTZjM0NXhwa2JlTHE4dFVjV3Q0akNaMHZZbDA0MG9kaWRhczgtbGhheW1sM05kbjdQdzhOOGt6UWZLa1Vn?oc=5",
+   "source_snippet": "Sony and TSMC are reportedly forming a ~$6.2 billion (9 trillion KRW) alliance to jointly construct an advanced semiconductor facility in Japan, advancing domestic chip manufacturing.",
+   "extracted_at": "2026-08-10T08:23:22.092950+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Joint Venture' or 'Partnership', not 'M&A', as the source describes a joint facility construction alliance, not a merger or acquisition."
   },
   {
    "skip": false,
