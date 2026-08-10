@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-10T14:16:03.520258+00:00",
+  "last_updated": "2026-08-10T15:31:32.353087+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -63,6 +63,22 @@
    "extracted_at": "2026-08-10T12:48:10.434734+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value is $720M not $0.72B, and the extracted value field appears to use inconsistent units or is incomplete."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-10",
+   "type": "Debt",
+   "name": "Lambda",
+   "v": null,
+   "val": null,
+   "sector": "AI Cloud / Infrastructure",
+   "status": "Pending",
+   "note": "Lambda, an AI cloud provider, is tapping loan financing to fund a large-scale Nvidia GPU procurement, illustrating the growing trend of debt-driven capex strategies among AI infrastructure companies. The financing is structured around GPU collateral tied to Nvidia hardware, a model increasingly used by hyperscalers and AI-focused cloud players. Deal size was not disclosed in the report.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZklXa0pZMWNLejM5SDJFc0RMWWJmZEM0d3hZZk5NbEU4LWMyMzhrWUo5alVNWmJvNmlXem5kQVlpTUVwOHh6XzBVUE53cVI2ZThNZ3R4VUdqMEVDVW9VN1FwLUxfRHp6OVBySVEzeGRFUWpCcUs1NGxRTkVfRC1QNmR3OTZZZ3pwcnR6b1dLV1MtdUtYS2M3R2RRU3JYTUNqbi1xWFRDNVpOVVVPTkpSczBn?oc=5",
+   "source_snippet": "AI cloud provider Lambda is using loan financing to fund a large Nvidia GPU procurement deal, illustrating debt-driven capex strategies among AI infrastructure players.",
+   "extracted_at": "2026-08-10T15:31:31.024661+00:00"
   },
   {
    "skip": false,
