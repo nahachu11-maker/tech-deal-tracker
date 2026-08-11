@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-11T04:50:29.075784+00:00",
+  "last_updated": "2026-08-11T05:51:23.997317+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 1,
-   "duplicates": 4
+   "duplicates": 5
   }
  },
  "deals": [
@@ -65,16 +65,32 @@
    "d": "2026-08-11",
    "type": "M&A",
    "name": "GM / Samsung SDI Indiana Battery JV",
-   "v": null,
+   "v": 3.5,
    "val": null,
    "sector": "Battery / EV",
    "status": "Closed",
-   "note": "GM is reportedly divesting its ~50% stake in an Indiana battery joint venture to partner Samsung SDI, effectively dissolving the JV and transferring full ownership to Samsung SDI. Deal value is undisclosed. The move signals GM restructuring its battery manufacturing partnerships amid evolving EV strategy. [Auto-update 2026-08-11: Samsung SDI acquired GM's 49.99% stake in their joint battery venture, terminating the joint investment agreement and converting the entity into a wholly-owned Samsung SDI subsidiary. Deal value was n]",
+   "note": "GM is reportedly divesting its ~50% stake in an Indiana battery joint venture to partner Samsung SDI, effectively dissolving the JV and transferring full ownership to Samsung SDI. Deal value is undisclosed. The move signals GM restructuring its battery manufacturing partnerships amid evolving EV strategy. [Auto-update 2026-08-11: Samsung SDI acquired GM's 49.99% stake in their joint battery venture, terminating the joint investment agreement and converting the entity into a wholly-owned Samsung SDI subsidiary. Deal value was n] [Auto-update 2026-08-11: GM is exiting its stake in a $3.5B joint US battery manufacturing facility, with Samsung SDI acquiring GM's full interest in the venture. The transaction effectively converts the JV into a wholly Sams]",
    "advisors": [],
    "review": true,
    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02Q0liN1hKTlgyMU1BQXh5WlBDTWEtS2N0ZHR3cXFTajU2LVZaRkFsdlNFV3ZYMG9fbERLWGRXX1JicHZBOVFzdWZPejNwQnRKTmtHOWhlYUZuci00?oc=5",
    "source_snippet": "GM is reportedly selling its ~50% stake in an Indiana battery JV to Samsung SDI, dissolving the joint venture and transferring full ownership.",
    "extracted_at": "2026-08-11T04:49:40.523953+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-11",
+   "type": "M&A",
+   "name": "Samsung SDI / SynergyCell (GM stake)",
+   "v": null,
+   "val": null,
+   "sector": "Battery / EV Technology",
+   "status": "Pending",
+   "note": "Samsung SDI is acquiring GM's 49.9% stake in SynergyCell, the battery joint venture formed between the two companies roughly two years ago, effectively taking 100% ownership. The deal dissolves the partnership and consolidates Samsung SDI's control over the JV's manufacturing assets. Financial terms were not disclosed in the report.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vUmtqUmJQQU1ZRVFmellxWjNDQWNQMlRjR09GdjR0bUdsWFkwQmhfeU93a1lHQWctaWNlampOMGRDM2MzMU1oV25ubTlLN01xQXZPa1Y0dHZYUHFQOGEzeDdwSTJmclI5cVk4?oc=5",
+   "source_snippet": "Samsung SDI is acquiring GM's 49.9% stake in their battery joint venture SynergyCell, effectively buying out the JV partner two years after formation.",
+   "extracted_at": "2026-08-11T05:50:45.111792+00:00"
   },
   {
    "skip": false,
