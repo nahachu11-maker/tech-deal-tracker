@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-11T13:13:42.978057+00:00",
+  "last_updated": "2026-08-11T13:52:47.860547+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 3
   },
   "scrubbed": "fields"
  },
@@ -144,6 +144,22 @@
    "extracted_at": "2026-08-11T12:08:04.308846+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value is stated as 'over $1bn' in source but recorded as null in extracted record; should be 1.0+ billion"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-11",
+   "type": "M&A",
+   "name": "Meta / Manus",
+   "v": null,
+   "val": null,
+   "sector": "AI / Autonomous Agents",
+   "status": "Terminated",
+   "note": "A previously announced Meta acquisition of Manus AI is reportedly unwinding, with Manus set to return as an independent company. The deal collapse leaves Manus as a potential re-emergence target for strategic or financial acquirers. Deal value was not disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPS1VIUDNOTFJQTFdUb2trNzVPOVdfem5FTThiQmlXcDVBQS1PVlJQaFZScHVmYkktcEM0d0NPVEJybFpHbVpRMjdIVDBZdU9XUGhocXZpODZxNnNTZUZWV2hWWkp5S0xWSTdWYmx0OENaMUpNTFZOQ3lIRHpyX0NTb1NrcjdBN2Z2OTVtWU1HSGRaLU5KUGc?oc=5",
+   "source_snippet": "A Meta acquisition of Manus is reportedly unwinding, with Manus set to return to independence — a notable deal collapse bankers will monitor for re-emergence of the target.",
+   "extracted_at": "2026-08-11T13:52:38.941484+00:00"
   },
   {
    "skip": false,
