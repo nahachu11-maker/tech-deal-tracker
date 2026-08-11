@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-10T23:06:16.754233+00:00",
+  "last_updated": "2026-08-11T00:00:10.268041+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
@@ -114,6 +114,58 @@
    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aN3pMSHhkVUhYdlc2NTVPbVRWbFNtME5obTRlN0R5cmFOMGZIaGs2U0ZxWmw5NnU2aXdsNzdSakM0WHFvaXhibG9Ma1BoUlBwS1h3WGtvdnQ4MVBFUi0zYUZ5VmlCeGljRzZmc3B5eFlGcUU?oc=5",
    "source_snippet": "Synaptics completed its acquisition of Broadcom's Wi-Fi assets, while its merger with onsemi is expected to close by mid-next year — two semiconductor M&A transactions at different stages.",
    "extracted_at": "2026-08-10T22:06:47.594737+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-10",
+   "type": "M&A",
+   "name": "Naver Webtoon / AI Games Holdings",
+   "v": null,
+   "val": null,
+   "sector": "Gaming / Digital Content",
+   "status": "Pending",
+   "note": "Naver Webtoon announced the acquisition of AI Games Holdings to develop a game adaptation of its popular webtoon IP with 3 billion views. The deal extends Naver Webtoon's strategy of monetizing its vast library of IP across interactive entertainment formats. Deal value was not disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1bzFwcm9MMkFwazRGWGUxUGxFNTJXQVdUMXlab3lmVTBlT3JZZDV5STMyaEE2TmZHTGtzdVROb3pxRUZJOFNmZkRlVGFPOFRBSmZpTWdlWXRFdzJzcEVnZWxYZzloWFZlY2J4UFNRWnExRkowM2EwYQ?oc=5",
+   "source_snippet": "Naver Webtoon announced acquisition of AI Games Holdings to develop a game based on its popular webtoon IP — M&A by a major Korean content platform.",
+   "extracted_at": "2026-08-10T23:59:43.220132+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-10",
+   "type": "Debt",
+   "name": "Rocket Lab",
+   "v": 3.6,
+   "val": null,
+   "sector": "Space / Satellite",
+   "status": "Pending",
+   "note": "Rocket Lab is securing a $3.6 billion bridge loan to fund its pending acquisition of Iridium Communications. Bridge financing of this scale signals the deal is in progress but not yet closed, with permanent capital markets refinancing expected post-close. The transaction represents a major strategic expansion for Rocket Lab into satellite communications infrastructure.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vMUpuZi1ZZ1A2MTZ1cFgwRWRGRzJjZGo2MFc0VE9KQlc4d0ZOMmVFa1RlTTJCcy1GdTd2QWRGRGdrSmR5V1hUSEtubmFlclhZTzE5SkZuVE96eWJuNFhfdm1DOVZ5UXBNMV9DbHhWRzhGUQ?oc=5",
+   "source_snippet": "Rocket Lab is raising a $3.6 billion bridge loan to finance its acquisition of Iridium, a large debt financing with significant capital markets implications.",
+   "extracted_at": "2026-08-10T23:59:57.989090+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a bridge loan for an acquisition (M&A deal), not a standalone debt financing; the deal type should reflect the Iridium acquisition context rather than 'Debt' alone."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-10",
+   "type": "M&A",
+   "name": "Krafton / Unknown Worlds",
+   "v": 0.61,
+   "val": null,
+   "sector": "Gaming",
+   "status": "Closed",
+   "note": "Krafton's acquisition of Unknown Worlds (developer of Subnautica) for approximately 844.7 billion KRW (~$0.61B USD) has seen the target's carrying value written down by roughly half, signaling significant M&A impairment in the gaming sector. The article highlights the risks of large strategic gaming acquisitions amid softening market conditions. This writedown underscores valuation deterioration post-close for indie studio deals.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90VzJCQlVMVTM1QWFpNS1faWF3NzFMcWhUOG5ocVc3d2wzdDEwMDZ4NWFfWWN6dUlFOWx2UEMwSmVSQUJsQVNXRUpQQTJDSkE?oc=5",
+   "source_snippet": "Krafton's ~844.7 billion KRW acquisition of Unknown Worlds has seen the target's valuation halved, highlighting M&A impairment risk in gaming.",
+   "extracted_at": "2026-08-11T00:00:05.140051+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value of 0.61 (presumably billion USD) does not match the sourced 844.7 billion KRW (~0.65 billion USD at typical rates), and more critically, the deal status and valuation context suggest this m"
   },
   {
    "skip": false,
