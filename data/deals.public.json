@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-11T21:38:52.959058+00:00",
+  "last_updated": "2026-08-11T22:34:50.308151+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
@@ -194,6 +194,40 @@
    "extracted_at": "2026-08-11T16:50:06.725955+00:00",
    "verify_failed": true,
    "verify_reason": "The source does not specify the deal date as 2026-08-11, and the specific company name of the Bitcoin miner-turned-data center operator is not identified in the source."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-11",
+   "type": "M&A",
+   "name": "SK Hynix / Japan Semiconductor Firm",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "SK Hynix has acquired a largest-shareholder stake in Japan's leading semiconductor company, marking a significant cross-border consolidation in the memory/semiconductor space. Regulatory approval from Japanese authorities is cited as a key risk factor. Deal value and target name are not disclosed in the available text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqZ2hoTDJBcnRfUjZIVFA1dnVocm5IaGRzNlo4SlN0bHZEMjlIeHlvbWp6c3dVb0I0S09lNkJzM29DOTdzOVlSSEhMOHlEZEN0TURj?oc=5",
+   "source_snippet": "SK Hynix has become the largest shareholder of Japan's leading semiconductor firm, with regulatory approval flagged as a key risk — significant cross-border M&A development.",
+   "extracted_at": "2026-08-11T22:34:36.955445+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-11",
+   "type": "M&A",
+   "name": "Krafton / ADK",
+   "v": 0.52,
+   "val": null,
+   "sector": "Gaming",
+   "status": "Closed",
+   "note": "Krafton acquired ADK for approximately KRW 708 billion (~$0.52B USD), which is now reportedly showing early warning signs of underperformance. The article raises concerns about Krafton's M&A execution and capital allocation discipline. This follows a pattern of aggressive overseas acquisitions by the PUBG developer.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uNGM5alJhMDlpbzJYWFo1b3JFMGQ4ZWpsdzloOUJZSzZPb21pZjhIVWg2elBlN05qalFPRU8xX1BKdGE5VFVZSUtPVjNzSWM?oc=5",
+   "source_snippet": "Korean-language article reports Krafton's acquisition of ADK for approximately KRW 708B is already showing warning signs, raising questions about M&A execution and capital allocation.",
+   "extracted_at": "2026-08-11T22:34:46.245411+00:00",
+   "verify_failed": true,
+   "verify_reason": "The deal value is stated as approximately KRW 708B in source, but extracted record shows v: 0.52 with val: null, which doesn't reflect the reported amount."
   },
   {
    "skip": false,
