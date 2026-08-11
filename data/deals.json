@@ -1,15 +1,65 @@
 {
  "meta": {
-  "last_updated": "2026-08-11T01:55:54.350229+00:00",
+  "last_updated": "2026-08-11T03:28:52.224590+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-11",
+   "type": "M&A",
+   "name": "Anthropic / Riot Platforms",
+   "v": 9.1,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Riot Platforms, a crypto miner pivoting to AI, reportedly agreed to a $9.1B AI infrastructure deal with Anthropic. The transaction would be transformative for Riot, repurposing its large-scale data center and power assets for AI workloads. Deal is reported/unconfirmed as of filing date; structure and equity composition remain unclear.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU1dkNHROOG1pX2hvUldxV085ZnVucC1ra1FQNUZWaWY4ZHJ3NktuN2o4TmViV3lfS081a0s1NGdNMzhGOVY3TFYyY0RLRHROd2FHY0RhdWpGdVlLMVNLQzZZd2Rha0dRRGllR1k0b3lIYUxtMExNNlJYUHdCQk9hamcwZ01vNlpHOFAwZEQ5U3VDdw?oc=5",
+   "source_snippet": "Riot Platforms stock surged 25% after-hours on reports of a $9.1 billion AI infrastructure deal with Anthropic, which would be a transformative transaction for the crypto miner pivoting to AI.",
+   "extracted_at": "2026-08-11T03:28:37.429569+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-11",
+   "type": "M&A",
+   "name": "Naver Webtoon / RI Games Holdings",
+   "v": null,
+   "val": null,
+   "sector": "Digital Media / Gaming IP",
+   "status": "Pending",
+   "note": "Naver Webtoon is acquiring a 60% controlling stake in RI Games Holdings to accelerate its game IP business, leveraging its webtoon content library for game adaptations. The deal represents a strategic vertical integration play into gaming. Deal value is undisclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82ei14R3l4YllRalYtaHVUaG1WOE1mV1BvdDNSck1KVDB0SWd5QUtpRE9PTENXYTVwcUVZUHp0OXZrbVFmcWRRaTIzWk1zTFlySE1UMHFVcWFJTEozMUptaA?oc=5",
+   "source_snippet": "Naver Webtoon acquires a 60% controlling stake in RI Games Holdings to expand its game IP business.",
+   "extracted_at": "2026-08-11T03:28:43.122098+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-11",
+   "type": "M&A",
+   "name": "SK Hynix / Kioxia",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Closed",
+   "note": "SK Hynix has become the largest single shareholder in Japanese NAND flash maker Kioxia, marking a strategically significant stake increase in the global memory sector. The transaction consolidates SK Hynix's position in NAND alongside its dominant HBM/DRAM business. Stake percentage and transaction value are not disclosed in the source text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fU3otb1E4MkNSTnJib19HbjFUYUx1Ymppd3RfRmZqUjd6Z211c3FPV2xoM2g4dnZkVDhoNk9JUHp6cEM0QzU2aWdHazNWeGVZRmIyeWplMXhCdDIyaC1TNzNvREwyTkZGdGFxbjBDMzY?oc=5",
+   "source_snippet": "SK Hynix becomes the largest single shareholder in Japanese NAND maker Kioxia, a strategically significant stake increase in the memory sector.",
+   "extracted_at": "2026-08-11T03:28:48.806276+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes a stake increase/shareholder transaction, not a full M&A acquisition"
+  },
   {
    "skip": false,
    "d": "2026-08-10",
