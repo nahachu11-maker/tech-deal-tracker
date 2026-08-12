@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-08-12T03:35:17.923604+00:00",
+  "last_updated": "2026-08-12T05:26:26.899848+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-12",
+   "type": "M&A",
+   "name": "NVIDIA / ASPEED Technology",
+   "v": 2.0,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "NVIDIA is reportedly planning a $2 billion strategic investment in ASPEED Technology, a Taiwan-based semiconductor firm specializing in server management chips (BMCs). The deal would represent a significant capital deployment into a key supply-chain partner, likely aimed at securing proprietary access to baseboard management controller technology critical for AI server infrastructure. The transaction is described as a report/plan and has not been confirmed as a definitive agreement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRzQwdk56WGNxeEV1bW1jMmZXeUxjcVlLREZIQTFObmVQRDVWSnJRQkw1VXV4NVJUNjRiNXdZSm9yd19lTGxsU0lseTdzdkk0d1VoVEI2V1lrdjNraXpzaFNBQjlPYVZzQnhCajhiR1AxLV9EX3pFcU5sa1VvZEN1ZnVxOERyY0IydURDRFVvSndDMTNkVUxEWUJWTVlJMTg?oc=5",
+   "source_snippet": "Nvidia reportedly planning a $2 billion investment in ASPEED Technology, a significant strategic capital deployment into a semiconductor partner.",
+   "extracted_at": "2026-08-12T05:26:10.976672+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be Investment, not M&A; the source describes a capital investment, not a merger or acquisition."
+  },
   {
    "skip": false,
    "d": "2026-08-11",
