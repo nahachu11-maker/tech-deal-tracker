@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-08-12T05:26:26.899848+00:00",
+  "last_updated": "2026-08-12T06:52:56.450118+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -28,6 +28,22 @@
    "extracted_at": "2026-08-12T05:26:10.976672+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be Investment, not M&A; the source describes a capital investment, not a merger or acquisition."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-12",
+   "type": "M&A",
+   "name": "Temasek / Samsung; Temasek / SK Hynix",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Singapore sovereign wealth fund Temasek is reportedly pursuing direct minority stakes in both Samsung Electronics and SK Hynix, South Korea's two leading memory chip makers. The news drove shares of both companies up over 8%. Deal values and stake sizes are undisclosed; transactions remain at reported/exploratory stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY1FTWmxlX1VTa2ZhU05Vb3ppUmhIdEdFZG1WaG5aZmpDOE40RlZ1ZVQyRko0NTlzX3JOOVVHTi1Yc3gtVFFjUW5rQ3ZsRW1meGFjdWdveGdtQjZnZkRwS1R3ZkhQQlJ6NlFtWHQ1cWh4Q3BaZDkzeUU3ZFlFMDZQVHdaVHhsSmYybnFyVFU0bTdWdXhjaFFyWFlzZzlnQmE4TGNyaktjU091UC03Qmk4cjNXWnprZVZFTlpxbnhRUy03VU16?oc=5",
+   "source_snippet": "Singapore sovereign fund Temasek is reportedly seeking direct minority stakes in South Korean memory giants Samsung and SK Hynix, driving shares up over 8%.",
+   "extracted_at": "2026-08-12T06:52:44.651541+00:00"
   },
   {
    "skip": false,
