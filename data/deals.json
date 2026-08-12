@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-12T15:29:06.852130+00:00",
+  "last_updated": "2026-08-12T16:27:38.989745+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
@@ -61,6 +61,22 @@
    "extracted_at": "2026-08-12T14:16:40.137065+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Equity Investment' not 'Private', and the source does not specify a date of 2026-08-12"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-12",
+   "type": "M&A",
+   "name": "Unknown Acquirer / VideoVerse",
+   "v": 0.25,
+   "val": null,
+   "sector": "Video Technology",
+   "status": "Terminated",
+   "note": "A $250M acquisition of VideoVerse has collapsed amid allegations of fraud and forged signatures. Investors have yet to receive proceeds, suggesting the deal unraveled after signing but before closing. The situation points to significant due-diligence and governance failures in the transaction process.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
+   "source_snippet": "A $250M acquisition of VideoVerse has collapsed amid allegations of fraud and forged signatures, with investors yet to receive proceeds.",
+   "extracted_at": "2026-08-12T16:27:36.787185+00:00"
   },
   {
    "skip": false,
