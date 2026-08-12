@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-12T13:15:13.851446+00:00",
+  "last_updated": "2026-08-12T14:16:41.786560+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
@@ -43,6 +43,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY1FTWmxlX1VTa2ZhU05Vb3ppUmhIdEdFZG1WaG5aZmpDOE40RlZ1ZVQyRko0NTlzX3JOOVVHTi1Yc3gtVFFjUW5rQ3ZsRW1meGFjdWdveGdtQjZnZkRwS1R3ZkhQQlJ6NlFtWHQ1cWh4Q3BaZDkzeUU3ZFlFMDZQVHdaVHhsSmYybnFyVFU0bTdWdXhjaFFyWFlzZzlnQmE4TGNyaktjU091UC03Qmk4cjNXWnprZVZFTlpxbnhRUy03VU16?oc=5",
    "source_snippet": "Singapore sovereign fund Temasek is reportedly seeking direct minority stakes in South Korean memory giants Samsung and SK Hynix, driving shares up over 8%.",
    "extracted_at": "2026-08-12T06:52:44.651541+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-12",
+   "type": "Private",
+   "name": "SK Hynix",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Temasek, the $286B Singaporean sovereign wealth fund, is reportedly evaluating a direct equity stake in SK Hynix, which would represent its first direct Korean public equity investment. Deal size and stake percentage remain undisclosed. The move signals continued sovereign interest in leading HBM/memory suppliers amid AI-driven demand.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HMGZRUVdnT09FQjVPcEtvekZuRmVNTWVNTDQ5UlZCQmNseDJCMGlfS1dBQ0I2cUpqQ2N4eTRneHZBRS16ZnJ5SXBNdzBrSFBYYlE?oc=5",
+   "source_snippet": "Temasek is reportedly considering a direct equity investment in SK Hynix, which would mark the $286B sovereign wealth fund's first direct Korean stock investment.",
+   "extracted_at": "2026-08-12T14:16:40.137065+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Equity Investment' not 'Private', and the source does not specify a date of 2026-08-12"
   },
   {
    "skip": false,
