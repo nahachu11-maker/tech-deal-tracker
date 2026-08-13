@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-08-13T02:09:00.376816+00:00",
+  "last_updated": "2026-08-13T03:38:33.858169+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-13",
+   "type": "M&A",
+   "name": "Anthropic / Decart",
+   "v": 6.0,
+   "val": null,
+   "sector": "AI / Large Language Models",
+   "status": "Pending",
+   "note": "Anthropic is reportedly in talks to acquire AI rival Decart for approximately $6 billion, which would meaningfully expand Anthropic's compute capacity. The deal is framed as strategically timed ahead of a potential Anthropic IPO, suggesting a push to strengthen infrastructure and competitive positioning before going public. Talks are ongoing and no definitive agreement has been announced.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KdTdxNXphR2Z0d3dVQkpmQ0FqOGtHYlJ5V3FadlI2Qi1oNlRjNF9LSzNlaHV0bExGV200dm9mNzFHbEVnbmJXaHdaQW9yV2hSU3pvckhhLTNkVUVYNV9tR1hPUWFpV1o0aTFVblFkelhhc2s4eWc?oc=5",
+   "source_snippet": "Anthropic is reportedly in talks to acquire AI rival Decart for $6 billion, a move that would bolster compute capacity ahead of a potential IPO.",
+   "extracted_at": "2026-08-13T03:38:18.965609+00:00",
+   "verify_failed": true,
+   "verify_reason": "The extracted record shows 'val': null while the source clearly states a deal value of $6 billion."
+  },
   {
    "skip": false,
    "d": "2026-08-12",
