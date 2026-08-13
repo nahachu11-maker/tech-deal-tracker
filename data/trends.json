@@ -1,13 +1,13 @@
 {
  "meta": {
-  "last_updated": "2026-08-13T20:33:38.947943+00:00"
+  "last_updated": "2026-08-13T21:37:02.678433+00:00"
  },
  "trends": [
   {
    "entity": "OpenAI",
-   "today": 80,
+   "today": 81,
    "avg": 0.0,
-   "score": 160.0,
+   "score": 162.0,
    "spiking": true,
    "spark": [
     0,
@@ -17,24 +17,7 @@
     0,
     0,
     0,
-    80
-   ]
-  },
-  {
-   "entity": "Anthropic",
-   "today": 75,
-   "avg": 0.0,
-   "score": 150.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    75
+    81
    ]
   },
   {
@@ -55,10 +38,10 @@
    ]
   },
   {
-   "entity": "Microsoft",
-   "today": 73,
+   "entity": "Anthropic",
+   "today": 72,
    "avg": 0.0,
-   "score": 146.0,
+   "score": 144.0,
    "spiking": true,
    "spark": [
     0,
@@ -68,14 +51,31 @@
     0,
     0,
     0,
-    73
+    72
+   ]
+  },
+  {
+   "entity": "Microsoft",
+   "today": 71,
+   "avg": 0.0,
+   "score": 142.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    71
    ]
   },
   {
    "entity": "SK Hynix",
-   "today": 62,
+   "today": 50,
    "avg": 0.0,
-   "score": 124.0,
+   "score": 100.0,
    "spiking": true,
    "spark": [
     0,
@@ -85,14 +85,14 @@
     0,
     0,
     0,
-    62
+    50
    ]
   },
   {
    "entity": "Apple",
-   "today": 47,
+   "today": 48,
    "avg": 0.0,
-   "score": 94.0,
+   "score": 96.0,
    "spiking": true,
    "spark": [
     0,
@@ -102,14 +102,14 @@
     0,
     0,
     0,
-    47
+    48
    ]
   },
   {
    "entity": "Meta",
-   "today": 42,
+   "today": 39,
    "avg": 0.0,
-   "score": 84.0,
+   "score": 78.0,
    "spiking": true,
    "spark": [
     0,
@@ -119,14 +119,14 @@
     0,
     0,
     0,
-    42
+    39
    ]
   },
   {
    "entity": "Amazon",
-   "today": 36,
+   "today": 38,
    "avg": 0.0,
-   "score": 72.0,
+   "score": 76.0,
    "spiking": true,
    "spark": [
     0,
@@ -136,14 +136,14 @@
     0,
     0,
     0,
-    36
+    38
    ]
   },
   {
    "entity": "Intel",
-   "today": 36,
+   "today": 37,
    "avg": 0.0,
-   "score": 72.0,
+   "score": 74.0,
    "spiking": true,
    "spark": [
     0,
@@ -153,14 +153,31 @@
     0,
     0,
     0,
-    36
+    37
+   ]
+  },
+  {
+   "entity": "CoreWeave",
+   "today": 31,
+   "avg": 0.0,
+   "score": 62.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    31
    ]
   },
   {
    "entity": "Oracle",
-   "today": 33,
+   "today": 29,
    "avg": 0.0,
-   "score": 66.0,
+   "score": 58.0,
    "spiking": true,
    "spark": [
     0,
@@ -170,7 +187,7 @@
     0,
     0,
     0,
-    33
+    29
    ]
   },
   {
@@ -188,23 +205,6 @@
     0,
     0,
     29
-   ]
-  },
-  {
-   "entity": "CoreWeave",
-   "today": 27,
-   "avg": 0.0,
-   "score": 54.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    27
    ]
   },
   {
@@ -226,9 +226,9 @@
   },
   {
    "entity": "Palantir",
-   "today": 20,
+   "today": 21,
    "avg": 0.0,
-   "score": 40.0,
+   "score": 42.0,
    "spiking": true,
    "spark": [
     0,
@@ -238,14 +238,14 @@
     0,
     0,
     0,
-    20
+    21
    ]
   },
   {
    "entity": "Samsung",
-   "today": 20,
+   "today": 18,
    "avg": 0.0,
-   "score": 40.0,
+   "score": 36.0,
    "spiking": true,
    "spark": [
     0,
@@ -255,7 +255,7 @@
     0,
     0,
     0,
-    20
+    18
    ]
   },
   {
@@ -294,23 +294,6 @@
   },
   {
    "entity": "Alphabet",
-   "today": 15,
-   "avg": 0.0,
-   "score": 30.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    15
-   ]
-  },
-  {
-   "entity": "IBM",
    "today": 15,
    "avg": 0.0,
    "score": 30.0,
@@ -395,7 +378,24 @@
    ]
   },
   {
-   "entity": "Cerebras",
+   "entity": "IBM",
+   "today": 11,
+   "avg": 0.0,
+   "score": 22.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11
+   ]
+  },
+  {
+   "entity": "Applied Materials",
    "today": 10,
    "avg": 0.0,
    "score": 20.0,
@@ -412,7 +412,7 @@
    ]
   },
   {
-   "entity": "Broadcom",
+   "entity": "Cerebras",
    "today": 10,
    "avg": 0.0,
    "score": 20.0,
