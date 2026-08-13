@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-13T05:30:17.411879+00:00",
+  "last_updated": "2026-08-13T06:58:17.995244+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 5
+   "duplicates": 1
   }
  },
  "deals": [
@@ -27,6 +27,42 @@
    "extracted_at": "2026-08-13T03:38:18.965609+00:00",
    "verify_failed": true,
    "verify_reason": "The extracted record shows 'val': null while the source clearly states a deal value of $6 billion."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-13",
+   "type": "Debt",
+   "name": "NVIDIA",
+   "v": 500.0,
+   "val": null,
+   "sector": "AI Infrastructure / Computing",
+   "status": "Pending",
+   "note": "NVIDIA is reportedly leading a consortium of private equity firms to establish a $500B computing-power financing platform aimed at funding AI infrastructure build-out. The structure appears to be a large-scale capital formation vehicle — likely a mix of debt, credit facilities, and structured finance — rather than a direct equity raise. Deal size is aspirational at this stage; no definitive agreement has been announced.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcldRNDdYWjlET3FydkJkR1Z0dGliRnJOQ2tHU0dhZ3l4QkJ5ZVJ2ZDJRT2V2R0s0LWZ2Ync0MkowZHRfdk55M3U2Q1pyLVhZY3RfVVE5VVRxUzBldThDQmtnZC1vTG43Y3VkWmhSYTBvVVpIa2NBc29lVUtndHBYMjQtX1U4VzBXUmdxa2RKT05WdVdRQ3VjMHhxTQ?oc=5",
+   "source_snippet": "Nvidia is reportedly leading a consortium of private equity firms to establish a $500B computing-power financing platform, a potentially market-moving capital formation initiative for AI infrastructure.",
+   "extracted_at": "2026-08-13T06:57:53.092623+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a financing platform initiative, not a debt transaction; deal type should reflect capital formation/financing vehicle, not 'Debt'"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-13",
+   "type": "Private",
+   "name": "Lightspeed Venture Partners",
+   "v": 0.6,
+   "val": null,
+   "sector": "AI / Venture",
+   "status": "Pending",
+   "note": "Lightspeed is pursuing a $600M secondary transaction to extend its existing OpenAI stake and grow its position in Anthropic, reflecting robust secondary-market appetite for leading AI platforms. The structure is a fund-level secondary rather than a direct primary round, meaning proceeds go to Lightspeed LPs or sellers rather than to OpenAI or Anthropic directly. The deal underscores the premium valuations and liquidity constraints characteristic of late-stage private AI investments.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZVhobnVhUWlTMWJWNVFYNFZUWVBLRWVlczdmWmpfNnlxNHpySnVSNVFvakRXSHdJSTZjX3BVT2hidVVzemZINHBCVXktSHRtWVBZSGdia3h3UENQWThzSHhfX3VnSUJpSnFVcV9Nazh0WEN4NXdRWFRrRmtrMW5vUmJ5SG55YWJ3M212NlZ1RGwtVEVyT3JhN2p0U24ybHAtY0dHbkpXTTZuN2R0MTBvaThBdXdPVU0yMFBN?oc=5",
+   "source_snippet": "Lightspeed is seeking a $600M secondary transaction to increase its stakes in both OpenAI and Anthropic, highlighting continued strong secondary-market demand for top AI names.",
+   "extracted_at": "2026-08-13T06:58:09.238877+00:00",
+   "verify_failed": true,
+   "verify_reason": "The extracted record shows val: null, but the source clearly states a $600M transaction value."
   },
   {
    "skip": false,
