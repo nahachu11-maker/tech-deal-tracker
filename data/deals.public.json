@@ -1,11 +1,11 @@
 {
  "meta": {
-  "last_updated": "2026-08-14T22:15:13.016759+00:00",
+  "last_updated": "2026-08-14T22:48:16.707222+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 0,
+   "added": 1,
+   "updated": 1,
    "duplicates": 0
   },
   "scrubbed": "fields"
@@ -48,11 +48,11 @@
    "d": "2026-08-14",
    "type": "M&A",
    "name": "Nvidia / SpaceX",
-   "v": null,
+   "v": 21.0,
    "val": null,
    "sector": "Semiconductors / Space Tech",
    "status": "Closed",
-   "note": "Nvidia disclosed a significant equity stake in SpaceX via its Q2 13F filing, marking a notable cross-sector strategic investment by the chipmaker. The stake size and dollar value were not disclosed in the filing snippet. Minority passive investments disclosed via 13F typically reflect portfolio or strategic positioning rather than operational control.",
+   "note": "Nvidia disclosed a significant equity stake in SpaceX via its Q2 13F filing, marking a notable cross-sector strategic investment by the chipmaker. The stake size and dollar value were not disclosed in the filing snippet. Minority passive investments disclosed via 13F typically reflect portfolio or strategic positioning rather than operational control. [Auto-update 2026-08-14: Nvidia has disclosed a $21 billion minority stake in SpaceX, representing a major cross-sector strategic investment. The move raises regulatory scrutiny given Nvidia's dominant position in AI compute ]",
    "advisors": [],
    "review": true,
    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcFpDN3lSS0RQNW4zSW9FeHhoZXNkM1otWXJwY0k4aGxxZUNQa1hwSmlJVUZaejd0TGRxQ0ZLQkZzTU1KaWdqRlRyc3FadTNrUzJvbGFCTncxWnZ5Rl9WNlJtZVV1a2p0bkRQbTJISUVTaXFaYURjaUpTX1RSODYxbW5ST1ZJTXdsTXJueXNJTQ?oc=5",
@@ -60,6 +60,22 @@
    "extracted_at": "2026-08-14T21:18:22.604857+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes an equity stake investment disclosure, not an M&A transaction; deal type should be investment/stake, not M&A."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-14",
+   "type": "M&A",
+   "name": "Stripe & Advent / PayPal",
+   "v": null,
+   "val": null,
+   "sector": "Fintech",
+   "status": "Pending",
+   "note": "Active negotiations are reportedly underway for a potential sale of PayPal to a consortium of Stripe and PE firm Advent International. If completed, the transaction would rank among the largest fintech M&A deals on record. No deal value or per-share terms have been disclosed; talks remain ongoing and no definitive agreement has been announced.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
+   "source_snippet": "Reports indicate active negotiations for a potential sale of PayPal to Stripe and PE firm Advent, a transaction that would be one of the largest fintech M&A deals if completed.",
+   "extracted_at": "2026-08-14T22:48:05.609685+00:00"
   },
   {
    "skip": false,
