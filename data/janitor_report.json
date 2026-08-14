@@ -1,10 +1,26 @@
 {
  "meta": {
-  "last_run": "2026-08-07T22:29:21.847492+00:00",
-  "deals_checked": 427,
-  "issues": 12
+  "last_run": "2026-08-14T22:16:49.967282+00:00",
+  "deals_checked": 468,
+  "issues": 15
  },
  "issues": [
+  {
+   "issue": "possible_duplicate",
+   "deals": [
+    "Naver Webtoon / RI Games Holdings",
+    "Naver Webtoon / AI Games Holdings"
+   ],
+   "detail": "Same type, overlapping names, 1 days apart."
+  },
+  {
+   "issue": "possible_duplicate",
+   "deals": [
+    "SK Hynix / China Facility (Stake Sale)",
+    "SK Hynix / Chongqing China Facility"
+   ],
+   "detail": "Same type, overlapping names, 1 days apart."
+  },
   {
    "issue": "possible_duplicate",
    "deals": [
@@ -58,14 +74,21 @@
    "deals": [
     "Bolloré / Société Industrielle et Financière de l'Artois Société anonyme"
    ],
-   "detail": "Pending for 694 days — probably closed or dead; verify."
+   "detail": "Pending for 701 days — probably closed or dead; verify."
   },
   {
    "issue": "stale_pending",
    "deals": [
     "Francisco Partners Management / Jama Software"
    ],
-   "detail": "Pending for 872 days — probably closed or dead; verify."
+   "detail": "Pending for 879 days — probably closed or dead; verify."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "NVIDIA"
+   ],
+   "detail": "Debt raise $500.0B outside plausible range — check units."
   },
   {
    "issue": "value_outlier",
