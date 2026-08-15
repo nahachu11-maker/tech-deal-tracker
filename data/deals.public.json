@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-15T19:16:23.001769+00:00",
+  "last_updated": "2026-08-15T19:43:19.960964+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -80,6 +80,24 @@
    "extracted_at": "2026-08-15T16:14:38.639803+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Strategic Investment' or similar, not 'Private'; status is unclear from source and should not be assumed 'Pending'; date is not provided in source."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-15",
+   "type": "Private",
+   "name": "SB Energy",
+   "v": 3.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Nvidia is in talks to invest $3 billion in SB Energy as part of a broader OpenAI data center initiative, representing a major strategic capital deployment into AI infrastructure buildout. The deal underscores Nvidia's move beyond chip sales to direct infrastructure financing, aligning its investment with OpenAI's data center expansion needs. Terms and structure of the minority stake remain undisclosed; the transaction is still in negotiation.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRkdfbWl5THQ1b0hjNk5zS1EyYU9iUXJQXzR1YVE3Z1dxTU9yN1JlX2wtNXZUV3gyVVBndUlzYXNnZ3A1TzJBcjZ2UklCY3Mza3hoNXcyTGl3c1ZNNVd1aTc1YUlfVDEtVzdfMDNyb296N1hGaXNqSE13YnRYaDhsOHNLM3MwWWRPU3c1blJxMFZfVUlmcWdlbU12MWxaQmxRRWppVnFpZHlCRDhk?oc=5",
+   "source_snippet": "Nvidia is reportedly in talks to invest $3 billion in SB Energy as part of a broader OpenAI data center deal, signaling a major capital deployment into AI infrastructure.",
+   "extracted_at": "2026-08-15T19:43:18.874650+00:00",
+   "verify_failed": true,
+   "verify_reason": "The extracted record shows val=null but the source clearly states a $3 billion investment value."
   },
   {
    "skip": false,
