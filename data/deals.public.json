@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-15T15:44:04.496178+00:00",
+  "last_updated": "2026-08-15T16:14:42.332633+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -62,6 +62,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zRGgyaEVrSmh5MXppWm1IR0daSXMxSjVpM2tjOV9ZNHlmZlNwTVZvaVJfNkh4Nzk4SDZMalBMRGdxQzlaOGltN0pnbUFyTFlhN2hfY3B3bTlpVE0?oc=5",
    "source_snippet": "TPG reportedly acquiring Lotte Rental for approximately KRW 1.6 trillion (~$1.2B) and eyeing Kakao Mobility, signaling significant PE-driven M&A activity in Korean mobility sector.",
    "extracted_at": "2026-08-15T14:46:38.904909+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-15",
+   "type": "Private",
+   "name": "SpaceX",
+   "v": 0.565,
+   "val": null,
+   "sector": "Space / Satellite",
+   "status": "Pending",
+   "note": "AMD reportedly made a $565M minority strategic investment in SpaceX, reflecting AMD's interest in aligning with SpaceX's compute and connectivity infrastructure. The investment is a minority stake with no disclosed valuation for SpaceX. Strategic rationale likely involves AMD silicon deployment across Starlink and other SpaceX platforms.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUi1yN21KekF0QjJ3WUY4WjBnUTBScHhYN3VyaVdoVjFXbmZxQkVDcmVtV1lkTmNCOHNzS3RkYVZhYjNuRGRkQWRUZUFvbURNYllObE1sSFFLdXNfbXYzX2hsOU5zLUVpWi1CeGktOExKM3FFYUZTVW10VURZSmp2RC1jZFJjRll1dXBvZjczSG9zeENsXzcxc3hQS2czYm5FVnJvSEljaUc1Y2J2WUNN?oc=5",
+   "source_snippet": "AMD reportedly invested $565M in SpaceX, a notable minority strategic investment in a high-profile private company.",
+   "extracted_at": "2026-08-15T16:14:38.639803+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Strategic Investment' or similar, not 'Private'; status is unclear from source and should not be assumed 'Pending'; date is not provided in source."
   },
   {
    "skip": false,
