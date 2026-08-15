@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-15T11:43:09.021864+00:00",
+  "last_updated": "2026-08-15T12:20:28.004881+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -28,6 +28,24 @@
    "extracted_at": "2026-08-15T10:14:50.502516+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes a completed acquisition, but extracted record shows status as 'Pending' rather than 'Closed'."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-15",
+   "type": "M&A",
+   "name": "Western Digital / Kioxia",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors / Storage",
+   "status": "Pending",
+   "note": "Analyst commentary argues regulatory and competitive hurdles significantly reduce the probability of success for the proposed Western Digital-Kioxia merger, a deal aimed at consolidating the global NAND flash memory market. The combination would create one of the world's largest NAND producers, drawing scrutiny from antitrust regulators across multiple jurisdictions. No updated deal value is cited in the snippet.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMDl2Yk1vNzBiUjJWcE1zMkZqUVlFQi1tdFFKeXk1OHpCX3pTRmhkaTd5N19FbEdWRDJ3Zk5tWVRzbEE0RXROUll6YkZDOWpGbENNdXhmVEZzUlRUQU5aTnFDb3ppOENWOGQ1T2p6VElXS0ZOZGZXSThyS3V5TUl0NkJIRk5zMTF0RWpsbW5hcEVfT1VXcmxDRHo5dmxWRTlwYzdzeHBKVVVOdDR2QTFfX0g4Tnc4M2x1aTYwTkJMYm5BcHdSOERhZ0JmZmJoUzZRUFVrcGNzOGxmVk5U?oc=5",
+   "source_snippet": "Analysis argues regulatory and competitive hurdles make the Western Digital-Kioxia merger unlikely to succeed, relevant to M&A risk assessment in NAND flash consolidation.",
+   "extracted_at": "2026-08-15T12:20:16.651739+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source discusses merger feasibility concerns but does not confirm an actual pending deal with a specific date of 2026-08-15."
   },
   {
    "skip": false,
