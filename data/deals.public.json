@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-15T14:14:31.132763+00:00",
+  "last_updated": "2026-08-15T14:46:43.412135+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -46,6 +46,22 @@
    "extracted_at": "2026-08-15T12:20:16.651739+00:00",
    "verify_failed": true,
    "verify_reason": "Source discusses merger feasibility concerns but does not confirm an actual pending deal with a specific date of 2026-08-15."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-15",
+   "type": "M&A",
+   "name": "TPG / Lotte Rental",
+   "v": 1.2,
+   "val": null,
+   "sector": "Mobility / Fleet Services",
+   "status": "Pending",
+   "note": "TPG is reportedly acquiring Lotte Rental, South Korea's major vehicle rental and fleet management company, for approximately KRW 1.6 trillion (~$1.2B). The deal signals PE-driven consolidation in the Korean mobility sector, with TPG also said to be eyeing Kakao Mobility as a follow-on target. No definitive agreement has been confirmed; figures are based on reported terms.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zRGgyaEVrSmh5MXppWm1IR0daSXMxSjVpM2tjOV9ZNHlmZlNwTVZvaVJfNkh4Nzk4SDZMalBMRGdxQzlaOGltN0pnbUFyTFlhN2hfY3B3bTlpVE0?oc=5",
+   "source_snippet": "TPG reportedly acquiring Lotte Rental for approximately KRW 1.6 trillion (~$1.2B) and eyeing Kakao Mobility, signaling significant PE-driven M&A activity in Korean mobility sector.",
+   "extracted_at": "2026-08-15T14:46:38.904909+00:00"
   },
   {
    "skip": false,
