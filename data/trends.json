@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-15T22:46:02.353560+00:00"
+  "last_updated": "2026-08-15T23:12:51.833338+00:00"
  },
  "trends": [
   {
    "entity": "Nvidia",
    "today": 91,
-   "avg": 0.15,
+   "avg": 0.0,
    "score": 182.0,
    "spiking": true,
    "spark": [
@@ -16,15 +16,15 @@
     0,
     0,
     0,
-    2,
+    0,
     91
    ]
   },
   {
    "entity": "SK Hynix",
-   "today": 86,
+   "today": 88,
    "avg": 0.0,
-   "score": 172.0,
+   "score": 176.0,
    "spiking": true,
    "spark": [
     0,
@@ -34,14 +34,14 @@
     0,
     0,
     0,
-    86
+    88
    ]
   },
   {
    "entity": "Anthropic",
-   "today": 71,
-   "avg": 0.08,
-   "score": 142.0,
+   "today": 70,
+   "avg": 0.0,
+   "score": 140.0,
    "spiking": true,
    "spark": [
     0,
@@ -50,15 +50,15 @@
     0,
     0,
     0,
-    1,
-    71
+    0,
+    70
    ]
   },
   {
    "entity": "Apple",
-   "today": 52,
-   "avg": 0.15,
-   "score": 104.0,
+   "today": 53,
+   "avg": 0.0,
+   "score": 106.0,
    "spiking": true,
    "spark": [
     0,
@@ -67,15 +67,15 @@
     0,
     0,
     0,
-    2,
-    52
+    0,
+    53
    ]
   },
   {
    "entity": "Samsung Electronics",
-   "today": 50,
+   "today": 49,
    "avg": 0.0,
-   "score": 100.0,
+   "score": 98.0,
    "spiking": true,
    "spark": [
     0,
@@ -85,14 +85,14 @@
     0,
     0,
     0,
-    50
+    49
    ]
   },
   {
    "entity": "OpenAI",
-   "today": 50,
-   "avg": 0.08,
-   "score": 100.0,
+   "today": 49,
+   "avg": 0.0,
+   "score": 98.0,
    "spiking": true,
    "spark": [
     0,
@@ -101,8 +101,8 @@
     0,
     0,
     0,
-    1,
-    50
+    0,
+    49
    ]
   },
   {
@@ -123,10 +123,10 @@
    ]
   },
   {
-   "entity": "Meta",
-   "today": 41,
+   "entity": "Samsung",
+   "today": 42,
    "avg": 0.0,
-   "score": 82.0,
+   "score": 84.0,
    "spiking": true,
    "spark": [
     0,
@@ -136,14 +136,14 @@
     0,
     0,
     0,
-    41
+    42
    ]
   },
   {
-   "entity": "Samsung",
-   "today": 39,
-   "avg": 0.08,
-   "score": 78.0,
+   "entity": "Meta",
+   "today": 42,
+   "avg": 0.0,
+   "score": 84.0,
    "spiking": true,
    "spark": [
     0,
@@ -152,8 +152,8 @@
     0,
     0,
     0,
-    1,
-    39
+    0,
+    42
    ]
   },
   {
@@ -175,9 +175,9 @@
   },
   {
    "entity": "Intel",
-   "today": 35,
-   "avg": 0.08,
-   "score": 70.0,
+   "today": 37,
+   "avg": 0.0,
+   "score": 74.0,
    "spiking": true,
    "spark": [
     0,
@@ -186,15 +186,15 @@
     0,
     0,
     0,
-    1,
-    35
+    0,
+    37
    ]
   },
   {
    "entity": "CoreWeave",
-   "today": 28,
+   "today": 29,
    "avg": 0.0,
-   "score": 56.0,
+   "score": 58.0,
    "spiking": true,
    "spark": [
     0,
@@ -204,7 +204,24 @@
     0,
     0,
     0,
-    28
+    29
+   ]
+  },
+  {
+   "entity": "Microsoft",
+   "today": 26,
+   "avg": 0.0,
+   "score": 52.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    26
    ]
   },
   {
@@ -225,27 +242,10 @@
    ]
   },
   {
-   "entity": "Microsoft",
-   "today": 25,
-   "avg": 0.0,
-   "score": 50.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    25
-   ]
-  },
-  {
    "entity": "AMD",
-   "today": 21,
+   "today": 22,
    "avg": 0.0,
-   "score": 42.0,
+   "score": 44.0,
    "spiking": true,
    "spark": [
     0,
@@ -255,7 +255,7 @@
     0,
     0,
     0,
-    21
+    22
    ]
   },
   {
@@ -312,7 +312,7 @@
   {
    "entity": "Palantir",
    "today": 16,
-   "avg": 0.08,
+   "avg": 0.0,
    "score": 32.0,
    "spiking": true,
    "spark": [
@@ -322,14 +322,14 @@
     0,
     0,
     0,
-    1,
+    0,
     16
    ]
   },
   {
    "entity": "Oracle",
    "today": 16,
-   "avg": 0.08,
+   "avg": 0.0,
    "score": 32.0,
    "spiking": true,
    "spark": [
@@ -339,7 +339,7 @@
     0,
     0,
     0,
-    1,
+    0,
     16
    ]
   },
@@ -380,7 +380,7 @@
   {
    "entity": "TSMC",
    "today": 11,
-   "avg": 0.08,
+   "avg": 0.0,
    "score": 22.0,
    "spiking": true,
    "spark": [
@@ -390,7 +390,7 @@
     0,
     0,
     0,
-    1,
+    0,
     11
    ]
   },
