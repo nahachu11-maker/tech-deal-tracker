@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-08-16T21:12:59.670678+00:00"
+  "last_updated": "2026-08-16T21:42:21.038361+00:00"
  },
  "trends": [
   {
@@ -21,61 +21,10 @@
    ]
   },
   {
-   "entity": "Nvidia",
-   "today": 81,
-   "avg": 0.62,
-   "score": 131.62,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    8,
-    81
-   ]
-  },
-  {
-   "entity": "OpenAI",
-   "today": 63,
-   "avg": 0.0,
-   "score": 126.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    63
-   ]
-  },
-  {
-   "entity": "Meta",
-   "today": 55,
-   "avg": 0.08,
-   "score": 110.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    55
-   ]
-  },
-  {
    "entity": "SK Hynix",
-   "today": 92,
-   "avg": 0.92,
-   "score": 99.67,
+   "today": 99,
+   "avg": 0.54,
+   "score": 183.86,
    "spiking": true,
    "spark": [
     0,
@@ -84,15 +33,32 @@
     0,
     0,
     0,
-    12,
-    92
+    7,
+    99
+   ]
+  },
+  {
+   "entity": "Nvidia",
+   "today": 85,
+   "avg": 0.0,
+   "score": 170.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    85
    ]
   },
   {
    "entity": "Samsung Electronics",
-   "today": 67,
-   "avg": 0.77,
-   "score": 87.1,
+   "today": 71,
+   "avg": 0.46,
+   "score": 142.0,
    "spiking": true,
    "spark": [
     0,
@@ -101,15 +67,49 @@
     0,
     0,
     0,
-    10,
-    67
+    6,
+    71
+   ]
+  },
+  {
+   "entity": "OpenAI",
+   "today": 65,
+   "avg": 0.0,
+   "score": 130.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    65
+   ]
+  },
+  {
+   "entity": "Meta",
+   "today": 57,
+   "avg": 0.0,
+   "score": 114.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    57
    ]
   },
   {
    "entity": "Apple",
-   "today": 41,
+   "today": 43,
    "avg": 0.0,
-   "score": 82.0,
+   "score": 86.0,
    "spiking": true,
    "spark": [
     0,
@@ -119,7 +119,41 @@
     0,
     0,
     0,
-    41
+    43
+   ]
+  },
+  {
+   "entity": "Intel",
+   "today": 31,
+   "avg": 0.0,
+   "score": 62.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    31
+   ]
+  },
+  {
+   "entity": "Alphabet",
+   "today": 30,
+   "avg": 0.0,
+   "score": 60.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    30
    ]
   },
   {
@@ -140,9 +174,9 @@
    ]
   },
   {
-   "entity": "Alphabet",
+   "entity": "Microsoft",
    "today": 29,
-   "avg": 0.0,
+   "avg": 0.08,
    "score": 58.0,
    "spiking": true,
    "spark": [
@@ -152,29 +186,12 @@
     0,
     0,
     0,
-    0,
+    1,
     29
    ]
   },
   {
-   "entity": "Microsoft",
-   "today": 28,
-   "avg": 0.08,
-   "score": 56.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    28
-   ]
-  },
-  {
-   "entity": "Intel",
+   "entity": "Samsung",
    "today": 28,
    "avg": 0.0,
    "score": 56.0,
@@ -188,23 +205,6 @@
     0,
     0,
     28
-   ]
-  },
-  {
-   "entity": "Samsung",
-   "today": 22,
-   "avg": 0.15,
-   "score": 44.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    22
    ]
   },
   {
@@ -225,10 +225,27 @@
    ]
   },
   {
+   "entity": "SpaceX",
+   "today": 19,
+   "avg": 0.0,
+   "score": 38.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    19
+   ]
+  },
+  {
    "entity": "AMD",
-   "today": 18,
+   "today": 19,
    "avg": 0.08,
-   "score": 36.0,
+   "score": 38.0,
    "spiking": true,
    "spark": [
     0,
@@ -238,30 +255,13 @@
     0,
     0,
     1,
-    18
-   ]
-  },
-  {
-   "entity": "SpaceX",
-   "today": 18,
-   "avg": 0.0,
-   "score": 36.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    18
+    19
    ]
   },
   {
    "entity": "CoreWeave",
    "today": 17,
-   "avg": 0.15,
+   "avg": 0.08,
    "score": 34.0,
    "spiking": true,
    "spark": [
@@ -271,15 +271,15 @@
     0,
     0,
     0,
-    2,
+    1,
     17
    ]
   },
   {
-   "entity": "Micron",
-   "today": 14,
+   "entity": "Oracle",
+   "today": 15,
    "avg": 0.08,
-   "score": 28.0,
+   "score": 30.0,
    "spiking": true,
    "spark": [
     0,
@@ -289,6 +289,23 @@
     0,
     0,
     1,
+    15
+   ]
+  },
+  {
+   "entity": "Micron",
+   "today": 14,
+   "avg": 0.0,
+   "score": 28.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     14
    ]
   },
@@ -310,26 +327,9 @@
    ]
   },
   {
-   "entity": "Oracle",
-   "today": 14,
-   "avg": 0.08,
-   "score": 28.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    14
-   ]
-  },
-  {
-   "entity": "Alibaba",
+   "entity": "Broadcom",
    "today": 11,
-   "avg": 0.08,
+   "avg": 0.0,
    "score": 22.0,
    "spiking": true,
    "spark": [
@@ -339,14 +339,31 @@
     0,
     0,
     0,
-    1,
+    0,
+    11
+   ]
+  },
+  {
+   "entity": "Alibaba",
+   "today": 11,
+   "avg": 0.0,
+   "score": 22.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     11
    ]
   },
   {
    "entity": "TSMC",
    "today": 11,
-   "avg": 0.15,
+   "avg": 0.0,
    "score": 22.0,
    "spiking": true,
    "spark": [
@@ -356,14 +373,14 @@
     0,
     0,
     0,
-    2,
+    0,
     11
    ]
   },
   {
    "entity": "Palantir",
    "today": 10,
-   "avg": 0.15,
+   "avg": 0.08,
    "score": 20.0,
    "spiking": true,
    "spark": [
@@ -373,24 +390,7 @@
     0,
     0,
     0,
-    2,
-    10
-   ]
-  },
-  {
-   "entity": "Broadcom",
-   "today": 10,
-   "avg": 0.0,
-   "score": 20.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    1,
     10
    ]
   },
@@ -414,7 +414,7 @@
   {
    "entity": "SB Energy",
    "today": 7,
-   "avg": 0.08,
+   "avg": 0.0,
    "score": 14.0,
    "spiking": true,
    "spark": [
@@ -424,7 +424,7 @@
     0,
     0,
     0,
-    1,
+    0,
     7
    ]
   }
