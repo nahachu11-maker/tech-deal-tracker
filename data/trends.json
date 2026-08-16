@@ -1,8 +1,42 @@
 {
  "meta": {
-  "last_updated": "2026-08-16T03:26:44.261758+00:00"
+  "last_updated": "2026-08-16T04:07:02.850136+00:00"
  },
  "trends": [
+  {
+   "entity": "Samsung Electronics",
+   "today": 36,
+   "avg": 3.77,
+   "score": 9.55,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    49,
+    36
+   ]
+  },
+  {
+   "entity": "SK Hynix",
+   "today": 39,
+   "avg": 6.23,
+   "score": 6.26,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    81,
+    39
+   ]
+  },
   {
    "entity": "SoftBank",
    "today": 3,
@@ -21,44 +55,10 @@
    ]
   },
   {
-   "entity": "Samsung Electronics",
-   "today": 21,
-   "avg": 3.92,
-   "score": 5.35,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    51,
-    21
-   ]
-  },
-  {
-   "entity": "SK Hynix",
-   "today": 25,
-   "avg": 6.23,
-   "score": 4.01,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    81,
-    25
-   ]
-  },
-  {
    "entity": "TSMC",
-   "today": 3,
-   "avg": 1.15,
-   "score": 2.6,
+   "today": 4,
+   "avg": 0.92,
+   "score": 4.33,
    "spiking": true,
    "spark": [
     0,
@@ -67,15 +67,15 @@
     0,
     0,
     0,
-    15,
-    3
+    12,
+    4
    ]
   },
   {
    "entity": "OpenAI",
-   "today": 8,
-   "avg": 3.15,
-   "score": 2.54,
+   "today": 10,
+   "avg": 2.92,
+   "score": 3.42,
    "spiking": true,
    "spark": [
     0,
@@ -84,8 +84,42 @@
     0,
     0,
     0,
-    41,
-    8
+    38,
+    10
+   ]
+  },
+  {
+   "entity": "Berkshire Hathaway",
+   "today": 3,
+   "avg": 1.0,
+   "score": 3.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    13,
+    3
+   ]
+  },
+  {
+   "entity": "Amazon",
+   "today": 4,
+   "avg": 1.46,
+   "score": 2.74,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    19,
+    4
    ]
   },
   {
@@ -103,6 +137,74 @@
     0,
     16,
     3
+   ]
+  },
+  {
+   "entity": "Alphabet",
+   "today": 6,
+   "avg": 2.62,
+   "score": 2.29,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    34,
+    6
+   ]
+  },
+  {
+   "entity": "Nvidia",
+   "today": 14,
+   "avg": 6.31,
+   "score": 2.22,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    82,
+    14
+   ]
+  },
+  {
+   "entity": "Anthropic",
+   "today": 10,
+   "avg": 4.54,
+   "score": 2.2,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    59,
+    10
+   ]
+  },
+  {
+   "entity": "Taiwan Semiconductor Manufacturing Company",
+   "today": 2,
+   "avg": 0.15,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
    ]
   },
   {
@@ -174,6 +276,91 @@
    ]
   },
   {
+   "entity": "Motorola",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Seagate Technology",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Altimeter Capital",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Chilton Investment",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Clough Capital Partners",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
    "entity": "Korea Electric Power",
    "today": 1,
    "avg": 0.0,
@@ -226,193 +413,6 @@
   },
   {
    "entity": "Yageo",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "SK Square",
-   "today": 1,
-   "avg": 0.15,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1
-   ]
-  },
-  {
-   "entity": "ZoomInfo",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Epic Systems",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "SMIC",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Maccus",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "ASML",
-   "today": 1,
-   "avg": 0.46,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    6,
-    1
-   ]
-  },
-  {
-   "entity": "SK",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "KG Group",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Chery Automobile",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "LG Electronics",
-   "today": 1,
-   "avg": 0.15,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1
-   ]
-  },
-  {
-   "entity": "Fermi Inc.",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
