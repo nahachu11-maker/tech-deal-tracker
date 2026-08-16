@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-16T17:42:56.618991+00:00",
+  "last_updated": "2026-08-16T18:16:54.678859+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
@@ -26,6 +26,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOME11RnlNWDRfUk1JcEZkcUdNM08yVEhrdHo2dnFSSU9iX1g0QjBlMjBJdWVBa0JsMjFzeEh6bEdSbzRNWkxmdDRQQXQ1aXdtYWh0a2lueW9wdTZTQlZ2eG9xNkx4UXhaaXhvdHlXMU5sbWZvVWxVX3M0aU40TlpoelVWM1I2VW1VMjhRdUZScjQ1OXBuNXllM3FJaVNsdzQwN2pVSGJfSm9IelZZZm5KZjcxeFRwZTQ4SWs0WGZxWnR3cWc00gHKAUFVX3lxTFBZQkF2X3JuVkZ2ZzV1R1dCSkRMaFNkeHZ0M1JhcTBFd2RtQi1fWWVuSHNkMHNHNGVmLW1SbktUbGxZX0F4TlhjUzRiYWhFMnpUUUpLS1pUek5PN2R1NU1oZnR1VHVVREJoNG9TVG1EVEJvbE1LRHZGQkRIZWg5dUI0cGNSc1oyWUlId0pUNzIzdHp3UUMya1VldzZOM1RpdF9KaUFyejNHd0RFeHdmX3ZqUVdBYnBYWnp1cDNVUEVTYmRpWUVkR0txc0E?oc=5",
    "source_snippet": "Amazon reportedly in a bidding war to acquire Decart AI, signaling continued hyperscaler appetite for AI startup M&A.",
    "extracted_at": "2026-08-16T15:44:46.345397+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-16",
+   "type": "M&A",
+   "name": "Berkshire Hathaway / Alphabet",
+   "v": 17.0,
+   "val": null,
+   "sector": "Technology / Internet",
+   "status": "Pending",
+   "note": "Berkshire Hathaway reportedly acquired a $17B strategic equity stake in Alphabet, marking a significant new position under Buffett's successor. The investment represents a minority stake and a notable departure from Berkshire's traditional equity portfolio preferences. No deal structure details or share price were disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQakkxM0s4SkJDU29mV0ZMU0JEcVpMWnA4TzVrUXA0eHpYMEo0ZEpwNGduUlZsaXo4eXZTOF9KR2RUT0FDbGVLRXc5TlNmOXBSb2dLUGZ1RzNYZUg2MDJNNktFajMtaVkxNjZZUjhDNlRwdktfS2FJSjhKRGtNdkpyZGFsWW5Tdm9oSDVuYURzcmRJVDMxSjBoMkJhRTBrcG1mbm5seGQ0Wk9QQzllS0Ffd0s3cHJTVWhQWldtTjNFYw?oc=5",
+   "source_snippet": "Berkshire Hathaway reportedly made a $17bn investment in Alphabet, a significant strategic equity stake by Buffett's successor that would represent a major new position.",
+   "extracted_at": "2026-08-16T18:16:52.054676+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes an equity investment, not an M&A transaction; the deal type should be 'Investment' or similar, not 'M&A'."
   },
   {
    "skip": false,
