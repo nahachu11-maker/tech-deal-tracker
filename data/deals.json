@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-16T19:42:26.061608+00:00",
+  "last_updated": "2026-08-16T20:12:55.641279+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -43,6 +43,22 @@
    "extracted_at": "2026-08-16T18:16:52.054676+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes an equity investment, not an M&A transaction; the deal type should be 'Investment' or similar, not 'M&A'."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-16",
+   "type": "M&A",
+   "name": "Stripe / OpenRouter",
+   "v": 10.0,
+   "val": null,
+   "sector": "Fintech / AI Infrastructure",
+   "status": "Pending",
+   "note": "Stripe is in advanced talks to acquire OpenRouter, an AI model-routing platform, for approximately $10B. The deal would mark a major strategic expansion for Stripe beyond payments into AI infrastructure, enabling it to offer intelligent model-routing capabilities to its developer ecosystem. The transaction remains in negotiation and has not been formally announced or signed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VOEx6MTBWNU1XS1F3T3VTN3Z1bmVVenB4QkY5SGlMRUt4bnExcVpQc2ZKeHlFMWhoaU9MMnkycXdUZGkxOGhUZEpTOGZkTDZ4dHp3ME5CSERRbi1qZDdVMFlDaVNQUXhFcktDRFNZalg0UQ?oc=5",
+   "source_snippet": "Stripe is reportedly in advanced talks to acquire AI model-routing platform OpenRouter for approximately $10B, a significant potential tech M&A transaction.",
+   "extracted_at": "2026-08-16T20:12:52.960573+00:00"
   },
   {
    "skip": false,
