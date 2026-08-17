@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-08-17T15:18:41.279613+00:00",
+  "last_updated": "2026-08-17T15:49:03.381509+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -63,6 +63,24 @@
    "extracted_at": "2026-08-17T15:18:37.379018+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes a valuation floor, not a deal with pending status; no transaction date or deal type (M&A/IPO/Follow-on) is supported by the source."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-17",
+   "type": "M&A",
+   "name": "Alibaba / Lingxi Games",
+   "v": 1.5,
+   "val": null,
+   "sector": "Gaming / AI",
+   "status": "Pending",
+   "note": "Alibaba is divesting its entire stake in mobile gaming studio Lingxi Games — known for 'Three Kingdoms: Strategy Edition' — for at least $1.5B, with proceeds earmarked for AI infrastructure investment. The transaction represents a strategic portfolio restructuring as Alibaba sheds non-core entertainment assets to accelerate its AI buildout. Buyer is not named in the source text; deal value cited as a floor ('at least $1.5B').",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaDNkYXBWUWE3bkRrQzh6dEpRLVJvdmY2azBUX3FNaF93WmpjSHI1aVNFdHRtaUMxcXExdk9XM2VfaXRkNUlPT2JXOWp5aHJUNWVUTnNPQ0w3R2dJS0VEcHdzNEwzNU80ZW5PNHZ2SVZETmMxR093RWMzOFdBeHI2WTduTmliSC00ZW42OVRqUU10eWo2QnViMG5rbVc5LXd5c1pfZi1NSU9feGl3d3VjRGI0NjR5MHBWSHdHZDhYb0JOaS1CQmpXMUlTa2NNU2VHV0lTY3lRbW0xWk9xSk1iOVR3?oc=5",
+   "source_snippet": "Alibaba is divesting its entire stake in gaming studio Lingxi Games for at least $1.5B to redeploy capital into AI infrastructure, a notable portfolio restructuring event.",
+   "extracted_at": "2026-08-17T15:48:58.947670+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' based on source language 'is divesting' indicating completed action, not pending transaction."
   },
   {
    "skip": false,
