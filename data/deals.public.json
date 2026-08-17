@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-17T13:15:58.303595+00:00",
+  "last_updated": "2026-08-17T14:01:46.112638+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 1
   },
@@ -28,6 +28,24 @@
    "extracted_at": "2026-08-17T08:34:21.576238+00:00",
    "verify_failed": true,
    "verify_reason": "The deal value should be $3.0 billion, not null."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-17",
+   "type": "Private",
+   "name": "HIVE Digital Technologies",
+   "v": 0.35,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "HIVE Digital Technologies announced a $350M Nvidia-linked AI deal, sending shares up 13%. The transaction appears to involve AI infrastructure financing tied to Nvidia hardware, consistent with HIVE's pivot from crypto mining to AI compute. Structure details (equity, debt, or offtake agreement) remain unclear from available text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUm5ZdVJFOWFzYV9vUVFVVVJpbUF0NWlmeGhmS00zSGlpbEVZaTdRMWJUT3FpT1dQZF9BWER1N3FiS2ItcHZTdmVrMXNKMm05WVg3cHBVdEtldUtucUlyMGRJYzE2WjVJclk2WDZ4VFNTcjUtc2tmTU5qQm1wUTNmLXh5UmRFR1RLbExJMGgwMm9HRmV4NXNFVw?oc=5",
+   "source_snippet": "HIVE stock surged 13% on announcement of a $350M Nvidia-linked AI deal, representing a significant capital event for the crypto-to-AI infrastructure company.",
+   "extracted_at": "2026-08-17T14:01:27.842951+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be M&A or similar transaction type, not 'Private'; status should be 'Closed' or 'Announced' given the stock surge announcement, not 'Pending'; deal value appears incomplete (v: 0.35 w"
   },
   {
    "skip": false,
