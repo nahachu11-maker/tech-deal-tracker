@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-08-17T07:45:59.677033+00:00",
+  "last_updated": "2026-08-17T08:34:31.485734+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-17",
+   "type": "M&A",
+   "name": "Nvidia / OpenAI Data Center Partner",
+   "v": 3.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Nvidia is reportedly considering a $3 billion minority stake in an unnamed partner that operates data centers for OpenAI, reflecting continued consolidation in AI infrastructure. The transaction would be a minority investment rather than a full acquisition. No target name has been disclosed, making this preliminary and unconfirmed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOanBSc3pJRkRJMXlMMjF3amhFTTQzRmpzb05NWXFGYVQwdG44M0ZsN1pKWDJha0dGZTFuT0YwZjNXVGVQNTg5ZVZrWnFsaEM1aXpFSDJnRkM0YkJPc0sya2NBdldwMy1lT05XMlp4UXBMQnFHTXdsUFU2ZWU4TW5NblhRSHlZMTJDbFlKNDBnNFNWdUE?oc=5",
+   "source_snippet": "Nvidia is reportedly eyeing a $3 billion minority stake in an OpenAI data center partner, signaling continued AI infrastructure consolidation.",
+   "extracted_at": "2026-08-17T08:34:21.576238+00:00",
+   "verify_failed": true,
+   "verify_reason": "The deal value should be $3.0 billion, not null."
+  },
   {
    "skip": false,
    "d": "2026-08-16",
