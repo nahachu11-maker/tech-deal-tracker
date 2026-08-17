@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-17T14:55:20.910215+00:00",
+  "last_updated": "2026-08-17T15:18:41.279613+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -45,6 +45,24 @@
    "extracted_at": "2026-08-17T14:01:27.842951+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be M&A or similar transaction type, not 'Private'; status should be 'Closed' or 'Announced' given the stock surge announcement, not 'Pending'; deal value appears incomplete (v: 0.35 w"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-17",
+   "type": "Private",
+   "name": "SanDisk NBM",
+   "v": null,
+   "val": 93.9,
+   "sector": "Semiconductor / Memory",
+   "status": "Pending",
+   "note": "SanDisk's NBM (NAND/memory) unit has secured a $93.9B valuation floor in what appears to be a deal or financing process. The development coincides with a reported Commerce Secretary directive barring Apple from sourcing Chinese memory, creating a favorable regulatory backdrop for domestic memory players. Deal structure and proceeds raised are not disclosed in the text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdzgwQm80OXpfeGI3bTNqOGRKeS00RWFYSGhCUjJVSUJ1bnFxMWRHWTI5by1mOVdvLW54U1JKbFQtQ0tXNXZBMnhrT0NEcmpqMGlvSlo5UWNPU0ZNb3B2QjB0WjZQX2ZmV05hczJsY1dycm1KZ1kzVTk1dFA4TjVPcVFHX3pBZnpXN1ljM2Fqb0ZaQ25yaWh6Q2xRM3JvQWF3UWxhWXZjU3hXT1UwUldhQ2FWOEJxSGtldUp1eE44bUNHZw?oc=5",
+   "source_snippet": "Commerce Secretary Lutnick reportedly bars Apple from sourcing Chinese memory, while SanDisk's NBM unit secures a $93.9B valuation floor, a significant regulatory and deal development for the memory sector.",
+   "extracted_at": "2026-08-17T15:18:37.379018+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes a valuation floor, not a deal with pending status; no transaction date or deal type (M&A/IPO/Follow-on) is supported by the source."
   },
   {
    "skip": false,
