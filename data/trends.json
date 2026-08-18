@@ -1,13 +1,30 @@
 {
  "meta": {
-  "last_updated": "2026-08-18T02:12:05.590541+00:00"
+  "last_updated": "2026-08-18T03:15:55.758910+00:00"
  },
  "trends": [
   {
+   "entity": "Kakao",
+   "today": 13,
+   "avg": 0.0,
+   "score": 26.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    13
+   ]
+  },
+  {
    "entity": "Samsung Electronics",
-   "today": 27,
+   "today": 38,
    "avg": 2.23,
-   "score": 12.1,
+   "score": 17.03,
    "spiking": true,
    "spark": [
     0,
@@ -17,48 +34,14 @@
     0,
     0,
     29,
-    27
-   ]
-  },
-  {
-   "entity": "Kakao",
-   "today": 6,
-   "avg": 0.0,
-   "score": 12.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    6
-   ]
-  },
-  {
-   "entity": "SK Hynix",
-   "today": 44,
-   "avg": 4.77,
-   "score": 9.23,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    62,
-    44
+    38
    ]
   },
   {
    "entity": "KakaoBank",
-   "today": 4,
+   "today": 7,
    "avg": 0.0,
-   "score": 8.0,
+   "score": 14.0,
    "spiking": true,
    "spark": [
     0,
@@ -68,7 +51,58 @@
     0,
     0,
     0,
-    4
+    7
+   ]
+  },
+  {
+   "entity": "SK Hynix",
+   "today": 53,
+   "avg": 4.62,
+   "score": 11.48,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    60,
+    53
+   ]
+  },
+  {
+   "entity": "Hanmi Semiconductor",
+   "today": 5,
+   "avg": 0.0,
+   "score": 10.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ]
+  },
+  {
+   "entity": "Google",
+   "today": 5,
+   "avg": 0.15,
+   "score": 10.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    5
    ]
   },
   {
@@ -89,10 +123,10 @@
    ]
   },
   {
-   "entity": "Google",
-   "today": 4,
-   "avg": 0.23,
-   "score": 8.0,
+   "entity": "LG",
+   "today": 3,
+   "avg": 0.08,
+   "score": 6.0,
    "spiking": true,
    "spark": [
     0,
@@ -101,8 +135,25 @@
     0,
     0,
     0,
-    3,
-    4
+    1,
+    3
+   ]
+  },
+  {
+   "entity": "Samsung Display",
+   "today": 3,
+   "avg": 0.08,
+   "score": 6.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3
    ]
   },
   {
@@ -140,6 +191,23 @@
    ]
   },
   {
+   "entity": "TerraPower",
+   "today": 3,
+   "avg": 0.0,
+   "score": 6.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ]
+  },
+  {
    "entity": "Alibaba",
    "today": 3,
    "avg": 0.46,
@@ -157,7 +225,92 @@
    ]
   },
   {
-   "entity": "LG",
+   "entity": "Nvidia",
+   "today": 15,
+   "avg": 4.54,
+   "score": 3.31,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    59,
+    15
+   ]
+  },
+  {
+   "entity": "SpaceX",
+   "today": 3,
+   "avg": 1.23,
+   "score": 2.44,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    16,
+    3
+   ]
+  },
+  {
+   "entity": "Kolon Global",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "Samsung SDI",
+   "today": 2,
+   "avg": 0.31,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    2
+   ]
+  },
+  {
+   "entity": "LG Energy Solution",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "Krafton",
    "today": 2,
    "avg": 0.08,
    "score": 4.0,
@@ -170,6 +323,57 @@
     0,
     0,
     1,
+    2
+   ]
+  },
+  {
+   "entity": "YMTC",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "Kioxia",
+   "today": 2,
+   "avg": 0.08,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "entity": "SK Innovation",
+   "today": 2,
+   "avg": 0.15,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
     2
    ]
   },
@@ -187,23 +391,6 @@
     0,
     0,
     5,
-    2
-   ]
-  },
-  {
-   "entity": "Samsung Display",
-   "today": 2,
-   "avg": 0.08,
-   "score": 4.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
     2
    ]
   },
@@ -239,193 +426,6 @@
     0,
     0,
     2
-   ]
-  },
-  {
-   "entity": "Padu",
-   "today": 2,
-   "avg": 0.0,
-   "score": 4.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2
-   ]
-  },
-  {
-   "entity": "Hana Micron",
-   "today": 2,
-   "avg": 0.0,
-   "score": 4.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2
-   ]
-  },
-  {
-   "entity": "Suno",
-   "today": 2,
-   "avg": 0.15,
-   "score": 4.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    2
-   ]
-  },
-  {
-   "entity": "Decart",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "LG Energy Solution",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Samsung SDI",
-   "today": 1,
-   "avg": 0.31,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    4,
-    1
-   ]
-  },
-  {
-   "entity": "Manhattan Associates",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Samsung Engineering",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Line",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "ElevenLabs",
-   "today": 1,
-   "avg": 0.08,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "MBC",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
    ]
   }
  ]
