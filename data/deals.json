@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-18T12:52:21.601146+00:00",
+  "last_updated": "2026-08-18T13:24:36.269808+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 0
   }
@@ -43,6 +43,42 @@
    "extracted_at": "2026-08-18T05:34:10.193493+00:00",
    "verify_failed": true,
    "verify_reason": "Source indicates a large investment with buyback provision, but extracted record shows only 'Private' type with no deal value and lacks details about the gaming company and downside protection mechani"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-18",
+   "type": "M&A",
+   "name": "Francisco Partners / Weave Communications",
+   "v": 0.65,
+   "val": null,
+   "sector": "Health-IT / AI",
+   "status": "Pending",
+   "note": "Francisco Partners is acquiring Weave Communications, a healthcare-focused AI communications platform, for $650M. The deal represents a take-private of a publicly listed health-IT SaaS company. The acquisition fits Francisco's strategy of consolidating vertical software platforms with embedded AI capabilities in regulated industries.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBbUlLOUJ0SHFXNElDRUVnSmVvR19QamRHYlpWWEFaT1doelZ3dF9ETF9DTDZRRWdnWDJyQWFiNjNGUTdXVkdmci1PQlNKMG1ZSTY0WDhQVlFyMy1EZFpHVnRoNXEyN0FpZGZkTUx0Nm1oM2s?oc=5",
+   "source_snippet": "Francisco Partners is acquiring healthcare AI communications platform Weave Communications for $650M.",
+   "extracted_at": "2026-08-18T13:24:19.720342+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source states the deal is already happening (present tense 'is acquiring'), not pending, and the date 2026-08-18 is in the future with no source support."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-18",
+   "type": "M&A",
+   "name": "Arksis / Omnetics Connector",
+   "v": 0.77,
+   "val": null,
+   "sector": "Semiconductor Components",
+   "status": "Closed",
+   "note": "Arksis completed the acquisition of Omnetics Connector for $770M. The deal strengthens Arksis's position in the connector supply chain serving semiconductor and defense electronics markets. Closed language confirms the transaction is complete.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaVWZNY09TdmItNEg5OFB2dFBpdXNsbi1yRDl1QjdtWjFBeHcteVdfRmlfdTJDbTRXMmhNNXFGZHVLVkNXbGN5SWFMdVFySkdxZ2tfNzlTZXJqYnRNQUZ1MjdkLU4tOUZXUHVnS3QzUjBPdw?oc=5",
+   "source_snippet": "Arksis completed the acquisition of Omnetics Connector for $770M, a closed connector-industry deal relevant to semiconductor supply-chain M&A.",
+   "extracted_at": "2026-08-18T13:24:27.240630+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value is recorded as 0.77 (billion) with val=null, but source states $770M which should be 0.77 billion in the value field, not split across two fields."
   },
   {
    "skip": false,
