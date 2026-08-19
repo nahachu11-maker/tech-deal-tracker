@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-08-19T08:43:20.590412+00:00",
+  "last_updated": "2026-08-19T09:25:52.371696+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-19",
+   "type": "M&A",
+   "name": "SoftBank / Intel",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Masayoshi Son is reportedly deploying approximately 67% of SoftBank's US portfolio into Intel as a concentrated AI revival bet, representing a major strategic minority stake. The exact deal value is undisclosed in the source text. The investment underscores SoftBank's thesis that Intel is a key enabler of the next AI infrastructure cycle.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTUVyY0luRjZpQi0yc2doUmdaQTJzQTdvU1lPb3lGTXVQTktWNWtlaER4dVRJTXROWVJBSTRhNXZjUGQ2MXY4T3JVcGp3TzFRZGNoUEswOFdkTXc0eGtZTGJvWjVvVmV0YmlwMHhYOXBIQW10V2lieVJSOEVJaHRobzd5UE0wajJjcHBaVWdiQjVDb2hjdnlUaW55eXcyNElmczV5U0V5MlFER1hLT1ZmMG9FS2NTOExUMUU1b2pobDFRbFlJeE1kVjNINVhkeTRQTGtGUHlSTENoUlU4T1podm1WME5vclJxQXpWTTRTNGJTaWE0c3V4SWctN01sRGZTa3fSAYcCQVVfeXFMTldLQW1TYTZqUkZmU0RHSFZVWVJwQVdCLUhOUTdjbTN3MW44SFhpLUJ6NjZrbGF2ZEswdkV0YnZ3SlJNVWFoR19hRmptTHI3bHFPcFlpUzFRaUY3Ni1HU0wwaTNPRWZIaFBybmx6QzQ2WDFuUTdOdU5tUXg5RVhjd1lUSmNTS2VvWmtTV3hoU2xGZXhYRnNyN2NDRW1pZGg5Vm1ic2IwRjRaeWloUkxPN2plU3h2YU5oNDlEMVNwaEhTVnp6bU1ZWndsc0NiU3plMXhUdWV0bG1FMjgtVE9xOVIxZjd1TF8wS1dwcWR5eUp1NnZDY1VoLXM1bXl5enExUFN0SnBOTEk?oc=5",
+   "source_snippet": "Masayoshi Son is reportedly deploying 67% of SoftBank's US portfolio into Intel as an AI revival bet, representing a major concentrated strategic investment in the chipmaker.",
+   "extracted_at": "2026-08-19T09:25:49.029928+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a portfolio investment/bet, not an M&A transaction; deal type should not be M&A"
+  },
   {
    "skip": false,
    "d": "2026-08-18",
