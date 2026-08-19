@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-19T14:05:33.078073+00:00",
+  "last_updated": "2026-08-19T15:01:55.538494+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   }
  },
  "deals": [
@@ -27,6 +27,24 @@
    "extracted_at": "2026-08-19T09:25:49.029928+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a portfolio investment/bet, not an M&A transaction; deal type should not be M&A"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-19",
+   "type": "M&A",
+   "name": "Google / Marvell Technology",
+   "v": 12.2,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Google secured an option to acquire a $12.2B minority stake in Marvell Technology alongside an AI chip supply deal, driving a sharp rally in Marvell shares. The transaction positions Google deeper into custom silicon development and represents a significant competitive challenge to Broadcom in the AI ASIC market. Deal structure includes an option mechanism, so consummation of the equity stake remains contingent on exercise.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbTdoT3picC1LYktYbHhNMGZiaURDbkFUb0hfdTZwVzFJdzRjam14eVpvTmlVRkNXQ2ZiZnMwaEtETVUxdlFyeW05blA0U3NoRlpldmRVMUtyazVQeTVnYUNUS015cW9NMWVpNFJpYVpyVFJCVkU0cjMyYVZiUlQ0T1dMWFJVdC0tOGswWlc4ZklZX0JwOWpXZVRn?oc=5",
+   "source_snippet": "Google struck an AI chip deal with Marvell and secured an option to acquire a $12.2B stake, driving a sharp surge in Marvell shares and posing a competitive threat to Broadcom.",
+   "extracted_at": "2026-08-19T15:01:22.443419+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes an AI chip deal with an option to acquire a stake, not a full M&A acquisition"
   },
   {
    "skip": false,
