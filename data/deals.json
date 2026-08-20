@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-08-20T05:55:31.712063+00:00",
+  "last_updated": "2026-08-20T06:31:11.228066+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-20",
+   "type": "Debt",
+   "name": "Nebius",
+   "v": 5.0,
+   "val": null,
+   "sector": "AI Infrastructure / Neocloud",
+   "status": "Pending",
+   "note": "Nebius, the Amsterdam-listed neocloud operator, has increased its planned debt raise to $5B, signaling aggressive expansion of its AI compute infrastructure. Separately, Nebius is reportedly bidding to acquire Decart AI, a target also pursued by Anthropic, underscoring intensifying competition for AI talent and proprietary model assets. The dual-track activity reflects a broader capital deployment strategy as neocloud players race to scale capacity and secure differentiated AI capabilities.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcXR5VThLNW5hX2tlRS1INDhZbDI0Rm1qTXptci1HR1N6Y1JoQzN1LWh3UUhZRzdxSVFoeWdUR25KdE12OEM0ZXE0YjBqaDNlejdDdHNNVllxNHhHQi14cWpOX01aU3VURUNIYnY1WDdXaDd2YWF0SVRQekVESF9HaWNmbktnWGNncW4yVUVnczJYYVJfNjlwS3VHNWU2UG9hUEJfd3pxYWVKc3FGcVpTSlR6d3VmMFh4aEdIYkNJdlFfWFQ3MjBEUllVbVNabVp0SjJuRVI5RWJVbGxzQXhfZUhzY3g3TThLRFlTY3lVUnNOR2U5WVBhQlRFX0xQYnU3VEE?oc=5",
+   "source_snippet": "Nebius increases its debt raise plan to $5B and reportedly bids to acquire Decart AI, which Anthropic had also been eyeing, highlighting competition for AI talent and infrastructure assets.",
+   "extracted_at": "2026-08-20T06:31:05.197847+00:00",
+   "verify_failed": true,
+   "verify_reason": "The record incorrectly classifies this as a 'Debt' deal type when the source indicates a debt raise (which is financing, not M&A/IPO/Follow-on), and includes an unrelated acquisition bid that should n"
+  },
   {
    "skip": false,
    "d": "2026-08-19",
