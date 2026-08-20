@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-20T15:58:16.677899+00:00",
+  "last_updated": "2026-08-20T16:29:30.227172+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -46,6 +46,22 @@
    "extracted_at": "2026-08-20T13:29:01.156053+00:00",
    "verify_failed": true,
    "verify_reason": "Source states acquisition is complete ('has acquired'), but record shows status as 'Pending'"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-20",
+   "type": "M&A",
+   "name": "Ode (Anthropic) / Casper Studios",
+   "v": null,
+   "val": null,
+   "sector": "Enterprise AI",
+   "status": "Closed",
+   "note": "Ode, an Anthropic-affiliated entity, has acquired Casper Studios to bolster enterprise AI deployment capabilities. The deal expands Anthropic's footprint in enterprise software delivery through the Ode vehicle. Deal value was not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaER2c2FabHBiWEw3dlBzOGJ0eWxmTmR3VVV4ZnVZLXhwQTEzVV94bHVHbWJfTlZXQ0UxVmp5WXQ0T2dpbWprYWpEUlhQTEl3TkE4YWlyTFpSeUtjY1FRZUxXRS1GODJmdmIxVExjV3ZpMEoyMnVsQ1l4ampvQy1MR2g2OEVqRXVpcUF0blhLQXhPMFBRMjhwMEI2Ukl1LURBekhLWFRYTU42VWxfeHNuM0xCNURBNlk?oc=5",
+   "source_snippet": "Ode, an Anthropic-affiliated entity, has acquired Casper Studios to expand enterprise AI deployment capabilities.",
+   "extracted_at": "2026-08-20T16:29:13.128078+00:00"
   },
   {
    "skip": false,
