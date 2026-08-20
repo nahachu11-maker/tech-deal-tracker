@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-20T12:54:16.064800+00:00",
+  "last_updated": "2026-08-20T13:29:14.544842+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -27,6 +27,24 @@
    "extracted_at": "2026-08-20T06:31:05.197847+00:00",
    "verify_failed": true,
    "verify_reason": "The record incorrectly classifies this as a 'Debt' deal type when the source indicates a debt raise (which is financing, not M&A/IPO/Follow-on), and includes an unrelated acquisition bid that should n"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-20",
+   "type": "M&A",
+   "name": "Anthropic / undisclosed consultancy",
+   "v": null,
+   "val": null,
+   "sector": "Enterprise AI",
+   "status": "Pending",
+   "note": "Anthropic's enterprise AI venture has acquired an unnamed consultancy, representing the high-profile AI startup's foray into M&A. The target and deal value are undisclosed. The acquisition likely aims to bolster Anthropic's enterprise go-to-market capabilities and professional services infrastructure.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMWtOUFRTLWtoemREQ09uOVpoQUJPQ2lyUjU2SVpEMEFNNXNoaGs4UWZfeGFING1pcG41VFlEUEx6NWxCNU5pTnFYd0RkNlhYWGJpdUp4d1dxNV9abWZBb3JtZkFwNVhuSE94Z2l3T1hzcFM4YjNGWXpmRHBWLXJQRVV1Y0VRMnlRRHdGV0lDRW1Ndzg?oc=5",
+   "source_snippet": "Anthropic's enterprise AI venture has acquired a consultancy, marking an M&A move by the high-profile AI startup.",
+   "extracted_at": "2026-08-20T13:29:01.156053+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source states acquisition is complete ('has acquired'), but record shows status as 'Pending'"
   },
   {
    "skip": false,
