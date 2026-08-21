@@ -1,10 +1,734 @@
 {
  "meta": {
-  "last_updated": "2026-08-21T11:51:13.793791+00:00",
+  "last_updated": "2026-08-21T12:29:01.657119+00:00",
   "item_count": 800,
-  "added_last_run": 44
+  "added_last_run": 49
  },
  "items": [
+  {
+   "id": "2026-08-21-83593fe01b",
+   "ts": "2026-08-21T12:23:53+00:00",
+   "title": "OpenAI tightens safety controls after AI agents keep going rogue",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHNhVGxWWlZ6cFJfZ1NxYnRzMmxrQS1xb0xRQVdfczdBeE1jZWNNYnhhWExSUGhsc0JHMnplSnZzdkZ5a0M0TEZNYmRLSlZiYjY0OGpES1NnalNnQ200MkpwdEI3dmwwYVRsdVdIWERyaERiYkF2UUlYaUFDTTN5QW9QUy1rNkt2U25HYy02VDZpQTNUbVJwVGdqdW5pMEFxeC1IUjFjVi1hWC1vV3M2UHkwVWl3bnF4WFFReFpjNA?oc=5",
+   "outlet": "The Daily Star",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Regulatory",
+    "Product"
+   ],
+   "companies": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI is tightening safety controls on AI agents following repeated instances of autonomous systems acting outside intended parameters, signaling increased compliance and governance overhead.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-6560c51eb3",
+   "ts": "2026-08-21T12:21:00+00:00",
+   "title": "Anthropic Plans to One-Up SpaceX in Race for AI Dominance",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95NXd1SG9tN1JfUFQwZC1UdHdGdE1QWEFCbTlYYnhoaUdqS3ZzMmxZeWdFbTJ0T3gyWHBobkJlQ1dIYXBObi1TaWVnam1rYnZmMjhZRkZYbEp3Z2s3MFBFWDVCX0d1VmhtVjFkTGt3emNPN2s?oc=5",
+   "outlet": "Barron's",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "Capital Raise"
+   ],
+   "companies": [
+    "Anthropic",
+    "SpaceX"
+   ],
+   "summary": "Anthropic is reportedly pursuing a strategy to surpass SpaceX in AI dominance, suggesting aggressive capital deployment or fundraising ambitions that bankers should monitor.",
+   "importance": 2,
+   "deal_status": "rumor",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-08-21-06042cc8fc",
+   "ts": "2026-08-21T12:20:33+00:00",
+   "title": "Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836)",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc1JJUGQ3MUxqdTRETE4tZ05CLVQ5N0dMd3RNN3llTmo5Z3l1RlpoaEpTVDd2VkFqYjd2RkZ6bDhQbjFTVkJNQ2p3RlM0THB2RGp3QldRdGY5aWxNYTYtMXl1VlJwV1RUUnNfSWJvckZXYmNlMzZlZVkwc0V1Q1dQbVFBdVhlYU9xU0Z1U1lYSUx4M293UlE?oc=5",
+   "outlet": "Help Net Security",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Microsoft"
+   ],
+   "summary": "A critical actively-exploited vulnerability in Microsoft Entra ID raises regulatory and enterprise risk concerns that could affect Microsoft's cloud business and enterprise contracts.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-a760e59dc5",
+   "ts": "2026-08-21T12:18:44+00:00",
+   "title": "Nvidia pays $6bn for Poolside's model factory",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoTzdZUDI2MWFaYjNWWFM3d0hRUUF0R2xpNzljM0pqbi11cUtfQ3hKdjhBY1hrbnBVNFhBbzFRNjlJaXZ1TUpCY3lsRHVHQVhnR0V1OW5ReUdvdENncjZtMWRhX2g0ZVBRZG5oampwcjB1Tnk5dFlRTQ?oc=5",
+   "outlet": "The Next Web",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "M&A"
+   ],
+   "companies": [
+    "Nvidia",
+    "Poolside"
+   ],
+   "summary": "Nvidia is acquiring Poolside's AI model factory for $6 billion, a significant M&A transaction that expands Nvidia's position in AI software and model infrastructure.",
+   "importance": 3,
+   "deal_status": "announced",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-08-21-ebb1b2d3dc",
+   "ts": "2026-08-21T12:17:31+00:00",
+   "title": "Broadcom stock drops 13% amid Treasury yield ri...",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNmhCSUh2aFZhWEgtZk1LeHZZbkE0MGtoOERRMi1wQnZsVkVzaklrWnVialNYRDh1UFRlSEpPZ1psOG5rd1NaNGJzQkFObVc1b3dwejEyVF9LODFLejVOaUZsUFA4X0tvMUViOVdXbFIyWnFycWluU1dkWEFFdUJTZ1VnTWpKRWRaajJ6b25RUWQ5b2huRUpvalBPckgxLTJrTlBWOFRVaE0tY0V4bHJranl3?oc=5",
+   "outlet": "Pluang",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Markets & Macro"
+   ],
+   "companies": [
+    "Broadcom"
+   ],
+   "summary": "Broadcom stock fell 13% amid rising Treasury yields, reflecting macro-driven pressure on high-valuation semiconductor names.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-4b7219b038",
+   "ts": "2026-08-21T12:17:30+00:00",
+   "title": "NVIDIA and Micron report huge earnings, defying high Treasury yields with strong AI and memory demand.",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZWhOa2o5M0FEcTE1ZDZjUnJDd0k2ekpSbU9pRGZ1dEdZSHc1dnVybGRfSVYzX2VobHlMMUFPNEh0UjdPVG5FWHlhTVpObkhCV1ZiLWJzQ2xydEtNdFFieTNzeVZqQzAxa3RIMUhhQ0ZjV1Q2ZU4xWS00U1NGMWZKME8yMlZHci1uRjFkaVMxZzhmQ0JFS0h2cmE1SzZaSi1V?oc=5",
+   "outlet": "Pluang",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Nvidia",
+    "Micron"
+   ],
+   "summary": "Nvidia and Micron reported strong earnings driven by AI and memory demand, defying macro headwinds from elevated Treasury yields.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-dd4b94947a",
+   "ts": "2026-08-21T12:17:04+00:00",
+   "title": "SK Hynix banks on optical interconnects to defend its HBM crown",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTzhvaklZMUMxdXVteW8yTi1ENmw3cWFzeWUxcG9aOC1MWkl2VkFYb01jb2VMMnEwUEJ6OUtjRWFhOEw1MW5KdEFNUmdZSXl6bHRra1ZXR2tEelJjVnRvLS11dGpFRkxRcDl4emFyVXZnemZJUkV5U1VQN2RsdDIwNmprRzNoMDRrMFRleVl3cVRPVFE1T1JaeG1wOTg?oc=5",
+   "outlet": "SDxCentral",
+   "also": [
+    {
+     "outlet": "SDxCentral",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTzhvaklZMUMxdXVteW8yTi1ENmw3cWFzeWUxcG9aOC1MWkl2VkFYb01jb2VMMnEwUEJ6OUtjRWFhOEw1MW5KdEFNUmdZSXl6bHRra1ZXR2tEelJjVnRvLS11dGpFRkxRcDl4emFyVXZnemZJUkV5U1VQN2RsdDIwNmprRzNoMDRrMFRleVl3cVRPVFE1T1JaeG1wOTg?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product",
+    "Partnership"
+   ],
+   "companies": [
+    "SK Hynix"
+   ],
+   "summary": "SK Hynix is investing in optical interconnect technology to maintain its leadership in HBM memory, a strategic move relevant to competitive positioning in the AI chip supply chain.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-a52ae929aa",
+   "ts": "2026-08-21T12:15:37+00:00",
+   "title": "Meta's Vibe-Coding App Pocket Is Now Available in the US",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZUM5YWQwTlNBR2tYQjBid01kVHkybVI2eG5wWTAxYTMyT0tNSmZTd2pmX09NWmhhV0k5dzRTYXE5MzlLUkxFaS1XZHItSUVzYmVmWlUtem9ZRzI3ejhSZW5yY0s2ck9HN19Cdk9pM3lQYmZseS1TM1A2QkR5MXh5UGtZZ1ZZR0dYR3BULUpuY0JUN2hVdlpzY0J3emZDTkJGdU9B?oc=5",
+   "outlet": "Android Headlines",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Meta"
+   ],
+   "summary": "Meta launched its Pocket vibe-coding app in the US, expanding its AI developer tools footprint and competing in the emerging AI-assisted coding market.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-eba0a82b1d",
+   "ts": "2026-08-21T12:15:00+00:00",
+   "title": "When it comes to stock buybacks, anything SK Hynix can do, Samsung can do bigger",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTEhCNjVNYzgxV1c5bkNlY2RMbThNWTNsc3BWeTBnZjd6OHM0cjNpdXA2bUFwQjRTVHJPeHFBZG1tWF9qUlJNVW05V2Nwbmc2dlVFWmsyb3pzLURhX0ZtYzlUZmc2U041MVZTMkRONThGS0FYUTYydzhLTjJsQVc2VU9QYVdxZ2xuZl9NMTNTd2ZxNVVLSnJSOE1Wblc1dkZNRWVRMXJSS056RnFYckFmMlZmTjdEM3owV1F1eV9fTlY0UktmNW9OZVNRLTRFR1ljdGg4?oc=5",
+   "outlet": "MarketWatch",
+   "also": [
+    {
+     "outlet": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTEhCNjVNYzgxV1c5bkNlY2RMbThNWTNsc3BWeTBnZjd6OHM0cjNpdXA2bUFwQjRTVHJPeHFBZG1tWF9qUlJNVW05V2Nwbmc2dlVFWmsyb3pzLURhX0ZtYzlUZmc2U041MVZTMkRONThGS0FYUTYydzhLTjJsQVc2VU9QYVdxZ2xuZl9NMTNTd2ZxNVVLSnJSOE1Wblc1dkZNRWVRMXJSS056RnFYckFmMlZmTjdEM3owV1F1eV9fTlY0UktmNW9OZVNRLTRFR1ljdGg4?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Samsung",
+    "SK Hynix"
+   ],
+   "summary": "Samsung is reportedly planning a stock buyback larger than SK Hynix's, a capital-allocation signal relevant to semiconductor sector investors.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-3c1191ccf4",
+   "ts": "2026-08-21T12:13:36+00:00",
+   "title": "Rosenblatt reiterates Terawulf stock rating citing Anthropic deal",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPckkxNmsweEVaamZHTF9UeWJEY3IycmEwVzdiamxfZFdQUXE0cjBVTkU5aWpGSkt0ZFMwRkZYcVhSTkNmYjhxT3QzSDJGS0pvdkpkU3Mydk0weVE2M1JjYUczclR3NXVWNEFJY1Jzd3VRTkd4NGMzQW90Z0hybDVvM2FtWUV0ckF5MGEzbFpveVNxNFByVTF2U3Vpc0N6SUN5SWR3aE1OY1R4aXFRbTdOYnd3V295ODQ5TS1EbzF4REVkQU0?oc=5",
+   "outlet": "Investing.com",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Terawulf",
+    "Anthropic"
+   ],
+   "summary": "Rosenblatt reiterates its Terawulf rating, citing the company's deal with Anthropic as a positive catalyst for the AI infrastructure data-center operator.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-9cd553b60a",
+   "ts": "2026-08-21T12:13:14+00:00",
+   "title": "Broadcom's $100 Billion Credit Gambit Puts a New Question to the AI Trade",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTm1yYVVFNWpyR2s1aFVOVFAzNXRERW50NzZ2c2dROWVpMmNKcWhFZFB5WXViN0VmUDcwUklQaWh3ZktZTzJsdTA4Q0RoQ0FpbmVLcUkwQXJtMDNOaTVKQjJVVExkSkJFZTgyeDhDMDhtaG42UWkzWXM5aUZsd0FkYTBEak90SjY4elhKQ1A2Mk9rdGdQVGpSaG5NZ1pHRmpCVnQ1RnZQeHpiNnQ3dXVPbHY0V2JlX0tEdUZ5LVkxTUFRbVpsQVMyTmNLbU5pTDJjYUlIQTNDclhZNzh2?oc=5",
+   "outlet": "Ad-hoc-news.de",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Capital Raise"
+   ],
+   "companies": [
+    "Broadcom"
+   ],
+   "summary": "Broadcom is reportedly pursuing a $100 billion credit facility, a landmark leveraged-finance transaction that raises questions about AI-driven capital deployment strategy.",
+   "importance": 3,
+   "deal_status": "rumor",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-08-21-61e2e73526",
+   "ts": "2026-08-21T12:12:22+00:00",
+   "title": "Artificial Intelligence (AI) Accelerator Chip Market Forecast",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUg5VEhUbFNGamMyZS05TTRtZlgyTVdHa1lPZWxfY0FrcW04SnBpcmdvaGhldlZuWmR2LVVCelNYc3Jscnk1YkdMbFN3ekl5LXhGQkY0WHpycW14VXBxNUtHV000SWxJMjZZWHEwclVPRjZtWHlDY25OczFhZ3Z2elZxaGNPNXZyejZWTDd4SzhGS0psX0ZEQzV3RQ?oc=5",
+   "outlet": "openPR.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [],
+   "summary": "Market forecast report for AI accelerator chips released, providing sector sizing data relevant to semiconductor investment theses.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-52804cb8e1",
+   "ts": "2026-08-21T12:11:15+00:00",
+   "title": "Nvidia Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QWlVCSFdjczRYZFFaU0hMZWtkNTdUcm0wUHRsWXRYWWc3Z2RIQjJxeFBqdXh1TzR0MklxRERYQUlmcmNPNENtVDNCdjFEVTNTaEpGTmNhS3NsYmRTeFp2MGsxY1F0eE9zeGtQWFRIMEY?oc=5",
+   "outlet": "Intellectia AI",
+   "also": [
+    {
+     "outlet": "Intellectia AI",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QWlVCSFdjczRYZFFaU0hMZWtkNTdUcm0wUHRsWXRYWWc3Z2RIQjJxeFBqdXh1TzR0MklxRERYQUlmcmNPNENtVDNCdjFEVTNTaEpGTmNhS3NsYmRTeFp2MGsxY1F0eE9zeGtQWFRIMEY?oc=5"
+    },
+    {
+     "outlet": "Intellectia AI",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QWlVCSFdjczRYZFFaU0hMZWtkNTdUcm0wUHRsWXRYWWc3Z2RIQjJxeFBqdXh1TzR0MklxRERYQUlmcmNPNENtVDNCdjFEVTNTaEpGTmNhS3NsYmRTeFp2MGsxY1F0eE9zeGtQWFRIMEY?oc=5"
+    },
+    {
+     "outlet": "Intellectia AI",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QWlVCSFdjczRYZFFaU0hMZWtkNTdUcm0wUHRsWXRYWWc3Z2RIQjJxeFBqdXh1TzR0MklxRERYQUlmcmNPNENtVDNCdjFEVTNTaEpGTmNhS3NsYmRTeFp2MGsxY1F0eE9zeGtQWFRIMEY?oc=5"
+    }
+   ],
+   "source_count": 4,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Nvidia"
+   ],
+   "summary": "Preview and investment outlook ahead of Nvidia's Q2 FY2027 earnings report, a closely watched event for AI chip demand signals.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-6e7cbe4732",
+   "ts": "2026-08-21T12:11:04+00:00",
+   "title": "NVIDIA (NVDA) Invests $10 Billion in Poolside's AI Development",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd1V0TlJ6TFl0c0dXRjliNXlSSUt5ZDdrcVZqSUozQzhyRGVDZkFaRW5KUVp1cm94bUF4UXBnOXFpa3k0ZkhzeU5Sd1JtME1ObkdfcnlHSVNKUEhJOUgzd2h1RDhDeXRiTkJrZlRmcjB5dExIbXl4M1l4cWZhNjZzMmJXM3NSWEhqYlZWOThPNHoyNm1WUnRubXkxQ0ZnZw?oc=5",
+   "outlet": "GuruFocus",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Capital Raise"
+   ],
+   "companies": [
+    "Nvidia",
+    "Poolside"
+   ],
+   "summary": "Nvidia is reportedly investing $10 billion in AI coding startup Poolside, a major strategic capital deployment that would be one of the largest single AI startup investments on record.",
+   "importance": 3,
+   "deal_status": "rumor",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-08-21-0835d9a440",
+   "ts": "2026-08-21T12:11:03+00:00",
+   "title": "NVIDIA (NVDA) Initiated Coverage by BMO Capital -- Rating Outper",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ3Z1RS1jU2tRYUV5anFSMGNtbTJES3V5dm1UZnU4dlUwZEZRVU1SRkZRM290NzlyT2djMF9ZRUJXN2M1Z2RJZEQ2TG1sUFNGNFNuSlUzUHdBZDdpbHo0LTlRVUZmN3MxcllZaFgwaFFZMDVYekJOY25qRzdUR1h2eThoUlB6cEU0dEtjRVpmZFI2dlJtTmk4R3FxdGNjZXhYd3ZGeQ?oc=5",
+   "outlet": "GuruFocus",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Nvidia"
+   ],
+   "summary": "BMO Capital initiates coverage of Nvidia with an Outperform rating, adding institutional analyst coverage ahead of earnings.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-54b9cd1b34",
+   "ts": "2026-08-21T12:10:00+00:00",
+   "title": "Nvidia Stock Is Trading at 33X Earnings, Its Cheapest Price in 5 Years. Should You Buy It Before Aug. 26?",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS212LWRhWnBDTDMyaGNsNWxtV0ZTZDc5WUQtNXNKMzdNLWNYQXB0RjRSMzNrMTVoRy1CVUdyYmVHOTNRY0pDRTk0SV81WUladHlhTTNrOG5LQ2JLSmt2X1NraHdhaGxUeE5vVVhSTnhVVWNJMHplRHlKcmdnWHliMll0YlVkN0t1TmYtQg?oc=5",
+   "outlet": "Currently.com",
+   "also": [
+    {
+     "outlet": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMlNIcmRwMElBYmVpVkExaHdBZGRucUkwcDVvZmI4NVpwSklCNDBfbnJKRGd6akp1cmYyN1lxV2tnQnRYMGpuZGFnaC1kY3A2ZV96SU5CVTNYM1FUOVE0b2c5M08xdWx0eHRnVnhVNVZvbzNGZXJTNjM2NUFMXzU5LWphZFk3M3pHUlFrUEJoTQ?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Nvidia"
+   ],
+   "summary": "Nvidia trades at 33x earnings, its lowest valuation multiple in five years, framing the risk/reward ahead of its August 26 earnings report.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-b321bf9447",
+   "ts": "2026-08-21T12:05:11+00:00",
+   "title": "Tech layoffs tracker 2026: All the job losses across TikTok, Meta, Microsoft, Oracle, Samsung and others",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUmhFcS1SU2xaNnN0MmxqaGlaNHV3VEdyQ0dNaUNnbVMzYTZmM2pKY2d4TEJkY1daQ2c2a09ZbnNwZW96MmJNTlJiM0RtMnpacFBZQVZYc3pseVowUVRsT1Q5SEp1NnNHRmZPeDV1a3RzcnFhWE9PRnNrRnJuR2FEbkEtcERHZ2ZCZEM4bXNZMThLNHdRZm1XSk1wN0Fnc2oyeEpremxiR2RTcUVWQXZiSnN3cWJTUzlwZ3MxNDRQS2xaR0ZZcE1OcmJyNnZldkp2eDYwano3eHM3bUhKdkpRUHhtY1Fyd2VJ?oc=5",
+   "outlet": "Yahoo Tech",
+   "also": [
+    {
+     "outlet": "Yahoo Tech",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUmhFcS1SU2xaNnN0MmxqaGlaNHV3VEdyQ0dNaUNnbVMzYTZmM2pKY2d4TEJkY1daQ2c2a09ZbnNwZW96MmJNTlJiM0RtMnpacFBZQVZYc3pseVowUVRsT1Q5SEp1NnNHRmZPeDV1a3RzcnFhWE9PRnNrRnJuR2FEbkEtcERHZ2ZCZEM4bXNZMThLNHdRZm1XSk1wN0Fnc2oyeEpremxiR2RTcUVWQXZiSnN3cWJTUzlwZ3MxNDRQS2xaR0ZZcE1OcmJyNnZldkp2eDYwano3eHM3bUhKdkpRUHhtY1Fyd2VJ?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "TikTok",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Samsung"
+   ],
+   "summary": "Ongoing 2026 tech-sector layoff tracker covering multiple large-cap names, relevant for headcount and cost-structure analysis.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-6c6f84fe16",
+   "ts": "2026-08-21T12:04:42+00:00",
+   "title": "Micron CEO Sanjay Mehrotra says AI has changed memory demand",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkSEFIZm42cXVtS3oxVmtNNDctb2paWEp5TlRmdWRBa0VMdzdlQlpRUnZmTFpPdWw2YnVLV0R2a3NENzNfRDdZMFhZRHcxRlp5aE43a3AtTTVPN0p4NXBiNVdfeGtYb1dtelVGVUFn?oc=5",
+   "outlet": "qz.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Micron"
+   ],
+   "summary": "Micron CEO states AI is structurally shifting memory demand, signaling a potential upgrade cycle relevant to memory-sector positioning.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-54a211ca51",
+   "ts": "2026-08-21T12:03:41+00:00",
+   "title": "Amazon.com (NASDAQ:AMZN) Rating Increased to Strong-Buy at Rosenblatt Securities",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSHZyYmRJN3NYNkNfRXdHZWIyNW4xVWYtZ0o2cEZYdjhFM2tORjZYVVFGczlNQTgycU1yZm84U0U5UGhFZENjcjRoM0IweXlqNDVYUDRMZE0xTmZxMkR2eThJd3hZcDV6SEp6V2ctUW9EblpQcUw3d2NtM3pXMC01R19oMHhaQjBxQXZtcXRiaWpVQ0Vod3U5Vjc0MTlscXlzYkptMlJVV2pWWUdpTkNXN2lpVjQ3V2VHV3gtOVBtVms5LVZVYjhoUEtR?oc=5",
+   "outlet": "MarketBeat",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [],
+   "companies": [
+    "Amazon"
+   ],
+   "summary": "Rosenblatt upgrades Amazon to Strong-Buy, indicating positive sell-side sentiment shift for a mega-cap.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-cf2ede92a9",
+   "ts": "2026-08-21T12:03:40+00:00",
+   "title": "Micron Technology (NASDAQ:MU) Downgraded by Zacks Research to \"Hold\"",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdEp5dWtCcS1Tei1MTlR5bVBXbkJpVzhPeWNvdUdkaUxFdEV0emxVLTRUaDVkekNPWWstM08tVDJUUkNRZk5hN3VWYUYzQWxubVNoQWFsenNqZ0FobHU1QlJuTVNEX1B5MFZMRFh1ak43a1J0dGxFVmRCcmc4TWtYY0pqYXFkWkJaUFcxRzFSQ19CZzBvRHRzbWx3QUVfRUtJdXVVeGFtRzNfSFliMkF5S1ktTmdOTUtw?oc=5",
+   "outlet": "MarketBeat",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "Micron"
+   ],
+   "summary": "Zacks downgrades Micron to Hold, a negative sell-side rating change for a key AI memory supplier.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-4af1ac8ff8",
+   "ts": "2026-08-21T12:03:40+00:00",
+   "title": "Alphabet (NASDAQ:GOOGL) Raised to \"Strong-Buy\" at Rosenblatt Securities",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYmtSdmoyMDhOQ1psQWVWbmh5cXBybU1iX1hlSzhXOURhQk83cG9sMnJQNnBJQlhZdmE2Vm5faG81ZFMyZjhYVnhuQlhacDhrTXM0WVNjeHhNLWNmXzJkblhXT1Q1aUpCVkxEOGNGdjFZdmp2V2NYdWlYV0FXWnNPWkd5Ri12b04zeXgxUDJHX2VfUGdYcUd0V09HMXdoZUFtQnNBdHYzdzZzb0UzM2hpT0dxVWRCNmViN1RfQg?oc=5",
+   "outlet": "MarketBeat",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [],
+   "companies": [
+    "Alphabet"
+   ],
+   "summary": "Rosenblatt upgrades Alphabet to Strong-Buy, a positive sell-side rating change for a mega-cap.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-b50222a03f",
+   "ts": "2026-08-21T12:03:00+00:00",
+   "title": "AMD now ships more than 30% of x86 PC CPUs as Intel's long-held lead keeps shrinking",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSzMxcnFWRlFUaEdPaUFmVVJ2LUN6VldhZEN3dDR4UDBTczVuVzgwUEFBck15VkZMdWVTakJ2LXI2X3JaOWI1NU1YeVkwZlNpdFdXNjJRdXZoYnhKWGVWUmNmc0l1N3ZvVkZoM08za2JhYXJ2ZkpNU2dBX2tXLUxHZ19hNlVJeE9GbG1rSTNnR1FFQQ?oc=5",
+   "outlet": "TechSpot",
+   "also": [
+    {
+     "outlet": "TechSpot",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSzMxcnFWRlFUaEdPaUFmVVJ2LUN6VldhZEN3dDR4UDBTczVuVzgwUEFBck15VkZMdWVTakJ2LXI2X3JaOWI1NU1YeVkwZlNpdFdXNjJRdXZoYnhKWGVWUmNmc0l1N3ZvVkZoM08za2JhYXJ2ZkpNU2dBX2tXLUxHZ19hNlVJeE9GbG1rSTNnR1FFQQ?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "AMD",
+    "Intel"
+   ],
+   "summary": "AMD crosses 30% x86 PC CPU market share as Intel's dominance erodes, a notable competitive shift with implications for Intel's revenue trajectory.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-9b77a920f1",
+   "ts": "2026-08-21T12:01:00+00:00",
+   "title": "Pearl Diver Credit Company Inc. Schedules Second Quarter 2026 Earnings Release and Conference Call",
+   "url": "https://www.prnewswire.com/news-releases/pearl-diver-credit-company-inc-schedules-second-quarter-2026-earnings-release-and-conference-call-302857004.html",
+   "outlet": "",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Pearl Diver Credit Company"
+   ],
+   "summary": "Pearl Diver Credit Company (NYSE: PDCC) schedules Q2 2026 earnings release and conference call for August 27.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-8b7cf47f6d",
+   "ts": "2026-08-21T12:00:55+00:00",
+   "title": "First Look: Walmart, Nvidia, Alibaba, and Paramount-WBD in Focus",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2dqak82dEJEZjJZOUNrcUdfUGt2Q01DV1paaHlTLXJYc25BVV9ZR3RqTndiNmIwQVItOTd0RjlFam55ZWZYaS1CRmpLNF9ZcW1NVklDcnJPX2JhTlZSMnhIdGM3YjZtOEI4bFZpaEpyYWloZmlmbzREX2FhcFU2QVVMeGdrSzFwQXpBOERNWHlYTktzb2FRaGtfSVNOaUk?oc=5",
+   "outlet": "GuruFocus",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Walmart",
+    "Nvidia",
+    "Alibaba",
+    "Paramount",
+    "Warner Bros. Discovery"
+   ],
+   "summary": "Market preview piece highlighting earnings and corporate developments at Walmart, Nvidia, Alibaba, and the Paramount-WBD situation.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-a07ea05f9d",
+   "ts": "2026-08-21T12:00:54+00:00",
+   "title": "Stocks making the biggest moves premarket: BJ's Wholesale, Broadcom, Ross Stores & more",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMnR4SEtfRTAxaEFTelIxczFqcWszOVphTlhuMHVCSVRYWk9lbjhMcHBXR1h2WXk5djRDN1YwVlh4VFM0NU1qQ1lUc3JZOVF3bUhnVDNrRlIxZ2JHNWFPc1Z0MTQzenUzOGxGRHl6Qll4R3l4V0dzMXJ6TG5JYzc4d0hrbERvZEVyam4zT21GVmw1TVgzakZHRUJncw?oc=5",
+   "outlet": "CNBC",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "BJ's Wholesale",
+    "Broadcom",
+    "Ross Stores"
+   ],
+   "summary": "Premarket movers note flags Broadcom among key stocks seeing significant price action, relevant for semiconductor sector watchers.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-3b88bc4f58",
+   "ts": "2026-08-21T12:00:49+00:00",
+   "title": "Something Big Could Happen To NVIDIA Stock on August 26",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUXB2bFg1NHU4SzRKbmV3bFNtNVFHZTVrOGVsWDB0d1hFbm8tZjRDSnJNVVlZQjNPd2M5SG05Q0xhRE9nZGVxWnJQTUlrSUt5aDdYVDA5NnpaX2ZUa1J4REZvVDdVYzduclhiTG42QmNGb0owN3FhLUFqbUw2TXI5eFpvQkVNUjFFTHNIcXBjM2txWlBCTi1CbzdRNEpsOExf?oc=5",
+   "outlet": "24/7 Wall St.",
+   "also": [
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa28zUW8zb3c2Mk03b1p3RTFLOHRLTVFQR0Zoc0s5T1ZkRUNYQmxOalUwbzA0bmVNZUloRHdQbV9jZWJMQ0lDd3dJdjlfZDM1WFBSUExKY0t2Y1FKZF9KLWlHWFE3VXF2T0tNU1dIVlVPam1GZTBrMFd2X2dBRjVHa0F0SU04V25mY0pQU1B4Z044VDBqTGZxQnl3TzE4UEU?oc=5"
+    },
+    {
+     "outlet": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSzZ3NkxWZUVQdzYweWxIY0VhN3dTdlJzbGtkbEc4TTllR254TzZWTnowcWQ4U0pBMFJuN0xxZGhNbDhXekhWZFFrT2NaT1p1X3Jjc2ZXWDV1Nm1JMUp3RG1DT243UGpaRGxDT3RPbE1MTElURmVLYkJHc2pleGlCb3B3OA?oc=5"
+    }
+   ],
+   "source_count": 3,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Nvidia"
+   ],
+   "summary": "Article anticipates a potentially market-moving event for Nvidia stock around August 26, likely referencing upcoming earnings catalyst.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-e22fe226ee",
+   "ts": "2026-08-21T12:00:00+00:00",
+   "title": "Micron commits $10 billion to new US-based Research Labs — Boise hub to target post-DRAM and NAND technologies and packaging",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUnFwWXFIVy0xVzVydnFPdVNvQmZwc0R2OERoZHBxUFVEUlpvb21abWlEOXZiWEN3dTE4OFR6bkU4WjBpZC0yWk1XN1dSTEFudmxnU3RkVDZFaTdCbG41V2tnZEhLVmN1SW8tT2JxSjhYaC1hVkV3ZFhHNWRZUHJfYkdWXzktbTltZ2tmR2Z5UDlsY2dfVG5LYmNxZ194U2IzWnAtSDhjZVNxUDE2TVRvSkxyYzNGNWQzWlJac1hxNG00bUgxTVRHdVdOV2tIZTdkdEFoRkxxR1VNb1JGdDRDeXZkT3hiTVk4ZzJQNWxrMXRkN2lVUTlWN2tNSQ?oc=5",
+   "outlet": "Tom's Hardware",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Capital Raise",
+    "Product"
+   ],
+   "companies": [
+    "Micron Technology"
+   ],
+   "summary": "Micron commits $10 billion to new US-based research labs in Boise focused on post-DRAM, NAND, and advanced packaging technologies, a significant domestic capex commitment.",
+   "importance": 3
+  },
+  {
+   "id": "2026-08-21-d3aa8e684a",
+   "ts": "2026-08-21T12:00:00+00:00",
+   "title": "American Idea Foundation and Digital Asset Partner to Launch First-of-its-Kind RISE Benefit Distribution Pilot on Canton",
+   "url": "https://www.prnewswire.com/news-releases/american-idea-foundation-and-digital-asset-partner-to-launch-first-of-its-kind-rise-benefit-distribution-pilot-on-canton-302856957.html",
+   "outlet": "",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "Partnership",
+    "Product"
+   ],
+   "companies": [
+    "Digital Asset"
+   ],
+   "summary": "Digital Asset and American Idea Foundation launch a blockchain-based government benefit distribution pilot on the Canton network across three states, signaling early public-sector blockchain adoption.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-8c2e81c636",
+   "ts": "2026-08-21T11:57:11+00:00",
+   "title": "Waymo Discloses First Custom Chip: 5nm TSMC Automotive Silicon in Every Robotaxi",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS0loTzNheHdyc2tOVVpSdWhmQmx4c0tiZVpGUXc4RHE3R1RPbEFmbU5NcVd2djhSRVNFdU9jcWduTXRsM0l0MFJaQWQ4YnR4ekE4bzdGTlBkMk1Gb2pqakJpNjg3WHdLbkxsaW9mbkZxX0lOZlc3WnBiV1VrV1JKWEh4azFWaFBVWVhBUUdqSFBCbnduNjBidmpKajhOb1dTaFNaWml1a1A4TG9PTnJod0FSWlhqbnVqemlzZERuZlNkNVF5NzBOMXd5VQ?oc=5",
+   "outlet": "Tech Times",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Waymo",
+    "TSMC"
+   ],
+   "summary": "Waymo discloses its first custom 5nm automotive chip manufactured by TSMC, deployed across its entire robotaxi fleet, signaling deepening vertical integration and a new fabless customer relationship for TSMC in automotive AI silicon.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-4dd3906553",
+   "ts": "2026-08-21T11:55:17+00:00",
+   "title": "Alibaba Cloud plans to lean on its self-developed chips moving forward",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeW9RX1JtTnhNOG90XzVzeVVqaXJnd3RvWVZ4Mzg3MFAyaFhZaVpTc0xHQldaejV2dTU0RW1leU1vMUxhRElCb3JBclFvUVFTcnVjRlZXdURkdFZYeXRvVWNCN1dDelcxOV8yR1JwVlZnSEdBZmtrQTNVM1pwZk1NWW9qUzlBY19mdktvQVNWekpvcHJGQ1JnX2hJM1VVZFo1cmFoLWg4WVlramFDd2xWRXM4S08?oc=5",
+   "outlet": "Data Center Dynamics",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product",
+    "Partnership"
+   ],
+   "companies": [
+    "Alibaba Cloud"
+   ],
+   "summary": "Alibaba Cloud signals strategic shift toward proprietary chip development, reducing dependence on third-party semiconductor suppliers and affecting data center capex allocation.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-3954421b27",
+   "ts": "2026-08-21T11:54:54+00:00",
+   "title": "삼성전자 DX노조 2천여명 집결…\"경영실패 책임져야\"(종합)",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1EU01ISWNhekZYNElCMGwyek5tU3ZnY3Z6T2szT2RqRHZkZU9JcEMxUWdKRklmRE5iVjFON3JwRmt4Ny1VeXZyekdyYXIyV3c?oc=5",
+   "outlet": "v.daum.net",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Electronics DX division union mobilizes ~2,000 members demanding accountability for management failures, signaling potential labor disruption at a key business unit.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-672fb4fd1e",
+   "ts": "2026-08-21T11:52:00+00:00",
+   "title": "Broadcom Strikes Back: 8 Key Items Shaping the Stock Market Friday",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN21PR1Jvd1hRQjBsSHVpb2RuTDkwU2N3ODhvQ2otVTc0UFlSZlpnQkJ6U3FKX0RKbFNMVkRSZ0dGX0RMOUE4MFk2dlZzZE9Kd3F3eWUtR3h5U2RTN2lSVkhPYUpsdTB2QjJ1dUVkSlRtSjRGeXdHeGN2NkNlSDZwYUZPRkFwVFcyeUpmUnJZSEZZTHVJZkx5LWN0dDBISjRrUVlv?oc=5",
+   "outlet": "TheStreet Pro",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Broadcom"
+   ],
+   "summary": "Broadcom cited as a key market-moving factor for Friday's trading session, suggesting earnings or guidance news relevant to semiconductor sector sentiment.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-03045f98a2",
+   "ts": "2026-08-21T11:51:52+00:00",
+   "title": "Mizuho reiterates Oracle stock rating on VA contract expansion By Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeEdweXFtNUg5dThQODBUVzEzUWQyNF9ET1VmaWNNUmoxZDQta05nZ0VUY19QRUNUSVhZc3h3ckR3bFlsb2xNTUhDR29EM2Rsa0xvS1BFdGxiMUJnQnpBWU1ZQTZQNHNoUTRZYXE1cWdRWTMxd3laM21WVE1TQU81elZnWXlkbXVFVW55c2hkTWtWZ1JEQ2VJT2ppNUlxNlZLQTdxOU83RWs1aEgwcmJXaUQ1UHBYeEhVTDdMZlUyR2c?oc=5",
+   "outlet": "Investing.com Canada",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings",
+    "Partnership"
+   ],
+   "companies": [
+    "Oracle",
+    "Mizuho"
+   ],
+   "summary": "Mizuho reiterates its Oracle stock rating following expansion of a VA government contract, reinforcing Oracle's cloud/government revenue trajectory.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-e01ba78dae",
+   "ts": "2026-08-21T11:47:45+00:00",
+   "title": "OpenAI introduces ChatGPT for Teens with stronger safety protections, launches film featuring Tisca Chopra",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWUZ1c0IxSFBrWGJ1U21fdjBzX0xoTldvQUdsZDNvQ20wU1BlYzVibXM2NDVZLXhVQmlLUjJVdVdRR2RuUWZsaC1xR1FUR3kwSlBIM1VPQ3dBZ285NWdRZkYwSkphUXEyTkt5eHFUcksxVjF4bnRDUHk3LXVxMnUwQUduYUhiSmxrQ2cxSjJ2UTVwNndIOGc0X2JVb2M1aE45a2Ffa2pwQkRlTGdtRHg4a2FhQ2NmNUpxTTZxLUo5SG5YSFlQLWFGeVIzV0ZyRU0?oc=5",
+   "outlet": "MediaNews4U",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Product",
+    "Regulatory"
+   ],
+   "companies": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI launches a teen-specific ChatGPT tier with enhanced safety controls, expanding its addressable user base while addressing regulatory scrutiny around minors.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-6d9676e051",
+   "ts": "2026-08-21T11:46:58+00:00",
+   "title": "This Nvidia Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Friday",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPRTBINU1HYmhpRmZBcE5IcjlicENBbkNRWXRjZktxR3ozalFqVThKdHNUeEh0RGtiaURiNzlBT0JlOEs0UVgzRjFja0JzTGZsMnFWMnRTTTZOZFpXVkpZeVJHN0UzOFJjZlNUOW0zdlI0cHFSeTRDd0FNbXFNWU15TEM3d0I1SVpzYXJseUdqMV9KNFBNblZIR1RTaGhHTndyZ0paMUJYeHBQWmZ6MmhqQlF4Vmp4NFZ5bEcxSDVnREIwUnZoY2lnbldzWmdBNWxzd1pQYll3cE9TTTVMVDJQR3dSbkFKT0k1NVFWdGhMTTdROE5Ha2gwX0lR?oc=5",
+   "outlet": "Benzinga",
+   "also": [
+    {
+     "outlet": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPRTBINU1HYmhpRmZBcE5IcjlicENBbkNRWXRjZktxR3ozalFqVThKdHNUeEh0RGtiaURiNzlBT0JlOEs0UVgzRjFja0JzTGZsMnFWMnRTTTZOZFpXVkpZeVJHN0UzOFJjZlNUOW0zdlI0cHFSeTRDd0FNbXFNWU15TEM3d0I1SVpzYXJseUdqMV9KNFBNblZIR1RTaGhHTndyZ0paMUJYeHBQWmZ6MmhqQlF4Vmp4NFZ5bEcxSDVnREIwUnZoY2lnbldzWmdBNWxzd1pQYll3cE9TTTVMVDJQR3dSbkFKT0k1NVFWdGhMTTdROE5Ha2gwX0lR?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Nvidia"
+   ],
+   "summary": "Analyst initiates Nvidia coverage with a bullish rating, contributing to positive market sentiment around the stock.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-04983b2f74",
+   "ts": "2026-08-21T11:46:55+00:00",
+   "title": "Micron Technology Stock Has Become A Bet On Memory Prices",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaGsxMjBvNXZzdnRMRlBWUDJ4d1lPdVdFd3Q3VHdiWVFBeHVFRlZSMUR5ejZLbC1ZYllMYnBLMXBOVzdKakpqd2ZJOWtXbWhkeDlTVmxhMTduMTd4OE16Rmwybm9OWF90U05Zd3p4QlpjcmxhNzk0R1M0RldIZTVMMWo1ODVscUt4b0F0bnFHSnVFNEVMS2dXVXp4VkhoOEhMdmN2LXZwTmk5MHlyb2YyZy1hNWpTUms?oc=5",
+   "outlet": "Trefis",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Micron Technology"
+   ],
+   "summary": "Analysis frames Micron's stock performance as closely tied to DRAM/NAND memory pricing cycles, relevant for sector investors and credit analysts.",
+   "importance": 1
+  },
   {
    "id": "2026-08-21-0b2acd2952",
    "ts": "2026-08-21T11:45:28+00:00",
@@ -40,6 +764,26 @@
     "Anthropic"
    ],
    "summary": "DeepSeek claims its new multimodal model V4-Flash-Vision-Exp approaches Anthropic's Opus 4.8 in benchmark performance, intensifying competitive pressure in frontier AI.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-96aafcf676",
+   "ts": "2026-08-21T11:45:18+00:00",
+   "title": "NVIDIA Reportedly Locks Multi-Year DRAM Deals With SK hynix and Micron as Memory Shortage Stretches to 2028",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWDVrMlc4V0pzclNVTDNQMXN0NHJHNDdFZlNqUTF5QkNxdkx4Zko5MDJGN3dyQWhpTFhlc1hLSjhYeWJ4ekVxMGE3V3EwUE1UajhuZFgteUsydS1vM19Ya3FiUVBNa0ZtOWRwVmhjWmJ4RFhqZ183X3VhcGJvLTlQek1EcTJROE1CeW1tUk9haU5xYXJrS1AyUGdPTmNqVzFCZjA4Q2hQbVZoeTlzWS1UMU91ak9hazFLV2ZLaDUxZmlWeGM5clhhSNIBzgFBVV95cUxPWmFObWlCQWg0R25waGVxS0N6R21CeG5seTdkbzgyUmFsN3Z1T2hxMjJlVEVVTzhQZFAwR2dQU2RLeGtoWDMwYWV0R3FSUjZZa3pYQjhLT2o1V2xDWUZDMnRCbnFnVnd0a0FGT0VWTWhtS1ZWb05zOWhtUVF4cEYxMXFKU0RsWnlIQktwUGhadjMxV2JjVkVSSEkxNFZoUHBrM3BEMkdJR2NGekI1RDhwbWI2Mmk5RFV6OC1ZVkh3ZTNfVkE0ay1tU2R3X3ZjUQ?oc=5",
+   "outlet": "Wccftech",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Nvidia",
+    "SK Hynix",
+    "Micron Technology"
+   ],
+   "summary": "Nvidia reportedly securing multi-year DRAM supply agreements with SK Hynix and Micron amid a memory shortage forecast to persist through 2028, signaling significant long-term procurement commitments relevant to memory sector revenue visibility.",
    "importance": 2
   },
   {
@@ -316,6 +1060,24 @@
    "importance": 2
   },
   {
+   "id": "2026-08-21-9e1ea430a8",
+   "ts": "2026-08-21T11:32:06+00:00",
+   "title": "Oracle's Two-Speed Reality: Soaring Cloud Backlog Meets a Squeezed Balance Sheet",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVVVqaHRManZmN1UyeEZTcGRIYUM0THIzUDVVbTVhT0hZbzMtaHhJOVhNUk9MbFVlWlJwX3JDSEVZSDlxZF9PbURXNnVpUldYYl90SVRDdmxtRVEtYUVjYlhnT2dvbDdqLXJPdmdPVHo1THFYY0RIcjB3TDdFRDZqTTVWLV9ZR0w4NnBZVHNteUlhQnhpaHhscG90SEk0OTNvVXptbkxYaDRLS2trdmxLYmdPcHM3emRnRFJocExvX2JHN1d3NHEzNXRCRU96ZmpUZEZWeWU3NXA1NmEwNkE?oc=5",
+   "outlet": "Ad-hoc-news.de",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Oracle"
+   ],
+   "summary": "Oracle's cloud backlog is growing rapidly while its balance sheet remains under pressure, a dynamic relevant to credit and equity investors.",
+   "importance": 2
+  },
+  {
    "id": "2026-08-21-1a0376a0dd",
    "ts": "2026-08-21T11:32:00+00:00",
    "title": "BofA Names 5 European Semicap Stocks to Watch as China Import Data Shifts",
@@ -410,6 +1172,40 @@
    "importance": 2
   },
   {
+   "id": "2026-08-21-e8f1abae42",
+   "ts": "2026-08-21T11:26:48+00:00",
+   "title": "Amazon drones launch in Hanover County",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONkMtakZOMW5JVzF0akw3cTlSUEh0RXViZHdoc1p0X1VaNHlNZURPclhiamVOUFdwdUVKUXlWdjNQZW5PZVRjZm80QU9XTXEwaHVoQ3B3VXhvY2p6ZEVHTlBGLVgzQzZNNldyUmtvNk1qZ09RUGRDb1FSdGJkT3NwWUhR?oc=5",
+   "outlet": "WTVR.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Amazon"
+   ],
+   "summary": "Amazon expands Prime Air drone delivery service to Hanover County, Virginia, extending its logistics footprint.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-a2467013fd",
+   "ts": "2026-08-21T11:25:09+00:00",
+   "title": "China, Switzerland agree to new trade deal scrapping most levies",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSHFQUlBncWs0dlFUdTEwX1pIV3BPSEhPVmZTNWJrZlQ1T29TOGxaWElULWdTc2lfZ1FYZEtpaVhZZVJ5WXZoUEgwaVBjOGIwMFFNQzNFTVJPaXVZRHVGQXNrWGpYVGxMUmtMOUQ5eHZXLW55OW5uSEg1NzRYS2ZLSWdpd19CTmpwUWdwa09ENVVYQU5ZTWdHUXpQRUY0SkhpQ1JTT2FuNzI?oc=5",
+   "outlet": "The Straits Times",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [],
+   "summary": "China and Switzerland reach a trade agreement eliminating most tariffs, with potential implications for tech supply chains and semiconductor export flows.",
+   "importance": 2
+  },
+  {
    "id": "2026-08-21-3dfd3ea911",
    "ts": "2026-08-21T11:23:50+00:00",
    "title": "Nvidia's unprecedented US$105bn backstop tees up SB Energy for IPO",
@@ -484,6 +1280,24 @@
    "importance": 1
   },
   {
+   "id": "2026-08-21-b11b84bf2b",
+   "ts": "2026-08-21T11:19:19+00:00",
+   "title": "Amazon may leave NYC over new law banning subco...",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSTBnOFF4cnB5U25BNkRJZGxvTFM2TjdzQzUzQWdlWlhKUGdyNFVBUEpGQ1Bzc1dnWkxOSzZBTGRjbzlKQ29UU09ybnBPb290SWhGVC00ODN0UkVFcmpUTVFtLUI0TmpOQVNMbWJTcmhSb0h0RjlVbUtreVYxbDQ5ZnhPOXpjUXVfak1zeUpWRmlTZw?oc=5",
+   "outlet": "Pluang",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Amazon"
+   ],
+   "summary": "Amazon is reportedly considering leaving New York City in response to a new law banning subcontracting practices, a regulatory and operational risk for its logistics business.",
+   "importance": 2
+  },
+  {
    "id": "2026-08-21-4799609d01",
    "ts": "2026-08-21T11:19:18+00:00",
    "title": "Micron CEO sold shares before Jim Cramer called stock a \"national treasure\" amid strong growth.",
@@ -500,6 +1314,26 @@
    ],
    "summary": "Micron's CEO sold shares ahead of positive analyst commentary and strong growth signals, raising potential insider-timing scrutiny.",
    "importance": 2
+  },
+  {
+   "id": "2026-08-21-368aebf3da",
+   "ts": "2026-08-21T11:18:00+00:00",
+   "title": "Anthropic Aims for SpaceX’s IPO Record",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZkhNQk9nWkkzOHB2bzFsMzdneDJ1Y1ZjRUFpM3gtTzdVZGFMOEhhTlpSS0VKQWpvREdrT01NUVl2ZXYwQ19aa0JkWVdhOFNncTc3RHR4bE1URGRESWEyXzZuLVNPbWYxb0dhRkpRU0t4MlJuUXFfZ2VteHpUZ0E3Y3pCdmNSVlpnYkpiUUZ3UjNfNzM0OXlj?oc=5",
+   "outlet": "Bloomberg.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "IPO"
+   ],
+   "companies": [
+    "Anthropic"
+   ],
+   "summary": "Anthropic is reportedly targeting a fundraise or IPO valuation that would rival SpaceX's record, signaling a potential landmark capital markets event in AI.",
+   "importance": 3,
+   "deal_status": "rumor",
+   "status_confidence": "high"
   },
   {
    "id": "2026-08-21-2c8ec08d65",
@@ -634,6 +1468,31 @@
    "importance": 3
   },
   {
+   "id": "2026-08-21-b793de99b9",
+   "ts": "2026-08-21T11:11:42+00:00",
+   "title": "Memory Stocks Rally Wednesday: SK Hynix, SanDisk, Micron All Jump. Here’s Why",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYjRZcVE1OXphX2lEbzd4VkFVc0lmUDRSOGtsRnhJMVd4VkMzUHhEdXJwb21HOWdLUHVhclJzNGdzT2wxZnBHQV9CSFFKZ3FWSHc4Zk5POXVFN0pVZGowYlpGYUVEVmtLY01xamZBZGszVVl4OEZxdFZleExZdDJUejdn?oc=5",
+   "outlet": "AOL.com",
+   "also": [
+    {
+     "outlet": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYjRZcVE1OXphX2lEbzd4VkFVc0lmUDRSOGtsRnhJMVd4VkMzUHhEdXJwb21HOWdLUHVhclJzNGdzT2wxZnBHQV9CSFFKZ3FWSHc4Zk5POXVFN0pVZGowYlpGYUVEVmtLY01xamZBZGszVVl4OEZxdFZleExZdDJUejdn?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "SK Hynix",
+    "SanDisk",
+    "Micron"
+   ],
+   "summary": "Memory sector stocks rallied sharply, with SK Hynix, SanDisk, and Micron all jumping on a catalyst that signals improving demand or pricing dynamics in the memory market.",
+   "importance": 2
+  },
+  {
    "id": "2026-08-21-c99af6192c",
    "ts": "2026-08-21T11:11:36+00:00",
    "title": "Anthropic thinks upcoming IPO will match or beat SpaceX's in size: Report",
@@ -670,6 +1529,24 @@
     "Micron"
    ],
    "summary": "Micron is deploying a $10 billion US investment in AI-oriented manufacturing capacity, relevant for capex tracking and domestic semiconductor policy.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-9e5ddb5af6",
+   "ts": "2026-08-21T11:10:13+00:00",
+   "title": "Sandisk Jumps 7%, Western Digital Gains 4%, Micron Climbs 3% as the Kospi Returns to a Bull Market",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUVd3N09jaDd3SUZsS3dXcS1FN0REaXBLZVd5bVZyMFRlZ3Y2SlVFcnZldTFCejlvbnlheUhPRjhtS3oxY2o5ZGtIN1Z6S3VyWXk3TWllTTlaenhSbXpjSjJSVUgxS01ITTltcTRkcGQ5Z2dVNkV6TExKN01CNXd5Rg?oc=5",
+   "outlet": "AOL.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [
+    "SanDisk",
+    "Western Digital",
+    "Micron"
+   ],
+   "summary": "SanDisk +7%, Western Digital +4%, and Micron +3% as South Korea's Kospi enters a bull market, reflecting broad positive sentiment in memory semiconductors.",
    "importance": 2
   },
   {
@@ -713,6 +1590,24 @@
    "importance": 2
   },
   {
+   "id": "2026-08-21-e3dba06d2c",
+   "ts": "2026-08-21T11:07:25+00:00",
+   "title": "Will Micron Stock Go Up Another 200% By 2027? CEO’s $10B AI Memory Bet",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS3M2dHJOZTcteUR1SFVNM2dWMnN3eFFKVXdxVnpEV0FNSE1sNXJLZlBEUWZiUk9mQjQ5dTVnUVBCQ0M3QmNNdmtSUDh0bTI5dmgyNFZ1YWxTNjFGUHE3YUpmOWhZd1RpalB3ZTNfTEpxaldfcEl0ZFRCVWh6S0hEbUhUSjNZWGRtN0M4SEIwT255aFptaXBB?oc=5",
+   "outlet": "Watcher Guru",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Micron"
+   ],
+   "summary": "Micron CEO's $10B AI memory investment bet positions the company as a key HBM supplier, with analysts debating a potential 200% stock upside by 2027.",
+   "importance": 2
+  },
+  {
    "id": "2026-08-21-6540c28226",
    "ts": "2026-08-21T11:07:00+00:00",
    "title": "Bank of America predicts big changes for Apple after Tim Cook",
@@ -748,6 +1643,24 @@
     "Nvidia"
    ],
    "summary": "Waymo is developing a proprietary chip for its robotaxis, reducing dependence on Nvidia and signaling vertical integration in autonomous-vehicle silicon.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-9f8f01b762",
+   "ts": "2026-08-21T11:06:32+00:00",
+   "title": "CCP-Linked AI Rivals US Anthropic's Model In Cyber Tests",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YTHAwdjQ1YVY2UGhKTWRpOG9yLU5xRmR5N2FqMTRJdGN6TnhQVExSVHZIVElkcWdtUUMyVmJhZ1dzX2VaWkJwbmpkUnRBRUE3Z0RIU2p4UnVmbFVodHhIN0N4dVo4ZXgtNEIzU0lfT1VzMHlsdlE?oc=5",
+   "outlet": "AOL.com",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Anthropic"
+   ],
+   "summary": "A CCP-linked AI model reportedly matches Anthropic's Claude in cybersecurity benchmarks, raising geopolitical and competitive risk flags for US AI firms.",
    "importance": 2
   },
   {
@@ -1073,6 +1986,22 @@
    "importance": 1
   },
   {
+   "id": "2026-08-21-5ef4a570e1",
+   "ts": "2026-08-21T10:57:31+00:00",
+   "title": "삼성전자 최대 110조 원 주주환원 발표 뒤 6% 급락‥\"실망할 악재 아냐\"",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wRkxfNHZMSF9UODF3Q0JJX3RIcjFZa0lrUlNRaFJlU1J6RGxLSnlUY1BhcEp0R2p5S1ZBV0stQlNRaGxTRjhvVkZTblFCeC1kUjVpYjg3XzU2YlVKUnBUWW13Q1FSVXBVLUN2S2NOTmVZMFpWYW5PZNIBeEFVX3lxTE9fTEhsOTRGa0ZEMlp1QUJXVmJnZV92WEg3cHVTZnVQU3NfTVdiTldWbUFUakt3SUluQmc1dEUzTnpkVkd6V21OZDRlamYydE1OSXhJYVk4eGFXZjBoek1pb0R2amEzeERrR05XR3FKX2ZUT1Y4UlE2Uw?oc=5",
+   "outlet": "MBC 뉴스",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "Samsung Electronics announced up to KRW 110 trillion in shareholder returns but shares fell ~6%, with analysts downplaying the drop as non-material negative news.",
+   "importance": 2
+  },
+  {
    "id": "2026-08-21-ffa02ee752",
    "ts": "2026-08-21T10:57:10+00:00",
    "title": "Microsoft’s Global CDR Strategy Targets Scale and Integrity",
@@ -1221,6 +2150,47 @@
     "Nvidia"
    ],
    "summary": "Nvidia's upcoming earnings are viewed as a potential catalyst for a stalling broader market, with high investor focus on AI chip demand trajectory.",
+   "importance": 2
+  },
+  {
+   "id": "2026-08-21-4382aa296f",
+   "ts": "2026-08-21T10:53:50+00:00",
+   "title": "One year after protest, organizers say Microsoft still needs to cut ties with Israeli military",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMm1EY29MbXlVd2hIYUE1WkhYSk5DeEVNbzB0RmJINmwtQUZlVmFxSlZfYTU0N2UyME93WWgtSC1Tbi03d2hrbkZOUlFrVWk4TTVUQXFnRjdEUkkyR29pTE1zQlM5OXd2UmJpV3diYlEwSC1Qd1FDSW5ONS1KYVFBYUtmSFVOOEZuT2FmZVFxbW5ySlFQZ0FvUzhPbDJ0aEU?oc=5",
+   "outlet": "Yahoo",
+   "also": [
+    {
+     "outlet": "KIRO 7 News Seattle",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQemNzNENLM25jME1mQTBSRElpbnlVLVd5c3BHcGdBTXJNNE52bDdvb3ZLY1o2WkhCeG16NGtCZ213U05ZbVJmakJ2U0lWR1BWa01UeUhBN19VMkNxVUdEQ05ZbVVKbmZCRUpMMm5oa3dmWG9EdWpNRXRZbVRQQ1g0LVJ5RXpodzJaWk05OWhnZXdOOWlrWE9Od2xWS0t6WnJZd0stb2RCOU9udzdGRUNReFl3b1YtVTdXQTFvM0ZKdmloWlg5QjRDNFNyREE5RHBIdk5GckE0TE1hbmRlUGlmR3pPdmlOSXdPTXAtS0RILUljbVFLZzdCWA?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Microsoft"
+   ],
+   "summary": "Activist pressure on Microsoft to sever contracts with the Israeli military continues one year after protests, posing reputational and regulatory risk to a key government-contracts business.",
+   "importance": 1
+  },
+  {
+   "id": "2026-08-21-e40ec50069",
+   "ts": "2026-08-21T10:53:15+00:00",
+   "title": "German group files criminal complaint over Meta AI glasses",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT05YendBMnlwYVgyVXRRa0pJeE5hX1k2UzBjX1JRMkh6d3V2RGYwZEdiZFhjSjJsT2w5Z0hqT25wS2xPM0ZZUUpEVzBnWVFERFpsdk9vYklSLUJEX2RMa19mZnY4UWlzQjd0RlNBeXVMY2pMSXN3aEpMbzdzMDQ2cWFqb05WUkNGYzFJRGh2THdkZmtxdzZmdWE2WEhZWVFwYXfSAZ4BQVVfeXFMT2MzZzAzS3BEMXgzR28yeUN6ZGRzdW5SWDRNVmZuUDRNUGdYTlNyS1lUYlR4blBJd1A2YjJaTm4xZHRWb1ZQT1otNjRTY1FrQnQ3MmtFMUVueG0zTzFFT1dZTzhvWTE5RS1nY1Z3M0d5UXlGd1lpakh6UTJYWGNyT2V2Um54b1FLUkdFc1o5SjR5X2hjYlRtd2VfVkxXRkE?oc=5",
+   "outlet": "The News International",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Meta"
+   ],
+   "summary": "A German group has filed a criminal complaint over Meta's AI-equipped smart glasses, signaling escalating European regulatory and legal risk for Meta's hardware/AI product line.",
    "importance": 2
   },
   {
@@ -14493,941 +15463,6 @@
    "companies": [],
    "summary": "South Korea's August 1–20 exports reached $55.2 billion, a record high, with semiconductors as the primary driver; duplicate of prior macro item.",
    "importance": 1
-  },
-  {
-   "id": "2026-08-21-7e988556b0",
-   "ts": "2026-08-21T01:39:00+00:00",
-   "title": "카카오, AI 사업 인적분할…'카카오AI' 신설해 AI 집중",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tM2N0bGN0N0NGSFVfNldkdDNadEtuTkN3d1l5aGcxRk5fT2huWVoxbzRkYXpYWHY0Zk43VnZuUUZsZjJOWEFpLVdMT1pRbVJ6XzFpOVJYWEZxUGF1WnBvemFRaUo?oc=5",
-   "outlet": "MTN 머니투데이방송",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao plans to spin off its AI business into a new entity 'Kakao AI' via a human-company split, concentrating AI resources — a structural corporate action relevant to valuation and capital allocation.",
-   "importance": 2,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-08-21-c7372f9084",
-   "ts": "2026-08-21T01:38:53+00:00",
-   "title": "카카오, 카카오AI·카카오X 인적분할…\"AI 시대 맞는 성장 구조\"",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB2ZjhYbnFSTlJwZ1pXcVU2elduem1ZTmcxUGFzYmRfcG5KYlNzajZ3VFdGTXlxbUdIeHpnMVF1T01GN1hVZzlYMGhfdWJRRVU?oc=5",
-   "outlet": "v.daum.net",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao announces spin-off into two separate entities — KakaoAI and KakaoX — as a corporate restructuring to unlock value in the AI era.",
-   "importance": 3,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-08-21-aee0002105",
-   "ts": "2026-08-21T01:38:15+00:00",
-   "title": "OpenAI open-sources Codex core framework, enabling developers to build their own AI agent applications",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mcUxtZENsTlJxVWZ4X0lXRkxSODU5MU8tM1dwQ3B1OGRYZWYtdXVuSkMwQ3EtZWhSbGpaTTkzS0dQTk56Wm5uSXZzWm5OYjhJck0talRmNUhya0JvQjFGZklXWGRxRkQ3cFgzN2xPQUljNlpScGc?oc=5",
-   "outlet": "finance.biggo.com",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "OpenAI"
-   ],
-   "summary": "OpenAI open-sources the Codex core framework, broadening developer access to its AI agent platform and potentially expanding its ecosystem competitively.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-09499a7e4f",
-   "ts": "2026-08-21T01:37:05+00:00",
-   "title": "[산업종합저널 | INDUSTRY SIGNAL] 반도체가 끌고, 전력·자금·노사가 흔든다",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Xa2FqSEdoWVpMQUxUNmxQTElURUtwRlotMkhvY3BycDJTX1p5RGZIcE1GZGJ0TGJCSllsVHFldi1jUjc5UjIwSzhDTWdYZjNWNmlB?oc=5",
-   "outlet": "산업종합저널",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [],
-   "summary": "Korean industry report highlighting semiconductors as the primary growth driver while power supply, capital, and labor relations pose risks — relevant macro context for sector investors.",
-   "importance": 1
-  },
-  {
-   "id": "2026-08-21-63ab7ccc81",
-   "ts": "2026-08-21T01:36:29+00:00",
-   "title": "美금리 역풍에도 '100조 주주환원 기대'…삼성전자 우선주 6% 넘게 상승",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kWm9zSzY5d0NqZjNSQjQ4UzhsT1BMX013XzBnbE5GWjNUZDBaYmRDTGdXbUpiUmFyVnFEN3dwQ2FZd1AtNWVUOHFmRE9fZHZISFBMbWVQV29TWVVvYTQxdV9nTGF5MGVaWDZiYThGQmY?oc=5",
-   "outlet": "연합인포맥스",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics"
-   ],
-   "summary": "Samsung Electronics preferred shares surge over 6% on expectations of a ~KRW 100 trillion shareholder return program despite US rate headwinds.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-a01e49cdaf",
-   "ts": "2026-08-21T01:36:00+00:00",
-   "title": "카카오, 16.8조 시총 둘로 쪼갠다…'34.2조 잠재가치' 정조준",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1lbnIzLTcxRDlfaXQyZHZjaWRUMnNuNjNXSElUbG9XMFhjd0lHeWY2U1p6WDV5UHJwY1M4WV9YUmlhVjA0aHl2Zkdyc3NKNElP?oc=5",
-   "outlet": "톱데일리",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao plans to split its KRW 16.8 trillion market cap into KakaoAI and KakaoX, targeting KRW 34.2 trillion in potential combined value through restructuring.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-e8b34cbb83",
-   "ts": "2026-08-21T01:35:54+00:00",
-   "title": "Samsung Weighs A Big Shareholder Payout After Its AI Windfall",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOU9qQXFPa1hqSzZyNmxIVFBNMTJ3WXhKUWQzMlRabE5oQTdmUzJhdEZUUHV2Um5MQ2xjOVliMGRoakEtb0V2bzVSYmw5RU1YX0VjdW9TNFl2YkEteWtlU0l6dUZoQjd4YWhWdDZIcHp5bDMtbUNvVTN0SHhhWEJ4TWUybDVmaFFsenFpZnZmLVU3YzFX?oc=5",
-   "outlet": "Finimize",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "Samsung"
-   ],
-   "summary": "Samsung is considering a large shareholder payout following AI-driven windfall earnings, signaling capital return strategy shift with implications for equity valuation.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-5fde7ac821",
-   "ts": "2026-08-21T01:35:43+00:00",
-   "title": "네이버 노조, 16개 법인 ‘통합교섭’ 요구…IT업계 노사관계 바뀌나",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TMDhyMDMtS1dhQ19ZdUNlZ3hteVcxTUNaa09KVkpQTzZOOGdHNlAwSkFUbC1rMTcwck85RkV5SnRueGNnd05TQWhOd1JPbXFScUQwN0xaZERTTGE3cE4zRUFQdUQzVUZDSmpv?oc=5",
-   "outlet": "hdnews.co.kr",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "Naver"
-   ],
-   "summary": "Naver's labor union demands unified collective bargaining across 16 subsidiaries, signaling potential labor cost and governance risks for the tech conglomerate.",
-   "importance": 1
-  },
-  {
-   "id": "2026-08-21-8192ff7293",
-   "ts": "2026-08-21T01:35:18+00:00",
-   "title": "“반도체가 날았다”…8월 중순 수출 56% 늘고 무역흑자 140억 달러",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tU0cyem5NMTFYRGp5YWNTbDFSMUNaenFmQjM4cnVWUE90ZWZfalNqbEVyTl8tRUlFRjJQUGEzM3F3QU9YOHJGeVIwV1R3OVVCcXRSNWtn?oc=5",
-   "outlet": "매일경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [],
-   "summary": "South Korea's mid-August exports surged 56% led by semiconductors, generating a $14 billion trade surplus — a macro signal for the global chip cycle.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-7e90b12cd7",
-   "ts": "2026-08-21T01:34:55+00:00",
-   "title": "카카오, 2개 회사로 나뉜다…카카오AI-카카오X로 성장 재설계",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44MTczc0NBSklhX2FfSDV3ZWhmT3d5ZnA4eVp0UkpaZy04dTlPZ2tjQkJaNEVNWG5SWGpOazAwODgzWnctTDZBc2M4a0p0VEhPRm8xaHBB?oc=5",
-   "outlet": "지디넷코리아",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A",
-    "Product"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Korean internet giant Kakao is splitting into two entities — KakaoAI and KakaoX — in a strategic restructuring that could unlock value and set up future capital market activity.",
-   "importance": 2,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-08-21-87a82ff693",
-   "ts": "2026-08-21T01:34:29+00:00",
-   "title": "8월 수출 552억달러 ‘역대 최대’…반도체 수출 260억달러로 사상 최고",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zU0VlZUh1STVVbE9XWDU4S2dhdjlpOTBUQWJDZDRtNTJzaE1WdVVvOFpvcHhidjZ6LXhPZjdGbWp2Yk96SkR6NGNaZGhzTjA2TXdJaWRfVktwLWd1RnFjOGh0VTIxd3hTRVhN?oc=5",
-   "outlet": "뉴스인",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [],
-   "summary": "South Korea's August exports hit a record $55.2 billion with semiconductor exports reaching an all-time high of $26 billion, underscoring strong demand in the chip sector.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-1f4d5fbc7b",
-   "ts": "2026-08-21T01:32:58+00:00",
-   "title": "카카오, 카카오AI·카카오X 인적 분할…AI·투자 투트랙",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PU2ctMWR5MThBRF8wV0ZVZC1WNkZLQjM5RnZ5UFM0Q19vVkNkTG5UUFFjVDFBMTJEcWMtaHdTOUhnWTlPMHJZVVM1eGQ4MGs?oc=5",
-   "outlet": "v.daum.net",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A",
-    "Management"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao resolves to spin off into two entities — Kakao AI (focused on AI/advertising) and Kakao X (investment arm) — a structural corporate split with M&A and management implications.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-fec1dfaf65",
-   "ts": "2026-08-21T01:32:03+00:00",
-   "title": "카카오, 인적분할 결의…‘카카오 AI’와 ‘카카오 X’로 [상보]",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IWWxVMnZWQkVLRWIzY0FDSnhtbzMxS1JDWktyMkVVZkpoZUFUdm5FY0ljQ3d1ZS1xTW9GcTBSWnRfdzlkSy1XZHpsVTlDS0E?oc=5",
-   "outlet": "v.daum.net",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A",
-    "Management"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao formally resolves spin-off into Kakao AI and Kakao X, with leadership assignments confirmed — a notable corporate restructuring event.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-75a2750dcd",
-   "ts": "2026-08-21T01:31:42+00:00",
-   "title": "SK hynix outlines CPO roadmap as AI computing shifts from chips to systems",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTTFXeUd6WDdCTmdOQmdCTUlsUUZJLTRkU1VvbE1zNjJDQTRGSjl1RmxJMGtaSmYyQjNuRVQ5NUlSSkJQbHNvYkI4eWNWVFB3RWRNdU1TYjZia01sYXJibEpaQkJyM1FMX09jMVlnVXZoSGw3MEU3MXdqMEJ5ZVlTQm9BOVdqM1FDbTFGNw?oc=5",
-   "outlet": "digitimes",
-   "also": [
-    {
-     "outlet": "digitimes",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTTFXeUd6WDdCTmdOQmdCTUlsUUZJLTRkU1VvbE1zNjJDQTRGSjl1RmxJMGtaSmYyQjNuRVQ5NUlSSkJQbHNvYkI4eWNWVFB3RWRNdU1TYjZia01sYXJibEpaQkJyM1FMX09jMVlnVXZoSGw3MEU3MXdqMEJ5ZVlTQm9BOVdqM1FDbTFGNw?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product",
-    "Partnership"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix outlines co-packaged optics (CPO) roadmap signaling strategic pivot toward AI systems-level integration, relevant for capex and partnership opportunities.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-f0b0a6d7b7",
-   "ts": "2026-08-21T01:31:21+00:00",
-   "title": "Chip Selloff Erases $1.3 Trillion: Is The AI Trade Finally Being Stress Tested? Darderi Jodar (ydNNQmrsJe)",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tcW9GdXBMcE4yLXBQaGxYdEtlVWtHOUpPUjhXLTg5Si12UG9Dclo3M3ZFd3V4end1Y1BJMEFpTWtjcDUwdkJEcjlZTlkyN3R5dXdFbjRKRU1mNkk?oc=5",
-   "outlet": "Mshale",
-   "also": [
-    {
-     "outlet": "Mshale",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tcW9GdXBMcE4yLXBQaGxYdEtlVWtHOUpPUjhXLTg5Si12UG9Dclo3M3ZFd3V4end1Y1BJMEFpTWtjcDUwdkJEcjlZTlkyN3R5dXdFbjRKRU1mNkk?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [],
-   "summary": "A $1.3 trillion chip-sector selloff raises questions about whether the AI-driven semiconductor trade is being stress-tested, with broad valuation and sentiment implications for the sector.",
-   "importance": 3
-  },
-  {
-   "id": "2026-08-21-aaf016124b",
-   "ts": "2026-08-21T01:31:00+00:00",
-   "title": "Anthropic's Pre-IPO Credit Line Is Growing — and Banks Are Angling for Underwriting Roles",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN1FodjNHUkxMeWhyM1Q5M2xoUFRQNW5YY1VVbzBvT1pXZWNwZmR1VTVPWmxhdERYTGhDeDhXMFhUdUxKcG80SjlrLTJfNkp0ZGt5d1lUa0VXbVZoYlFtUXYtUnVkMlkyRFFJTVNyX05XYkNEWnc3bFN3bmZQbU5sd18xc0NOdFpQcHVVX0NzelNsMENfRk1rUVVn?oc=5",
-   "outlet": "Yahoo Finance",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Capital Raise",
-    "IPO"
-   ],
-   "companies": [
-    "Anthropic"
-   ],
-   "summary": "Anthropic's pre-IPO credit facility is expanding and investment banks are competing for underwriting mandates, signaling an IPO process is advancing and a large debt/equity transaction is approaching.",
-   "importance": 2,
-   "deal_status": "talks",
-   "status_confidence": "low"
-  },
-  {
-   "id": "2026-08-21-0e3f8b74df",
-   "ts": "2026-08-21T01:30:55+00:00",
-   "title": "카카오, 'AI'는 톡·광고…'X'는 미래 투자 방점",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1XzljaHpIcWMzMklEeFA1RVE1N3h1VHdNSS1GVms0dVpsYjVCWF9uVW5rSVVfTkY2Vnp0UzBiUHZ4bUQtWlc5TDhSS0dZajAzdm0tZFdYZkJiWk9lNE43c9IBYEFVX3lxTFA1XzljaHpIcWMzMklEeFA1RVE1N3h1VHdNSS1GVms0dVpsYjVCWF9uVW5rSVVfTkY2Vnp0UzBiUHZ4bUQtWlc5TDhSS0dZajAzdm0tZFdYZkJiWk9lNE43cw?oc=5",
-   "outlet": "연합뉴스",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao's split assigns AI/advertising businesses to new Kakao AI entity and future investments to Kakao X, clarifying strategic rationale for the spin-off.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-240f94a7fc",
-   "ts": "2026-08-21T01:29:13+00:00",
-   "title": "자사주 소각과 배당은 뭐가 다른가, SK하이닉스 40조로 보는 차이 같은 주주환원이라도 EPS·현금·주식 수에 미치는 효과는 전혀 다르다.",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQlIzZVZVRUhneXBfZ1ROSlpzNmtZSGM4NkYyVldRS29iS0JXcTJDYmJwenAwTVdPTzdsT1htaWt6a1U0djlvaEdwNndmYWJLY0ZrV1h4UXljeXlLN0JrYTBSOENESlhjRTFKbHJmbzRFZlhBSW9lejR5ODFuYURJd2FueWVxeVVIVWtnSWNXWTJDNWJGZHhJY1RRT2dPc1VhaTlR?oc=5",
-   "outlet": "코리아비즈니스리뷰",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "Analysis of SK Hynix's KRW 40 trillion shareholder return plan, comparing buyback/cancellation vs. dividend mechanics — relevant for equity valuation and capital allocation assessment.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-09e7d1e6dc",
-   "ts": "2026-08-21T01:29:00+00:00",
-   "title": "카카오, ‘AI’와 ‘투자’로 쪼갠다...신설 카카오AI 정신아·존속 카카오X 김도영",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX01RTjdpWHdyMkxIM2dHdFZpSHFKLTRRRzVmMDg5M1VTdjljekN5TWw3amttWGhacTRPVlFETUlzeEZ0bE1MUUxfSzB0MFZmNkVLNUVXNU5TeW44U0l0TjJTN1AySHA3bFlwMHNWckw2WVR1VXZGX1h0ek90NU83bmROMA?oc=5",
-   "outlet": "조선일보",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A",
-    "Management"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao confirms leadership: Jeong Shin-ah to head newly created Kakao AI, Kim Do-young to lead Kakao X following corporate spin-off resolution.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-709d08c8a5",
-   "ts": "2026-08-21T01:28:46+00:00",
-   "title": "Nvidia Denies China AI Chip Rollout Report",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSDIzTTlEUVJoQVRXTElmaVJ6RGREZTFxMG9CVU5SZHZJcFJoSnFDR2JJd0pYRlQxNzJRTERNNUlBYXJIV0FRV2hDV2hfOXh6WV90SUNWY016U3BpMnFldURRbGloV0V4c2Y3REk5N1VQemtBU1JZU2JVZ3dxSnlZSmVEb1NXVTJ5QmJYbHJaZUo?oc=5",
-   "outlet": "BusinessToday Malaysia",
-   "also": [
-    {
-     "outlet": "Tech in Asia",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSnF4dnJVX0FrcVZJbHMwY2ItY1M1N0JVdEZESnNaYjd4VWh2Ym8tSFBzWVJjUG4yYURydk04aXFIbnpoQ19FZGU2MWpJaEpwamE0TmZkLW5PeklTTm5ZRV9pZmRuVXJTcWctWFBDRENGaXFydGs2TXc0ZzBOOHV5bw?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Regulatory",
-    "Product"
-   ],
-   "companies": [
-    "Nvidia"
-   ],
-   "summary": "Nvidia denies reports of a new China-specific AI chip rollout, a material regulatory/market-access issue given ongoing US export controls.",
-   "importance": 3
-  },
-  {
-   "id": "2026-08-21-5843126268",
-   "ts": "2026-08-21T01:28:00+00:00",
-   "title": "[속보] 카카오AI 대표에 정신아…카카오X 대표에 인베스트먼트 대표",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tMzRsYTlGYXJ2TDBjX1hra3Y0ejFQd0R0NzBJaUQ2ZUNNbHI3QnNTZlpjdkhCRURSMk1fQWdTeFFtNi1TMlEzdjJabGJnUkp3enJJcUcydXhja1BqN2g2cHoybzJUaEU?oc=5",
-   "outlet": "연합뉴스TV",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Breaking: Kakao AI CEO confirmed as Jeong Shin-ah, Kakao X CEO to be named from investment arm leadership — management structure for post-split entities clarified.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-1cb2c8316d",
-   "ts": "2026-08-21T01:27:53+00:00",
-   "title": "SK하이닉스 노사, 성과급 난맥 함께 풀었다…위기 분담 조항 눈길 [비즈360]",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHMUJYRmJwN05sakRlcnJGMGZfR3FWZWowd21ZdExuVG0tNUFobk90Nm1Ja053bVQwdHBDT1hyX3RKRnlJR05ab29xLXQ2cTQ?oc=5",
-   "outlet": "v.daum.net",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix labor-management agreement resolves bonus disputes with a crisis-sharing clause — operational stability relevant for production and earnings outlook.",
-   "importance": 1
-  },
-  {
-   "id": "2026-08-21-1c526bfe68",
-   "ts": "2026-08-21T01:27:00+00:00",
-   "title": "South Korea's SK Hynix weighs Japan chip plant, multi-trillion won investment: report",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ2xhUW1CM1pCYWZ1MFJ3a1dHZTViQXV2Q1VXekNGVXlvMzZqQjF6U3dnSm4yZzlzVDhHNHJ1MzFtWkVQN0RVY2xqNTFfYTRXSGxPeUZ6MWpxb2ZucG1mQ182WjNjODJBeUNTeHNWTkdYZDZqMHQ5ZjdNMllULW5qekFTakdYcjBneHBQa0lRVk4tNC10NFQwUlNWQTFCcFJ6TTNkTk5UazE3YmoxRGhuT0FncFpCZ01OSXpBOFBfMTZ1ekp6TEstZUZBWTJVdw?oc=5",
-   "outlet": "The Business Times",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Capital Raise",
-    "M&A"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix reportedly weighing construction of a chip plant in Japan, representing a multi-trillion won capital investment that would be a major capex and strategic commitment.",
-   "importance": 3
-  },
-  {
-   "id": "2026-08-21-be33aa0f91",
-   "ts": "2026-08-21T01:27:00+00:00",
-   "title": "카카오, AI·투자로 이원화…인적분할로 제2의 도약 선언",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tbE52QmJZQXNSMUpYZTZ1U3hOREcxSWhDaVZNdjlFZlY1NFpTZjFPUnpvVldsSkZlSTI4NTE2ZmhCVWU0Y0ZjdlZoRDRwVHRidGhiVkZwdzR1akZGZnR0czRB?oc=5",
-   "outlet": "이코노미스트",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A",
-    "Management"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao has resolved to spin off its AI and investment businesses into two separate entities — 'Kakao AI' and 'Kakao X' — via a stock split (인적분할), signaling a major corporate restructuring.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-432377084e",
-   "ts": "2026-08-21T01:27:00+00:00",
-   "title": "카카오, 인적분할 결의…‘카카오AI·카카오X’ 두 축으로 재편",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WV3FYVDNITlZKeVdybEoxZnl5QVlTRnhfdFVqRGxjbXYxMF9tUnhsQWh6TmRiTGJicktieFVOMTdwUENoMEFsMHBLckQzMm9Pekx6Wm5HNkpJdWRtaE44?oc=5",
-   "outlet": "스마트투데이",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A",
-    "Management"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao formally resolves spin-off into 'Kakao AI' and 'Kakao X', restructuring the conglomerate around AI operations and investment holdings respectively.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-250a979b0a",
-   "ts": "2026-08-21T01:27:00+00:00",
-   "title": "삼성SDI, 전기차 수요 둔화 우려에 장중 4%대 급락 : 기업주식정보",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA5aVFNb2lHeWl0ZTBGRmpmZkRPRnh0MlJ5ZEdveTJBMEVXbmgtcjBXQVFSdWtab253QnhTR0JUVm5zOWVxLVN4X2dB?oc=5",
-   "outlet": "재경일보",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Markets & Macro"
-   ],
-   "companies": [
-    "Samsung SDI"
-   ],
-   "summary": "Samsung SDI shares fell ~4% intraday on concerns about slowing EV demand, signaling risk to battery-sector revenue outlook.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-1cb2c8316d",
-   "ts": "2026-08-21T01:25:53+00:00",
-   "title": "SK하이닉스 노사, 성과급 난맥 함께 풀었다…위기 분담 조항 눈길 [비즈360]",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DdjdhNEhPdTdULXZyRzd4SFFQb1p0RjBKaUY3V0VabTJtX2RDbFBFRG9sNG9NUjF0Yi1ldnZtTUNnM3JsSE0xMjZmZVNEYmZhbWFBUTlR?oc=5",
-   "outlet": "헤럴드경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix labor and management reach agreement on performance bonus structure, including a crisis-sharing clause, which could affect cost outlook and labor relations.",
-   "importance": 1
-  },
-  {
-   "id": "2026-08-21-f9bacf4125",
-   "ts": "2026-08-21T01:25:44+00:00",
-   "title": "SK hynix labor, management reach tentative wage deal with crisis-sharing clause",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vYVlXbzkyZlo2U2NzLTJkZVBlUWIwcWVEZERxd3FHaEdlRmJiUC1ZTGlGVXdtWTRZS2VoOE1pekYzeWJGdFUwc2JMNlB0WGxKZjR3bDJxdw?oc=5",
-   "outlet": "헤럴드경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix labor and management reached a tentative wage agreement including a crisis-sharing clause, reducing near-term labor disruption risk.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-392d6e70bd",
-   "ts": "2026-08-21T01:25:00+00:00",
-   "title": "Weak US Stocks Drag Taiwan Market Down Over 100 Points in Early Trading; TSMC Bucks the Trend",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DekFUanZUdzBpaENqYWRkVnVWUDczR192OF9KNDVWaF9EdEUxRmp2X080RXBPUEJWMUJiRGFySDZ5dXpxYlgxcjZfdV9ma3d2anNYYXZnN0JZOWE4ZnJZNVpUc2RaNTFyaHUtZ09qbWlaS1hFVnc?oc=5",
-   "outlet": "finance.biggo.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Markets & Macro"
-   ],
-   "companies": [
-    "TSMC"
-   ],
-   "summary": "Taiwan equity market fell over 100 points on weak US sentiment, but TSMC moved counter to the trend, relevant for tracking semiconductor equity resilience.",
-   "importance": 1
-  },
-  {
-   "id": "2026-08-21-e901f4f3bd",
-   "ts": "2026-08-21T01:24:54+00:00",
-   "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94VC0yYmw1Mk1vYTd0VkJvMEhiLXloc3c3aEFXYW5pUms1cFlINjRrckpHRF8wUzFLZFFpdVJ5QUJxdXpNWUl6YnA2Vm1DUW00aXVRR0NGV0FGQQ?oc=5",
-   "outlet": "한국경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics"
-   ],
-   "summary": "Samsung Foundry showing first signs of recovery in four years, raising market expectations for a reversal in its contract chip manufacturing business.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-e901f4f3bd",
-   "ts": "2026-08-21T01:24:54+00:00",
-   "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94VC0yYmw1Mk1vYTd0VkJvMEhiLXloc3c3aEFXYW5pUms1cFlINjRrckpHRF8wUzFLZFFpdVJ5QUJxdXpNWUl6YnA2Vm1DUW00aXVRR0NGV0FGQQ?oc=5",
-   "outlet": "한국경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics"
-   ],
-   "summary": "Duplicate: Samsung Foundry recovery expectations resurface after four years of underperformance, with renewed client interest and competitive positioning.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-863c6f3dd9",
-   "ts": "2026-08-21T01:24:18+00:00",
-   "title": "카카오, 창사 이래 최대 지배구조 개편...'카카오AI' 인적분할",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ncjFuYzl4RERLWGo2UDNuU2VMT1A1MHUxalpNQTkyb1VDbEJTZmpKVUNOdDhJR0ZKZkJydWRaZFQyblEwWU95UHEtdEk0QlZ3bTRGVC1WY0RhOC1yLUFhclpWc0ZQSExkZzZOdmZITnRiQQ?oc=5",
-   "outlet": "오피니언뉴스",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao announced its largest-ever corporate restructuring, spinning off an independent AI entity ('Kakao AI') via a personal-share split, which could have valuation and capital markets implications.",
-   "importance": 3,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-08-21-23aa4ce4d4",
-   "ts": "2026-08-21T01:24:13+00:00",
-   "title": "카카오, '카톡'·'금융' 둘로 쪼개진다...AI법인 신설",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vblhQMFN0N3IydTE3MEFwZUNXU0R0WXpqTFNlakNZZXBYN3AzLVlaNmFFUU93cnFuSDBpQ2dIazZPM25fUjVraDBORUNJSTQ?oc=5",
-   "outlet": "v.daum.net",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao plans to split into two entities separating KakaoTalk/AI operations from financial subsidiaries, creating a new AI corporation.",
-   "importance": 2,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-08-21-67cc73ab19",
-   "ts": "2026-08-21T01:24:10+00:00",
-   "title": "카카오, AI·투자사업 인적분할…'카카오AI·카카오X'로 재편",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Kdy1QMm15UXhvbXRpaDYyeWMwWXV5bVdZN29CY1FTeE5YUVR0RWdabGJVdHRsMTYwWEhJQm1ZMTBmV2xoS2xGWmhmalU1QQ?oc=5",
-   "outlet": "전자신문",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao announces spin-off of AI and investment arms into 'Kakao AI' and 'Kakao X', reshaping its corporate structure ahead of anticipated capital market activity.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-ea738993d2",
-   "ts": "2026-08-21T01:24:00+00:00",
-   "title": "카카오, '카카오AI·카카오X'로 인적분할…AI 사업·투자 부문 분리",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS3pBTFFlS05veExuaVBua1lsWVc1ckdKdnZWY3RGMWlDb3dtTWM2MlBZNEpzdlNqcWV3YXJmQ0YzaGRVN0NDejl2cllVWVVuMmFOVjByenB1TnpaT0F6ejFHcUNmYmtEaTlZaFEwVV9MQ1hWeFRJakVvbHlSaXI4R2w5TQ?oc=5",
-   "outlet": "인베스트조선",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao separates AI business and investment division into two standalone entities, a structural move with potential implications for future fundraising or listings.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-aaecb506be",
-   "ts": "2026-08-21T01:24:00+00:00",
-   "title": "카카오, AI 시대 맞춰 지배구조 재편…‘카카오AI·카카오X’로 인적분할",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OWEw3WlF6REpuZTlNOTBjb2lnNUY4eGkxLWh6UGs3QTJ3cy1SeFB2Q1ZyTEFlLTliOTZOMkF6Y05DQlVLQmludGl6S2Z5NU5HbVVGVTQxNUdURTJ4TDMxcjBDdEptM1NfblE?oc=5",
-   "outlet": "sisaworld.kr",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao restructures governance for the AI era by spinning off into 'Kakao AI' and 'Kakao X', targeting clearer strategic mandates for each unit.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-db80ce1247",
-   "ts": "2026-08-21T01:23:28+00:00",
-   "title": "Nvidia Rubin vs Google TPU 8: AI Chip Race Heats Up",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91UVNFZ2F6NkZCbmVoeDZyRjJsTlQ2bHE5V3pHSmJVVUo4d3pKYWVBajk5Z3ROdTZSN2NaRk0zWVBWdHpBZ0VLTV9vaWk3MzYwXzk1RE1jM0MzSGRDRUhxTk1iS09leWpEMVpaanpPRjdVSXUzNEQ0eEZHYmY?oc=5",
-   "outlet": "tech-insider.org",
-   "also": [
-    {
-     "outlet": "tech-insider.org",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91UVNFZ2F6NkZCbmVoeDZyRjJsTlQ2bHE5V3pHSmJVVUo4d3pKYWVBajk5Z3ROdTZSN2NaRk0zWVBWdHpBZ0VLTV9vaWk3MzYwXzk1RE1jM0MzSGRDRUhxTk1iS09leWpEMVpaanpPRjdVSXUzNEQ0eEZHYmY?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Nvidia",
-    "Google"
-   ],
-   "summary": "Competitive analysis of Nvidia's Rubin chip versus Google's TPU 8 highlights intensifying rivalry in AI accelerator market, relevant to semiconductor and hyperscaler capex trends.",
-   "importance": 1
-  },
-  {
-   "id": "2026-08-21-2ed02bc4d4",
-   "ts": "2026-08-21T01:23:08+00:00",
-   "title": "카카오, '카카오AI'와 '카카오X'로 쪼갠다…'AI·투자' 투트랙",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtdGViQXRTZFZpUHlSVmFKTjVOU3hNX1B2US1aNlM2b2VNeU5hNDZiNmxvLTNHQUt3c0pKaDJ6dlgtQzF6WGNad0Y3TVpKQm8?oc=5",
-   "outlet": "v.daum.net",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Duplicate: Kakao splits into two-track structure separating AI operations and investment functions, with governance and capital allocation implications.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-ab105eb4a1",
-   "ts": "2026-08-21T01:23:01+00:00",
-   "title": "Apple SVP Jennifer Newstead sells $442,478 in company stock",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNanRBazBqdGdvNHgxSXltbV9rV2RsMTNYRi1zd3NYejJZUUxrZlJnV1dLWWdUNGxOMnZCVVdmcmt0UDRrdlh1QUVxcEhDRUJTX3V1ajZuUTI3WE9nVTBBMVh6alB5aThEc05QVm9KcUJmalNSSktGb01ua3Bvay1SWGtJTVVZcjJGa0IySGxFcjk3QTNmdThWWVNkbWMwd3hMRE9vWDNJWXpjNjM1R2dKcF9BUnVUc1lXMmpvMU1WOA?oc=5",
-   "outlet": "Investing.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "Apple"
-   ],
-   "summary": "Apple SVP Jennifer Newstead sold approximately $442K in company stock — routine insider transaction filing.",
-   "importance": 1
-  },
-  {
-   "id": "2026-08-21-3ce174926c",
-   "ts": "2026-08-21T01:22:16+00:00",
-   "title": "[속보] 카카오AI 대표에 정신아 현 대표, 카카오X 대표에 김도영 내정",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4ybk1HandlZDF0Sy12YVRKX0JWVXZPOXhobU42QUtFOTJOdnFXLTNSOEZfNHFtMnliQllfTnlNNXRUSnBuT1hPNHZKeUgwRTNUREE?oc=5",
-   "outlet": "서울경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Management",
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao names current CEO Jeong Shin-ah to lead Kakao AI and Kim Do-young as incoming CEO of Kakao X, confirming leadership structure for the post-spin-off entities.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-de61fb6709",
-   "ts": "2026-08-21T01:22:10+00:00",
-   "title": "카카오, '카카오AI'와 '카카오X'로 쪼갠다···'AI·투자' 투트랙",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SdFpyWllLMjRDQjNRSEc1b0pzcUQ5OFp1NHJDZVBfNlhQcXY2bVZRVmdFcW10OEY5SFliOWFRM1hNQnYxaFdzTmRqSk5nQUdsbWt6WWFwQjl0dWwzSUxjZk5BbFFSRGRqbWc?oc=5",
-   "outlet": "뉴스웨이",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Duplicate: Kakao formalizes two-track AI and investment restructuring via spin-off into 'Kakao AI' and 'Kakao X'.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-433b912ad0",
-   "ts": "2026-08-21T01:21:15+00:00",
-   "title": "Leveraged ETF Trading Tops 1 Trillion Won Again as Samsung, SK hynix Surge",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YaEEwM2R5aEhWRFBhbUc4Q1h6a3Bvc2RJZGlVajJGQzA1UkQtQnNGaHB4RVdad2xEeTFhMlpGWGlzdE4zY0poZ3JEQ1RlSEJwczdRdEs0dWNTR09Nckx1MUVaU21XOEFOSFZsWkltWnlzTXRi?oc=5",
-   "outlet": "Businesskorea",
-   "also": [
-    {
-     "outlet": "Businesskorea",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YaEEwM2R5aEhWRFBhbUc4Q1h6a3Bvc2RJZGlVajJGQzA1UkQtQnNGaHB4RVdad2xEeTFhMlpGWGlzdE4zY0poZ3JEQ1RlSEJwczdRdEs0dWNTR09Nckx1MUVaU21XOEFOSFZsWkltWnlzTXRi?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Markets & Macro",
-   "ib_tags": [],
-   "companies": [
-    "Samsung",
-    "SK Hynix"
-   ],
-   "summary": "Korean leveraged ETF trading volume surpassed 1 trillion won again as Samsung and SK Hynix shares surged, reflecting elevated retail investor activity in semiconductor names.",
-   "importance": 1
-  },
-  {
-   "id": "2026-08-21-75a08f8170",
-   "ts": "2026-08-21T01:21:13+00:00",
-   "title": "카카오, AI·X로 인적분할 결의…'두 개의 심장'으로 달린다",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CRF9IWjNLdFl1ck5XWF9FQ0hXbkV0azdTa2xpMGNsZVZON0xjVzNTRXF5b29CcUI3dGI4Z0xiMjlnYy1DSURON0V3U3pneVJWS2J5LWlPZ1R4b1RqUFVJVl84NjNRTXZtb3NJZk1DTQ?oc=5",
-   "outlet": "뉴스톱",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A",
-    "Management"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao has resolved to split into two separately listed entities — Kakao AI and Kakao X — restructuring its corporate governance around AI and other businesses.",
-   "importance": 3
-  },
-  {
-   "id": "2026-08-21-285da654f1",
-   "ts": "2026-08-21T01:20:58+00:00",
-   "title": "카톡·AI는 정신아, 계열사는 김도영…카카오, 두 회사로 쪼갠다",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFTEZhcjZIcndyc2JVZU5SUlMwRGJJQncyV01WYXhOaW9LTENLNVRhdTRhNm1mY0JJOEJ4NDJ4enk4WmU1LWhoY2lfcVpfbmpTbS1FUG9uOEZER2xjOUYyS1RiMks?oc=5",
-   "outlet": "디지털데일리",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A",
-    "Management"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao restructuring details: KakaoTalk and AI business to be led by CEO Jung Shin-ah while subsidiary management goes to Kim Do-young under a two-company split.",
-   "importance": 2,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-08-21-960e95ca39",
-   "ts": "2026-08-21T01:20:16+00:00",
-   "title": "Berkshire Hathaway Just Bought More of This Brilliant Artificial Intelligence (AI) Stock",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON1p3cXdLM0p6VlVqS0x6dnBrUU5PdklGVHpvYkxfbHdqdUQtQnB6RWpocFU3R2JVX2NHOVFjejE0M3hONjViZF9LY2diTmhDWU5DN1doWWk2U3ItVzVMTVpQLTdUWWVHcEVFOHZvam9JX0g2aE5HN3RQcDlKWl9RX1p5aTJQX3daMlNSMEZoNl9abFBRWGVkSQ?oc=5",
-   "outlet": "The Motley Fool",
-   "also": [
-    {
-     "outlet": "AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdE9sYzA1Q1BGVUQzUktkdkFma09qM3duMEk2RTVMNkdnX2lJUnNZSzdjR1pkSXU3SDJhcVlJeTlfVEs1S3NUVzN4SDZnbVMxRjZyWm9fbVJpd25xU1Blak9UU1hXQmRXOE1neXZlM09VNVRnZ1RlQ0loZklUUkttUkM0X3VNZw?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Berkshire Hathaway",
-    "Alphabet"
-   ],
-   "summary": "Berkshire Hathaway increased its stake in Alphabet, signaling continued institutional conviction in the AI-exposed mega-cap.",
-   "importance": 2
-  },
-  {
-   "id": "2026-08-21-7d8d2ed49f",
-   "ts": "2026-08-21T01:20:00+00:00",
-   "title": "[속보]카카오, 2개 회사로 쪼개진다···카카오 AI·카카오X로 인적분할 결의",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXVFAwS1pxRnd2U1E5TmJkYXE1dk5MaW5QeFBZTkdmMTc0YnBLSGNLREhCMWg1YndDV2h4ZEE0MHVDZjJCRlBCMHJzRWFrVnQ2WHpGbGxPR0wwUdIBX0FVX3lxTE1tdTFVekktMFVHR2xTdWdKZjcxVVJ5OE5TMEFFZkphVG1NSXU4QmhwTXZhSThjcV9zdjZ1cWRtZHBIUkRkeGo2MHJ4RzBndEtQRDdKT091eE5tOGpWSUFB?oc=5",
-   "outlet": "경향신문",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao resolves to split into two separate companies — Kakao AI and Kakao X — via a corporate spin-off, a structurally significant reorganization for a major Korean internet conglomerate.",
-   "importance": 3,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-08-21-ce40a8e9b1",
-   "ts": "2026-08-21T01:19:15+00:00",
-   "title": "[공시] 카카오, 카톡 플랫폼 인적분할 후 ‘카카오AI’ 신설",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUnozT2c4QnFuMlYzT1RzcHU2MlhZQ3NTbnd2SG95RlVpT2t0UU8wTm9vZjVNZkkzZzYzb1BkM01mRGQ3SHNYTDlmS0pRTXlYc0tWX056LWNUQWZYR3RwZkdHNE40bkZwTmJRTlgyTnZsei0tVzR6aHBlZ0REYzh0SGFaODdRMU9y?oc=5",
-   "outlet": "글로벌이코노믹",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "M&A",
-    "Product"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Kakao announced a spin-off of its KakaoTalk messaging platform via a personnel/equity split to establish a new subsidiary 'KakaoAI', signaling a major corporate restructuring.",
-   "importance": 2,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-08-21-485f5b9a69",
-   "ts": "2026-08-21T01:18:39+00:00",
-   "title": "Hy-Tech Engineers IPO Date, Review, Price, Allotment Details",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XSUNsVkt3RW1xd1RTclgtWTRINEhWaHp3T2lYM204MW9wMTl2TnFteDB6MmNoMUhoLWVEenlKb09IanpLQ1FFdWdrWXRFVy1TaDVsRg?oc=5",
-   "outlet": "IPO Watch",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "IPO"
-   ],
-   "companies": [
-    "Hy-Tech Engineers"
-   ],
-   "summary": "Hy-Tech Engineers is proceeding with an IPO, with pricing and allotment details disclosed — routine small-cap listing of limited banking relevance.",
-   "importance": 1
-  },
-  {
-   "id": "2026-08-21-d2fe6c85d8",
-   "ts": "2026-08-21T01:17:59+00:00",
-   "title": "카카오AI 대표에 정신아·카카오X 대표에 김도영 내정",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrTnM3czJsTy1oZ3E2YU1IZWU4ck5NSlVvdWhndjRuaXRIbzFwUHJseUhZNzFGVzhnTlc1OTEtVFRIT0lGbzIxY3VIanpNN182dk1zTGdTdl9GTmc?oc=5",
-   "outlet": "연합뉴스",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "Kakao"
-   ],
-   "summary": "Jung Shin-ah named CEO-designate of Kakao AI and Kim Do-young named CEO-designate of Kakao X following the spin-off resolution.",
-   "importance": 2
   }
  ]
 }
