@@ -1,16 +1,36 @@
 {
  "meta": {
-  "last_updated": "2026-08-20T23:49:07.059030+00:00",
+  "last_updated": "2026-08-21T00:47:08.290630+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-21",
+   "type": "Follow-on",
+   "name": "SK Hynix",
+   "v": 3.0,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Closed",
+   "note": "SK Hynix executed an approximately 4 trillion won (~$3B) share buyback in Korea, brokered by SK Securities. The transaction represents a significant capital return event for the leading memory chipmaker. Buybacks of this scale signal management confidence in the company's financial position amid cyclical semiconductor demand dynamics.",
+   "advisors": [
+    "SK Securities"
+   ],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVDkwT2c2RUk0SkNtTm9uTHhSX3VaMnpJcUwtY1VpVVBBMFhtZjJQczF4V2t6QzJrS0h5bmZIalpKR3dRMnpYTTFWUEQyZGdZaHc5d2ItVmc4NHVpcE85UTM5M2xfZHBDNWVfUWFPeThzRU1VTFNYbjZXUW9FV1pEddIBlAFBVV95cUxQNWhTSWlnUjdXSG04cHgydlZYVU9XM282SGtRZXU3UU00SzhpZjFzQUJ3UWxCbHR4LXBldUp6bU1lV2MxSHFrTm5PT3IwX2tydjBKMUhVWFFsMTVOOGxaODNvVVdUT1FCbWpraEs0SXY4X1VLVnZDeWF5eG9KVUstSzRnTlY2VHJSalBqTU1kcngyVTBv?oc=5",
+   "source_snippet": "SK Securities brokered SK Hynix's approximately 4 trillion won (~$3B) share buyback in Korea, a material capital return event for a leading memory chipmaker.",
+   "extracted_at": "2026-08-21T00:47:01.238812+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Buyback' or similar, not 'Follow-on'; Follow-on refers to secondary offerings by companies to raise capital, not share repurchases."
+  },
   {
    "skip": false,
    "d": "2026-08-20",
