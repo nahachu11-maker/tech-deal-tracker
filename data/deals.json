@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-21T01:25:40.509505+00:00",
+  "last_updated": "2026-08-21T02:22:16.643157+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 13
   }
  },
  "deals": [
@@ -29,6 +29,40 @@
    "extracted_at": "2026-08-21T00:47:01.238812+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Buyback' or similar, not 'Follow-on'; Follow-on refers to secondary offerings by companies to raise capital, not share repurchases."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-21",
+   "type": "M&A",
+   "name": "Kakao / KakaoTalk (spin-off)",
+   "v": null,
+   "val": null,
+   "sector": "AI / Consumer Internet",
+   "status": "Pending",
+   "note": "Kakao announced a major restructuring: KakaoTalk will be spun off into a new AI-focused entity called 'Kakao AI,' while financial and content subsidiaries (including fintech and digital content units) will be consolidated under a newly created holding company 'Kakao X.' The move signals Kakao's strategic pivot toward AI as its core business while streamlining its sprawling subsidiary portfolio. No deal values have been disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PLWpubndFQ0dkcV9wT0hZdzJmOG8xaHJvancxWS1kbUJTSFZnbXJIdlB4SjBUYkdIU2RZX2Jvb2d2VV9jdjJISmZXdkpnRTJaV2I5RlN3RDBlRHFVMDE1NjdOb0dnYWhBZTdONHdpXzUyeUE?oc=5",
+   "source_snippet": "Kakao plans to spin off KakaoTalk into a new 'Kakao AI' entity focused on AI, while financial and content subsidiaries are consolidated under new holding 'Kakao X'.",
+   "extracted_at": "2026-08-21T02:20:38.734940+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-21",
+   "type": "M&A",
+   "name": "Kakao / KakaoAI & KakaoX",
+   "v": null,
+   "val": null,
+   "sector": "AI / Internet",
+   "status": "Pending",
+   "note": "Kakao announced a corporate spin-off (인적분할) into two independent entities: KakaoAI, focused on artificial intelligence, and KakaoX, focused on investments. The restructuring is designed to allow each vertical to pursue dedicated strategies and capital structures independently. No financial terms or deal valuation were disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ob3VHSFBnR09nQ19DaFZUVWE4dXN3RnRVdGUxZE9QVWF0bnQ2OG56c0RhTjJVejhDZnFrUWtPZm1mbWg5MnBXTXpVSDVab28?oc=5",
+   "source_snippet": "Kakao announced a spin-off into two separate entities — KakaoAI and KakaoX — signaling a major corporate restructuring to independently pursue AI and investment verticals.",
+   "extracted_at": "2026-08-21T02:20:43.981114+00:00",
+   "verify_failed": true,
+   "verify_reason": "The transaction is a spin-off/corporate restructuring, not an M&A (merger or acquisition)"
   },
   {
    "skip": false,
