@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-21T18:40:27.130961+00:00",
+  "last_updated": "2026-08-21T19:21:23.231798+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -164,6 +164,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd0hTTFBzZnZ0R01HTWROeDBZTGhaUW9IM2ptRWZZbmo4eTRGU3QwYnhfcG5QWVUxTHNRazJZVUtJeEVkNWwtMjVmclhVSlJ1ZXNxMk10SUF0eVdDS3dlWU8wcmN3MmRSVFIxLXhuNEJtVEpweWJaYVpQeXdmX1RfSnVsS2VPNmk1bzZmU1Vn?oc=5",
    "source_snippet": "Nvidia is reportedly eyeing an acquisition of an AI chip rival valued at $2.3B; credible deal rumor warranting monitoring.",
    "extracted_at": "2026-08-21T14:06:31.520099+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-21",
+   "type": "M&A",
+   "name": "Samsung SDI / Display Business Unit",
+   "v": 3.2,
+   "val": null,
+   "sector": "Electronics / Battery Technology",
+   "status": "Pending",
+   "note": "Samsung SDI divests its display business unit for $3.2B, redirecting proceeds toward AI-related battery R&D and capacity expansion. The divestiture represents a strategic pivot away from display manufacturing to focus on next-generation battery technology. Buyer is not named in the source text; deal status is inferred as Pending absent closed/completed language.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWHUxckxZbUUxRmlMMVotS1ZWNlk2NmYxZTltSllWcjBFWFlQSmI4QWRqT2hqSEE4M1g0MWZLeEVNcmM4Tmh0RHNQZ1lVUnBVQ21hUzM0ZkNWb2dsdkMxdE5yZ3FCV04yXzktSDZ1V2pPbkthVXJJRHdkTUtMNDJaQlNPYVM1aVc3SXNNUE0welhtenp6b2RsdER0cmdvWFJRWGJmd2s5QUVWVXA4ZnQwZndETlN1R0VC?oc=5",
+   "source_snippet": "Samsung SDI raises $3.2B via sale of its display business unit, redirecting capital toward AI-related battery ambitions — notable divestiture funding a strategic pivot.",
+   "extracted_at": "2026-08-21T19:21:19.336970+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' since the source describes a completed sale ('raises $3.2B via sale')"
   },
   {
    "skip": false,
