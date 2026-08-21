@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-21T07:27:30.912013+00:00",
+  "last_updated": "2026-08-21T08:07:22.920916+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 2,
-   "duplicates": 7
+   "added": 1,
+   "updated": 1,
+   "duplicates": 11
   }
  },
  "deals": [
@@ -99,6 +99,22 @@
    "extracted_at": "2026-08-21T05:56:43.229601+00:00",
    "verify_failed": true,
    "verify_reason": "Spin-off is not an M&A transaction; it is a corporate restructuring/separation"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-21",
+   "type": "M&A",
+   "name": "Nvidia / Rebellions",
+   "v": null,
+   "val": null,
+   "sector": "AI Semiconductors",
+   "status": "Pending",
+   "note": "Nvidia is in early talks to acquire or form a strategic deal with Korean AI chip startup Rebellions, according to Bloomberg. The potential transaction signals continued consolidation in the AI semiconductor space as Nvidia seeks to expand its portfolio of AI accelerator technologies. Deal structure and valuation remain undisclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYVdKT3RrZ2R6RXppSndKZ1E2NFRCUHp2Y0pHUkpxMFphcGJhWkxHZlgxTUd5cGt2Y3ZwLTFTbXBEeGlMWnJhX2ZnMW8yc2Myck5wU2pRaFdFUzJOQWYwdzFDS3F4UXJ1Qjg2MWpWOE9qaEpHTUtCS1FwLUJ3cVM3S1g2a2NoREUtWUFKLTBTelB1SWJicVFMcDZ0amR4NldhS1FGRkxKMllTX25hdE83SUF1N1o?oc=5",
+   "source_snippet": "Bloomberg reports Nvidia is in talks with Korean AI chip startup Rebellions for a potential acquisition or strategic deal, signaling further consolidation in the AI semiconductor space.",
+   "extracted_at": "2026-08-21T08:06:02.761176+00:00"
   },
   {
    "skip": false,
@@ -700,8 +716,8 @@
    "v": 3.2,
    "val": null,
    "sector": "Semiconductors",
-   "status": "Pending",
-   "note": "Singapore sovereign wealth fund Temasek is reportedly pursuing direct minority stakes in both Samsung Electronics and SK Hynix, South Korea's two leading memory chip makers. The news drove shares of both companies up over 8%. Deal values and stake sizes are undisclosed; transactions remain at reported/exploratory stage. [Auto-update 2026-08-21: Samsung SDI is divesting approximately KRW 4.45 trillion (~$3.2B) worth of its minority stake in Samsung Display to raise capital for future investments. The transaction represents a partial stake sal]",
+   "status": "Closed",
+   "note": "Singapore sovereign wealth fund Temasek is reportedly pursuing direct minority stakes in both Samsung Electronics and SK Hynix, South Korea's two leading memory chip makers. The news drove shares of both companies up over 8%. Deal values and stake sizes are undisclosed; transactions remain at reported/exploratory stage. [Auto-update 2026-08-21: Samsung SDI is divesting approximately KRW 4.45 trillion (~$3.2B) worth of its minority stake in Samsung Display to raise capital for future investments. The transaction represents a partial stake sal] [Auto-update 2026-08-21: Samsung SDI sold its minority stake in Samsung Display, securing KRW 4.445 trillion (approximately $3.2B USD). The divestiture allows Samsung SDI to monetize a non-core holding and bolster its balance]",
    "advisors": [],
    "review": true,
    "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY1FTWmxlX1VTa2ZhU05Vb3ppUmhIdEdFZG1WaG5aZmpDOE40RlZ1ZVQyRko0NTlzX3JOOVVHTi1Yc3gtVFFjUW5rQ3ZsRW1meGFjdWdveGdtQjZnZkRwS1R3ZkhQQlJ6NlFtWHQ1cWh4Q3BaZDkzeUU3ZFlFMDZQVHdaVHhsSmYybnFyVFU0bTdWdXhjaFFyWFlzZzlnQmE4TGNyaktjU091UC03Qmk4cjNXWnprZVZFTlpxbnhRUy03VU16?oc=5",
