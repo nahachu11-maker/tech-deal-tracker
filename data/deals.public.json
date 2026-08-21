@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-21T05:03:20.208926+00:00",
+  "last_updated": "2026-08-21T05:56:48.097680+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -82,6 +82,24 @@
    "extracted_at": "2026-08-21T03:29:43.663945+00:00",
    "verify_failed": true,
    "verify_reason": "Source does not specify a deal date of 2026-08-21 or confirm Pending status; these material facts lack source support."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-21",
+   "type": "M&A",
+   "name": "Kakao / AI & Investment Units",
+   "v": null,
+   "val": null,
+   "sector": "Internet / AI",
+   "status": "Pending",
+   "note": "Kakao's board approved a human (corporate) spin-off separating its AI and investment business units into a distinct entity. The restructuring triggered a 10% share price decline, suggesting market skepticism about value unlocking from the separation. No transaction value was disclosed; deal structure and listing plans for the spun-off entity remain unclear.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MTJMNnpvT0RoZW5Wd2VMMl9hQjFULVFjWi1SNVI5Y2gzbW5TNDZyM1BidDM2RGJPcFRBa2VOODc5bDU4SGxqVUdmVnJRa3FDMDNwNHREcE9kRm5NYmRYbl9n?oc=5",
+   "source_snippet": "Kakao's board approved a spin-off separating AI and investment units, triggering a 10% stock price decline and raising questions about corporate structure and value unlocking.",
+   "extracted_at": "2026-08-21T05:56:43.229601+00:00",
+   "verify_failed": true,
+   "verify_reason": "Spin-off is not an M&A transaction; it is a corporate restructuring/separation"
   },
   {
    "skip": false,
