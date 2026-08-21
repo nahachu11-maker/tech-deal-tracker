@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-21T02:22:16.643157+00:00",
+  "last_updated": "2026-08-21T03:30:03.739614+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 2,
+   "added": 1,
    "updated": 0,
-   "duplicates": 13
+   "duplicates": 2
   }
  },
  "deals": [
@@ -63,6 +63,24 @@
    "extracted_at": "2026-08-21T02:20:43.981114+00:00",
    "verify_failed": true,
    "verify_reason": "The transaction is a spin-off/corporate restructuring, not an M&A (merger or acquisition)"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-21",
+   "type": "M&A",
+   "name": "Anthropic / Casper Studios",
+   "v": null,
+   "val": null,
+   "sector": "Enterprise AI",
+   "status": "Pending",
+   "note": "An Anthropic-affiliated venture is acquiring Casper Studios to expand enterprise AI service offerings. The deal broadens Anthropic's footprint in the enterprise AI services market. Deal value is undisclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQTJjcF9kNnFuT0xFVmkyOVptbERuUmZSb0FVMlp3anNyYXhDdDhWTG11TUFKUG9OalVvbUpUSnZjZVE4T2pRYjc1Y05fYVAyckVQMEVwdWhDTTZyTWVzWU55a3FTMVFvYmp6NlFDbFBDTEtvd2Z5YkR0eV9zRF9DRGNiVmlRWUd2UTBjN0hOMzExSGRoMmIxSg?oc=5",
+   "source_snippet": "An Anthropic-affiliated venture acquires Casper Studios to broaden enterprise AI service offerings, representing M&A activity in the AI ecosystem.",
+   "extracted_at": "2026-08-21T03:29:43.663945+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source does not specify a deal date of 2026-08-21 or confirm Pending status; these material facts lack source support."
   },
   {
    "skip": false,
