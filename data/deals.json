@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-22T14:46:07.929670+00:00",
+  "last_updated": "2026-08-22T15:13:08.026857+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -27,6 +27,24 @@
    "extracted_at": "2026-08-22T07:53:28.769737+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' not 'Pending' since the source states OpenAI 'acquires' (past tense), indicating completion"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-22",
+   "type": "Private",
+   "name": "SoftBank data centre developer",
+   "v": 1.5,
+   "val": null,
+   "sector": "AI Infrastructure / Data Centres",
+   "status": "Pending",
+   "note": "Nvidia is deploying $1.5B into a SoftBank-affiliated data centre developer tied to the OpenAI project, representing a strategic minority investment to secure AI infrastructure capacity. The move reinforces Nvidia's vertical integration ambitions beyond chip sales into the compute stack supporting large-scale AI workloads. Deal terms including stake percentage and post-money valuation were not disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRTNOU0pkaDBfcnBGcnYyNjdRQXpsWkNkQWlBTEZYb1R1aXZtcEZ5QzVGQXRjVDNTR0pCalhzTTJ5UUNPcnd4QVFIazB2OXpUZ0RIQnlKN05xQmRkMDVHakxMVDl6em02Q3p0NG1NNkNTdGRreF9FcmxmX3BVQTBDT3Y4OHZYWkhTSmg1bmxmOWZJWVhuUlI0V3JLWnJlNEVsQ2lIQWZmTTdKNDdyUjJhMFZYSUx5QnFMRnRJWmJOYjY0X1ZqdFlpanFzRWdCWDU0TkE?oc=5",
+   "source_snippet": "Nvidia is investing $1.5 billion in a SoftBank data centre developer tied to the OpenAI project, representing a significant strategic capital deployment to secure AI infrastructure positioning.",
+   "extracted_at": "2026-08-22T15:13:06.431935+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Investment' or similar, not 'Private'; status should be 'Closed' based on source language indicating completed investment"
   },
   {
    "skip": false,
