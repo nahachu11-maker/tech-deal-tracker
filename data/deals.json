@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-08-22T07:09:23.942770+00:00",
+  "last_updated": "2026-08-22T07:53:33.321906+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-22",
+   "type": "M&A",
+   "name": "OpenAI / InstantDB",
+   "v": null,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "OpenAI is acquiring the InstantDB team in an acqui-hire transaction aimed at bolstering its AI infrastructure capabilities. Deal value is undisclosed; the primary asset acquired appears to be engineering talent rather than a standalone product business. The move reflects OpenAI's ongoing push to vertically integrate infrastructure expertise as it scales its platform.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRWV4ekJ6VmZzQ2doUzR5cXpHcEpOeWVNV3FtZU1TRkZFcVExWGxsZEVxblNzZDc0X0ZVWUlvUnRILVVMQWRrYUdCQnN3cV81R3owY3k4VVNrTm9sZWs4WHYtd2FpX3ZKZUkyeF9YYjBjZk1QYjAzd0tjTzJvZkh1azJVTUVmTURNd20xendhX21HRnk2TXlsRQ?oc=5",
+   "source_snippet": "OpenAI acquires the InstantDB team as a talent/acqui-hire to strengthen its AI infrastructure capabilities.",
+   "extracted_at": "2026-08-22T07:53:28.769737+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' since the source states OpenAI 'acquires' (past tense), indicating completion"
+  },
   {
    "skip": false,
    "d": "2026-08-21",
