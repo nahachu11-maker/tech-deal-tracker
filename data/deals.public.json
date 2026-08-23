@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-23T17:43:34.200596+00:00",
+  "last_updated": "2026-08-23T18:17:29.044995+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -28,6 +28,24 @@
    "extracted_at": "2026-08-23T15:45:13.594167+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value of 0.27 billion USD does not match the stated ~374 billion KRW stake (approximately 0.28-0.30 billion USD depending on exchange rate), and the status should be 'Closed' or 'Filed' rather th"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-23",
+   "type": "Private",
+   "name": "Poolside",
+   "v": 7.0,
+   "val": null,
+   "sector": "AI / Cloud Infrastructure",
+   "status": "Pending",
+   "note": "NVIDIA is reportedly earmarking $7 billion for Poolside structured as a GPU-purchasing commitment rather than a conventional equity investment, effectively making NVIDIA a strategic buyer of last resort for its own hardware. The arrangement raises questions about whether this constitutes a true capital investment or a disguised GPU sales agreement. Terms and deal structure remain unclear, with no definitive agreement reported.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeWtGUmY4ZExpMXdKcGd1TzlNSll6Y09JbjVsbWRrRjd2SUlnQXZjTWNHb1dKRGdZUFByMTJnek5JazdsQ3NYUGZOby1SdFpRQnpCeHhHM0pocVhqYVpCZzBwWGw0YU9QdXo4WU1VUmNtMldYRmtkdndrRlhCYVVPU2w5SDNRTHZsSXh1aUcxeTZlV1NweDFJbnBJcnN0N0pOS1M0Z29fd2tzbmVjX1NsX2UyWG5wbmRsRFR6N3FNMzkxVEtkeWpVYS1abW1OVzFhX2FHQ2xud2Rmb3BVYWh3dDMwbVdISzRMSS1qcDJWNjBIVFo1NXVrNWpVeGlKT0ZB0gGGAkFVX3lxTE9vSm5kbmdMSXNaUHJySW5aaHQ2dENPLTcwRnh6S2tzLTQtNXBaQkd3UTVBXzZjZDBmbGlpeEdhUHNHcGdaM09xcVZXZkVWZG1ZUXBteVpROEpWVGI2d09LRzZlU1BJLVljYnBBcXVqRzhJZTFKUmQ5TGlwWUtzaG81anJIQ0xBaEp3RTFpTUxCQXc1VGhybno3NkQzNEVyYjVDblR0LWJtaWlNdXItMU5hWkdmQTJjelQ1RWdXTDY1WlJBUl9OU0xnQ0lUMEw5aXR0dllJa0MtbzU0ejJhdUh3akZtZEdCZ2RPUTlWSW1LYnE1ZERBOE9ydW5oTTFWZlRCLW1nTEE?oc=5",
+   "source_snippet": "Nvidia reportedly earmarking $7 billion for Poolside as a GPU-purchasing commitment, positioning itself as a strategic investor/buyer and raising questions about the nature and terms of the deal.",
+   "extracted_at": "2026-08-23T18:17:26.105313+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a GPU-purchasing commitment, not a traditional deal type; 'Private' is vague and unsupported, and the date 2026-08-23 has no source basis."
   },
   {
    "skip": false,
