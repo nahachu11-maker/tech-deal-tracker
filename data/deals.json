@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-08-23T15:14:47.863749+00:00",
+  "last_updated": "2026-08-23T15:45:17.081512+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-23",
+   "type": "M&A",
+   "name": "Bang Jun-hyuk / Tencent (Netmarble stake)",
+   "v": 0.27,
+   "val": null,
+   "sector": "Gaming",
+   "status": "Pending",
+   "note": "Netmarble chairman Bang Jun-hyuk is acquiring Tencent's approximately 374 billion KRW (~$0.27B USD) stake in Netmarble, consolidating personal control over the Korean mobile gaming company. The transaction represents an insider buyout of a strategic shareholder's minority position. This move strengthens Bang's voting power and reduces foreign institutional influence over Netmarble's governance.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcDEtdVZpWFp0NkxnRDBMMDhVaWFYMThNX1RvaGV3Y2lXWUxQVXI5YVBSdlB1MEt5M0dpOFlsb2NmMGdOWUdtWjA1OVBlRHlFUWYteFhMZjJ4MW9pN3hjR0xkcUF0YjRvZEQ4NHpYOFlCZHp4blVSZExSSlpST3ZQa3NwdjNKdmtjcUhBalJ5cw?oc=5",
+   "source_snippet": "Netmarble chairman Bang Jun-hyuk is absorbing Tencent's ~374 billion KRW stake, consolidating control of the company.",
+   "extracted_at": "2026-08-23T15:45:13.594167+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value of 0.27 billion USD does not match the stated ~374 billion KRW stake (approximately 0.28-0.30 billion USD depending on exchange rate), and the status should be 'Closed' or 'Filed' rather th"
+  },
   {
    "skip": false,
    "d": "2026-08-22",
