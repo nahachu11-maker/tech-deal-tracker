@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-23T19:17:17.916242+00:00",
+  "last_updated": "2026-08-23T19:43:59.613478+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -45,6 +45,22 @@
    "extracted_at": "2026-08-23T18:17:26.105313+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a GPU-purchasing commitment, not a traditional deal type; 'Private' is vague and unsupported, and the date 2026-08-23 has no source basis."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-23",
+   "type": "M&A",
+   "name": "Undisclosed / Hugging Face",
+   "v": 13.0,
+   "val": null,
+   "sector": "AI / Machine Learning",
+   "status": "Pending",
+   "note": "Hugging Face is reportedly exploring a potential sale at a ~$13B valuation amid ongoing acquisition talks. The target is a leading open-source AI model hub and MLOps platform. No acquirer has been publicly named; deal structure and terms remain undisclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95cUlMNC0wRmlTeXRaT3dUVWlqYjV3dDUzbm9RclR0bV93VmhFMDZETDVVQmdMN0dtNkk4ZVpSUzFYQlBtbTN3QkxfQWNXNndtUmJrSUJTbnZ4YW8yZ1BEOEliVkczUQ?oc=5",
+   "source_snippet": "Hugging Face is reportedly exploring a potential $13B sale amid acquisition talks, representing a major M&A opportunity in the AI sector.",
+   "extracted_at": "2026-08-23T19:43:56.811656+00:00"
   },
   {
    "skip": false,
