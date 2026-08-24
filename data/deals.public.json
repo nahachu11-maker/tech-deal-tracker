@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-24T07:02:41.617544+00:00",
+  "last_updated": "2026-08-24T07:08:33.148308+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
@@ -46,6 +46,22 @@
    "extracted_at": "2026-08-24T03:31:17.398128+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Pending' not 'Filed' since the source indicates they are 'pursuing' an IPO with listing country yet to be determined, not that it has been filed."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-24",
+   "type": "M&A",
+   "name": "Nvidia / Perplexity",
+   "v": null,
+   "val": null,
+   "sector": "AI / Search",
+   "status": "Pending",
+   "note": "Nvidia is reportedly preparing a multibillion-dollar deal for Perplexity AI, the AI-powered search startup, while simultaneously investing in a data center power firm. Deal value is undisclosed but described as multibillion-dollar; structure (full acquisition vs. strategic stake) is not confirmed in the source text. The move signals Nvidia's push to extend its AI infrastructure dominance into application-layer AI search.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOF9lc0VwTXhBMHF2bVFTWm1OR0hkcHVnU0U2VVRsN2FlVEFnZFZBMWJkSjdjNm1MUUR4cE55RHZ0R21PVDlTSk9rRlZnaVl4NUxnQS16YUlhdUVfcTBCbzNvU0tWaUdNU0U3SndtaUpWRGtLOEFJOU5XVzdfZmRnTUVOVi1XMWxQT0otTEpDTTM3cEl5QlMtaHYycFZNMzFPMUUwZFJadG9QalVLUFMteGRaNzhycVMzMF9kaw?oc=5",
+   "source_snippet": "Nvidia is investing in a data center power firm and preparing a multibillion-dollar deal for Perplexity, representing significant capital deployment in AI infrastructure and search.",
+   "extracted_at": "2026-08-24T07:08:23.170135+00:00"
   },
   {
    "skip": false,
