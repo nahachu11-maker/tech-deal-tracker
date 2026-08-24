@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-24T11:34:20.386472+00:00",
+  "last_updated": "2026-08-24T12:30:59.233123+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -80,6 +80,22 @@
    "extracted_at": "2026-08-24T09:14:14.679191+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a stake disclosure (investment holding), not an M&A transaction; deal type should be investment or minority stake, not M&A."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-24",
+   "type": "M&A",
+   "name": "Qualcomm / Tenstorrent",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors / AI Chips",
+   "status": "Pending",
+   "note": "Reports indicate Qualcomm is exploring an acquisition of AI chip startup Tenstorrent, sending QCOM shares up over 4%. A deal would meaningfully expand Qualcomm's AI hardware capabilities, adding Tenstorrent's RISC-V-based AI accelerator IP to its portfolio. No deal value has been disclosed; the acquisition remains at the exploratory/rumor stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOTAzXzdPQWlPYlRXbTlZLVNJZF95TFgwbXZaRUFHeE5FdXhxd3dUbUVTa1NtdjNmcExadmwyQXoxbGFsakViajRmVm8zaVR1Tmh4N3dnQmVIdTRtelJCQkZBaDUwUl92Y2xhNmNoOFdFTDl6NnNnbDFiaU52UmMtVThtUmV0YWlCLTBSeE5ocHB4WXIzS3JreHhnQ05rQ0FUMFFWZTZFOVpBQTIxS0psSU1CV00zeF94angxV0NHUE5od2ZM?oc=5",
+   "source_snippet": "Reports that Qualcomm is eyeing AI chip startup Tenstorrent sent QCOM shares up over 4%, suggesting a potential acquisition that would bolster Qualcomm's AI hardware capabilities.",
+   "extracted_at": "2026-08-24T12:30:50.125253+00:00"
   },
   {
    "skip": false,
