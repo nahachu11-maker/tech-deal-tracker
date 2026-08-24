@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-08-24T08:12:04.414826+00:00",
+  "last_updated": "2026-08-24T09:15:02.050270+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 3
   }
  },
  "deals": [
@@ -61,6 +61,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOF9lc0VwTXhBMHF2bVFTWm1OR0hkcHVnU0U2VVRsN2FlVEFnZFZBMWJkSjdjNm1MUUR4cE55RHZ0R21PVDlTSk9rRlZnaVl4NUxnQS16YUlhdUVfcTBCbzNvU0tWaUdNU0U3SndtaUpWRGtLOEFJOU5XVzdfZmRnTUVOVi1XMWxQT0otTEpDTTM3cEl5QlMtaHYycFZNMzFPMUUwZFJadG9QalVLUFMteGRaNzhycVMzMF9kaw?oc=5",
    "source_snippet": "Nvidia is investing in a data center power firm and preparing a multibillion-dollar deal for Perplexity, representing significant capital deployment in AI infrastructure and search.",
    "extracted_at": "2026-08-24T07:08:23.170135+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-24",
+   "type": "M&A",
+   "name": "Kakao / Upstage",
+   "v": null,
+   "val": null,
+   "sector": "AI / Software",
+   "status": "Closed",
+   "note": "Kakao has publicly disclosed for the first time that it holds an 8.44% minority stake in AI startup Upstage, with the position held under its subsidiary Kakao X. The disclosure signals Kakao's strategic exposure to the domestic AI model and LLM space. No transaction value was stated in the source text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNeEtRZ3NGQmV4YzJ6aThzbmUzUVZmVlZKdEp0UWRBOWdpS2pVNlpsM3JUOGdCR0VYY3ZZTERoSFVYaEVKVkRaSVJ0R1c4Y0I0dUpXWHdkMGRnWGhBVVktYmd0eTI?oc=5",
+   "source_snippet": "Kakao discloses an 8.44% minority stake in AI startup Upstage for the first time, with the holding remaining under Kakao X; signals strategic AI investment exposure.",
+   "extracted_at": "2026-08-24T09:14:14.679191+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a stake disclosure (investment holding), not an M&A transaction; deal type should be investment or minority stake, not M&A."
   },
   {
    "skip": false,
