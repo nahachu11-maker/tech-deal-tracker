@@ -1,16 +1,52 @@
 {
  "meta": {
-  "last_updated": "2026-08-24T02:22:44.017203+00:00",
+  "last_updated": "2026-08-24T03:31:29.136848+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-24",
+   "type": "Private",
+   "name": "Perplexity",
+   "v": null,
+   "val": 30.0,
+   "sector": "AI / Search",
+   "status": "Pending",
+   "note": "Nvidia is in discussions to invest in Perplexity AI at a valuation of $30 billion or more, with a tech licensing deal also reportedly considered as an alternative structure. The investment would represent a significant strategic commitment by Nvidia to AI-native search infrastructure. Deal size is undisclosed; valuation is aspirational at this discussion stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMGdwRGUxNHpRRFM3dndxcG04azgxTFYxWkotZjNIVjAyT2dtbWkyNFo1NEJ6bXNlU1BGR3JYN0RyS18xZHNycVRkMXZBNHZsSlhFSVVPWU9QdFlaX0pJa19SNmZ2M1ZZY0RqNnJIakJwSXZPSEhSWDBPNlg4MUc3VWpyZGdUSlI5N2NjX3hnaWU2TUp1cmVFdHlMNVMxc01xVExsOWVCT0NfRXRaYzdsTnNMaVFMR3dIVWwzeW10dkxhRUJmaWhkVUtzd1QybjN3?oc=5",
+   "source_snippet": "Nvidia is reportedly in discussions to invest in Perplexity at a $30B+ valuation and also considered a tech licensing deal, representing a significant strategic capital deployment in AI search.",
+   "extracted_at": "2026-08-24T03:31:03.340825+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source indicates discussions and consideration of a deal, not a confirmed pending transaction; also Nvidia as investor/party is missing from the record."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-24",
+   "type": "IPO",
+   "name": "Naver Financial / Dunamu",
+   "v": null,
+   "val": null,
+   "sector": "Fintech / Crypto",
+   "status": "Filed",
+   "note": "Naver Financial and Dunamu (operator of South Korea's leading crypto exchange Upbit) are pursuing an IPO following a share swap between the two entities; the listing venue (domestic or overseas) has not yet been determined. The share swap structure suggests the combined entity will seek a joint or coordinated public offering. Deal size and valuation remain undisclosed at this stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mS2NZY0x1UlQ5VHRYTERPaE9rdUNtdDFZNjl6SG53WFNTMVhVWk9zTDRDNFZ1ZTR2QXNXWWFvby1DLWUtZThTYjRsSk9UN3dGV2lyUkRZaHNwbUZ4MzNQVjBKRDhQeW5UWmfSAWpBVV95cUxNZktjWWNMdVJUOVR0WExET2hPa3VDbXQxWTY5ekhud1hTUzFYVVpPc0w0QzRWdWU0dkFzV1lhb28tQy1lLWU4U2I0bEpPVDd3RldpclJEWWhzcG1GeDMzUFYwSkQ4UHluVFpn?oc=5",
+   "source_snippet": "Naver Financial and Dunamu (operator of Upbit) are pursuing an IPO following a share swap, with the listing country yet to be determined — a notable fintech/crypto IPO pipeline item.",
+   "extracted_at": "2026-08-24T03:31:17.398128+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Pending' not 'Filed' since the source indicates they are 'pursuing' an IPO with listing country yet to be determined, not that it has been filed."
+  },
   {
    "skip": false,
    "d": "2026-08-23",
