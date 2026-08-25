@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-08-25T11:53:19.820406+00:00",
+  "last_updated": "2026-08-25T12:31:02.659463+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -28,6 +28,22 @@
    "extracted_at": "2026-08-25T10:34:49.273475+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes a 'reported' acquisition with speculative language about Musk's communications, not a confirmed closed deal with a verified date of August 2026."
+  },
+  {
+   "skip": false,
+   "d": "2026-08-25",
+   "type": "M&A",
+   "name": "Nvidia / Intel",
+   "v": 20.0,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "A reported $20B deal involving Intel is said to carry Nvidia's backing, potentially representing a strategic investment or acquisition stake aimed at bolstering Intel's AI infrastructure capabilities. The deal's exact structure — whether an equity stake, full acquisition of a business unit, or broader transaction — is unspecified in the snippet. Nvidia's involvement would mark a significant convergence of two major semiconductor players in the AI compute race.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tdHBwQXJMdEVDV0xuZnhRSFJiTUZZQTlYcW5wMVRmSlYwbk45Z1Z0TS1rMi1GMXpFZURWTmtVVHY5NHFvamdObWRTVTI4ZGxQSV8xNzRKTGs0NVJrOUQyZzZjM3BKTWRiUFpFUGJZTjQtVTlMMWgzLUJn?oc=5",
+   "source_snippet": "A reported $20B deal involving Intel is said to have Nvidia's backing, potentially significant for Intel's AI infrastructure push and investor positioning.",
+   "extracted_at": "2026-08-25T12:31:00.054295+00:00"
   },
   {
    "skip": false,
