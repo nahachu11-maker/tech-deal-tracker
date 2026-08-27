@@ -1,16 +1,50 @@
 {
  "meta": {
-  "last_updated": "2026-08-26T23:54:25.131682+00:00",
+  "last_updated": "2026-08-27T05:55:18.707752+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-27",
+   "type": "M&A",
+   "name": "FCP / S1 Corporation",
+   "v": 3.3,
+   "val": null,
+   "sector": "Security Services / Tech",
+   "status": "Pending",
+   "note": "FCP has reportedly proposed a KRW 4.4 trillion (~$3.3B) acquisition of S1 Corporation (에스원), a Samsung-affiliated security services subsidiary, to five Samsung Group affiliates. The deal would represent a potential take-private of the listed security and facility management company. No definitive agreement has been announced; the proposal is at early discussion stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBERTdreEtRdlJ6M081Y2lCaHlKYXhsVjlaTXJ0ak1OdFhHQnFVQmZqNTFIOUYyb2VKbmpnd3ExRWdpQnl2Q3l6YlJ3UWNuRkc0OUx3QktpdlVoZ9IBWEFVX3lxTE1FYm9wcjRtVEJGdFN6b052YnMwS0Q4TUY0V1F6bzVFWmlKdi11MjBtb0ZKdnJEZVRNYlRWRlNjQmlJVkNLUVBBTmwxTTdJdWZ2ZXRLbERXQlI?oc=5",
+   "source_snippet": "FCP reportedly proposed a KRW 4.4 trillion (~$3.3B) acquisition of S1 Corporation (Esone) to five Samsung affiliates, a sizable potential take-private of a Samsung security subsidiary.",
+   "extracted_at": "2026-08-27T05:55:04.919619+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-08-27",
+   "type": "M&A",
+   "name": "Nvidia / Hugging Face",
+   "v": 13.0,
+   "val": null,
+   "sector": "AI / Machine Learning",
+   "status": "Pending",
+   "note": "Nvidia is reportedly in talks to acquire open-source AI platform Hugging Face for over $13B, which would represent one of the largest AI-sector acquisitions to date. Hugging Face is a leading hub for open-source models and datasets, making it strategically valuable for Nvidia's ambitions to expand beyond hardware into the AI software and developer ecosystem. The deal remains unconfirmed at this stage and no definitive agreement has been announced.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb2liQlJIX3lOaVFvUGMwMXd6eURvdVdKdktabGhJbFZuWVkxdWc4dHJ3Y09EUGF3ZlgwQnhGclVuQW9SU2Y5eElMVWVmakNCWlNSSTJVREVkMmhFNVpjVl9CX01mcHdfbE9qdHlLUWpDM2pwYlVnYkY3akozTm5Qd2FIdDZpRkk5QzlPNERsTUtnUkZmRWo5MllLNVJ1MG9LVWd2OGNxOGE5Umc3VktvTVZJa3FEVFlRSktnVVEzcFAxX1FCMkYzUQ?oc=5",
+   "source_snippet": "Reports indicate Nvidia is in talks to acquire AI platform Hugging Face for over $13B, which would be a landmark AI M&A transaction if confirmed.",
+   "extracted_at": "2026-08-27T05:55:15.677035+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes talks/unconfirmed reports, not a formal pending deal with official filing or announcement date."
+  },
   {
    "skip": false,
    "d": "2026-08-26",
