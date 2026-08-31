@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-08-31T13:02:38.778132+00:00",
+  "last_updated": "2026-08-31T16:34:31.026835+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 0,
-   "duplicates": 1
+   "added": 1,
+   "updated": 1,
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-08-31",
+   "type": "M&A",
+   "name": "Nvidia / MediaTek",
+   "v": 3.5,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Nvidia is reportedly planning a $3.5B strategic minority stake investment in MediaTek to broaden its AI chip ecosystem and partnerships. The transaction would give Nvidia deeper integration with MediaTek's chip design capabilities across mobile and edge AI segments. Deal is unconfirmed/reported; no definitive agreement language present.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFaWtuQVAxREt3MGZCaWRUV1U4Z09qNWZBUDZJTFM4R09fTzVIek5zLS1YSkJzX2ZBVGhodHhneHFUQ3hiUExnczZLbkhjaWl4RUVGb0FaWTRRajFWLXRhYThENk1Mdw?oc=5",
+   "source_snippet": "Nvidia is reportedly planning a $3.5B investment in MediaTek to expand its AI chip ecosystem, a significant strategic minority stake that could reshape AI chip partnerships.",
+   "extracted_at": "2026-08-31T16:34:18.460896+00:00",
+   "verify_failed": true,
+   "verify_reason": "The deal type should be 'Minority Investment' or similar, not 'M&A', as the source describes a strategic minority stake, not a merger or acquisition."
+  },
   {
    "skip": false,
    "d": "2026-08-28",
@@ -2918,13 +2936,13 @@
    "d": "2026-07-21",
    "type": "M&A",
    "name": "SK Hynix / Intel Ohio Campus",
-   "v": null,
+   "v": 20.0,
    "val": null,
    "sector": "Semiconductors",
    "status": "Pending",
-   "note": "SK Hynix is reportedly pursuing the acquisition of Intel's Ohio campus with the goal of establishing domestic U.S. memory chip production within five years. The deal represents a strategic real-asset acquisition aimed at onshoring advanced memory manufacturing capacity amid growing geopolitical pressure to build U.S.-based semiconductor supply chains. Deal value has not been disclosed.",
+   "note": "SK Hynix is reportedly pursuing the acquisition of Intel's Ohio campus with the goal of establishing domestic U.S. memory chip production within five years. The deal represents a strategic real-asset acquisition aimed at onshoring advanced memory manufacturing capacity amid growing geopolitical pressure to build U.S.-based semiconductor supply chains. Deal value has not been disclosed. [Auto-update 2026-08-31: Reported potential deal between SK Hynix and Intel's foundry business, with a $20 billion cash consideration flagged in the headline. The transaction signals a major strategic restructuring of Intel's]",
    "advisors": [],
-   "review": false,
+   "review": true,
    "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1Wai1Ja3RRdFppM1lSUzE0WjNDT3VubUphY2FkU2x3R2xiczlxUXg2TUduNEJJdnA0RmlSSHRjWDMya3BzWS1LLUFxeHk?oc=5",
    "source_snippet": "SK Hynix is pursuing acquisition of Intel's Ohio campus to establish domestic U.S. memory production within five years, a strategically significant real-asset M&A move.",
    "extracted_at": "2026-07-21T20:42:58.777048+00:00"
