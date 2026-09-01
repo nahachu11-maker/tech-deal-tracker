@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-09-01T15:21:22.292845+00:00",
+  "last_updated": "2026-09-01T16:17:12.178371+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
@@ -46,6 +46,40 @@
    "extracted_at": "2026-09-01T11:18:51.611148+00:00",
    "verify_failed": true,
    "verify_reason": "No source text provided to verify the extracted record against."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-01",
+   "type": "M&A",
+   "name": "Unknown Acquirer / GoPro",
+   "v": 0.285,
+   "val": null,
+   "sector": "Consumer Tech / AI Infrastructure",
+   "status": "Pending",
+   "note": "GoPro is being acquired for $285M by an unnamed AI infrastructure company in a merger that will leave GoPro publicly listed. The combined entity will continue supporting GoPro's existing consumer product lines. The unusual structure — remaining public post-acquisition — suggests a reverse merger or de-SPAC-style transaction rather than a traditional buyout.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/09/01/gopro-to-be-acquired-for-285m-will-remain-a-public-company/",
+   "source_snippet": "GoPro is merging with a company that builds AI infrastructure, and will continue supporting existing consumer products.",
+   "extracted_at": "2026-09-01T16:16:33.127154+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source does not specify a deal date of 2026-09-01, and the extracted value of 0.285 (presumably $285M) is not mentioned in the source."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-01",
+   "type": "M&A",
+   "name": "GoPro / Starman Optical, Inc.",
+   "v": null,
+   "val": null,
+   "sector": "Optical Networking / AI Infrastructure",
+   "status": "Pending",
+   "note": "GoPro has entered into a definitive agreement to merge with Starman Optical, Inc. in a recapitalization transaction that will keep the combined entity publicly listed on Nasdaq. The deal adds a U.S. onshore optical transceiver business, repositioning GoPro to compete in AI data center, government, defense, and aerospace markets. Deal value was not disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/gopro-enters-into-definitive-agreement-to-merge-with-starman-optical-inc-302866291.html",
+   "source_snippet": " Merger to Recapitalize and Reposition GoPro; Company to Remain Publicly Listed on Nasdaq Transaction Expected to Add U.S. Onshore Optical Transceiver Business, Positioning GoPro to Expand into AI Data Center, Government, Defense and Aerospace Markets GoPro to Continue Supporting its... ",
+   "extracted_at": "2026-09-01T16:17:07.322736+00:00"
   },
   {
    "skip": false,
