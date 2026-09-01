@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-09-01T04:09:31.712804+00:00",
+  "last_updated": "2026-09-01T05:55:43.491329+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-09-01",
+   "type": "M&A",
+   "name": "SLB / Kelvin",
+   "v": 3.4,
+   "val": null,
+   "sector": "Data Center Cooling / AI Infrastructure",
+   "status": "Pending",
+   "note": "SLB (formerly Schlumberger) is acquiring Kelvin, a data center cooling specialist, for $3.4B in a strategic pivot into AI infrastructure thermal management. The deal signals SLB's intent to leverage its thermal and fluid engineering expertise — historically applied in oilfield services — into the fast-growing AI data center cooling market. No deal structure or advisor details are provided in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kQl94eDBDU3FUQTF6d2VuT1lXcEVjTHNfcHFEUEM1UVZhdXpka0V3eG9QUHQ0ZmhsT3V0dEdzajN0TVNiWXJ6TlpLS0tjMjQ?oc=5",
+   "source_snippet": "SLB (formerly Schlumberger) acquires data center cooling company Kelvin for $3.4B, a significant move into AI infrastructure thermal management.",
+   "extracted_at": "2026-09-01T05:55:40.109082+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the source states SLB 'acquires' Kelvin, indicating a completed transaction."
+  },
   {
    "skip": false,
    "d": "2026-08-31",
