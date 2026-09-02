@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-09-02T03:32:07.611457+00:00",
+  "last_updated": "2026-09-02T06:06:00.671087+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 1
   }
  },
  "deals": [
@@ -27,6 +27,24 @@
    "extracted_at": "2026-09-02T01:17:07.584669+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Investment' or similar, not 'Debt'; this is an equity investment via convertible bonds, not a debt transaction"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-02",
+   "type": "M&A",
+   "name": "Apple / Beats Electronics",
+   "v": 3.0,
+   "val": null,
+   "sector": "Consumer Electronics / Audio",
+   "status": "Closed",
+   "note": "Apple confirmed its $3 billion acquisition of Beats Electronics, maker of the Beats by Dre premium headphone line and Beats Music streaming service. The deal — Apple's largest acquisition at the time — gave Apple an established hardware brand and a music streaming footprint ahead of Apple Music's launch. The transaction reflects Apple's strategy to accelerate its content and accessories ecosystem.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mYUUybnJUazVFNFVmVndfdlpmTUY5NXNXZF9zckNMeXBwYVlYN1FfbUNaVjNWZmhpM2FuWmhJZlV3V2syS1ZtQjE0ZUxleWpGeTE4Ukp3?oc=5",
+   "source_snippet": "Apple confirmed its $3B acquisition of Beats by Dre — a landmark deal notable for its size and Apple's content/hardware strategy (historical reference item).",
+   "extracted_at": "2026-09-02T06:05:52.279290+00:00",
+   "verify_failed": true,
+   "verify_reason": "The 'val' field should be 3.0 (in billions) to match the $3B acquisition value stated in the source, not null."
   },
   {
    "skip": false,
