@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-09-02T21:57:43.224657+00:00",
+  "last_updated": "2026-09-02T23:44:14.475063+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -46,6 +46,22 @@
    "extracted_at": "2026-09-02T06:05:52.279290+00:00",
    "verify_failed": true,
    "verify_reason": "The 'val' field should be 3.0 (in billions) to match the $3B acquisition value stated in the source, not null."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-02",
+   "type": "M&A",
+   "name": "Palo Alto Networks / Console",
+   "v": 0.5,
+   "val": null,
+   "sector": "Cybersecurity / AI IT Automation",
+   "status": "Closed",
+   "note": "Palo Alto Networks acquired Thrive-backed Console for $500M, expanding its AI-driven IT service automation capabilities. The deal positions Palo Alto against Sequoia-backed Serval, currently the leading remaining independent startup in the AI IT service automation space. The acquisition price was reported by sources rather than officially disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+   "source_snippet": "Palo Alto Networks reportedly acquired Thrive-backed Console for $500M, leaving Sequoia-backed Serval as the leading startup in AI IT service automation.",
+   "extracted_at": "2026-09-02T23:44:07.299509+00:00"
   },
   {
    "skip": false,
