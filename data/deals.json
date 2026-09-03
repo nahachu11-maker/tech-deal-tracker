@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-09-03T20:42:50.024590+00:00",
+  "last_updated": "2026-09-03T22:04:58.777823+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 6
   }
  },
  "deals": [
@@ -61,6 +61,22 @@
    "source_url": "https://www.sec.gov/Archives/edgar/data/2133022/000119312526381855",
    "source_snippet": "",
    "extracted_at": "2026-09-03T20:41:28.021026+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-03",
+   "type": "M&A",
+   "name": "Nvidia / HuggingFace",
+   "v": null,
+   "val": null,
+   "sector": "AI / Open-Source Models",
+   "status": "Pending",
+   "note": "Nvidia is reported to be acquiring open-source AI platform Hugging Face in what would represent a landmark consolidation move in the AI model ecosystem. The deal value is undisclosed in the source. Strategically, the acquisition would give Nvidia deep integration with the dominant open-source model hub, strengthening its software and ecosystem layer beyond GPU hardware.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTXA4eDBCbFlIa0VpaWlXVXRzV1d1ZkpSaGo1VnRpV0xELWpRRTd5T01sU1JlTTduMW54MDVLYlBjUWswTXFFdkpsWWp5MGF3dHZFZ1R3RzlVUkR0d2ZvQnE4NGFpaGdBMVRWeXppcS1lVjhnZ0ZYWkJLRkgwdXdaLWU4TFBYT29xZFNCWVhXWGhER2dpUzhWLWR3?oc=5",
+   "source_snippet": "Nvidia reported to be acquiring open-source AI platform Hugging Face in a deal that would be a landmark consolidation move in the AI model ecosystem.",
+   "extracted_at": "2026-09-03T22:04:26.689015+00:00"
   },
   {
    "skip": false,
