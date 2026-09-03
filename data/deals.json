@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-09-03T16:02:00.345428+00:00",
+  "last_updated": "2026-09-03T16:37:15.994625+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 5
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-09-03",
+   "type": "M&A",
+   "name": "Nvidia / Multiple Targets",
+   "v": 12.9,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Nvidia is reportedly deploying $12.9B across acquisitions or strategic investments aimed at diversifying beyond its core GPU hardware business. The exact targets and transaction structures are not disclosed in the snippet, suggesting a portfolio of deals rather than a single transaction. This represents a significant strategic capital allocation signal for Nvidia as it seeks to expand its footprint across the broader semiconductor and AI ecosystem.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNelluc2Q1TXJzS3JhQmNsX0ZkMFBCQUZnMk1rZldFMnluLWE1RDhqZnE5aHd4djRlTFdUd0lROXpKRVRsc3hSMHVxVklxMzdYVndNU2Z2YktWWlZGc1FwbGdVbGJzOWFnTHB1YVBaekJaNmtBYzRnYW1PaWxHNXdxVXU2Z3pJUnJSQXE3c1lfck1aWGI1dHRkVkduakI2ckN0OXI0eUdKV2xhM201cWNOS1VvUEk?oc=5",
+   "source_snippet": "Nvidia reportedly deploying $12.9B in acquisitions or investments to diversify beyond GPU hardware, a significant capital allocation signal for the semiconductor sector.",
+   "extracted_at": "2026-09-03T16:37:06.400796+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes reported deployment plans, not a pending M&A deal with confirmed parties and date."
+  },
   {
    "skip": false,
    "d": "2026-09-02",
