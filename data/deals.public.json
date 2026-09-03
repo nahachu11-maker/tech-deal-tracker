@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-09-03T16:37:15.994625+00:00",
+  "last_updated": "2026-09-03T19:33:12.660206+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 5
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
@@ -28,6 +28,24 @@
    "extracted_at": "2026-09-03T16:37:06.400796+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes reported deployment plans, not a pending M&A deal with confirmed parties and date."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-03",
+   "type": "Private",
+   "name": "Hugging Face",
+   "v": 12.9303,
+   "val": null,
+   "sector": "AI / ML Infrastructure",
+   "status": "Pending",
+   "note": "Nvidia is making a strategic investment in Hugging Face at a precisely coded $12.9303B valuation, with the unusual price tag drawing attention as a deliberate Easter egg embedded in the deal structure. The investment underscores Nvidia's strategy to deepen ties with the leading open-source AI model hub, reinforcing its ecosystem dominance in AI infrastructure. Deal structure and stake percentage are not disclosed in the snippet.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3c0Wkw1S1BJWlpTMWx3SlJSQkNmSlhudTJDdExNLW1nWllMZ1N4bzFoUU16S00ySHFKWEVxX0ZaTmRWbGZPTUtUcWtEME1qSGtReGZORDVrNHgxZmJ4eC1KY1RKbGQwRTlMOHNFcDVncUNSSGtLN3R0NUtxUzVDdGN1VFdKVW1VNW5mRWcweEhLdkNkY29UVFU1UFRTa2JDNXpr?oc=5",
+   "source_snippet": "Nvidia's investment in Hugging Face is reported at a precisely coded $12.9303 billion price tag, drawing attention to the deal's unusual structure and valuation.",
+   "extracted_at": "2026-09-03T19:33:10.835551+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source does not confirm the deal date (2026-09-03), deal type classification as 'Private', or 'Pending' status; the $12.9303B figure appears unusually precise and the source does not clearly establish"
   },
   {
    "skip": false,
