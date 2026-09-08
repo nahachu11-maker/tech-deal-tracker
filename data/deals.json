@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-09-08T10:51:08.372398+00:00",
+  "last_updated": "2026-09-08T14:06:45.288336+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-09-08",
+   "type": "M&A",
+   "name": "Amazon / Qualcomm",
+   "v": 4.0,
+   "val": null,
+   "sector": "Semiconductors / AI Chips",
+   "status": "Pending",
+   "note": "Qualcomm transferred a $4 billion equity stake to Amazon alongside an AI chip supply agreement, representing a significant strategic investment in custom silicon development. The transaction combines a commercial supply arrangement with an equity component, deepening the two companies' collaboration on AI inference chips. Deal status and full terms remain unclear from the snippet; the equity transfer may signal Amazon taking a minority stake in a Qualcomm entity or product line.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNFJzYWpMNmU0eGQ0NzZPeExQdkZCUE12RHF2SEIzZTFZUjhWV1M0akV3TGlKZEc5QlBJR3hEMjBacXFMdElOMWNsLUFKTFpwRFdadWNXaDBjREhGS3BrYnlWd2FDNWp5cVVVcmdEa1dMOEVTbDJPQWszUUF3ZTV5Vld0TkVDY1JHNE1JcXNuNFJXTTd3YmN3NDR4TGNxTWcxX3AxbA?oc=5",
+   "source_snippet": "Qualcomm struck an AI chip supply deal with Amazon and transferred a $4B equity stake, marking a significant strategic and capital transaction in custom silicon.",
+   "extracted_at": "2026-09-08T14:06:42.407739+00:00",
+   "verify_failed": true,
+   "verify_reason": "The transaction type should be an equity investment or strategic deal, not M&A, and the status should be 'Closed' not 'Pending' based on 'struck' language indicating completion."
+  },
   {
    "skip": false,
    "d": "2026-09-07",
