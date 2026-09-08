@@ -1,13 +1,13 @@
 {
  "meta": {
-  "last_updated": "2026-09-08T20:49:14.660157+00:00"
+  "last_updated": "2026-09-08T23:05:41.224373+00:00"
  },
  "trends": [
   {
    "entity": "Qualcomm",
-   "today": 34,
+   "today": 40,
    "avg": 0.08,
-   "score": 68.0,
+   "score": 80.0,
    "spiking": true,
    "spark": [
     0,
@@ -17,14 +17,14 @@
     0,
     0,
     1,
-    34
+    40
    ]
   },
   {
    "entity": "ASML",
-   "today": 28,
-   "avg": 0.38,
-   "score": 56.0,
+   "today": 31,
+   "avg": 0.31,
+   "score": 62.0,
    "spiking": true,
    "spark": [
     0,
@@ -33,15 +33,49 @@
     0,
     0,
     0,
-    5,
-    28
+    4,
+    31
+   ]
+  },
+  {
+   "entity": "Samsung",
+   "today": 45,
+   "avg": 0.92,
+   "score": 48.75,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    45
+   ]
+  },
+  {
+   "entity": "Meta",
+   "today": 37,
+   "avg": 0.77,
+   "score": 48.1,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    10,
+    37
    ]
   },
   {
    "entity": "Amazon",
-   "today": 43,
+   "today": 51,
    "avg": 1.08,
-   "score": 39.93,
+   "score": 47.36,
    "spiking": true,
    "spark": [
     0,
@@ -51,14 +85,14 @@
     0,
     0,
     14,
-    43
+    51
    ]
   },
   {
-   "entity": "Meta",
-   "today": 30,
-   "avg": 0.85,
-   "score": 35.45,
+   "entity": "Samsung Electronics",
+   "today": 35,
+   "avg": 0.77,
+   "score": 45.5,
    "spiking": true,
    "spark": [
     0,
@@ -67,15 +101,15 @@
     0,
     0,
     0,
-    11,
-    30
+    10,
+    35
    ]
   },
   {
    "entity": "Intel",
-   "today": 19,
+   "today": 20,
    "avg": 0.62,
-   "score": 30.88,
+   "score": 32.5,
    "spiking": true,
    "spark": [
     0,
@@ -85,14 +119,14 @@
     0,
     0,
     8,
-    19
+    20
    ]
   },
   {
-   "entity": "Samsung",
-   "today": 40,
-   "avg": 1.38,
-   "score": 28.89,
+   "entity": "SK Hynix",
+   "today": 50,
+   "avg": 1.77,
+   "score": 28.26,
    "spiking": true,
    "spark": [
     0,
@@ -101,15 +135,66 @@
     0,
     0,
     0,
-    18,
-    40
+    23,
+    50
+   ]
+  },
+  {
+   "entity": "OpenAI",
+   "today": 64,
+   "avg": 2.38,
+   "score": 26.84,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    31,
+    64
+   ]
+  },
+  {
+   "entity": "Palantir",
+   "today": 18,
+   "avg": 0.69,
+   "score": 26.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    9,
+    18
+   ]
+  },
+  {
+   "entity": "AMD",
+   "today": 15,
+   "avg": 0.62,
+   "score": 24.38,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    15
    ]
   },
   {
    "entity": "Broadcom",
-   "today": 12,
+   "today": 13,
    "avg": 0.54,
-   "score": 22.29,
+   "score": 24.14,
    "spiking": true,
    "spark": [
     0,
@@ -119,14 +204,48 @@
     0,
     0,
     7,
+    13
+   ]
+  },
+  {
+   "entity": "Microsoft",
+   "today": 24,
+   "avg": 1.0,
+   "score": 24.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    13,
+    24
+   ]
+  },
+  {
+   "entity": "TSMC",
+   "today": 12,
+   "avg": 0.46,
+   "score": 24.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
     12
    ]
   },
   {
-   "entity": "Samsung Electronics",
-   "today": 35,
-   "avg": 1.62,
-   "score": 21.67,
+   "entity": "Oracle",
+   "today": 18,
+   "avg": 1.0,
+   "score": 18.0,
    "spiking": true,
    "spark": [
     0,
@@ -135,15 +254,15 @@
     0,
     0,
     0,
-    21,
-    35
+    13,
+    18
    ]
   },
   {
-   "entity": "AMD",
-   "today": 14,
+   "entity": "Micron",
+   "today": 12,
    "avg": 0.69,
-   "score": 20.22,
+   "score": 17.33,
    "spiking": true,
    "spark": [
     0,
@@ -153,41 +272,7 @@
     0,
     0,
     9,
-    14
-   ]
-  },
-  {
-   "entity": "Palantir",
-   "today": 14,
-   "avg": 0.69,
-   "score": 20.22,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    9,
-    14
-   ]
-  },
-  {
-   "entity": "OpenAI",
-   "today": 54,
-   "avg": 3.31,
-   "score": 16.33,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    43,
-    54
+    12
    ]
   },
   {
@@ -208,95 +293,10 @@
    ]
   },
   {
-   "entity": "Oracle",
-   "today": 17,
-   "avg": 1.08,
-   "score": 15.79,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    14,
-    17
-   ]
-  },
-  {
-   "entity": "SK Hynix",
-   "today": 47,
-   "avg": 3.08,
-   "score": 15.27,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    40,
-    47
-   ]
-  },
-  {
-   "entity": "Microsoft",
-   "today": 16,
-   "avg": 1.08,
-   "score": 14.86,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    14,
-    16
-   ]
-  },
-  {
-   "entity": "TSMC",
-   "today": 9,
-   "avg": 0.62,
-   "score": 14.62,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    8,
-    9
-   ]
-  },
-  {
-   "entity": "Micron",
-   "today": 10,
-   "avg": 0.69,
-   "score": 14.44,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    9,
-    10
-   ]
-  },
-  {
    "entity": "Anthropic",
    "today": 27,
-   "avg": 1.92,
-   "score": 14.04,
+   "avg": 1.69,
+   "score": 15.95,
    "spiking": true,
    "spark": [
     0,
@@ -305,8 +305,59 @@
     0,
     0,
     0,
-    25,
+    22,
     27
+   ]
+  },
+  {
+   "entity": "Mistral AI",
+   "today": 7,
+   "avg": 0.0,
+   "score": 14.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7
+   ]
+  },
+  {
+   "entity": "Apple",
+   "today": 19,
+   "avg": 1.38,
+   "score": 13.72,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    18,
+    19
+   ]
+  },
+  {
+   "entity": "CoreWeave",
+   "today": 6,
+   "avg": 0.0,
+   "score": 12.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6
    ]
   },
   {
@@ -327,44 +378,10 @@
    ]
   },
   {
-   "entity": "Mistral AI",
-   "today": 6,
-   "avg": 0.0,
-   "score": 12.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    6
-   ]
-  },
-  {
-   "entity": "Apple",
-   "today": 16,
-   "avg": 1.38,
-   "score": 11.56,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    18,
-    16
-   ]
-  },
-  {
    "entity": "Nvidia",
-   "today": 24,
-   "avg": 2.69,
-   "score": 8.91,
+   "today": 26,
+   "avg": 2.23,
+   "score": 11.66,
    "spiking": true,
    "spark": [
     0,
@@ -373,49 +390,15 @@
     0,
     0,
     0,
-    35,
-    24
+    29,
+    26
    ]
   },
   {
-   "entity": "Morgan Stanley",
-   "today": 4,
-   "avg": 0.23,
-   "score": 8.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    4
-   ]
-  },
-  {
-   "entity": "CoreWeave",
-   "today": 4,
-   "avg": 0.0,
-   "score": 8.0,
-   "spiking": true,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    4
-   ]
-  },
-  {
-   "entity": "Huawei",
-   "today": 4,
+   "entity": "Alphabet",
+   "today": 5,
    "avg": 0.46,
-   "score": 8.0,
+   "score": 10.0,
    "spiking": true,
    "spark": [
     0,
@@ -425,7 +408,24 @@
     0,
     0,
     6,
-    4
+    5
+   ]
+  },
+  {
+   "entity": "CXMT",
+   "today": 5,
+   "avg": 0.08,
+   "score": 10.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    5
    ]
   }
  ]
