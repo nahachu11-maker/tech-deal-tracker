@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-09-09T10:57:05.669872+00:00",
+  "last_updated": "2026-09-09T11:39:15.874583+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-09-09",
+   "type": "M&A",
+   "name": "MBK Partners / Sharing Technology",
+   "v": 0.25,
+   "val": null,
+   "sector": "Technology Services",
+   "status": "Pending",
+   "note": "MBK Partners, a Korean-based private equity firm, is acquiring Japanese listed technology company Sharing Technology in a cross-border public take-private buyout valued at approximately KRW 340 billion (~$250M). The transaction represents a PE-led delisting of a Japanese public tech firm, a deal structure that remains relatively rare in Japan's historically deal-resistant market. Strategic rationale likely centers on operational improvements and regional tech consolidation.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VRjIzdEdTNzJ2VERqNGtqWmphTFdjM2VHUy1sMmR2WGJXS0JDR0FkR18zQllSck01TUFTRTJNNWFtWkRDcUpFZGtzaTgyTmFsbGZJWXc4UGJmNFhxbTM5T19DRTFTdmpS?oc=5",
+   "source_snippet": "MBK Partners acquires Japanese listed company Sharing Technology for approximately KRW 340bn (~$250M), a cross-border PE buyout of a public tech firm.",
+   "extracted_at": "2026-09-09T11:39:10.459292+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the source states MBK Partners 'acquires' (past tense), indicating completion."
+  },
   {
    "skip": false,
    "d": "2026-09-08",
