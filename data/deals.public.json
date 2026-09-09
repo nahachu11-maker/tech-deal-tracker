@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-09-09T21:30:14.360050+00:00",
+  "last_updated": "2026-09-09T23:27:40.086465+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 0
   },
@@ -98,6 +98,42 @@
    "source_url": "https://www.sec.gov/Archives/edgar/data/2119292/000121390026098421",
    "source_snippet": "",
    "extracted_at": "2026-09-09T20:39:26.501391+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-09",
+   "type": "M&A",
+   "name": "Chronova Corp / Intel Precision Timing Project",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors / Timing Technology",
+   "status": "Pending",
+   "note": "Chronova Corp emerged from stealth to announce the acquisition of Intel's Precision Timing Project, a non-core asset being divested as part of Intel's ongoing portfolio rationalization. No financial terms were disclosed. The deal marks Chronova's public debut and positions the startup in precision timing solutions, a niche but critical segment for networking and communications infrastructure.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQ1VqU1FXRkNjU21lZUpmM21IZ1FtYzRjQVphQUR2RllpakNjei1RSUkzRmVSX243d0w3dmVFSnJEUUdlXzRldlRSZm9BSHJZU3NxeUdabGY5M3ZLelpZWGJQLTZ1ZjVRZFByYXlxYk9mNXB6RkZwYWxMN1RKY0hRUEI0cWlybVpDcGlfbTFPR2pWNy16T09aWFIzY0ZqVEl4TGNfbFFuVGhIZUU4OExEc0swOWcwSkZFQVREU3VVSUhqazFzUUQ4cjB2U3VzS2ctSUNJ?oc=5",
+   "source_snippet": "Chronova Corp emerged from stealth announcing acquisition of Intel's Precision Timing Project, signaling Intel's continued divestiture of non-core assets.",
+   "extracted_at": "2026-09-09T23:27:21.011709+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the source indicates the acquisition has already been announced/completed."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-09",
+   "type": "M&A",
+   "name": "Samsung Electronics / Flakt",
+   "v": null,
+   "val": null,
+   "sector": "Data Center Cooling / Hardware",
+   "status": "Pending",
+   "note": "Samsung Electronics reportedly acquired Flakt, a data center cooling specialist, to accelerate its AI data center cooling technology development timeline. The deal positions Samsung to compete more directly with LG in the fast-growing AI infrastructure cooling market. Deal value was not disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMbFh2cjN5YU1Ua0FfZVQ3UkFKRzdOdWpIcVFRNE9PdlYyQkVZTTRDUkhRMEJOZ0FMUFpQWmNKVHBnT0w2RjBpOEI1Q2phZXc?oc=5",
+   "source_snippet": "Duplicate of prior item: Samsung Electronics reportedly acquired Flakt to shorten AI data center cooling development timelines, competing with LG.",
+   "extracted_at": "2026-09-09T23:27:36.904018+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes a reported acquisition but does not confirm deal closure; status should reflect unverified/rumored nature rather than 'Pending' which implies filed/announced official status."
   },
   {
    "skip": false,
