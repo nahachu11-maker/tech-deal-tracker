@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-09-09T16:09:42.691514+00:00",
+  "last_updated": "2026-09-09T18:58:42.244625+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
    "duplicates": 0
   }
@@ -27,6 +27,60 @@
    "extracted_at": "2026-09-09T11:39:10.459292+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' not 'Pending' as the source states MBK Partners 'acquires' (past tense), indicating completion."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-09",
+   "type": "M&A",
+   "name": "Meta / Stilla.ai",
+   "v": null,
+   "val": null,
+   "sector": "AI / Conversational Commerce",
+   "status": "Pending",
+   "note": "Meta is acquiring Swedish AI startup Stilla.ai to enhance WhatsApp's commerce agent capabilities, extending its AI-driven M&A strategy into conversational commerce. The deal price is undisclosed. The acquisition fits Meta's broader push to monetize WhatsApp through AI-powered shopping and business messaging tools.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY3lJc1BOM3llRDdlWHZiYjQwMjIyVjd2X3JvQmpxTFhEcUpQb1l0ZnJ0LTJqaDZaVGluQjluLWNmd0VIdzZlRXgtWWYySlpNOVRUNlhuUUhlMDBXZWs4RHFwdEZPRmtXWUEwY3RENkdoMDgyRkxfU1hwWVdGbDJxbHM4Q0s3eXpCTjVlY3hFLVh6NzFBanhXOU4tTFoyWWpyazFSYW1ocGY4UQ?oc=5",
+   "source_snippet": "Meta acquires Swedish AI startup Stilla.ai to power WhatsApp commerce agents, continuing aggressive AI-driven M&A strategy.",
+   "extracted_at": "2026-09-09T18:58:26.710856+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source indicates deal is closed ('acquires'), but record shows status as 'Pending'"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-09",
+   "type": "M&A",
+   "name": "Meta / Swedish AI Startup",
+   "v": null,
+   "val": null,
+   "sector": "AI / Social Media",
+   "status": "Pending",
+   "note": "Meta has reportedly acquired an unnamed Swedish AI startup, details of which are sparse in the report. The acquisition aligns with Meta's ongoing strategy to bolster its AI capabilities. Deal terms and valuation are undisclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQXBTNEhLS0dxTUI5X3h3SVV0NmUwU0wxdThIMVBjV0tFTjNleDlrbC1GQUtWUGJROE1xYkg3aWNVdHNoTFZlQ2lyOHQzT1VCMHBTT0oxMGcxTGI1dW5HRksyamh1RTdsM0tPbGd2a2JvdDMtX1NaUmRFRTdqaElFVmo1NUphNldIb2Z4MGx6bTBhZEdsMG9VME1ZYzQ1WVJlWTlV?oc=5",
+   "source_snippet": "Meta reportedly acquires a Swedish AI startup and its Muse product is flagged by TD Cowen as a notable potential revenue stream, driving the stock to a two-month high.",
+   "extracted_at": "2026-09-09T18:58:31.889040+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source says 'reportedly acquires' (past tense/closed), but record shows status as 'Pending' which indicates incomplete transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-09",
+   "type": "M&A",
+   "name": "Nvidia / Egypt Data Center",
+   "v": 1.0,
+   "val": null,
+   "sector": "AI Infrastructure / Data Centers",
+   "status": "Pending",
+   "note": "Egypt signed a reported $1 billion data center deal with Nvidia, as the US seeks to counter Chinese AI infrastructure influence across Africa. The agreement positions Nvidia as a key supplier of AI compute capacity in the region. Deal structure and exact terms remain unclear — reported figures should be treated as aspirational pending official confirmation.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMnYtQWp4dW5vbnVzSnNfTkc0VkpSZDlUSkdQTVJBellQMHZ4dXUtQUVvamJKdnpaalNHTGRJcm1HVkpHcVJseXFSMGJ1dnlnQ1hsdXB1U0RJU1prUmdxXzlMR1NLVENFdTlUZVpVOTZ0RV9UVmxnclFldWdvOXZicHRmWnpfcTNEQ2FMRzJQS2tjUmU0SDNFbEtPVk12cE9jWmNnZFpWdnMtR2l6bE9DTUFsUGFJRnVKWVRJMTgtMjFwbjFEZ25nQ3pHbHhUc0NydURWeUo4MA?oc=5",
+   "source_snippet": "Egypt signed a reported $1 billion data center deal with Nvidia (identified as world's most valuable company) as the US competes with China for AI infrastructure influence in Africa.",
+   "extracted_at": "2026-09-09T18:58:39.024683+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Other' or unspecified infrastructure deal, not M&A; value field should be 1.0 (representing $1 billion), not null; status is unknown from source and should not be assumed as 'Pend"
   },
   {
    "skip": false,
