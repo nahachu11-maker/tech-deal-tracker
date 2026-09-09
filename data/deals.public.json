@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-09-09T18:58:42.244625+00:00",
+  "last_updated": "2026-09-09T20:40:34.121069+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 3,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -82,6 +82,22 @@
    "extracted_at": "2026-09-09T18:58:39.024683+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'Other' or unspecified infrastructure deal, not M&A; value field should be 1.0 (representing $1 billion), not null; status is unknown from source and should not be assumed as 'Pend"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-09",
+   "type": "IPO",
+   "name": "Pasqal Holding SA",
+   "v": null,
+   "val": null,
+   "sector": "Quantum Computing",
+   "status": "Filed",
+   "note": "Pasqal Holding SA, a French quantum computing company, filed an F-1 registration statement with the SEC under ticker PSQL, signaling plans for a US IPO. Pasqal develops neutral-atom quantum processors and has been a notable player in European quantum technology. Deal size and valuation have not been disclosed in the filing.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2119292/000121390026098421",
+   "source_snippet": "",
+   "extracted_at": "2026-09-09T20:39:26.501391+00:00"
   },
   {
    "skip": false,
