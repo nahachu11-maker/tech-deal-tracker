@@ -1,16 +1,50 @@
 {
  "meta": {
-  "last_updated": "2026-09-10T10:54:20.453630+00:00",
+  "last_updated": "2026-09-10T11:37:42.098669+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-09-10",
+   "type": "M&A",
+   "name": "Nvidia / Groq",
+   "v": 20.0,
+   "val": null,
+   "sector": "AI Chips / Infrastructure",
+   "status": "Pending",
+   "note": "The DOJ is reportedly probing Nvidia's approximately $20B acquisition of AI inference chip startup Groq on antitrust grounds, raising concerns about Nvidia's dominance in the AI accelerator market. The investigation could delay or block the transaction. Nvidia's stock fell on the news, reflecting market uncertainty around the deal's outcome.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVi1NWU9XSzRfUlllcEp4OURUZzdQN3p2ajRaTVd5eVVxZ0hDZDRzQ1kyUDhDMy1YSGNfdnRXWU9EcTVfdk1NaV9YRE4xMEkxdDJqQW5NdnNXZU9nMVE1WkZ4VzRDUk84emRCQ3EzQzdBMUNzcmoxdjR4MV85UzA0Q2xxdFFtMU50OTIyQmdkTHdrYk0?oc=5",
+   "source_snippet": "DOJ is reportedly probing a ~$20B deal between Nvidia and Groq, raising antitrust concerns that could affect Nvidia's stock and the transaction's outcome.",
+   "extracted_at": "2026-09-10T11:37:18.210053+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a DOJ probe into antitrust concerns, not a confirmed pending deal; the deal status and existence are unclear from the source text."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-10",
+   "type": "M&A",
+   "name": "Analog Devices / Alif Semiconductor",
+   "v": 1.35,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "ADI is acquiring Alif Semiconductor for $1.35B to bolster its edge-AI capabilities by combining Alif's low-power AI processors with ADI's analog sensing portfolio. The deal extends ADI's strategy of pushing intelligence into physical and industrial systems at the edge. No completion language present; deal assumed Pending.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.eetimes.com/adi-snaps-alif-semiconductor-to-push-ai-into-physical-systems/",
+   "source_snippet": "Analog Devices (ADI) is acquiring Alif Semiconductor for $1.35B to integrate low-power AI processors with analog sensing, expanding its edge-AI product portfolio.",
+   "extracted_at": "2026-09-10T11:37:38.056073+00:00"
+  },
   {
    "skip": false,
    "d": "2026-09-09",
