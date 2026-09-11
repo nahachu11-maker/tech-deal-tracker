@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-09-11T16:05:59.078151+00:00",
+  "last_updated": "2026-09-11T18:55:03.747643+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-09-11",
+   "type": "Private",
+   "name": "Qualcomm / Amazon",
+   "v": 4.0,
+   "val": null,
+   "sector": "Semiconductors / AI",
+   "status": "Pending",
+   "note": "Qualcomm issued a $4B warrant to Amazon as part of an AI chip partnership, structuring the commercial relationship with a significant equity-linked financial instrument. The warrant aligns Amazon's incentives with Qualcomm's chip adoption across AWS infrastructure. Deal represents a major hyperscaler commitment to Qualcomm's AI silicon roadmap.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOemVtUE5zZ2VMMVl1LUh1RnpEUkM4ZzdrdUtYZHVxdndvT3lzR0hVOFdzVFRBNldYTWhRVGhWb0VBbGRQcVZrUmhJVC13WU5qQjItbDlUQnlkemtiTUxBTW1IZTRkWUhEdkFiVXFQbkRJZHFvODFMTHAwaEs4U1dicnlEZUFDcGpoTkdxSzdyYWpFREg1ZlJVSzRJZnFyMlNW?oc=5",
+   "source_snippet": "Qualcomm and Amazon struck an AI chip partnership with a $4B warrant issued to Amazon, representing a significant commercial and financial commitment between a major chip designer and cloud hyperscaler.",
+   "extracted_at": "2026-09-11T18:54:49.438133+00:00",
+   "verify_failed": true,
+   "verify_reason": "The extracted record lists val as null, but the source explicitly states a $4B warrant value that should be captured."
+  },
   {
    "skip": false,
    "d": "2026-09-10",
