@@ -1,11 +1,11 @@
 {
  "meta": {
-  "last_updated": "2026-09-14T21:38:35.117954+00:00",
+  "last_updated": "2026-09-14T22:53:48.146025+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 0,
+   "added": 1,
+   "updated": 1,
    "duplicates": 1
   }
  },
@@ -33,11 +33,11 @@
    "d": "2026-09-14",
    "type": "M&A",
    "name": "OpenAI / Glass Imaging",
-   "v": null,
+   "v": 0.3,
    "val": null,
    "sector": "AI / Imaging",
    "status": "Closed",
-   "note": "OpenAI has acquired Glass Imaging, a smartphone camera startup, according to the WSJ. The deal value was not disclosed. The acquisition expands OpenAI's hardware and imaging capabilities, likely supporting multimodal AI development tied to visual input processing.",
+   "note": "OpenAI has acquired Glass Imaging, a smartphone camera startup, according to the WSJ. The deal value was not disclosed. The acquisition expands OpenAI's hardware and imaging capabilities, likely supporting multimodal AI development tied to visual input processing. [Auto-update 2026-09-14: OpenAI is acquiring computer-vision startup Glass Imaging for more than $300 million, expanding its capabilities in imaging AI. The deal signals OpenAI's continued acquisitive strategy to broaden its ]",
    "advisors": [],
    "review": true,
    "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ21GSGZocWJiZkI4TDMtVFNWSnJOZDJzQ1ZhWmd4ZU1qVmJGa19ZbHMxVHdJWjllYlJvWFdVZkdtTEFlMjlJb2taQ2RCOTZlREppejI0WlluZ1hrQ09vVUtLUHZlVzVvbmZBV0VYTkNkQ2tBc1RaekxnSEFFNFFHajgzeTlvejFxYldGT2dyb1NmaDVCMktOblpXQ2MyaXVqdjFyUi16SFNlNWVHNU9WajFnbnRLaFNUMVR3RElZMA?oc=5",
@@ -59,6 +59,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdTZxRTlsbk9LSDQ5WG1KdmRfc2ZtbGdUVFNnR0FtdW9zUlc5SmRsWi1RZ09ubldJQjBuOGRkaVBEckloOUFvQVhTZEJyRFBDcnFweXNmOEJ4alRyenB1ZkI4c21leU5wUzYtZGcxa282VldpR21sNzh5R1pnaWdLSXVRS20waDkyZVE?oc=5",
    "source_snippet": "OpenAI acquired an undisclosed startup developing smartphone camera technology, signaling expansion into hardware/device AI capabilities.",
    "extracted_at": "2026-09-14T19:54:49.497555+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-14",
+   "type": "M&A",
+   "name": "OpenAI / AI Camera Tech Company",
+   "v": null,
+   "val": null,
+   "sector": "AI / Consumer Hardware",
+   "status": "Pending",
+   "note": "OpenAI acquired an undisclosed AI camera technology company to accelerate its consumer hardware ambitions, signaling a strategic push into physical AI products. The target's camera tech is expected to underpin OpenAI's device roadmap. Deal value and target name were not disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM3NUTVF2azhTa3c5UWFqTDhVejJwb2tfRkFXdDAtUUR4QXdWYkVQOS1iM2dyRkJXbmtDd0FXakRjZ05WdVFfRmpzNlpKWHpSVk5rOEFER01FaTJSV0IzYlFvNkE0UWhMNW5WWFBIV2hmQllObTFuUWc2amJ5Z1pZRW1GNW44ZUx6aDE1X1ZUTmlNSDB0VkNLS2xrQ0tudjdMQXZnRlI1SHQ0bVByYkpRTWM3MElOVWI5MW5ESw?oc=5",
+   "source_snippet": "OpenAI has acquired an AI camera technology company to accelerate its consumer hardware device ambitions, representing a strategic M&A move into physical AI products.",
+   "extracted_at": "2026-09-14T22:53:38.724178+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source does not specify the deal date as 2026-09-14, and status should be 'Closed' not 'Pending' based on 'has acquired' language."
   },
   {
    "skip": false,
