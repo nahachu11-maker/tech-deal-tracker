@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-09-14T08:05:16.700295+00:00",
+  "last_updated": "2026-09-14T12:09:21.068241+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-09-14",
+   "type": "IPO",
+   "name": "Einride AB",
+   "v": null,
+   "val": null,
+   "sector": "Autonomous Freight / Mobility Tech",
+   "status": "Filed",
+   "note": "Einride AB, a Swedish autonomous electric freight technology company, filed an F-1 registration statement with the SEC under ticker ENRD, signaling a planned US IPO. The filing covers both ordinary shares and warrants (ENRDW), suggesting a unit-based offering structure. No pricing terms or valuation have been disclosed at this stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2095096/000149315226042440",
+   "source_snippet": "",
+   "extracted_at": "2026-09-14T12:09:18.347247+00:00",
+   "verify_failed": true,
+   "verify_reason": "No source text provided to verify the extracted record against."
+  },
   {
    "skip": false,
    "d": "2026-09-11",
