@@ -1,13 +1,13 @@
 {
  "meta": {
-  "last_updated": "2026-09-16T00:55:38.244664+00:00"
+  "last_updated": "2026-09-16T05:31:30.989701+00:00"
  },
  "trends": [
   {
    "entity": "Naver",
-   "today": 9,
+   "today": 13,
    "avg": 0.15,
-   "score": 18.0,
+   "score": 26.0,
    "spiking": true,
    "spark": [
     0,
@@ -17,14 +17,14 @@
     0,
     0,
     2,
-    9
+    13
    ]
   },
   {
    "entity": "SK Hynix",
-   "today": 31,
-   "avg": 3.54,
-   "score": 8.76,
+   "today": 39,
+   "avg": 3.08,
+   "score": 12.67,
    "spiking": true,
    "spark": [
     0,
@@ -32,9 +32,43 @@
     0,
     0,
     0,
-    14,
+    8,
     32,
-    31
+    39
+   ]
+  },
+  {
+   "entity": "Kakao Entertainment",
+   "today": 5,
+   "avg": 0.0,
+   "score": 10.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ]
+  },
+  {
+   "entity": "Disney",
+   "today": 5,
+   "avg": 0.0,
+   "score": 10.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
    ]
   },
   {
@@ -55,10 +89,10 @@
    ]
   },
   {
-   "entity": "Samsung Electronics",
-   "today": 8,
-   "avg": 3.08,
-   "score": 2.6,
+   "entity": "Samsung",
+   "today": 14,
+   "avg": 2.77,
+   "score": 5.06,
    "spiking": true,
    "spark": [
     0,
@@ -66,9 +100,196 @@
     0,
     0,
     0,
-    1,
+    5,
+    31,
+    14
+   ]
+  },
+  {
+   "entity": "Samsung Electronics",
+   "today": 10,
+   "avg": 3.0,
+   "score": 3.33,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     39,
-    8
+    10
+   ]
+  },
+  {
+   "entity": "Meta",
+   "today": 11,
+   "avg": 3.54,
+   "score": 3.11,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    34,
+    11
+   ]
+  },
+  {
+   "entity": "Anthropic",
+   "today": 13,
+   "avg": 4.54,
+   "score": 2.86,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    18,
+    41,
+    13
+   ]
+  },
+  {
+   "entity": "Broadcom",
+   "today": 3,
+   "avg": 1.08,
+   "score": 2.79,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    11,
+    3
+   ]
+  },
+  {
+   "entity": "Micron",
+   "today": 4,
+   "avg": 1.62,
+   "score": 2.48,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    13,
+    4
+   ]
+  },
+  {
+   "entity": "OpenAI",
+   "today": 11,
+   "avg": 4.46,
+   "score": 2.47,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    43,
+    11
+   ]
+  },
+  {
+   "entity": "NOVVA Group",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "ABO Energy",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "LG",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "Euclyd",
+   "today": 2,
+   "avg": 0.46,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    2
+   ]
+  },
+  {
+   "entity": "Dunamu",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
    ]
   },
   {
@@ -106,282 +327,10 @@
    ]
   },
   {
-   "entity": "Nebius",
-   "today": 1,
-   "avg": 0.38,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    4,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "Kakao Brain",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "KakaoBank",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "SoftBank",
-   "today": 1,
-   "avg": 0.08,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "Kioxia",
-   "today": 1,
-   "avg": 0.31,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    4,
-    1
-   ]
-  },
-  {
-   "entity": "Credo Technology",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Hanwha Asset Management",
-   "today": 1,
-   "avg": 0.31,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    4,
-    1
-   ]
-  },
-  {
-   "entity": "Greener Energy",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Huawei",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "CCEQ",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Kakao Games",
-   "today": 1,
-   "avg": 0.23,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    1
-   ]
-  },
-  {
-   "entity": "MeetU On",
-   "today": 1,
-   "avg": 0.08,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "Hanwha Aerospace",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Euclidean (Euclid)",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Samsung SDS",
-   "today": 1,
-   "avg": 0.23,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    1
-   ]
-  },
-  {
-   "entity": "Samsung",
-   "today": 5,
-   "avg": 3.0,
-   "score": 1.67,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    8,
-    31,
-    5
-   ]
-  },
-  {
-   "entity": "Broadcom",
+   "entity": "TSMC",
    "today": 2,
-   "avg": 1.38,
-   "score": 1.44,
+   "avg": 1.0,
+   "score": 2.0,
    "spiking": false,
    "spark": [
     0,
@@ -389,16 +338,16 @@
     0,
     0,
     0,
-    7,
-    11,
+    1,
+    12,
     2
    ]
   },
   {
-   "entity": "Nvidia",
-   "today": 8,
-   "avg": 6.92,
-   "score": 1.16,
+   "entity": "Tanium",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
    "spiking": false,
    "spark": [
     0,
@@ -406,16 +355,16 @@
     0,
     0,
     0,
-    30,
-    60,
-    8
+    0,
+    0,
+    1
    ]
   },
   {
-   "entity": "Meta",
-   "today": 4,
-   "avg": 3.85,
-   "score": 1.04,
+   "entity": "Marvell Technology",
+   "today": 1,
+   "avg": 0.08,
+   "score": 2.0,
    "spiking": false,
    "spark": [
     0,
@@ -423,9 +372,60 @@
     0,
     0,
     0,
-    16,
-    34,
-    4
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Coherent",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Netflix",
+   "today": 1,
+   "avg": 0.08,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "YouTube",
+   "today": 1,
+   "avg": 0.08,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
    ]
   }
  ]
