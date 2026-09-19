@@ -1035,6 +1035,86 @@
      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm",
      "model": "claude-haiku-4-5-20251001",
      "derived_only": true
+    },
+    {
+     "period": "Q2 2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "Revenue grew 112% YoY to $2.6B with record $104.2B backlog (+246% YoY)",
+       "Adjusted EBITDA margin expanded to 59%; unit economics inflecting with ~70% price increases",
+       "Secured $3.5B convertible financing at 2.375-2.875% coupon, demonstrating capital markets confidence"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Revenue Backlog",
+       "direction": "raised",
+       "prior": "$42.4B",
+       "new": "$104.2B (plus $25B+ early Q3 commitments)"
+      },
+      {
+       "metric": "Adjusted Operating Income Margin",
+       "direction": "maintained",
+       "prior": "1%",
+       "new": "5%"
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Revenue",
+       "value": "2.6",
+       "unit": "$B",
+       "yoy": "+112%"
+      },
+      {
+       "name": "Adjusted EBITDA",
+       "value": "1.51",
+       "unit": "$B",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted EBITDA margin",
+       "value": "59",
+       "unit": "%",
+       "yoy": null
+      },
+      {
+       "name": "Revenue backlog",
+       "value": "104.2",
+       "unit": "$B",
+       "yoy": "+246%"
+      },
+      {
+       "name": "Active Power",
+       "value": "1.5",
+       "unit": "GW",
+       "yoy": null
+      },
+      {
+       "name": "Contracted Power",
+       "value": "4.2",
+       "unit": "GW",
+       "yoy": null
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 3,
+      "notes": "Management demonstrates high confidence in execution narrative; extensive forward-looking disclaimers present but tone remains assertive on market position and unit economics inflection."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-09-19T01:29:01.012239+00:00",
+     "doc_date": "2026-09-19",
+     "source_label": "EDGAR 8-K filed 2026-09-17",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv2026convertpresentat.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
     }
    ]
   },
@@ -1343,6 +1423,6 @@
   }
  },
  "meta": {
-  "last_run": "2026-09-18T01:24:52.529544+00:00"
+  "last_run": "2026-09-19T01:29:06.616342+00:00"
  }
 }
