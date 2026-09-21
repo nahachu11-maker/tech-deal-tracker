@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-09-21T00:42:01.572882+00:00"
+  "last_updated": "2026-09-21T05:42:42.313656+00:00"
  },
  "trends": [
   {
@@ -22,9 +22,9 @@
   },
   {
    "entity": "Samsung Electronics",
-   "today": 16,
-   "avg": 2.15,
-   "score": 7.43,
+   "today": 23,
+   "avg": 1.92,
+   "score": 11.96,
    "spiking": true,
    "spark": [
     0,
@@ -32,9 +32,43 @@
     0,
     0,
     0,
-    13,
+    10,
     15,
-    16
+    23
+   ]
+  },
+  {
+   "entity": "SK Hynix",
+   "today": 32,
+   "avg": 4.62,
+   "score": 6.93,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    14,
+    46,
+    32
+   ]
+  },
+  {
+   "entity": "Kakao",
+   "today": 3,
+   "avg": 0.31,
+   "score": 6.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    3
    ]
   },
   {
@@ -55,10 +89,10 @@
    ]
   },
   {
-   "entity": "SK Hynix",
-   "today": 23,
-   "avg": 4.69,
-   "score": 4.9,
+   "entity": "Oracle",
+   "today": 9,
+   "avg": 1.92,
+   "score": 4.68,
    "spiking": true,
    "spark": [
     0,
@@ -66,15 +100,49 @@
     0,
     0,
     0,
-    15,
-    46,
-    23
+    13,
+    12,
+    9
    ]
   },
   {
-   "entity": "Kakao",
+   "entity": "TSMC",
+   "today": 3,
+   "avg": 0.92,
+   "score": 3.25,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    8,
+    3
+   ]
+  },
+  {
+   "entity": "Amazon",
+   "today": 4,
+   "avg": 1.69,
+   "score": 2.36,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    9,
+    13,
+    4
+   ]
+  },
+  {
+   "entity": "Oracle Financial Services Software",
    "today": 2,
-   "avg": 0.31,
+   "avg": 0.0,
    "score": 4.0,
    "spiking": false,
    "spark": [
@@ -84,12 +152,46 @@
     0,
     0,
     0,
-    4,
+    0,
     2
    ]
   },
   {
-   "entity": "Doosan",
+   "entity": "ASML",
+   "today": 2,
+   "avg": 0.92,
+   "score": 2.17,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    9,
+    2
+   ]
+  },
+  {
+   "entity": "Qualcomm",
+   "today": 2,
+   "avg": 1.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    7,
+    2
+   ]
+  },
+  {
+   "entity": "Tata Electronics",
    "today": 1,
    "avg": 0.15,
    "score": 2.0,
@@ -106,24 +208,24 @@
    ]
   },
   {
-   "entity": "Accenture",
+   "entity": "Nokia",
    "today": 1,
-   "avg": 0.46,
+   "avg": 0.23,
    "score": 2.0,
    "spiking": false,
    "spark": [
+    0,
     0,
     0,
     0,
     0,
     0,
     3,
-    3,
     1
    ]
   },
   {
-   "entity": "Hygon",
+   "entity": "Direct Drive Tech Limited",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -140,7 +242,7 @@
    ]
   },
   {
-   "entity": "CyberMaxx",
+   "entity": "Oracle Financial Services",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -157,7 +259,7 @@
    ]
   },
   {
-   "entity": "Avertium",
+   "entity": "Flakt Group",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -174,7 +276,7 @@
    ]
   },
   {
-   "entity": "Alceon",
+   "entity": "Bloomsbury Money Group",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -191,7 +293,7 @@
    ]
   },
   {
-   "entity": "Engage Squared",
+   "entity": "SAP",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -208,24 +310,7 @@
    ]
   },
   {
-   "entity": "NSE",
-   "today": 1,
-   "avg": 0.15,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "GCash",
+   "entity": "Morgan Stanley",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -242,7 +327,7 @@
    ]
   },
   {
-   "entity": "Kanzhun",
+   "entity": "Delta Electronics",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -259,7 +344,7 @@
    ]
   },
   {
-   "entity": "Groww",
+   "entity": "Kuehne+Nagel",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -276,7 +361,58 @@
    ]
   },
   {
-   "entity": "Walmart",
+   "entity": "FläktGroup",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Dun & Bradstreet",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "FlaktGroup",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Solidigm",
    "today": 1,
    "avg": 0.08,
    "score": 2.0,
@@ -287,145 +423,9 @@
     0,
     0,
     0,
-    1,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Hugging Face",
-   "today": 1,
-   "avg": 0.08,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
     0,
     1,
-    0,
     1
-   ]
-  },
-  {
-   "entity": "01F Group",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "01Fintech",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "DANA",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "TSMC",
-   "today": 1,
-   "avg": 1.0,
-   "score": 1.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    5,
-    8,
-    1
-   ]
-  },
-  {
-   "entity": "Oracle",
-   "today": 2,
-   "avg": 2.31,
-   "score": 0.87,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    18,
-    12,
-    2
-   ]
-  },
-  {
-   "entity": "Microsoft",
-   "today": 2,
-   "avg": 2.77,
-   "score": 0.72,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    13,
-    23,
-    2
-   ]
-  },
-  {
-   "entity": "Meta",
-   "today": 2,
-   "avg": 3.38,
-   "score": 0.59,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    20,
-    24,
-    2
    ]
   }
  ]
