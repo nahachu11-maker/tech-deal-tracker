@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-09-22T22:22:31.899248+00:00",
+  "last_updated": "2026-09-23T00:49:06.724496+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -26,6 +26,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Ocmx4MmdVN1ZVSnhKZDcwZFhZWHR1Q2lUU3MyNGVDcVZmbEZqeTVoR080LWJBXzNTWXlKVXgxUktpd3AxVUpRYi05Y3g3T0U4NTU2MmxkVmZ5aEkzQjBnYkFIbkVBdw?oc=5",
    "source_snippet": "Kakao is blocking Kakao Mobility's planned U.S. IPO, objecting to the exit structure proposed by PE investor TPG, creating deal uncertainty for a high-profile cross-border listing.",
    "extracted_at": "2026-09-22T10:09:53.901640+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-22",
+   "type": "M&A",
+   "name": "Cognex / RealSense",
+   "v": 0.6,
+   "val": null,
+   "sector": "Machine Vision / Robotics",
+   "status": "Pending",
+   "note": "Cognex is acquiring Intel's RealSense robotics spin-off for $600M, bolstering its machine vision portfolio with depth-sensing and spatial perception technology. The deal represents a strategic divestiture for Intel as it continues to shed non-core assets. No definitive 'closed' language is present in the source, so status is treated as Pending.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTWwxT2Q5cjdzMjBNRjZSaVQxSmFLRy0yR1FjOHphVHJyWFk1TnAyeUxwMS01VlFWS3Y1XzVGR2ZtcEhUbFpsRXpuZVdHclRrcEl3U3lKaEZobXg1N0hQMEYwcEw4eE5ZWXZ4Y29PU1ZnMDYwR2pJYlY3d0JrMXBtNW16cExRbzREQjdrRC1mdy1ZQ0xWNF9RdnBKejB1NWQzMUV5Q1dTU3BOTTJLQVctaEtoQk8?oc=5",
+   "source_snippet": "Cognex acquires Intel's RealSense robotics spin-off for $600M, expanding its machine vision portfolio and marking a notable divestiture for Intel.",
+   "extracted_at": "2026-09-23T00:49:03.991879+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value should be $600M, not null; status should be Closed, not Pending."
   },
   {
    "skip": false,
