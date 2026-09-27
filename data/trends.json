@@ -1,13 +1,13 @@
 {
  "meta": {
-  "last_updated": "2026-09-27T07:23:23.449506+00:00"
+  "last_updated": "2026-09-27T13:12:17.822259+00:00"
  },
  "trends": [
   {
    "entity": "Samsung",
-   "today": 23,
-   "avg": 1.15,
-   "score": 19.93,
+   "today": 24,
+   "avg": 1.0,
+   "score": 24.0,
    "spiking": true,
    "spark": [
     0,
@@ -15,16 +15,16 @@
     0,
     0,
     0,
-    6,
+    4,
     9,
-    23
+    24
    ]
   },
   {
    "entity": "Qualcomm",
-   "today": 13,
-   "avg": 1.38,
-   "score": 9.39,
+   "today": 16,
+   "avg": 1.31,
+   "score": 12.24,
    "spiking": true,
    "spark": [
     0,
@@ -32,8 +32,25 @@
     0,
     0,
     0,
-    10,
+    9,
     8,
+    16
+   ]
+  },
+  {
+   "entity": "Nvidia",
+   "today": 13,
+   "avg": 2.08,
+   "score": 6.26,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    16,
     13
    ]
   },
@@ -55,10 +72,61 @@
    ]
   },
   {
-   "entity": "Samsung Electronics",
-   "today": 12,
+   "entity": "Anthropic",
+   "today": 16,
    "avg": 3.31,
-   "score": 3.63,
+   "score": 4.84,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    21,
+    22,
+    16
+   ]
+  },
+  {
+   "entity": "Alphabet",
+   "today": 3,
+   "avg": 0.69,
+   "score": 4.33,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    8,
+    3
+   ]
+  },
+  {
+   "entity": "Amazon",
+   "today": 5,
+   "avg": 1.23,
+   "score": 4.06,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    9,
+    5
+   ]
+  },
+  {
+   "entity": "Samsung Electronics",
+   "today": 13,
+   "avg": 3.31,
+   "score": 3.93,
    "spiking": true,
    "spark": [
     0,
@@ -68,14 +136,14 @@
     0,
     4,
     39,
-    12
+    13
    ]
   },
   {
    "entity": "SK Hynix",
-   "today": 20,
+   "today": 24,
    "avg": 6.23,
-   "score": 3.21,
+   "score": 3.85,
    "spiking": true,
    "spark": [
     0,
@@ -85,14 +153,14 @@
     0,
     24,
     57,
-    20
+    24
    ]
   },
   {
-   "entity": "Nvidia",
-   "today": 8,
-   "avg": 2.62,
-   "score": 3.06,
+   "entity": "Micron",
+   "today": 6,
+   "avg": 1.62,
+   "score": 3.71,
    "spiking": true,
    "spark": [
     0,
@@ -100,16 +168,16 @@
     0,
     0,
     0,
-    18,
-    16,
-    8
+    8,
+    13,
+    6
    ]
   },
   {
    "entity": "OpenAI",
-   "today": 21,
-   "avg": 8.85,
-   "score": 2.37,
+   "today": 31,
+   "avg": 8.38,
+   "score": 3.7,
    "spiking": true,
    "spark": [
     0,
@@ -117,9 +185,111 @@
     0,
     0,
     0,
-    34,
+    28,
     81,
-    21
+    31
+   ]
+  },
+  {
+   "entity": "Apple",
+   "today": 9,
+   "avg": 2.69,
+   "score": 3.34,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    9,
+    26,
+    9
+   ]
+  },
+  {
+   "entity": "Meta",
+   "today": 12,
+   "avg": 3.69,
+   "score": 3.25,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    21,
+    27,
+    12
+   ]
+  },
+  {
+   "entity": "Solidigm",
+   "today": 7,
+   "avg": 3.0,
+   "score": 2.33,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    19,
+    20,
+    7
+   ]
+  },
+  {
+   "entity": "Palantir",
+   "today": 2,
+   "avg": 0.38,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    4,
+    2
+   ]
+  },
+  {
+   "entity": "IonQ",
+   "today": 2,
+   "avg": 0.15,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ]
+  },
+  {
+   "entity": "CoreWeave",
+   "today": 2,
+   "avg": 0.46,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    2
    ]
   },
   {
@@ -140,7 +310,7 @@
    ]
   },
   {
-   "entity": "ams-OSRAM",
+   "entity": "Nike",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -157,7 +327,75 @@
    ]
   },
   {
-   "entity": "Akamai Technologies",
+   "entity": "Carnival",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Moderna",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Okta",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Unity Software",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Berkshire Hathaway",
    "today": 1,
    "avg": 0.08,
    "score": 2.0,
@@ -168,30 +406,13 @@
     0,
     0,
     0,
+    0,
     1,
-    0,
     1
    ]
   },
   {
-   "entity": "IonQ",
-   "today": 1,
-   "avg": 0.15,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1
-   ]
-  },
-  {
-   "entity": "Cars24",
+   "entity": "Link Solution",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -205,227 +426,6 @@
     0,
     0,
     1
-   ]
-  },
-  {
-   "entity": "SanDisk",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Spinny",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Liquid AI",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Lenovo",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Google DeepMind",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Google",
-   "today": 1,
-   "avg": 0.38,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    5,
-    1
-   ]
-  },
-  {
-   "entity": "Walmart",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Flipkart",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Samsung C&T",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "KCC",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "DoorDash",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Korea Investment & Securities",
-   "today": 1,
-   "avg": 0.0,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Anthropic",
-   "today": 7,
-   "avg": 4.08,
-   "score": 1.72,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    31,
-    22,
-    7
    ]
   }
  ]
