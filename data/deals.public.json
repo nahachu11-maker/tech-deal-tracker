@@ -1,16 +1,66 @@
 {
  "meta": {
-  "last_updated": "2026-09-28T17:46:24.354801+00:00",
+  "last_updated": "2026-09-28T22:50:03.822712+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 13
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-09-28",
+   "type": "M&A",
+   "name": "AMD / World Labs",
+   "v": 8.2,
+   "val": null,
+   "sector": "AI / Semiconductors",
+   "status": "Pending",
+   "note": "AMD has agreed to acquire AI startup World Labs for $8.2 billion in a strategic move to bolster its AI capabilities and close the competitive gap with Nvidia. World Labs, founded by AI pioneer Fei-Fei Li, specializes in spatial intelligence and world-model AI research. The acquisition represents one of AMD's largest deals and signals an intensifying AI talent and technology arms race among chip companies.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR2NrdDVETW90QXhzZjBDMmExQ0t5N3NLVDB5RWlKdXdlTjM2cnRNM3ZRbHJMRUw4NlgyWUx1WWNKVU8wQVJtTzZxbHhsb0pFVVN6a3lscHhvZTk2VHN1S04xMVE0UnVydXBCQmNTaFNMeVd3OUhJWWRKWFd2aFMxRG9SU0xLaHl1RHBNQ1RGd2daOFU2WEd4WmtUalZYeXFiel9YSXNIWGJXa3lGNWJrdWZXRmh1aTltQ1pLSnh3?oc=5",
+   "source_snippet": "AMD has agreed to acquire AI startup World Labs for $8.2 billion, a major move to bolster its AI capabilities and compete with Nvidia.",
+   "extracted_at": "2026-09-28T22:48:24.685556+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-28",
+   "type": "M&A",
+   "name": "AMD / AI-focused San Francisco startup",
+   "v": 8.2,
+   "val": null,
+   "sector": "AI / Semiconductors",
+   "status": "Pending",
+   "note": "AMD is reportedly acquiring an unnamed AI-focused San Francisco startup for $8.2B, signaling a strategic pivot toward simulation and virtual-world AI capabilities rather than large language model infrastructure. The deal represents one of AMD's largest acquisitions and reflects competitive positioning against Nvidia in next-generation AI workloads. Terms beyond headline price are undisclosed; 'reportedly' language suggests the deal has not been formally announced.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUTlncHY1cnh2eFU0MXd5QnJKeVlVVUNBYm8zb3FJVGVPakhHZnU1RmZwNVhadVNwTzBzZHhVZ2dReWlCM3dxZ3MxZWpOXzdEaE8wd3U5dUVaZTh4VUlXM0JIQ2t4OENWb3V4OW8zZnJxMzhfaGNBOEhnWWFhWDI5MjVaRnIzUDRjVmJ4YzBWYkFDZDRFTUxNaE5GR2hpa0hrT1VBd3AtaGY2QTBDdlI4?oc=5",
+   "source_snippet": "AMD is reportedly acquiring an AI-focused San Francisco startup for $8.2B, a significant bet on simulation/virtual-world AI capabilities over large language models.",
+   "extracted_at": "2026-09-28T22:48:43.093097+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-28",
+   "type": "M&A",
+   "name": "AMD / AI-pioneer San Francisco startup",
+   "v": 8.2,
+   "val": null,
+   "sector": "AI / Semiconductors",
+   "status": "Pending",
+   "note": "AMD announced an $8.2B acquisition of an unnamed AI-focused startup headquartered in San Francisco, signaling a major push to bolster its AI capabilities and compete more aggressively in the accelerated computing market. The target is described as an AI pioneer, suggesting differentiated IP or talent in model development or inference infrastructure. No closing timeline or financing structure was disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNXhnQXpfR2c4ZXg1R2ZrLVdyVUFCYzhrZzdHV29ad29KTDVPNDNWTDluSHVvc0N1aVppUFdfQnEwM2ROSE5OS3lBb0VXUW5OWHJvcFNIOXhNbHRXYVpKREdqTTdjUEVtVmxLMkZDVlliVGxSWmc0ZXdSV2p1RmNLNlh4eXJseUsyOHF5NURxZ1J3am9WQksyWHJn?oc=5",
+   "source_snippet": "AMD announced an $8.2B acquisition of an AI-pioneer startup in San Francisco, representing a major strategic move to expand AI capabilities.",
+   "extracted_at": "2026-09-28T22:48:50.022503+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source does not identify the specific startup name, and the status is stated as 'announced' (Filed) not 'Pending'"
+  },
   {
    "skip": false,
    "d": "2026-09-27",
