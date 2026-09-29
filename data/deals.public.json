@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-09-28T23:03:08.611027+00:00",
+  "last_updated": "2026-09-29T02:27:23.222345+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-09-29",
+   "type": "Private",
+   "name": "KKR AI Infrastructure Firm",
+   "v": 1.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Samsung Group is committing $1 billion into a KKR-founded AI infrastructure company, representing a major strategic minority investment in the AI infrastructure buildout theme. The firm was founded by KKR, suggesting a PE-backed infrastructure vehicle targeting data center or compute assets. Deal structure (equity stake percentage, valuation) is not disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYlpMSjhoYmZiaXRYWEJfRUZhYVBYa0RFMzJXRGZhTjN4WWJoYkJHX29NWlRoOERxaUwxS2JCVGVGLW1NVW5fbzJkUjlHV1VkOUZWaEV6NkZlVU93T1dKaTNDQ09fN0lqc0dtNGh6Ui1YeExVTktpVmE4SlBsODJNLUc2bVNTakxhUEZ2QzNLcWh6U0QwTkowNkl0Q3lrbXoyWDVPeEhsS1V6YVNSWGJuV0ZQV29paTRIVVlsNWt5SdIBxAFBVV95cUxPUDdna1N5REE0eXcwYVRSOUFySkVWQTJZXzdTeUJTN3BUQ3JDUTJ3U2lNLUxxaUtfM0o5bF9MMy10ZzRvZnczSjR4Qk54eDl2U3FERXRGb0k1SWFUTFBTQVI4NXNWUlQzcUQwbUgwV0VRXzZGSzVlUXRHeWg4ZUtMdURyUmlXLWRGbmlzMEJaQWpBUlY5YWNnZXdmc0lPLTY3QjB4X29FaHVMNmQtZjZoLWFkVUZEdUpmaDhLV0VsOXRuRW1j?oc=5",
+   "source_snippet": "Samsung Group invests $1 billion in a KKR-founded AI infrastructure firm, representing a major strategic capital commitment into the AI infrastructure buildout.",
+   "extracted_at": "2026-09-29T02:27:08.725881+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value should be $1 billion (1.0), not null; deal type should be Investment/Strategic Capital, not Private; company name is incorrect (should reference KKR or the actual AI firm name); status shou"
+  },
   {
    "skip": false,
    "d": "2026-09-28",
