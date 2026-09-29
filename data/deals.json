@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-09-29T04:51:52.661138+00:00",
+  "last_updated": "2026-09-29T08:50:24.604188+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 5
   }
  },
  "deals": [
@@ -27,6 +27,42 @@
    "extracted_at": "2026-09-29T02:27:08.725881+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value should be $1 billion (1.0), not null; deal type should be Investment/Strategic Capital, not Private; company name is incorrect (should reference KKR or the actual AI firm name); status shou"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-29",
+   "type": "M&A",
+   "name": "Samsung / Helix",
+   "v": 1.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Samsung is making a $1B minority strategic investment in Helix, an AI infrastructure company, as part of the broader AI infrastructure buildout trend. The stake percentage is not disclosed but described as a significant minority position. The deal reflects Samsung's push to deepen its foothold in AI compute and infrastructure beyond its core semiconductor business.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd21fQkhTRWhpbmRpeVBiOENYY2d4RUxZTm9kV09adkNmT0JtWFFxT0lCTkFIMDlqMjBKbDJYZUJOMVJ0TmEwMFg4R0p0dE9xOExZMk03VVBiOTktWFQ3TzVxZ1NiSVFCcW1LTFFRV3JISnRVM1Q3cURSVW1tRHBTeTFRdWZQd1JScTJNaA?oc=5",
+   "source_snippet": "Samsung is reportedly investing $1 billion in AI infrastructure company Helix, a significant minority strategic investment in the AI infrastructure buildout.",
+   "extracted_at": "2026-09-29T08:49:42.100262+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Strategic Investment' or similar, not 'M&A'; the value is stated as $1 billion, not null."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-29",
+   "type": "Private",
+   "name": "Samsung Group / U.S. AI Infrastructure Companies",
+   "v": 1.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Six Samsung Group affiliates are jointly deploying approximately KRW 1.4 trillion (~$1B USD) into U.S.-based AI infrastructure companies in a coordinated cross-border strategic investment. The structure involves multiple Samsung entities as co-investors, suggesting a portfolio-style minority stake approach rather than a single acquisition. This move aligns with Samsung's broader push to secure positions in the AI compute and data center ecosystem amid intensifying competition with rival conglomerates.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xUkFHcEFZbFNRT1RQbTJPMGM5a3NyNUpQcUJzTnRmNkJNMm5PMFlnX1VrZ280VVl1YUd1eksxNkQ4VmlRV0o1X3NQWkFmazZtVy02VEQ3a0V1SFRHTUYwWFI1MFI?oc=5",
+   "source_snippet": "Six Samsung Group affiliates are investing approximately KRW 1.4 trillion (~$1B USD) into U.S. AI infrastructure companies, representing a significant cross-border strategic capital deployment.",
+   "extracted_at": "2026-09-29T08:49:50.764515+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value should be $1B USD (or ~KRW 1.4 trillion), not null; deal type should reflect investment/capital deployment rather than generic 'Private'; status is unsupported by source."
   },
   {
    "skip": false,
