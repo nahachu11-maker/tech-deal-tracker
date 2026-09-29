@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-09-29T12:23:08.702910+00:00",
+  "last_updated": "2026-09-29T15:17:10.005235+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 0,
-   "duplicates": 0
+   "added": 1,
+   "updated": 1,
+   "duplicates": 4
   }
  },
  "deals": [
@@ -63,6 +63,22 @@
    "extracted_at": "2026-09-29T08:49:50.764515+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value should be $1B USD (or ~KRW 1.4 trillion), not null; deal type should reflect investment/capital deployment rather than generic 'Private'; status is unsupported by source."
+  },
+  {
+   "skip": false,
+   "d": "2026-09-29",
+   "type": "M&A",
+   "name": "AMD / Fei-Fei Li AI Startup",
+   "v": 8.2,
+   "val": null,
+   "sector": "AI / Semiconductors",
+   "status": "Pending",
+   "note": "AMD is reportedly acquiring Fei-Fei Li's AI startup in an $8.2B deal aimed at accelerating AMD's AI software and silicon strategy. The acquisition would significantly bolster AMD's AI capabilities as it competes with Nvidia in the accelerated computing market. Deal terms and structure have not been fully disclosed; 'reportedly' language suggests the transaction has not yet been formally announced.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QT3FJQ2ZRU2ZvbmlMVUZhSHgxWnFOYmI2ZTlWR2RuVl9OODN0UXJRV3E2cVNab0JEMWkyMGE0TjZlR1BYRUhfNzdhZmpBR3laM2VPOXB3OTc5Ulo1dHp1Wk9mUHlzYlNHYWc5M0Q0cy0?oc=5",
+   "source_snippet": "AMD reportedly acquiring Fei-Fei Li's AI startup for $8.2B, a major deal that would accelerate AMD's AI software and silicon strategy.",
+   "extracted_at": "2026-09-29T15:16:32.521202+00:00"
   },
   {
    "skip": false,
@@ -2721,11 +2737,11 @@
    "d": "2026-08-07",
    "type": "M&A",
    "name": "AMD / AI Chip Startup",
-   "v": null,
+   "v": 8.2,
    "val": null,
    "sector": "Semiconductors",
    "status": "Pending",
-   "note": "AMD acquired an unnamed AI chip startup, with the deal drawing market attention for its implications on competitive dynamics in the AI accelerator space. The transaction lifted Nvidia shares, suggesting investors interpreted the move as validation of AI chip demand rather than a direct competitive threat. Target and deal value are undisclosed in available reporting.",
+   "note": "AMD acquired an unnamed AI chip startup, with the deal drawing market attention for its implications on competitive dynamics in the AI accelerator space. The transaction lifted Nvidia shares, suggesting investors interpreted the move as validation of AI chip demand rather than a direct competitive threat. Target and deal value are undisclosed in available reporting. [Auto-update 2026-09-29: AMD reportedly agreed to acquire an unnamed AI lab for $8.2B, a significant move to bolster its AI capabilities and compete with rivals in the accelerated computing market. The target is not named in ]",
    "advisors": [],
    "review": true,
    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KUkljUHVaSXhTSVhfY2M2bWFUNzhKc0dRWDk5ejg5OHlWa2RWZXlxWDlwYjgtbHZNcHNaSm9EVG9jcWx1YXpMMlZHYVdnUHF4RU9tUDYxVUpyMGMxRDcyU2ZzM0JHV0ZLMnFkXzNlYi01UWszandtOA?oc=5",
