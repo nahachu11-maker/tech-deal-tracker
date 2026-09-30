@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-09-30T12:08:03.689207+00:00",
+  "last_updated": "2026-09-30T16:12:11.168681+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
@@ -28,6 +28,24 @@
    "extracted_at": "2026-09-30T09:54:26.152354+00:00",
    "verify_failed": true,
    "verify_reason": "Source states $1bn investment but extracted record shows val: null"
+  },
+  {
+   "skip": false,
+   "d": "2026-09-30",
+   "type": "Private",
+   "name": "AI Infrastructure Firm (KKR/Nvidia-backed)",
+   "v": 1.0,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Samsung is committing $1.0B as a strategic minority investment in an AI infrastructure firm already backed by KKR and Nvidia. The deal reinforces Samsung's positioning in the AI buildout supply chain, complementing its semiconductor and memory businesses. Deal status and post-money valuation were not disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNVgtREJ6azRuUmNkRkREbDZRdFRJZVhTSERCc2p2NTR5WVhCS1lWTzVTS3g2bm9pUE5CSTZmRTIzNHhVT2RpMm8xNVR4TnZLa0JLQzBOTVhFZTJqNnZKckR2aGtHYUhUa0kzRjB3aU8zcXV2Q04yaXBRRy1JZHRCS3lZWmZZLXN2RC1reWRWVHJ1SEFHU3RrWWhJQjFCTXUxakZPTkU5bGg2WHdXRUE?oc=5",
+   "source_snippet": "Samsung commits $1.0B to a KKR- and Nvidia-backed AI infrastructure firm, representing a significant strategic minority investment in the AI buildout supply chain.",
+   "extracted_at": "2026-09-30T16:12:01.168882+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Minority Investment' or similar, not 'Private'; also 'Pending' status is unsupported by source which indicates commitment already made."
   },
   {
    "skip": false,
