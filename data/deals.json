@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-10-03T21:36:44.595819+00:00",
+  "last_updated": "2026-10-04T00:16:29.541792+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-04",
+   "type": "Debt",
+   "name": "Amazon",
+   "v": 8.0,
+   "val": null,
+   "sector": "AI Infrastructure / Cloud",
+   "status": "Pending",
+   "note": "Amazon is pursuing an $8B sale-and-leaseback of Nvidia GPU assets, a structured financing mechanism that monetizes AI hardware while retaining operational use. The transaction allows Amazon to recycle capital off-balance-sheet while maintaining access to Nvidia compute for AWS workloads. This is part of a broader trend of hyperscalers using asset-backed structures to fund AI infrastructure buildout.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91VUZYbGZtUEtLcTFRU1ZvZVhsZE1jVWVLX1R5WE1sVGdKQjhaNnZoX3ZIQmUyeTlucEdOX2ZCY2xXbDkwTl9NRFFsb2xrU3VlUUx4Vk9FSkcxMGIzTVpUVndQVldaWGZ5VEF2X3dzcklHZTJaWVE?oc=5",
+   "source_snippet": "Amazon is pursuing an $8 billion sale-and-leaseback transaction on Nvidia chips, a significant structured financing deal with implications for AI infrastructure capital allocation.",
+   "extracted_at": "2026-10-04T00:16:25.578105+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Sale-and-Leaseback' or similar, not 'Debt'; this is a structured financing transaction, not a debt issuance."
+  },
   {
    "skip": false,
    "d": "2026-09-30",
