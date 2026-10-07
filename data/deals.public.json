@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-10-07T17:07:58.978495+00:00",
+  "last_updated": "2026-10-07T22:09:32.198890+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
@@ -28,6 +28,24 @@
    "extracted_at": "2026-10-07T02:34:44.585068+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type is M&A but source describes a patent settlement/licensing agreement, not a merger or acquisition"
+  },
+  {
+   "skip": false,
+   "d": "2026-10-07",
+   "type": "Debt",
+   "name": "SpaceX",
+   "v": 40.0,
+   "val": null,
+   "sector": "AI Infrastructure / Space Tech",
+   "status": "Pending",
+   "note": "SpaceX has discussed a $40 billion financing package to procure Nvidia GPUs for AI infrastructure buildout, per WSJ. The transaction would represent one of the largest single AI infrastructure capital commitments on record. Deal structure (loans, bonds, private credit) has not been publicly specified; reporting indicates discussions are ongoing and no financing has been finalized.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdEswdmpqczhKRHRablFRaGw0NFhEX0VTRzlBaWJ6ak9pLUMwSWIwVXd3ZWRnbjkycDZDaGtjb2UyMm5ZeWw3UGVWQ0dSelUtamV2b0FYY2VWN0kyZ3lYVVlOSmR0RDQyQ3FJZjJ2OFFjVmM0NFhXVkJhLTFERUhfLTN0MV9qV1RTbWN3X241UGI4Z1R4enZxczdPbWljb09TU0stekUxZmI?oc=5",
+   "source_snippet": "SpaceX has reportedly discussed $40 billion in financing to procure Nvidia chips, representing a landmark AI infrastructure capital commitment per WSJ.",
+   "extracted_at": "2026-10-07T22:09:16.184062+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a chip procurement financing discussion, not a debt deal; the deal type should reflect financing/capital commitment rather than 'Debt' classification."
   },
   {
    "skip": false,
