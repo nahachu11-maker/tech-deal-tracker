@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-10-06T23:11:23.718198+00:00",
+  "last_updated": "2026-10-07T02:34:48.393342+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-07",
+   "type": "M&A",
+   "name": "Micron / HBM Patent Settlement",
+   "v": 0.59,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Closed",
+   "note": "Micron settled HBM patent litigation for approximately KRW 810 billion (~$590M), gaining cross-licensing access to HBM intellectual property. The settlement removes a key legal overhang and positions Micron to compete more freely in the high-bandwidth memory market. Cross-licensing terms suggest mutual recognition of each party's IP portfolio.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOGVUM0JVMlV2c0dvWmhtY1NCNF9GcVBFU0FsU1gwVmlSak5uUWRGYlBJcVV1S01DWTZqZXVtTnJIZkJFd3A1alFaa21LWHQyV0k2N04yai1CTjJKaWRJclVGVWZtUzM5N0d6Tmtzc2ZqUUVVUGZFb0pzeF94ZE1RQUNNR2RBTXRK?oc=5",
+   "source_snippet": "Micron settles HBM patent litigation for approximately KRW 810 billion, unlocking cross-licensing access to HBM intellectual property.",
+   "extracted_at": "2026-10-07T02:34:44.585068+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type is M&A but source describes a patent settlement/licensing agreement, not a merger or acquisition"
+  },
   {
    "skip": false,
    "d": "2026-10-06",
