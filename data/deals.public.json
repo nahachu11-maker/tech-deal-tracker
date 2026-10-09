@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-10-09T15:26:20.146680+00:00",
+  "last_updated": "2026-10-09T20:12:47.793734+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-09",
+   "type": "M&A",
+   "name": "Meta / Sony (VR Patents)",
+   "v": null,
+   "val": null,
+   "sector": "VR/AR Technology",
+   "status": "Closed",
+   "note": "Sony sold hundreds of virtual reality patents to Meta in an undisclosed IP transaction. The deal strengthens Meta's VR/AR intellectual property portfolio, potentially improving its competitive positioning in the headset and immersive computing market. The transaction may signal Sony's strategic repositioning away from certain VR technology areas, though financial terms were not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyZjlFMlV6NXF2U1ZoOWtSazdEd3BQMkk3cDlMUTZFME1aNVRwLS00LWExUzJGUUh2TXp0WWd2T1V0a0RiT1oxNkpvclNDWUVrR2ZmVTRDZTc0eE1lelYwS2RXd0UwaDBCY0t5Sw?oc=5",
+   "source_snippet": "Sony has sold hundreds of VR patents to Meta, a notable IP transaction that strengthens Meta's VR/AR portfolio and may reflect Sony's strategic repositioning in the space.",
+   "extracted_at": "2026-10-09T20:12:32.147030+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'IP/Patent Transaction' not 'M&A'; M&A refers to company acquisitions, not patent sales."
+  },
   {
    "skip": false,
    "d": "2026-10-07",
