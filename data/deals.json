@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-10-10T17:34:35.912538+00:00",
+  "last_updated": "2026-10-10T20:56:58.211375+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 1,
-   "updated": 0,
-   "duplicates": 2
+   "added": 3,
+   "updated": 1,
+   "duplicates": 7
   }
  },
  "deals": [
@@ -43,6 +43,54 @@
    "extracted_at": "2026-10-10T17:34:27.902642+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' not 'Pending' as the source states Cloudflare 'acquires' Deno using past tense, indicating completed transaction"
+  },
+  {
+   "skip": false,
+   "d": "2026-10-10",
+   "type": "M&A",
+   "name": "NVIDIA / Reflection AI",
+   "v": 25.0,
+   "val": null,
+   "sector": "AI / Semiconductors",
+   "status": "Pending",
+   "note": "NVIDIA is reportedly exploring an acquisition of Reflection AI, a move that would accelerate its AI model and talent consolidation strategy. No deal terms or valuation have been disclosed at this stage. The transaction remains exploratory and unconfirmed per current reporting. [Auto-update 2026-10-10: NVIDIA is reportedly in talks to acquire Reflection AI at a $25B valuation, which would rank among the largest AI-focused acquisitions to date. Reflection AI is an AI research and model development co]",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaUVmc1Z4Ukk0N29tMkE4aVVORC01dVg5NmRRT0t6UXEtbXo1c1BYaThZUzZuMXk5dnpIZXdqVmNRLVhJR29KclQ2U3VVWFk2QmUxb0ZhRWR1d1lMTlNaSm5EVVM3RWUxSlhXV0hHTVJuOUhralVHel80YU4tQ0lHdW9pUjQ3QmR4WWVN?oc=5",
+   "source_snippet": "Nvidia is reportedly exploring an acquisition of Reflection AI, a deal rumor worth monitoring for potential AI talent/model consolidation.",
+   "extracted_at": "2026-10-10T20:56:01.918429+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-10-10",
+   "type": "M&A",
+   "name": "Apple / Huxe",
+   "v": null,
+   "val": null,
+   "sector": "AI / Audio Tech",
+   "status": "Closed",
+   "note": "Apple has acquired the team and technology of Huxe, an AI-powered podcast startup, in an acqui-hire structure focused on talent and IP rather than an ongoing business. The deal expands Apple's AI audio capabilities, likely targeting enhancements to Podcasts or broader audio content tools. Deal value was not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNb21FLVF5RFBObjdzOXEydGxSckNvaHgzZF8zc3ZkaU5Gdm9wVHlnLWs5WUp0THlVRjRNWV8xdW85UWJ0UEtMcWhvWVpLQy1RRU0yRUVsdEZNMlNaTnJjTWJXaDFKMFd4bHhPeXJTTU85aVk0TVdwQTl1RG9qc05tSWNqMVMtcFJoSUQ1Ylhn?oc=5",
+   "source_snippet": "Apple has acquired the team and technology of AI podcast startup Huxe, representing a talent/IP acquisition in the AI audio content space.",
+   "extracted_at": "2026-10-10T20:56:28.649994+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-10-10",
+   "type": "M&A",
+   "name": "Apple / ex-NotebookLM Startup",
+   "v": null,
+   "val": null,
+   "sector": "AI / Software",
+   "status": "Closed",
+   "note": "Apple completed an acqui-hire of an unnamed startup founded by former members of Google's NotebookLM team. The deal is structured as a talent acquisition rather than a traditional asset purchase, reflecting Apple's ongoing effort to bolster its AI capabilities. Financial terms were not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QREF1ZjBmRWNFUXd1dnFiMVBfWE5wVG0zd1NzTTNlT2FxT294eDlCbTliUVBuN0Z2NTRDMDNwQ0hNMDNzNmViWUpVUEp4TTNwbHpjdThGRGY1VldHZF9JcXV4TENsNTNzYkVOU3BieVRXa1RlUEE?oc=5",
+   "source_snippet": "Apple has completed an acqui-hire of a startup founded by ex-NotebookLM team members, signaling continued AI talent acquisition.",
+   "extracted_at": "2026-10-10T20:56:51.322056+00:00"
   },
   {
    "skip": false,
