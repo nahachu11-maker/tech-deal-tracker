@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-10-10T12:49:15.515927+00:00",
+  "last_updated": "2026-10-10T17:34:35.912538+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   }
  },
  "deals": [
@@ -25,6 +25,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSTlkcWVjX1hwOF9ubVpEdW1xcjVlQUFsZ0ptNHJtZ3R6WFRoQnFwTmpzcUNiTnpoMi1Hd2NvMkgzc251UVJqVm50dzhzSmFLa25QOGtoVng1MnZOVjNWNDNHSVFnTmRSSkF3Wmp0WGwyNmF1SmdURjYxVmxXYVhSaXk4eUIwNHhVX3hrelRwYXloOHBwcDhhMHNQUnpNY19KbmJwNkRwWUkwWTRMTzRDZ3gxZ1ZUelZoYlZxRVVQTFlOQmlDT0NJeUlQZmNYN1pZNlJ5QU1KLTRhLTBET3BZ?oc=5",
    "source_snippet": "SK Hynix is reviving a packaging deal with Winpac as chairman signals conviction in sustained chip demand, with M&A/supply-chain implications for advanced packaging.",
    "extracted_at": "2026-10-10T12:49:11.201021+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-10-10",
+   "type": "M&A",
+   "name": "Cloudflare / Deno",
+   "v": null,
+   "val": null,
+   "sector": "Cloud / Developer Infrastructure",
+   "status": "Pending",
+   "note": "Cloudflare is acquiring Deno, the JavaScript/TypeScript runtime, to enhance its Workers serverless developer platform. The bolt-on acquisition brings Deno's runtime technology and team directly into Cloudflare's edge computing ecosystem. Deal value is undisclosed; strategic rationale centers on deepening the Workers programming model and attracting developer mindshare.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+   "source_snippet": "Cloudflare acquires Deno to enhance its Workers developer platform, marking a technology-focused bolt-on acquisition.",
+   "extracted_at": "2026-10-10T17:34:27.902642+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as the source states Cloudflare 'acquires' Deno using past tense, indicating completed transaction"
   },
   {
    "skip": false,
