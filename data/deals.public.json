@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-10-12T14:45:12.307369+00:00",
+  "last_updated": "2026-10-12T15:51:37.994441+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
@@ -28,6 +28,22 @@
    "extracted_at": "2026-10-12T06:16:29.464403+00:00",
    "verify_failed": true,
    "verify_reason": "The source describes Decart as an 'acquisition target' with no confirmation of deal closure, making 'Pending' status reasonable, but lists OpenAI as acquirer when the source only reports a 'reported' "
+  },
+  {
+   "skip": false,
+   "d": "2026-10-12",
+   "type": "M&A",
+   "name": "Amazon / Deca",
+   "v": 7.0,
+   "val": null,
+   "sector": "AI / Cloud",
+   "status": "Pending",
+   "note": "Amazon is reportedly exploring a $7B acquisition of AI startup Deca, which would represent a significant bet on AI capabilities. The deal is at the exploration stage with no definitive agreement announced. A transaction of this size would rank among Amazon's largest AI acquisitions and likely aims to bolster its AWS and generative AI offerings.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTk1iN2Y2MUoxUUp4aE9MWm5MdlJhN0I1cE4tNHFQMmJrVmRhamlaa0ZzZWFqd2UzNTh1TDZOeHhLdXNZeHVTWlllQ21JNEdYcEplenhkLWhPeDdHVFNDMkVFX2pmbHlMbktDNW5JeVJzcGsxUEF5YTBZRDRCZ2VkT1p4XzV5STFSaXpsR2NiMnRFSGFzMFZxaHVoVEpVQk9ZbjBHTw?oc=5",
+   "source_snippet": "Amazon is reportedly exploring a $7 billion acquisition of AI startup Deca, a potential major M&A transaction in the AI space.",
+   "extracted_at": "2026-10-12T15:51:20.510181+00:00"
   },
   {
    "skip": false,
