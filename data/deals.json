@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-10-12T04:58:06.418313+00:00",
+  "last_updated": "2026-10-12T06:16:32.538498+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-12",
+   "type": "M&A",
+   "name": "OpenAI / Decart",
+   "v": 7.0,
+   "val": null,
+   "sector": "AI / Foundation Models",
+   "status": "Pending",
+   "note": "OpenAI is reportedly in discussions to acquire AI startup Decart at a reported valuation of $7 billion, which would represent one of the largest AI M&A transactions to date. Decart is an AI startup; deal terms and structure have not been confirmed. Transaction remains unverified/rumored and should be treated as aspirational until officially announced.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ0xVLVQwVWtZdEVhWUlWY3kxTW1VMmgtczhiX2kxeHhnc1ZFeXB5d2Z6MENDMXk3NDBNUU9qOGhnU1p4Zy1sRXJkd001a1lGa1VLNUtuSzNFR05OTFpsbC0tLWpRYTE0eTJnNzladGszT3hsNjRndkJreUYtYWxGYVBjWHZ1a1M2OFpyQ294cFhOUWtiWmUtY01EZUFibDJGNUVzQ1BJTmRnLS1lc01CcW9xcDB6ZGNG?oc=5",
+   "source_snippet": "Decart AI startup is reported as a $7 billion acquisition target, reportedly linked to OpenAI, which would represent a large AI M&A transaction if confirmed.",
+   "extracted_at": "2026-10-12T06:16:29.464403+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes Decart as an 'acquisition target' with no confirmation of deal closure, making 'Pending' status reasonable, but lists OpenAI as acquirer when the source only reports a 'reported' "
+  },
   {
    "skip": false,
    "d": "2026-10-10",
