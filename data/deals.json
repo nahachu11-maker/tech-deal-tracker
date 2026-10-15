@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-10-14T23:34:53.853584+00:00",
+  "last_updated": "2026-10-15T02:29:18.153500+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-15",
+   "type": "M&A",
+   "name": "Tesla / SpaceX",
+   "v": null,
+   "val": null,
+   "sector": "EV / Space Tech",
+   "status": "Pending",
+   "note": "Reports suggest a possible SpaceX-Tesla merger announcement as early as early December 2026. The deal remains unconfirmed and no financial terms have been disclosed. A combination would unite Elon Musk's two flagship private/public ventures, creating significant strategic and regulatory complexity.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIRmhIbnZtS3VIa2ZFQm1naFpJTXpMQjhONS1Fc1d0X2ZVNTRxUWlzM2IybExQaDQyREV5VWxGa3FxdlJ5eVlxY3ZDTlV5c0gzekcweFpucFBOaHlScEhyS3VhZEtxdw?oc=5",
+   "source_snippet": "Reports suggest a possible SpaceX-Tesla merger announcement as early as early December — credible deal rumor warranting tracking despite unconfirmed status.",
+   "extracted_at": "2026-10-15T02:29:15.242947+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes unconfirmed rumor with no deal status; extracted record shows 'Pending' status which implies a formal announcement or filing not supported by source."
+  },
   {
    "skip": false,
    "d": "2026-10-13",
