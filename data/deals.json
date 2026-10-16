@@ -1,15 +1,42 @@
 {
  "meta": {
-  "last_updated": "2026-10-16T10:57:54.536494+00:00",
+  "last_updated": "2026-10-16T12:02:55.456884+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-16",
+   "type": "M&A",
+   "name": "Undisclosed Acquirer / CCC Intelligent Solutions Holdings",
+   "v": 6.1,
+   "val": null,
+   "sector": "InsurTech / Auto Claims Software",
+   "status": "Pending",
+   "note": "An undisclosed buyer has agreed to acquire CCC Intelligent Solutions in an all-cash take-private deal valued at approximately $6.1 billion ($7.75/share). Law firm Ademi LLP is investigating whether the buyout price fairly compensates shareholders, raising potential litigation risk. The investigation is a common precursor to shareholder suits in go-private transactions and does not itself alter deal status.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/ccc-shareholder-alert-ademi-llp-investigates-whether-buyout-fairly-values-ccc-intelligent-solutions-holdings-inc-302911017.html",
+   "source_snippet": "Law firm investigating whether the ~$6.1 billion all-cash buyout of CCC Intelligent Solutions at $7.75/share fairly values shareholders, raising potential litigation risk for the pending deal.",
+   "extracted_at": "2026-10-16T12:02:52.268414+00:00",
+   "comps": {
+    "premium_pct": null,
+    "premium_basis": null,
+    "ev_revenue": null,
+    "ev_ebitda": null,
+    "consideration": "cash",
+    "price_per_share": 7.75,
+    "financing": null,
+    "termination_fee": null,
+    "computed_fields": []
+   }
+  },
   {
    "skip": false,
    "d": "2026-10-15",
