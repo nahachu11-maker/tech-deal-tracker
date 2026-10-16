@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-10-16T16:17:21.470144+00:00",
+  "last_updated": "2026-10-16T16:51:19.802440+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -36,6 +36,22 @@
     "termination_fee": null,
     "computed_fields": []
    }
+  },
+  {
+   "skip": false,
+   "d": "2026-10-16",
+   "type": "M&A",
+   "name": "GlobalFoundries",
+   "v": 21.0,
+   "val": null,
+   "sector": "Semiconductor Foundry",
+   "status": "Pending",
+   "note": "A $21 billion deal involving GlobalFoundries is reported to potentially reshape the economics of chipmaking in the semiconductor foundry sector. The transaction structure and counterparty are not fully detailed in the snippet, but the scale suggests a transformative consolidation play in contract chip manufacturing. Strategic rationale likely centers on capacity, geopolitical supply-chain positioning, and competitive response to TSMC and Samsung dominance.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ3hwS3lVM29hTmg2SkkwZk1tRV9WZU13NVVVSWstN01NbkNyd3R0SG9CX2E5OS1QY3pueHozWHd1c1U0UEZmNzFubjh0S1VwRTRjSjhJN2U5dWFjX3RTWUJwMW9wVk9nVk44Z2E1bU9ndzNlMnVVNFBnZHZ4VF83bVFoU1EtWUNLd0tZa3RQbnJLTDFaTGZDMkxJSzI4NU0?oc=5",
+   "source_snippet": "A $21 billion deal involving GlobalFoundries is reported to potentially reshape chipmaking economics, a significant M&A event in the semiconductor foundry sector.",
+   "extracted_at": "2026-10-16T16:51:17.533286+00:00"
   },
   {
    "skip": false,
