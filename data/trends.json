@@ -1,13 +1,13 @@
 {
  "meta": {
-  "last_updated": "2026-10-16T01:35:05.422363+00:00"
+  "last_updated": "2026-10-16T06:36:23.940124+00:00"
  },
  "trends": [
   {
    "entity": "Micron Technology",
-   "today": 4,
+   "today": 5,
    "avg": 0.15,
-   "score": 8.0,
+   "score": 10.0,
    "spiking": true,
    "spark": [
     0,
@@ -17,14 +17,65 @@
     0,
     0,
     2,
-    4
+    5
+   ]
+  },
+  {
+   "entity": "SK Hynix",
+   "today": 37,
+   "avg": 5.77,
+   "score": 6.41,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    9,
+    66,
+    37
+   ]
+  },
+  {
+   "entity": "Samsung SDI",
+   "today": 3,
+   "avg": 0.15,
+   "score": 6.0,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    3
+   ]
+  },
+  {
+   "entity": "Samsung",
+   "today": 14,
+   "avg": 2.38,
+   "score": 5.87,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    28,
+    14
    ]
   },
   {
    "entity": "Samsung Electronics",
-   "today": 18,
+   "today": 19,
    "avg": 3.77,
-   "score": 4.78,
+   "score": 5.04,
    "spiking": true,
    "spark": [
     0,
@@ -34,14 +85,14 @@
     0,
     12,
     37,
-    18
+    19
    ]
   },
   {
-   "entity": "SK Hynix",
-   "today": 25,
-   "avg": 5.92,
-   "score": 4.22,
+   "entity": "ASML",
+   "today": 5,
+   "avg": 1.54,
+   "score": 3.25,
    "spiking": true,
    "spark": [
     0,
@@ -49,16 +100,16 @@
     0,
     0,
     0,
-    11,
-    66,
-    25
+    3,
+    17,
+    5
    ]
   },
   {
-   "entity": "Samsung",
-   "today": 6,
-   "avg": 2.54,
-   "score": 2.36,
+   "entity": "Apple",
+   "today": 8,
+   "avg": 3.15,
+   "score": 2.54,
    "spiking": true,
    "spark": [
     0,
@@ -66,15 +117,66 @@
     0,
     0,
     0,
-    5,
-    28,
-    6
+    10,
+    31,
+    8
+   ]
+  },
+  {
+   "entity": "Nvidia",
+   "today": 11,
+   "avg": 5.15,
+   "score": 2.13,
+   "spiking": true,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    10,
+    57,
+    11
+   ]
+  },
+  {
+   "entity": "Taiwan Semiconductor Manufacturing Company",
+   "today": 2,
+   "avg": 0.0,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "entity": "Goldman Sachs",
+   "today": 2,
+   "avg": 0.08,
+   "score": 4.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2
    ]
   },
   {
    "entity": "Qualcomm",
    "today": 2,
-   "avg": 0.46,
+   "avg": 0.38,
    "score": 4.0,
    "spiking": false,
    "spark": [
@@ -83,25 +185,8 @@
     0,
     0,
     0,
-    2,
+    1,
     4,
-    2
-   ]
-  },
-  {
-   "entity": "Samsung SDI",
-   "today": 2,
-   "avg": 0.15,
-   "score": 4.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
     2
    ]
   },
@@ -140,7 +225,7 @@
    ]
   },
   {
-   "entity": "Naver Pay",
+   "entity": "Terafab",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -157,58 +242,7 @@
    ]
   },
   {
-   "entity": "Google",
-   "today": 1,
-   "avg": 0.38,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    5,
-    1
-   ]
-  },
-  {
-   "entity": "Tesla",
-   "today": 1,
-   "avg": 0.31,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    4,
-    1
-   ]
-  },
-  {
-   "entity": "SpaceX",
-   "today": 1,
-   "avg": 0.38,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    2,
-    1
-   ]
-  },
-  {
-   "entity": "Tejas Networks",
+   "entity": "Zeiss",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -225,7 +259,7 @@
    ]
   },
   {
-   "entity": "Singapore Exchange",
+   "entity": "HSBC",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -242,7 +276,7 @@
    ]
   },
   {
-   "entity": "HCLTech",
+   "entity": "Palantir Technologies",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -259,92 +293,7 @@
    ]
   },
   {
-   "entity": "LG Energy Solution",
-   "today": 1,
-   "avg": 0.08,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ]
-  },
-  {
-   "entity": "Goldman Sachs",
-   "today": 1,
-   "avg": 0.08,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "Arm",
-   "today": 1,
-   "avg": 0.38,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    4,
-    1
-   ]
-  },
-  {
-   "entity": "Dell",
-   "today": 1,
-   "avg": 0.23,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "Barclays",
-   "today": 1,
-   "avg": 0.08,
-   "score": 2.0,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "entity": "Sahajanand Medical",
+   "entity": "ByteDance",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -361,7 +310,7 @@
    ]
   },
   {
-   "entity": "Kioxia",
+   "entity": "Advantech",
    "today": 1,
    "avg": 0.0,
    "score": 2.0,
@@ -378,27 +327,10 @@
    ]
   },
   {
-   "entity": "Amazon",
-   "today": 3,
-   "avg": 2.23,
-   "score": 1.34,
-   "spiking": false,
-   "spark": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    4,
-    25,
-    3
-   ]
-  },
-  {
-   "entity": "AMD",
+   "entity": "DEKRA",
    "today": 1,
-   "avg": 0.85,
-   "score": 1.18,
+   "avg": 0.0,
+   "score": 2.0,
    "spiking": false,
    "spark": [
     0,
@@ -406,16 +338,16 @@
     0,
     0,
     0,
-    3,
-    8,
+    0,
+    0,
     1
    ]
   },
   {
-   "entity": "Intel",
+   "entity": "Nippon Express Holdings",
    "today": 1,
-   "avg": 0.85,
-   "score": 1.18,
+   "avg": 0.0,
+   "score": 2.0,
    "spiking": false,
    "spark": [
     0,
@@ -423,8 +355,76 @@
     0,
     0,
     0,
-    3,
-    8,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Metro Supply Chain Group",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Bank of America",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Schneider Electric",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "entity": "Huawei",
+   "today": 1,
+   "avg": 0.0,
+   "score": 2.0,
+   "spiking": false,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     1
    ]
   }
