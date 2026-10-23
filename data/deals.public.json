@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-10-23T21:08:33.879871+00:00",
+  "last_updated": "2026-10-23T22:27:38.522833+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-23",
+   "type": "M&A",
+   "name": "Meta / Sundial",
+   "v": null,
+   "val": null,
+   "sector": "AI / Data Infrastructure",
+   "status": "Pending",
+   "note": "Meta is acquiring Sundial, an AI data platform, to expand its data infrastructure capabilities for AI development. Deal value is undisclosed. The acquisition aligns with Meta's ongoing push to build proprietary AI infrastructure and reduce reliance on third-party data providers.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yaUIwQVJsYmpVanBJTkF0M1g4RWZDeGh3X1NYbzVINFY4M2wxTUtTWmRZdkYtY0tlU2dBcXNXY1JxU1JNeUJsZTc5c2czQzFwX0ZOcndNekd0WE5XQXc0QzVjWHdWek9nbXZkZUZXNA?oc=5",
+   "source_snippet": "Meta acquires AI data platform Sundial, expanding its data infrastructure for AI development.",
+   "extracted_at": "2026-10-23T22:27:34.554085+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source does not specify a future date of 2026-10-23 or indicate Pending status; the acquisition appears to be announced as completed or in progress, not as a pending future transaction."
+  },
   {
    "skip": false,
    "d": "2026-10-21",
