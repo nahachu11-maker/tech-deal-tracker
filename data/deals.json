@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-10-23T22:27:38.522833+00:00",
+  "last_updated": "2026-10-24T00:55:00.888469+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
@@ -27,6 +27,24 @@
    "extracted_at": "2026-10-23T22:27:34.554085+00:00",
    "verify_failed": true,
    "verify_reason": "Source does not specify a future date of 2026-10-23 or indicate Pending status; the acquisition appears to be announced as completed or in progress, not as a pending future transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-10-23",
+   "type": "M&A",
+   "name": "Uber / Instacart",
+   "v": null,
+   "val": null,
+   "sector": "Delivery / Marketplace",
+   "status": "Pending",
+   "note": "Instacart shares rallied on reports of acquisition talks with both Uber and DoorDash, suggesting a competitive bid dynamic for the grocery-delivery platform. No deal value or exclusivity has been disclosed; talks remain exploratory. A deal would represent a major consolidation in the on-demand delivery space and a significant exit for Instacart investors.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQW9OalFzdGVlajNjUG9oZ184SjBrbWlTcjhWN21WdUtPZXR1Y2Vudzg3MEZtSlk0Wm5IcUxJQ1dvR2QxM2JNdHo3dXFSMUt0dW1fSWdEb0ZlUU5kd2VmR1J1U285TnFiS0tNUjRhUmYybEJDRXctWG9pdHcydzNGUVVZSGxFc2JPMElwcmVKLXNERW9oRS1wNFVFZFRyS3ZISkVwN04zTmxlbjZLQjl1cA?oc=5",
+   "source_snippet": "Instacart shares rally on reported acquisition talks with Uber and DoorDash, signaling a potential major exit for the grocery-delivery platform.",
+   "extracted_at": "2026-10-24T00:54:58.755829+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source reports only 'reported acquisition talks,' not a confirmed pending deal; status should be more speculative or the talks may not constitute an actual pending transaction."
   },
   {
    "skip": false,
