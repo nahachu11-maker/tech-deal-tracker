@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-10-27T21:56:54.099843+00:00",
+  "last_updated": "2026-10-27T22:48:02.806936+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 1
   },
@@ -46,6 +46,22 @@
    "extracted_at": "2026-10-27T07:06:11.848316+00:00",
    "verify_failed": true,
    "verify_reason": "The source does not specify a date of 2026-10-27, and the investment appears to be a direct strategic investment rather than a traditional Follow-on offering."
+  },
+  {
+   "skip": false,
+   "d": "2026-10-27",
+   "type": "M&A",
+   "name": "Guidewire / Hyperexponential",
+   "v": 1.7,
+   "val": null,
+   "sector": "Insurance Technology",
+   "status": "Pending",
+   "note": "Guidewire is acquiring Hyperexponential for $1.7B in an all-cash transaction, with closing expected in 2027. The deal brings AI-powered underwriting agents into Guidewire's core insurance platform, deepening its AI/ML capabilities for P&C insurers. The all-cash structure signals strong balance sheet conviction and no equity dilution for Guidewire shareholders.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
+   "source_snippet": "Guidewire announced a $1.7B all-cash acquisition of Hyperexponential to bring AI underwriting agents to its insurance platform, with closing expected next year.",
+   "extracted_at": "2026-10-27T22:47:50.422670+00:00"
   },
   {
    "skip": false,
