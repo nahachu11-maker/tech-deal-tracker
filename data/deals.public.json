@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-10-27T04:12:04.060546+00:00",
+  "last_updated": "2026-10-27T07:06:19.368106+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 3
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
@@ -28,6 +28,24 @@
    "extracted_at": "2026-10-27T01:35:02.269678+00:00",
    "verify_failed": true,
    "verify_reason": "The 'val' field should be 'B' (billions) to reflect the $2.3 billion deal value, not null."
+  },
+  {
+   "skip": false,
+   "d": "2026-10-27",
+   "type": "Follow-on",
+   "name": "Meta",
+   "v": 3.0,
+   "val": null,
+   "sector": "AI / Social Media",
+   "status": "Pending",
+   "note": "Meta is conducting an equity share issuance with Nvidia committing $3 billion as a strategic investor, representing a significant cross-company capital alliance between two mega-cap tech firms. The investment signals deepening alignment between Meta's AI infrastructure buildout and Nvidia's GPU ecosystem. Deal status remains Pending as terms have not been confirmed as closed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1eDRjdkVwRllLeUdIZTJjU24xTzNDTHRzUDJJd2VrOXhhaG1za2JpTnEzQXlmSGxFVE4yVGV3Mjd4TTZHLVBKMHlEUkhDRkNIanR1WmFYRHg?oc=5",
+   "source_snippet": "Nvidia is reported to invest $3 billion in a Meta equity offering, representing a significant cross-company strategic capital commitment between two mega-cap tech firms.",
+   "extracted_at": "2026-10-27T07:06:11.848316+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source does not specify a date of 2026-10-27, and the investment appears to be a direct strategic investment rather than a traditional Follow-on offering."
   },
   {
    "skip": false,
