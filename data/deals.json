@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-10-26T22:25:29.984194+00:00",
+  "last_updated": "2026-10-27T01:35:11.765125+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 3
+   "duplicates": 2
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-27",
+   "type": "M&A",
+   "name": "Intel / Classiq",
+   "v": 2.3,
+   "val": null,
+   "sector": "Quantum Computing",
+   "status": "Pending",
+   "note": "Intel's reported $2.3B acquisition of quantum software startup Classiq would set a record for quantum computing M&A, significantly expanding Intel's full-stack quantum capabilities. The deal underscores Intel's strategic push to vertically integrate hardware and software across the quantum stack. No definitive agreement language confirmed in the source; deal is reported/rumored.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5aOXBvZkZFQVpKWUlBWWJvR3RyY2p6b2paODBHOHVJVFBLR2RBczVjRTN2TTZRM3FZTGxWdXVxWGZ6Wi1vWGl2LUtiMkpkNWxVYVMtTThvS1pTdENaNVpyaUREVlNscXZsZk5kMEl4SlhVM2MxQ3J4ZXIzZWVfQQ?oc=5",
+   "source_snippet": "Intel's reported $2.3 billion acquisition of Classiq would be a record quantum computing deal, significantly expanding Intel's full-stack quantum capabilities.",
+   "extracted_at": "2026-10-27T01:35:02.269678+00:00",
+   "verify_failed": true,
+   "verify_reason": "The 'val' field should be 'B' (billions) to reflect the $2.3 billion deal value, not null."
+  },
   {
    "skip": false,
    "d": "2026-10-23",
