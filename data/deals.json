@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-10-28T22:19:43.590489+00:00",
+  "last_updated": "2026-10-28T23:57:38.701986+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
@@ -27,6 +27,22 @@
    "extracted_at": "2026-10-28T14:44:21.898962+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' not 'Pending' since source states 'achieves a $2.3B exit' indicating completed transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-10-28",
+   "type": "Private",
+   "name": "Upwind",
+   "v": 0.4,
+   "val": 3.8,
+   "sector": "Cloud Security",
+   "status": "Closed",
+   "note": "Upwind closed a $400M Series C at a $3.8B post-money valuation, notably after declining an acquisition approach from Datadog valued at approximately the same figure. The decision to raise independently rather than exit signals management confidence in standalone growth prospects and highlights elevated valuations in the cloud security sector. The rejected Datadog bid underscores ongoing consolidation interest in cloud-native security platforms.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+   "source_snippet": "Upwind raised $400M Series C at $3.8B valuation after declining a ~$3.8B acquisition offer from Datadog, highlighting cloud security sector valuations and M&A dynamics.",
+   "extracted_at": "2026-10-28T23:57:35.571448+00:00"
   },
   {
    "skip": false,
