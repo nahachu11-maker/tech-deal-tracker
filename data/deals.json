@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-10-28T12:20:41.020286+00:00",
+  "last_updated": "2026-10-28T14:44:24.095200+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-28",
+   "type": "M&A",
+   "name": "Undisclosed / Classiq",
+   "v": 2.3,
+   "val": null,
+   "sector": "Quantum Computing Software",
+   "status": "Pending",
+   "note": "Classiq, an Israeli quantum computing software company that developed an OS-layer for quantum hardware, reportedly achieved a $2.3B exit. The acquirer is not named in the snippet, so the counterparty remains undisclosed. The deal marks one of the largest liquidity events in the nascent quantum software sector, validating the infrastructure layer approach to quantum programming.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOUHVhaDJtUjE5UnlMZll1a2c3RnM4a0pUZnlXVzhuS1lxcEgxVTBSMlVQdGxxbWFYUlBtdUNubVkteXN3LTlwRW5lNF9tOGtyNHhreW8yUWpSVE40eVY0MWZtOWNscWYtVVZ6Q0V3MXVWQ2otQ3VOUS0wRUVIS3JpV1p0TXVWdVlrblYyWDVjT3lRT0JHWEF1alVqVndqZUgzSURaMmRudHplcF9vSXRwMUh5SlY4R0JDUGtPQkFpVUxzSFVUZEt3MU5qSnJqcWxUcTFpR2ZwV3N4eEhsVnc3RnFxVERUQmF1eEFHa2U3STZrYzlFSjA2cjhKaU9mY3RvckZ5anRWT01pbmZrUXYzaFc4aUFQSzRpRVZpcDlYVkpsMWdo?oc=5",
+   "source_snippet": "Quantum computing software startup Classiq reportedly achieves a $2.3B exit, marking a notable liquidity event in the nascent quantum computing sector.",
+   "extracted_at": "2026-10-28T14:44:21.898962+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' since source states 'achieves a $2.3B exit' indicating completed transaction."
+  },
   {
    "skip": false,
    "d": "2026-10-27",
