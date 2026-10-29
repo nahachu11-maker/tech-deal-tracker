@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-10-29T12:30:11.413316+00:00",
+  "last_updated": "2026-10-29T17:14:26.978081+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-10-29",
+   "type": "M&A",
+   "name": "Alphabet / Anthropic",
+   "v": null,
+   "val": null,
+   "sector": "AI / Foundation Models",
+   "status": "Closed",
+   "note": "Alphabet disclosed a 14% minority stake in Anthropic, quantifying its cumulative strategic investment in the leading AI safety and foundation-model lab. No deal value is stated in the source text. The stake underscores Alphabet's competitive positioning against Microsoft/OpenAI, providing Anthropic with cloud infrastructure via Google Cloud alongside capital.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXRrV0hhWnhhQUFCTkxSdVdMSXdNTDFtaTVxMjFuMlRVMmlJOTFBYXRSYVVPa09nY1VQeDkxZG8wMHZBVU42RTdoN1d5eHQ5MkoxcllPU3F4LUlERWxobFlqZ2g2UHdwMFU5UDlhNUJMaWJCczI5UjNzSmlscWVaVVgxNTVaekVUSmpJ?oc=5",
+   "source_snippet": "Alphabet disclosed a 14% minority stake in Anthropic, quantifying its strategic investment in the leading AI lab.",
+   "extracted_at": "2026-10-29T17:14:23.671922+00:00",
+   "verify_failed": true,
+   "verify_reason": "A minority stake investment is not an M&A transaction; it should be classified as a strategic investment or equity stake, not M&A."
+  },
   {
    "skip": false,
    "d": "2026-10-28",
