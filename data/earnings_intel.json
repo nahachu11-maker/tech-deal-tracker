@@ -478,6 +478,86 @@
      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm",
      "model": "claude-haiku-4-5-20251001",
      "derived_only": true
+    },
+    {
+     "period": "Q1 FY2027",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "Microsoft Cloud revenue growth accelerated to 30% YoY with strong Azure at 48%",
+       "Operating income grew 21% and diluted EPS increased 32% on GAAP basis",
+       "Commercial remaining performance obligation surged 73% to $677 billion"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Forward guidance",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Revenue",
+       "value": "92.3",
+       "unit": "billion",
+       "yoy": "+19%"
+      },
+      {
+       "name": "Operating income",
+       "value": "45.9",
+       "unit": "billion",
+       "yoy": "+21%"
+      },
+      {
+       "name": "Diluted earnings per share",
+       "value": "4.92",
+       "unit": "USD",
+       "yoy": "+32%"
+      },
+      {
+       "name": "Gross margin",
+       "value": "62.559",
+       "unit": "billion",
+       "yoy": "+16.5%"
+      },
+      {
+       "name": "Microsoft Cloud revenue",
+       "value": "63.9",
+       "unit": "billion",
+       "yoy": "+30%"
+      },
+      {
+       "name": "Azure and other cloud services revenue",
+       "value": "33.165",
+       "unit": "billion",
+       "yoy": "+48%"
+      },
+      {
+       "name": "Commercial remaining performance obligation",
+       "value": "677",
+       "unit": "billion",
+       "yoy": "+73%"
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 2,
+      "notes": "Management expressed high confidence in performance beat and cloud acceleration; Q&A session not included in document, so direct question responsiveness cannot be assessed."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-10-29T02:43:29.395315+00:00",
+     "doc_date": "2026-10-29",
+     "source_label": "EDGAR 8-K filed 2026-10-28",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
     }
    ]
   },
@@ -1423,6 +1503,6 @@
   }
  },
  "meta": {
-  "last_run": "2026-10-28T02:32:35.989230+00:00"
+  "last_run": "2026-10-29T02:43:42.390528+00:00"
  }
 }
