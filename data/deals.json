@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-10-30T12:22:11.269651+00:00",
+  "last_updated": "2026-10-30T14:29:07.943894+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 0
   }
  },
  "deals": [
@@ -27,6 +27,40 @@
    "extracted_at": "2026-10-30T01:29:05.049385+00:00",
    "verify_failed": true,
    "verify_reason": "Deal value should be 1.0 billion USD, not null; this is a strategic investment, not M&A; status should be 'Closed' not 'Pending'; and the date 2026-10-30 is in the future and not supported by the sour"
+  },
+  {
+   "skip": false,
+   "d": "2026-10-30",
+   "type": "M&A",
+   "name": "Apple / Ascension Labs",
+   "v": null,
+   "val": null,
+   "sector": "AI/Data Infrastructure",
+   "status": "Closed",
+   "note": "Apple acquired Ascension Labs, a data pipeline software company, to expand its AI and data infrastructure capabilities. Deal value was not disclosed. The acquisition bolsters Apple's backend data processing stack, likely supporting AI model training and on-device intelligence initiatives.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVU84T1Y4d3p1SC1sd3JGc1dEUUtVNXp1VjQ3enV0Y2ZUUG1BcVBmSVJKeUluSkp1Q0VJM2pwNFB3VjNQN2NnSXI1MEpqSUYzVzdRRjhSVGZsNUJ2QWRucUpaZGt0RUVFUFFvVjlTVXlQaWN4QTNqRjNqal9keEVRZFNYejlVQUhLTU1LcGxOaHRROEJFVzJBcS1UelEzUlho?oc=5",
+   "source_snippet": "Apple acquired data pipeline software company Ascension Labs, expanding its AI/data infrastructure capabilities.",
+   "extracted_at": "2026-10-30T14:28:55.298343+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-10-30",
+   "type": "M&A",
+   "name": "Marvell / Lumentum",
+   "v": null,
+   "val": null,
+   "sector": "Semiconductors / Optical Networking",
+   "status": "Pending",
+   "note": "Marvell is reportedly exploring an acquisition of optical networking specialist Lumentum, according to Counterpoint Research. The deal, if completed, would significantly bolster Marvell's photonics and optical interconnect capabilities, positioning it as a stronger rival to Broadcom in data-center optical networking. No deal value or formal agreement has been disclosed; the report is rumor-stage only.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWWh0dUFNanpFakFrRV9oOTZ4TnlnVkFDSzRPaGs0VmhDYUhCZ05vcVY1bXZHRkUtcW41djVxVUZQU1NQZ3ZCODEyNmlqbkxFZHZNSkJvdDhFVWdvU3FacUJGeV8xb0lNTHVMY2k3bnh3LW1rNmdGWkY4cmJuN1JZTy1UZ1lUS2Voc2JPeFBILTN6VXlhTWwzRDFCWXlpUjVLQm92U1YyQ1FLR3BfSmVZQjJFRi1HOF9rOWl3WXVfa3ZRMTEzOWU4?oc=5",
+   "source_snippet": "Rumors suggest Marvell is exploring an acquisition of Lumentum, which would represent a major competitive challenge to Broadcom in optical networking.",
+   "extracted_at": "2026-10-30T14:29:00.288068+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes rumors of exploration, not a confirmed pending deal with a specific date of 2026-10-30."
   },
   {
    "skip": false,
