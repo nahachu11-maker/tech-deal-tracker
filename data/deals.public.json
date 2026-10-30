@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-10-30T22:01:31.847676+00:00",
+  "last_updated": "2026-10-30T23:24:43.686877+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   },
@@ -62,6 +62,22 @@
    "extracted_at": "2026-10-30T14:29:00.288068+00:00",
    "verify_failed": true,
    "verify_reason": "Source describes rumors of exploration, not a confirmed pending deal with a specific date of 2026-10-30."
+  },
+  {
+   "skip": false,
+   "d": "2026-10-30",
+   "type": "M&A",
+   "name": "Salesforce / Rune",
+   "v": 0.375,
+   "val": null,
+   "sector": "Defense Tech / Enterprise AI",
+   "status": "Pending",
+   "note": "Salesforce is reportedly acquiring defense-tech AI logistics startup Rune for approximately $375M, intended to bolster its Missionforce defense platform. The deal extends Salesforce's ongoing M&A push into enterprise AI and government/defense verticals. No definitive agreement has been publicly confirmed; the transaction is characterized as a report.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+   "source_snippet": "Salesforce reportedly acquiring defense-tech AI logistics startup Rune for ~$375M to bolster its Missionforce defense platform, representing continued M&A activity in enterprise AI.",
+   "extracted_at": "2026-10-30T23:24:39.936758+00:00"
   },
   {
    "skip": false,
