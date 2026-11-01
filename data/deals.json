@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-11-01T12:51:10.048381+00:00",
+  "last_updated": "2026-11-01T15:24:23.814295+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-01",
+   "type": "M&A",
+   "name": "Affle / Perion",
+   "v": 0.42,
+   "val": null,
+   "sector": "Ad Tech",
+   "status": "Pending",
+   "note": "Affle, an India-based mobile advertising platform, announced a $420 million deal to acquire Perion Network, a digital advertising technology company. The transaction would combine Affle's mobile-first programmatic capabilities with Perion's connected TV, search, and display advertising suite. No closing timeline or financing structure was disclosed in the announcement.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWktFeV9yeGpzUjMwUWJxWGFLRHVuZjM3Tm80dzVhN2Jqckxhd1pKSnFvRWFVc0J5bXI2bkdNM19UYjh5dlhycGhMNXhfeXJ6Q3dPaHhpNDJlSTZISENwSXRyMzg5bjdNRGJ0dTVYUE1Lb2NzWVhQSXFBeV9hVXBFOHRibkNrSE9rNnh6MXoxOVctc19Xd2tmQmszWQ?oc=5",
+   "source_snippet": "Affle announces a $420 million deal to acquire Perion, a notable M&A transaction in the digital advertising technology sector.",
+   "extracted_at": "2026-11-01T15:24:20.107083+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal value is $420 million, not $0.42 million; status should be 'Closed' not 'Pending' based on 'announces' language."
+  },
   {
    "skip": false,
    "d": "2026-10-31",
