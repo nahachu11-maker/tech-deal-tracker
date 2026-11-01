@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-11-01T19:51:04.351257+00:00",
+  "last_updated": "2026-11-01T21:48:43.525835+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 0,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
@@ -27,7 +27,12 @@
    "source_snippet": "Affle announces a $420 million deal to acquire Perion, a notable M&A transaction in the digital advertising technology sector.",
    "extracted_at": "2026-11-01T15:24:20.107083+00:00",
    "verify_failed": true,
-   "verify_reason": "Deal value is $420 million, not $0.42 million; status should be 'Closed' not 'Pending' based on 'announces' language."
+   "verify_reason": "Deal value is $420 million, not $0.42 million; status should be 'Closed' not 'Pending' based on 'announces' language.",
+   "comps": {
+    "consideration": "cash",
+    "price_per_share": 11.7,
+    "computed_fields": []
+   }
   },
   {
    "skip": false,
