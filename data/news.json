@@ -1,10 +1,1606 @@
 {
  "meta": {
-  "last_updated": "2026-11-01T01:43:30.245580+00:00",
+  "last_updated": "2026-11-01T08:28:27.913753+00:00",
   "item_count": 800,
-  "added_last_run": 83
+  "added_last_run": 84
  },
  "items": [
+  {
+   "id": "2026-11-01-d704a8c6a5",
+   "ts": "2026-11-01T08:21:53+00:00",
+   "title": "Kubernetes Vulnerability: Azure Flaw Hits CVSS 10.0 [2026]",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV0NENUxtZEM0UkV3WmplNThlZFA0di1qdGNMWEZqakg1UUNjdTVPdnB4YjFKNFJyOE5VT1dROXJUVGdjdGNVTXNxbE44SkNGdnZSWDAyeXFqOEZMeEtHOUxZRWVxQk1POHFrazE1cng5UWhmVmpPM0JBUlUwaGtXdlRaaU1qSUptMy1DM2JxUUlVUQ?oc=5",
+   "outlet": "shattered.io",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Microsoft"
+   ],
+   "summary": "A critical CVSS 10.0 vulnerability in Azure's Kubernetes implementation raises enterprise security and regulatory risk concerns for Microsoft.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-c85223f518",
+   "ts": "2026-11-01T08:19:18+00:00",
+   "title": "Alibaba’s Qwen AI to power Apple Intelligence features in China",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTEFtb2NlWFgyM0RlRnpwODA2X05BYnhYOURaQ2xiOHg1YnlraFBoeDBVMFFfR0xLU25CRUN4YUFHV0RnYXVwNWFqalNZWnAtakFBX3hBZmtNcW4zNHVGdWQ5eFhhUWc2LWxqYW9EMEhveGpCUG52YUFtUURMenFMRFVYVWhFRzBLOThvNm5xdkxXbV9PcTBKV2NqYkdRajA1MmFjamxNZ0FGcWtT?oc=5",
+   "outlet": "Türkiye Today",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Alibaba",
+    "Apple"
+   ],
+   "summary": "Alibaba's Qwen AI selected to power Apple Intelligence features in China, representing a significant commercial partnership with geopolitical and regulatory implications.",
+   "importance": 3
+  },
+  {
+   "id": "2026-11-01-e8417ea626",
+   "ts": "2026-11-01T08:16:00+00:00",
+   "title": "Two CEOs, two $10 million bets: Intel's Tan loses $3 million as Palo Alto's Arora gains $15 million",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hcDVPR2xYM3N0SGF3X2ZQUzhXYnVBc1NBT25lVG91QnJwWE8wal92SWtnT2pnVU1iUmkxZi02VWdoei1hVWVXYmhscUdpbEZUaktLVjNrSUNwaUlNVWN4WXNLX2IzM1hh?oc=5",
+   "outlet": "CTech",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Intel",
+    "Palo Alto Networks"
+   ],
+   "summary": "Intel CEO Lip-Bu Tan and Palo Alto CEO Nikesh Arora both made $10M stock bets; Tan is down $3M while Arora is up $15M, highlighting divergent stock performance and management conviction signals.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-1416f235d0",
+   "ts": "2026-11-01T08:10:02+00:00",
+   "title": "이재용 회장, 日 반도체 연구소 방문… 첨단 패키징 점검",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LZWNXSGhwb3YwWkJubDdXWjkwdVVQSExVMm1UbzNudU5pZjdEellGc1NCVmNRR2FNUDlfOElnSWdkNEROVUhGMDBMRXZUaGFaVTNoSk50QTBkUHkzNVVFMUFCMlU3UVM0SkRLVjEtdjTSAXRBVV95cUxOMDVFWEphYlhtQUZyTUJ2VWhRbUhMc01fczdURUFFWXhjV01vWXVxWmlZODdmUWMyQk1rSXhUQlVNd3ZZNUN5NkNnUFdiRGNmV3QwcW9LbXlKNllwM3F2RzN1N3JoYmRkbmdFZlRTa3VOYmM1bg?oc=5",
+   "outlet": "IT조선",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong visits Japanese semiconductor research institute to review advanced packaging technology, signaling strategic focus on packaging competitiveness.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-9ad4dcb453",
+   "ts": "2026-11-01T08:08:42+00:00",
+   "title": "Samsung chief visits global R&D hub for AI chip enhancement in Japan",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZTZSUjNWQl9RNF9lX2dwc2swc3hiOHQ4UDZYNl9iczRVVHZnaWwtZWo2Q1J3elZ5bFJuQ19COHVzR2dWcHZzLXZKRnVvUVlRT3A2QjZqeHQyN2lGb1pVaml4eUFlX2U1TVd2dFFjaGtyLXE1QldQelFMbjUwWlR3Q08zOEhEM2U2X090OVJhWnFuSzRGQWVMZ1R5MThOdDk4NzhnSkx1SzNfZDVvMC1VeG43bFh4eUZCQlowb2lKQzQ?oc=5",
+   "outlet": "Korea JoongAng Daily",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung's chairman visited the company's Japan R&D hub focused on AI chip advanced packaging, signaling strategic investment in next-gen semiconductor capabilities.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-8805575e0c",
+   "ts": "2026-11-01T08:08:19+00:00",
+   "title": "AMD reportedly raises Radeon prices again as Nvidia pulls RTX 5080",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNV9qdTFYZW15dXpaNl9JR2QzbWVYUGZzOURIVDBJeXpWUzl3VGtwSFREaTJacXZrRW05bjZyQ3JUUVRJeHBBNWRPYVJzbzFiemE4Zkt0Q3FiMzNUUHlnTG1CUDBzRlpXczVkZTd3ajYtV1pVbGI4XzB6RXVYV3NVSmVHTUtlMlVGR3B2Ym9Nd18?oc=5",
+   "outlet": "Pasquale Pillitteri",
+   "also": [
+    {
+     "outlet": "Pasquale Pillitteri",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNV9qdTFYZW15dXpaNl9JR2QzbWVYUGZzOURIVDBJeXpWUzl3VGtwSFREaTJacXZrRW05bjZyQ3JUUVRJeHBBNWRPYVJzbzFiemE4Zkt0Q3FiMzNUUHlnTG1CUDBzRlpXczVkZTd3ajYtV1pVbGI4XzB6RXVYV3NVSmVHTUtlMlVGR3B2Ym9Nd18?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "AMD",
+    "Nvidia"
+   ],
+   "summary": "AMD reportedly raising Radeon GPU prices again while Nvidia pulls the RTX 5080, indicating tightening GPU supply dynamics with pricing implications for both companies.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-35d95292a4",
+   "ts": "2026-11-01T08:07:20+00:00",
+   "title": "삼성전자, 삼성D서 CSOT 지분 전량 인수...1.27조원",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80Z2EzN0tLYzN5UTNKYzdZUWpfZV94a2lVeDhfanJYOUgwZ2p4R2p4RjAyU1BjUXFBVHpNRWJCZXBsLWpGTnVsWGp2YUt6cFRjNzJKSldB?oc=5",
+   "outlet": "지디넷코리아",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "M&A"
+   ],
+   "companies": [
+    "Samsung Electronics",
+    "Samsung Display",
+    "CSOT"
+   ],
+   "summary": "Samsung Electronics is acquiring Samsung Display's entire stake in CSOT for approximately 1.27 trillion KRW, a notable intra-group and cross-border M&A transaction in the display supply chain.",
+   "importance": 2,
+   "deal_status": "announced",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-11-01-35d95292a4",
+   "ts": "2026-11-01T08:07:20+00:00",
+   "title": "삼성전자, 삼성D서 CSOT 지분 전량 인수...1.27조원",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80Z2EzN0tLYzN5UTNKYzdZUWpfZV94a2lVeDhfanJYOUgwZ2p4R2p4RjAyU1BjUXFBVHpNRWJCZXBsLWpGTnVsWGp2YUt6cFRjNzJKSldB?oc=5",
+   "outlet": "지디넷코리아",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "M&A"
+   ],
+   "companies": [
+    "Samsung Electronics",
+    "Samsung Display",
+    "CSOT"
+   ],
+   "summary": "Duplicate: Samsung Electronics acquiring Samsung Display's full CSOT stake for ~1.27 trillion KRW; relevant cross-border display sector M&A.",
+   "importance": 2,
+   "deal_status": "announced",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-11-01-306edd1846",
+   "ts": "2026-11-01T08:06:12+00:00",
+   "title": "Big Tech's AI Cash Crunch Drives Semiconductor Stock Plunge",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTTVIUHYzdEU0YkE2dk5ydFhZVFp4dGxxelBDMnhEbjVwR2lFNi1IRWhwOFh3S3AtSW9OMzNUTjhFMzh5bzBJbnJYdVhDbl9hV2pwWGFWejJrSmhPSXVYTWJpbkFKZnNzTzNRLUgwSDA1Q2dQX1dYLTFLNzhYWVhWRm80bTg3Rk5u?oc=5",
+   "outlet": "조선일보",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Qualcomm"
+   ],
+   "summary": "Report highlights that Big Tech's AI spending constraints are driving semiconductor stock declines, relevant to sector valuation and capital allocation trends.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-fa82eef56b",
+   "ts": "2026-11-01T08:03:51+00:00",
+   "title": "삼성전자, 반도체 첨단 패키징 주도권 확보 속도..이재용 회장, 일본 R&D 거점 점검",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhU19oMWRlRmhERUVrdEVIbEZoM0xzR0Y3TjllRGlDSURfT1p0Ykx2M3huWG11UzRhR3FpeW1IMkRJRFJNUzhWcTN2SWhnektyd1E?oc=5",
+   "outlet": "한국정경신문",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Electronics chairman Lee Jae-yong visited Yokohama R&D facility to assess advanced packaging capabilities, underscoring strategic priority in semiconductor packaging leadership.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-83ac6be8d5",
+   "ts": "2026-11-01T08:02:36+00:00",
+   "title": "이재용 창립 57주년에 요코하마로…패키징 거점 점검",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nVlUzUzJ4UFZwV1U3RE5ZUE4yQVphVmVyaWliai0wZTNPcE5kdW1GSjhiVWNrUjhJR2Rtdko4S3VfUHpBTlZaNXk2dHFkUnVyTUtNWUVNbVFCRTdIdzFHY0xfNW03Z1E?oc=5",
+   "outlet": "자본시장뉴스",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Duplicate: Samsung chairman Lee Jae-yong visits Yokohama advanced packaging hub on company's 57th founding anniversary, signaling strategic focus on packaging R&D.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-83ac6be8d5",
+   "ts": "2026-11-01T08:02:36+00:00",
+   "title": "이재용 창립 57주년에 요코하마로…패키징 거점 점검",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nVlUzUzJ4UFZwV1U3RE5ZUE4yQVphVmVyaWliai0wZTNPcE5kdW1GSjhiVWNrUjhJR2Rtdko4S3VfUHpBTlZaNXk2dHFkUnVyTUtNWUVNbVFCRTdIdzFHY0xfNW03Z1E?oc=5",
+   "outlet": "자본시장뉴스",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Duplicate: Samsung chairman inspects Yokohama packaging R&D site on founding anniversary; strategic signal for advanced packaging investment.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-eef90ade75",
+   "ts": "2026-11-01T08:01:27+00:00",
+   "title": "Apple doubles down on the desk, Anthropic files for an IPO, and the rest of tech goes ambient",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaUVTdFpyMGJTdWc5bFI2aFlmMzgyZ1k1Y3FsRTZmWl9BaFlTLXVhVTVyc1RvaC1Bb3B0QlpEMEpaakZ0cXdwU1kwdjdDMTZ5YTEwN0Npd1U0SWE0blpzWDQ4dEc5X1ZyNnB2ZThvQWNWS2lJY2NNLTN5c1ZGWmhnaXBsQnpXQ0NDZldQYUl4aS1CcVBNOUdITHJKRlBsVjlHel9jUXlXTFBsSGE5UFNDOFc2bmN1NDZGUDJjbGdHeE1tUGZzTzlCbDRrZDh0cmhmZlNyWFZsQXI0cnNYb204dkt4c9IB6gFBVV95cUxQelBqczlrWWJIeFlpd3lNWkEyazRscUFnbHdoVmlEMTM0WVZ3ME5qWUdFU0NXTEo1bWhUOWlHTkxIYkU5STdSRnlSSUFSOWNhOGdLZ3VZVG9GRldLdldjajRBenlVT2Z0QWxpTzBTZmdiOE1DM2tPTTNVRWJLWXUzY3dXWFRkbVppQ2l6cnZvbU9kdTVjcU1zaFNDeDM3NHJmTlNyRnhDR1FGY1lmZWxDbWFJZ1gtVTRrSVRENjJOOTFPVVN0bUNBaGtDaUFEMGd6LXBsUHhyX050QmlDX2tleGdvemtGQm5aUXc?oc=5",
+   "outlet": "The Financial Express",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "IPO"
+   ],
+   "companies": [
+    "Apple",
+    "Anthropic"
+   ],
+   "summary": "Anthropic reportedly files for an IPO, which would be a landmark public offering for one of the most highly valued AI startups; Apple also noted to be expanding desktop product lines.",
+   "importance": 3,
+   "deal_status": "rumor",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-11-01-3b5f7a1837",
+   "ts": "2026-11-01T08:00:00+00:00",
+   "title": "Qualcomm Shares Drop as BlueChip Laptop Project Progresses Slowly",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX0NfYzNuTEZCenBObHY1VF9OOFdaWld4UXpuS3ptUHI0UEgtOTdvdXFfcjZsY2hlWXhNenBWaW9hMU9jNUx2WkpBTktzcmljWDZRSHNKLWlWX0huM1ZSZXBrcmxMRWZ5LTczOXpmcUlnaXlxNHYzMzQ3MkZ5WjZFbVZTQ1NqYkNvNlNOVUMxWkFPRm04cGlzWXc4SHRBd0dvUXdodU1UZWtsWkhtM3ZF?oc=5",
+   "outlet": "RS Web Solutions",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Qualcomm"
+   ],
+   "summary": "Qualcomm shares declined as its BlueChip laptop chip initiative is progressing slowly, raising concern about competitive positioning in the PC market.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-e43c1d12f1",
+   "ts": "2026-11-01T08:00:00+00:00",
+   "title": "Google, Microsoft & OpenAI Plan To Honor Shared AI Training Opt-Out",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZDJjcmgwOU5XQWxTcFY5UExVcVV6VVpXSFdlZ25MRjRTRUI1eHJmM0hyTHQ3OGprVDRZaDM5Y09neE1adFBjWEpmQzRseHFqZkV1bTJLeUE1azJnZ0d4QlFzMnZVVFFkYUg4WHc2eVNMalZpSlN3WnBMVXVES2o0VGhfaGRiSzRDY1llZXVNUWRFTzVRNExWcUpn?oc=5",
+   "outlet": "Search Engine Journal",
+   "also": [
+    {
+     "outlet": "Search Engine Journal",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZDJjcmgwOU5XQWxTcFY5UExVcVV6VVpXSFdlZ25MRjRTRUI1eHJmM0hyTHQ3OGprVDRZaDM5Y09neE1adFBjWEpmQzRseHFqZkV1bTJLeUE1azJnZ0d4QlFzMnZVVFFkYUg4WHc2eVNMalZpSlN3WnBMVXVES2o0VGhfaGRiSzRDY1llZXVNUWRFTzVRNExWcUpn?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Regulatory",
+    "Partnership"
+   ],
+   "companies": [
+    "Google",
+    "Microsoft",
+    "OpenAI"
+   ],
+   "summary": "Google, Microsoft, and OpenAI agreed to honor a shared opt-out mechanism for AI training data, signaling coordinated industry response to regulatory and publisher pressure.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-c4297689d8",
+   "ts": "2026-11-01T08:00:00+00:00",
+   "title": "Pam Stone: Why Anthropic’s $2 trillion IPO should alarm us all",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSVBkRTQyU2p3Y1YycjFubkdFVnEtTXpPRHJMMXY1bkFTd0tsZzhyeURYR3EwbWpxYUw0VmpKMzd1a0x0X3dzTnBZbGE2d1dCa0JtbHNUQ0tlb1UwNWFLX3dBRXJEaTg4bDZRd3k2cjVJX3h2SUFZUDlnN3Atd2JTMHEtN2VuazlZdHJuN2RDZ0paWFM3UExLM0prZlpyc0VKWXNzSEZaVDNYdXplcXBWZnhaS1dQWUlLbEhIUEozczhaVkF1Z1lKX2UzTDRjU0JZMVBwcno2VXB0TDRXRXN0cHhGQThxV3N3bk1n?oc=5",
+   "outlet": "Index-Journal",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "IPO"
+   ],
+   "companies": [
+    "Anthropic"
+   ],
+   "summary": "Opinion piece questions the implications of a speculated $2 trillion Anthropic IPO valuation, relevant to AI capital markets sentiment.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-8f8373ed81",
+   "ts": "2026-11-01T07:56:00+00:00",
+   "title": "How the Microsoft share price climbed in October as Alphabet, Amazon, and Meta plunged",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNmcxSG1RejdsNTNZVDEtaUtSbXJhQk9kaDN1SjQ2RENma1BRT2RZTFNVd0xVM3d1eG1YWGZEd1RGS1dGSGtfeHE2OVl1QVBCY25ONW4zTjB5VzdCTlFDaV9CN2d1ZjFOaW5vd1c5WjY1Y0cweE5BTGNpdU1kT1AxZXAxYUd6aUhJOW5iQ3F5WjZFOVdnQzd1Slpfd2h6TFV4bW1ESFVmT1ZLQkdPSG9vYnBuVXgxZWhxdzVmYmxvWkp2QmVy?oc=5",
+   "outlet": "The Twelfth Magpie",
+   "also": [
+    {
+     "outlet": "The Twelfth Magpie",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNmcxSG1RejdsNTNZVDEtaUtSbXJhQk9kaDN1SjQ2RENma1BRT2RZTFNVd0xVM3d1eG1YWGZEd1RGS1dGSGtfeHE2OVl1QVBCY25ONW4zTjB5VzdCTlFDaV9CN2d1ZjFOaW5vd1c5WjY1Y0cweE5BTGNpdU1kT1AxZXAxYUd6aUhJOW5iQ3F5WjZFOVdnQzd1Slpfd2h6TFV4bW1ESFVmT1ZLQkdPSG9vYnBuVXgxZWhxdzVmYmxvWkp2QmVy?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Microsoft",
+    "Alphabet",
+    "Amazon",
+    "Meta"
+   ],
+   "summary": "Analysis of Microsoft's share price outperformance versus Alphabet, Amazon, and Meta in October, relevant to relative valuation and earnings divergence among mega-cap tech.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-13a1313db8",
+   "ts": "2026-11-01T07:54:11+00:00",
+   "title": "美 중간선거·고용지표에 쏠린 눈…\"실적보다는 매크로 주목\" [주간 증시 전망]",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03bkdlVS1lOVJ6aGMteDNiaXlXOUd3b3VEVm05Z2NXcFV1Mkxsb3hXbXlkdGZCUVF6cmZVT2NGM0V5LWZLUnR5bmxsb3hMM2txTk5mdEwtRjM0Zw?oc=5",
+   "outlet": "파이낸셜뉴스",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [],
+   "companies": [],
+   "summary": "Korean financial media previews the week's macro focus on US midterm elections and employment data over corporate earnings.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-d145770c34",
+   "ts": "2026-11-01T07:53:57+00:00",
+   "title": "이재용 삼성전자 회장, '차세대 메모리도 압도적 격차'…日 반도체 연구소 직접 찾아",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IZGd0dDRrN3dzc0tyaDRRSnZ6WEdvUVJaQm82bGNkdWMzVThxWXFwN1dYY0htTFBVeDd5OTNmTXIyN05Ga1BUUk51OTl1WFFzRmxIVVlkajNsT1dGQ0RaZEk1TWxzTHYyZXpMNDllZk5pYTl4YmZF?oc=5",
+   "outlet": "이코노미트리뷴",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong visited a Japanese semiconductor research institute to advance next-generation memory development, signaling strategic R&D push.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-462392a9d5",
+   "ts": "2026-11-01T07:51:14+00:00",
+   "title": "ASML's 5% Friday Fall: Customer Jitters, Not a Company Warning",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZXRCQzh2aUVOS3ItcHpmRkxCRWZVcVV6ek9oX29RTk45X1JqMVB0Tk1GeGhtbGhsNGpKcUdBdzNiOGFLRGlLcEdYZmRJYUxlNFNUb0lEQVB5d2drel9Gc2JGR0hlNHhSSy1JUmhzZTRtazdYM3U4ZzIwZEtTN1lyWUVLSW9lQ3c3anZWZ0Q0RWpSRFRNMnZZUnhocFZsUlFkbmRZVlZWb2F6ZVUzQWZNdDVpaV9jODZOc2JsSzZTZjRzRm9OQ1pJYVA0aw?oc=5",
+   "outlet": "ad-hoc-news.de",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "ASML"
+   ],
+   "summary": "ASML shares fell 5% on Friday driven by customer demand concerns rather than a company-issued warning, relevant to semiconductor equipment order outlook.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-e5520f7256",
+   "ts": "2026-11-01T07:51:14+00:00",
+   "title": "Micron's Taiwan Bonus Deal and DRAM Roadmap Face the Same Test: Can the Growth Be Paid For?",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTEdrcmNwaHhyTHRMdElHaVNhdkJiQ1pkWmpnT3FJamdjdHhOaHVGQ0ZZd1dzY00wbzNWWk1mQjVmOUdEVktjS0RKdGJiX2JxdkRUSVJTSEd4c1FyTFRuZUJZSHZkbERqX0oxT0RSbjVaZEhQbkZ0bEl1OGhCdGNLNldKUGl4ei1tbkctZ25pNURoYjlMd3RqdTF4UkdoMTFOWmRxUjd0Y01aYkV4c2lvS3huZlV6dUY4NVhhNW9aX2xOMlN2SXJodmNGSHRfa2lnSzNRNG9NQjlaV0ZBRzBPcEZyTUxCdnpad3drdHEyb0hUYWc?oc=5",
+   "outlet": "ad-hoc-news.de",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings",
+    "Capital Raise"
+   ],
+   "companies": [
+    "Micron"
+   ],
+   "summary": "Analysis questions whether Micron's Taiwan employee bonus program and DRAM capacity expansion roadmap can be funded from expected cash flows, a key concern for capital allocation and leverage.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-b5bf9b3474",
+   "ts": "2026-11-01T07:50:45+00:00",
+   "title": "이재용 회장, 요코하마 APL 방문…미래 반도체 패키징 기술 현장 점검",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Db0RBNloyWUhFU3JPV1RoVWtFR3dFTlFRM0RsNk92YklhQUlKTXRoVFpHMWlRSnN1SmZES3pzRV9YdW9KZS1wZkNLSk9FeTdTbVBhU1U0cExyUXlpNWYtVlZUdUpQQkpq?oc=5",
+   "outlet": "SR타임스",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Product"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Electronics Chairman Lee Jae-yong visits a semiconductor packaging technology lab in Yokohama, Japan, signaling strategic focus on advanced packaging R&D.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-f3612ba81c",
+   "ts": "2026-11-01T07:46:12+00:00",
+   "title": "이재용 삼성전자 회장, 미래 반도체 패키징 기술 일본 현장 점검",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtQXZSd2xRWm1VMnJyOHRDUFVkSmhoUWN5N1E5TVl5cXlONE94MHJHQXhxMnpvMUdENlBudGxJWFNyeHBIZmZWMW00VlVwY05LNDMtNlRqQUljLWd2d2VaTjFsMVg5R0ZfcFdxU1lGaw?oc=5",
+   "outlet": "내외일보",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Product"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Electronics Chairman Lee Jae-yong conducts on-site inspection of future semiconductor packaging technology in Japan, underscoring the company's advanced packaging strategy.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-e4fb52c3d4",
+   "ts": "2026-11-01T07:41:57+00:00",
+   "title": "Anthropic Unveils Paperwork for Blockbuster IPO",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbmI5VHgtQjFuck9nQkJ5Q0hCekJJT1YxVVR4MlFwcUNodk9hYzJPYWlaQ2JhYjVRcC1JYUFpZlRNNE5iZWJFMFZUQ0tyQ3VnempEZFJNcnhmalhDQWlpWjN5MkllV0p6cWtzd1lHWGZXZVdjcDVlREplX1JReV9fUUdSWjRqQUNr?oc=5",
+   "outlet": "WSJ",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "IPO"
+   ],
+   "companies": [
+    "Anthropic"
+   ],
+   "summary": "Anthropic has filed IPO paperwork per WSJ, marking a major potential public offering for one of the leading AI companies and a significant capital markets event.",
+   "importance": 3,
+   "deal_status": "announced",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-11-01-ebb9555dd8",
+   "ts": "2026-11-01T07:41:00+00:00",
+   "title": "함께 웃던 삼성닉스, 실적 발표 후 주가 희비 갈렸다",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pa2ZUNEdMUk8tcWczNzVrUFFRVUhrenlvdF8tTG1iOFVQQkx6TldQSEJjcjMzWUtIZzdEc2kxdmJzNm5OVGxWek5icTU3Mm9tdktRX1IwUQ?oc=5",
+   "outlet": "데일리안",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Samsung Electronics",
+    "SK Hynix"
+   ],
+   "summary": "After jointly rallying pre-earnings, Samsung and SK Hynix shares diverged sharply following results announcements, reflecting differing investor reactions to their respective earnings.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-1d452ddbae",
+   "ts": "2026-11-01T07:34:49+00:00",
+   "title": "Lee Jae-yong Inspects Japan Semiconductor Packaging Lab on Anniversary",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcFFYa1FTdk1zcG1KRnJsRFY3MDFDbHAxa3Q3eHNRY2Fkb1FqWUtxcUNkM1Q2TE1VMElIZy1NTWkxUE4tbk42QmUtM3Q0d2RPZlRrdURwcFpHRldhUHRLaEZmdDFKTmd2Skd3dmdpQ3JudlRaakw0dDFaOXVyTDAyZnQtM2VOSVhW?oc=5",
+   "outlet": "조선일보",
+   "also": [
+    {
+     "outlet": "조선일보",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcFFYa1FTdk1zcG1KRnJsRFY3MDFDbHAxa3Q3eHNRY2Fkb1FqWUtxcUNkM1Q2TE1VMElIZy1NTWkxUE4tbk42QmUtM3Q0d2RPZlRrdURwcFpHRldhUHRLaEZmdDFKTmd2Skd3dmdpQ3JudlRaakw0dDFaOXVyTDAyZnQtM2VOSVhW?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Product"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Electronics Chairman Lee Jae-yong personally inspects semiconductor packaging labs in Japan on a notable anniversary, highlighting strategic emphasis on next-generation packaging competitiveness.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-d399c0d607",
+   "ts": "2026-11-01T07:33:00+00:00",
+   "title": "이재용, 창립기념일에 日 반도체 패키징 연구 거점 찾아",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa0poZnlBVExEdWZFV0FqS0pzZ2hvTWNsT3ZWcDNwX1lRLTFmWmg3cW9GYkVGSzNiMjVucVZ0RzJGdWt0ZXAzWHo0N0NyTjBBc1hZQjlYUXJFQ2hIa0ZjRVZ6V19kQW81bWFjRlNuUzI4R0VKWGZydHQ2UzlRbEVsV0d3Szc4RU94UGFtZVFVZw?oc=5",
+   "outlet": "조선일보",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "Samsung Electronics Chairman Lee Jae-yong visited a semiconductor packaging research facility in Japan, signaling strategic focus on advanced packaging for AI chips.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-e0cec47aa4",
+   "ts": "2026-11-01T07:32:47+00:00",
+   "title": "Apple CEO John Ternus Defends AI Strategy, Says Company Won’t Chase AI Hype - Apple (NASDAQ:AAPL)",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQUVQZmdWN1VUWldCaWJWaXNzRzd1SkpuTHFKcmxFOUJQOURnbnR6eHVyaUFHYzJtZjJ3VmR6NXhsc21fRXl5emF6V2d3SjdFdVNLZnpSbHozWmhBWDV2cFJ1TEVJMkxFQ1ZIRE8xNDg5dUNNbDJidHFmSm5FOVpUVkNLa2dROWl0dWtfWnp1UzZrTmxLWkZaYndB?oc=5",
+   "outlet": "Benzinga",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Product",
+    "Management"
+   ],
+   "companies": [
+    "Apple"
+   ],
+   "summary": "Apple CEO commentary signals the company will pursue a measured AI strategy rather than rapid feature deployment, relevant for investor expectations on AI-driven revenue.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-cec1e4d8dd",
+   "ts": "2026-11-01T07:28:00+00:00",
+   "title": "美 보조금 축소 시계 가동⋯K배터리, ESS 수익성 확보 시험대",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sZDBqbV90aVVPWUVGdFA2Y3A3U0FicGw4S3ctdE02LUphZDdfTXUyRXBpR0xLcGhGcXFCQ0tFMWpicE13ZjBuWmRRWUdkYXhPTDJhZkxhOHFjUQ?oc=5",
+   "outlet": "브릿지경제",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [],
+   "summary": "US subsidy cuts are pressuring Korean battery makers' ESS profitability, raising concerns about competitiveness without government support.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-5943b6d90f",
+   "ts": "2026-11-01T07:25:00+00:00",
+   "title": "Lee Jae-yong Makes First Visit to Yokohama Packaging Lab as Samsung Accelerates AI Chip Materials/Equipment Cooperation",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56blRHdDJ0LVoyMTVJeEl5bFBUc3I4SEFKXzlzcjdEWDVVVXlWOTI2Rl9UWFZTdE1iOTVmYU5Ob0ZJNWl2bXJFcDJObzliYzhRZjFwem0zRzBXWVFUNTNzZVh1dFVPVUU0RlB6bnNfbGFnZWlLQUE?oc=5",
+   "outlet": "BigGo Finance",
+   "also": [
+    {
+     "outlet": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56blRHdDJ0LVoyMTVJeEl5bFBUc3I4SEFKXzlzcjdEWDVVVXlWOTI2Rl9UWFZTdE1iOTVmYU5Ob0ZJNWl2bXJFcDJObzliYzhRZjFwem0zRzBXWVFUNTNzZVh1dFVPVUU0RlB6bnNfbGFnZWlLQUE?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership",
+    "Management"
+   ],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong's first visit to Samsung's Yokohama packaging lab underscores accelerated AI chip materials and equipment cooperation with Japanese partners.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-371b96c2df",
+   "ts": "2026-11-01T07:25:00+00:00",
+   "title": "SK하이닉스, 60조 추가 주주환원… 3분기 배당 주당 2만원",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZc2Y1aDRQY2R1SzRzTG13cGlfYmpDV1dLMFV5bmhXRWtzZlJ6QnY1OW1yMzRxRXY3QWtCRldPSkE0ckpmSGstbERRaXpIeDZZelViSUVfMDlZNlY0MFBrT29QWTluLVR1Z1E?oc=5",
+   "outlet": "금강일보",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "SK Hynix"
+   ],
+   "summary": "SK Hynix announced a KRW 60 trillion additional shareholder return program with a Q3 dividend of KRW 20,000 per share, a significant capital return event.",
+   "importance": 3
+  },
+  {
+   "id": "2026-11-01-371b96c2df",
+   "ts": "2026-11-01T07:25:00+00:00",
+   "title": "SK하이닉스, 60조 추가 주주환원… 3분기 배당 주당 2만원",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZc2Y1aDRQY2R1SzRzTG13cGlfYmpDV1dLMFV5bmhXRWtzZlJ6QnY1OW1yMzRxRXY3QWtCRldPSkE0ckpmSGstbERRaXpIeDZZelViSUVfMDlZNlY0MFBrT29QWTluLVR1Z1E?oc=5",
+   "outlet": "금강일보",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "SK Hynix"
+   ],
+   "summary": "Duplicate report: SK Hynix announced a KRW 60 trillion additional shareholder return program with a Q3 dividend of KRW 20,000 per share.",
+   "importance": 3
+  },
+  {
+   "id": "2026-11-01-b82c508281",
+   "ts": "2026-11-01T07:24:55+00:00",
+   "title": "10월 수출 1153억 달러 ‘역대 2위’…이달 중 1조 달러 ‘눈 앞’",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oN2pYeTAzM0RWdDFQZWZXR0I1THpZdUNNLW1Wc1ZCVjNiS0lqVXRsNWZYdjdpT18yZk5KN2ZMUlBkc2pJNkR0YlY2Qk1jSFNkT1RWSEg2c0pZU0ctVHhuTDE0OEhtSjhCODU2Wk53?oc=5",
+   "outlet": "아시아투데이",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [],
+   "companies": [],
+   "summary": "South Korea's October exports hit a record second-highest level of $115.3 billion, with cumulative annual exports approaching $1 trillion, driven by semiconductors.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-a9f52823bc",
+   "ts": "2026-11-01T07:24:52+00:00",
+   "title": "US tech stocks hit by earnings shock: Alphabet slides 13%, Intel plunges 29%",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcndlVEU5b3hzSjdRWjcxR3EyaURad0xSQm91c1BRNndROTJTdU1Tb1Zrc1RNSUV1c2RMaU1Ub0dVWDZDRV9KVU5Ga3lmTUJOZUJxclBQMG9mOUVjMThZOC0yb05aWWtBRENNZnlQS1B4LUswMUtTQkR0VTcxMzk0aXRPS183QjBnZ0FpZXlkTnIwWHl6U1lxVVktT0V6UjRnWEV1cjhLNUUwTnZIQnB3TlpRVQ?oc=5",
+   "outlet": "CGTN",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Alphabet",
+    "Intel"
+   ],
+   "summary": "Earnings-driven selloff saw Alphabet drop 13% and Intel plunge 29%, representing significant market-moving events for large-cap tech investors.",
+   "importance": 3
+  },
+  {
+   "id": "2026-11-01-815c7689e5",
+   "ts": "2026-11-01T07:24:51+00:00",
+   "title": "韓 반도체 호황에 수출 세계4위, 실물경제는 빨간불",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IekVsdC01WS1lRkJWSnV6eXlTeVFzb0pReXZQZXpLWE9ISVlKaWNfLUhWZTREV29sSTRXS0pBUlBFSnZncG10bTB2U09qM1J5MURQQl9rY3JPRVoyYnRvSkJ3?oc=5",
+   "outlet": "매일신문",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [],
+   "companies": [],
+   "summary": "South Korea ranked 4th globally in exports on semiconductor boom, though domestic economic indicators are flashing warning signs.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-1e30f7fa0d",
+   "ts": "2026-11-01T07:24:36+00:00",
+   "title": "한국 수출 기록 다시 썼다...반도체 호황에 수출액 9000억 달러 돌파",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5MUhvUm1xTlNzSENEUmdUWnhWT08wS1ROTnA1QWdGSVZpR2R6Rkh1Y0ZjQ2p2aldDX2kycFdPMWNEdFNNLWNXclNIT2FIY2tnWXdpT3VBclRDc2JOVURHSk10WE5iWGlfcXRNbmVGMHRuaWc?oc=5",
+   "outlet": "소비자가 만드는 신문",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [],
+   "companies": [],
+   "summary": "South Korea's cumulative exports surpassed $900 billion, a record high driven by the semiconductor cycle upturn.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-f6105e0f11",
+   "ts": "2026-11-01T07:23:06+00:00",
+   "title": "Intel (INTC) Q1 2026 Earnings Call Transcript",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yUDZ1UVdPM3d1SGlxcHl2MWUzU2pDc0hyRHdmeFpTOEF3SkZsaUpteEszQkxjUlQ2QnFJaDJSUXBUWWZuQl9FRVNmVDZDOWJiSVhWU1EwSHBWMmdxVGRrUA?oc=5",
+   "outlet": "Fortune",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Intel Q1 2026 earnings call transcript published, relevant for revenue, margin, and guidance trends watched by investors and analysts.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-d724ffe3e3",
+   "ts": "2026-11-01T07:23:00+00:00",
+   "title": "삼성 이재용, 일본 반도체 패키징 연구거점 찾아…“현지 협력 확대”",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wM1VFVHVrMVRraEJqUzFZdnBWLXl0YjhLRWZsTTFWQTUxcExYRE5NU2d3QWEzRVM1akFsVUVQTXpYZDJBaGQ3TzNidlJzOUhiVld5OHhweWpJSHJ6UGJRZXY5djRKZjJmeGc?oc=5",
+   "outlet": "한겨레",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership",
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong visits Japan semiconductor packaging research hub, signaling efforts to expand local materials and equipment partnerships.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-5c1d5fb1e5",
+   "ts": "2026-11-01T07:23:00+00:00",
+   "title": "상장사 자사주 매입 100조 돌파...삼전닉스가 80% 대부분",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Nc3pPSXg2MW5ydXFRVkNXRTB2TDBFTHF1NEFUX2NZUzZKdjlKZ3RyVkp1R3JYa0FweEdnS0hwcU5taVpTWTNKd2pBbFAtTEV5WWJrMjg5ck1FWVly?oc=5",
+   "outlet": "뉴스핌",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "M&A"
+   ],
+   "companies": [
+    "Samsung Electronics",
+    "SK Hynix"
+   ],
+   "summary": "Listed Korean companies' share buybacks surpass 100 trillion KRW, with Samsung Electronics and SK Hynix accounting for roughly 80%, a significant capital-allocation signal.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-d3493a4809",
+   "ts": "2026-11-01T07:22:51+00:00",
+   "title": "Record profits fail to shield Samsung, SK hynix stocks as AI spending fears rattle markets",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYVc4aFZabjFNWnZjNGFjRnl6ZDI2NEtmQVBxU3ZXa0lHZ3pCQ05oQnd2YXpwN25mMVFIWi11blZ1U05sMnhHQU1FQlcwZlBDN1VmRm9sa2JqTVNfdE1mNW5oZjBjMGNYSThNZTE0YmRfa2pCVFN6MkhpTEZuTEp4U3pFV285LWtPYXhqUDhocTlKY2E0ZVdUX1EteGtUbkx5TXhvdGdDOU5KeExwRWJwbDV5cGpHYnozbVNISks3dXZqOE5hTHZEZnA5YjRUVkFXemRKVjFFSWNBdw?oc=5",
+   "outlet": "Korea JoongAng Daily",
+   "also": [
+    {
+     "outlet": "Korea JoongAng Daily",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYVc4aFZabjFNWnZjNGFjRnl6ZDI2NEtmQVBxU3ZXa0lHZ3pCQ05oQnd2YXpwN25mMVFIWi11blZ1U05sMnhHQU1FQlcwZlBDN1VmRm9sa2JqTVNfdE1mNW5oZjBjMGNYSThNZTE0YmRfa2pCVFN6MkhpTEZuTEp4U3pFV285LWtPYXhqUDhocTlKY2E0ZVdUX1EteGtUbkx5TXhvdGdDOU5KeExwRWJwbDV5cGpHYnozbVNISks3dXZqOE5hTHZEZnA5YjRUVkFXemRKVjFFSWNBdw?oc=5"
+    }
+   ],
+   "source_count": 2,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Samsung Electronics",
+    "SK Hynix"
+   ],
+   "summary": "Record profits fail to support Samsung and SK Hynix share prices as macro fears over AI capex sustainability weigh on semiconductor stocks.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-b258d6a73b",
+   "ts": "2026-11-01T07:22:19+00:00",
+   "title": "OpenAI Seeks a $1.25T Value at 11 Years; Meta Took 17 to $1T",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZE9nUExlcTdNNzNETjV5b0prZDhROFcyWnhrOUlFNW5NTDZCaXJyWDNfakJwM1lqNDdyQ09wOFJDODZtZjdWdG94Rmt2aGhGQTZfYlhyR3BQMlZiVXJsX0lwWGhwRllNRmdCQ1NLVnlndmtzNFZmT0VLN2lHTXJHUXpvbWRXX0Z3aUQycjRR?oc=5",
+   "outlet": "FourWeekMBA",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "Capital Raise",
+    "IPO"
+   ],
+   "companies": [
+    "OpenAI",
+    "Meta"
+   ],
+   "summary": "OpenAI is seeking a $1.25 trillion valuation at just 11 years old, a benchmark that took Meta 17 years, highlighting the scale of AI-era private capital formation.",
+   "importance": 3,
+   "deal_status": "talks",
+   "status_confidence": "high"
+  },
+  {
+   "id": "2026-11-01-1304d2c8ec",
+   "ts": "2026-11-01T07:21:35+00:00",
+   "title": "Lee Jae-yong Inspects Advanced Packaging in Japan, Seeks Materials and Equipment Cooperation",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uNE0xLXFPeURmUk9BT2JucU42MEJTN2ZrSTdiQ0Qxbk52cTZlVGFRYWdRZnBoYlZxdVI1LTMxYVp5R2RtRUI1ZHF6MkdMNFNIRms3NDIwQVhwRVdWbDNWRWYwV1VpX3F3UTJIU0tn?oc=5",
+   "outlet": "news.sbs.co.kr",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership",
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong inspects advanced packaging operations in Japan and pursues cooperation on semiconductor materials and equipment, relevant to supply-chain strategy.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-12ff5d696c",
+   "ts": "2026-11-01T07:16:37+00:00",
+   "title": "Korea's Exports Rise 10,000-Fold in 62 Years as Trade Barriers Mount",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVnltc1ZHZ0lzLUJLbVBHN1ZSS3hFd2FBcnVidC1BS2pRcFpxRGRIT3JJVTlBdjNkQkNSWjhYaHE1T1lXREVieVdsMWxzd2lVZFJ5ZGRDV0F6eFpwSHlKVnBqcl9pckF0TFlLNVY3VVp4aVV4a0RDYzNVYm5QbjJBRk5qTnFnNG1mT1ZqWEtaa0ROXzNTdzVMZQ?oc=5",
+   "outlet": "Seoul Economic Daily",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [],
+   "summary": "Korea's exports have grown 10,000-fold in 62 years but face mounting trade barriers, a macro signal for export-dependent semiconductor and tech sectors.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-42345642a9",
+   "ts": "2026-11-01T07:14:03+00:00",
+   "title": "\"Don't Use My Content to Train AI\"... Google, OpenAI Allow Blanket Blocking",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81Q1FraFR5N3ZmNEF4dHhHcVFHbl9JRlZLTnhxc0NWS290Y3diYnJyXzFlcnFwazBJaWJBM1Z0RkpkRTY5Vld0c2ExbXNGTE1PUmZ1T3pNdlJJVTFBeVJYY2hRTnY?oc=5",
+   "outlet": "아시아경제",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Regulatory",
+    "Product"
+   ],
+   "companies": [
+    "Google",
+    "OpenAI"
+   ],
+   "summary": "Google and OpenAI are allowing content owners to block use of their material for AI training, a policy shift with potential regulatory and licensing implications for the AI data supply chain.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-caba914eed",
+   "ts": "2026-11-01T07:13:30+00:00",
+   "title": "Chip stocks shattered as AI boom weakens consumer demand",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQXE4dURWMS1WR2tsMlM3MUhtMDNQTE1nOG44SDdWMVY3YUZhWWZPS3lESnIyN0dWUElYc0lpdFNxdk5iZDVNeDNRSG1ITENPZTlMRC1uT1FxdDVTWlJhS2VtZU5ORG5TUXFXcktLaHJfeTZOVlczU3RUUjU1RlFSV3lOVFJkS3k5b0hjWTYtbmw?oc=5",
+   "outlet": "InnovationAus.com",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [],
+   "summary": "Chip stocks are under pressure as reports suggest the AI demand cycle is softening consumer-end semiconductor demand, raising sector earnings risk.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-5a4417c60e",
+   "ts": "2026-11-01T07:11:30+00:00",
+   "title": "Amazon Shrugs Off Outside Shopping Agents—and Touts Its Own",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQms0VU5YSnQ2RllxdzhzajNTZFZWNXlFakRnUDZKX1l0MUtTai1LY1dNZ2dqLVdlRnlyQk0wNktKYV85b0lOOHc5UmNGZURCb3Uzb1BUVjZDQXhHMHNtZjlhb0VNdXJnaUFpNF92Z2M1WDR2STkxSDZwQXdySndybVZIcTNFbEt0RXI0TGZvWDRBSjRPbFEwdHRBMkNOQQ?oc=5",
+   "outlet": "WSJ",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Amazon"
+   ],
+   "summary": "Amazon is resisting third-party AI shopping agents while promoting its own, signaling a competitive stance that could affect e-commerce platform dynamics and AI agent partnerships.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-5ec436602e",
+   "ts": "2026-11-01T07:11:12+00:00",
+   "title": "K반도체가 이끈 연간 수출 1조달러 국가…미·중·독 이어 세계 4위",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1tVWJwb2oyeGFDM1hjY1pVWEM1ODBTbXNlRHlWbXZUU0l5dllQZ2dKTUtoWC15ZXNkODhBU1hiSVJHbVRNTk9pN0RhaVBuZ25UQTN3S0tnMmtmb0ZDYkE?oc=5",
+   "outlet": "동행미디어 시대",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [],
+   "summary": "South Korea's annual exports crossed $1 trillion, led by semiconductors, ranking it fourth globally behind the US, China, and Germany — a macro signal for the sector.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-75e1c8eaa1",
+   "ts": "2026-11-01T07:08:16+00:00",
+   "title": "Intel Core Series 3 Shortage Fueled by Surging Demand",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORlpKRUFRU2N5cG1ZZE5qdHRnblNDSG1lNWFxSmdpOFFGUE56bE5QaWNXNjRjVXdXai1DNEF4VGFGUTBzMVp5TmZEVS1GOGpKU2ptWm5iRm5XMVBFbE9KT3UtX1k0QWdHU2x1WUtFRXo5TFBobENMUHNlWHFQOWphNlBB?oc=5",
+   "outlet": "hi-Tech.ua",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Surging demand is causing shortages of Intel's Core Series 3 chips, a positive demand signal for Intel's consumer processor segment.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-21414a7dcc",
+   "ts": "2026-11-01T07:07:00+00:00",
+   "title": "South Korea's Exports Surpass 900 Billion, Aim for 1 Trillion",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc1VxVDNJNTRHaHVjZ3piOW1XejNlSjg2MlAyd0ZGeXhfc1RDV0VKQ2t5Vlo2amVhUjNUbG1qbG5ONGxmcjVXdnpra1VFcmg2N3AyakUtTWRqVWI2UkpXRExkRGNKVHUzbVRmZXNUdTQ4UE5KNWZxeVh1SlVoQkk3cUk1a01XRng2?oc=5",
+   "outlet": "조선일보",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [],
+   "companies": [],
+   "summary": "South Korea's exports surpassed $900 billion and are targeting $1 trillion, driven significantly by semiconductor shipments, relevant to global chip trade flows.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-920b9371f6",
+   "ts": "2026-11-01T07:05:34+00:00",
+   "title": "Apple’s First Foldable iPhone Reveals Just How Hard It Is to Make a Phone That Bends",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlpDRWZJMW5wUjBfcUtSa1VMMlNoV3ZQOHdqendzNlVPZUlxbEFQbk9nVE54ZXQ4QzRVUUU2ZGJ2Z2JnaFRORnN3UEJKQkxCRmVqTWZjWG9PcTBzc25zV2hUS085UXk4X1FUWkQ1bmw0WkkzX0Z5MDJEcWxCX1daWUp3a241QU1IN2gwTzJ6a3FnTVJuSFlVcFVhWnV0bDdsVWU2NzdJRlY4dlUwR0tyQXY3ZnI?oc=5",
+   "outlet": "Koreabizwire",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Apple"
+   ],
+   "summary": "Apple's first foldable iPhone highlights significant manufacturing complexity, with supply chain and component sourcing implications for Apple and its partners.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-1dee2566db",
+   "ts": "2026-11-01T07:05:03+00:00",
+   "title": "이재용, 日 반도체 패키징 현장 점검…기술 확보 당부 |",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SR05vSHVnVFJzSDZDWkZhdGFqMEdnNFJOUmdkeG5FTF9tYmd0a1hSMk4wM1drTjVIbjQ2alBWMGJ3akJPZGtfc2gzNUlRRE82WWhsMElSci1DSHVEQnU0cXF6WTlyVG9TWEZRSS1qWW1DMGxJ?oc=5",
+   "outlet": "연합인포맥스",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Electronics chairman Lee Jae-yong personally inspected the company's semiconductor packaging facility in Japan, signaling strategic focus on advanced packaging capabilities amid competitive pressure.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-5bf46cc108",
+   "ts": "2026-11-01T07:04:38+00:00",
+   "title": "이재용 삼성전자 일본 반도체 패키징 연구소 현장점검, 현지 소부장 기업과 협업 강화",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jVjIzaHdMQmU1RFl2VmcyOVdtTHViNkNydU9Vck82cUVxVE5OYVpHTjZqdlVqUnFFaktINzdfQmJJV1ItU0FoSnctMUdhc1ZrYTN5M2xyMVE1QWFnRjhQc3lZSXd5akVCY3Z5STBNV2FMWVE?oc=5",
+   "outlet": "비즈니스포스트",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Electronics chairman Lee Jae-yong visited Japan's semiconductor packaging research site and called for strengthened collaboration with local materials and equipment suppliers.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-83e63699ed",
+   "ts": "2026-11-01T07:04:00+00:00",
+   "title": "삼성전자도 SK하이닉스도 아니다…기관이 한달간 순매수한 '1위 주식'",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLeHM2OU40RkRETktmZW5mZ1ZTNVIzazdsZjVRZndyODZHT0V6d0JKUlc1M0FtcVNnZjZ3bHJWeldRZ1YwSUpkUk9JdzQ2alRpanNyekNn?oc=5",
+   "outlet": "위키트리",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Markets & Macro"
+   ],
+   "companies": [
+    "Samsung Electronics",
+    "SK Hynix"
+   ],
+   "summary": "Korean institutional investors have been net buyers of a stock other than Samsung or SK Hynix for a month, signaling a shift in domestic semiconductor sector allocation.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-7229c888e8",
+   "ts": "2026-11-01T07:03:00+00:00",
+   "title": "이재용, 일본 요코하마서 첨단 패키징 점검…소부장 협력 모색",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zaDRQbm5xUXF4VVNIS2lpOGtwQ0ttb2pqc1dSN0E4VWpvNTA5UERKdzVkN0NYRkdMOS1wTnBKbFVYSUNCWUtYTVd6bk9MMjJFcDAwMDJPTTV6OUszZ2hVN0psLTVHelE?oc=5",
+   "outlet": "연합뉴스TV",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership",
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung chairman Lee Jae-yong visited the Yokohama advanced packaging facility to assess next-gen packaging technology and strengthen materials/components supply chain partnerships with Japanese firms.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-f2d53c2a89",
+   "ts": "2026-11-01T07:02:27+00:00",
+   "title": "Apple's new CEO says he won't ship AI for AI's sake as the market panics",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcnFHeHRmRU9rRVdOTWphVFRHRWQ5Rlk5R3FDS1BtaHRnZ2ppOHdEUlhTTDQxeWxLblZVWGN0cDVPam9YZF8zSldWQUtYc0RQSTJPV3hUanM5aTdjUVJsaFdCZm5ibDZyNi1BMGgzeDlxRTdzNDByUTZRckJPSkMtalMxVFZqaGg5T2hNTGs1X25weXVFa0c1dDRxQlI2dw?oc=5",
+   "outlet": "Startup Fortune",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Product",
+    "Management"
+   ],
+   "companies": [
+    "Apple"
+   ],
+   "summary": "Apple's new CEO signals a disciplined AI product strategy, resisting pressure to ship AI features for their own sake amid market anxiety over Apple's competitive positioning.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-e5b39d768b",
+   "ts": "2026-11-01T07:02:25+00:00",
+   "title": "이재용 회장, 日 요코하마 APL 방문…차세대 반도체 패키징 핵심 기술 점검",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLYVNoWWk0OVM2eTlfTGNwcmlPbUZhX3d1RG9SR2tDNE9TY25nTE9XT1BwSC1IUXhOM3d3eklsYXdKUUxIeFNfTmZPM1VIWjl1bWxscWcxWTk4NE1yM0VYQjUwUExNVFpvTVktY2ZobHpLSmVncnpsQtIBeEFVX3lxTFBLYVNoWWk0OVM2eTlfTGNwcmlPbUZhX3d1RG9SR2tDNE9TY25nTE9XT1BwSC1IUXhOM3d3eklsYXdKUUxIeFNfTmZPM1VIWjl1bWxscWcxWTk4NE1yM0VYQjUwUExNVFpvTVktY2ZobHpLSmVncnpsQg?oc=5",
+   "outlet": "뉴시스",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Partnership",
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung chairman Lee Jae-yong visited Samsung's Yokohama APL research hub to review next-generation chip packaging technologies critical to AI-era competitiveness.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-4278b78865",
+   "ts": "2026-11-01T07:02:00+00:00",
+   "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZVFZYnJhMjlvU2daaFNuWGwwU1NZM2llT0hsWEZGZ1JWZ1pGQmZhYmZYa0xmY3BBbTBhSmpSYWpkMm5WRndzcDRvUkowMGxEVjVTQmRhZ290ZnJmZ2FJRURpX1BzMy1xYXVCVGwwaXdqU0JnLXJWdEJJaU9OeHZtLVA4WQ?oc=5",
+   "outlet": "The Hacker News",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Microsoft"
+   ],
+   "summary": "NetamLoader malware targeting government Windows 10 systems in Asia raises cybersecurity and regulatory risk concerns for Microsoft's enterprise and government business.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-c441b390af",
+   "ts": "2026-11-01T07:01:54+00:00",
+   "title": "[K-빅샷 룩업] 이재용의 ‘초격차 승부수’…日요코하마서 캐는 ‘삼성전자 포스트 AI’ 해법",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVLXZuSEVPMDl6MjlSNVAwN3dSeFA2SmlVMjZvejFEU3djY0psdmpOaEVWSlFZT3E5bTVEV2tUWUlBaW5PNTlHZVdpMmFtTzBuY3JrZEg5OGtCV3hiczNDT0pnR1ctQU1LOGRGMA?oc=5",
+   "outlet": "뉴시안",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Product"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung chairman Lee Jae-yong's Yokohama visit frames advanced chip packaging as Samsung's strategic answer to sustaining competitiveness in the post-AI era.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-a9153904ce",
+   "ts": "2026-11-01T07:01:11+00:00",
+   "title": "연말 삼성전자 노조 갈등 확산…커지는 DS·DX 온도차",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5odEQyUlNLVlBkcEo4SHNicVFPX3RBU0Q3eUVzMEJkSHRZYjhaSWtSNlZuWEVUX0F0OVVkYi03cGZydU1tb0xIZEk0azFZNmQyQmZwTmFKaHNJZU5QX0IxdUx2RENibm1vb1M3dVZn?oc=5",
+   "outlet": "아시아투데이",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Growing labor disputes between Samsung's DS (semiconductor) and DX (device experience) divisions at year-end could impact operational execution and investor sentiment.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-7fcff334ee",
+   "ts": "2026-11-01T07:01:04+00:00",
+   "title": "Samsung chairman highlights chip packaging, visits Japanese unit",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjhVbG9sU2lWcG52WkVmX2hVc1BOMmhPa3djMndhVGRDTXA2OWpKQmNJQkhzNjVZNE5tdHFMaXBETl9TbXdNQXM0SHhXRHl5c3o3ZWMzejNsN3FCamljSnNTdzlPSUJ6YUhDWDVoZ2VvVXBoLWRiRU9Fay01cjNqbkdCeHM5Z3RZWDJIMW9mdDIyd3I5cGVDbVJIdjQxU2tGajFGTUVvaEs0TkY2Z0s4N2dBN3k3aTNKYjM1dNIBwgFBVV95cUxQaEVJSTF5bXJ1aHZNQXEwOEROT1dvSEtLVC1fbTVUSFYwejBlajVPLW5BYUczcEJOb29sUUxLR3hRU3RPZENBZmxnNkdWVnpnMXd0VUVXRV9mUGRKam1tZnN6YjBiT3Viang4Zm41dUJZWUo5SFQzRUplZWM2S1hENnpTTnFVYkNvZ1paYzVaTlVDZFc5NXgwMlU1Q2toOGxjb0Y5LVBOSlBTclg2UTBYeFY3a2p2X1kxemRYaXBIeXNCZw?oc=5",
+   "outlet": "The Korea Times",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung chairman visited the Japanese packaging unit to emphasize chip packaging as a strategic priority, signaling potential investment and partnership activity in Japan.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-7aaee08822",
+   "ts": "2026-11-01T07:01:00+00:00",
+   "title": "이재용, 日 요코하마 패키징 연구거점 방문⋯ 소부장 협력 강화",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sWlliMGxnZjhkSVlvU3VfTGRqV0xPUlRBTFhyUXcyWmtjSVBzaS1ObUJVeXV2Zzk3dWtFUTdOczdMV29Ka0NOR2lreExoZjNwaFlJOTVrT1RCdw?oc=5",
+   "outlet": "브릿지경제",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung chairman Lee Jae-yong visited Yokohama packaging research hub to strengthen materials and components supply chain collaboration with Japanese partners.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-dfed9027e9",
+   "ts": "2026-11-01T07:00:59+00:00",
+   "title": "한국 10월 수출 1153억달러…반도체 중심 성장세 이어져",
+   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE4xVHRWbTNOdThTMk51X3RvTG9QU21HWUJOOFl1UHZNcl9GZVZnQkNlSEFpMVpWUnV1R2pYcGRIdEdXR3c?oc=5",
+   "outlet": "한국공공정책신문",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [],
+   "summary": "South Korea's October exports reached $115.3 billion, with semiconductor-led growth continuing, a positive macro signal for Korean chip makers and their supply chains.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-47194c50d8",
+   "ts": "2026-11-01T07:00:52+00:00",
+   "title": "이재용 회장, 삼성 日 요코하마랩 찾아 “첨단 패키징 기술 확보” 강조",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhRGpDTVBQTmlOZGhMUklTY3VibGNlbDFxckp1anBGLWZuS2NCbFZYckhLLXpta1RvYmJMMnA1YnZzRnFPd3FwdWFPNXQ0V1FrNHfSAVNBVV95cUxNMENQaVdLNmlYQk96Szl1RHd6alpmaGlsYmc3U0RyQU9fekh1cm1FWkZzMVQxaDdRX1h6U1JlalZGZ0FsR3J5NWtGRzlsY0JZbEg1NA?oc=5",
+   "outlet": "서울경제",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Product"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung chairman Lee Jae-yong visited the Yokohama lab emphasizing advanced packaging technology acquisition as a top strategic priority.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-eed17e18d9",
+   "ts": "2026-11-01T07:00:30+00:00",
+   "title": "이재용 회장, 창립 기념일에 일본 출장..첨단 패키징 점검",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwWjBtcmZtYnRoZUxkQUVlRDB5ejlhd2N3WHNvRFZVS1FJaWhVVjRJVkNqcWRSblZCdjBBbEtSVEo1dUlFRjU3ZnRoeHVGcTVsLUZfQWxXNU5YeWVIT2FB?oc=5",
+   "outlet": "MTN 머니투데이방송",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung chairman made a Japan trip on the company's founding anniversary specifically to inspect advanced packaging operations, underscoring the technology's strategic urgency.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-87143ddc97",
+   "ts": "2026-11-01T07:00:06+00:00",
+   "title": "네이버 행사장 앞 토스 군단 떴다…성수동 달군 ‘얼굴 결제전쟁’ [정지은의 테크킥]",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MaEtzcF9ob0xVdVM5WEg1XzUwbG4zOTF3QldIcVp5Q3lNR21YUzU3Q1VVME5fbW01eHJYcVFFSnZZU2JUWUxhZG1Ya0JIS20wdEJIRjRzYlpVUQ?oc=5",
+   "outlet": "한국경제",
+   "also": [],
+   "source_count": 1,
+   "category": "Startups & VC",
+   "ib_tags": [
+    "Product",
+    "Partnership"
+   ],
+   "companies": [
+    "Naver",
+    "Toss"
+   ],
+   "summary": "Toss and Naver are competing directly in facial-recognition payment technology in South Korea, signaling intensifying fintech rivalry with implications for market share and potential future financing.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-7c71b43dcb",
+   "ts": "2026-11-01T07:00:03+00:00",
+   "title": "이재용, '3500억 투자처' 찾았다…일본서 미래 경쟁력 점검",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56NGE3ampGTFNiakFOenVZdUNGZ2NIN0xxTzlwbHNGNDlaSWhLQU1PYkVabjNNaDhBT2xfMHhuLU5tZ3RjdHg3YkRBNC1HWlFEbXNYTjF3TVA2Zw?oc=5",
+   "outlet": "한국경제",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Capital Raise",
+    "Management"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Reports indicate Samsung chairman Lee Jae-yong identified a KRW 350 billion (~$250M) investment target in Japan linked to advanced packaging and future competitiveness.",
+   "importance": 2,
+   "deal_status": "rumor",
+   "status_confidence": "low"
+  },
+  {
+   "id": "2026-11-01-d08d1a1597",
+   "ts": "2026-11-01T07:00:00+00:00",
+   "title": "Key facts: Amazon.com, Inc. keeps $220B 2026 capex; AWS +39% YoY",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObVJQTXZFQkJxZjhjcjVJZUNqTUtfNlZPYnFaSDFmem03Q2dVLWxkeEVHMDB4bE5aX3ZFd0tCcTVtczdUanhSSlhwUC1oSlVwbXV6RC0taGhCX19oaGdaSVRNOUE5YzhLVWRPamJkaDR2aVRyLU91cU5RamIyMW5GNDg0OGQzY0RWaUdKNWpfVVVKYmtpLVhMVW5NZVRPOVhzWjg1enhzLW4tdk5vaU5qZTNiU2dSZTFHTFR3?oc=5",
+   "outlet": "TradingView",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings",
+    "Capital Raise"
+   ],
+   "companies": [
+    "Amazon",
+    "AWS"
+   ],
+   "summary": "Amazon maintains $220B 2026 capex guidance while AWS reports 39% YoY revenue growth, signaling sustained hyperscaler infrastructure spend.",
+   "importance": 3
+  },
+  {
+   "id": "2026-11-01-7ff3398ac2",
+   "ts": "2026-11-01T07:00:00+00:00",
+   "title": "Lee Jae-yong pushes Japan packaging hub to boost Samsung AI chip edge",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50ZU1YaF9adDNGQ2xNOF94bnJ6d3BtNkRMLVpLOWtFZlRPSE5EVXZZQ19MOEVORmtTSGEwaktVb2pWSEhMdDUtSllpOU5UVkFvVEJidWZLbTBwSWtBeVBXdEsxbFBuMTM4czMydlFHdGlxTXZSeEN5M19B0gGOAUFVX3lxTFBuSy1rbWZrcWJDQ1FBWFN0WkQxd0MwRXlpb3k3a2M3Wlo0TkVNeHNxRld4THdBYnAwSENNQ3M3ZHNEMjhJQkltaWNXdW1wbEtLV0FabzVxSDNQZV95NXJncUlaUHl4eHhraU9KYzNreHdfVTRGbklSeTY1SGVyeWJLN1g2SDc3MDIwMTRmWWc?oc=5",
+   "outlet": "Chosunbiz",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong personally oversees Japan-based advanced packaging hub initiative to strengthen AI chip competitiveness against rivals in HBM and packaging.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-09826dbdfd",
+   "ts": "2026-11-01T07:00:00+00:00",
+   "title": "Lee Jae-yong visits Japan to secure AI chip leadership, personally overseeing cooperation with materials, parts and equipment firms",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91RDR3MWtFNW16Y2g0dGlsUjZ0QUNMOEFvSHNaNE84bm9wQWx0NkV1Y3p2eEJRTmpMSDNuOFZEX3VfdUFaSjlEOXMxZlFwVjNWQXBB?oc=5",
+   "outlet": "매일경제",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong visits Japan to deepen cooperation with materials, parts, and equipment suppliers to secure AI chip leadership.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-8d4e6dfa95",
+   "ts": "2026-11-01T07:00:00+00:00",
+   "title": "Samsung Electronics Chairman Lee Jae-yong Visits Japan Packaging Research Hub…All-Out Push on AI Semiconductors",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kWDRNSEU3VUtQMENhT1ItMjhlRHhpYk05aGNxVVlDUXNTNFhYUEcxTkY0X1lXLUM0ZjNMVXMxRTVOTWJqZjdOSWFyQnVwYVAzNTRmc09ROHRJN1lDRGtyZ21jcUw1SFBsdHVrMHRrd1U?oc=5",
+   "outlet": "머니투데이",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong visits Japan packaging research hub in an all-out push to advance AI semiconductor capabilities.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-2b86997b2a",
+   "ts": "2026-11-01T07:00:00+00:00",
+   "title": "'취임 4년' 이재용, 차세대 패키징 연구거점 점검 나서",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMTDJyZ2NLMjAwTE9xc01fUGY2ckVyV2syWmVIYjJzakZWZFotTDBqampyVUk3RUYzeWFza1dEcFFZZzNSaGNQODF6MFBSc0EyeE0zNFgyYkRYcWpCUzVEWENoRXM?oc=5",
+   "outlet": "매일일보",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Product"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Electronics Chairman Lee Jae-yong visited the company's next-generation semiconductor packaging R&D hub in Yokohama, Japan, urging accelerated acquisition of advanced packaging technology.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-b474b25e74",
+   "ts": "2026-11-01T07:00:00+00:00",
+   "title": "이재용 삼성전자 회장, 日 요코하마 연구소 찾아…“첨단 패키징 기술 확보” 당부",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1MXpFcVM4R255NFFhR2R2T0otR2h2NXNhWXZRODFRVEs1OHJwMWdYVlM5emRkS2lsUEt3b1Z5amp6VU84UDZfLTc0Q3BvWWsxdWc3a3ppVFJOcENxUHpaRXRQVjNrai1waFBxTw?oc=5",
+   "outlet": "ER 이코노믹리뷰",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Product"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong inspected the Yokohama research lab and called for securing advanced packaging technology capabilities.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-8f046bf634",
+   "ts": "2026-11-01T07:00:00+00:00",
+   "title": "이재용, 일본 요코하마 '차세대 반도체 패키징 R&D 거점' 첫 방문",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iX1Q3WkxTOFM5d0JNQ3J4cnhRQWJ1REdnM3pmMGlON1VhSnBSLTNPeXBrUnVMRkdlN2ZBaEs4RzZjdGg2QnJyWTZFM2hEX294M0xmNXNhMlNfby1hVTZXcjRDaGl1SV9XaUpXdjlBZzE?oc=5",
+   "outlet": "신아일보",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Product"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Lee Jae-yong made his first visit to Samsung's next-generation semiconductor packaging R&D base in Yokohama, Japan, signaling strategic focus on advanced packaging.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-5cbb7e6da4",
+   "ts": "2026-11-01T07:00:00+00:00",
+   "title": "이재용 삼성 회장, 日 패키징 연구소 점검…반도체 소부장 협력 확대 논의",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xS2pMbXpHajJGbVJPV2g1UmVpY2N2Ym43TW42eXhKRzQ1LVJqMmZLV2k4RUdZRUVDTlZqYkVlckl3WmJqUHNYWXNyM2NBUl9yUWpiaDJRNGZ6Q09aa3NUV3NJdFMyUFRT?oc=5",
+   "outlet": "직썰",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Chairman Lee inspected Japan packaging R&D lab and discussed expanding cooperation with semiconductor materials, parts, and equipment suppliers.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-ae7d3a51ac",
+   "ts": "2026-11-01T07:00:00+00:00",
+   "title": "이재용, 일본서 첨단 패키징 점검…소부장 협력 모색",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaSDdfNzBLRmh6bVlEQTJFRlB1dUJtVE1JYVdDa1c0T3UzeHhmZmg5bkJhYUlkeVRMWHV5ZFJNRmcza1I4TUd2Z2lEMF85Zmx1SUE?oc=5",
+   "outlet": "매일경제 마켓",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Management",
+    "Partnership"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung Chairman Lee Jae-yong reviewed advanced packaging progress in Japan and explored materials/components supply chain partnerships.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-9fd35c4e79",
+   "ts": "2026-11-01T06:59:40+00:00",
+   "title": "[이번주 증시] 애플·AMD 실적에 반도체 반등 달렸다…美중간선거도 변수",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tY1E5Vm9XWENpQjJ4TEdnZzNhTHR0TU5WZHE0WkZIMTZDRmRDUU9ZeDBfb0ZtbmltSjJkNThveHhGV1VSRTNJWFJGMHRZZlRqem5YSU04VWRhSUZRTlEwN0VDQnVMUmNMWjduRA?oc=5",
+   "outlet": "뉴시안",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Apple",
+    "AMD"
+   ],
+   "summary": "Korean market outlook piece flags Apple and AMD earnings as key catalysts for a semiconductor sector rebound, alongside U.S. midterm elections as a macro variable.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-9fd35c4e79",
+   "ts": "2026-11-01T06:59:40+00:00",
+   "title": "[이번주 증시] 애플·AMD 실적에 반도체 반등 달렸다…美중간선거도 변수",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tY1E5Vm9XWENpQjJ4TEdnZzNhTHR0TU5WZHE0WkZIMTZDRmRDUU9ZeDBfb0ZtbmltSjJkNThveHhGV1VSRTNJWFJGMHRZZlRqem5YSU04VWRhSUZRTlEwN0VDQnVMUmNMWjduRA?oc=5",
+   "outlet": "뉴시안",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Apple",
+    "AMD"
+   ],
+   "summary": "Duplicate: Korean market commentary highlights Apple and AMD earnings as pivotal for semiconductor stocks and notes U.S. midterms as an additional market variable.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-6e6b62db00",
+   "ts": "2026-11-01T06:59:19+00:00",
+   "title": "Tech layoffs tracker 2026: All the job losses across Amazon, Microsoft, Netflix, Electronic Arts, Apple, Meta and others",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPWjc2bDlEWHNuV1BZeENVamFNMVlhdzQzRTctOENHYmJFbVVwOGZxNXhDU0E3bXRXemlkSXl3OUtvTXZ4SDE2ODBmOUVtZjJrQjFzbDhEeUd0Q0lrc01yRnctNmdmSzM0a1hsVVJTVUo3X3ZjdWswVlhDNTJxN2c1NEM5M2hqT0JoM0RNZC03cmMwUmw5X0xXcnB2UzdtNzFFaDRicWdJVThTZ3IwMC1OYjIzeGNCWVdTX2ZmT2NJaURqU2Z3aXBNN0NCdm04aF9pTXNUX0tWX2xOWWxDQXB1R3Y3NkJOR00ySjFpU0Z5UnU4M3RTd1hzdm9DLWh6NHBYbHZVT1RPR1ViM3pweUpJ?oc=5",
+   "outlet": "Yahoo Tech",
+   "also": [
+    {
+     "outlet": "Yahoo Tech",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPWjc2bDlEWHNuV1BZeENVamFNMVlhdzQzRTctOENHYmJFbVVwOGZxNXhDU0E3bXRXemlkSXl3OUtvTXZ4SDE2ODBmOUVtZjJrQjFzbDhEeUd0Q0lrc01yRnctNmdmSzM0a1hsVVJTVUo3X3ZjdWswVlhDNTJxN2c1NEM5M2hqT0JoM0RNZC03cmMwUmw5X0xXcnB2UzdtNzFFaDRicWdJVThTZ3IwMC1OYjIzeGNCWVdTX2ZmT2NJaURqU2Z3aXBNN0NCdm04aF9pTXNUX0tWX2xOWWxDQXB1R3Y3NkJOR00ySjFpU0Z5UnU4M3RTd1hzdm9DLWh6NHBYbHZVT1RPR1ViM3pweUpJ?oc=5"
+    },
+    {
+     "outlet": "Yahoo Tech",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPWjc2bDlEWHNuV1BZeENVamFNMVlhdzQzRTctOENHYmJFbVVwOGZxNXhDU0E3bXRXemlkSXl3OUtvTXZ4SDE2ODBmOUVtZjJrQjFzbDhEeUd0Q0lrc01yRnctNmdmSzM0a1hsVVJTVUo3X3ZjdWswVlhDNTJxN2c1NEM5M2hqT0JoM0RNZC03cmMwUmw5X0xXcnB2UzdtNzFFaDRicWdJVThTZ3IwMC1OYjIzeGNCWVdTX2ZmT2NJaURqU2Z3aXBNN0NCdm04aF9pTXNUX0tWX2xOWWxDQXB1R3Y3NkJOR00ySjFpU0Z5UnU4M3RTd1hzdm9DLWh6NHBYbHZVT1RPR1ViM3pweUpJ?oc=5"
+    },
+    {
+     "outlet": "Yahoo Tech",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPWjc2bDlEWHNuV1BZeENVamFNMVlhdzQzRTctOENHYmJFbVVwOGZxNXhDU0E3bXRXemlkSXl3OUtvTXZ4SDE2ODBmOUVtZjJrQjFzbDhEeUd0Q0lrc01yRnctNmdmSzM0a1hsVVJTVUo3X3ZjdWswVlhDNTJxN2c1NEM5M2hqT0JoM0RNZC03cmMwUmw5X0xXcnB2UzdtNzFFaDRicWdJVThTZ3IwMC1OYjIzeGNCWVdTX2ZmT2NJaURqU2Z3aXBNN0NCdm04aF9pTXNUX0tWX2xOWWxDQXB1R3Y3NkJOR00ySjFpU0Z5UnU4M3RTd1hzdm9DLWh6NHBYbHZVT1RPR1ViM3pweUpJ?oc=5"
+    },
+    {
+     "outlet": "Yahoo Tech",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPWjc2bDlEWHNuV1BZeENVamFNMVlhdzQzRTctOENHYmJFbVVwOGZxNXhDU0E3bXRXemlkSXl3OUtvTXZ4SDE2ODBmOUVtZjJrQjFzbDhEeUd0Q0lrc01yRnctNmdmSzM0a1hsVVJTVUo3X3ZjdWswVlhDNTJxN2c1NEM5M2hqT0JoM0RNZC03cmMwUmw5X0xXcnB2UzdtNzFFaDRicWdJVThTZ3IwMC1OYjIzeGNCWVdTX2ZmT2NJaURqU2Z3aXBNN0NCdm04aF9pTXNUX0tWX2xOWWxDQXB1R3Y3NkJOR00ySjFpU0Z5UnU4M3RTd1hzdm9DLWh6NHBYbHZVT1RPR1ViM3pweUpJ?oc=5"
+    }
+   ],
+   "source_count": 5,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Management"
+   ],
+   "companies": [
+    "Amazon",
+    "Microsoft",
+    "Netflix",
+    "Electronic Arts",
+    "Apple",
+    "Meta"
+   ],
+   "summary": "Running tracker of 2026 tech-sector layoffs across major companies including Amazon, Microsoft, Netflix, EA, Apple, and Meta — signals ongoing cost-restructuring across Big Tech.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-af8e1dd1bc",
+   "ts": "2026-11-01T06:59:12+00:00",
+   "title": "How China’s mineral export controls could put $6.5 trillion in output at risk",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQakI4d1JTdDEwTWdfVmtxTkxPX293WElqdHR5bmJKMzV6Sm5UM01YcG9IWmFSU3hKOE1ZSmR0WjhjNV9hNTEweDcxMy1ZT1hIWlJuOF82WjFaWkdwRFNpa19ocmUxQk5idmRhbkE4d1poR3M5UXVfeVZpbHRra2FtX0YyVnpJZFZsMmVWSk1TeTk3Rk5WaFZRR2dQVWI4NmJTSDI5QXc4UkZkMEZmVzBR?oc=5",
+   "outlet": "Operativ Məlumat Mərkəzi",
+   "also": [],
+   "source_count": 1,
+   "category": "Markets & Macro",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [],
+   "summary": "China's mineral export controls could put $6.5 trillion in global industrial output at risk, posing a significant supply-chain and regulatory threat to semiconductor and tech supply chains.",
+   "importance": 3
+  },
+  {
+   "id": "2026-11-01-db59cef3e4",
+   "ts": "2026-11-01T06:57:59+00:00",
+   "title": "Google Drops 13% in Worst Post-Earnings Performance Ever, but History Shows 84.6% Win Rate Buying After 8% Drop",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb0NQUXhfaDlmV1RZNkFyZVoyaW9QaVVOakJ1VEt5cVcwS1lwRkI1ZzRXNDBaWWpobnhsYVZsMERLTm5LZmNGTmFXRkFZMDZqVmhlSlpkUTdTRF9hVm96MGRaeEpfUXpEdXR6TlZkN3U3dUNfQzVBVlVpWktqcThtVzRrb2NaeXhKVks0UE1iTW82eFpDbUU1czhIYzBrUUlKdUNQSlZ6Y3NqQVo3bEdtRU1XN2x5Zm9GcFNiaFdGWVJfU1o4dkdWUG9xNE5nVG8?oc=5",
+   "outlet": "TradingKey",
+   "also": [],
+   "source_count": 1,
+   "category": "Big Tech",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Alphabet"
+   ],
+   "summary": "Alphabet shares dropped 13% in its worst post-earnings reaction ever, a significant market-moving event for one of the largest-cap tech stocks.",
+   "importance": 3
+  },
+  {
+   "id": "2026-11-01-39963be705",
+   "ts": "2026-11-01T06:57:44+00:00",
+   "title": "Samsung faces $15m fine over galaxy phones' gaming performance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeklaaGN6NWwwMWQ1TDdqR2NXV25JWWZYLXJWNDRJUHpWdUR3UkJUQzQwQmFqbk9qbmE1UTBLYkY0bUREWkR5UHVLQXZJX0JaVENBMHV3Rm52dUNFeW1iVkEyRjZWODhLQzVsTEtjcmVvQk5XVHJTd1QzQmJhekZNX0ZNazRRTjJuZ3ZqbV81bkRsLU1BUzgzOWl1UXB6N285aGhOc9IBoAFBVV95cUxOR3lpVThnQVdKUS15a25XM0JNM29acFFwdENneGpFUU1oU0RwTExLOU9MWHVwYjJvSjNabUdjc3JtQm5OemZSaGRURXNBYlg1Qi1oVFZ1MmtuSFlCeHp2SFoyYk9QQmNLamE4SkZRc3RyRlNrTnRPS2NSN3U3YndWNFRuY2J6ZmVfTk15Rnk4M3o3eUZwUmxISThsbzVxbE4w?oc=5",
+   "outlet": "The News International",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Regulatory"
+   ],
+   "companies": [
+    "Samsung Electronics"
+   ],
+   "summary": "Samsung faces a potential $15 million fine related to alleged throttling of Galaxy phones' gaming performance, creating regulatory and reputational risk.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-ed7bd02a36",
+   "ts": "2026-11-01T06:56:39+00:00",
+   "title": "Intel Stock $65.76: 3 Questions for Monday's Open",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFRyX1dYSTY3aTRTRGl1NEJ5WWN6ZktLcFctZC1mV3NlVXB1WTRsLTJuWWtSZ21YM1BLemF6VUtEbF95ckI5Y3hGNzZKdlE0LTdOTkgwU3B5LS10QjJ4T1pOU0FaSDVsYTZoYW5Db0xFNXJrNHIwZmJJX3VrelA3b2N2eHRXU2VHOTdfTFlaSlg0MUNaWnlZcHVzdUcxWG1FSS1oWHpRVnc5Z3JJU1F1QXlvbzM5Y0RfRTZiTU9QWGsxMDlHVFlqN0hRUnZaRnpWWW8yNWN3?oc=5",
+   "outlet": "FinanceFeeds",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "Intel"
+   ],
+   "summary": "Analysis piece flags key questions for Intel stock heading into Monday's open at $65.76, relevant for semiconductor sector sentiment.",
+   "importance": 1
+  },
+  {
+   "id": "2026-11-01-426a14b924",
+   "ts": "2026-11-01T06:56:18+00:00",
+   "title": "Amazon wants Alexa to be the gateway to its AI-powered",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hMy1lOVRyb2o4SHB6eFd3ODVxMVFRUk9KZzk4OFRKY1NRLURMckUzZE41VUlpdmpIY2s0cUFndXZxNUhmRklZYVNnLThNMU9ld0RFeFB6dE1WX2RzSjFNMGlhSVdrZVJvMGxFYldPWHdPNTg?oc=5",
+   "outlet": "KuCoin",
+   "also": [],
+   "source_count": 1,
+   "category": "AI & Infrastructure",
+   "ib_tags": [
+    "Product"
+   ],
+   "companies": [
+    "Amazon"
+   ],
+   "summary": "Amazon is positioning Alexa as the primary gateway to its AI-powered product and services ecosystem, signaling strategic AI platform ambitions.",
+   "importance": 2
+  },
+  {
+   "id": "2026-11-01-2b3ae26ab6",
+   "ts": "2026-11-01T06:56:11+00:00",
+   "title": "AMD Stock $504.80: What 3 November Results Must Show",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTERpYmppbDNsWWxFbVFKQ1BtRk8xakxzeVAwcXNHR1lXOWlMVUhTSWcwaGZISU9USVFrV28zUkZDd3dfVjZSZFFSTzF6V0Jhc3U4SnFkc0t1SnFSOHJyNTdBQzBXcmJRRG02U0toQUttMWZibDdpSUpvRVpONU5iQzdDd1RROE93ZzRJZDNXak1Zb0lPM2c1cVAwZk5QTWNONndxMVhYVnE0Q1I4Z0hr?oc=5",
+   "outlet": "FinanceFeeds",
+   "also": [],
+   "source_count": 1,
+   "category": "Semiconductors",
+   "ib_tags": [
+    "Earnings"
+   ],
+   "companies": [
+    "AMD"
+   ],
+   "summary": "Analysis outlines three key metrics AMD's November earnings results must demonstrate, relevant ahead of a major semiconductor earnings event.",
+   "importance": 2
+  },
   {
    "id": "2026-11-01-bd13376390",
    "ts": "2026-11-01T01:37:26+00:00",
@@ -13680,1657 +15276,6 @@
    ],
    "summary": "Valuation analysis comparing Broadcom stock against semiconductor peers — relevant for relative-value positioning.",
    "importance": 1
-  },
-  {
-   "id": "2026-10-30-fd0929c5f6",
-   "ts": "2026-10-30T13:39:07+00:00",
-   "title": "Nasdaq plunges after dismal earnings from Amazon and Intel",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONzk3SWo0SUFZeUo4blMxSHYzTzhXbXVHNEQ2WDg1VmIwOGdZSUZkQnlUd3c1d3p3d1ZzY1NKWkJGeThlVXpEYzVSU2RjMUhtT1RPNGtjS3gxelVIemN5OUVIOVVhMHh6Q3dNaE8wbVhtejRqMkltcEpDbFBnQjBwLTJmQUN5QVl3MDdKbnBWNWFScFFw?oc=5",
-   "outlet": "Business Insider",
-   "also": [
-    {
-     "outlet": "Business Insider",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONzk3SWo0SUFZeUo4blMxSHYzTzhXbXVHNEQ2WDg1VmIwOGdZSUZkQnlUd3c1d3p3d1ZzY1NKWkJGeThlVXpEYzVSU2RjMUhtT1RPNGtjS3gxelVIemN5OUVIOVVhMHh6Q3dNaE8wbVhtejRqMkltcEpDbFBnQjBwLTJmQUN5QVl3MDdKbnBWNWFScFFw?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Amazon",
-    "Intel"
-   ],
-   "summary": "Nasdaq plunges following dismal earnings reports from Amazon and Intel, reflecting broad market risk-off sentiment around AI infrastructure spending.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-2fb2f48a50",
-   "ts": "2026-10-30T13:38:49+00:00",
-   "title": "Nasdaq Futures Eye $950B Hit as Intel Falls 25% [2026]",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQjBzVlI3UF9FaTdWT25BMEhvT3lNV1VwU3FITkcwY3VzYzhxT3V6Qms2TUw3NUNaY21seWdNQzExLUZUanhLMUk0Q2dYbDBHU3dyTndHZnJyeUY1NVJ1eGhwZk5NQjFqQ1RaVk5mQjFBc2hDQmhQdkN0MXFUNXBEVHlnQjJOR2ZtMHVF?oc=5",
-   "outlet": "https://tech-insider.org/",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Intel"
-   ],
-   "summary": "Intel shares fall ~25%, contributing to an estimated $950B hit to Nasdaq futures market cap — market-moving magnitude selloff.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-7eb5d4b735",
-   "ts": "2026-10-30T13:38:15+00:00",
-   "title": "US Stocks Sharply Lower as Amazon and Intel Sink",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa2VFNmlCWTkySDhmc0haVUFuaFJZVjA2NW52M0ZSakNRNHBRMnVoR1dVX2dabjYyc0cyNmFxMDh5SGVsWUVjQk1oamlsekNXb0l6NFlNcDNNLTNaYUNGbHFWSXVYQklnZXJCQmVTR1dfanhpcFJ2RVp2b0ktd1h2UmhFRjh4RVhfZVd5LWRtaGRGZHNUMjIzOGVkY3RTT1BZ?oc=5",
-   "outlet": "TradingView",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Amazon",
-    "Intel"
-   ],
-   "summary": "US equities sold off sharply, led by Amazon and Intel, raising concerns about AI spending sustainability and PC demand.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-a0fcfe73be",
-   "ts": "2026-10-30T13:37:26+00:00",
-   "title": "Market Chatter: Meta, TikTok, X Lose Challenge Against UK Regulator Over Safety Data Requests",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTUyZ25BVm1qRVZqb2RtQzI0VlNwamhlUDBzbXF3NGktUW52aVpQcFd6NW40SUZXR1BFa0J1T1JRZHRVQWR2R29HdFl4ZGdCamlUWUotS2xMb0QzWjlzMm1XbmlxZnplWVNJcTNXdmRXaW9jNnY1NHBMUlVLTTNBd3NTb1RWV3dpUVBFVU9PZGFpandGLTM1NDJLVGI?oc=5",
-   "outlet": "Yahoo Finance",
-   "also": [
-    {
-     "outlet": "marketscreener.com",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY0ZLNVF4OENJOGs1RkpXZ0ZjODRlZkZpUXIxcmFGd0dqZzFLZFplRWFTOEZZd1hzTjV4QVA4OF91eThwTW5PRnR1X2dyWkxWZEFJNmpjSHdVOFFhRkZBNGRRY0RzVkF3SFdsYlJyLWVkMERNdXVuSF94TWowMGFIQkJuY1VuRTdYOGp0S0ROVFE3VmFNRkM5OTl5WXJTZFNhUTNkZkQ4emo0bHkzLXJCSDliZ3ZLalpLSlExeXBvcUdCSWhJWlhB?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Regulatory",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "Meta",
-    "TikTok",
-    "X"
-   ],
-   "summary": "Meta, TikTok, and X lost a UK legal challenge against the regulator's safety data requests, increasing compliance risk for major platforms.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-26d393a2a3",
-   "ts": "2026-10-30T13:36:23+00:00",
-   "title": "AMD stock falls after Intel Q3 earnings flag PC slump, supply limits",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03WGhQN1lFOU5lR1ZLNWFYdmRmZjNKTjBrNW9DX1FZbkpaVDczTXYwUG91VDBVYkwxNVJROXhmNFk2UG9ST1UxRFo3b1VfbUNpcUF2NVJ0WXJnbFo3eUQzUE85QVdqMEZwY1NBZ0xVWTkwRzhhb3I0TA?oc=5",
-   "outlet": "Quartz",
-   "also": [
-    {
-     "outlet": "Quartz",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03WGhQN1lFOU5lR1ZLNWFYdmRmZjNKTjBrNW9DX1FZbkpaVDczTXYwUG91VDBVYkwxNVJROXhmNFk2UG9ST1UxRFo3b1VfbUNpcUF2NVJ0WXJnbFo3eUQzUE85QVdqMEZwY1NBZ0xVWTkwRzhhb3I0TA?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "AMD",
-    "Intel"
-   ],
-   "summary": "Intel's Q3 earnings flagging PC market slump and supply constraints dragged AMD shares lower, signaling broader semiconductor demand weakness.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-d3abcfcb01",
-   "ts": "2026-10-30T13:35:57+00:00",
-   "title": "Estée Lauder partners with Microsoft on cloud and AI initiative",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaXFkUnp4OV9CT21yRUtUUnpkS1RPTjVNY2ZKMWhjSHB3VVNzSVA4S0VOd0NZZjlERzRJdUljM01lS0ZPajc3cU1XLTZkbklGYUs3bDZqcDBfb3hUYW0xbGxFZ0V1N0F3MUdNR3NTZm1SWlB3WGV5clpYcDQ5Y1JPRGNNN195MHZnUU95ZWdEOFhna2JfRllXVlNQdmE4OV9uWTlyR1VZbEQwZE8zTXVSZnBPUEpIb3djOWxOaQ?oc=5",
-   "outlet": "Investing.com",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Estée Lauder",
-    "Microsoft"
-   ],
-   "summary": "Estée Lauder announced a partnership with Microsoft on cloud and AI, highlighting enterprise adoption of Azure AI services.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-eb8b67ea36",
-   "ts": "2026-10-30T13:35:41+00:00",
-   "title": "Nasdaq tumbles at open as Amazon, Intel add to AI spending woes",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUGoxdmNjVFVxQVJjOVlSbmlKVnhQRkpQLTVFeHVZblFwajVlUUxKVEpFSDR2UUwzSkZaWEQxc2paNWt2Zkt0SVFuSEhmMEpzb3dmdEhYNFlFaGNCcnZjVnVEZ3A5bTNnTHh1cVlaNWxlOU9TaTkwbmNMbHEwN20wblJtLUgwekFFNkl3S0RSYXZIMWpaeVZINWJLTTdESGZNSnFyWDgwUldraVV6WDBlMXZJT3RRTmM?oc=5",
-   "outlet": "The Standard (HK)",
-   "also": [
-    {
-     "outlet": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdm92N0pCd0hrOW5ydFdRZ3pibm5LYkU4NzlsemVnTzdnWjZDZnY4cTV5RjRJMUlVWEdGaHpmV2JJWHh1SjlMZzFUWmxhT0I3TkNmRWhGREpodXJWbWxkTHVnOURpWjl6ckpoV3d6VERQb2sxekZWOUFlQ2k4anA0NkZyejhnZXpTZDJGNG1tNURlMUNXc3ZVZVh3UkZCZw?oc=5"
-    },
-    {
-     "outlet": "Central Oregon Daily",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZERVODVpV0R6WENyeTd3d1NKOHRjd1FudnRfUkNYZDVmM3RobXFiY3NmXy1aaFlOX3REQlc3Mm5adXIwU0hYOG1Ed1FwV3JjaEo3b3otWlVKdE1ka2N1Z3h4MnZCRW1HQlNWRHdTY1ptNWJUcmtUOU45M1Bmc0FHajNsWW1qS0NfU014dHd4QW0xeEFuc1Z6djRMV0o5UXROX0hJMkhPeXdxZklySTFwdDdnQUw3X0dxWG1FdVNRYVRKLXF0SFJ2T0JMZmlZXzJ0Qm11b05QVlJMVDc1ejlWbkJxVXBZN0lBajJkS0xUUWR6RmM?oc=5"
-    },
-    {
-     "outlet": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdm92N0pCd0hrOW5ydFdRZ3pibm5LYkU4NzlsemVnTzdnWjZDZnY4cTV5RjRJMUlVWEdGaHpmV2JJWHh1SjlMZzFUWmxhT0I3TkNmRWhGREpodXJWbWxkTHVnOURpWjl6ckpoV3d6VERQb2sxekZWOUFlQ2k4anA0NkZyejhnZXpTZDJGNG1tNURlMUNXc3ZVZVh3UkZCZw?oc=5"
-    },
-    {
-     "outlet": "Central Oregon Daily",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZERVODVpV0R6WENyeTd3d1NKOHRjd1FudnRfUkNYZDVmM3RobXFiY3NmXy1aaFlOX3REQlc3Mm5adXIwU0hYOG1Ed1FwV3JjaEo3b3otWlVKdE1ka2N1Z3h4MnZCRW1HQlNWRHdTY1ptNWJUcmtUOU45M1Bmc0FHajNsWW1qS0NfU014dHd4QW0xeEFuc1Z6djRMV0o5UXROX0hJMkhPeXdxZklySTFwdDdnQUw3X0dxWG1FdVNRYVRKLXF0SFJ2T0JMZmlZXzJ0Qm11b05QVlJMVDc1ejlWbkJxVXBZN0lBajJkS0xUUWR6RmM?oc=5"
-    },
-    {
-     "outlet": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeUpPeU9EN2dqcDRHR08tajFMRHgtTDNPMlZnRFZSUGRaRTNveURVbGJKUlU0ZXRFeGJCN3l6U1czVDZHRkdZN1h1cHNveHhVX0dmUHR6Z0VvVnkxcHpfUGNFYXpNY0tESjBqSU9qaEdVZ0hTYXFEWlNJR045dTNQNWdVXzJkQ3VjMVR3UEtNeXo0T1cyXzZ0U3g3bzFQYkpudmhQeXFEcmp5aExmemNGeW1FczhubXVHZ25j?oc=5"
-    },
-    {
-     "outlet": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeUpPeU9EN2dqcDRHR08tajFMRHgtTDNPMlZnRFZSUGRaRTNveURVbGJKUlU0ZXRFeGJCN3l6U1czVDZHRkdZN1h1cHNveHhVX0dmUHR6Z0VvVnkxcHpfUGNFYXpNY0tESjBqSU9qaEdVZ0hTYXFEWlNJR045dTNQNWdVXzJkQ3VjMVR3UEtNeXo0T1cyXzZ0U3g3bzFQYkpudmhQeXFEcmp5aExmemNGeW1FczhubXVHZ25j?oc=5"
-    },
-    {
-     "outlet": "WTVB",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbUZJSXNrdHczZ0xDazBidW1OWHQza2RXekZFWXFOYTlSYmlWb1FUdERDbFk4ZGJVZFdNZ0M5bFZMMFllNEt2OE5DS1ZOTkszNXpETmtLblljN0otQUFrV1JOajlrbVBKZ2R1TEJIaGdOVkFTX0pHRG1leEljaXNLbjQ3NlMxTDBIN0t3clY1c1d3QnhTeFN5MQ?oc=5"
-    }
-   ],
-   "source_count": 8,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Amazon",
-    "Intel"
-   ],
-   "summary": "Nasdaq fell at open as Amazon and Intel results amplified investor concerns over AI infrastructure spending returns.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-ef5700b670",
-   "ts": "2026-10-30T13:35:40+00:00",
-   "title": "UK's CMA opens investigation into Meta's terms for publishers and advertisers",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQmdZSUNubThrN1F0Z25oYTlqNWdPVzdQUlN4YWRIOW16UWhQbXdTTDA3RXJHWFlVZUF1ZElXQ0FPYUxSVXdGcDFqdDQtdUQxSnJvbk4xaU9sSzFqUTdGWlQyZjJOUUdaRDJOOUZIVllPQ3VqelNyMXVRTzVQVG1oVXBmRUJIMHpHYV9kbzUxYTN4d1dvUnJEUEVGbElwVG9HdUZ3TDNQQ1hOcW91SGpZYm01TlVsRHM?oc=5",
-   "outlet": "Reuters",
-   "also": [
-    {
-     "outlet": "marketscreener.com",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDlQbkhTQmdUOXl5bHYtQlFzUW5uRG5iSmFObVJBTGU5M0Z4clNyNXpzWGp0QkFCWDJEaVNaRTZqQzBLc09vSUlEUTlFQnRWaXpod08wUDFQWWVyenllelR5MjlpNzlrZmdfSm1YejR1MlRkeWFpSElxV3hRcHhHa2RHQmNyWWdZdXlxNEJnZnpxS0VKRzdPWnVIZHpIc2ZYQXQyaXNZUW4wZ01FLXNZQmFvQndhdmdtTDBPRkVjUkVUTjFPd2x4ekp3?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "Meta"
-   ],
-   "summary": "UK CMA opened a formal investigation into Meta's commercial terms for publishers and advertisers, increasing regulatory overhang.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-ddedbe8d23",
-   "ts": "2026-10-30T13:35:32+00:00",
-   "title": "Apple’s holiday guidance to be in focus during Q4 results (AAPL:NASDAQ)",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGtXOUozTTlNQVVlSGpMUFcydVlpc3UtanpKeGpfaGwwV0x1VmV5SnJlVlRTbUF4Y3pKbmpMeTFVdzJVWFlMekZqbmNPSmhLbm96SWp2Q3o3YzFqM040WDB3TVlWcUhlSzk0WjFaTUpjNjJyNk1CbnJ4TDhnZTF3RnoyZDRNeDFON2VCSDlpelZ6c1BZdE9iRDN3?oc=5",
-   "outlet": "Seeking Alpha",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Apple"
-   ],
-   "summary": "Apple's Q4 earnings preview focuses on holiday quarter guidance as a key indicator for consumer hardware and services revenue trajectory.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-9097dafc0e",
-   "ts": "2026-10-30T13:35:01+00:00",
-   "title": "Palantir heads into Q3 earnings with strong demand signals, but valuation concerns persist (PLTR:NASDAQ)",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY3lRYjZxbDJhSjhuSTFPM3VuTS11cnZad29nUGpUZnBVQm5LcmxycFNPTS0yOFVaV1ZIWjFqQnNPWllidkpfbUVzQUxBSzZMTm9DZUJfNnc4YU9VSmZYWkdkR1lXZ3R1NVdHVkN4RHFuMkhtblpuUC14VXN6SVRYWmpoWTRMODEzcFV0dk50MlV6amlteGNVNGFRRy1CNld6ai1SY1BUdUJhU19kcU00X3FlM0R2al9GNnNEWnFJRkI4dTRqdHc?oc=5",
-   "outlet": "Seeking Alpha",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Palantir"
-   ],
-   "summary": "Palantir enters Q3 earnings with positive demand signals but elevated valuation multiples remain a concern for institutional investors.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-6dafa3f11c",
-   "ts": "2026-10-30T13:33:44+00:00",
-   "title": "Meta, Amazon And Alphabet Face Cash Flow Challenges Amid AI Boom",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVDQtUURzbXNxeXEzZkFpUHBmV0dCOTZDSFZqdXFHTy1zdEMxZnlyX1hEN0hDbE0zUGhhUTNySmNycHF6Mkc0dm50UURySTNsdUtoUWpRM0ZfeFc1ajl6c0l6ZzNlcGg2dWUxUFNCWktHNFk5cFNFMzFTME1VZlN3aU85aHZHTE9NZTY5RmlJamhsQVE?oc=5",
-   "outlet": "tippinsights",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Meta",
-    "Amazon",
-    "Alphabet"
-   ],
-   "summary": "Analysis highlights cash flow pressure on Meta, Amazon, and Alphabet as AI capital expenditure accelerates, a key concern for equity and credit investors.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-79cc4ce6f1",
-   "ts": "2026-10-30T13:33:33+00:00",
-   "title": "Anthropic Enters Consulting. Apparently, Prompts Aren't Enough",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaXNiOXd6VnNMVTlVNG1KRXEyc000Z3N5U2hBb3A3VnNCRXd6ZEs2bFpUUjMxaFlxbTdXamNiVi1SQjlJMzYtTzlGcFdEMm5YV0dqLUN1dEltczhmNExqUzR2aEozb1l3U0VqbmlfYnROb1BPc0lyMXVyd1lmM1l4TTlPMA?oc=5",
-   "outlet": "Sebastian Barros Newsletter",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Anthropic"
-   ],
-   "summary": "Anthropic is launching a consulting services business, signaling a strategic expansion beyond model licensing into enterprise services revenue.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-e1e0bfb4af",
-   "ts": "2026-10-30T07:25:40+00:00",
-   "title": "Anthropic Says Enterprise AI Adoption Remains in ‘Early Phases’",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWm93clFxa0N1RmJ3N3oxWEN1cUx5NjB5WGdfallYRFhmMXFiTHF5dDktRWpXNnNnVWgtMDFxRHJqSzN5YUlPLU9wTjZ3QThZVkRQbTB6ODJzWWhxUDA1cWpuYWJDQ1czSGc1b1B6M1dfY25kSkUxcnFoVlB5NTBZQ2s0ZEE4TDN5WGxkMmVLTndXUFBZc1VZNzlkTm1EbGYxMzByZA?oc=5",
-   "outlet": "WSJ",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Anthropic"
-   ],
-   "summary": "Anthropic characterizes enterprise AI adoption as still early-stage, signaling runway for continued investment and potential dampening of near-term revenue expectations.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-1381763b61",
-   "ts": "2026-10-30T07:25:04+00:00",
-   "title": "NVDA Stock Drops: Nvidia May Back Data Center Loan Its Own Customer, Analyst Sees Little Impact From Intel’s Weak Report",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNVG1Ba2FuOGJIWmwtZXZoM0d2VVRDQUhZeHFxS3NFeHFmQ29BTHVXZWxYUlZwVUVoQ2tRRGZlMDR0clMycXhzVEtEVGl3SEQ2aXUtdHFaV0ZGRzdvTnFvODZzTjNIajNoZjdLWURGWXFLT2Z5ajZlTm9FeExsNnN4MXVSUUg0VGlralU5SThacjQzcWJadjZINWFxX2laUm9ZeDJwVnhERjJWc3Y1dFBQZnAzdzRIXzl3RGc5VTJGU1JpQUFXN2NXc19mVkxockZwU3ZFUnhMakR6RkVOa1lObU5KSTB5SHczdEd4ZHFjUmt0N2x2bzhMUlBsSnB1UjNGakwxTjg0NHc0Rzg2M1Yw?oc=5",
-   "outlet": "Stocktwits",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Capital Raise",
-    "Partnership"
-   ],
-   "companies": [
-    "Nvidia",
-    "Intel"
-   ],
-   "summary": "Nvidia reportedly considering backing a data center loan for one of its own customers (Nscale), raising related-party financing questions; analyst sees limited read-through from Intel's weak report.",
-   "importance": 2,
-   "deal_status": "rumor",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-10-30-45deccec89",
-   "ts": "2026-10-30T07:22:00+00:00",
-   "title": "[마켓뷰] AI 투자 우려에 코스피 ‘직격탄’… SK하이닉스 7% 하락",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTWQ2Z1I3ZEVkeXYtT0g2a1I1TUUydUZqU0pzVXlmMjNfUE9ha2ljYVZnQ04waENDQ3Y2TkQyS1BJNTJHbVM3eFFGTUs5UXdBRmhsSTE0YWxXcHBlV0VJSUpoQmhhYWx3WjVmcXliYmZ2RWp1OV8zajA5YnRjR3NiamJkY3NOcktx0gGcAUFVX3lxTE5KT0ZEcjFBX3lfYjFISXlJS0Y3Y0JQRG9kMTFteUVGeDNWS2c5Ym5rX2ZwX25JRW8wWmplMTUzWEFHaktjakNoaHRYNk14aE5GeXU2dXJ6NGRyZm40Q1g1LVdWSi1FbG03QnpRRWxMS3ZpQ0Y4c215M0tzeWliblpiRHRGTGJtd3lNZm9jd3JTeEU2bXYtRUZIMTFsTQ?oc=5",
-   "outlet": "Chosunbiz",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Markets & Macro"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix shares fell ~7% amid concerns over AI investment slowdown, weighing on the Korean KOSPI index and signaling potential demand risk for memory/AI chip suppliers.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-45deccec89",
-   "ts": "2026-10-30T07:22:00+00:00",
-   "title": "[마켓뷰] AI 투자 우려에 코스피 ‘직격탄’… SK하이닉스 7% 하락",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTWQ2Z1I3ZEVkeXYtT0g2a1I1TUUydUZqU0pzVXlmMjNfUE9ha2ljYVZnQ04waENDQ3Y2TkQyS1BJNTJHbVM3eFFGTUs5UXdBRmhsSTE0YWxXcHBlV0VJSUpoQmhhYWx3WjVmcXliYmZ2RWp1OV8zajA5YnRjR3NiamJkY3NOcktx0gGcAUFVX3lxTE5KT0ZEcjFBX3lfYjFISXlJS0Y3Y0JQRG9kMTFteUVGeDNWS2c5Ym5rX2ZwX25JRW8wWmplMTUzWEFHaktjakNoaHRYNk14aE5GeXU2dXJ6NGRyZm40Q1g1LVdWSi1FbG03QnpRRWxMS3ZpQ0Y4c215M0tzeWliblpiRHRGTGJtd3lNZm9jd3JTeEU2bXYtRUZIMTFsTQ?oc=5",
-   "outlet": "Chosunbiz",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "Duplicate: SK Hynix shares fell ~7% on AI investment concerns, with broad KOSPI impact — market-moving for semiconductor sector.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-bbaaac6d15",
-   "ts": "2026-10-30T07:19:41+00:00",
-   "title": "Nvidia releases statement on Vera Rubin platform specification changes",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IODJOS2dPb1RYdWVZYzZQZDVDR3ZzdkFZczdMd1pqT2JYdEpkelVJMDMxa0ZLclQ4cGE1UmEyS2EzTkJaVmQ2Q1daRQ?oc=5",
-   "outlet": "超能网",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Nvidia"
-   ],
-   "summary": "Nvidia issued a statement regarding specification changes to its Vera Rubin platform, which may affect customer planning and supply chain timelines.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-a97b954e57",
-   "ts": "2026-10-30T07:18:45+00:00",
-   "title": "Nvidia (NVDA) Eyes Multi-Billion Credit Guarantees for Nscale AI Data Center Expansion",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb0xXYW9LUjRORnF4REN3SGFfU3pEUmV4bHphN2V5UFBxUDk0dXRLNEROSndCOHd3NUZQdG8tQXoyVUtCMGJRSlRFZTd3N3pHZVNKODZkcGtZREdDZXBfcEFzamxGVWNKdXRXREEyNEtNWXBPUzBBd2Q1SVhJejVWUWE3c252UWpYVWRpdi12cDcwbjkzcGh6SmZKaTcybExaY0xvbXFZUWY0cUNzNGtZT0JrRkZ5RV9SaUU5SjdYYw?oc=5",
-   "outlet": "GuruFocus",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Capital Raise",
-    "Partnership"
-   ],
-   "companies": [
-    "Nvidia",
-    "Nscale"
-   ],
-   "summary": "Nvidia is reportedly exploring multi-billion-dollar credit guarantees to support Nscale's AI data center expansion, a notable related-party financing arrangement that could signal Nvidia deepening customer financing commitments.",
-   "importance": 2,
-   "deal_status": "rumor",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-10-30-38911965b4",
-   "ts": "2026-10-30T07:17:30+00:00",
-   "title": "코스피, 美 빅테크 실적 충격에 '5700선 후퇴'…코스닥 3.83%↓",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CYVdpbzRXMjBCNTlvaXdRTHhhU3RYNUVHbVh3bWotY1JzZ3JtQXBaUk83V1AwR3oteDE2OEwzZ3lsVGdRcERSbkpKeUc4Q01POFRzVjQydE1NNEdxdkhscQ?oc=5",
-   "outlet": "프라임경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [],
-   "summary": "South Korean KOSPI retreated and KOSDAQ fell 3.83% following earnings disappointments from US big-tech companies, indicating broad market contagion.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-c6bebe6a2a",
-   "ts": "2026-10-30T07:16:51+00:00",
-   "title": "SK하이닉스, 일본서 첫 파트너스데이…반도체 협력사 20여곳 참석",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBidXdMWEN2dzc5TGR6Q1NSbTdZVS1HWTczdVRwOUkxRGFrRHJsUlNNUXpfdW9JdmQ4WjFWT3ZMR1R6ZDB1U1dlWVVUYURHSXhKTklZVThxMEk3TENjMGp1eThCR2NnQ0FiRGpn?oc=5",
-   "outlet": "서울타임즈뉴스",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix held its first Partners Day in Japan with ~20 semiconductor supply-chain companies, signaling deepening regional supplier relationships.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-234ed31ea7",
-   "ts": "2026-10-30T07:15:41+00:00",
-   "title": "China Moves to Restrict Export of Advanced Solar Manufacturing Technologies, Escalating Green Tech Trade War",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPM3M5UDZ0cnFydjhYU2ZKOHl3MGhfTE5tSlFCaVYxUGV6bmxjNzRha0o3eFFLbll6RXRiX2lCQWltWks1SmpHek8zS056dVNvUml2TnlFNzJfN1dEaHdGTFdpYmVieFFad01PSW5Sb3FtSUpUaTNUSFFLbzJ4ZFlYb2szcHZWTGZnZ1Z2NlY5Sl9NZ1pod3d3cG91OF80Y0VYMmpvSk83WjMtRlZxRENYUkx6amR1dDJhMjZWajVtTnVraHNTeVZnSWVDaUticGFU?oc=5",
-   "outlet": "Vocal",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [],
-   "summary": "China announced restrictions on exports of advanced solar manufacturing technologies, escalating green-tech trade tensions with potential supply-chain and regulatory implications for the sector.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-606adc8f73",
-   "ts": "2026-10-30T07:13:56+00:00",
-   "title": "엔비디아, 내달 6일 네이버에 1.3조원 납입…3대 주주 등극",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96UC1qQ1dkb3NsaTJLdmlWWGN2Y2pQbGt0RF9tYVI3VFJRLVY0M24wOFNGaU92Q190SDlhTU5yNHNySGQ4TW9VYUFCYzFtNFY1dVNKSkZpMFJYMnhpNjl3?oc=5",
-   "outlet": "MTN 머니투데이방송",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Capital Raise",
-    "M&A"
-   ],
-   "companies": [
-    "Nvidia",
-    "Naver"
-   ],
-   "summary": "Nvidia is reportedly investing approximately 1.3 trillion KRW in Naver on November 6, which would make it Naver's third-largest shareholder, representing a significant strategic equity stake.",
-   "importance": 2,
-   "deal_status": "rumor",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-10-30-62bda211b4",
-   "ts": "2026-10-30T07:13:00+00:00",
-   "title": "[리포트 브리핑]삼성전자, '3Q26 Review: 사상 최대 실적, 메모리가 이끌었다' 목표가 500,000원 - 교보증권",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MQkFNY2h0M0xPSF9JRUpGNUtwTVdUMzBnOFQxUUdyUEpkMWU5akR3RWlSdVM1dk5ZSDdsaUk0YVI1LXM5aFJhUzB0V0lWZUoycVZrVlZaN1pqX0tt?oc=5",
-   "outlet": "뉴스핌",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics"
-   ],
-   "summary": "Samsung Electronics reportedly posted record Q3 2026 results driven by memory semiconductors, with a broker target price of KRW 500,000, signaling strong HBM/DRAM demand cycle.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-c1efa1b80b",
-   "ts": "2026-10-30T07:12:04+00:00",
-   "title": "Intel Slows Its Growth Forecasts as the PC Segment Remains Under Pressure",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVEo3c0ZuOGRTMnM3R3VfbmtlY1RtSVN4bmxfVWZwSzh6MzVYbGplc0M2d1lBNWJsc0w5UlNPcS1va0RZV3NfYy1yWmpOeGtHQ0FKbm13SE9XWmRvc25RektSU1lLWlVCeUhDVzdNR3ZaUGdTOURaLTR2NHBPTlB0Ujl3QUpHTm5QVEtXMDA3Vm5nRFlUYnp4MV9iTlZmeGVKOXlIVUxNOGZGTG5OZGkxLU9RTzEyN21TRG0yZ3dfaw?oc=5",
-   "outlet": "Electronics For You BUSINESS",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Intel"
-   ],
-   "summary": "Intel slowed its growth forecasts citing continued weakness in the PC segment, signaling potential downward pressure on revenue estimates.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-cc584dc8e0",
-   "ts": "2026-10-30T07:11:00+00:00",
-   "title": "Stora Enso's Board of Directors approves demerger plan to separate Bergslagets Skogar into a new listed company, announcing strategic targets and dividend policy",
-   "url": "https://www.prnewswire.com/news-releases/stora-ensos-board-of-directors-approves-demerger-plan-to-separate-bergslagets-skogar-into-a-new-listed-company-announcing-strategic-targets-and-dividend-policy-302924696.html",
-   "outlet": "",
-   "also": [
-    {
-     "outlet": "",
-     "url": "https://www.prnewswire.com/news-releases/stora-ensos-board-of-directors-approves-demerger-plan-to-separate-bergslagets-skogar-into-a-new-listed-company-announcing-strategic-targets-and-dividend-policy-302924708.html"
-    }
-   ],
-   "source_count": 2,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "M&A",
-    "IPO"
-   ],
-   "companies": [
-    "Stora Enso",
-    "Bergslagets Skogar"
-   ],
-   "summary": "Stora Enso's board approved a demerger plan to spin off its forestry unit Bergslagets Skogar into a separately listed company, with new strategic targets and dividend policy announced.",
-   "importance": 2,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-10-30-7c84627988",
-   "ts": "2026-10-30T07:10:48+00:00",
-   "title": "SK하이닉스, 日 핵심 협력사 20곳과 파트너스데이…AI 반도체 공급망 강화",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14QXpETUR3WmJRZTlXUnJrYkQxaEdZZ1pRVEVxV190cHN2RzVsakZJSGI2TjNLOEhqV240T0VBUGRwUWlhdHR2emludGJhVi1ybmgtUnRCMDQtQ0k5WVUwM19Pdno3VWZRSFZ3Tg?oc=5",
-   "outlet": "뉴스락",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix held a Partners Day with 20 key Japanese suppliers to strengthen its AI semiconductor supply chain.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-debb512e08",
-   "ts": "2026-10-30T07:09:54+00:00",
-   "title": "KOSPI Closes Down Over 3% as SK Hynix and Kioxia Both Plunge 7%, SoftBank Drops Nearly 6%",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQYm83YWpBNDBDSXVZeFZCWElQUEtKVzh4MVZlTF9IQUFDbDRKbC04b2hsZmx1dkpmRnluVURHbEZldVBDa195dld0X0lVN05oc29uNkdYTlVOcHUwZERGOGVEY0VMRllqSkVrcmNDcEdEWXgtclh3bm94cWNOOGdPamljVFMwTWVDekUta014bm4xNENwbXVOSUZuZGZDeXdtdll6ckFLWXBTLS04WENkMWVyNGY0aTU4T2VBQ3hwdjlreXJoRENHSkVJcGV2RVJ5QlNvb3dPbHpQelAzS045dkZXZEZpY3dU?oc=5",
-   "outlet": "TradingKey",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "SK Hynix",
-    "Kioxia",
-    "SoftBank"
-   ],
-   "summary": "KOSPI fell over 3% with SK Hynix and Kioxia each dropping 7% and SoftBank down ~6%, signaling broad semiconductor and tech sector sell-off.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-04688e56b0",
-   "ts": "2026-10-30T07:09:00+00:00",
-   "title": "Intel’s $600 million question: How the Kiryat Gat explosion hit its forecast",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5Y05FNGdTTklnN1RoMFlmUTNzNVo4RXZFZ1ZrOEd0Ujd5VHM5bDJMZXNVcXVCUGJjQnZzdWotaXpXSXEtT24tV0FxQXc5TzFuUUdQSEJmYVJvdDFKcldHY2ZxLTBfZFk?oc=5",
-   "outlet": "CTech",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Intel"
-   ],
-   "summary": "An explosion at Intel's Kiryat Gat facility created a $600M forecast impact, materially affecting earnings guidance.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-4879e7964d",
-   "ts": "2026-10-30T07:08:00+00:00",
-   "title": "삼성 파운드리, 스마트폰에서 AI로 중심 이동…내년 HPC 매출 50% 돌파",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYeUtCdk9yS1lVWXYtc0FjdmVVTllJdUxuamF4dEZRTVVlZEZuRVhCcTg1QVJydTZqRHF0TFNYdHRVbU1iTTZFamN1Qm5Ydmc3RWYzTmZmUTQ2NElH?oc=5",
-   "outlet": "뉴스핌",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Samsung"
-   ],
-   "summary": "Samsung Foundry is pivoting from smartphones to AI/HPC, projecting HPC revenue will exceed 50% of foundry sales next year — strategic shift relevant to competitive positioning.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-4879e7964d",
-   "ts": "2026-10-30T07:08:00+00:00",
-   "title": "삼성 파운드리, 스마트폰에서 AI로 중심 이동…내년 HPC 매출 50% 돌파",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYeUtCdk9yS1lVWXYtc0FjdmVVTllJdUxuamF4dEZRTVVlZEZuRVhCcTg1QVJydTZqRHF0TFNYdHRVbU1iTTZFamN1Qm5Ydmc3RWYzTmZmUTQ2NElH?oc=5",
-   "outlet": "뉴스핌",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Samsung"
-   ],
-   "summary": "Duplicate: Samsung Foundry AI/HPC pivot story — same as previous item.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-28f785046c",
-   "ts": "2026-10-30T07:06:00+00:00",
-   "title": "코스피 3.48% 급락해 5730선 마감…외국인 1.6조 매도에 사이드카 발동",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1pYl93VXZPd29rc09ZVk92dFBmdjAtaHlBWnp2ejJwbG9Uc25zUm93ZDhkdmZtTnFra0J1SmFTN1hsSzF0OFVaUjI0ZHMwUHN4dXJXbw?oc=5",
-   "outlet": "이투데이",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [],
-   "companies": [],
-   "summary": "KOSPI dropped 3.48% to ~5730 with foreigners selling ₩1.6 trillion in shares and a sidecar circuit breaker triggered — significant Korea market dislocation.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-b4b0f25748",
-   "ts": "2026-10-30T07:05:23+00:00",
-   "title": "Amazon's AWS Machine Is Flying. The Cash Flow Is Not.",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX3kwQ0toaTdtSENHZVV1RFFHSVNSb3VXRUdpVDZiSHJaTFFSd1QzUDRVbzE0RmwxZl9DRDV3WU02VTh3blgzMHdLUlNqd3VnUXlWNzJVallTZkFQY1pwU1hmX3RHc0dSLTRyMklwVUN4SDRta0Y0WHg3NTRkUVJJSE5qX0pxUnVuSlR0bUxoWl9WaUE?oc=5",
-   "outlet": "Money Morning",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Amazon"
-   ],
-   "summary": "AWS revenue is growing strongly but Amazon's overall free cash flow is lagging, raising concerns about capital intensity of cloud/AI infrastructure build-out.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-7ee1acfd76",
-   "ts": "2026-10-30T07:04:49+00:00",
-   "title": "Intel's Data Center Business Exploded. The PC Side Still Sank the Stock.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNjRwVElQTlB2SS1KQkhUOTJVX0VZMGxCTG05TDlGcl9iSTlKbm5ybGI4SjJZbVQ3YjR4NFdKQXFQdm1PbkVPSVJ1UmdIdXBjbmpwclVaVU52NG5ieUFnSU9aRjRCNnBWWjA2SXdwVlZNUDZ2WldlNWY0dE9DWjdzQjJNbXFvaVdTai1USVlpQ3VaMTQ1aVQtWQ?oc=5",
-   "outlet": "Money Morning",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Intel"
-   ],
-   "summary": "Intel's data center segment posted strong growth but weakness in the PC division weighed on the stock — mixed earnings relevant to segment positioning.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-63f508f782",
-   "ts": "2026-10-30T07:04:00+00:00",
-   "title": "SK그룹, 2027년 사장단 인사…하이닉스에 미주총괄 신설",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aOEhJcVdlbW9XSTlCaXhJUGpPNXFiUDBVNjdLTzFxZmo4QnpvTGp5QlJfcm1SNTRzOUVCWFk1Zkp0N2QyU1RfLXlRVjkxZWtJZVAzSktfWGRBc1NkTWxxWjhNQkRWeXVVd2lobllIOGd2V20yd3fSAWZBVV95cUxOT0tIbDZJYkprNWhCU2doLVdSVHY4dUMySG10em9fWG1YS3ZLdDdaVDJnNXZLS3U5czdjUXpFeUViZmttU293VzR3MlFaRXZMQWpPSEdwbUdISkU2S1Nya2pGMHpDT1E?oc=5",
-   "outlet": "동아일보",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "SK Hynix",
-    "SK Group"
-   ],
-   "summary": "SK Group announced 2027 executive reshuffle, including creation of a new Americas regional head role at SK Hynix, signaling strategic focus on US market.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-6b5eb9f154",
-   "ts": "2026-10-30T07:03:16+00:00",
-   "title": "Jio Boosts India to Top of Global IPO Market With Record October",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFvaTU5UlZodXBPLTROVVpCZnpfdG9JaS1OYUtzLVJycV84dlctdnR4d1A0RUhJclRxb3dsN01GSFlqcUtZeS04d0tKSmxFNUVDZ2FuM3NlR1ZSWFpWLVN4WWFfLUtXN3A0a0c0bjcwUHhWLUlkLWY3cWs4R3lKYVB4TGZ5UHdaWlNJY3pKeWFseWpfbEVtR0llQmpJbnlaX3BFeHFERTI0aHd0NzZ6akRHc252UQ?oc=5",
-   "outlet": "Bloomberg.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "IPO"
-   ],
-   "companies": [
-    "Jio"
-   ],
-   "summary": "Jio's listing helped propel India to the top of the global IPO market with a record October, signaling strong appetite for large-cap tech listings in emerging markets.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-033232a477",
-   "ts": "2026-10-30T07:03:10+00:00",
-   "title": "비아트론, SK하이닉스와 3D D램 적층 장비 개발",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nYzU4MEdLWFFubVRacUdoWTh4azQ0TldDN3gtdXVZMGFxSUdjS2JYYVVINVBKdkp2cmpRRmdUdXR5Y292SnR1QmZjQzdYbmJoRWg0YWFmM1JEZ2dneUlHN2N2UlZ0dw?oc=5",
-   "outlet": "디일렉",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership",
-    "Product"
-   ],
-   "companies": [
-    "Viatron",
-    "SK Hynix"
-   ],
-   "summary": "Viatron is co-developing 3D DRAM stacking equipment with SK Hynix, reflecting increasing capex and supply-chain investment in advanced memory packaging.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-db7239b47c",
-   "ts": "2026-10-30T07:03:00+00:00",
-   "title": "[마감시황] 코스피 3.48% 급락 마감…삼성전자 3%·SK하이닉스 7%↓",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91UFVJbDRwNGVoMzhEY2RzbUk5TUNpNHJ1V2xiM21KdzBmbWI2QkFMSEJaZHhjNE5mbXllNnFsdzlNOFVfeGZ3MFktWlhZY1gwTXlBb0I2WE5vQjA0?oc=5",
-   "outlet": "뉴스핌",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics",
-    "SK Hynix"
-   ],
-   "summary": "KOSPI fell 3.48% with Samsung down 3% and SK Hynix down 7%, indicating market-moving pressure on Korea's major chipmakers likely tied to AI demand concerns.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-c5cc896241",
-   "ts": "2026-10-30T07:01:50+00:00",
-   "title": "‘구글 쇼크’가 삼성전자·SK하이닉스에 미칠 영향은… “내년 실적까진 맑음, 2028년이 관건”",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQY2hnVFVSV0xvbGU5SUxCZnhUb2JRSU9NQS1OZmNXd0VWRUx0R1VVa2pmWXluZWU4TDIxTmNrWGl5UkZMb0puajN1MW9MeUtmSjRDbDc1MnpHYUZmMzUtRTJBOFo0ZjhVYTJIU3pVNWJLRXVmcFpXekE2ZEJ1WFMtd0R3?oc=5",
-   "outlet": "Chosunbiz",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics",
-    "SK Hynix",
-    "Google"
-   ],
-   "summary": "Analysis suggests a 'Google shock' on AI capex plans has limited near-term impact on Samsung and SK Hynix earnings but raises concerns about the 2028 demand outlook.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-52bc27ddb7",
-   "ts": "2026-10-30T07:01:48+00:00",
-   "title": "Amazon's satellite business expands in Everett",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE53ei1jcll2MHFQV21aYWdzMFBEUkJOeS1VUWszWEdKRG5yaGlYakgwMU5TYXl3ejBibG1CYkNyZWwxX3ZzbWJDVFdsSEtJekRURF93?oc=5",
-   "outlet": "DJC",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Amazon"
-   ],
-   "summary": "Amazon is expanding its satellite business operations in Everett, indicating continued investment in Project Kuiper infrastructure.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-3318d2a3ca",
-   "ts": "2026-10-30T07:01:47+00:00",
-   "title": "Korea’s KOSPI Slid As AI Doubts Hit Chipmakers",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1bXhhck5QTW1HcDBGQ1JFQW9Ya08xNE4yajBuYWtWeHZHdUx1RXpfSEZheFVMME5lczZsR3ZNNDl4QTRaVzN6ZXVybS10QkNleXprNEhNSGZ5eUg4ZGg1QXc5a1A2M1FoTXk3RzBRY1VzWmQ5VV9BYzB3Rml4bG8?oc=5",
-   "outlet": "Finimize",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "SK Hynix",
-    "Samsung Electronics"
-   ],
-   "summary": "Korea's KOSPI decline driven by AI demand doubts hitting chipmakers, with SK Hynix among the hardest hit — relevant to memory sector sentiment and valuation.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-9c0ea43bd5",
-   "ts": "2026-10-30T07:01:10+00:00",
-   "title": "Tech Giants Ramp Up Resistance to ICE in Bid to Avoid Democratic Scrutiny",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XTWFHVV9ZMEdxaUEzZmVaYWZWeTdiLXBqdVV3NHpSUEFoOTRyMlIyYUhESkNTZmhkOXZkSDI5MTVRYmRlM1BqOGk1eGNiMEFXVklkdFhfczROTVQ4c3JuNWlRREd0VjV1OEZINXhFTUI4UVozZUcxMA?oc=5",
-   "outlet": "WSJ",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Regulatory"
-   ],
-   "companies": [
-    "Meta"
-   ],
-   "summary": "Major tech firms are reportedly resisting cooperation with ICE to preempt Democratic political scrutiny, raising regulatory and reputational risk for large-cap tech.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-927644175b",
-   "ts": "2026-10-30T07:01:00+00:00",
-   "title": "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
-   "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
-   "outlet": "",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Waymo",
-    "Toyota"
-   ],
-   "summary": "Waymo and Toyota announced a partnership to develop self-driving versions of Toyota's electric bZ4X for testing in Japan and the U.K., expanding Waymo's international robotaxi footprint.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-cc141c31ae",
-   "ts": "2026-10-30T07:00:07+00:00",
-   "title": "Anthropic Is the Top Bet for 20 of the Top 100 AI Investors",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV3p1YnF2aTY0UVFzS0FIbGFFbmdzS09oZDZ5NW5jOE9qTEZMV0locktsZ1JzbnNyakpaQXczTlZHR0Z4M0prYk1Kb0kwZnFQaERxR0xwZzRLTWlqMGVXNDhMVndocmQ5a0NWeVpVSm1fclpJSVBSamNLZGwzT05xTGpRMU5kamZ6bDFUd1V4bi0?oc=5",
-   "outlet": "FourWeekMBA",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "Anthropic"
-   ],
-   "summary": "Anthropic is cited as the top portfolio pick for 20 of the top 100 AI investors, underscoring its dominant position in institutional AI venture allocation.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-05b85dafcd",
-   "ts": "2026-10-30T07:00:00+00:00",
-   "title": "Nvidia secures substrate capacity as FCBGA market targets US$27.3 billion by 2030",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd2k5QndiOEJIbkhnMkhxTjV6dUpNTG1KVU85RHdKLWFlNUk4bklVdVlLc2FINktRNjV2dk4zcGVUaW1oZGhjSkxwYTk3VTdyWjRaQnRFSExFUmFIVWd0NTcwNGRTWWlNbTFqVlBLYWxNeVAteFpOajd1RFY1RjlNdmtHVjFsT3QzTVlMV3ozWjFZdw?oc=5",
-   "outlet": "digitimes",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "Nvidia"
-   ],
-   "summary": "Nvidia is securing FCBGA substrate supply capacity ahead of projected market growth to $27.3B by 2030, signaling strategic supply-chain positioning for AI chip demand.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-eb45754a00",
-   "ts": "2026-10-30T07:00:00+00:00",
-   "title": "Key facts: Intel (INTC) Q4 miss; Fab 28 blast; $20B capex; AI demand",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZVFzZURqZ215bG5OMkFXWUpRUHBOekdDWlRuMnBJRV9KNXlXclVTNmU0U0tPWDRvdkJaUTVXT0JraXdwZGVEUTdxYTRQaDlBaWFIV0h6UlRMWkFYQ1FleE5OX3Rnc1dzakE3VkktNmx6b1BzRzU3bHhmdEpOeUROSHVkeWp4eEVjcXVrc29XbHl4b09YemJTeFYydmRmLWRtQUdZM1lyYnhCZDhubEU4UzhpRkx1MnFJUnhycHdEcUc?oc=5",
-   "outlet": "TradingView",
-   "also": [
-    {
-     "outlet": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZVFzZURqZ215bG5OMkFXWUpRUHBOekdDWlRuMnBJRV9KNXlXclVTNmU0U0tPWDRvdkJaUTVXT0JraXdwZGVEUTdxYTRQaDlBaWFIV0h6UlRMWkFYQ1FleE5OX3Rnc1dzakE3VkktNmx6b1BzRzU3bHhmdEpOeUROSHVkeWp4eEVjcXVrc29XbHl4b09YemJTeFYydmRmLWRtQUdZM1lyYnhCZDhubEU4UzhpRkx1MnFJUnhycHdEcUc?oc=5"
-    },
-    {
-     "outlet": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZVFzZURqZ215bG5OMkFXWUpRUHBOekdDWlRuMnBJRV9KNXlXclVTNmU0U0tPWDRvdkJaUTVXT0JraXdwZGVEUTdxYTRQaDlBaWFIV0h6UlRMWkFYQ1FleE5OX3Rnc1dzakE3VkktNmx6b1BzRzU3bHhmdEpOeUROSHVkeWp4eEVjcXVrc29XbHl4b09YemJTeFYydmRmLWRtQUdZM1lyYnhCZDhubEU4UzhpRkx1MnFJUnhycHdEcUc?oc=5"
-    }
-   ],
-   "source_count": 3,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Intel"
-   ],
-   "summary": "Intel missed Q4 estimates, reported a blast at Fab 28, flagged $20B capex plans and AI demand dynamics — multiple market-moving operational and financial disclosures.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-a944a39ecb",
-   "ts": "2026-10-30T07:00:00+00:00",
-   "title": "Key facts: Microsoft $25B bond sale; 10 tranches; Q1 capex $45.2B",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaTVuUTBjb3BPVXFxaTVZdkZwbHBRVjlIZTR0WkVlcGVwa0kweWFJRk5Kd01PV0RFTzhMTTJuNVZrMlFTTk5SczBpYkZhcUw1a2I3TnI2bUpOVm9PVmZqTmxBWlRpbGNCMGZ0S0dqUi1FaVZoM2VIUGk2ZkhNZC1wQnlmQlZJZEhzZDRjVVhLRUlpN1hQSHUyYno2RkJKYlQwd014S1dNUEJvQ0E2NnFXMVFVS3BQcHh0dVljb1dHUQ?oc=5",
-   "outlet": "TradingView",
-   "also": [
-    {
-     "outlet": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaTVuUTBjb3BPVXFxaTVZdkZwbHBRVjlIZTR0WkVlcGVwa0kweWFJRk5Kd01PV0RFTzhMTTJuNVZrMlFTTk5SczBpYkZhcUw1a2I3TnI2bUpOVm9PVmZqTmxBWlRpbGNCMGZ0S0dqUi1FaVZoM2VIUGk2ZkhNZC1wQnlmQlZJZEhzZDRjVVhLRUlpN1hQSHUyYno2RkJKYlQwd014S1dNUEJvQ0E2NnFXMVFVS3BQcHh0dVljb1dHUQ?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Capital Raise"
-   ],
-   "companies": [
-    "Microsoft"
-   ],
-   "summary": "Microsoft issued a $25B bond across 10 tranches alongside disclosure of $45.2B Q1 capex, reflecting aggressive AI infrastructure financing at scale.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-d86275b998",
-   "ts": "2026-10-30T07:00:00+00:00",
-   "title": "Key facts: Alphabet Inc. Class C Q3: Revenue $127.6B; Shares Fall ~12%",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR1FoTUYtVkt2ZjcxRjVYUmszYm9jbDJKYjdIQThOUVR3enZkdzdrUG9ybkYzZDB4UHh1aGw2REJVcE5QU3JHemZMVTdhVEdHNFhhNXc3QU16bGJDdVFfNkxlX29PbEVlVDdIMUc3YWJjdmVSOHpFRkIzMDRSWG1wOGJiOFpiWUYwRGU4MjBtaldHZlFxQm14VnJJclcybmp0MXR2WGUxM1U0V1dyamhhNGt0cjU3Z29BN1R6TFNQUHZJc1U?oc=5",
-   "outlet": "TradingView",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Alphabet"
-   ],
-   "summary": "Alphabet reported Q3 revenue of $127.6B but shares fell ~12%, suggesting a significant earnings miss or guidance concern that is market-moving.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-6a6b6081ce",
-   "ts": "2026-10-30T07:00:00+00:00",
-   "title": "Key facts: Apple (AAPL) Q4 Estimates; M5 MacBooks; M6 AI Chip",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWFlWUUZsU1ZKajFWSnZ5SXpYSmgweDVqdGNDYk5TWnpfNTNEcDA3Y0ZPUGppQkhJN1RGb2xDR1pxUjh6LXZ6blZkY1FtdV8yS1lJc3NrSnhMN1M2UmNjRFk4YlZheW9yT0hpUzJyZWxEWmpLeEpjZ1pUZUVKZEFibEhOU0NKUFF0clI1ZV9Wakl4MEtVS0taQm5jaDdZdVBScnR6cE5pTlFnNnhicDVRcXJieTNPVDVqOVE?oc=5",
-   "outlet": "TradingView",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings",
-    "Product"
-   ],
-   "companies": [
-    "Apple"
-   ],
-   "summary": "Apple Q4 estimates are in focus alongside M5 MacBook and M6 AI chip product roadmap disclosures — relevant to near-term revenue trajectory.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-258bb05dcd",
-   "ts": "2026-10-30T07:00:00+00:00",
-   "title": "Anthropic Is a Revolutionary Business, but Its IPO Is Still an Enormous Gamble",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zblNkSjA1M2N3Q0hrc0ZQWC1UMEluYXJrbXRUSnlSWENfTWdkUkZ0R3dCX3NhbTFFajZkQi1UdHZsdk1aZ3k2YTVmOTlfQlRWQ2pnT3VBMVIxcldpOE9TSFRHeGMwRFNRQ0QwTXZGUzZWMXk1RTQ5MEZ0SQ?oc=5",
-   "outlet": "Barron's",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "IPO"
-   ],
-   "companies": [
-    "Anthropic"
-   ],
-   "summary": "Barron's analysis frames Anthropic's potential IPO as a high-risk event despite strong business momentum, relevant to bankers tracking AI unicorn public market readiness.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-036e80094d",
-   "ts": "2026-10-30T07:00:00+00:00",
-   "title": "Key facts: AMZN $201.9B Q3; $110B Anthropic AWS pact; $78B debt rise",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX2toNThRLWQ4RjZXaFlmeE9NSnl3T3FoWm5QRHZhYUNvQldhakdZaGlHZEpUZWNCeVprZm9NemRVUTR0MkVVUENIN25SZXZXNk1hQ1Ztb3FGYUxvOWhXWjAyZV9UZHdlSWVHOWJHY1g5LXI4VkFJZHRHdWZ4SFNLNDEtLWFWdENJamNJeEZuX2xHWXo1bG0yQzJYRkJYczloaVVfR2g5UjFQbU5TVDNwSW5RcGIxSkZldmxRLXlMZFhmQQ?oc=5",
-   "outlet": "TradingView",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Earnings",
-    "Partnership",
-    "Capital Raise"
-   ],
-   "companies": [
-    "Amazon",
-    "Anthropic",
-    "AWS"
-   ],
-   "summary": "Amazon reported $201.9B Q3 revenue, disclosed a $110B AWS-Anthropic partnership pact, and flagged a $78B rise in debt — a major cluster of financial and strategic disclosures.",
-   "importance": 3,
-   "deal_status": "announced",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-10-30-eca0c8c45c",
-   "ts": "2026-10-30T06:59:00+00:00",
-   "title": "SK bets on stability as Jung Seung-il leads energy, Hynix boosts U.S. push",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRXBEWU1OdUJWeGM0MHlYWERYTXRpWE5fWkFYUkRIcGhxcEUtYVpEVHA4UUQ1LTlXczZId1VyTndZcWNwcTBiYXlVNVVmMjZ1NkFuV19YYU01REdoMXRfZDhvMXpqWExoV0FPOENRQUlwYUxmajFYMTRNYWJzUmpydXBn0gGWAUFVX3lxTFBSWHVKNzk2S1VBREJJR1JWWDVBSnREREFldkFEWWhZUzNyLWNOMXgwVG5qR1F3VkpERnpnQ2VlVEVENHV5OGRJQVVTZ0Q2ZVpkTVZqYmhmQTFYVEtuREJ3eWxzMmhMcGxYcDVqT1djcVM1NHR4ZkMtTFYwcm1jcDM0UGdLMmR0UThkVlYyc3Y1RlpHNkNxdw?oc=5",
-   "outlet": "Chosunbiz",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "SK Hynix",
-    "SK Group"
-   ],
-   "summary": "SK Group is signaling leadership stability with Jung Seung-il heading energy, while SK Hynix accelerates its U.S. expansion push — notable for Korea conglomerate strategy watchers.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-a55c88f67f",
-   "ts": "2026-10-30T06:59:00+00:00",
-   "title": "SK하이닉스, 사장단 재배치로 AI 메모리 2막 준비…\"HBM 성공 방정식 바꾼다\" By EBN",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MUjYwdl9IN3QycldRNkdKbl9tZXhnbzg3dEgxYy1WblpNOFI1enpHMHdFaU9nWHh5WmJlSjE5TTJrREI1VmFRbmt2dEZJWnZDWTlYUVdYczRtcnd0aGlqZTByYzNrbFhoSGlRM3NYVzM?oc=5",
-   "outlet": "Investing.com 한국어",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix reorganizes its president-level leadership to accelerate its AI memory (HBM) strategy for the next phase of growth.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-9c2066ad19",
-   "ts": "2026-10-30T06:58:00+00:00",
-   "title": "전영현·노태문, 삼성전자 창립 57주년 맞아 초격차·체질 개선 강조 By 알파경제 alphabiz",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDdkd0bURRUFltZGhlSGZoNGJEZG1xXzJ4WjlCSWxVX3dNU25JYzFod3FfUWJVaWRQanY2bGFRWkExUng3OURrZk9USFZSMlF6LTVHZzVNXzBmRUd1Zzg0SHl3UVRpeVEyUW9xOEl1X3o?oc=5",
-   "outlet": "Investing.com 한국어",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "Samsung Electronics"
-   ],
-   "summary": "Samsung Electronics' top executives emphasize 'super-gap' technology leadership and structural reform at the company's 57th founding anniversary, signaling strategic priorities amid competitive pressure.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-3166000833",
-   "ts": "2026-10-30T06:56:41+00:00",
-   "title": "미국발 악재·외국인 매도에 코스피 3.48%↓…SK하이닉스 6% 이상 급락",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5tV1lDeUZnSkhZRUZEaTdqZlNUUnU4dFVwcHB5VXNrc2FtMzhYdXc4M2lWcVpYZ0dvSi13UWRlN1A0dC1iWEZTV0cxZW1iR2U1Q1E?oc=5",
-   "outlet": "매일경제 마켓",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Markets & Macro"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "KOSPI falls 3.48% on US-driven headwinds and foreign selling, with SK Hynix shares dropping over 6%, signaling sector-wide semiconductor risk-off sentiment.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-3d3d6f9dd8",
-   "ts": "2026-10-30T06:55:27+00:00",
-   "title": "Alphabet Sell-Off Fails to Derail the Broader Market Rally",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXRsSS1nRkF5NXNvUXZVWHVyeHQ4SGI1UmFPd0xHNTJoNEM5LUotX1Mwbk5LQXlJWnZFU0x4NmYwYzdZVHR4Rktvd2ZJTDlXMmVGT19FOGVZamlDaGdBblJOUHZpU0dLVG5YZjV6MXo2VldQVkdVb0lwb1dMdzBEd3lWRGNRLW1qenVhZ0tabUNzRWpGWncyWEdKMzVIb2dvUVpfSw?oc=5",
-   "outlet": "Investing.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Alphabet"
-   ],
-   "summary": "Alphabet shares sell off but broader market rally remains intact, suggesting idiosyncratic earnings or guidance miss rather than systemic concern.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-afcc2709bb",
-   "ts": "2026-10-30T06:55:06+00:00",
-   "title": "Micron (MU) Stock: $902 After Sandisk’s Beat and a 5% KOSPI Drop That Hit SK Hynix – Bull $1,050, Bear $820",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWHVGb1AyMVQ2Yy1hbjVRWUI2N1R4alhqWEhJc2JJbFhMUloxRG0xbEtQZllCZ3hMX2hRWThGRE01VlR5NUlZdVYwZzRqWnFVU29oWTJlaUJzaVdiQXhoOUwzdFI4UVI3Tk1ISGNmczhQYk1VUWl0LTNDZWh0d1QtSUFXY3BJc3RYdzl3M2tiNERTZXdXOGNkaUROZGpVQ1NJb3JRdDRDa2NvS2ViVjFwTmFLZnRpeVJtU1NWQg?oc=5",
-   "outlet": "FinanceFeeds",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Micron",
-    "Western Digital",
-    "SK Hynix"
-   ],
-   "summary": "Micron stock at $902 with bull/bear range $820–$1,050 as analysts assess SanDisk (Western Digital) earnings beat against a 5% KOSPI drop that pressured SK Hynix, with read-across implications for memory sector valuations.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-881642e399",
-   "ts": "2026-10-30T06:54:30+00:00",
-   "title": "'반도체 쇼크' 코스피 급락 5700선 마감⋯외인 1.6조 '팔자'",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xaGZ0Um1JVk55Qkl0eE9rb1Q3bWtpOG9SS0oyUFFjQjF3UGZFdmZWbWVITXY2T2FLVGc0b2xhc1U2NmVTdU9yZEQ1NA?oc=5",
-   "outlet": "아이뉴스24",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "KOSPI drops sharply on semiconductor sector shock with foreign investors selling ~1.6 trillion KRW, highlighting macro pressure on Korean chip stocks.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-7b025571a0",
-   "ts": "2026-10-30T06:53:24+00:00",
-   "title": "Amazon Has Bigger Plans for AI Chips: Andy Jassy Says Customers Want Them ‘Outside’ AWS, but Selling Them",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdGExTlQzTm4ybm8yenNMZ1JaMEJiUWIzenpMVUx5YjM5ZlQ1NGd4Sno2N2loRlF4T21NQXA5aGpzbnZLRm9GOVVzYXFyOVBfOTVVcWM0UzdGU3paNWczdHgwS0Z2NDB2Yy1wQ1ZkbkxHdHBkY00xalIzeU81UWQtWXJKdktLa3VpM0E?oc=5",
-   "outlet": "Benzinga",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Product",
-    "Partnership"
-   ],
-   "companies": [
-    "Amazon",
-    "AWS"
-   ],
-   "summary": "Amazon CEO Andy Jassy signals plans to sell AI chips outside AWS, indicating a potential new revenue stream and competitive shift in the AI hardware market.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-cfaa10e9e0",
-   "ts": "2026-10-30T06:50:08+00:00",
-   "title": "SFC Environmental Technologies IPO allotment today; check status on BSE, NSE and registrar",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZ3E3aS1vYjkwVjVFSmtyZWxXMWFLbFpfdUQ3TVVNNFJFV1JTbGxhM2lHWEtySTVOelhSTXgwNkZUX05DY29zekpQWHROUVRYdkdySlpuTkZJZ2l1ZW9KejAxU2lMX0RIMzBxaEJ2UERLNFFQVFhxbjN2MXJoOXRnSjNIN3pmNEZMcldaY1RHVFY3RDY5LUFIcllKcVBSVTBFaUoyOUhhVVFCd0ZUZk1fNElyM0lHdG1NV2djZC03c0lxQUZUeTFLdV93elY0cDdySDhzTmYxSjNILWc5U2pMaERFMNIB6AFBVV95cUxOVHREdm5Reld1eXpCaVhvTG8xWC1PYl9iVF9XMlFuQjBwb1FNNnNkZHpUSTZGUlZzcExMRUlhWGZGS1VfT2s0RHIyM1NPY2ZCVlZQanB3c3BiSkdBcWVWSkJFNjRmT2xJaEpXWDJmZjh1SklMQnJrSWtObVFTNXdMN1hKZFA2Y0FxNHRHN05obmt0enJoSFRwTTQ2X0ZoS3Q1endERGpwTVNkeTh0N0xmZmtoTEFHMXREejZnXzhmT3RTakpUUGxrdVpDd3U1VWM3S3dVV3BMYVBjcW1PTnU0ZUFEdmt1YTV6?oc=5",
-   "outlet": "Moneycontrol.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "IPO"
-   ],
-   "companies": [
-    "SFC Environmental Technologies"
-   ],
-   "summary": "SFC Environmental Technologies IPO share allotment underway on BSE and NSE — routine small-cap IPO event.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-02a2631bfa",
-   "ts": "2026-10-30T06:49:12+00:00",
-   "title": "SK하이닉스 7% 뚝, 삼성바이오는 8.9% 쑥… 코스피 206포인트 내려",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2T2ZXZXAyVnpxQ25OUlJMVzd4cWNlU0h4ZWc2WURFZGVTNUY4bS1MYnI2VWJuT204cW03eEo4NWZpdHJPUkVpamdtNC1RN0VPYWZnM0x3aEF0QmxIcEV5cFkwbE1VZm55MGlpaTgwZlZRVnJQMV9CZVE5MFRfUQ?oc=5",
-   "outlet": "서울신문",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "SK Hynix",
-    "Samsung"
-   ],
-   "summary": "KOSPI drops 206 points with SK Hynix falling 7% amid U.S. AI investment concern spillover — market-moving sell-off in key memory chip stocks.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-d3d7c816d4",
-   "ts": "2026-10-30T06:48:16+00:00",
-   "title": "구글發 AI 투자 쇼크에 코스피 5710대로 수익성 우려 재부각…SK하이닉스 7%↓",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yQ2pKQzhZQnIxdlduNW1JLVVYTUwyQUZGdXBreXRBVFlUaHBvMV9iQ25tU0JCeENCbFlFSlYwZG5FTVVvY2QyRmRCRndfOE9xelV5dUFYaTVCSmRNZE91Tkd4NXluYWNxRnFKQQ?oc=5",
-   "outlet": "중소기업신문",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "SK Hynix",
-    "Samsung Electronics"
-   ],
-   "summary": "Google's AI capex announcements trigger profitability concerns, sending KOSPI to 5,710 and SK Hynix shares down 7% — significant cross-market impact on semiconductor stocks.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-cb0129b2ab",
-   "ts": "2026-10-30T06:45:37+00:00",
-   "title": "Marvell Technology (MRVL) Nears Multibillion Dollar AI Infrastructure Deal",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLUR6cEF5Sy1KNm5UeThHVVowUlJxVjNWVlFacS1yN2x6a2xKcDd5SF9XU1BNVV90ZDV3aWdKSzc2aFoxUTc1bnB0NWp4bl9fcXAtQjV5WnZWVnl6c0wzN19zRTYzRWNtSm1PeWhJcTVpMXJHTHpBYXZ3VzEwUUpjMzZYWXVpMk9COVNuQVZmYlJWQUNuU2hBLS04ckszQ1hBdWplX2kzbERXMWFnd3JydF9yMm5pcGdGV19scWhzbDJMMU00VENnLVk1SzhobXhUTnJMMkhGazc2d1nSAeABQVVfeXFMTy1YLTNCQ3VoQ084cXRBZTNtdnZyQ3IxU3Rnc0ZnczJMT0VBdzNsaGVmUHBFUmJ0MTJMMnFrTkJzMEFvd1UwU0xhMTJQQ2M3SE91c3V3UUp2X2hyRnVPbGtRTlF6WUctQnNWRVhRZUZadEVWUUItdmdXNnY4eVBUbWE0UU4tcjF1T3lrRDA5NXp4dWFwemZWZjFBYlZ3aWFxcDJlOEJvN0J2Sm9sTnhqeHdncnFGVlZnT3lzc0c3cV9xcHBZdXB5YlZ2Q1YzcWczNHRXRFFWM0RyTFl0UkhFbHg?oc=5",
-   "outlet": "Simply Wall St",
-   "also": [],
-   "source_count": 1,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "M&A",
-    "Partnership"
-   ],
-   "companies": [
-    "Marvell Technology"
-   ],
-   "summary": "Marvell Technology reportedly nearing a multibillion-dollar AI infrastructure deal, signaling a significant potential revenue catalyst and M&A or partnership event.",
-   "importance": 2,
-   "deal_status": "rumor",
-   "status_confidence": "high"
-  },
-  {
-   "id": "2026-10-30-63c98e4247",
-   "ts": "2026-10-30T06:44:39+00:00",
-   "title": "Alphabet tumbles 12% on capex: Why Oracle is bucking the tech sell-off",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZXVIbFB2cnlzRUpCcGtwNDRhZk9kMlVsMEZoOFNEcUl2blJ4TVA0YW5Jc1FkTmpJRHdYRDFxUzBoV1VVN2kza1VrempVSl9Rc2dnMHVKOHpCSEU2SWh2b1FWWnlGeGtVV2hhTGc5cjk0UjY3aW1lcUxKZEhha1pROFBZYTN3VG14TGFHdnVyZkZCaF90WlRtcHMyc0huczg2Q29BRHFMWkdYTXFXTE1LYjZzeGpob3RqazRqNFVEWTVkQQ?oc=5",
-   "outlet": "Investing.com",
-   "also": [
-    {
-     "outlet": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZXVIbFB2cnlzRUpCcGtwNDRhZk9kMlVsMEZoOFNEcUl2blJ4TVA0YW5Jc1FkTmpJRHdYRDFxUzBoV1VVN2kza1VrempVSl9Rc2dnMHVKOHpCSEU2SWh2b1FWWnlGeGtVV2hhTGc5cjk0UjY3aW1lcUxKZEhha1pROFBZYTN3VG14TGFHdnVyZkZCaF90WlRtcHMyc0huczg2Q29BRHFMWkdYTXFXTE1LYjZzeGpob3RqazRqNFVEWTVkQQ?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Alphabet",
-    "Oracle"
-   ],
-   "summary": "Alphabet shares fall 12% on elevated capex guidance while Oracle outperforms the tech sell-off — significant valuation and capital allocation implications for large-cap tech.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-025f597c71",
-   "ts": "2026-10-30T06:44:22+00:00",
-   "title": "KOSPI tumbles 3.48% on U.S. AI concerns; Samsung Electronics down 3%, SK hynix down 7% [Market Close]",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyUHFzeG1NWHlqeG9lMEY5Qk5jR1NHNGFLVmJXUTZscEhURER0cS1NaGdocnNEUXc1UFE5SkRDVVJXSjM4Zi1aOW4wZk9ubjh6V2xJZ2E2bHI?oc=5",
-   "outlet": "파이낸셜뉴스",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics",
-    "SK Hynix"
-   ],
-   "summary": "KOSPI drops 3.48% on U.S. AI spending concerns, with Samsung Electronics down 3% and SK Hynix down 7% at market close — broad sector sell-off with direct impact on leading memory chipmakers.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-2e1ab828e9",
-   "ts": "2026-10-30T06:43:21+00:00",
-   "title": "[마감시황] 코스피, 美 기술주 충격에 5700선 추락…삼전 3%·하이닉스 7%↓",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yc2t0dUNCa2JQLW1NUW15Y3hHLUtHdUZUU3dueVo4ZHZvbHpBQ1o4cUQ5aklHWnNVQi1lSlRjME0tekUzVmprOXhDbVpNR2JyZ2lFX1Z6Tks?oc=5",
-   "outlet": "블록미디어",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [],
-   "companies": [
-    "Samsung Electronics",
-    "SK Hynix"
-   ],
-   "summary": "KOSPI dropped 3.48% driven by US tech sector shock, with Samsung Electronics falling ~3% and SK Hynix ~7%, signaling broad semiconductor equity risk-off.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-18ae52af01",
-   "ts": "2026-10-30T06:43:00+00:00",
-   "title": "Microsoft's Copilot AI chatbot app might disappear from Samsung TVs soon",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmVRcXc1eVRDNkFFdUU2Uzg1bTFxTXFxQVhBby1LdkwtVEszMmJ3XzdNbWVSRXJtMkNtNDhPSFk2RU81OTBYNkVISE1ITzBtc0VDUjNTSl9xc0VkMTI3X1NCVEtDWUVCbVVLTm9HUERlMVdIdUd6SlhjWmFaUzlzMlBlbU5vOF9pam5pRHhYcXotdWhGdzc0Mg?oc=5",
-   "outlet": "SamMobile",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Product"
-   ],
-   "companies": [
-    "Microsoft",
-    "Samsung"
-   ],
-   "summary": "Microsoft's Copilot AI app may be removed from Samsung TVs, indicating a potential wind-down of an AI distribution partnership.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-3b688832a3",
-   "ts": "2026-10-30T06:41:02+00:00",
-   "title": "Intel GPU D270 Dumps HBM for Laptop RAM; Air-Cooled Inference Card Validated by $7.3B Quarter",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa0JPalRkR21jc2xqSjMwMVNLMF9OWS1aY3NMNVN1MFRUVnd6UjFVbTNEaFpWM284SUF6alROTzNYOGVQdHdzYVRSM0N3d3ZVcnpFUHpnbURDM1RMbl8waXRCNnExMGRLNk52blpTajdlNmlNZ0lvU0FGZF9zWkliSXVGR0V2NUdJZ3JYakRZRXd2ZF9XdDFGcktzMjBySDYwamxlVm9TUnlzYUV5X2tlejBoUmRoeGNOMFduSi1oOXNsamd6Q0ZKOUdYLWJqTUZzTGc2eQ?oc=5",
-   "outlet": "Tech Times",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Product",
-    "Earnings"
-   ],
-   "companies": [
-    "Intel"
-   ],
-   "summary": "Intel's GPU D270 replaces HBM with standard laptop RAM for air-cooled inference, unveiled alongside a $7.3B quarterly revenue figure, relevant to competitive positioning in AI inference silicon.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-244217a7a8",
-   "ts": "2026-10-30T06:40:44+00:00",
-   "title": "코스피 3.48% 급락…삼성전자 3%·SK하이닉스 7%↓",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81a1NTQkMxZGxreVdCVlphRHctNjBPdHMxX0tnOEt5ZXVET3hYWEd6MTdpSE1hTVFoX2RIYnBGeVBRWVZRc0I4UWZZNWlVRkdNS0dXckdvOFJSZw?oc=5",
-   "outlet": "한국경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [],
-   "companies": [
-    "Samsung Electronics",
-    "SK Hynix"
-   ],
-   "summary": "KOSPI fell 3.48% with Samsung Electronics down 3% and SK Hynix down 7%, reflecting spillover from US tech sector sell-off into Korean semiconductor equities.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-59ca7d9058",
-   "ts": "2026-10-30T06:40:13+00:00",
-   "title": "SK하이닉스, 日서 첫 '파트너스데이'…현지 협력사 20여 곳 경영진 참석",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ0NyZU1TWkNPWFJTOHFJS1Q3a1N3REZSb2stdHd0VWlJU29DRWdZdzE5aFRER2p1dFgyWjIyZVV1d2N4V3k1YUUyVWNOY3B3d3NGdS1aRjJZZXhPNnFscXI0cHlrZWp0NjJTYjBydjlwNEFqWjNPZlBCcmVfblc2UHlYaWgzUQ?oc=5",
-   "outlet": "글로벌이코노믹",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Partnership"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix held its first Japan Partners Day, engaging ~20 local supplier executives, signaling efforts to deepen regional supply chain relationships.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-5c59b3cfeb",
-   "ts": "2026-10-30T06:40:00+00:00",
-   "title": "SK하이닉스 안현 미주총괄로…83조 이익 빅테크 지킨다",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zaV9fcDhUNUU2QndjMFJTY2g0QjJlMExuSmVOc040cDAyaFlnVTNxeGtOS1pfRkVkZUMzN3A5cG1ka3p3eTBqNWozWTBNMTRHcHYxbjBGaUNVb3JaZWVuOGd0MzZfdmc?oc=5",
-   "outlet": "자본시장뉴스",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Management"
-   ],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "SK Hynix appoints Ahn Hyun as head of Americas operations, a key leadership move to protect its ~83 trillion KRW big-tech customer revenue base.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-0e24dbd1b9",
-   "ts": "2026-10-30T06:39:20+00:00",
-   "title": "“EV 부진 딛고 ESS로 질주…삼성SDI, 10월까지 60GWh 수주 폭증”",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01SkdnTmF5bnZHMUFyelEtTHprQm0yMXNOY25mMnR1a2FqanVfV0Fzb3V3a0NCNS1rZ0xIQ3JKN2xIbkxMRXNZUndEWUVyWmN4amt2LXZIY2NuUjJDZTZJci1hb3A1ZS1rdnNPMnJWdw?oc=5",
-   "outlet": "뉴스퀘스트",
-   "also": [],
-   "source_count": 1,
-   "category": "Startups & VC",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung SDI"
-   ],
-   "summary": "Samsung SDI reports a surge in ESS orders reaching 60GWh through October, offsetting EV weakness and signaling a major revenue mix shift toward energy storage.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-5f5f40f393",
-   "ts": "2026-10-30T06:39:00+00:00",
-   "title": "Apple Introduces Selfie Age Verification in iOS 27.2",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQUF1Ym5DZGE2aThIdTRMTjNqamhiZTlIMkU0RTk1dFlvbVBoS29tTmtaQ2FOd01TM2xfT2N1LWozcDF5Ykk3OU1sSktUMTk2bnhqVXFmZ0Y2N1VqYm81bTQzMUZWM1ZRVjdSd0hCeXN6Wm9aT19MZndYOGpKYVdSLUtiQ0h0WjA?oc=5",
-   "outlet": "Digital Information World",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Product",
-    "Regulatory"
-   ],
-   "companies": [
-    "Apple"
-   ],
-   "summary": "Apple launches selfie-based age verification in iOS 27.2, a product feature with potential regulatory compliance implications for app-store operators.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-f8df516cf2",
-   "ts": "2026-10-30T06:36:20+00:00",
-   "title": "[속보] 코스피, 3.48% 급락…삼성전자 3%·하이닉스 7%↓",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EWWVpc2d5T2ZWS2hiX0tUWTRscmZIY2JBRjZfd2ZQa1hNQ1F6Qlk1WDA4UEJteEFKc3NlcWdCRmJiVUpKTW9Jc052OTdXVFB0YXZ6OS1hNlhEUQ?oc=5",
-   "outlet": "한국경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics",
-    "SK Hynix"
-   ],
-   "summary": "KOSPI fell 3.48% with Samsung Electronics down 3% and SK Hynix down 7%, signaling broad risk-off pressure in Korean tech equities.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-7262800ffd",
-   "ts": "2026-10-30T06:36:08+00:00",
-   "title": "Intel Drops 23%, Alphabet 12%+ as AI Fears Spread [2026]",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM2hKTlNFRzhpazJRNW1uZGxyeFUxS0hLMGREN2luTUJudGt6cW9iOGxSMVExQVhlMW0zTUZTVXJoTEtWQVdTRzF6b01BOWU3VVFJNDdVRGV5ZXlMT05MQmMwMWxxSDZ3Q2NjdU9rTjlFLVBhUUt4MmFrVGFrYWpHME1wS3ZhSWQ0YnRXb1hqYmhyb1FV?oc=5",
-   "outlet": "https://tech-insider.org/",
-   "also": [
-    {
-     "outlet": "https://tech-insider.org/",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM2hKTlNFRzhpazJRNW1uZGxyeFUxS0hLMGREN2luTUJudGt6cW9iOGxSMVExQVhlMW0zTUZTVXJoTEtWQVdTRzF6b01BOWU3VVFJNDdVRGV5ZXlMT05MQmMwMWxxSDZ3Q2NjdU9rTjlFLVBhUUt4MmFrVGFrYWpHME1wS3ZhSWQ0YnRXb1hqYmhyb1FV?oc=5"
-    },
-    {
-     "outlet": "https://tech-insider.org/",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM2hKTlNFRzhpazJRNW1uZGxyeFUxS0hLMGREN2luTUJudGt6cW9iOGxSMVExQVhlMW0zTUZTVXJoTEtWQVdTRzF6b01BOWU3VVFJNDdVRGV5ZXlMT05MQmMwMWxxSDZ3Q2NjdU9rTjlFLVBhUUt4MmFrVGFrYWpHME1wS3ZhSWQ0YnRXb1hqYmhyb1FV?oc=5"
-    }
-   ],
-   "source_count": 3,
-   "category": "Markets & Macro",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Intel",
-    "Alphabet"
-   ],
-   "summary": "Intel dropped 23% and Alphabet fell 12%+ amid spreading AI-related fears, representing a significant market-moving selloff in major tech names.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-12ac0f1653",
-   "ts": "2026-10-30T06:35:25+00:00",
-   "title": "Amazon Prime Video set to earn ‘tens of billions,’ CEO says (AMZN:NASDAQ)",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMjhxRHd3UGpEUVlSU3E0MWI3UXdYNFRMTVl2aTNxYmZ1TDBVSy1lbGI1RjdSbllHenhQUGItd3VpM1ZDVWw4dE1KTGtCbWU0MWZMbFRsdl9zTkl0WTJwWjdGX2QzQWNPYzRjWEpMQXVfZ3Q4N3JiZF9qX0VFa3VXblA5MnhBUWdTLXFFS3FKRTdhX1RMcDlLd2N3?oc=5",
-   "outlet": "Seeking Alpha",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Amazon"
-   ],
-   "summary": "Amazon CEO projects Prime Video will generate 'tens of billions' in revenue, signaling material upside to a previously subscale streaming segment.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-5e2fca6f31",
-   "ts": "2026-10-30T06:35:08+00:00",
-   "title": "Samsung Reports Record Q3 Profit as AI Chip Demand Drives Growth",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMlUwUVNkVWNvbmpITjVDSk5jZ1l3eUhGeHFIMGJBVVlrQ0hHeFlwVDE2NURyOXVUOTVKd3F2cml2b0MzNm56WWhINm5lbVRhTW9PZ2dORG9PQmszZEZpRDVkVE1tSTNqMS1rcWVNeXdReFhfdmZ4eGNTY0xXSFVEeDVwQkxadDliR0lMb2hR?oc=5",
-   "outlet": "www.albawaba.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics"
-   ],
-   "summary": "Samsung posts record Q3 profit driven by AI chip demand, a key earnings signal for the global memory and logic semiconductor market.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-13d452aa0c",
-   "ts": "2026-10-30T06:34:15+00:00",
-   "title": "[속보] 코스피 -3%대 하락 마감…SK하이닉스 -7% 급락",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ralBGTkRHdWE4aE85QnFkWDBHX0lGQ0hRSWY3V1BodHcyWnJDNWpzc3J2Wl9aTmxTdjNpNFBxQU5yMm5GczdXbDE5SFNGYU9kZzJXajZzclhSU1plMVk4WmVIMXRTOFU2QnIxYXh4SFQwTXlaMmFyU1BzOHZSdw?oc=5",
-   "outlet": "서울신문",
-   "also": [],
-   "source_count": 1,
-   "category": "Markets & Macro",
-   "ib_tags": [],
-   "companies": [
-    "SK Hynix"
-   ],
-   "summary": "KOSPI closed down more than 3% with SK Hynix declining 7%, reinforcing risk-off sentiment across Korean semiconductor equities.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-b1b16baf93",
-   "ts": "2026-10-30T06:33:56+00:00",
-   "title": "Intel Corporation : Goldman Sachs is Neutral",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVE1uVVltVWdSQXRVbjZ5ZGdMVjNnR2Z4RXBmLXNoZlFJbDg5T0Q1NXlzWXdzUTJJTmtxN1oyQlpXbTJWcjZIZ3dwMnNHYnZwWmt2MTlxWVpsMmNDaHkzd3kzWm9hazJjNW9mZGpnR00yeTJzSEM0bnhZS0JYbWVwV3o3aFJBX1psV3FoQjJsY1lRRGRLTjRKcnA1TQ?oc=5",
-   "outlet": "marketscreener.com",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [],
-   "companies": [
-    "Intel",
-    "Goldman Sachs"
-   ],
-   "summary": "Goldman Sachs reiterates Neutral rating on Intel, a notable analyst stance given Intel's recent sharp stock decline.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-1faab8ea59",
-   "ts": "2026-10-30T06:31:09+00:00",
-   "title": "Nvidia Nscale Credit Support: $45B Anthropic Deal [2026]",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNWNBZjdVUlpyU3FiaWZUMUI1STF2RFMwSXE4MEY0TVVNSmJsN2l1VU5laGJLcGxES1RRV3Zwd096d2lzWURCVS1HQlUxR0xHbHRoQ1hhU05tZGVhZEMxd29DNTlBTkdBUnJRTnNCRWxVZnhDd1RDaVN0UFFrOU5jaU5pMjk0b0w0dGRMSXdOSjhDdzA?oc=5",
-   "outlet": "shattered.io",
-   "also": [
-    {
-     "outlet": "shattered.io",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNWNBZjdVUlpyU3FiaWZUMUI1STF2RFMwSXE4MEY0TVVNSmJsN2l1VU5laGJLcGxES1RRV3Zwd096d2lzWURCVS1HQlUxR0xHbHRoQ1hhU05tZGVhZEMxd29DNTlBTkdBUnJRTnNCRWxVZnhDd1RDaVN0UFFrOU5jaU5pMjk0b0w0dGRMSXdOSjhDdzA?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "AI & Infrastructure",
-   "ib_tags": [
-    "Capital Raise",
-    "Partnership"
-   ],
-   "companies": [
-    "Nvidia",
-    "Anthropic"
-   ],
-   "summary": "Nvidia's Nscale is reportedly providing credit support for a $45B deal involving Anthropic, suggesting a major AI infrastructure financing arrangement.",
-   "importance": 3,
-   "deal_status": "rumor",
-   "status_confidence": "low"
-  },
-  {
-   "id": "2026-10-30-2ab3178da9",
-   "ts": "2026-10-30T06:31:07+00:00",
-   "title": "Micron Slips 5.9% as Samsung's Near-Miss and Softer Hyperscaler Capex Cool the Memory Trade",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONHRlbXQtWEFCNXJTbER5THZtMHFDU2FaZmU0Zy03RXJQTldsNUtOODRPc3YtU0l2dHpCSGFVRDM1ZDkxcEpuYlY2QXNQRDR1bnE3NHZzUlhRbURNb1RnYTUtSFlRekVfWG9Id3RyV2Q0S3IzZ3Y5Zm9wWDdhal9WTHRSOERvaFNBbU1TcWJRZ2RGZ0lMaDRSMThya3JBWnhPandqdzh5bG9Zc3c4OEJGRHhXTVdZMVV2dklUWUE5UGw3NXJDbjZVNlRUdml0QmVRb0hMNXJCM0M2MWVoclR6aTlPVEwyN3YzZV9yYmp3TF9HaVV4?oc=5",
-   "outlet": "ad-hoc-news.de",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Micron",
-    "Samsung Electronics"
-   ],
-   "summary": "Micron fell 5.9% as Samsung's near-miss results and softer hyperscaler capex signals cooled sentiment across the memory trade.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-c2f113ed23",
-   "ts": "2026-10-30T06:31:00+00:00",
-   "title": "Amazon shares sink 7% as AI spending fuels cash-burn concerns, overshadow cloud growth",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObzBYZHU0ZGFOcGx5XzhsTGpRemFDNVRxV1Eyal8tVU5WNzlPbVZOaEtISU9LaEIyYm5CTEFIVGtlcHlQVmNlZWwzem9QV0lqdFpSWXVsbTZxd3I0Z0RaMXNJU1pPb1pmc3dfZzhMMm5TaHFuckVCSk1vMWdrdTFiVmVOdDJ0VlJVdlpjb203NVhRTTY3ZWVHTXZLMnJ3VndfRHhXYWJjaDhBSEE2REFuUFp0MDNXcHRIM2tJN0hNLW1UTk01MUFpOGNINW1TeHJqX0x0SmVkLXFRcTFvZGhYcEhIT0FjTnE5LXV5a25SR1BmRkJxRmJ3QlFDZUlJZ3ljVEg1YnFUa29VQdIBjwJBVV95cUxNMTc2UlBzRUk3eUJjd1ZlZl9BenlsUjlidmxKR2o3NmFhUno3aWQ0NnFmMWktbGRxNll4TXZacXFUSjVUcm15YUJpcTE3bFlVM1lpdWpHVHNwclRWLXNYdDFsaXl6Y1ZXZXhSZjJFdkJEbkVBV25YNlJ5cE9UdkJFTU1TS2hBd0xJN2pHNFBZRms2UnRCWENLTGVPb3RlVnhwTmY3UFdMUU1BbFJudGJWaUFIdHpjZ1Z2QmZJX1o0TXBJWlNnWl9Qc25aTG13Y01fb0dGX0ZPd2xLQ2F1R1h4c1RTb3BhU2pOYU9DX3dFd1c5dXdlWWRaZG5hVjNQd3lFTkVDVmdvblVvdEg4Ylhr?oc=5",
-   "outlet": "The Times of India",
-   "also": [],
-   "source_count": 1,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Amazon"
-   ],
-   "summary": "Amazon shares dropped 7% as heavy AI capital expenditure raised cash-burn concerns despite solid cloud growth, a material valuation risk event.",
-   "importance": 2
-  },
-  {
-   "id": "2026-10-30-d4ef5ed9b7",
-   "ts": "2026-10-30T06:30:52+00:00",
-   "title": "Nov. 2 Could Be a Big Day for Apple Stock",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdHliVi02Q1lzb29zYkI5SDN4YjBISE9EUlN1YmJ4M1hlWk5EZ0R1WHlFdEhJdnRiNWFLbUdrMXBJWmZ5cjlJNk96R08zcVBMZ1RZMnJNbUlRMUE3T083WkU0dTNBTkhZZENQSlFsc0kwWHJxVGQ0aXdjUHp6OG5ZY0g1VHJLX2JGQzhBOXFGMzdyTDFoTG9sRnJ4M1BieG9Tc2tzcHdQUHF1WE11ZDVYemxaekdWTUVuWmlB?oc=5",
-   "outlet": "The Globe and Mail",
-   "also": [
-    {
-     "outlet": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVDRxN2F0dVA1OXdhZFZCY21IYkYyRS1SQnYyT2taYXRlMDZ2SXl0NEZxY0h5aHNPenl5ZmlDbTZUZVNzU2ZhRHIwemt2TmpNMXhwcUY2RzBTWktXaU9Ga0NXNDl3cnlRNm55UWdDbjJGWjk0b2VWNnFGNW1GVHdFTlhJLWFtUVpsQmlV?oc=5"
-    }
-   ],
-   "source_count": 2,
-   "category": "Big Tech",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Apple"
-   ],
-   "summary": "Commentary flagging November 2 as a potential catalyst date for Apple stock, likely tied to an earnings release or product event.",
-   "importance": 1
-  },
-  {
-   "id": "2026-10-30-23b179c2ce",
-   "ts": "2026-10-30T06:30:52+00:00",
-   "title": "삼성전자, 반도체 영업익 106조원 돌파 \"AI 메모리 초호황에 역대급 실적\"",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzc1N2MWtTWDBmQnI3Vi1fOV83bXZ5am9nZ2xzZVRsX1p6bE1pVlNVS2o3NXNCNEstWGF1ZmNuWUc3dXA3Z0lpcmNjdE94LTJLUnZkOUtmdTJ1RnVLaUhfMjRtM25PRU1SUW5V?oc=5",
-   "outlet": "마일드경제",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Samsung Electronics"
-   ],
-   "summary": "Samsung Electronics reportedly surpassed 106 trillion KRW in semiconductor operating profit, driven by an AI memory supercycle — a record earnings result relevant to sector valuation.",
-   "importance": 3
-  },
-  {
-   "id": "2026-10-30-362188cd8c",
-   "ts": "2026-10-30T06:29:48+00:00",
-   "title": "영업이익률 50% 찍은 한미반도체…HBM 넘어 패키징 영토 확장 - 머니투데이",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xbGxoTEpXS2hlU1hFQ20xWXhGOTM5cGgyMXltdnBlTGFDZUpOSWM5UUlKM3EtclVZY0RseVNtaUUwUU9sdlRXcFZESEc2aE5zUjdnTnl6ZGktdWJLTldWSGcxaVBWa0thS3ZuWHRHLUNCd9IBckFVX3lxTE5xbGxoTEpXS2hlU1hFQ20xWXhGOTM5cGgyMXltdnBlTGFDZUpOSWM5UUlKM3EtclVZY0RseVNtaUUwUU9sdlRXcFZESEc2aE5zUjdnTnl6ZGktdWJLTldWSGcxaVBWa0thS3ZuWHRHLUNCdw?oc=5",
-   "outlet": "머니투데이",
-   "also": [],
-   "source_count": 1,
-   "category": "Semiconductors",
-   "ib_tags": [
-    "Earnings"
-   ],
-   "companies": [
-    "Hanmi Semiconductor"
-   ],
-   "summary": "Hanmi Semiconductor achieved a ~50% operating margin and is expanding its packaging footprint beyond HBM, signaling strong positioning in advanced semiconductor packaging.",
-   "importance": 2
   }
  ]
 }
