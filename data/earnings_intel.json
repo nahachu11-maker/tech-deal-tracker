@@ -1253,6 +1253,80 @@
      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/a8-kex991q3202606272026.htm",
      "model": "claude-haiku-4-5-20251001",
      "derived_only": true
+    },
+    {
+     "period": "Q4 FY2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "September quarter revenue record of $114.5B, +12% YoY with iPhone and Services reaching all-time highs",
+       "Diluted EPS $2.10 +14% YoY; full-year revenue $479B all-time record with double-digit EPS growth",
+       "Strong cash generation of $28B operating cash flow in quarter; installed base reached all-time high across all categories"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Total Revenue",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      },
+      {
+       "metric": "Diluted EPS",
+       "direction": "not_given",
+       "prior": null,
+       "new": null
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Total Revenue",
+       "value": "114.5",
+       "unit": "billions USD",
+       "yoy": "+12%"
+      },
+      {
+       "name": "Diluted EPS",
+       "value": "2.10",
+       "unit": "USD",
+       "yoy": "+14%"
+      },
+      {
+       "name": "Gross Margin",
+       "value": "47.9",
+       "unit": "%",
+       "yoy": null
+      },
+      {
+       "name": "Operating Income",
+       "value": "35.6",
+       "unit": "billions USD",
+       "yoy": "+10%"
+      },
+      {
+       "name": "Operating Cash Flow",
+       "value": "28.0",
+       "unit": "billions USD",
+       "yoy": null
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 3,
+      "notes": "Management tone highly confident with multiple record announcements; forward-looking statement boilerplate typical and cautious. No Q&A provided in document."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-11-03T03:59:59.904438+00:00",
+     "doc_date": "2026-11-03",
+     "source_label": "EDGAR 8-K filed 2026-11-02",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
     }
    ]
   },
@@ -1726,11 +1800,157 @@
      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
      "model": "claude-haiku-4-5-20251001",
      "derived_only": true
+    },
+    {
+     "period": "Q3 2026",
+     "sentiment": {
+      "score": 2,
+      "label": "bullish",
+      "drivers": [
+       "Revenue grew 96% YoY to $2.313B, surpassing $2B quarterly mark for first time",
+       "U.S. commercial revenue surpassed government revenue for first time ever, up 148% YoY",
+       "Raised full-year FY2026 revenue guidance to 91% growth and U.S. commercial to 143% growth"
+      ]
+     },
+     "guidance": [
+      {
+       "metric": "Revenue",
+       "direction": "raised",
+       "prior": null,
+       "new": "$8.530B - $8.534B FY2026"
+      },
+      {
+       "metric": "U.S. Commercial Revenue",
+       "direction": "raised",
+       "prior": null,
+       "new": "In excess of $3.559B FY2026, at least 143% growth"
+      },
+      {
+       "metric": "Adjusted Income from Operations",
+       "direction": "raised",
+       "prior": null,
+       "new": "$5.245B - $5.249B FY2026"
+      },
+      {
+       "metric": "Adjusted Free Cash Flow",
+       "direction": "raised",
+       "prior": null,
+       "new": "$4.8B - $5.0B FY2026"
+      },
+      {
+       "metric": "Revenue",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$2.649B - $2.653B Q4 2026"
+      },
+      {
+       "metric": "Adjusted Income from Operations",
+       "direction": "initiated",
+       "prior": null,
+       "new": "$1.640B - $1.644B Q4 2026"
+      }
+     ],
+     "kpis": [
+      {
+       "name": "Revenue",
+       "value": "2313.411",
+       "unit": "millions",
+       "yoy": "96%"
+      },
+      {
+       "name": "U.S. Revenue",
+       "value": "1937",
+       "unit": "millions",
+       "yoy": "119%"
+      },
+      {
+       "name": "U.S. Commercial Revenue",
+       "value": "984",
+       "unit": "millions",
+       "yoy": "148%"
+      },
+      {
+       "name": "U.S. Government Revenue",
+       "value": "953",
+       "unit": "millions",
+       "yoy": "96%"
+      },
+      {
+       "name": "Adjusted Income from Operations",
+       "value": "1426.840",
+       "unit": "millions",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Operating Margin",
+       "value": "62",
+       "unit": "%",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Free Cash Flow",
+       "value": "1216.077",
+       "unit": "millions",
+       "yoy": null
+      },
+      {
+       "name": "Adjusted Free Cash Flow Margin",
+       "value": "53",
+       "unit": "%",
+       "yoy": null
+      },
+      {
+       "name": "GAAP EPS",
+       "value": "0.44",
+       "unit": "dollars",
+       "yoy": null
+      },
+      {
+       "name": "Total Contract Value (TCV)",
+       "value": "2918",
+       "unit": "millions",
+       "yoy": "6%"
+      },
+      {
+       "name": "U.S. Commercial TCV",
+       "value": "1463",
+       "unit": "millions",
+       "yoy": "11%"
+      },
+      {
+       "name": "U.S. Commercial Remaining Deal Value (RDV)",
+       "value": "6517",
+       "unit": "millions",
+       "yoy": "79%"
+      },
+      {
+       "name": "Rule of 40 Score",
+       "value": "158",
+       "unit": "%",
+       "yoy": null
+      }
+     ],
+     "dropped_kpis": [],
+     "tone": {
+      "confidence": 9,
+      "hedging": 2,
+      "notes": "Management exhibits high confidence in execution and market positioning; CEO commentary emphasizes Sovereign AI as transformational opportunity; minimal hedging language despite extensive forward-looking statement disclaimers."
+     },
+     "ma_commentary": {
+      "present": false,
+      "summary": ""
+     },
+     "analyzed_at": "2026-11-03T04:00:18.842072+00:00",
+     "doc_date": "2026-11-03",
+     "source_label": "EDGAR 8-K filed 2026-11-02",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+     "model": "claude-haiku-4-5-20251001",
+     "derived_only": true
     }
    ]
   }
  },
  "meta": {
-  "last_run": "2026-10-31T02:40:16.740590+00:00"
+  "last_run": "2026-11-03T04:00:18.842127+00:00"
  }
 }
