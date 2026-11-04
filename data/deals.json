@@ -1,15 +1,31 @@
 {
  "meta": {
-  "last_updated": "2026-11-03T22:59:46.945053+00:00",
+  "last_updated": "2026-11-04T02:32:16.725112+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 0,
+   "added": 1,
+   "updated": 1,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-04",
+   "type": "M&A",
+   "name": "Ubisoft / Arkane Lyon (Microsoft)",
+   "v": null,
+   "val": null,
+   "sector": "Gaming / Interactive Entertainment",
+   "status": "Pending",
+   "note": "Ubisoft is reportedly evaluating an acquisition of Arkane Lyon, the French game development studio currently owned by Microsoft under its ZeniMax/Bethesda umbrella. The deal would represent a targeted asset divestiture by Microsoft as it continues to rationalize its expanded gaming studio portfolio following the Activision Blizzard acquisition. No deal value has been disclosed; transaction remains at exploratory/consideration stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPelNMM3RMX0c2YnpaSlF0aGZ3UUV6aXdOUm04RHJRNzEzV0hVRzF1RXpFc3BERzlFcGptTnZSU25pS2wxTW40cXhyclowc2RBRzlxSmctYVkyLU9iUDQyVDc3MC03UFhOM09mbnl0enRGc3NSV3pJNEU1LXR4bGZoTjNmamNQT2tIQm1LUGx4TkUzaGZnanFJ?oc=5",
+   "source_snippet": "Ubisoft is reportedly considering acquiring Microsoft's Arkane Lyon studio, a potential asset divestiture by Microsoft in the gaming segment.",
+   "extracted_at": "2026-11-04T02:32:13.989241+00:00"
+  },
   {
    "skip": false,
    "d": "2026-11-02",
@@ -4214,10 +4230,10 @@
    "v": 0.38029,
    "val": null,
    "sector": "AI Infrastructure / Semiconductors",
-   "status": "Pending",
-   "note": "SK Telecom is divesting its entire stake in Penguin Solutions to a subsidiary of SK Hynix for approximately $380.29 million, consolidating AI infrastructure assets under SK Hynix within the broader SK Group. The transaction reflects the group's strategy to centralize AI server and memory-adjacent businesses under its semiconductor arm. No completion language was present in the source, so status is Pending.",
+   "status": "Closed",
+   "note": "SK Telecom is divesting its entire stake in Penguin Solutions to a subsidiary of SK Hynix for approximately $380.29 million, consolidating AI infrastructure assets under SK Hynix within the broader SK Group. The transaction reflects the group's strategy to centralize AI server and memory-adjacent businesses under its semiconductor arm. No completion language was present in the source, so status is Pending. [Auto-update 2026-11-04: SK Hynix acquired a minority stake in Penguin Solutions, a move aimed at improving AI memory efficiency and strengthening its position in the AI infrastructure supply chain. The stake size and transac]",
    "advisors": [],
-   "review": false,
+   "review": true,
    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0amVxeWxrRVZkRi0xSXdUR3F4eXBBX0FHUDg0bTBrY0c3UXpsazNkT0t1ckZNeUxUelBFS0NuNkRHYVJleXlaMU9ZU3d3aWhQbnc4UG0wSjBVZFNaVlM3RFRvU1FxYTRaN0Y4NmhjQ1pBT28?oc=5",
    "source_snippet": "SK Telecom sold its entire stake in Penguin Solutions to an SK Hynix subsidiary for approximately $380 million, consolidating AI infrastructure assets within the SK group.",
    "extracted_at": "2026-07-28T12:50:35.082880+00:00",
