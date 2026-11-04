@@ -1,10 +1,10 @@
 {
  "meta": {
-  "last_updated": "2026-11-04T23:02:48.889408+00:00",
+  "last_updated": "2026-11-04T23:21:57.745620+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 2,
+   "added": 1,
    "updated": 0,
    "duplicates": 1
   },
@@ -112,6 +112,24 @@
    "extracted_at": "2026-11-04T23:02:39.208006+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' not 'Pending' since the source states Meta 'acquired' the startup, indicating a completed transaction."
+  },
+  {
+   "skip": false,
+   "d": "2026-11-04",
+   "type": "SPAC",
+   "name": "Churchill Capital Corp XIV",
+   "v": null,
+   "val": null,
+   "sector": "SPAC",
+   "status": "Filed",
+   "note": "Churchill Capital Corp XIV filed an S-1 registration with the SEC for a new blank-check SPAC vehicle, the fourteenth in the Churchill Capital series. No target or deal size disclosed at filing stage. Proceeds and eventual acquisition target remain to be determined.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2128984/000121390026115921",
+   "source_snippet": "",
+   "extracted_at": "2026-11-04T23:21:23.536526+00:00",
+   "verify_failed": true,
+   "verify_reason": "No source text provided to verify the extracted record against."
   },
   {
    "skip": false,
