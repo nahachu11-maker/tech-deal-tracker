@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-11-04T17:41:12.666460+00:00",
+  "last_updated": "2026-11-04T23:02:48.889408+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 2,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 1
   }
  },
  "deals": [
@@ -75,6 +75,42 @@
    "extracted_at": "2026-11-04T17:41:09.661622+00:00",
    "verify_failed": true,
    "verify_reason": "Source does not specify a date of 2026-11-04 for this acquisition announcement or status as 'Pending'"
+  },
+  {
+   "skip": false,
+   "d": "2026-11-04",
+   "type": "M&A",
+   "name": "Meta / Conductor",
+   "v": null,
+   "val": null,
+   "sector": "AI Developer Tools",
+   "status": "Pending",
+   "note": "Meta has acquired Conductor, an AI coding startup whose platform orchestrates multiple coding agents simultaneously. The deal expands Meta's AI developer tooling capabilities. No financial terms were disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT2JfRkE1Z1ZrZ2lfV3lKRlRGWGEtdHFYakEzVGUycWZjQ0NMbmRsTHpIY3RDc3dnSTRFVTNKTDVoLVRPRzFlcEVtRTdmaTlQR2FsZlQ2MnN3T29sWVN6aW0yN1NUOThUN1M5cnAybGY5OV8wRGlScFhxaWc3TTdGcHNZMmtYN2JSX0kwV3g3YmZUaHp6MWF4WUZtei13NkVfRThudFhVWXZIb0ppY29tWDZuUWVZc2pUZVdZb3FiUjk?oc=5",
+   "source_snippet": "Meta has acquired AI coding startup Conductor, which runs multiple coding agents simultaneously, expanding Meta's AI developer tooling capabilities.",
+   "extracted_at": "2026-11-04T23:02:31.604334+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes a completed acquisition but record shows status as 'Pending'; source also does not mention a 2026-11-04 date."
+  },
+  {
+   "skip": false,
+   "d": "2026-11-04",
+   "type": "M&A",
+   "name": "Meta / AI coding startup",
+   "v": null,
+   "val": null,
+   "sector": "AI/Developer Tools",
+   "status": "Pending",
+   "note": "Meta acquired an undisclosed AI coding startup, extending its push into developer-focused AI tooling. Deal value and target name were not disclosed in the report. The acquisition aligns with Meta's broader AI strategy competing with GitHub Copilot and similar products.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM3hUTnlvZ2duV1lrWGk2YWxNSzRtMElxUmQ5VHpkWE1HbXBsNG5HNnctdWVLOHJueFoxNGhPSGJ3ajQ3WVV1dmxzQVNreVRWcUI2Y1RaUFJqa3BBSHdtUFNHNS1iS2xuZzdVWkthUTdZd0kweExuOVFDU2JtQ01RRnBjaTNlYVJNZFh0T1IwZw?oc=5",
+   "source_snippet": "Meta acquired an AI coding startup, signaling continued M&A activity in developer-focused AI tools.",
+   "extracted_at": "2026-11-04T23:02:39.208006+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' since the source states Meta 'acquired' the startup, indicating a completed transaction."
   },
   {
    "skip": false,
