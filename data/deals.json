@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-11-06T05:39:38.317709+00:00",
+  "last_updated": "2026-11-06T12:20:53.734857+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-06",
+   "type": "M&A",
+   "name": "Alphabet / Qualcomm",
+   "v": 0.5479,
+   "val": null,
+   "sector": "Semiconductors / Technology",
+   "status": "Closed",
+   "note": "Alphabet disclosed a minority passive stake in Qualcomm valued at $547.9M, representing a cross-sector strategic investment between two large-cap technology companies. The stake falls below majority-ownership thresholds, classifying this as a minority investment rather than a full acquisition. The move likely signals deeper collaboration in mobile, AI, or silicon development between the two firms.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWVdjbXlwRUhja29SYWUtNE9qNEZ1SHg5WlhObDJaTVFUTDhoU1ZYMVNlZDVmYnM0TDU2bFI2Z3NTWlExaVowU2hYdjZTZEhURUtCTW9ZeDkyWm9ZVjg0WFdaZ2p4Q2V1QWlJNnRRQW53dkJTTHpNVDRhWDJzWlhaTXJ1OXgyNC1zbG1OZEoxV2pVMk0?oc=5",
+   "source_snippet": "Alphabet disclosed a minority stake in Qualcomm worth $547.9M, a notable cross-sector strategic investment between two large-cap technology companies.",
+   "extracted_at": "2026-11-06T12:20:39.796989+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'Strategic Investment' or similar, not 'M&A'; this is a minority stake investment, not a merger or acquisition."
+  },
   {
    "skip": false,
    "d": "2026-11-05",
