@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-11-09T05:12:43.589635+00:00",
+  "last_updated": "2026-11-09T10:02:09.707265+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-09",
+   "type": "M&A",
+   "name": "Nvidia / Korean AI Startups (x4)",
+   "v": null,
+   "val": null,
+   "sector": "AI / Robotics",
+   "status": "Pending",
+   "note": "Nvidia is acquiring minority stakes in four unnamed South Korean AI startups developing large language models and robotics AI. The investments represent a strategic move to deepen Nvidia's presence in the Korean AI ecosystem and align key LLM/robotics developers with its hardware and software platform. Deal values and specific targets are undisclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0NTQ0dCSVRRd1hRUE9JSTBEckxDZlh0LWxieWNaR0MwOGR6TmpZY1ZZSlhCSlNlVTFGTHhOZG5ZQkZIM3lXRTE1SEVGRi1nZElIbDBiOFF4eWtRa3dRRkNDMmJmdnhJWExmeTZhYzNMMFYtRS1xajF1QWNlQU9NR1ZITGVLS0IzMXdPazA5SHNwX05EVU5md0E0YTNaVXpFQXhuc2cyWUgxbHhZRlc0MkM0dw?oc=5",
+   "source_snippet": "Nvidia is taking minority stakes in four South Korean AI startups focused on LLMs and robotics, signaling strategic investment in the Korean AI ecosystem.",
+   "extracted_at": "2026-11-09T10:01:46.887059+00:00",
+   "verify_failed": true,
+   "verify_reason": "The deal type should be 'Strategic Investment' or similar, not 'M&A', as Nvidia is taking minority stakes rather than acquiring companies."
+  },
   {
    "skip": false,
    "d": "2026-11-07",
