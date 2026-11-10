@@ -1,11 +1,11 @@
 {
  "meta": {
-  "last_updated": "2026-11-10T18:46:41.289154+00:00",
+  "last_updated": "2026-11-10T22:58:01.905109+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
-   "updated": 1,
+   "updated": 0,
    "duplicates": 0
   },
   "scrubbed": "fields"
@@ -28,6 +28,24 @@
    "extracted_at": "2026-11-10T18:46:38.529821+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' not 'Pending' as source states 'acquires' (past tense), indicating the deal is completed."
+  },
+  {
+   "skip": false,
+   "d": "2026-11-10",
+   "type": "M&A",
+   "name": "Oura / Counsel Health",
+   "v": 0.625,
+   "val": null,
+   "sector": "Health-IT / AI",
+   "status": "Pending",
+   "note": "Oura, the smart ring wearables company, agreed to acquire AI-native primary care startup Counsel Health for $625M. The deal expands Oura's platform from passive health monitoring into active AI-driven care delivery. The announcement comes shortly after Oura postponed its planned up-to-$2.2B IPO indefinitely, suggesting the company is pursuing inorganic growth while awaiting more favorable public-market conditions.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+   "source_snippet": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+   "extracted_at": "2026-11-10T22:57:57.956769+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source describes an IPO, not an M&A deal; deal value of $2.2B does not match extracted value of 0.625B; source does not mention Counsel Health or any M&A transaction."
   },
   {
    "skip": false,
