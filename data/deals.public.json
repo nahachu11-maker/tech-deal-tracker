@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-11-10T14:31:21.468055+00:00",
+  "last_updated": "2026-11-10T18:46:41.289154+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 0,
-   "duplicates": 1
+   "added": 1,
+   "updated": 1,
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-10",
+   "type": "M&A",
+   "name": "OpenAI / Odessia",
+   "v": null,
+   "val": null,
+   "sector": "AI / Software",
+   "status": "Pending",
+   "note": "OpenAI has acquired Odessia in an undisclosed deal, continuing its ongoing M&A strategy to expand AI capabilities. No financial terms were disclosed. The acquisition aligns with OpenAI's pattern of acquiring talent and technology to bolster its core AI platform.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTm5oXzBlUkNmeUx2dmM3RHhERWFNN19TbDNpbzNfR1VOSzlLVVRJYllMd1d3Zy1qVkJMZnY2NEpNQjZobjEzeF9mQzlZNzRfQTI5WFI1anhwWTlVRnhORUFhVFpjRTFPVXlXeWx2bkxaREJOdXN3RE5qcFpZNkhVTEpwWQ?oc=5",
+   "source_snippet": "OpenAI acquires Odessia, continuing its M&A strategy to expand capabilities; deal terms not disclosed.",
+   "extracted_at": "2026-11-10T18:46:38.529821+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' not 'Pending' as source states 'acquires' (past tense), indicating the deal is completed."
+  },
   {
    "skip": false,
    "d": "2026-11-09",
@@ -383,11 +401,11 @@
    "d": "2026-10-29",
    "type": "M&A",
    "name": "Alphabet / Anthropic",
-   "v": null,
+   "v": 10.0,
    "val": null,
    "sector": "AI / Foundation Models",
    "status": "Closed",
-   "note": "Alphabet disclosed a 14% minority stake in Anthropic, quantifying its cumulative strategic investment in the leading AI safety and foundation-model lab. No deal value is stated in the source text. The stake underscores Alphabet's competitive positioning against Microsoft/OpenAI, providing Anthropic with cloud infrastructure via Google Cloud alongside capital.",
+   "note": "Alphabet disclosed a 14% minority stake in Anthropic, quantifying its cumulative strategic investment in the leading AI safety and foundation-model lab. No deal value is stated in the source text. The stake underscores Alphabet's competitive positioning against Microsoft/OpenAI, providing Anthropic with cloud infrastructure via Google Cloud alongside capital. [Auto-update 2026-11-10: Google (Alphabet) is reportedly pursuing a $10 billion minority stake in Anthropic, deepening its strategic AI positioning against OpenAI and Microsoft. The investment would expand on prior Google bac]",
    "advisors": [],
    "review": true,
    "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXRrV0hhWnhhQUFCTkxSdVdMSXdNTDFtaTVxMjFuMlRVMmlJOTFBYXRSYVVPa09nY1VQeDkxZG8wMHZBVU42RTdoN1d5eHQ5MkoxcllPU3F4LUlERWxobFlqZ2g2UHdwMFU5UDlhNUJMaWJCczI5UjNzSmlscWVaVVgxNTVaekVUSmpJ?oc=5",
