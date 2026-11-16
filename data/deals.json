@@ -1,15 +1,49 @@
 {
  "meta": {
-  "last_updated": "2026-11-16T15:09:46.512343+00:00",
+  "last_updated": "2026-11-16T18:45:47.974718+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
    "duplicates": 0
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-16",
+   "type": "M&A",
+   "name": "Blackstone / Amazon Data Centers",
+   "v": 5.0,
+   "val": null,
+   "sector": "Data Center Infrastructure",
+   "status": "Pending",
+   "note": "Amazon is divesting a data center portfolio to Blackstone in a $5B sale-leaseback-style infrastructure monetization. The transaction allows Amazon to recycle capital from owned assets while Blackstone expands its hyperscaler-adjacent real estate holdings. Deal status is inferred as announced/pending given no closing language appears in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUHBIb1BKNmVKNTBMcURkZkFWVnNYSld5aW5iUXpxa0tDWWhsY01ieU9YeXpvZHE3OHREN2xzejIxcGlfTUQwNE9WdTBwMEZfOWRwbGd3d3M2bG44eldmdF9Nb09wRjZGNVp1REhKTy1wZHNpczNjWnBUdXhaa0xzNlpHQ2NVQWpHSmJWcXdIdE50ZjBibUs5NUhQRWJ6SG1McTBZ?oc=5",
+   "source_snippet": "Amazon is selling a data center portfolio to Blackstone for $5 billion, representing a major infrastructure asset monetization in the hyperscaler space.",
+   "extracted_at": "2026-11-16T18:45:37.257112+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-11-16",
+   "type": "M&A",
+   "name": "FTX Estate / Anthropic Stake",
+   "v": 35.0,
+   "val": null,
+   "sector": "AI / LLM",
+   "status": "Pending",
+   "note": "FTX's bankruptcy estate is reportedly selling its stake in Anthropic, valued at approximately $35 billion in the sale process. Jane Street, a former employer of Sam Bankman-Fried, may share in the proceeds as a creditor or co-investor. The transaction is part of FTX's broader asset liquidation to satisfy creditor claims.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUGpsVHl5ekdBYVgtSnZLVVl1VWtYQXNvS0oxemtBOFhwd015WmZUZXVQb1RsRDh0STRaa0JMOFFuMl9RNEJ4ZnNDUGxiZWE3UVp2Xy1KQ0NmOE5yTTJhMjRuZkZqNTRpMllCczB1UEc1N1VtQl8zQTMtUG4zVmtpWi01U0wwN2RoblM0dV9NaTRPcUNNNHB5aWdTSnR1c1RPaGZYV0R3NXQtZjBFQy1EUFlZOVkta1JnRnI1azAzY01BY0VOb1E0SXRuQmdUWVdYbzVNRQ?oc=5",
+   "source_snippet": "FTX's stake in Anthropic is reportedly valued at $35 billion in a sale process, with Jane Street potentially sharing in proceeds—a major AI-sector capital event tied to the FTX bankruptcy estate.",
+   "extracted_at": "2026-11-16T18:45:42.292672+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a valuation/sale process, not a completed M&A transaction; status should reflect this uncertainty more clearly than 'Pending' suggests a formal deal."
+  },
   {
    "skip": false,
    "d": "2026-11-13",
