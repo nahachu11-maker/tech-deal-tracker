@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-11-17T01:43:05.209735+00:00",
+  "last_updated": "2026-11-17T02:15:04.642102+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
-   "updated": 0,
-   "duplicates": 0
+   "added": 1,
+   "updated": 1,
+   "duplicates": 1
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-17",
+   "type": "Debt",
+   "name": "Kakao Entertainment",
+   "v": null,
+   "val": null,
+   "sector": "Digital Media / Entertainment",
+   "status": "Pending",
+   "note": "Anchor PE has extended the acquisition financing for Kakao Entertainment by an additional six months, indicating difficulties in refinancing or completing the transaction on its original schedule. The extension suggests the deal timeline is under pressure, potentially due to valuation gaps or credit market conditions. No revised deal value or financing quantum was disclosed in the report.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOHM1M1ZfaXkyTWtxSGtpNWxpN3hZUG5HaUlESHQwVVN0ZWJRVlk3ZXZYdjBUNks5MVViaGZjS2ZVQVlTdFJjdFhfcDlaLVZuQWEwbXhILUw4MUptczAwd1dHRDhsaHQyTFF3bFRFRGFXWEhUU1NDZ0FoemlpaG9CdExVZw?oc=5",
+   "source_snippet": "Anchor PE extended the acquisition financing for Kakao Entertainment by an additional six months, suggesting challenges in refinancing or closing the deal on the original timeline.",
+   "extracted_at": "2026-11-17T02:14:57.979281+00:00",
+   "verify_failed": true,
+   "verify_reason": "Record type is 'Debt' but source describes an acquisition financing extension, not a debt transaction; also date is not supported by source."
+  },
   {
    "skip": false,
    "d": "2026-11-16",
@@ -1252,8 +1270,8 @@
    "v": 8.2,
    "val": null,
    "sector": "AI / Semiconductors",
-   "status": "Pending",
-   "note": "AMD has agreed to acquire AI startup World Labs for $8.2 billion in a strategic move to bolster its AI capabilities and close the competitive gap with Nvidia. World Labs, founded by AI pioneer Fei-Fei Li, specializes in spatial intelligence and world-model AI research. The acquisition represents one of AMD's largest deals and signals an intensifying AI talent and technology arms race among chip companies.",
+   "status": "Closed",
+   "note": "AMD has agreed to acquire AI startup World Labs for $8.2 billion in a strategic move to bolster its AI capabilities and close the competitive gap with Nvidia. World Labs, founded by AI pioneer Fei-Fei Li, specializes in spatial intelligence and world-model AI research. The acquisition represents one of AMD's largest deals and signals an intensifying AI talent and technology arms race among chip companies. [Auto-update 2026-11-17: AMD has formally completed the acquisition of World Labs, the spatial intelligence AI startup founded by Fei-Fei Li, with CEO Lisa Su presiding over the closing ceremony. The deal represents AMD's pus]",
    "advisors": [
     "Latham & Watkins",
     "Wilson Sonsini"
