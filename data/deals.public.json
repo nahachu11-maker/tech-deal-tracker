@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-11-17T02:15:04.642102+00:00",
+  "last_updated": "2026-11-17T10:56:25.674295+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
-   "updated": 1,
-   "duplicates": 1
+   "updated": 0,
+   "duplicates": 0
   },
   "scrubbed": "fields"
  },
@@ -28,6 +28,24 @@
    "extracted_at": "2026-11-17T02:14:57.979281+00:00",
    "verify_failed": true,
    "verify_reason": "Record type is 'Debt' but source describes an acquisition financing extension, not a debt transaction; also date is not supported by source."
+  },
+  {
+   "skip": false,
+   "d": "2026-11-17",
+   "type": "M&A",
+   "name": "OpenAI / Goodfire",
+   "v": 5.0,
+   "val": null,
+   "sector": "AI / Machine Learning",
+   "status": "Pending",
+   "note": "OpenAI reportedly weighed a $5B acquisition of Goodfire, an AI interpretability startup focused on AI safety research. The deal would signal OpenAI's strategic push to internalize interpretability capabilities amid growing regulatory and safety scrutiny. No definitive agreement has been reported; deal remains unconfirmed and aspirational at this stage.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRXBHWDItQk1RMFVEUF96LXFJLXVOQURkZ0xjRGEyYzdQSW1pWFRzRTgxNV82bkFySExnLV9qbElHYmJaX0Q2VzZMUVJuVmVOTXVQaEJHRThTTXJKMUExSGRGakpqWUNHRTNuQmthc1VKTGNGQ1c5Ykg5LXZOZTdKTGE5LUs5bGNyS2NidFlVckZPSzFKUE1pY1FHVVkzQQ?oc=5",
+   "source_snippet": "OpenAI reportedly considered a $5B acquisition of AI interpretability startup Goodfire, signaling aggressive M&A appetite in the AI safety/interpretability space.",
+   "extracted_at": "2026-11-17T10:56:21.958518+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source says 'reportedly considered' indicating the deal status is uncertain/rumored, not definitively 'Pending' as a formal stage."
   },
   {
    "skip": false,
