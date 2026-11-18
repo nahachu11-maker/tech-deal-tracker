@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-11-18T09:31:23.970028+00:00",
+  "last_updated": "2026-11-18T15:18:48.381974+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 2,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
@@ -60,6 +60,40 @@
    "extracted_at": "2026-11-18T01:49:29.741118+00:00",
    "verify_failed": true,
    "verify_reason": "Status should be 'Closed' since source indicates acquisition was completed, not pending."
+  },
+  {
+   "skip": false,
+   "d": "2026-11-18",
+   "type": "M&A",
+   "name": "LGI Healthcare Solutions / QHR Technologies",
+   "v": null,
+   "val": null,
+   "sector": "Health IT",
+   "status": "Closed",
+   "note": "LGI Healthcare Solutions has acquired QHR Technologies, the developer of Accuro EMR, expanding its healthcare software footprint across primary care, hospitals, and long-term care in Canada. The deal brings together complementary clinical software capabilities across the Canadian care continuum. No financial terms were disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/lgi-healthcare-solutions-acquires-qhr-technologies-expanding-its-presence-across-the-canadian-care-continuum-302942965.html",
+   "source_snippet": " The acquisition brings together complementary healthcare software expertise across primary care, hospitals and long-term care Montreal, Nov. 18, 2026 /PRNewswire/ -- LGI Healthcare Solutions (\"LGI\") today announced the acquisition of QHR Technologies (\"QHR\"), the company behind Accuro EMR.... ",
+   "extracted_at": "2026-11-18T15:18:40.964264+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-11-18",
+   "type": "M&A",
+   "name": "Workday / Honeydew",
+   "v": null,
+   "val": null,
+   "sector": "Enterprise Software / AI",
+   "status": "Pending",
+   "note": "Workday announced its intent to acquire Honeydew, a semantic layer platform designed to ensure consistent business definitions across AI agents, tools, and models. The deal extends Workday's agentic AI strategy by embedding governed data semantics into every query layer. Financial terms were not disclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.prnewswire.com/news-releases/workday-announces-intent-to-acquire-honeydew-a-semantic-layer-for-ai-and-business-intelligence-302943208.html",
+   "source_snippet": " With Honeydew, Workday Will Extend Customers' Business Definitions to Every Agent, Tool, and Model, So Answers Stay Consistent, No Matter Which Tool or Model Is Asking BARCELONA, Nov. 18, 2026 /PRNewswire/ -- Workday Rising EMEA – Workday, Inc. (NASDAQ: WDAY), the trusted agentic platform... ",
+   "extracted_at": "2026-11-18T15:18:45.681642+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source announces Workday's acquisition of Honeydew but provides no deal value; status should be 'Closed' not 'Pending' based on the past-tense announcement context."
   },
   {
    "skip": false,
