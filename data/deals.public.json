@@ -1,16 +1,66 @@
 {
  "meta": {
-  "last_updated": "2026-11-18T00:42:53.896036+00:00",
+  "last_updated": "2026-11-18T01:49:37.904343+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 3,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-18",
+   "type": "M&A",
+   "name": "KakaoBank / M Bank",
+   "v": null,
+   "val": null,
+   "sector": "Fintech",
+   "status": "Closed",
+   "note": "KakaoBank acquired a minority equity stake in Mongolia's M Bank, becoming its second-largest shareholder. The deal represents KakaoBank's strategic push into international markets. Deal value was not disclosed in the source.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VUmN3UHJRRm9mMXFmOUNLRWFIaTBkUFZxM1JiY3lLTWlJVUpVQ25HYmFzSFo1cEJ6TUdNVzhQeUpqc1FiLTlpaF92MnRpWFpqSjFHajZ0aU1tNmtvNWRwS0kyRG1QUnY3aUJPTTFTZ1VWa29kdFHSAWZBVV95cUxPWnZmY0gtbTlEX2xENUp6YzlrcEtLN3hTS2JDM3pVNzV0aWM5Rl9RMjZWMWJSYWE2ZUhUTlZnUEZwcTRNM2lJbEhmcHVrUi0zOUNkcmR3QkZLOXBMbXJBQXhzUWhWY3c?oc=5",
+   "source_snippet": "KakaoBank acquired a minority stake in Mongolia's M Bank, becoming its second-largest shareholder — strategic international expansion via equity investment.",
+   "extracted_at": "2026-11-18T01:49:10.375408+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-11-18",
+   "type": "M&A",
+   "name": "Kakao Bank / M Bank",
+   "v": null,
+   "val": null,
+   "sector": "Fintech",
+   "status": "Closed",
+   "note": "Kakao Bank acquired a 15% minority stake in Mongolia's M Bank as part of its global digital finance expansion strategy. The deal represents a cross-border fintech investment, though deal value was not disclosed. As a minority stake under 50%, this is a strategic investment rather than full acquisition.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yT3J1YmJZVXM1azNaZmV3cWQyNWM1ZWNaZzVKQWF1ZmZEekJhUE9vVWU4U3Z6ZkQ1bFpqeXlsS0pWc0w2dU1KbEs1UnNMNkZMX2I3cWpxN3JyanZvei1UbjRTd2NOTGvSAWtBVV95cUxOUmVfREc1UVFGZ1h3VF9RNnZqeGt4RmstbXI1LXBVcm5qUTVpQjhfQ0w5ZzJKanNpdW5nRHdtaDdIdlY4cXg2Ni14X3lkQURsdlhJSnlmbTk2ekxFOXUxVzN5bUNVVGpCb0RCcw?oc=5",
+   "source_snippet": "Kakao Bank acquired a 15% stake in Mongolia's M Bank, marking a minority cross-border fintech investment as part of its global digital finance expansion.",
+   "extracted_at": "2026-11-18T01:49:24.235194+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-11-18",
+   "type": "M&A",
+   "name": "KakaoBank / Mongolian Digital Bank",
+   "v": null,
+   "val": null,
+   "sector": "Fintech",
+   "status": "Pending",
+   "note": "KakaoBank acquired a 15% minority stake in an unnamed Mongolian digital bank, marking its first move into Central Asia. The deal is structured as a minority strategic investment intended to serve as a platform for broader regional expansion. Deal value was not disclosed in the source text.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFVU0xVHZUWjlvZWpocXZLSVZLUGpFNzl2Yi0yZ2VFaFZVVkx5TUR3UkIxLThqU3RPeC01RnRPNXk1ZDA5OUdKbDdkaUFVLURKaW9JOTV1OFczUQ?oc=5",
+   "source_snippet": "KakaoBank acquired a 15% minority stake in a Mongolian digital bank, establishing a foothold for Central Asian expansion.",
+   "extracted_at": "2026-11-18T01:49:29.741118+00:00",
+   "verify_failed": true,
+   "verify_reason": "Status should be 'Closed' since source indicates acquisition was completed, not pending."
+  },
   {
    "skip": false,
    "d": "2026-11-17",
