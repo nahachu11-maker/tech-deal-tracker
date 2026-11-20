@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-11-20T06:16:31.699368+00:00",
+  "last_updated": "2026-11-20T13:50:15.065271+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   }
  },
  "deals": [
@@ -59,6 +59,24 @@
    "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS0xvM3VhNmtwbHNUbmpGTDlxUlBTdG5FV0lqb090WWJuZ3FNbVNwUFE1WjBJRXNfaGRnaFZDZkRMcU1TRUlpUGpUSjhiOHpraE1kMWNscDI4WnhySjVVMjNidE9BWXIyS3BPeHdQekZENExieU9Ea2xid2RQNVA5bGxnSUtoZnN2SHJKWFZITUxRYndsa0lSeks3TVBfZHdXRDBtblNsZWdjVE1SM3NaanhHUUk0VUVIb2VxbGs0d3dUcE9FVVJLSg?oc=5",
    "source_snippet": "TSMC Partners acquired a 0.03% minority stake in Anthropic for $500M, part of Anthropic's ongoing large capital raise at an implied valuation of roughly $1.67 trillion — material for AI infrastructure investment flows.",
    "extracted_at": "2026-11-20T04:59:28.852947+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-11-20",
+   "type": "Private",
+   "name": "CoreWeave",
+   "v": 0.35,
+   "val": null,
+   "sector": "AI Infrastructure",
+   "status": "Pending",
+   "note": "Jensen Huang (Nvidia CEO) reportedly participated in a $350M deal with CoreWeave, raising governance questions about potential conflicts of interest given Nvidia's deep commercial ties to CoreWeave as a major GPU customer. The transaction draws scrutiny over how AI infrastructure companies are being financed and the role of key industry figures in those rounds. Structure and full investor syndicate details remain unclear from the snippet.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdnFZS1FKTDJXZ1N5NU9hZ3FHYXlSXzhXamRfTVRfcWtkQThzRDdBZHF2WkxhcExpOTRabmJXcmUwUUNwTGJtVXd5SWhGcnluaWpNTEN5cDUyeUNndFpHS1BGWXFNLTJDNW5BYVpsV0RzNkMxMkdsaGVhLXBWYlpTSjhJa3pKclVXd1FfNVZ4LTFjeXAyRVQ0eElSdm53QXg2VGJlbm9qSFY5S3hDQzB3VHB1Z0xxOHhpdG10czJRS2c2T004TmJWVlhsdEp5UXNhZHMw?oc=5",
+   "source_snippet": "Jensen Huang's $350M deal with CoreWeave draws scrutiny over potential conflicts of interest and the broader mechanics of AI infrastructure financing.",
+   "extracted_at": "2026-11-20T13:50:04.340106+00:00",
+   "verify_failed": true,
+   "verify_reason": "Deal type should be 'M&A' or specific transaction type, not 'Private'; deal value is $350M not $0.35B/null; date 2026-11-20 is in the future and unsupported by source."
   },
   {
    "skip": false,
