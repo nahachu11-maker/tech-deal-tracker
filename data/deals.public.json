@@ -1,16 +1,66 @@
 {
  "meta": {
-  "last_updated": "2026-11-19T23:44:33.630889+00:00",
+  "last_updated": "2026-11-20T04:59:29.911409+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 1,
+   "added": 3,
    "updated": 0,
-   "duplicates": 0
+   "duplicates": 2
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-20",
+   "type": "M&A",
+   "name": "TSMC / Anthropic",
+   "v": 0.5,
+   "val": null,
+   "sector": "AI / Semiconductors",
+   "status": "Pending",
+   "note": "TSMC is acquiring a $500M minority stake in Anthropic at IPO price, representing a strategic push by the leading foundry into AI-model companies. The investment signals TSMC's intent to deepen ties with frontier AI developers beyond its core chip manufacturing role. TSMC is also reportedly evaluating a similar minority investment in OpenAI.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTTNDc2k3VEhIbEl6V3QyMnUxQTJibGkxbl9jTFNIOG5GRVRIV3l3amYtNjlsZmZoRG8xSzJNSjZ4SENfcWFlcjVNZ01QQnpLUGVXTzRwcnR0UF95aTNCaFNyU2tLcy1Qd0thTkVfWE1jTkh5T3VhbVVKQ0F5VjZZV1FHbEtHTlB6eWhnejhtQ0ZoRUs4ZUh4dnNHRmNsSGNWWHFxdXJIekZwRG1mNHhBdXhxYk9GdE5rcldpWU54bFVVQWJLMFZPMF9faUtUR0l2QkpUbtIB2gFBVV95cUxQWVQ0TFVRUmdMNGNhY0ZKeWgtbWZmeXpuQTZHM1hUY1MyU1VBLTlsdmttY0V3a1QybUdEMzV5X3FWbkxOMEtaR0xTeHoxX29CY3VlWGJnenhBSG5fVGxqTTdNR0FpbFhCWGVBSEJUTzZHREZ2TnBQSjQ5MUNhQVZVeGJmcm9OYU5MOTl2X2t5TEh4ZHFCbzZPQUpSejFEUktWdlJ4Y1g4X1Y3U01pWlVUbmxZNFFLZDNpTFF1QUt0SkFqVlB5UFl1NlZydFl6ZlhFSVQyc29GaHRVQQ?oc=5",
+   "source_snippet": "TSMC acquires a $500M minority stake in Anthropic at IPO price and is reportedly eyeing an investment in OpenAI, marking a strategic push by the chipmaker into AI-model companies.",
+   "extracted_at": "2026-11-20T04:59:16.985775+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source describes a minority stake investment, not a traditional M&A acquisition; additionally, the status should be 'Closed' per the source narrative, not 'Pending'."
+  },
+  {
+   "skip": false,
+   "d": "2026-11-20",
+   "type": "M&A",
+   "name": "Samsung / Undisclosed US Cooling Company",
+   "v": 7.0,
+   "val": null,
+   "sector": "AI Infrastructure / Data Center Cooling",
+   "status": "Pending",
+   "note": "Reports indicate Samsung is in discussions to acquire a US-based cooling technology company valued at approximately 10 trillion KRW (~$7B), aimed at expanding its AI infrastructure capabilities. The deal would strengthen Samsung's position in the data center cooling market, a critical bottleneck as AI compute demand surges. No formal agreement has been announced; deal terms and target identity remain undisclosed.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FMl9fQmpPblhnR0hWYUZkLTN6ZDhxSHZMNXFqcl9TUThUZ09BeHBJcE9JZ0szaTZZbWJOSGlURXZtSE5TSlQtQ085Z2ZCelZTNy1Uc3AzU05WclBOVi1HMy1rdnNNQ2VKbWs4?oc=5",
+   "source_snippet": "Reports suggest Samsung may acquire a US cooling-technology company valued at approximately 10 trillion KRW (~$7B) to expand its AI infrastructure footprint.",
+   "extracted_at": "2026-11-20T04:59:23.264213+00:00"
+  },
+  {
+   "skip": false,
+   "d": "2026-11-20",
+   "type": "Private",
+   "name": "Anthropic",
+   "v": 0.5,
+   "val": 1670.0,
+   "sector": "AI / Foundation Models",
+   "status": "Closed",
+   "note": "TSMC Partners acquired a 0.03% minority stake in Anthropic for $500M, implying a post-money valuation of approximately $1.67 trillion. The investment is part of Anthropic's ongoing large capital raise and signals deepening semiconductor-to-AI ecosystem alignment. The implied valuation reflects continued aggressive pricing of frontier AI model developers.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS0xvM3VhNmtwbHNUbmpGTDlxUlBTdG5FV0lqb090WWJuZ3FNbVNwUFE1WjBJRXNfaGRnaFZDZkRMcU1TRUlpUGpUSjhiOHpraE1kMWNscDI4WnhySjVVMjNidE9BWXIyS3BPeHdQekZENExieU9Ea2xid2RQNVA5bGxnSUtoZnN2SHJKWFZITUxRYndsa0lSeks3TVBfZHdXRDBtblNsZWdjVE1SM3NaanhHUUk0VUVIb2VxbGs0d3dUcE9FVVJLSg?oc=5",
+   "source_snippet": "TSMC Partners acquired a 0.03% minority stake in Anthropic for $500M, part of Anthropic's ongoing large capital raise at an implied valuation of roughly $1.67 trillion — material for AI infrastructure investment flows.",
+   "extracted_at": "2026-11-20T04:59:28.852947+00:00"
+  },
   {
    "skip": false,
    "d": "2026-11-19",
