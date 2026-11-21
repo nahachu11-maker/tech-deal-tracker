@@ -1,12 +1,12 @@
 {
  "meta": {
-  "last_updated": "2026-11-21T02:57:29.876094+00:00",
+  "last_updated": "2026-11-21T06:06:14.184602+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
    "added": 1,
    "updated": 0,
-   "duplicates": 2
+   "duplicates": 0
   }
  },
  "deals": [
@@ -95,6 +95,22 @@
    "extracted_at": "2026-11-20T13:50:04.340106+00:00",
    "verify_failed": true,
    "verify_reason": "Deal type should be 'M&A' or specific transaction type, not 'Private'; deal value is $350M not $0.35B/null; date 2026-11-20 is in the future and unsupported by source."
+  },
+  {
+   "skip": false,
+   "d": "2026-11-20",
+   "type": "IPO",
+   "name": "Tongda International Group Co., Ltd",
+   "v": null,
+   "val": null,
+   "sector": "IT Services",
+   "status": "Filed",
+   "note": "Tongda International Group Co., Ltd filed an F-1 registration statement with the SEC on 2026-11-20, indicating a planned U.S. IPO. The company is classified under SIC 7374 (Computer Processing and Data Preparation). No proceeds or valuation disclosed in the filing snippet.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://www.sec.gov/Archives/edgar/data/2095898/000109991026000317",
+   "source_snippet": "",
+   "extracted_at": "2026-11-21T06:05:55.724723+00:00"
   },
   {
    "skip": false,
