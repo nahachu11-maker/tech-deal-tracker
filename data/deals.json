@@ -1,15 +1,33 @@
 {
  "meta": {
-  "last_updated": "2026-11-20T21:39:30.425667+00:00",
+  "last_updated": "2026-11-21T02:57:29.876094+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 1
+   "duplicates": 2
   }
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-21",
+   "type": "M&A",
+   "name": "SoftBank / SK Hynix",
+   "v": 1000.0,
+   "val": null,
+   "sector": "Semiconductors",
+   "status": "Pending",
+   "note": "Masayoshi Son reportedly explored a $1 trillion buyout of SK Hynix, which would be the largest M&A transaction in history. The deal remains at the exploratory stage with no definitive agreement reported. Such a transaction would give SoftBank control of one of the world's leading DRAM and NAND memory chip manufacturers.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRXhrSThnS29Ub0gwaFMxVTVEZFljcmRGTmd4UmpvMS0wcEhlT085NWo0akRNUW1XTzZtU3FQdUZxUFJlbm55SUFyb2NMU1ZXRTNzNEV4alNNQkRHZzZKaWtyZDU3ZlNuYUJUTXFIbm1BaURxOE9KMkQ5S0VRNzdFWGdzVTE3ekdVMGZsSzkteVRSbk1sNkg5UG4yNHBHRFN5cnZwU2RYWG83MEkw?oc=5",
+   "source_snippet": "Masayoshi Son reportedly explored a $1 trillion buyout of SK Hynix, which would be the largest M&A transaction in history if pursued.",
+   "extracted_at": "2026-11-21T02:57:16.273619+00:00",
+   "verify_failed": true,
+   "verify_reason": "Source says Son 'explored' a buyout, not that it is pending; the deal status should be 'Terminated' or similar, not 'Pending'."
+  },
   {
    "skip": false,
    "d": "2026-11-20",
