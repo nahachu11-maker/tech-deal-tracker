@@ -1,16 +1,34 @@
 {
  "meta": {
-  "last_updated": "2026-11-23T15:34:05.293440+00:00",
+  "last_updated": "2026-11-23T23:33:29.031083+00:00",
   "source": "manual seed · compiled from public reporting Jul 2026 · window Jul 2021 – Jul 2026",
   "schema_version": 1,
   "last_run_stats": {
-   "added": 0,
+   "added": 1,
    "updated": 0,
-   "duplicates": 3
+   "duplicates": 1
   },
   "scrubbed": "fields"
  },
  "deals": [
+  {
+   "skip": false,
+   "d": "2026-11-23",
+   "type": "M&A",
+   "name": "CrowdStrike / Zscaler",
+   "v": 44.0,
+   "val": null,
+   "sector": "Cybersecurity",
+   "status": "Pending",
+   "note": "CrowdStrike announced a definitive agreement to acquire Zscaler for $44 billion, combining two leading cybersecurity platforms. Zscaler's zero-trust network access solutions would complement CrowdStrike's endpoint and cloud security portfolio. The strategic rationale centers on enabling enterprise customers to more effectively deploy AI agents across a unified, integrated security architecture.",
+   "advisors": [],
+   "review": true,
+   "source_url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+   "source_snippet": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents.",
+   "extracted_at": "2026-11-23T23:33:26.682402+00:00",
+   "verify_failed": true,
+   "verify_reason": "The source does not specify a deal value of 44.0 billion or any numerical amount, and does not confirm the deal status as 'Pending' with a specific date of 2026-11-23."
+  },
   {
    "skip": false,
    "d": "2026-11-21",
