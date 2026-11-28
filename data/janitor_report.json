@@ -1,8 +1,8 @@
 {
  "meta": {
-  "last_run": "2026-11-21T02:58:26.273670+00:00",
-  "deals_checked": 652,
-  "issues": 50
+  "last_run": "2026-11-28T03:41:17.421305+00:00",
+  "deals_checked": 655,
+  "issues": 51
  },
  "issues": [
   {
@@ -330,14 +330,21 @@
    "deals": [
     "Bolloré / Société Industrielle et Financière de l'Artois Société anonyme"
    ],
-   "detail": "Pending for 800 days — probably closed or dead; verify."
+   "detail": "Pending for 807 days — probably closed or dead; verify."
   },
   {
    "issue": "stale_pending",
    "deals": [
     "Francisco Partners Management / Jama Software"
    ],
-   "detail": "Pending for 978 days — probably closed or dead; verify."
+   "detail": "Pending for 985 days — probably closed or dead; verify."
+  },
+  {
+   "issue": "value_outlier",
+   "deals": [
+    "SoftBank / SK Hynix"
+   ],
+   "detail": "M&A value $1000.0B looks like a unit error."
   },
   {
    "issue": "value_outlier",
